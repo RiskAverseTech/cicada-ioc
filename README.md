@@ -160,3 +160,125 @@ python3 -m venv .venv && .venv/bin/pip install numpy matplotlib
 
 Layout: `data/raw/` downloaded sources (never executed), `data/processed/` verified
 pages, `src/` scripts (`lp.py` holds the alphabet and parsers), `results/` outputs.
+
+---
+
+# Phase 2: the doublet deficit, which ciphers produce it, and a better reuse detector
+
+Phase 1 left one real signature in the unsolved pages, a shortage of doubled runes, and one
+weak test. Phase 2 asks whether the signature is real, what makes it, and whether a better
+scorer changes the key-reuse verdict. Scripts: `src/doublet_audit.py`, `src/doublets.py`,
+`src/diff_score.py`; tables in `results/`.
+
+## 4. Is the doublet deficit cipher structure? (`results/doublet_audit.md`)
+
+Doublet = the same rune twice in a row. Two nulls: iid uniform (rate 1/29 = 0.0345) and a
+within-page shuffle that keeps each page's rune frequencies.
+
+| text | adjacent pairs | doublets | rate | z vs uniform | z vs shuffle |
+|---|---|---|---|---|---|
+| solved plaintext (decrypted with the published keys) | 2,968 | 77 | 0.0259 | −2.5 | −8.6 |
+| solved ciphertext (as transcribed) | 2,960 | 75 | 0.0253 | −2.7 | −7.2 |
+| **unsolved ciphertext** | 12,901 | **86** | **0.0067** | **−17.3** | **−17.1** |
+
+- The plaintext has the mild deficit ordinary English has (letters repeat less than
+  independence predicts), nothing like fivefold.
+- The solved *encrypted* pages sit at the uniform rate page by page (Atbash, both Vigenères,
+  the totient stream: z between −1.6 and −0.1); the "plain" unencrypted pages inherit the
+  plaintext's mild deficit, which is what pulls the solved-ciphertext row slightly below uniform.
+- The transcription drops word, line and paragraph separators identically for the observed
+  pages and the shuffle, and writes doubled letters as two runes. Inside words the unsolved
+  rate is 0.0062; across separators 0.0080. Same deficit either side of a boundary, so it is
+  not a word-level writing rule.
+- Ciphertext autokey at lags 1 to 5 decrypts the pages to a flat stream with one hole where F
+  would be (IC 0.0353, nothing like plaintext's 0.0614), so the simplest feedback cipher is out.
+
+**The deficit is cipher structure.** Whatever generates these pages makes each rune avoid the
+previous one about four times out of five more often than an additive cipher with an
+independent key can.
+
+## 5. Which constructions reproduce it? (`results/doublets.md`)
+
+Twenty constructions encipher resampled solved-page plaintext cut into the 55 real page
+lengths, 200 replicates each, and are scored on the pages' four statistics: doublets (86),
+non-uniformity of the other lag-1 difference classes (chi² 42 on 27 dof), unigram flatness
+(chi² 26 on 28 dof) and IC (0.0345).
+
+| family | doublets | verdict |
+|---|---|---|
+| independent key: uniform, running key from English, hand pad with no repeated key symbol, the book's own Vigenère and totient streams | 430–506 | ruled out: an independent key hits a doublet one time in 29 whatever it does |
+| plaintext autokey, lags 1–5 | 481–698 | ruled out, and leaves heavy lag-1 structure |
+| ciphertext autokey, lags 1–5 | 207–445 | ruled out (lag 1 makes a doublet a plaintext F, 1.6%) |
+| ciphertext feedback with an offset chosen so a doublet means EA | 86 | matches the count, but its lag-1 stream is plaintext-shaped (chi² 9,629 vs 42): ruled out |
+| Vigenère that steps its key when a doublet would form | 15 | ruled out |
+| uniform key + "add one" when a doublet would form, 81% of the time | 84 | matches the count, but dumps the removed doublets into one class (chi² 299 vs 42): ruled out |
+| uniform key re-drawn until no doublet (hard rule) | 0 | ruled out |
+| **uniform key re-drawn when it would repeat, ~81% of the time** | **87 ± 10** | **consistent on all four** (70% and 90% are not) |
+
+So the only construction found that reproduces the pages is: a keystream that is otherwise
+indistinguishable from random, with the next key symbol rejected and redrawn about four times
+in five exactly when it would make the ciphertext repeat the previous rune. The 81% is just
+1 − 86/445 and carries a few points of sampling error. This describes the *statistics* of the
+generator, not its identity: a hand-made key by someone who disliked writing the same rune
+twice, a program with an explicit anti-repeat step, or any feedback rule whose only visible
+effect is this one, would all look the same here.
+
+## 6. A better detector, and the scan again (`results/diff_score.md`)
+
+Four scorers for "these two aligned pages share a keystream", with the difference-of-plaintext
+model trained on half the solved plaintext and tested on the other half, both members of a
+simulated pair drawn from disjoint text. Cells are sigma per pair / power at the false-positive
+rate implied by the phase-1 scan size (2 × 10⁻⁶):
+
+| overlap n | difference-stream IC (phase 1) | match count (kappa) | unigram LLR | bigram LLR |
+|---|---|---|---|---|
+| 60 | 0.44 / 0.4% | 1.17 / 0.1% | 1.73 / 0.5% | 1.58 / 0.4% |
+| 100 | 0.73 / 0.7% | 1.49 / 0.3% | 2.21 / 1.4% | 2.02 / 0.8% |
+| 150 | 1.10 / 1.4% | 1.82 / 0.4% | 2.70 / 3.6% | 2.46 / 1.9% |
+| 250 | 1.86 / 4.8% | 2.38 / 1.1% | 3.51 / 14.1% | 3.19 / 8.0% |
+
+The unigram log-likelihood ratio is the best scorer, 1.89× the phase-1 IC per pair at n = 250,
+because it uses the whole shape of the difference distribution rather than only its collision rate.
+The bigram model adds nothing: adjacent differences of two independent texts are nearly
+independent. Even so, per-pair power at this false-positive rate is 14% on a 250-rune overlap, so
+single-pair detection stays weak; the pooled test is where the power is.
+
+**Rescan with the unigram LLR**, same 1,485 pairs, offsets ±200, same pre-registered rules,
+20 within-page permutation replicates: no pair reaches 5 sigma (null gives 0–1 per replicate),
+the observed maximum 4.96 sits inside the null range 4.57–5.47, and the pooled z at offset 0 is
+−2.31 against a null of −1.75 ± 0.81. If every page shared one keystream the pooled z would be
+about 135; if a quarter did, about 34. **Null, with a stronger detector than phase 1.**
+
+## 7. What the data supports (phase 2 conclusion)
+
+The unsolved pages of the Liber Primus do not share a keystream with each other at any
+alignment within 200 runes, and no page restarts a short-period generator, now tested with a
+detector 1.9× stronger than before. Their one departure from randomness, 86 doubled runes
+where 445 are expected, is a property of the cipher: the plaintext, the transcription and the
+book's own known ciphers all sit at the normal rate. Of twenty candidate constructions, the only
+one that reproduces every measured statistic is a keystream that is otherwise random and is
+redrawn about four times in five exactly when it would make a rune repeat its predecessor.
+That rules out a precomputed pad used naively, every autokey tried, and every independent-key
+cipher, and it says the generator looks at its own previous output. It does not identify the
+generator.
+
+Plain-English version for a debate take: *Measured on the transcriptions, the unsolved pages
+share no keystream with each other (pooled test null at 135-sigma sensitivity for full reuse).
+The only non-random feature is a fivefold shortage of doubled runes, which is cipher structure,
+not plaintext or transcription. Of twenty constructions simulated, exactly one reproduces all
+the page statistics: a random key redrawn about 81% of the time when it would repeat the
+previous rune. Independent keys, autokeys, running keys and the book's own methods are all
+ruled out.*
+
+## 8. Phase 3, proposed
+
+Cicada's solved pages already use a skip rule (plaintext F is left unencrypted and consumes
+no key symbol). A sibling rule, "if the ciphertext would repeat the previous rune, skip to the
+next key symbol", reproduces the phase-2 statistics and is decryptable: given a candidate
+keystream K, a skip occurred at position i exactly when C_i − C_{i−1} ≡ K_{j+1} − K_j, which
+the decryptor can check. So every keystream family the book has used (primes, totients,
+Vigenère on words from the solved text, Fibonacci, Gematria sums) can be retried on the
+unsolved pages with this rule and scored on English against the solved-page baseline, with
+planted controls. Earlier community sweeps of those families did not include the rule. This is
+the first experiment in this series with a real chance of producing plaintext rather than
+another exclusion.
