@@ -335,3 +335,45 @@ The generator looks at its own previous output and avoids repeats, and it is not
 Cicada's published mechanisms with that rule bolted on. The next cheap families are feedback
 through the Gematria prime table and short-phrase keys; beyond those, the remaining mass sits
 on key material that was never published, which no analysis recovers.
+
+## 11. Prior work (checked 2026-10-23)
+
+None of the main findings here are new. They are independent replications, which is worth
+something, but the record should say so.
+
+- **The doublet deficit has been known since about 2014.** The Uncovering Cicada wiki's
+  [Ideas and Suggestions](https://uncovering-cicada.fandom.com/wiki/Liber_Primus_Ideas_and_Suggestions)
+  page reports the same count (86 same-rune pairs in about 13,000 runes), calls it "the only
+  solid clue towards cipher/key found in runes", notes that doublets are made "~5 times less
+  likely", and already proposes the mechanisms tested in phases 2 and 3: enciphering
+  algorithms that include the previous rune's value, and a key that "jumps to the (n+1)th
+  number in the stream key" to avoid a repeat. The wiki's
+  [Frequency Analysis](https://uncovering-cicada.fandom.com/wiki/Frequency_Analysis_Unsolved_Pages)
+  page gives the per-chapter doublet table and the 1/29 baseline.
+- **The soft anti-repeat rule has been found independently at least twice in 2026.**
+  [jens-wedin/liber-primus](https://github.com/jens-wedin/liber-primus) describes an
+  output-stage key-skip that keeps a would-be doublet about one time in five
+  (p_keep ≈ 0.19), models re-roll against key-skip, finds collision resolution to be uniform
+  (ruling out a deterministic bump, our "+1 rule"), and sweeps prime/totient streams, running
+  keys from candidate texts, short and coined word keys, affine, autokey, PRNG and OEIS
+  keystreams under the rule with a 98% self-test as control.
+  [wazar/cicada3301](https://github.com/wazar/cicada3301) reaches the same filter
+  (≈83% suppression, p_keep ≈ 0.18), calls the deficit "the only real structure in the entire
+  corpus", uses a skip-aware beam decoder with plant-and-recover controls, and keeps a ledger
+  of excluded attacks including derived keystreams and public randomness pads.
+- **Exclusion ledgers with positive controls already exist.**
+  [Leo-Y-Zhang/LiberPrimusAnalysis](https://github.com/Leo-Y-Zhang/LiberPrimusAnalysis)
+  reports the same 86 vs 447 doublets, excludes periodic keys with and without the F-interrupt
+  and key-skip rules, integer sequences, autokeys, prime-value feedback, running keys and
+  shared keys between sections, each with a detector proven on synthetic ciphertext.
+
+What this repository adds is a third implementation that agrees with the others on the
+mechanism parameter (81% here, 81–82% there), a within-page permutation null for the key-reuse
+scan, a twenty-construction comparison on four statistics at once, and an exact dynamic
+program over skip count that carries the literal-F ambiguity as state. Three independent
+methods converging on one mechanism is the result; the mechanism itself was proposed by the
+community a decade ago.
+
+Consequence for further work: before any new sweep, diff the candidate family against the
+three ledgers above. The proposed phase 4 (Gematria prime-value feedback, phrase keys) overlaps
+at least partly with families those ledgers already close.
