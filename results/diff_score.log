@@ -1,0 +1,6 @@
+/Users/jaz/Desktop/cicada-ioc/.venv/lib/python3.9/site-packages/scipy/stats/_discrete_distns.py:87: RuntimeWarning: overflow encountered in _binom_isf
+  return _boost._binom_isf(x, n, p)
+rescan done in 9s
+  null 1/20: max sigma 4.64, max pooled 2.79
+  null 2/20: max sigma 4.75, max pooled 2.75
+  null 3/20: max sigma 4.88, max pooled 2.88

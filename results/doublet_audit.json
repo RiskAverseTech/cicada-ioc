@@ -1,0 +1,51 @@
+{
+ "rows": [
+  {
+   "label": "solved plaintext (decrypted)",
+   "runes": 2977,
+   "pairs": 2968,
+   "doublets": 77,
+   "rate": 0.025943396226415096,
+   "expected_uniform": 102.34482758620689,
+   "z_uniform": -2.549625388687818,
+   "shuffle_mean": 186.395,
+   "shuffle_sd": 12.71624846407147,
+   "z_shuffle": -8.602773082728369,
+   "ic": 0.061399944376419935
+  },
+  {
+   "label": "solved ciphertext (as transcribed)",
+   "runes": 2977,
+   "pairs": 2960,
+   "doublets": 75,
+   "rate": 0.02533783783783784,
+   "expected_uniform": 102.06896551724138,
+   "z_uniform": -2.726746633035824,
+   "shuffle_mean": 162.9215,
+   "shuffle_sd": 12.162702732123318,
+   "z_shuffle": -7.228779814521621,
+   "ic": 0.03972187306987983
+  },
+  {
+   "label": "unsolved ciphertext",
+   "runes": 12956,
+   "pairs": 12901,
+   "doublets": 86,
+   "rate": 0.0066661499108596235,
+   "expected_uniform": 444.8620689655172,
+   "z_uniform": -17.315492607213294,
+   "shuffle_mean": 438.8345,
+   "shuffle_sd": 20.66301308497868,
+   "z_shuffle": -17.075655837265035,
+   "ic": 0.03447839786450569
+  }
+ ],
+ "within": [
+  60,
+  9640
+ ],
+ "across": [
+  26,
+  3261
+ ]
+}
