@@ -377,3 +377,11 @@ community a decade ago.
 Consequence for further work: before any new sweep, diff the candidate family against the
 three ledgers above. The proposed phase 4 (Gematria prime-value feedback, phrase keys) overlaps
 at least partly with families those ledgers already close.
+
+**Ledger diff (2026-10-23).** `results/ledger_diff.md` tabulates every family against the three
+ledgers above. Of the four phase-4 candidates named earlier, prime-value feedback, page-derived
+keys and the lag-2-to-50 profile are already closed with controls (LZ and WZ; JW §34; all three).
+The one family nobody has run under the anti-repeat rule is multi-word phrase and sentence keys
+drawn from the book itself (about one million tests, chance maximum ≈ 5.2σ against our 10–15σ
+controls). Two instrument gaps follow: our phase 3 decrypts with one key sign only, and no
+project has scored the book families under a Latin or Old English model.
