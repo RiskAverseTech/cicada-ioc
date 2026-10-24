@@ -1,0 +1,87 @@
+4716 shared configurations per page (+4 neighbour-page keys per page), 55 pages, 2 F-rule variants
+  control-00: vigenere-word IS F=False: z=11.6 rank 5, recovered 0.996
+  control-01: primes-1 (totient) p[n+24]-1 F=True: z=12.7 rank 1, recovered 0.979
+  control-02: affine position 27·n+0 F=False: z=11.7 rank 1, recovered 1.000
+  control-03: self running key plaintext@1746 F=True: z=13.0 rank 2, recovered 1.000
+  control-04: shift s=22 F=False: z=12.0 rank 1, recovered 1.000
+  control-05: vigenere-word DUTY F=True: z=12.2 rank 1, recovered 0.992
+  control-06: primes-1 (totient) p[n+99]-1 F=False: z=13.0 rank 1, recovered 1.000
+  control-07: affine position 10·n+14 F=True: z=15.2 rank 1, recovered 1.000
+  control-08: self running key plaintext@2325 F=False: z=11.0 rank 1, recovered 0.988
+  control-09: shift s=16 F=True: z=11.7 rank 6, recovered 0.988
+  control-10: vigenere-word BELONG F=False: z=11.2 rank 1, recovered 1.000
+  control-11: primes-1 (totient) p[n+72]-1 F=True: z=12.3 rank 1, recovered 1.000
+  control-12: affine position 23·n+28 F=False: z=10.5 rank 1, recovered 1.000
+  control-13: self running key plaintext@1855 F=True: z=12.9 rank 1, recovered 1.000
+  control-14: shift s=27 F=False: z=12.0 rank 1, recovered 1.000
+  control-15: vigenere-word WITH F=True: z=12.8 rank 1, recovered 0.992
+  control-16: primes-1 (totient) p[n+14]-1 F=False: z=10.9 rank 1, recovered 0.992
+  control-17: affine position 14·n+1 F=True: z=13.1 rank 1, recovered 0.979
+  control-18: self running key plaintext@2840 F=False: z=12.6 rank 1, recovered 1.000
+  control-19: shift s=12 F=True: z=12.5 rank 1, recovered 0.975
+controls done in 24s
+  LP2-00 done (1/55), best z so far on this page: 3.04  [3s]
+  LP2-01 done (2/55), best z so far on this page: 4.03  [7s]
+  LP2-02 done (3/55), best z so far on this page: 3.09  [9s]
+  LP2-03 done (4/55), best z so far on this page: 3.98  [12s]
+  LP2-04 done (5/55), best z so far on this page: 3.76  [15s]
+  LP2-05 done (6/55), best z so far on this page: 3.99  [18s]
+  LP2-06 done (7/55), best z so far on this page: 3.24  [20s]
+  LP2-07 done (8/55), best z so far on this page: 4.21  [22s]
+  LP2-08 done (9/55), best z so far on this page: 3.00  [25s]
+  LP2-09 done (10/55), best z so far on this page: 4.02  [28s]
+  LP2-10 done (11/55), best z so far on this page: 2.83  [30s]
+  LP2-11 done (12/55), best z so far on this page: 3.81  [32s]
+  LP2-12 done (13/55), best z so far on this page: 3.49  [35s]
+  LP2-13 done (14/55), best z so far on this page: 3.15  [39s]
+  LP2-14 done (15/55), best z so far on this page: 3.69  [40s]
+  LP2-15 done (16/55), best z so far on this page: 2.87  [41s]
+  LP2-16 done (17/55), best z so far on this page: 3.02  [44s]
+  LP2-17 done (18/55), best z so far on this page: 4.07  [46s]
+  LP2-18 done (19/55), best z so far on this page: 3.54  [48s]
+  LP2-19 done (20/55), best z so far on this page: 3.37  [51s]
+  LP2-20 done (21/55), best z so far on this page: 4.13  [53s]
+  LP2-21 done (22/55), best z so far on this page: 3.22  [56s]
+  LP2-22 done (23/55), best z so far on this page: 3.39  [57s]
+  LP2-23 done (24/55), best z so far on this page: 3.32  [59s]
+  LP2-24 done (25/55), best z so far on this page: 2.95  [62s]
+  LP2-25 done (26/55), best z so far on this page: 3.12  [64s]
+  LP2-26 done (27/55), best z so far on this page: 3.49  [66s]
+  LP2-27 done (28/55), best z so far on this page: 3.80  [68s]
+  LP2-28 done (29/55), best z so far on this page: 3.84  [71s]
+  LP2-29 done (30/55), best z so far on this page: 4.02  [74s]
+  LP2-30 done (31/55), best z so far on this page: 3.15  [76s]
+  LP2-31 done (32/55), best z so far on this page: 3.69  [78s]
+  LP2-32 done (33/55), best z so far on this page: 3.12  [79s]
+  LP2-33 done (34/55), best z so far on this page: 3.20  [81s]
+  LP2-34 done (35/55), best z so far on this page: 3.34  [83s]
+  LP2-35 done (36/55), best z so far on this page: 4.67  [86s]
+  LP2-36 done (37/55), best z so far on this page: 3.23  [88s]
+  LP2-37 done (38/55), best z so far on this page: 3.83  [90s]
+  LP2-38 done (39/55), best z so far on this page: 3.37  [92s]
+  LP2-39 done (40/55), best z so far on this page: 3.72  [94s]
+  LP2-40 done (41/55), best z so far on this page: 3.21  [96s]
+  LP2-41 done (42/55), best z so far on this page: 4.12  [98s]
+  LP2-42 done (43/55), best z so far on this page: 3.37  [101s]
+  LP2-43 done (44/55), best z so far on this page: 3.36  [104s]
+  LP2-44 done (45/55), best z so far on this page: 3.67  [106s]
+  LP2-45 done (46/55), best z so far on this page: 3.08  [108s]
+  LP2-46 done (47/55), best z so far on this page: 3.12  [112s]
+  LP2-47 done (48/55), best z so far on this page: 4.40  [115s]
+  LP2-48 done (49/55), best z so far on this page: 4.01  [119s]
+  LP2-49 done (50/55), best z so far on this page: 3.09  [119s]
+  LP2-51 done (51/55), best z so far on this page: 3.60  [120s]
+  LP2-52 done (52/55), best z so far on this page: 3.62  [122s]
+  LP2-53 done (53/55), best z so far on this page: 3.90  [124s]
+  LP2-54 done (54/55), best z so far on this page: 3.07  [126s]
+  LP2-55 done (55/55), best z so far on this page: 3.56  [126s]
+# Phase 3 sweep: the book's keystream families with the skip-on-repeat rule
+
+4716 shared keystream configurations (+ up to 4 neighbour-page keys per page), 55 pages, 2 F-rule variants: about 519,200 tests.
+Per page and variant, the null is 2,000 random keystreams through the same decoder. Positive rule (pre-registered): z ≥ 6 over that null and English on inspection.
+Largest z over all 519,200 tests: 4.67. Expected chance maximum for this many tests: about 4.8.
+
+## Verdict
+
+**No page decrypts.** The families tested (constant shifts, Vigenère with every word of the solved text and headlines, prime streams p, p−1, p+1 at 101 starting points, Fibonacci and Lucas, affine and square position formulas, the solved plaintext as a running key at every offset, and neighbouring pages as running keys), each with and without the F rule and with the skip-on-repeat rule, are excluded at the sensitivity the controls demonstrate. This says nothing about keystreams outside these families.
+

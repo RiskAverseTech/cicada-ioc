@@ -282,3 +282,56 @@ unsolved pages with this rule and scored on English against the solved-page base
 planted controls. Earlier community sweeps of those families did not include the rule. This is
 the first experiment in this series with a real chance of producing plaintext rather than
 another exclusion.
+
+## 9. Phase 3: the book's keystream families with the skip-on-repeat rule (`results/phase3.md`)
+
+Hypothesis: the unsolved pages use a keystream family the book has used before, plus a rule
+that skips a key symbol whenever the ciphertext would repeat the previous rune (the sibling of
+the book's own "plaintext F consumes no key symbol" rule). Decryption is a dynamic program
+over "skips so far", because a skip is forced exactly when C_i − C_{i−1} ≡ K_{j+1} − K_j and
+that condition also holds by chance at about one position in 29; the literal-F ambiguity is
+carried the same way. Scoring is unigram English-in-runes likelihood, calibrated per page
+against 2,000 random keystreams run through the identical decoder.
+
+Families: constant shifts (29); Vigenère with every word of the solved text and the known
+headlines, forwards and reversed; prime streams p, p−1 (the
+totient stream) and p+1 from 101 starting points; Fibonacci and Lucas; affine (a·n + b) and
+square (n² + b) position formulas; the solved plaintext as a running key at every one of its
+2,977 offsets; and each page's neighbours as running keys, both directions. 4,716 shared
+configurations per page, two F-rule variants, 55 pages: **519,200 tests**.
+
+**Controls.** Twenty windows of solved plaintext enciphered with those families plus the skip
+rule (soft, 81%) and both F-rule variants: all twenty recovered at z between 10.5 and
+15.2, 17 ranked first among all configurations and none worse than
+6th (the exceptions are keys with near-duplicates in the family, e.g. a shift beside the
+affine formulas). The sweep finds what it is looking for by a margin of six sigma or more.
+
+**Result: null.** The largest z over all 519,200 tests is 4.67, against a chance
+maximum of about 4.8 for that many tests; the top transliterations are gibberish. The best
+"hit" (LP2-35, self running key plaintext@882) reads IAMIAXYTHTITTHLYTHWOEOELRTHGMLHUTBBGNGHN…
+
+So the book's own key families, with the one rule that reproduces the pages' statistics, do
+not decrypt any page, at a sensitivity where planted keys stand out at ten sigma. What that
+excludes: shifts, every single-word Vigenère from the book's vocabulary, the prime and
+totient streams at any start, Fibonacci, position formulas, the book as its own running key,
+and page-on-page keys, each with and without the F rule, under the skip rule. What it does
+not exclude: keystreams from outside these families, multi-word or phrase keys, keys
+derived through the Gematria prime values, or a generator with ciphertext feedback through a
+permutation other than the identity.
+
+## 10. Where this leaves the puzzle
+
+Three phases, all on the real transcription, with pre-registered rules and planted controls:
+
+1. The unsolved pages share no keystream with each other (phase 1, confirmed with a stronger
+   detector in phase 2).
+2. Their only non-random feature is a fivefold shortage of doubled runes, which is cipher
+   structure; of twenty constructions, only a keystream re-drawn about four times in five when
+   it would repeat the previous rune reproduces every page statistic (phase 2).
+3. That rule, combined with every keystream family the book is known to have used, decrypts
+   nothing (phase 3).
+
+The generator looks at its own previous output and avoids repeats, and it is not one of
+Cicada's published mechanisms with that rule bolted on. The next cheap families are feedback
+through the Gematria prime table and short-phrase keys; beyond those, the remaining mass sits
+on key material that was never published, which no analysis recovers.
