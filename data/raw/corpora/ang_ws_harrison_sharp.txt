@@ -1,0 +1,3525 @@
+{{Other versions|Beowulf}}
+{{migrate to|[[Index:I. Beówulf- an Anglo-Saxon poem. II. The fight at Finnsburh- a fragment (IA cu31924031292604).pdf]]}}
+{{header
+ | title    = Beowulf
+ | author   =|override_author={{anon}}
+ | editor   =|override_editor=[[Author: James Albert Harrison|James A. Harrison]]  [[Author:Robert Sharp (1851-1931)|Robert Sharp]]
+ | section  =
+ | previous =
+ | next     =
+ | wikipedia = Beowulf
+ | wikiquote = Beowulf
+ | portal   = English literature/Medieval poetry
+ | notes    = Source: [http://www.gutenberg.org/dirs/etext06/8bwlf10ua.txt James A. Harrison and Robert Sharp, eds.] (1883) from [http://www.gutenberg.org/etext/9701 Project Gutenberg] (with corrections)
+}}
+
+I. BĒOWULF:
+
+AN ANGLO-SAXON POEM.
+
+II. THE FIGHT AT FINNSBURH:
+
+A FRAGMENT.
+
+WITH TEXT AND GLOSSARY ON THE
+
+BASIS OF M. HEYNE.
+
+EDITED, CORRECTED, AND ENLARGED, BY
+
+JAMES A. HARRISON, LL.D., LITT. D.,
+
+PROFESSOR OF ENGLISH AND MODERN LANGUAGES,
+WASHINGTON AND LEE UNIVERSITY,
+
+AND
+
+ROBERT SHARP (PH.D. LIPS.),
+PROFESSOR OF GREEK AND ENGLISH,
+TULANE UNIVERSITY OF LOUISIANA.
+
+FOURTH EDITION. REVISED, WITH NOTES.
+
+GINN & COMPANY
+BOSTON-NEW YORK-CHICAGO-LONDON
+
+Entered according to Act of Congress in the year 1883, by
+JAMES ALBERT HARRISON AND ROBERT SHARP
+in the Office of the Librarian of Congress, at Washington.
+
+DEDICATED
+
+TO
+
+PROFESSOR F. A. MARCH,
+OF LAFAYETTE COLLEGE, PA.,
+
+AND
+
+FREDERICK J. FURNIVALL, ESQ.
+FOUNDER OF THE "NEW SHAKSPERE SOCIETY,"
+THE "CHAUCER SOCIETY," ETC., ETC.
+
+*[[/Preface]]
+
+{{rule}}
+[[Image:Beowulf.firstpage.jpeg|thumb|400px|First page of the manuscript]]
+
+==BĒOWULF==
+
+===THE PASSING OF SCYLD.===
+{{ppoem|
+Hwæt!{{anchor|l1}} Wē Gār‐Dena{{gap}}in geār‐dagum
+þēod‐cyninga{{gap}}þrym gefrūnon,
+hū þā æðelingas{{gap}}ellen fremedon.
+Oft Scyld Scēfing{{gap}}sceaðena þrēatum,
+monegum mǣgðum{{gap}}meodo‐setla oftēah.
+Egsode eorl,{{gap}}syððan ǣrest wearð
+fēa‐sceaft funden:{{gap}}hē þæs frōfre gebād,
+wēox under wolcnum,{{gap}}weorð‐myndum þāh,
+oð þæt him ǣghwylc{{gap}}þāra ymb‐sittendra
+ofer hron‐rāde{{gap}}hȳran scolde,  >>> {{pline|10}}
+gomban gyldan:{{gap}}þæt wæs gōd cyning!
+þǣm eafera wæs{{gap}}æfter cenned
+geong in geardum,{{gap}}þone god sende
+folce tō frōfre;{{gap}}fyren‐þearfe ongeat,
+þæt hīe ǣr drugon{{gap}}aldor‐lēase
+lange hwīle.{{gap}}Him þæs līf‐frēa,
+wuldres wealdend,{{gap}}worold‐āre forgeaf;
+Bēowulf wæs brēme{{gap}}(blǣd wīde sprang),
+Scyldes eafera{{gap}}Scede‐landum in.
+Swā sceal geong guma,{{gap}}gōde gewyrcean, >>> {{pline|20}}
+fromum feoh‐giftum{{gap}}on fæder wine,
+þæt hine on ylde{{gap}}eft gewunigen
+wil‐gesīðas,{{gap}}þonne wīg cume,
+lēode gelǣsten:{{gap}}lof‐dǣdum sceal
+in mǣgða gehwǣre{{gap}}man geþēon.
+Him þā Scyld gewāt{{gap}}tō gescæp‐hwīle
+fela‐hrōr fēran{{gap}}on frēan wǣre;
+hī hyne þā ætbǣron{{gap}}tō brimes faroðe.
+swǣse gesīðas,{{gap}}swā hē selfa bæd,
+þenden wordum wēold{{gap}}wine Scyldinga, >>>  {{pline|30}}
+lēof land‐fruma{{gap}}lange āhte.
+Þǣr æt hȳðe stōd{{gap}}hringed‐stefna,
+īsig and ūtfūs,{{gap}}æðelinges fær;
+ā‐lēdon þā{{gap}}lēofne þēoden,
+bēaga bryttan{{gap}}on bearm scipes,
+mǣrne be mæste.{{gap}}Þǣr wæs mādma fela,
+of feor‐wegum{{gap}}frætwa gelǣded:
+ne hȳrde ic cȳmlīcor{{gap}}cēol gegyrwan
+hilde‐wǣpnum{{gap}}and heaðo‐wǣdum,
+billum and byrnum;{{gap}}him on bearme læg  >>>  {{pline|40}}
+mādma mænigo,{{gap}}þā him mid scoldon
+on flōdes ǣht{{gap}}feor gewītan.
+Nalas hī hine lǣssan{{gap}}lācum tēodan,
+þēod‐gestrēonum,{{gap}}þonne þā dydon,
+þē hine æt frumsceafte{{gap}}forð onsendon
+ǣnne ofer ȳðe{{gap}}umbor wesende:
+þā gȳt hīe him āsetton{{gap}}segen gyldenne
+hēah ofer hēafod,{{gap}}lēton holm beran,
+gēafon on gār‐secg:{{gap}}him wæs geōmor sefa,
+murnende mōd.{{gap}}Men ne cunnon   >>> {{pline|50}}
+secgan tō soðe{{gap}}sele‐rǣdende,
+hæleð under heofenum,{{gap}}hwā þǣm hlæste onfēng.
+}}
+
+===THE HALL HEOROT.===
+{{ppoem|
+Þā wæs on burgum{{gap}}Bēowulf Scyldinga,
+lēof lēod‐cyning,{{gap}}longe þrāge
+folcum gefrǣge{{gap}}(fæder ellor hwearf,
+aldor of earde),{{gap}}oð þæt him eft onwōc
+hēah Healfdene;{{gap}}hēold þenden lifde,
+gamol and gūð‐rēow,{{gap}}glæde Scyldingas.
+Þǣm fēower bearn{{gap}}forð‐gerīmed
+in worold wōcun,{{gap}}weoroda rǣswan,      {{pline|60}}
+Heorogār and Hrōðgār{{gap}}and Hālga til;
+hȳrde ic, þat Elan cwēn{{gap}}Ongenþēowes wæs
+Heaðoscilfinges{{gap}}heals‐gebedde.
+Þā wæs Hrōðgāre{{gap}}here‐spēd gyfen,
+wīges weorð‐mynd,{{gap}}þæt him his wine‐māgas
+georne hȳrdon,{{gap}}oð þæt sēo geogoð gewēox,
+mago‐driht micel.{{gap}}Him on mōd bearn,
+þæt heal‐reced{{gap}}hātan wolde,
+medo‐ærn micel{{gap}}men gewyrcean,
+þone yldo bearn{{gap}}ǣfre gefrūnon,        {{pline|70}}
+and þǣr on innan{{gap}}eall gedǣlan
+geongum and ealdum,{{gap}}swylc him god sealde,
+būton folc‐scare{{gap}}and feorum gumena.
+Þā ic wīde gefrægn{{gap}}weorc gebannan
+manigre mǣgðe{{gap}}geond þisne middan‐geard,
+folc‐stede frætwan.{{gap}}Him on fyrste gelomp
+ǣdre mid yldum,{{gap}}þæt hit wearð eal gearo,
+heal‐ærna mǣst;{{gap}}scōp him Heort naman,
+sē þe his wordes geweald{{gap}}wīde hæfde.
+Hē bēot ne ālēh,{{gap}}bēagas dǣlde,        {{pline|80}}
+sinc æt symle.{{gap}}Sele hlīfade
+hēah and horn‐gēap:{{gap}}heaðo‐wylma bād,
+lāðan līges;{{gap}}ne wæs hit lenge þā gēn
+þæt se ecg‐hete{{gap}}āðum‐swerian
+æfter wæl‐nīðe{{gap}}wæcnan scolde.
+Þā se ellen‐gǣst{{gap}}earfoðlīce
+þrāge geþolode,{{gap}}sē þe in þȳstrum bād,
+þæt hē dōgora gehwām{{gap}}drēam gehȳrde
+hlūdne in healle;{{gap}}þǣr wæs hearpan swēg,
+swutol sang scopes.{{gap}}Sægde sē þe cūðe  {{pline|90}}
+frum‐sceaft fīra{{gap}}feorran reccan,
+cwæð þæt se ælmihtiga{{gap}}eorðan worhte,
+wlite‐beorhtne wang,{{gap}}swā wæter bebūgeð,
+gesette sige‐hrēðig{{gap}}sunnan and mōnan
+lēoman tō lēohte{{gap}}land‐būendum,
+and gefrætwade{{gap}}foldan scēatas
+leomum and lēafum;{{gap}}līf ēac gesceōp
+cynna gehwylcum,{{gap}}þāra þe cwice hwyrfað.
+Swā þā driht‐guman{{gap}}drēamum lifdon
+ēadiglīce,{{gap}}oð þæt ān ongan    {{pline|100}}
+fyrene fremman,{{gap}}fēond on helle:
+wæs se grimma gæst{{gap}}Grendel hāten,
+mǣre mearc‐stapa,{{gap}}sē þe mōras hēold,
+fen and fæsten;{{gap}}fīfel‐cynnes eard
+won‐sǣlig wer{{gap}}weardode hwīle,
+siððan him scyppend{{gap}}forscrifen hæfde.
+In Caines cynne{{gap}}þone cwealm gewræc,
+ēce drihten,{{gap}}þæs þe hē Ābel slōg;
+ne gefeah hē þǣre fǣhðe,{{gap}}ac hē hine feor forwræc,
+metod for þȳ māne{{gap}}man‐cynne fram.     {{pline|110}}
+Þanon untȳdras{{gap}}ealle onwōcon,
+eotenas and ylfe{{gap}}and orcnēas,
+swylce gīgantas,{{gap}}þā wið gode wunnon
+lange þrāge;{{gap}}hē him þæs lēan forgeald.
+}}
+
+===GRENDEL'S VISITS.===
+{{ppoem|
+Gewāt þā nēosian,{{gap}}syððan niht becōm,
+hēan hūses,{{gap}}hū hit Hring‐Dene
+æfter bēor‐þege{{gap}}gebūn hæfdon.
+Fand þā þǣr inne{{gap}}æðelinga gedriht
+swefan æfter symble;{{gap}}sorge ne cūðon,
+won‐sceaft wera.{{gap}}Wiht unhǣlo  {{pline|120}}
+grim and grǣdig{{gap}}gearo sōna wæs,
+rēoc and rēðe,{{gap}}and on ræste genam
+þrītig þegna:{{gap}}þanon eft gewāt
+hūðe hrēmig{{gap}}tō hām faran,
+mid þǣre wæl‐fylle{{gap}}wīca nēosan.
+Þā wæs on ūhtan{{gap}}mid ǣr‐dæge
+Grendles gūð‐cræft{{gap}}gumum undyrne:
+þā wæs æfter wiste{{gap}}wōp up āhafen,
+micel morgen‐swēg.{{gap}}Mǣre þēoden,
+æðeling ǣr‐gōd,{{gap}}unblīðe sæt,  {{pline|130}}
+þolode þrȳð‐swȳð,{{gap}}þegn‐sorge drēah,
+syððan hīe þæs lāðan{{gap}}lāst scēawedon,
+wergan gāstes;{{gap}}wæs þæt gewin tō strang,
+lāð and longsum.{{gap}}Næs hit lengra fyrst,
+ac ymb āne niht{{gap}}eft gefremede
+morð‐beala māre{{gap}}and nō mearn fore
+fǣhðe and fyrene;{{gap}}wæs tō fæst on þām.
+Þā wæs ēað‐fynde,{{gap}}þē him elles hwǣr
+gerūmlīcor{{gap}}ræste sōhte,
+bed æfter būrum,{{gap}}þā him gebēacnod wæs,        {{pline|140}}
+gesægd sōðlīce{{gap}}sweotolan tācne
+heal‐þegnes hete;{{gap}}hēold hine syððan
+fyr and fæstor,{{gap}}sē þǣm fēonde ætwand.
+Swā rīxode{{gap}}and wið rihte wan
+āna wið eallum,{{gap}}oð þæt īdel stōd
+hūsa sēlest.{{gap}}Wæs sēo hwīl micel:
+twelf wintra tīd{{gap}}torn geþolode
+wine Scyldinga,{{gap}}wēana gehwelcne,
+sīdra sorga;{{gap}}forþām syððan wearð
+ylda bearnum{{gap}}undyrne cūð,     {{pline|150}}
+gyddum geōmore,{{gap}}þætte Grendel wan,
+hwīle wið Hrōðgār;‐‐{{gap}}hete‐nīðas wæg,
+fyrene and fǣhðe{{gap}}fela missēra,
+singāle sæce,{{gap}}sibbe ne wolde
+wið manna hwone{{gap}}mægenes Deniga
+feorh‐bealo feorran,{{gap}}fēo þingian,
+nē þǣr nǣnig witena{{gap}}wēnan þorfte
+beorhtre bōte{{gap}}tō banan folmum;
+atol ǣglǣca{{gap}}ēhtende wæs,
+deorc dēað‐scūa{{gap}}duguðe and geogoðe    {{pline|160}}
+seomade and syrede.{{gap}}Sin‐nihte hēold
+mistige mōras;{{gap}}men ne cunnon,
+hwyder hel‐rūnan{{gap}}hwyrftum scrīðað.
+Swā fela fyrena{{gap}}fēond man‐cynnes,
+atol ān‐gengea,{{gap}}oft gefremede
+heardra hȳnða;{{gap}}Heorot eardode,
+sinc‐fāge sel{{gap}}sweartum nihtum
+(nō hē þone gif‐stōl{{gap}}grētan mōste,
+māððum for metode,{{gap}}nē his myne wisse);
+þæt wæs wrǣc micel{{gap}}wine Scyldinga,    {{pline|170}}
+mōdes brecða.{{gap}}Monig‐oft gesæt
+rīce tō rūne;{{gap}}rǣd eahtedon,
+hwæt swīð‐ferhðum{{gap}}sēlest wǣre
+wið fǣr‐gryrum{{gap}}tō gefremmanne.
+Hwīlum hīe gehēton{{gap}}æt hærg‐trafum
+wīg‐weorðunga,{{gap}}wordum bǣdon,
+þæt him gāst‐bona{{gap}}gēoce gefremede
+wið þēod‐þrēaum.{{gap}}Swylc wæs þēaw hyra,
+hǣðenra hyht;{{gap}}helle gemundon
+in mōd‐sefan,{{gap}}metod hīe ne cūðon,     {{pline|180}}
+dǣda dēmend,{{gap}}ne wiston hīe drihten god,
+nē hīe hūru heofena helm{{gap}}herian ne cūðon,
+wuldres waldend.{{gap}}Wā bið þǣm þe sceal
+þurh slīðne nīð{{gap}}sāwle bescūfan
+in fȳres fæðm,{{gap}}frōfre ne wēnan,
+wihte gewendan;{{gap}}wēl bið þǣm þe mōt
+æfter dēað‐dæge{{gap}}drihten sēcean
+and tō fæder fæðmum{{gap}}freoðo wilnian.
+}}
+
+===HYGELAC'S THANE.===
+{{ppoem|
+Swā þā mǣl‐ceare{{gap}}maga Healfdenes
+singāla sēað;{{gap}}ne mihte snotor hæleð   {{pline|190}}
+wēan onwendan:{{gap}}wæs þæt gewin tō swȳð,
+lāð and longsum,{{gap}}þē on þā lēode becōm,
+nȳd‐wracu nīð‐grim,{{gap}}niht‐bealwa mǣst.
+Þæt fram hām gefrægn{{gap}}Higelāces þegn,
+gōd mid Gēatum,{{gap}}Grendles dǣda:
+sē wæs mon‐cynnes{{gap}}mægenes strengest
+on þǣm dæge{{gap}}þysses līfes,
+æðele and ēacen.{{gap}}Hēt him ȳð‐lidan
+gōdne gegyrwan;{{gap}}cwæð hē gūð‐cyning
+ofer swan‐rāde{{gap}}sēcean wolde,  {{pline|200}}
+mǣrne þēoden,{{gap}}þā him wæs manna þearf.
+Þone sīð‐fæt him{{gap}}snotere ceorlas
+lȳt‐hwōn lōgon,{{gap}}þēah hē him lēof wǣre;
+hwetton higerōfne,{{gap}}hǣl scēawedon.
+Hæfde se gōda{{gap}}Gēata lēoda
+cempan gecorone,{{gap}}þāra þe hē cēnoste
+findan mihte;{{gap}}fīftȳna sum
+sund‐wudu sōhte;{{gap}}secg wīsade,
+lagu‐cræftig mon,{{gap}}land‐gemyrcu.
+Fyrst forð gewāt:{{gap}}flota wæs on ȳðum,  {{pline|210}}
+bāt under beorge.{{gap}}Beornas gearwe
+on stefn stigon;{{gap}}strēamas wundon
+sund wið sande;{{gap}}secgas bǣron
+on bearm nacan{{gap}}beorhte frætwe,
+gūð‐searo geatolīc;{{gap}}guman ūt scufon,
+weras on wil‐sīð{{gap}}wudu bundenne.
+Gewāt þā ofer wǣg‐holm{{gap}}winde gefȳsed
+flota fāmig‐heals{{gap}}fugle gelīcost,
+oð þæt ymb ān‐tīd{{gap}}ōðres dōgores
+wunden‐stefna{{gap}}gewaden hæfde,  {{pline|220}}
+þæt þā līðende{{gap}}land gesāwon,
+brim‐clifu blīcan,{{gap}}beorgas stēape,
+sīde sǣ‐næssas:{{gap}}þā wæs sund liden,
+eoletes æt ende.{{gap}}Þanon up hraðe
+Wedera lēode{{gap}}on wang stigon,
+sǣ‐wudu sǣldon{{gap}}(syrcan hrysedon,
+gūð‐gewǣdo);{{gap}}gode þancedon,
+þæs þe him ȳð‐lāde{{gap}}ēaðe wurdon.
+Þā of wealle geseah{{gap}}weard Scildinga,
+sē þe holm‐clifu{{gap}}healdan scolde,      {{pline|230}}
+beran ofer bolcan{{gap}}beorhte randas,
+fyrd‐searu fūslīcu;{{gap}}hine fyrwyt bræc
+mōd‐gehygdum,{{gap}}hwæt þā men wǣron.
+Gewāt him þā tō waroðe{{gap}}wicge rīdan
+þegn Hrōðgāres,{{gap}}þrymmum cwehte
+mægen‐wudu mundum,{{gap}}meðel‐wordum frægn:
+"Hwæt syndon gē{{gap}}searo‐hæbbendra
+byrnum werede,{{gap}}þē þus brontne cēol
+ofer lagu‐strǣte{{gap}}lǣdan cwōmon,
+hider ofer holmas{{gap}}helmas bǣron?       {{pline|240}}
+Ic wæs ende‐sǣta,{{gap}}ǣg‐wearde hēold,
+þæt on land Dena{{gap}}lāðra nǣnig
+mid scip‐herge{{gap}}sceððan ne meahte.
+Nō hēr cūðlīcor{{gap}}cuman ongunnon
+lind‐hæbbende;{{gap}}nē gē lēafnes‐word
+gūð‐fremmendra{{gap}}gearwe ne wisson,
+māga gemēdu.{{gap}}Nǣfre ic māran geseah
+eorla ofer eorðan,{{gap}}þonne is ēower sum,
+secg on searwum;{{gap}}nis þæt seld‐guma
+wǣpnum geweorðad,{{gap}}næfne him his wlite lēoge,  {{pline|250}}
+ǣnlīc an‐sȳn.{{gap}}Nū ic ēower sceal
+frum‐cyn witan,{{gap}}ǣr gē fyr heonan
+lēase scēaweras{{gap}}on land Dena
+furður fēran.{{gap}}Nū gē feor‐būend,
+mere‐līðende,{{gap}}mīnne gehȳrað
+ān‐fealdne geþōht:{{gap}}ofost is sēlest
+tō gecȳðanne,{{gap}}hwanan ēowre cyme syndon."
+}}
+
+===THE ERRAND.===
+{{ppoem|
+Him se yldesta{{gap}}andswarode,
+werodes wīsa,{{gap}}word‐hord onlēac:
+"Wē synt gum‐cynnes{{gap}}Gēata lēode       {{pline|260}}
+and Higelāces{{gap}}heorð‐genēatas.
+Wæs mīn fæder{{gap}}folcum gecȳðed,
+æðele ord‐fruma{{gap}}Ecgþēow hāten;
+gebād wintra worn,{{gap}}ǣr hē on weg hwurfe,
+gamol of geardum;{{gap}}hine gearwe geman
+witena wēl‐hwylc{{gap}}wīde geond eorðan.‐
+Wē þurh holdne hige{{gap}}hlāford þinne,
+sunu Healfdenes,{{gap}}sēcean cwōmon,
+lēod‐gebyrgean:{{gap}}wes þū ūs lārena gōd!
+Habbað wē tō þǣm mǣran{{gap}}micel ǣrende   {{pline|270}}
+Deniga frēan;{{gap}}ne sceal þǣr dyrne sum
+wesan, þæs ic wēne.{{gap}}Þū wāst, gif hit is,
+swā wē sōðlice{{gap}}secgan hȳrdon,
+þæt mid Scyldingum{{gap}}sceaða ic nāt hwylc,
+dēogol dǣd‐hata,{{gap}}deorcum nihtum
+ēaweð þurh egsan{{gap}}uncūðne nīð,
+hȳnðu and hrā‐fyl.{{gap}}Ic þæs Hrōðgār mæg
+þurh rūmne sefan{{gap}}rǣd gelǣran,
+hū hē frōd and gōd{{gap}}fēond oferswȳðeð,
+gyf him ed‐wendan{{gap}}ǣfre scolde         {{pline|280}}
+bealuwa bisigu,{{gap}}bōt eft cuman
+and þā cear‐wylmas{{gap}}cōlran wurðað;
+oððe ā syððan{{gap}}earfoð‐þrāge,
+þrēa‐nȳd þolað,{{gap}}þenden þǣr wunað
+on hēah‐stede{{gap}}hūsa sēlest."
+Weard maðelode,{{gap}}þǣr on wicge sæt
+ombeht unforht:{{gap}}"Ǣghwæðres sceal
+scearp scyld‐wiga{{gap}}gescād witan,
+worda and worca,{{gap}}sē þe wēl þenceð.
+Ic þæt gehȳre,{{gap}}þæt þis is hold weorod         {{pline|290}}
+frēan Scyldinga.{{gap}}Gewītað forð beran
+wǣpen and gewǣdu,{{gap}}ic ēow wīsige:
+swylce ic magu‐þegnas{{gap}}mīne hāte
+wið fēonda gehwone{{gap}}flotan ēowerne,
+nīw‐tyrwedne{{gap}}nacan on sande
+ārum healdan,{{gap}}oð þæt eft byreð
+ofer lagu‐strēamas{{gap}}lēofne mannan
+wudu wunden‐hals{{gap}}tō Weder‐mearce.
+Gūð‐fremmendra{{gap}}swylcum gifeðe bið,
+þæt þone hilde‐rǣs{{gap}}hāl gedīgeð."      {{pline|300}}
+Gewiton him þā fēran{{gap}}(flota stille bād,
+seomode on sāle{{gap}}sīd‐fæðmed scyp,
+on ancre fæst);{{gap}}eofor‐līc scionon
+ofer hlēor‐beran{{gap}}gehroden golde
+fāh and fȳr‐heard,{{gap}}ferh wearde hēold.
+Gūðmōde grummon,{{gap}}guman ōnetton,
+sigon ætsomne,{{gap}}oð þæt hȳ sæl timbred
+geatolīc and gold‐fāh{{gap}}ongytan mihton;
+þæt wæs fore‐mǣrost{{gap}}fold‐būendum
+receda under roderum,{{gap}}on þǣm se rīca bād;     {{pline|310}}
+līxte se lēoma{{gap}}ofer landa fela.
+Him þā hilde‐dēor{{gap}}hof mōdigra
+torht getǣhte,{{gap}}þæt hīe him tō mihton
+gegnum gangan;{{gap}}gūð‐beorna sum
+wicg gewende,{{gap}}word æfter cwæð:
+"Mǣl is mē tō fēran;{{gap}}fæder alwalda
+mid ār‐stafum{{gap}}ēowic gehealde
+sīða gesunde!{{gap}}ic tō sǣ wille,
+wið wrāð werod{{gap}}wearde healdan."
+}}
+
+===BĒOWULF'S SPEECH.===
+{{ppoem|
+Strǣt wæs stān‐fāh,{{gap}}stīg wīsode       {{pline|320}}
+gumum ætgædere.{{gap}}Gūð‐byrne scān
+heard hond‐locen,{{gap}}hring‐īren scīr
+song in searwum,{{gap}}þā hīe tō sele furðum
+in hyra gryre‐geatwum{{gap}}gangan cwōmon.
+Setton sǣ‐mēðe{{gap}}sīde scyldas,
+rondas regn‐hearde{{gap}}wið þæs recedes weal,
+bugon þā tō bence;{{gap}}byrnan hringdon,
+gūð‐searo gumena;{{gap}}gāras stōdon,
+sǣ‐manna searo,{{gap}}samod ætgædere,
+æsc‐holt ufan grǣg:{{gap}}wæs se īren‐þrēat         {{pline|330}}
+wǣpnum gewurðad.{{gap}}Þā þǣr wlonc hæleð
+ōret‐mecgas{{gap}}æfter æðelum frægn:
+"Hwanon ferigeað gē{{gap}}fǣtte scyldas,
+grǣge syrcan{{gap}}and grīm‐helmas,
+here‐sceafta hēap?‐‐{{gap}}Ic eom Hrōðgāres
+ār and ombiht.{{gap}}Ne seah ic el‐þēodige
+þus manige men{{gap}}mōdiglīcran.
+Wēn' ic þæt gē for wlenco,{{gap}}nalles for wræc‐sīðum,
+ac for hige‐þrymmum{{gap}}Hrōðgār sōhton."
+Him þā ellen‐rōf{{gap}}andswarode,  {{pline|340}}
+wlanc Wedera lēod{{gap}}word æfter spræc,
+heard under helme:{{gap}}"Wē synt Higelāces
+bēod‐genēatas;{{gap}}Bēowulf is mīn nama.
+Wille ic āsecgan{{gap}}suna Healfdenes,
+mǣrum þēodne{{gap}}mīn ǣrende,
+aldre þīnum,{{gap}}gif hē ūs geunnan wile,
+þæt wē hine swā gōdne{{gap}}grētan mōton."
+Wulfgār maðelode{{gap}}(þæt wæs Wendla lēod,
+wæs his mōd‐sefa{{gap}}manegum gecȳðed,
+wīg and wīs‐dōm):{{gap}}"ic þæs wine Deniga,        {{pline|350}}
+frēan Scildinga{{gap}}frīnan wille,
+bēaga bryttan,{{gap}}swā þū bēna eart,
+þēoden mǣrne{{gap}}ymb þīnne sīð ;
+and þē þā andsware{{gap}}ǣdre gecȳðan,
+þē mē se gōda{{gap}}āgifan þenceð."
+Hwearf þā hrædlīce,{{gap}}þǣr Hrōðgār sæt,
+eald and unhār{{gap}}mid his eorla gedriht;
+ēode ellen‐rōf,{{gap}}þæt hē for eaxlum gestōd
+Deniga frēan,{{gap}}cūðe hē duguðe þēaw.
+Wulfgār maðelode{{gap}}tō his wine‐drihtne:         {{pline|360}}
+"Hēr syndon geferede{{gap}}feorran cumene
+ofer geofenes begang{{gap}}Gēata lēode:
+þone yldestan{{gap}}ōret‐mecgas
+Bēowulf nemnað.{{gap}}Hȳ bēnan synt,
+þæt hīe, þēoden mīn,{{gap}}wið þē mōton
+wordum wrixlan;{{gap}}nō þū him wearne getēoh,
+þīnra gegn‐cwida{{gap}}glædnian, Hrōðgār!
+Hȳ on wīg‐geatwum{{gap}}wyrðe þinceað
+eorla geæhtlan;{{gap}}hūru se aldor dēah,
+sē þǣm heaðo‐rincum{{gap}}hider wīsade."    {{pline|370}}
+}}
+
+===HROTHGAR'S WELCOME.===
+{{ppoem|
+Hrōðgār maðelode,{{gap}}helm Scyldinga:
+"Ic hine cūðe{{gap}}cniht‐wesende.
+Wæs his eald‐fæder{{gap}}Ecgþēo hāten,
+þǣm tō hām forgeaf{{gap}}Hrēðel Gēata
+āngan dōhtor;{{gap}}is his eafora nū
+heard hēr cumen,{{gap}}sōhte holdne wine.
+þonne sægdon þæt{{gap}}sǣ‐līðende,
+þā þe gif‐sceattas{{gap}}Gēata fyredon
+þyder tō þance,{{gap}}þæt hē þrīttiges
+manna mægen‐cræft{{gap}}on his mund‐grīpe   {{pline|380}}
+heaðo‐rōf hæbbe.{{gap}}Hine hālig god
+for ār‐stafum{{gap}}us onsende,
+tō West‐Denum,{{gap}}þæs ic wēn hæbbe,
+wið Grendles gryre:{{gap}}ic þǣm gōdan sceal
+for his mōd‐þræce{{gap}}mādmas bēodan.
+Bēo þū on ofeste,{{gap}}hāt hig in gān,
+sēon sibbe‐gedriht{{gap}}samod ætgædere;
+gesaga him ēac wordum,{{gap}}þæt hīe sint wil‐cuman
+Deniga lēodum."{{gap}}Þā wið duru healle
+Wulfgār ēode,{{gap}}word inne ābēad:        {{pline|390}}
+"Ēow hēt secgan{{gap}}sige‐drihten mīn,
+aldor Ēast‐Dena,{{gap}}þæt hē ēower æðelu can
+and gē him syndon{{gap}}ofer sǣ‐wylmas,
+heard‐hicgende,{{gap}}hider wil‐cuman.
+Nū gē mōton gangan{{gap}}in ēowrum guð‐geatawum,
+under here‐grīman,{{gap}}Hrōðgār gesēon;
+lǣtað hilde‐bord{{gap}}hēr onbidian,
+wudu wæl‐sceaftas,{{gap}}worda geþinges."
+Ārās þā se rīca,{{gap}}ymb hine rinc manig,
+þrȳðlīc þegna hēap;{{gap}}sume þǣr bidon,   {{pline|400}}
+heaðo‐rēaf hēoldon,{{gap}}swā him se hearda bebēad.
+Snyredon ætsomne,{{gap}}þā secg wīsode
+under Heorotes hrōf;{{gap}}hyge‐rōf ēode,
+heard under helme,{{gap}}þæt hē on heoðe gestōd.
+Bēowulf maðelode{{gap}}(on him byrne scān,
+searo‐net sēowed{{gap}}smiðes or‐þancum):
+"Wes þū Hrōðgār hāl!{{gap}}ic eom Higelāces
+mǣg and mago‐þegn;{{gap}}hæbbe ic mǣrða fela
+ongunnen on geogoðe.{{gap}}Mē wearð Grendles þing
+on mīnre ēðel‐tyrf{{gap}}undyrne cūð:       {{pline|410}}
+secgað sǣ‐līðend,{{gap}}þæt þes sele stande,
+reced sēlesta,{{gap}}rinca gehwylcum
+īdel and unnyt,{{gap}}siððan ǣfen‐lēoht
+under heofenes hādor{{gap}}beholen weorðeð.
+Þā mē þæt gelǣrdon{{gap}}lēode mīne,
+þā sēlestan,{{gap}}snotere ceorlas,
+þēoden Hrōðgār,{{gap}}þæt ic þē sōhte;
+forþan hīe mægenes cræft{{gap}}mīnne cūðon:
+selfe ofersāwon,{{gap}}þā ic of searwum cwōm,
+fāh from fēondum,{{gap}}þǣr ic fīfe geband,         {{pline|420}}
+ȳðde eotena cyn,{{gap}}and on ȳðum slōg
+niceras nihtes,{{gap}}nearo‐þearfe drēah,
+wræc Wedera nīð{{gap}}(wēan āhsodon)
+forgrand gramum;{{gap}}and nū wið Grendel sceal,
+wið þām āglǣcan,{{gap}}āna gehegan
+þing wið þyrse.{{gap}}Ic þē nū þā,
+brego Beorht‐Dena,{{gap}}biddan wille,
+eodor Scyldinga,{{gap}}ānre bēne;
+þæt þū mē ne forwyrne,{{gap}}wīgendra hlēo,
+frēo‐wine folca,{{gap}}nū ic þus feorran cōm,       {{pline|430}}
+þæt ic mōte āna{{gap}}and mīnra eorla gedryht,
+þes hearda hēap,{{gap}}Heorot fǣlsian.
+Hæbbe ic ēac geāhsod,{{gap}}þæt se ǣglǣca
+for his won‐hȳdum{{gap}}wǣpna ne rēceð;
+ic þæt þonne forhicge,{{gap}}swā mē Higelāc sīe,
+mīn mon‐drihten,{{gap}}mōdes blīðe,
+þæt ic sweord bere{{gap}}oððe sīdne scyld
+geolo‐rand tō gūðe;{{gap}}ac ic mid grāpe sceal
+fōn wið fēonde{{gap}}and ymb feorh sacan,
+lāð wið lāðum;{{gap}}þǣr gelȳfan sceal      {{pline|440}}
+dryhtnes dōme{{gap}}sē þe hine dēað nimeð.
+Wēn' ic þæt hē wille,{{gap}}gif hē wealdan mōt,
+in þǣm gūð‐sele{{gap}}Gēatena lēode
+etan unforhte,{{gap}}swā hē oft dyde
+mægen Hrēðmanna.{{gap}}Nā þū mīnne þearft
+hafalan hȳdan,{{gap}}ac hē mē habban wile
+drēore fāhne,{{gap}}gif mec dēað nimeð;
+byreð blōdig wæl,{{gap}}byrgean þenceð,
+eteð ān‐genga{{gap}}unmurnlīce,
+mearcað mōr‐hopu:{{gap}}nō þū ymb mīnes ne þearft   {{pline|450}}
+līces feorme{{gap}}leng sorgian.
+Onsend Higelāce,{{gap}}gif mec hild nime,
+beadu‐scrūda betst,{{gap}}þæt mīne brēost wereð,
+hrægla sēlest;{{gap}}þæt is Hrēðlan lāf,
+Wēlandes geweorc.{{gap}}Gǣð ā Wyrd swā hīo scel!"
+}}
+
+===HROTHGAR TELLS OF GRENDEL.===
+{{ppoem|
+Hrōðgār maðelode,{{gap}}helm Scyldinga:
+"for were‐fyhtum þū,{{gap}}wine mīn Bēowulf,
+and for ār‐stafum{{gap}}ūsic sōhtest.
+Geslōh þin fæder{{gap}}fǣhðe mǣste,
+wearð hē Heaðolāfe{{gap}}tō hand‐bonan      {{pline|460}}
+mid Wilfingum;{{gap}}þā hine Wedera cyn
+for here‐brōgan{{gap}}habban ne mihte.
+Þanon hē gesōhte{{gap}}Sūð‐Dena folc
+ofer ȳða gewealc,{{gap}}Ār‐Scyldinga;
+þā ic furðum wēold{{gap}}folce Deninga,
+and on geogoðe hēold{{gap}}gimme‐rīce
+hord‐burh hæleða:{{gap}}þā wæs Heregār dēad,
+mīn yldra mǣg{{gap}}unlifigende,
+bearn Healfdenes.{{gap}}Sē wæs betera þonne ic!
+Siððan þā fǣhðe{{gap}}fēo þingode;  {{pline|470}}
+sende ic Wylfingum{{gap}}ofer wæteres hrycg
+ealde mādmas:{{gap}}hē mē āðas swōr.
+Sorh is mē tō secganne{{gap}}on sefan mīnum
+gumena ǣngum,{{gap}}hwæt mē Grendel hafað
+hȳnðo on Heorote{{gap}}mid his hete‐þancum,
+fǣr‐nīða gefremed.{{gap}}Is mīn flet‐werod,
+wīg‐hēap gewanod;{{gap}}hīe Wyrd forswēop
+on Grendles gryre.{{gap}}God ēaðe mæg
+þone dol‐scaðan{{gap}}dǣda getwǣfan!
+Ful oft gebēotedon{{gap}}bēore druncne      {{pline|480}}
+ofer ealo‐wǣge{{gap}}ōret‐mecgas,
+þæt hīe in bēor‐sele{{gap}}bīdan woldon
+Grendles gūðe{{gap}}mid gryrum ecga.
+Þonne wæs þēos medo‐heal{{gap}}on morgen‐tīd,
+driht‐sele drēor‐fāh,{{gap}}þonne dæg līxte,
+eal benc‐þelu{{gap}}blōde bestȳmed,
+heall heoru‐drēore:{{gap}}āhte ic holdra þȳ lǣs,
+dēorre duguðe,{{gap}}þē þā dēað fornam.
+Site nū tō symle{{gap}}and onsǣl meoto,
+sige‐hrēð secgum,{{gap}}swā þīn sefa hwette!"       {{pline|490}}
+Þā wæs Gēat‐mæcgum{{gap}}geador ætsomne
+on bēor‐sele{{gap}}benc gerȳmed;
+þǣr swīð‐ferhðe{{gap}}sittan ēodon
+þrȳðum dealle.{{gap}}Þegn nytte behēold,
+sē þe on handa bær{{gap}}hroden ealo‐wǣge,
+scencte scīr wered.{{gap}}Scop hwīlum sang
+hādor on Heorote;{{gap}}þǣr wæs hæleða drēam,
+duguð unlȳtel{{gap}}Dena and Wedera.
+}}
+
+===HUNFERTH OBJECTS TO BĒOWULF.===
+{{ppoem|
+Unferð maðelode,{{gap}}Ecglāfes bearn,
+þē æt fōtum sæt{{gap}}frēan Scyldinga;      {{pline|500}}
+onband beadu‐rūne{{gap}}(wæs him Bēowulfes sīð,
+mōdges mere‐faran,{{gap}}micel æf‐þunca,
+forþon þe hē ne ūðe,{{gap}}þæt ǣnig ōðer man
+ǣfre mǣrða þon mā{{gap}}middan‐geardes
+gehēdde under heofenum{{gap}}þonne hē sylfa):
+"Eart þū sē Bēowulf,{{gap}}sē þe wið Brecan wunne,
+on sīdne sǣ{{gap}}ymb sund flite,
+þǣr git for wlence{{gap}}wada cunnedon
+and for dol‐gilpe{{gap}}on dēop wæter
+aldrum nēðdon?{{gap}}Nē inc ǣnig mon,       {{pline|510}}
+nē lēof nē lāð,{{gap}}belēan mihte
+sorh‐fullne sīð;{{gap}}þā git on sund rēon,
+þǣr git ēagor‐strēam{{gap}}earmum þehton,
+mǣton mere‐strǣta,{{gap}}mundum brugdon,
+glidon ofer gār‐secg;{{gap}}geofon ȳðum wēol,
+wintres wylme.{{gap}}Git on wæteres ǣht
+seofon niht swuncon;{{gap}}hē þē æt sunde oferflāt,
+hæfde māre mægen.{{gap}}Þā hine on morgen‐tīd
+on Heaðo‐rǣmas{{gap}}holm up ætbær,
+þonon hē gesōhte{{gap}}swǣsne ēðel  {{pline|520}}
+lēof his lēodum{{gap}}lond Brondinga,
+freoðo‐burh fægere,{{gap}}þǣr hē folc āhte,
+burg and bēagas.{{gap}}Bēot eal wið þē
+sunu Bēanstānes{{gap}}sōðe gelǣste.
+Þonne wēne ic tō þē{{gap}}wyrsan geþinges,
+þēah þū heaðo‐rǣsa{{gap}}gehwǣr dohte,
+grimre gūðe,{{gap}}gif þū Grendles dearst
+niht‐longne fyrst{{gap}}nēan bīdan!"
+Bēowulf maðelode,{{gap}}bearn Ecgþēowes:
+"Hwæt! þū worn fela,{{gap}}wine mīn Unferð,         {{pline|530}}
+bēore druncen{{gap}}ymb Brecan sprǣce,
+sægdest from his sīðe!{{gap}}Sōð ic talige,
+þæt ic mere‐strengo{{gap}}māran āhte,
+earfeðo on ȳðum,{{gap}}þonne ǣnig ōðer man.
+Wit þæt gecwǣdon{{gap}}cniht‐wesende
+and gebēotedon{{gap}}(wǣron bēgen þā gīt
+on geogoð‐feore){{gap}}þæt wit on gār‐secg ūt
+aldrum nēðdon;{{gap}}and þæt geæfndon swā.
+Hæfdon swurd nacod,{{gap}}þā wit on sund rēon,
+heard on handa,{{gap}}wit unc wið hron‐fixas        {{pline|540}}
+werian þōhton.{{gap}}Nō hē wiht fram mē
+flōd‐ȳðum feor{{gap}}flēotan meahte,
+hraðor on holme,{{gap}}nō ic fram him wolde.
+Þā wit ætsomne{{gap}}on sǣ wǣron
+fīf nihta fyrst,{{gap}}oð þæt unc flōd tōdrāf,
+wado weallende,{{gap}}wedera cealdost,
+nīpende niht{{gap}}and norðan wind
+heaðo‐grim andhwearf;{{gap}}hrēo wǣron ȳða,
+Wæs mere‐fixa{{gap}}mōd onhrēred:
+þǣr mē wið lāðum{{gap}}līc‐syrce mīn,       {{pline|550}}
+heard hond‐locen,{{gap}}helpe gefremede;
+beado‐hrægl brōden{{gap}}on brēostum læg,
+golde gegyrwed.{{gap}}Mē tō grunde tēah
+fāh fēond‐scaða,{{gap}}fæste hæfde
+grim on grāpe:{{gap}}hwæðre mē gyfeðe wearð,
+þæt ic āglǣcan{{gap}}orde gerǣhte,
+hilde‐bille;{{gap}}heaðo‐rǣs fornam
+mihtig mere‐dēor{{gap}}þurh mīne hand.
+}}
+
+===BĒOWULF'S CONTEST WITH BRECA.-THE FEAST.===
+{{ppoem|
+Swā mec gelōme{{gap}}lāð‐getēonan
+þrēatedon þearle.{{gap}}Ic him þēnode       {{pline|560}}
+dēoran sweorde,{{gap}}swā hit gedēfe wæs;
+næs hīe þǣre fylle{{gap}}gefēan hæfdon,
+mān‐fordǣdlan,{{gap}}þæt hīe mē þēgon,
+symbel ymb‐sǣton{{gap}}sǣ‐grunde nēah,
+ac on mergenne{{gap}}mēcum wunde
+be ȳð‐lāfe{{gap}}uppe lǣgon,
+sweordum āswefede,{{gap}}þæt syððan nā
+ymb brontne ford{{gap}}brim‐līðende
+lāde ne letton.{{gap}}Lēoht ēastan cōm,
+beorht bēacen godes;{{gap}}brimu swaðredon,         {{pline|570}}
+þæt ic sǣ‐næssas{{gap}}gesēon mihte,
+windige weallas.{{gap}}Wyrd oft nereð
+unfǣgne eorl,{{gap}}ðonne his ellen dēah!
+Hwæðere mē gesǣlde,{{gap}}þæt ic mid sweorde ofslōh
+niceras nigene.{{gap}}Nō ic on niht gefrægn
+under heofones hwealf{{gap}}heardran feohtan,
+nē on ēg‐strēamum{{gap}}earmran mannan;
+hwæðere ic fāra feng{{gap}}fēore gedīgde,
+siðes wērig.{{gap}}Þā mec sǣ oðbær,
+flōd æfter faroðe,{{gap}}on Finna land,     {{pline|580}}
+wadu weallendu.{{gap}}Nō ic wiht fram þē
+swylcra searo‐nīða{{gap}}secgan hȳrde,
+billa brōgan:{{gap}}Breca nǣfre gīt
+æt heaðo‐lāce,{{gap}}nē gehwæðer incer
+swā dēorlīce{{gap}}dǣd gefremede
+fāgum sweordum{{gap}}. . . . . . .
+. . . . . . .{{gap}}nō ic þæs gylpe;
+þēah þū þīnum brōðrum{{gap}}tō banan wurde,
+hēafod‐mǣgum;{{gap}}þæs þū in helle scealt
+werhðo drēogan,{{gap}}þēah þīn wit duge,
+Secge ic þē tō sōðe,{{gap}}sunu Ecglāfes,   {{pline|590}}
+þæt nǣfre Grendel swā fela{{gap}}gryra gefremede,
+atol ǣglǣca{{gap}}ealdre þīnum,
+hȳnðo on Heorote,{{gap}}gif þīn hige wǣre,
+sefa swā searo‐grim,{{gap}}swā þū self talast.
+Ac hē hafað onfunden,{{gap}}þæt hē þā fǣhðe ne þearf,
+atole ecg‐þræce{{gap}}ēower lēode
+swīðe onsittan,{{gap}}Sige‐Scyldinga;
+nymeð nȳd‐bāde,{{gap}}nǣnegum ārað
+lēode Deniga,{{gap}}ac hē on lust wīgeð,
+swefeð ond sendeð,{{gap}}secce ne wēneð     {{pline|600}}
+tō Gār‐Denum.{{gap}}Ac him Gēata sceal
+eafoð and ellen{{gap}}ungeāra nū
+gūðe gebēodan.{{gap}}Gǣð eft sē þe mōt
+tō medo mōdig,{{gap}}siððan morgen‐lēoht
+ofer ylda bearn{{gap}}ōðres dōgores,
+sunne swegl‐wered{{gap}}sūðan scīneð!"
+Þā wæs on sālum{{gap}}sinces brytta
+gamol‐feax and gūð‐rōf,{{gap}}gēoce gelȳfde
+brego Beorht‐Dena;{{gap}}gehȳrde on Bēowulfe
+folces hyrde{{gap}}fæst‐rǣdne geþōht.       {{pline|610}}
+Þǣr wæs hæleða hleahtor;{{gap}}hlyn swynsode,
+word wǣron wynsume.{{gap}}Ēode Wealhþēow forð,
+cwēn Hrōðgāres,{{gap}}cynna gemyndig,
+grētte gold‐hroden{{gap}}guman on healle,
+and þā frēolīc wīf{{gap}}ful gesealde
+ǣrest Ēast‐Dena{{gap}}ēðel‐wearde,
+bæd hine blīðne{{gap}}æt þǣre bēor‐þege,
+lēodum lēofne;{{gap}}hē on lust geþeah
+symbel and sele‐ful,{{gap}}sige‐rōf kyning.
+Ymb‐ēode þā{{gap}}ides Helminga     {{pline|620}}
+duguðe and geogoðe{{gap}}dǣl ǣghwylcne;
+sinc‐fato sealde,{{gap}}oð þæt sǣl ālamp,
+þæt hīo Bēowulfe,{{gap}}bēag‐hroden cwēn,
+mōde geþungen,{{gap}}medo‐ful ætbær;
+grētte Gēata lēod,{{gap}}gode þancode
+wīs‐fæst wordum,{{gap}}þæs þe hire se willa gelamp,
+þæt hēo on ǣnigne{{gap}}eorl gelȳfde
+fyrena frōfre.{{gap}}Hē þæt ful geþeah,
+wæl‐rēow wiga{{gap}}æt Wealhþēon,
+and þā gyddode{{gap}}gūðe gefȳsed,  {{pline|630}}
+Bēowulf maðelode,{{gap}}bearn Ecgþēowes:
+"Ic þæt hogode,{{gap}}þā ic on holm gestāh,
+sǣ‐bāt gesæt{{gap}}mid mīnra secga gedriht,
+þæt ic ānunga{{gap}}ēowra lēoda
+willan geworhte,{{gap}}oððe on wæl crunge,
+fēond‐grāpum fæst.{{gap}}Ic gefremman sceal
+eorlīc ellen,{{gap}}oððe ende‐dæg
+on þisse meodu‐healle{{gap}}mīnne gebīdan."
+Þām wīfe þā word{{gap}}wēl līcodon,
+gilp‐cwide Gēates;{{gap}}ēode gold‐hroden   {{pline|640}}
+frēolīcu folc‐cwēn{{gap}}tō hire frēan sittan.
+Þā wæs eft swā ǣr{{gap}}inne on healle
+þrȳð‐word sprecen,{{gap}}þēod on sǣlum,
+sige‐folca swēg,{{gap}}oð þæt semninga
+sunu Healfdenes{{gap}}sēcean wolde
+ǣfen‐ræste;{{gap}}wiste æt þǣm āhlǣcan
+tō þǣm hēah‐sele{{gap}}hilde geþinged,
+siððan hīe sunnan lēoht{{gap}}gesēon ne meahton,
+oððe nīpende{{gap}}niht ofer ealle,
+scadu‐helma gesceapu{{gap}}scrīðan cwōman,  {{pline|650}}
+wan under wolcnum.{{gap}}Werod eall ārās.
+Grētte þā giddum{{gap}}guma ōðerne,
+Hrōðgār Bēowulf,{{gap}}and him hǣl ābēad,
+wīn‐ærnes geweald{{gap}}and þæt word ācwæð:
+"Nǣfre ic ǣnegum men{{gap}}ǣr ālȳfde,
+siððan ic hond and rond{{gap}}hebban mihte,
+þrȳð‐ærn Dena{{gap}}būton þē nū þā.
+Hafa nū and geheald{{gap}}hūsa sēlest;
+gemyne mǣrðo,{{gap}}mægen‐ellen cȳð,
+waca wið wrāðum!{{gap}}Ne bið þē wilna gād,         {{pline|660}}
+gif þū þæt ellen‐weorc{{gap}}aldre gedīgest."
+}}
+
+===THE WATCH FOR GRENDEL.===
+{{ppoem|
+Þā him Hrōðgār gewāt{{gap}}mid his hæleða gedryht,
+eodur Scyldinga{{gap}}ūt of healle;
+wolde wīg‐fruma{{gap}}Wealhþēo sēcan,
+cwēn tō gebeddan{{gap}}Hæfde kyninga wuldor
+Grendle tō‐gēanes,{{gap}}swā guman gefrungon,
+sele‐weard āseted,{{gap}}sundor‐nytte behēold
+ymb aldor Dena,{{gap}}eoton weard ābēad;
+hūru Gēata lēod{{gap}}georne truwode
+mōdgan mægnes,{{gap}}metodes hyldo.         {{pline|670}}
+Þā hē him of dyde{{gap}}īsern‐byrnan,
+helm of hafelan,{{gap}}sealde his hyrsted sweord,
+īrena cyst{{gap}}ombiht‐þegne,
+and gehealdan hēt{{gap}}hilde‐geatwe.
+Gespræc þā se gōda{{gap}}gylp‐worda sum
+Bēowulf Gēata,{{gap}}ǣr hē on bed stige:
+"Nō ic mē an here‐wǣsmum{{gap}}hnāgran talige
+gūð‐geweorca,{{gap}}þonne Grendel hine;
+forþan ic hine sweorde{{gap}}swebban nelle,
+aldre benēotan,{{gap}}þēah ic eal mǣge.     {{pline|680}}
+Nāt hē þāra gōda,{{gap}}þæt hē mē on‐gēan slēa,
+rand gehēawe,{{gap}}þēah þe hē rōf sīe
+nīð‐geweorca;{{gap}}ac wit on niht sculon
+secge ofersittan,{{gap}}gif hē gesēcean dear
+wīg ofer wǣpen,{{gap}}and siððan wītig god
+on swā hwæðere hond{{gap}}hālig dryhten
+mǣrðo dēme,{{gap}}swā him gemet þince."
+Hylde hine þā heaðo‐dēor,{{gap}}hlēor‐bolster onfēng
+eorles andwlitan;{{gap}}and hine ymb monig
+snellīc sǣ‐rinc{{gap}}sele‐reste gebēah.    {{pline|690}}
+Nǣnig heora þōhte{{gap}}þæt hē þanon scolde
+eft eard‐lufan{{gap}}ǣfre gesēcean,
+folc oððe frēo‐burh,{{gap}}þǣr hē āfēded wæs,
+ac hīe hæfdon gefrūnen,{{gap}}þæt hīe ǣr tō fela micles
+in þǣm wīn‐sele{{gap}}wæl‐dēað fornam,
+Denigea lēode.{{gap}}Ac him dryhten forgeaf
+wīg‐spēda gewiofu,{{gap}}Wedera lēodum
+frōfor and fultum,{{gap}}þæt hīe fēond heora
+þurh ānes cræft{{gap}}ealle ofercōmon,
+selfes mihtum:{{gap}}sōð is gecȳðed,        {{pline|700}}
+þæt mihtig god{{gap}}manna cynnes
+wēold wīde‐ferhð.{{gap}}Cōm on wanre niht
+scrīðan sceadu‐genga.{{gap}}Scēotend swǣfon,
+þā þæt horn‐reced{{gap}}healdan scoldon,
+ealle būton ānum.{{gap}}Þæt wæs yldum cūð,
+þæt hīe ne mōste,{{gap}}þā metod nolde,
+se syn‐scaða{{gap}}under sceadu bregdan;
+ac hē wæccende{{gap}}wrāðum on andan
+bād bolgen‐mōd{{gap}}beadwa geþinges.
+}}
+
+===GRENDEL'S RAID.===
+{{ppoem|
+Þā cōm of mōre{{gap}}under mist‐hleoðum     {{pline|710}}
+Grendel gongan,{{gap}}godes yrre bær.
+Mynte se mān‐scaða{{gap}}manna cynnes
+sumne besyrwan{{gap}}in sele þām hēan;
+wōd under wolcnum,{{gap}}tō þæs þe hē wīn‐reced,
+gold‐sele gumena,{{gap}}gearwost wisse
+fǣttum fāhne.{{gap}}Ne wæs þæt forma sīð,
+þæt hē Hrōðgāres{{gap}}hām gesōhte:
+nǣfre hē on aldor‐dagum{{gap}}ǣr nē siððan
+heardran hæle,{{gap}}heal‐þegnas fand!
+Cōm þā tō recede{{gap}}rinc sīðian  {{pline|720}}
+drēamum bedǣled.{{gap}}Duru sōna onarn
+fȳr‐bendum fæst,{{gap}}syððan hē hire folmum hrān;
+onbræd þā bealo‐hȳdig,{{gap}}þā hē ābolgen wæs,
+recedes mūðan.{{gap}}Raðe æfter þon
+on fāgne flōr{{gap}}fēond treddode,
+ēode yrre‐mōd;{{gap}}him of ēagum stōd
+līge gelīcost{{gap}}lēoht unfǣger.
+Geseah hē in recede{{gap}}rinca manige,
+swefan sibbe‐gedriht{{gap}}samod ætgædere,
+mago‐rinca hēap:{{gap}}þā his mōd āhlōg,    {{pline|730}}
+mynte þæt hē gedǣlde,{{gap}}ǣr þon dæg cwōme,
+atol āglǣca,{{gap}}ānra gehwylces
+līf wið līce,{{gap}}þā him ālumpen wæs
+wist‐fylle wēn.{{gap}}Ne wæs þæt wyrd þā gēn,
+þæt hē mā mōste{{gap}}manna cynnes
+þicgean ofer þā niht.{{gap}}Þrȳð‐swȳð behēold
+mǣg Higelāces,{{gap}}hū se mān‐scaða
+under fǣr‐gripum{{gap}}gefaran wolde.
+Nē þæt se āglǣca{{gap}}yldan þōhte,
+ac hē gefēng hraðe{{gap}}forman siðe        {{pline|740}}
+slǣpendne rinc,{{gap}}slāt unwearnum,
+bāt bān‐locan,{{gap}}blōd ēdrum dranc,
+syn‐snǣdum swealh:{{gap}}sōna hæfde
+unlyfigendes{{gap}}eal gefeormod
+fēt and folma.{{gap}}Forð nēar ætstōp,
+nam þā mid handa{{gap}}hige‐þīhtigne
+rinc on ræste;{{gap}}rǣhte ongēan
+fēond mid folme,{{gap}}hē onfēng hraðe
+inwit‐þancum{{gap}}and wið earm gesæt.
+Sōna þæt onfunde{{gap}}fyrena hyrde,        {{pline|750}}
+þæt hē ne mētte{{gap}}middan‐geardes
+eorðan scēata{{gap}}on elran men
+mund‐gripe māran:{{gap}}hē on mōde wearð
+forht on ferhðe,{{gap}}nō þȳ ǣr fram meahte;
+hyge wæs him hin‐fūs,{{gap}}wolde on heolster flēon,
+sēcan dēofla gedræg:{{gap}}ne wæs his drohtoð þǣr,
+swylce hē on ealder‐dagum{{gap}}ǣr gemētte.
+Gemunde þā se gōda{{gap}}mǣg Higelāces
+ǣfen‐sprǣce,{{gap}}up‐lang āstōd
+and him fæste wiðfēng.{{gap}}Fingras burston;       {{pline|760}}
+eoten wæs ūt‐weard,{{gap}}eorl furður stōp.
+Mynte se mǣra,{{gap}}þǣr hē meahte swā,
+wīdre gewindan{{gap}}and on weg þanon
+flēon on fen‐hopu;{{gap}}wiste his fingra geweald
+on grames grāpum.{{gap}}Þæt wæs gēocor sīð,
+þæt se hearm‐scaða{{gap}}tō Heorute ātēah:
+dryht‐sele dynede,{{gap}}Denum eallum wearð,
+ceaster‐būendum,{{gap}}cēnra gehwylcum,
+eorlum ealu‐scerwen.{{gap}}Yrre wǣron bēgen,
+rēðe rēn‐weardas.{{gap}}Reced hlynsode;     {{pline|770}}
+þā wæs wundor micel,{{gap}}þæt se wīn‐sele
+wiðhæfde heaðo‐dēorum,{{gap}}þæt hē on hrūsan ne fēol,
+fǣger fold‐bold;{{gap}}ac hē þæs fæste wæs
+innan and ūtan{{gap}}īren‐bendum
+searo‐þoncum besmiðod.{{gap}}Þǣr fram sylle ābēag
+medu‐benc monig{{gap}}mīne gefrǣge,
+golde geregnad,{{gap}}þǣr þā graman wunnon;
+þæs ne wēndon ǣr{{gap}}witan Scyldinga,
+þæt hit ā mid gemete{{gap}}manna ǣnig
+betlīc and bān‐fāg{{gap}}tōbrecan meahte,   {{pline|780}}
+listum tōlūcan,{{gap}}nymðe līges fæðm
+swulge on swaðule.{{gap}}Swēg up āstāg
+nīwe geneahhe;{{gap}}Norð‐Denum stōd
+atelīc egesa{{gap}}ānra gehwylcum
+þāra þe of wealle{{gap}}wōp gehȳrdon,
+gryre‐lēoð galan{{gap}}godes andsacan,
+sige‐lēasne sang,{{gap}}sār wānigean
+helle hæftan.{{gap}}Hēold hine tō fæste
+sē þe manna wæs{{gap}}mægene strengest
+on þǣm dæge{{gap}}þysses līfes.     {{pline|790}}
+}}
+
+===BĒOWULF TEARS OFF GRENDEL'S ARM.===
+{{ppoem|
+Nolde eorla hlēo{{gap}}ǣnige þinga
+þone cwealm‐cuman{{gap}}cwicne forlǣtan,
+nē his līf‐dagas{{gap}}lēoda ǣnigum
+nytte tealde.{{gap}}Þǣr genehost brægd
+eorl Bēowulfes{{gap}}ealde lāfe,
+wolde frēa‐drihtnes{{gap}}feorh ealgian
+mǣres þēodnes,{{gap}}þǣr hīe meahton swā;
+hīe þæt ne wiston,{{gap}}þā hīe gewin drugon,
+heard‐hicgende{{gap}}hilde‐mecgas,
+and on healfa gehwone{{gap}}hēawan þōhton,  {{pline|800}}
+sāwle sēcan,{{gap}}þæt þone syn‐scaðan
+ǣnig ofer eorðan{{gap}}īrenna cyst,
+gūð‐billa nān{{gap}}grētan nolde;
+ac hē sige‐wǣpnum{{gap}}forsworen hæfde,
+ecga gehwylcre.{{gap}}Scolde his aldor‐gedāl
+on þǣm dæge{{gap}}þysses līfes
+earmlīc wurðan{{gap}}and se ellor‐gāst
+on fēonda geweald{{gap}}feor sīðian.
+Þā þæt onfunde{{gap}}sē þe fela ǣror
+mōdes myrðe{{gap}}manna cynne       {{pline|810}}
+fyrene gefremede{{gap}}(hē wæs fāg wið god)
+þæt him se līc‐homa{{gap}}lǣstan nolde,
+ac hine se mōdega{{gap}}mǣg Hygelāces
+hæfde be honda;{{gap}}wæs gehwæðer ōðrum
+lifigende lāð.{{gap}}Līc‐sār gebād
+atol ǣglǣca,{{gap}}him on eaxle wearð
+syn‐dolh sweotol,{{gap}}seonowe onsprungon
+burston bān‐locan.{{gap}}Bēowulfe wearð
+gūð‐hrēð gyfeðe;{{gap}}scolde Grendel þonan
+feorh‐sēoc flēon{{gap}}under fen‐hleoðu,    {{pline|820}}
+sēcean wyn‐lēas wīc;{{gap}}wiste þē geornor,
+þæt his aldres wæs{{gap}}ende gegongen,
+dōgera dæg‐rīm.{{gap}}Denum eallum wearð
+æfter þām wæl‐rǣse{{gap}}willa gelumpen.
+Hæfde þā gefǣlsod,{{gap}}sē þe ǣr feorran cōm,
+snotor and swȳð‐ferhð{{gap}}sele Hrōðgāres,
+genered wið nīðe.{{gap}}Niht‐weorce gefeh,
+ellen‐mǣrðum;{{gap}}hæfde Ēast‐Denum
+Gēat‐mecga lēod{{gap}}gilp gelǣsted,
+swylce oncȳððe{{gap}}ealle gebētte,         {{pline|830}}
+inwid‐sorge,{{gap}}þē hīe ǣr drugon
+and for þrēa‐nȳdum{{gap}}þolian scoldon,
+torn unlȳtel.{{gap}}Þæt wæs tācen sweotol,
+syððan hilde‐dēor{{gap}}hond ālegde,
+earm and eaxle{{gap}}(þǣr wæs eal geador
+Grendles grāpe){{gap}}under gēapne hrōf.
+}}
+
+===THE JOY AT HEOROT.===
+{{ppoem|
+Þā wæs on morgen{{gap}}mīne gefrǣge
+ymb þā gif‐healle{{gap}}gūð‐rinc monig:
+fērdon folc‐togan{{gap}}feorran and nēan
+geond wīd‐wegas{{gap}}wundor scēawian,      {{pline|840}}
+lāðes lāstas.{{gap}}Nō his līf‐gedāl
+sārlīc þūhte{{gap}}secga ǣnegum,
+þāra þe tīr‐lēases{{gap}}trode scēawode,
+hū hē wērig‐mōd{{gap}}on weg þanon,
+nīða ofercumen,{{gap}}on nicera mere
+fǣge and geflȳmed{{gap}}feorh‐lāstas bær.
+Þǣr wæs on blōde{{gap}}brim weallende,
+atol ȳða geswing{{gap}}eal gemenged
+hātan heolfre,{{gap}}heoro‐drēore wēol;
+dēað‐fǣge dēog,{{gap}}siððan drēama lēas    {{pline|850}}
+in fen‐freoðo{{gap}}feorh ālegde
+hǣðene sāwle,{{gap}}þǣr him hel onfēng.
+Þanon eft gewiton{{gap}}eald‐gesīðas,
+swylce geong manig{{gap}}of gomen‐wāðe,
+fram mere mōdge,{{gap}}mēarum rīdan,
+beornas on blancum.{{gap}}Þǣr wæs Bēowulfes
+mǣrðo mǣned;{{gap}}monig oft gecwæð,
+þætte sūð nē norð{{gap}}be sǣm tweonum
+ofer eormen‐grund{{gap}}ōðer nǣnig
+under swegles begong{{gap}}sēlra nǣre       {{pline|860}}
+rond‐hæbbendra,{{gap}}rīces wyrðra.
+Nē hīe hūru wine‐drihten{{gap}}wiht ne lōgon,
+glædne Hrōðgār,{{gap}}ac þæt wæs gōd cyning.
+Hwīlum heaðo‐rōfe{{gap}}hlēapan lēton,
+on geflīt faran{{gap}}fealwe mēaras,
+þǣr him fold‐wegas{{gap}}fægere þūhton,
+cystum cūðe;{{gap}}hwīlum cyninges þegn,
+guma gilp‐hlæden{{gap}}gidda gemyndig,
+sē þe eal‐fela{{gap}}eald‐gesegena
+worn gemunde,{{gap}}word ōðer fand  {{pline|870}}
+sōðe gebunden:{{gap}}secg eft ongan
+sīð Bēowulfes{{gap}}snyttrum styrian
+and on spēd wrecan{{gap}}spel gerāde,
+wordum wrixlan,{{gap}}wēl‐hwylc gecwæð,
+þæt hē fram Sigemunde{{gap}}secgan hȳrde,
+ellen‐dǣdum,{{gap}}uncūðes fela,
+Wælsinges gewin,{{gap}}wīde sīðas,
+þāra þe gumena bearn{{gap}}gearwe ne wiston,
+fǣhðe and fyrene,{{gap}}būton Fitela mid hine,
+þonne hē swylces hwæt{{gap}}secgan wolde    {{pline|880}}
+ēam his nefan,{{gap}}swā hīe ā wǣron
+æt nīða gehwām{{gap}}nȳd‐gesteallan:
+hæfdon eal‐fela{{gap}}eotena cynnes
+sweordum gesǣged.{{gap}}Sigemunde gesprong
+æfter dēað‐dæge{{gap}}dōm unlȳtel,
+syððan wīges heard{{gap}}wyrm ācwealde,
+hordes hyrde;{{gap}}hē under hārne stān,
+æðelinges bearn,{{gap}}āna genēðde
+frēcne dǣde;{{gap}}ne wæs him Fitela mid.
+Hwæðre him gesǣlde,{{gap}}þæt þæt swurd þurhwōd     {{pline|890}}
+wrǣtlīcne wyrm,{{gap}}þæt hit on wealle ætstōd,
+dryhtlīc īren;{{gap}}draca morðre swealt.
+Hæfde āglǣca{{gap}}elne gegongen,
+þæt hē bēah‐hordes{{gap}}brūcan mōste
+selfes dōme:{{gap}}sǣ‐bāt gehlōd,
+bær on bearm scipes{{gap}}beorhte frætwa,
+Wælses eafera;{{gap}}wyrm hāt gemealt.
+Sē wæs wreccena{{gap}}wīde mǣrost
+ofer wer‐þēode,{{gap}}wīgendra hlēo
+ellen‐dǣdum:{{gap}}hē þæs āron þāh.         {{pline|900}}
+Siððan Heremōdes{{gap}}hild sweðrode
+eafoð and ellen.{{gap}}Hē mid eotenum wearð
+on fēonda geweald{{gap}}forð forlācen,
+snūde forsended.{{gap}}Hine sorh‐wylmas
+lemede tō lange,{{gap}}hē his lēodum wearð,
+eallum æðelingum{{gap}}tō aldor‐ceare;
+swylce oft bemearn{{gap}}ǣrran mǣlum
+swīð‐ferhðes sīð{{gap}}snotor ceorl monig,
+sē þe him bealwa tō{{gap}}bōte gelȳfde,
+þæt þæt þēodnes bearn{{gap}}geþēon scolde,  {{pline|910}}
+fæder‐æðelum onfōn,{{gap}}folc gehealdan,
+hord and hlēo‐burh,{{gap}}hæleða rīce,
+ēðel Scyldinga.{{gap}}Hē þǣr eallum wearð,
+mǣg Higelāces{{gap}}manna cynne,
+frēondum gefægra;{{gap}}hine fyren onwōd.
+Hwīlum flītende{{gap}}fealwe strǣte
+mēarum mǣton.{{gap}}Þā wæs morgen‐lēoht
+scofen and scynded.{{gap}}Ēode scealc monig
+swīð‐hicgende{{gap}}tō sele þām hēan,
+searo‐wundor sēon,{{gap}}swylce self cyning,        {{pline|920}}
+of brȳd‐būre{{gap}}bēah‐horda weard,
+tryddode tīr‐fæst{{gap}}getrume micle,
+cystum gecȳðed,{{gap}}and his cwēn mid him
+medo‐stīg gemæt{{gap}}mægða hōse.
+}}
+
+===HROTHGAR'S GRATULATION.===
+{{ppoem|
+Hrōðgār maðelode{{gap}}(hē tō healle gēong,
+stōd on stapole,{{gap}}geseah stēapne hrōf
+golde fāhne{{gap}}and Grendles hond):
+"þisse ansȳne{{gap}}al‐wealdan þanc
+lungre gelimpe!{{gap}}Fela ic lāðes gebād,
+grynna æt Grendle:{{gap}}ā mæg god wyrcan   {{pline|930}}
+wunder æfter wundre,{{gap}}wuldres hyrde!
+Þæt wæs ungeāra,{{gap}}þæt ic ǣnigra mē
+wēana ne wēnde{{gap}}tō wīdan feore
+bōte gebīdan{{gap}}þonne blōde fāh
+hūsa sēlest{{gap}}heoro‐drēorig stōd;
+wēa wīd‐scofen{{gap}}witena gehwylcne
+þāra þe ne wēndon,{{gap}}þæt hīe wīde‐ferhð
+lēoda land‐geweorc{{gap}}lāðum beweredon
+scuccum and scinnum.{{gap}}Nū scealc hafað
+þurh drihtnes miht{{gap}}dǣd gefremede,     {{pline|940}}
+þē wē ealle{{gap}}ǣr ne meahton
+snyttrum besyrwan.{{gap}}Hwæt! þæt secgan mæg
+efne swā hwylc mægða,{{gap}}swā þone magan cende
+æfter gum‐cynnum,{{gap}}gyf hēo gȳt lyfað,
+þæt hyre eald‐metod{{gap}}ēste wǣre
+bearn‐gebyrdo.{{gap}}Nū ic Bēowulf
+þec, secg betsta,{{gap}}mē for sunu wylle
+frēogan on ferhðe;{{gap}}heald forð tela
+nīwe sibbe.{{gap}}Ne bið þē nǣnigra gād
+worolde wilna,{{gap}}þē ic geweald hæbbe.   {{pline|950}}
+Ful‐oft ic for lǣssan{{gap}}lēan teohhode
+hord‐weorðunge{{gap}}hnāhran rince,
+sǣmran æt sæcce.{{gap}}Þū þē self hafast
+dǣdum gefremed,{{gap}}þæt þīn dōm lyfað
+āwa tō aldre.{{gap}}Alwalda þec
+gōde forgylde,{{gap}}swā hē nū gȳt dyde!"
+Bēowulf maðelode,{{gap}}bearn Ecgþēowes:
+"Wē þæt ellen‐weorc{{gap}}ēstum miclum,
+feohtan fremedon,{{gap}}frēcne genēðdon
+eafoð uncūðes;{{gap}}ūðe ic swīðor,         {{pline|960}}
+þæt þū hinc selfne{{gap}}gesēon mōste,
+fēond on frætewum{{gap}}fyl‐wērigne!
+Ic hine hrædlīce{{gap}}heardan clammum
+on wæl‐bedde{{gap}}wrīðan þōhte,
+þæt hē for mund‐gripe{{gap}}mīnum scolde
+licgean līf‐bysig,{{gap}}būtan his līc swice;
+ic hine ne mihte,{{gap}}þā metod nolde,
+ganges getwǣman,{{gap}}nō ic him þæs georne ætfealh,
+feorh‐genīðlan;{{gap}}wæs tō fore‐mihtig
+fēond on fēðe.{{gap}}Hwæðere hē his folme forlēt    {{pline|970}}
+tō līf‐wraðe{{gap}}lāst weardian,
+earm and eaxle;{{gap}}nō þǣr ǣnige swā þēah
+fēa‐sceaft guma{{gap}}frōfre gebohte:
+nō þȳ leng leofað{{gap}}lāð‐getēona
+synnum geswenced,{{gap}}ac hyne sār hafað
+in nȳd‐gripe{{gap}}nearwe befongen,
+balwon bendum:{{gap}}þǣr ābīdan sceal
+maga māne fāh{{gap}}miclan dōmes,
+hū him scīr metod{{gap}}scrīfan wille."
+Þā wæs swīgra secg,{{gap}}sunu Ecglāfes,    {{pline|980}}
+on gylp‐sprǣce{{gap}}gūð‐geweorca,
+siððan æðelingas{{gap}}eorles cræfte
+ofer hēahne hrōf{{gap}}hand scēawedon,
+fēondes fingras,{{gap}}foran ǣghwylc;
+wæs stēde nægla gehwylc,{{gap}}stȳle gelīcost,
+hǣðenes hand‐sporu{{gap}}hilde‐rinces
+egle unhēoru;{{gap}}ǣg‐hwylc gecwæð,
+þæt him heardra nān{{gap}}hrīnan wolde
+īren ǣr‐gōd,{{gap}}þæt þæs āhlǣcan
+blōdge beadu‐folme{{gap}}onberan wolde.     {{pline|990}}
+}}
+
+===THE BANQUET AND THE GIFTS.===
+{{ppoem|
+Þā wæs hāten hreðe{{gap}}Heort innan‐weard
+folmum gefrætwod:{{gap}}fela þǣra wæs
+wera and wīfa,{{gap}}þē þæt wīn‐reced,
+gest‐sele gyredon.{{gap}}Gold‐fāg scinon
+web æfter wāgum,{{gap}}wundor‐sīona fela
+secga gehwylcum{{gap}}þāra þe on swylc starað
+Wæs þæt beorhte bold{{gap}}tōbrocen swīðe
+eal inne‐weard{{gap}}īren‐bendum fæst,
+heorras tōhlidene;{{gap}}hrōf āna genæs
+ealles ansund,{{gap}}þā se āglǣca   {{pline|1000}}
+fyren‐dǣdum fāg{{gap}}on flēam gewand,
+aldres or‐wēna.{{gap}}Nō þæt ȳðe byð
+tō beflēonne{{gap}}(fremme sē þe wille!)
+ac gesacan sceal{{gap}}sāwl‐berendra
+nȳde genȳdde{{gap}}niðða bearna
+grund‐būendra{{gap}}gearwe stōwe,
+þǣr his līc‐homa{{gap}}leger‐bedde fæst
+swefeð æfter symle.{{gap}}Þā wæs sǣl and mǣl,
+þæt tō healle gang{{gap}}Healfdenes sunu;
+wolde self cyning{{gap}}symbel þicgan.      {{pline|1010}}
+Ne gefrægen ic þā mǣgðe{{gap}}māran weorode
+ymb hyra sinc‐gyfan{{gap}}sēl gebǣran.
+Bugon þā tō bence{{gap}}blǣd‐āgende,
+fylle gefǣgon.{{gap}}Fægere geþǣgon
+medo‐ful manig{{gap}}māgas þāra
+swīð‐hicgende{{gap}}on sele þām hēan,
+Hrōðgār and Hrōðulf.{{gap}}Heorot innan wæs
+frēondum āfylled;{{gap}}nalles fācen‐stafas
+Þēod‐Scyldingas{{gap}}þenden fremedon.
+Forgeaf þā Bēowulfe{{gap}}bearn Healfdenes  {{pline|1020}}
+segen gyldenne{{gap}}sigores tō lēane,
+hroden hilte‐cumbor,{{gap}}helm and byrnan;
+mǣre māððum‐sweord{{gap}}manige gesāwon
+beforan beorn beran.{{gap}}Bēowulf geþah
+ful on flette;{{gap}}nō hē þǣre feoh‐gyfte
+for scēotendum{{gap}}scamigan þorfte,
+ne gefrægn ic frēondlīcor{{gap}}fēower mādmas
+golde gegyrede{{gap}}gum‐manna fela
+in ealo‐bence{{gap}}ōðrum gesellan.
+Ymb þæs helmes hrōf{{gap}}hēafod‐beorge     {{pline|1030}}
+wīrum bewunden{{gap}}walan ūtan hēold,
+þæt him fēla lāfe{{gap}}frēcne ne meahton
+scūr‐heard sceððan,{{gap}}þonne scyld‐freca
+ongēan gramum{{gap}}gangan scolde.
+Heht þā eorla hlēo{{gap}}eahta mēaras,
+fǣted‐hlēore,{{gap}}on flet tēon
+in under eoderas;{{gap}}þāra ānum stōd
+sadol searwum fāh{{gap}}since gewurðad,
+þæt wæs hilde‐setl{{gap}}hēah‐cyninges,
+þonne sweorda gelāc{{gap}}sunu Healfdenes   {{pline|1040}}
+efnan wolde;{{gap}}nǣfre on ōre læg
+wīd‐cūðes wīg,{{gap}}þonne walu fēollon.
+And þā Bēowulfe{{gap}}bēga gehwæðres
+eodor Ingwina{{gap}}onweald getēah,
+wicga and wǣpna;{{gap}}hēt hine wēl brūcan.
+Swā manlīce{{gap}}mǣre þēoden,
+hord‐weard hæleða{{gap}}heaðo‐rǣsas geald
+mēarum and mādmum,{{gap}}swā hȳ nǣfre man lyhð,
+sē þe secgan wile{{gap}}sōð æfter rihte.
+}}
+
+===SONG OF HROTHGAR'S POET-THE LAY OF HNAEF AND HENGEST.===
+{{ppoem|
+Þā gȳt ǣghwylcum{{gap}}eorla drihten        {{pline|1050}}
+þāra þe mid Bēowulfe{{gap}}brim‐lāde tēah,
+on þǣre medu‐bence{{gap}}māððum gesealde,
+yrfe‐lāfe,{{gap}}and þone ǣnne heht
+golde forgyldan,{{gap}}þone þe Grendel ǣr
+māne ācwealde,{{gap}}swā hē hyra mā wolde,
+nefne him wītig god{{gap}}wyrd forstōde
+and þæs mannes mōd:{{gap}}metod eallum wēold
+gumena cynnes,{{gap}}swā hē nū gīt dēð;
+forþan bið andgit{{gap}}ǣghwǣr sēlest,
+ferhðes fore‐þanc!{{gap}}fela sceal gebīdan         {{pline|1060}}
+lēofes and lāðes,{{gap}}sē þe longe hēr
+on þyssum win‐dagum{{gap}}worolde brūceð.
+Þǣr wæs sang and swēg{{gap}}samod ætgædere
+fore Healfdenes{{gap}}hilde‐wīsan,
+gomen‐wudu grēted,{{gap}}gid oft wrecen,
+þonne heal‐gamen{{gap}}Hrōðgāres scop
+æfter medo‐bence{{gap}}mǣnan scolde
+Finnes eaferum,{{gap}}þā hīe se fǣr begeat:
+"Hæleð Healfdenes,{{gap}}Hnæf Scyldinga,
+in Fr..es wæle{{gap}}feallan scolde.        {{pline|1070}}
+Nē hūru Hildeburh{{gap}}herian þorfte
+Eotena trēowe:{{gap}}unsynnum wearð
+beloren lēofum{{gap}}æt þām lind‐plegan
+bearnum and brōðrum;{{gap}}hīe on gebyrd hruron
+gāre wunde;{{gap}}þæt wæs geōmuru ides.
+Nalles hōlinga{{gap}}Hōces dōhtor
+meotod‐sceaft bemearn,{{gap}}syððan morgen cōm,
+þā hēo under swegle{{gap}}gesēon meahte
+morðor‐bealo māga,{{gap}}þǣr hēo ǣr mǣste hēold
+worolde wynne:{{gap}}wīg ealle fornam       {{pline|1080}}
+Finnes þegnas,{{gap}}nemne fēaum ānum,
+þæt hē ne mehte{{gap}}on þǣm meðel‐stede
+wīg Hengeste{{gap}}wiht gefeohtan,
+nē þā wēa‐lāfe{{gap}}wīge forþringan
+þōodnes þegne;{{gap}} ac hig him geþingo budon,
+þæt hīe him ōðer flet{{gap}}eal gerȳmdon,
+healle and hēah‐setl,{{gap}}þæt hīe healfre geweald
+wið Eotena bearn{{gap}}āgan mōston,
+and æt feoh‐gyftum{{gap}}Folcwaldan sunu
+dōgra gehwylce{{gap}}Dene weorðode,         {{pline|1090}}
+Hengestes hēap{{gap}}hringum wenede,
+efne swā swīðe{{gap}}sinc‐gestrēonum
+fǣttan goldes,{{gap}}swā hē Frēsena cyn
+on bēor‐sele{{gap}}byldan wolde.
+Þā hīe getruwedon{{gap}}on twā healfa
+fæste frioðu‐wǣre;{{gap}}Fin Hengeste
+elne unflitme{{gap}}āðum benemde,
+þæt hē þā wēa‐lāfe{{gap}}weotena dōme
+ārum heolde,{{gap}}þæt þǣr ǣnig mon
+wordum nē worcum{{gap}}wǣre ne brǣce,       {{pline|1100}}
+nē þurh inwit‐searo{{gap}}ǣfre gemǣnden,
+þēah hīe hira bēag‐gyfan{{gap}}banan folgedon
+þēoden‐lēase,{{gap}}þā him swā geþearfod wæs:
+gyf þonne Frȳsna hwylc{{gap}}frēcnan sprǣce
+þæs morðor‐hetes{{gap}}myndgiend wǣre,
+þonne hit sweordes ecg{{gap}}syððan scolde.
+Āð wæs geæfned{{gap}}and icge gold
+āhæfen of horde.{{gap}}Here‐Scyldinga
+betst beado‐rinca{{gap}}wæs on bǣl gearu;
+æt þǣm āde wæs{{gap}}ēð‐gesȳne      {{pline|1110}}
+swāt‐fāh syrce,{{gap}}swȳn eal‐gylden,
+eofer īren‐heard,{{gap}}æðeling manig
+wundum āwyrded;{{gap}}sume on wæle crungon.
+Hēt þā Hildeburh{{gap}}æt Hnæfes āde
+hire selfre sunu{{gap}}sweoloðe befæstan,
+bān‐fatu bærnan{{gap}}and on bǣl dōn.
+Earme on eaxle{{gap}}ides gnornode,
+geōmrode giddum;{{gap}}gūð‐rinc āstāh.
+Wand tō wolcnum{{gap}}wæl‐fȳra mǣst,
+hlynode for hlāwe;{{gap}}hafelan multon,    {{pline|1120}}
+ben‐geato burston,{{gap}}þonne blōd ætspranc
+lāð‐bite līces.{{gap}}Līg ealle forswealg,
+gǣsta gīfrost,{{gap}}þāra þe þǣr gūð fornam
+bēga folces;{{gap}}wæs hira blǣd scacen.
+}}
+
+===THE GLEEMAN'S TALE IS ENDED.===
+{{ppoem|
+"Gewiton him þā wīgend{{gap}}wīca nēosian,
+frēondum befeallen{{gap}}Frȳsland gesēon,
+hāmas and hēa‐burh.{{gap}}Hengest þā gȳt
+wæl‐fāgne winter{{gap}}wunode mid Finne
+ealles unhlitme;{{gap}}eard gemunde,
+þēah þe hē ne meahte{{gap}}on mere drīfan   {{pline|1130}}
+hringed‐stefnan;{{gap}}holm storme wēol,
+won wið winde;{{gap}}winter ȳðe belēac
+īs‐gebinde{{gap}}oð þæt ōðer cōm
+geār in geardas,{{gap}}swā nū gȳt dēð,
+þā þe syngales{{gap}}sēle bewitiað,
+wuldor‐torhtan weder.{{gap}}Þā wæs winter scacen,
+fæger foldan bearm;{{gap}}fundode wrecca,
+gist of geardum;{{gap}}hē tō gyrn‐wræce
+swīðor þōhte,{{gap}}þonne tō sǣ‐lāde,
+gif hē torn‐gemōt{{gap}}þurhtēon mihte,     {{pline|1140}}
+þæt hē Eotena bearn{{gap}}inne gemunde.
+Swā hē ne forwyrnde{{gap}}worold‐rǣdenne,
+þonne him Hūnlāfing{{gap}}hilde‐lēoman,
+billa sēlest,{{gap}}on bearm dyde:
+þæs wǣron mid Eotenum{{gap}}ecge cūðe.
+Swylce ferhð‐frecan{{gap}}Fin eft begeat
+sweord‐bealo slīðen{{gap}}æt his selfes hām,
+siððan grimne gripe{{gap}}Gūðlaf ond Ōslāf
+æfter sǣ‐siðe{{gap}}sorge mǣndon,
+ætwiton wēana dǣl;{{gap}}ne meahte wǣfre mōd        {{pline|1150}}
+forhabban in hreðre.{{gap}}Þā wæs heal hroden
+fēonda fēorum,{{gap}}swilce Fin slægen,
+cyning on corðre,{{gap}}and sēo cwēn numen.
+Scēotend Scyldinga{{gap}}tō scypum feredon
+eal in‐gesteald{{gap}}eorð‐cyninges,
+swylce hīe æt Finnes hām{{gap}}findan meahton
+sigla searo‐gimma.{{gap}}Hīe on sǣ‐lāde
+drihtlīce wīf{{gap}}tō Denum feredon,
+lǣddon tō lēodum."{{gap}}Lēoð wæs āsungen,
+glēo‐mannes gyd.{{gap}}Gamen eft āstāh,     {{pline|1160}}
+beorhtode benc‐swēg,{{gap}}byrelas sealdon
+wīn of wunder‐fatum.{{gap}}Þā cwōm Wealhþēo forð
+gān under gyldnum bēage,{{gap}}þǣr þā gōdan twēgen
+sǣton suhter‐gefæderan;{{gap}}þā gȳt wæs hiera sib ætgædere
+ǣghwylc ōðrum trȳwe.{{gap}}Swylce þǣr Unferð þyle
+æt fōtum sæt frēan Scyldinga:{{gap}}gehwylc hiora his ferhðe trēowde,
+þæt hē hæfde mōd micel,{{gap}}þēah þe hē his māgum nǣre
+ārfæst æt ecga gelācum.{{gap}}Spræc þā ides Scyldinga:
+"Onfōh þissum fulle,{{gap}}frēo‐drihten mīn,
+sinces brytta;{{gap}}þū on sǣlum wes,       {{pline|1170}}
+gold‐wine gumena,{{gap}}and tō Gēatum sprec
+mildum wordum!{{gap}}Swā sceal man dōn.
+Bēo wið Gēatas glæd,{{gap}}geofena gemyndig;
+nēan and feorran{{gap}}þū nū friðu hafast.
+Mē man sægde,{{gap}}þæt þū þē for sunu wolde
+here‐rinc habban.{{gap}}Heorot is gefǣlsod,
+bēah‐sele beorhta;{{gap}}brūc þenden þū mōte
+manigra mēda{{gap}}and þīnum māgum lǣf
+folc and rīce,{{gap}}þonne þū forð scyle
+metod‐sceaft sēon.{{gap}}Ic mīnne can       {{pline|1180}}
+glædne Hrōðulf,{{gap}}þæt hē þā geogoðe wile
+ārum healdan,{{gap}}gyf þū ǣr þonne hē,
+wine Scildinga,{{gap}}worold oflǣtest;
+wēne ic, þæt hē mid gōde{{gap}}gyldan wille
+uncran eaferan,{{gap}}gif hē þæt eal gemon,
+hwæt wit tō willan{{gap}}and tō worð‐myndum
+umbor wesendum ǣr{{gap}}ārna gefremedon."
+Hwearf þā bī bence,{{gap}}þǣr hyre byre wǣron,
+Hrēðrīc and Hrōðmund,{{gap}}and hæleða bearn,
+giogoð ætgædere;{{gap}}þǣr se gōda sæt      {{pline|1190}}
+Bēowulf Gēata{{gap}}be þǣm gebrōðrum twǣm.
+}}
+
+===BĒOWULF'S JEWELLED COLLAR. THE HEROES REST.===
+{{ppoem|
+Him wæs ful boren{{gap}}and frēond‐laðu
+wordum bewægned{{gap}}and wunden gold
+ēstum geēawed,{{gap}}earm‐hrēade twā,
+hrægl and hringas,{{gap}}heals‐bēaga mǣst
+þāra þe ic on foldan{{gap}}gefrægen hæbbe.
+Nǣnigne ic under swegle{{gap}}sēlran hȳrde
+hord‐māððum hæleða,{{gap}}syððan Hāma ætwæg
+tō þǣre byrhtan byrig{{gap}}Brōsinga mene,
+sigle and sinc‐fæt,{{gap}}searo‐nīðas fealh         {{pline|1200}}
+Eormenrīces,{{gap}}gecēas ēcne rǣd.
+Þone hring hæfde{{gap}}Higelāc Gēata,
+nefa Swertinges,{{gap}}nȳhstan sīðe,
+siððan hē under segne{{gap}}sinc ealgode,
+wæl‐rēaf werede;{{gap}}hyne Wyrd fornam,
+syððan hē for wlenco{{gap}}wēan āhsode,
+fǣhðe tō Frȳsum;{{gap}}hē þā frætwe wæg,
+eorclan‐stānas{{gap}}ofer ȳða ful,
+rīce þēoden,{{gap}}hē under rande gecranc;
+gehwearf þā in Francna fæðm{{gap}}feorh cyninges,   {{pline|1210}}
+brēost‐gewǣdu{{gap}}and se bēah somod:
+wyrsan wīg‐frecan{{gap}}wæl rēafedon
+æfter gūð‐sceare,{{gap}}Gēata lēode
+hreā‐wīc hēoldon.{{gap}}Heal swēge onfēng.
+Wealhþēo maðelode,{{gap}}hēo fore þǣm werede spræc:
+"Brūc þisses bēages,{{gap}}Bēowulf, lēofa
+hyse, mid hǣle,{{gap}}and þisses hrægles nēot
+þēod‐gestrēona,{{gap}}and geþēoh tela,
+cen þec mid cræfte{{gap}}and þyssum cnyhtum wes
+lāra līðe!{{gap}}ic þē þæs lēan geman.      {{pline|1220}}
+Hafast þū gefēred,{{gap}}þæt þē feor and nēah
+ealne wīde‐ferhð{{gap}}weras ehtigað,
+efne swā sīde{{gap}}swā sǣ bebūgeð
+windige weallas.{{gap}}Wes, þenden þū lifige,
+æðeling ēadig!{{gap}}ic þē an tela
+sinc‐gestrēona.{{gap}}Bēo þū suna mīnum
+dǣdum gedēfe{{gap}}drēam healdende!
+Hēr is ǣghwylc eorl{{gap}}ōðrum getrȳwe,
+mōdes milde,{{gap}}man‐drihtne hold,
+þegnas syndon geþwǣre,{{gap}}þēod eal gearo:        {{pline|1230}}
+druncne dryht‐guman,{{gap}}dōð swā ic bidde!"
+Ēode þā tō setle.{{gap}}Þǣr wæs symbla cyst,
+druncon wīn weras:{{gap}}wyrd ne cūðon,
+geō‐sceaft grimme,{{gap}}swā hit āgangen wearð
+eorla manegum,{{gap}}syððan ǣfen cwōm
+and him Hrōðgār gewāt{{gap}}tō hofe sīnum,
+rīce tō ræste.{{gap}}Reced weardode
+unrīm eorla,{{gap}}swā hīe oft ǣr dydon:
+benc‐þelu beredon,{{gap}}hit geond‐brǣded wearð
+beddum and bolstrum.{{gap}}Bēor‐scealca sum         {{pline|1240}}
+fūs and fǣge{{gap}}flet‐ræste gebēag.
+Setton him tō hēafdum{{gap}}hilde‐randas,
+bord‐wudu beorhtan;{{gap}}þǣr on bence wæs
+ofer æðelinge{{gap}}ȳð‐gesēne
+heaðo‐stēapa helm,{{gap}}hringed byrne,
+þrec‐wudu þrymlīc.{{gap}}Wæs þēaw hyra,
+þæt hīe oft wǣron{{gap}}an wīg gearwe,
+gē æt hām gē on herge,{{gap}}gē gehwæðer þāra
+efne swylce mǣla,{{gap}}swylce hira man‐dryhtne
+þearf gesǣlde;{{gap}}wæs sēo þēod tilu.     {{pline|1250}}
+}}
+
+===GRENDEL'S MOTHER ATTACKS THE RING-DANES.===
+{{ppoem|
+Sigon þā tō slǣpe.{{gap}}Sum sāre angeald
+ǣfen‐ræste,{{gap}}swā him ful‐oft gelamp,
+siððan gold‐sele{{gap}}Grendel warode,
+unriht æfnde,{{gap}}oð þæt ende becwōm,
+swylt æfter synnum.{{gap}}Þæt gesȳne wearð,
+wīd‐cūð werum,{{gap}}þætte wrecend þā gȳt
+lifde æfter lāðum,{{gap}}lange þrāge
+æfter gūð‐ceare;{{gap}}Grendles mōdor,
+ides āglǣc‐wīf{{gap}}yrmðe gemunde,
+sē þe wæter‐egesan{{gap}}wunian scolde,     {{pline|1260}}
+cealde strēamas,{{gap}}siððan Cain wearð
+tō ecg‐banan{{gap}}āngan brēðer,
+fæderen‐mǣge;{{gap}}hē þā fāg gewāt,
+morðre gemearcod{{gap}}man‐drēam flēon,
+wēsten warode.{{gap}}Þanon wōc fela
+geōsceaft‐gāsta;{{gap}}wæs þǣra Grendel sum,
+heoro‐wearh hetelīc,{{gap}}sē æt Heorote fand
+wæccendne wer{{gap}}wīges bīdan,
+þǣr him āglǣca{{gap}}æt‐grǣpe wearð;
+hwæðre hē gemunde{{gap}}mægenes strenge,    {{pline|1270}}
+gim‐fæste gife,{{gap}}þē him god sealde,
+and him tō anwaldan{{gap}}āre gelȳfde,
+frōfre and fultum:{{gap}}þȳ hē þone fēond ofercwōm,
+gehnǣgde helle gāst:{{gap}}þā hē hēan gewāt,
+drēame bedǣled{{gap}}dēað‐wīc sēon,
+man‐cynnes fēond.{{gap}}And his mōdor þā gȳt
+gīfre and galg‐mōd{{gap}}gegān wolde
+sorh‐fulne sīð,{{gap}}suna dēað wrecan.
+Cōm þā tō Heorote,{{gap}}þǣr Hring‐Dene
+geond þæt sæld swǣfun.{{gap}}Þā þǣr sōna wearð      {{pline|1280}}
+ed‐hwyrft eorlum,{{gap}}siððan inne fealh
+Grendles mōdor;{{gap}}wæs se gryre lǣssa
+efne swā micle,{{gap}}swā bið mægða cræft,
+wīg‐gryre wīfes{{gap}}be wǣpned‐men,
+þonne heoru bunden,{{gap}}hamere geþuren,
+sweord swāte fāh{{gap}}swīn ofer helme,
+ecgum dyhtig{{gap}}andweard scireð.
+Þā wæs on healle{{gap}}heard‐ecg togen,
+sweord ofer setlum,{{gap}}sīd‐rand manig
+hafen handa fæst;{{gap}}helm ne gemunde,    {{pline|1290}}
+byrnan sīde,{{gap}}þe hine se brōga angeat.
+Hēo wæs on ofste,{{gap}}wolde ūt þanon
+fēore beorgan,{{gap}}þā hēo onfunden wæs;
+hraðe hēo æðelinga{{gap}}ānne hæfde
+fæste befangen,{{gap}}þā hēo tō fenne gang;
+sē wæs Hrōðgāre{{gap}}hæleða lēofost
+on gesīðes hād{{gap}}be sǣm tweonum,
+rīce rand‐wiga,{{gap}}þone þe hēo on ræste ābrēat,
+blǣd‐fæstne beorn.{{gap}}Næs Bēowulf þǣr,
+ac wæs ōðer in{{gap}}ǣr geteohhod   {{pline|1300}}
+æfter māððum‐gife{{gap}}mǣrum Gēate.
+Hrēam wearð on Heorote.{{gap}}Hēo under heolfre genam
+cūðe folme;{{gap}}cearu wæs genīwod
+geworden in wīcum:{{gap}}ne wæs þæt gewrixle til,
+þæt hīe on bā healfa{{gap}}bicgan scoldon
+frēonda fēorum.{{gap}}Þā wæs frōd cyning,
+hār hilde‐rinc,{{gap}}on hrēon mōde,
+syððan hē aldor‐þegn{{gap}}unlyfigendne,
+þone dēorestan{{gap}}dēadne wisse.
+Hraðe wæs tō būre{{gap}}Bēowulf fetod,      {{pline|1310}}
+sigor‐ēadig secg.{{gap}}Samod ǣr‐dæge
+ēode eorla sum,{{gap}}æðele cempa
+self mid gesīðum,{{gap}}þǣr se snottra bād,
+hwæðre him al‐walda{{gap}}ǣfre wille
+æfter wēa‐spelle{{gap}}wyrpe gefremman.
+Gang þā æfter flōre{{gap}}fyrd‐wyrðe man
+mid his hand‐scale{{gap}}(heal‐wudu dynede)
+þæt hē þone wīsan{{gap}}wordum hnǣgde
+frēan Ingwina;{{gap}}frægn gif him wǣre
+æfter nēod‐laðu{{gap}}niht getǣse.  {{pline|1320}}
+}}
+
+===SORROW AT HEOROT: AESCHERE'S DEATH===
+{{ppoem|
+Hrōðgār maðelode,{{gap}}helm Scildinga:
+"Ne frīn þū æfter sǣlum!{{gap}}Sorh is genīwod
+Denigea lēodum.{{gap}}Dēad is Æsc‐here,
+Yrmenlāfes{{gap}}yldra brōðor,
+mīn rūn‐wita{{gap}}and mīn rǣd‐bora,
+eaxl‐gestealla,{{gap}}þonne wē on orlege
+hafelan weredon,{{gap}}þonne hniton fēðan,
+eoferas cnysedan;{{gap}}swylc scolde eorl wesan
+æðeling ǣr‐gōd,{{gap}}swylc Æsc‐here wæs.
+Wearð him on Heorote{{gap}}tō hand‐banan    {{pline|1330}}
+wæl‐gǣst wǣfre;{{gap}}ic ne wāt hwæder
+atol ǣse wlanc{{gap}}eft‐sīðas tēah,
+fylle gefrǣgnod.{{gap}}Hēo þā fǣhðe wræc,
+þē þū gystran niht{{gap}}Grendel cwealdest
+þurh hǣstne hād{{gap}}heardum clammum,
+forþan hē tō lange{{gap}}lēode mīne
+wanode and wyrde.{{gap}}Hē æt wīge gecrang
+ealdres scyldig,{{gap}}and nū ōðer cwōm
+mihtig mān‐scaða,{{gap}}wolde hyre mǣg wrecan,
+gē feor hafað{{gap}}fǣhðe gestǣled,         {{pline|1340}}
+þæs þe þincean mæg{{gap}}þegne monegum,
+sē þe æfter sinc‐gyfan{{gap}}on sefan grēoteð,
+hreðer‐bealo hearde;{{gap}}nū sēo hand ligeð,
+sē þe ēow wēl‐hwylcra{{gap}}wilna dohte.
+Ic þæt lond‐būend{{gap}}lēode mīne
+sele‐rǣdende{{gap}}secgan hȳrde,
+þæt hīe gesāwon{{gap}}swylce twēgen
+micle mearc‐stapan{{gap}}mōras healdan,
+ellor‐gǣstas:{{gap}}þǣra ōðer wæs,
+þæs þe hīe gewislīcost{{gap}}gewitan meahton,       {{pline|1350}}
+idese onlīcnes,{{gap}}ōðer earm‐sceapen
+on weres wæstmum{{gap}}wræc‐lāstas træd,
+næfne hē wæs māra{{gap}}þonne ǣnig man ōðer,
+þone on geār‐dagum{{gap}}Grendel nemdon
+fold‐būende:{{gap}}nō hīe fæder cunnon,
+hwæðer him ǣnig wæs{{gap}}ǣr ācenned
+dyrnra gāsta.{{gap}}Hīe dȳgel lond
+warigeað, wulf‐hleoðu,{{gap}}windige næssas,
+frēcne fen‐gelād,{{gap}}þǣr fyrgen‐strēam
+under næssa genipu{{gap}}niðer gewīteð,     {{pline|1360}}
+flōd under foldan;{{gap}}nis þæt feor heonon
+mīl‐gemearces,{{gap}}þæt se mere standeð,
+ofer þǣm hongiað{{gap}}hrīmge bearwas,
+wudu wyrtum fæst,{{gap}}wæter oferhelmað.
+Þǣr mæg nihta gehwǣm{{gap}}nīð‐wundor sēon,
+fȳr on flōde;{{gap}}nō þæs frōd leofað
+gumena bearna,{{gap}}þæt þone grund wite;
+þēah þe hǣð‐stapa{{gap}}hundum geswenced,
+heorot hornum trum{{gap}}holt‐wudu sēce,
+feorran geflȳmed,{{gap}}ǣr hē feorh seleð,  {{pline|1370}}
+aldor on ōfre,{{gap}}ǣr hē in wille,
+hafelan hȳdan.{{gap}}Nis þæt hēoru stōw:
+þonon ȳð‐geblond{{gap}}up āstīgeð
+won tō wolcnum,{{gap}}þonne wind styreð
+lāð gewidru,{{gap}}oð þæt lyft drysmað,
+roderas rēotað.{{gap}}Nū is rǣd gelang
+eft æt þē ānum!{{gap}}Eard gīt ne const,
+frēcne stōwe,{{gap}}þǣr þū findan miht
+sinnigne secg:{{gap}}sēc gif þū dyrre!
+Ic þē þā fǣhðe{{gap}}fēo lēanige,   {{pline|1380}}
+eald‐gestrēonum,{{gap}}swā ic ǣr dyde,
+wundnum golde,{{gap}}gyf þū on weg cymest."
+}}
+
+===BĒOWULF SEEKS THE MONSTER IN THE HAUNTS OF THE NIXIES.===
+{{ppoem|
+Bēowulf maðelode,{{gap}}bearn Ecgþēowes:
+"Ne sorga, snotor guma!{{gap}}sēlre bið ǣghwǣm,
+þæt hē his frēond wrece,{{gap}}þonne hē fela murne;
+ūre ǣghwylc sceal{{gap}}ende gebīdan
+worolde līfes;{{gap}}wyrce sē þe mōte
+dōmes ǣr dēaðe!{{gap}}þæt bið driht‐guman
+unlifgendum{{gap}}æfter sēlest.
+Ārīs, rīces weard;{{gap}}uton hraðe fēran,  {{pline|1390}}
+Grendles māgan{{gap}}gang scēawigan!
+Ic hit þē gehāte:{{gap}}nō hē on helm losað,
+nē on foldan fæðm,{{gap}}nē on fyrgen‐holt,
+nē on gyfenes grund,{{gap}}gā þǣr hē wille.
+Þȳs dōgor þū{{gap}}geþyld hafa
+wēana gehwylces,{{gap}}swā ic þē wēne tō!"
+Āhlēop þā se gomela,{{gap}}gode þancode,
+mihtigan drihtne,{{gap}}þæs se man gespræc.
+Þā wæs Hrōðgāre{{gap}}hors gebǣted,
+wicg wunden‐feax.{{gap}}Wīsa fengel         {{pline|1400}}
+geatolīc gengde;{{gap}}gum‐fēða stōp
+lind‐hæbbendra.{{gap}}Lāstas wǣron
+æfter wald‐swaðum{{gap}}wīde gesȳne,
+gang ofer grundas;{{gap}}gegnum fōr þā
+ofer myrcan mōr,{{gap}}mago‐þegna bær
+þone sēlestan{{gap}}sāwol‐lēasne,
+þāra þe mid Hrōðgāre{{gap}}hām eahtode.
+Ofer‐ēode þā{{gap}}æðelinga bearn
+stēap stān‐hliðo,{{gap}}stīge nearwe,
+enge ān‐paðas,{{gap}}un‐cūð gelād,  {{pline|1410}}
+neowle næssas,{{gap}}nicor‐hūsa fela;
+hē fēara sum{{gap}}beforan gengde
+wīsra monna,{{gap}}wong scēawian,
+oð þæt hē fǣringa{{gap}}fyrgen‐bēamas
+ofer hārne stān{{gap}}hleonian funde,
+wyn‐lēasne wudu;{{gap}}wæter under stōd
+drēorig and gedrēfed.{{gap}}Denum eallum wæs,
+winum Scyldinga,{{gap}}weorce on mōde,
+tō geþolianne{{gap}}þegne monegum,
+oncȳð eorla gehwǣm,{{gap}}syððan Æsc‐heres  {{pline|1420}}
+on þām holm‐clife{{gap}}hafelan mētton.
+Flōd blōde wēol{{gap}}(folc tō sǣgon)
+hātan heolfre.{{gap}}Horn stundum song
+fūslīc fyrd‐lēoð.{{gap}}Fēða eal gesæt;
+gesāwon þā æfter wætere{{gap}}wyrm‐cynnes fela,
+sellīce sǣ‐dracan{{gap}}sund cunnian,
+swylce on næs‐hleoðum{{gap}}nicras licgean,
+þā on undern‐mǣl{{gap}}oft bewitigað
+sorh‐fulne sīð{{gap}}on segl‐rāde,
+wyrmas and wil‐dēor;{{gap}}hīe on weg hruron        {{pline|1430}}
+bitere and gebolgne,{{gap}}bearhtm ongeāton,
+gūð‐horn galan.{{gap}}Sumne Gēata lēod
+of flān‐bogan{{gap}}fēores getwǣfde,
+ȳð‐gewinnes,{{gap}}þæt him on aldre stōd
+here‐strǣl hearda;{{gap}}hē on holme wæs
+sundes þē sǣnra,{{gap}}þē hyne swylt fornam.
+Hræðe wearð on ȳðum{{gap}}mid eofer‐sprēotum
+heoro‐hōcyhtum{{gap}}hearde genearwod,
+nīða genǣged{{gap}}and on næs togen
+wundorlīc wǣg‐bora;{{gap}}weras scēawedon   {{pline|1440}}
+gryrelīcne gist.{{gap}}Gyrede hine Bēowulf
+eorl‐gewǣdum,{{gap}}nalles for ealdre mearn:
+scolde here‐byrne{{gap}}hondum gebrōden,
+sīd and searo‐fāh,{{gap}}sund cunnian,
+sēo þe bān‐cofan{{gap}}beorgan cūðe,
+þæt him hilde‐grāp{{gap}}hreðre ne mihte,
+eorres inwit‐feng,{{gap}}aldre gesceððan;
+ac se hwīta helm{{gap}}hafelan werede,
+sē þe mere‐grundas{{gap}}mengan scolde,
+sēcan sund‐gebland{{gap}}since geweorðad,   {{pline|1450}}
+befongen frēa‐wrāsnum,{{gap}}swā hine fyrn‐dagum
+worhte wǣpna smið,{{gap}}wundrum tēode,
+besette swīn‐līcum,{{gap}}þæt hine syððan nō
+brond nē beado‐mēcas{{gap}}bītan ne meahton.
+Næs þæt þonne mǣtost{{gap}}mægen‐fultuma,
+þæt him on þearfe lāh{{gap}}þyle Hrōðgāres;
+wæs þǣm hæft‐mēce{{gap}}Hrunting nama,
+þæt wæs ān foran{{gap}}eald‐gestrēona;
+ecg wæs īren{{gap}}āter‐tēarum fāh,
+āhyrded heaðo‐swāte;{{gap}}nǣfre hit æt hilde ne swāc       {{pline|1460}}
+manna ǣngum{{gap}}þāra þe hit mid mundum bewand,
+sē þe gryre‐sīðas{{gap}}gegān dorste,
+folc‐stede fāra;{{gap}}næs þæt forma sīð,
+þæt hit ellen‐weorc{{gap}}æfnan scolde.
+Hūru ne gemunde{{gap}}mago Ecglāfes
+eafoðes cræftig,{{gap}}þæt hē ǣr gespræc
+wīne druncen,{{gap}}þā hē þæs wǣpnes onlāh
+sēlran sweord‐frecan:{{gap}}selfa ne dorste
+under ȳða gewin{{gap}}aldre genēðan,
+driht‐scype drēogan;{{gap}}þǣr hē dōme forlēas,     {{pline|1470}}
+ellen‐mǣrðum.{{gap}}Ne wæs þǣm ōðrum swā,
+syððan hē hine tō gūðe{{gap}}gegyred hæfde.
+}}
+
+===THE BATTLE WITH THE WATER-DRAKE.===
+{{ppoem|
+Bēowulf maðelode,{{gap}}bearn Ecgþēowes:
+"geþenc nū, se mǣra{{gap}}maga Healfdenes,
+snottra fengel,{{gap}}nū ic eom sīðes fūs,
+gold‐wine gumena,{{gap}}hwæt wit geō sprǣcon,
+gif ic æt þearfe{{gap}}þīnre scolde
+aldre linnan,{{gap}}þæt þū mē ā wǣre
+forð‐gewitenum{{gap}}on fæder stǣle;
+wes þū mund‐bora mīnum{{gap}}mago‐þegnum,   {{pline|1480}}
+hond‐gesellum,{{gap}}gif mec hild nime:
+swylce þū þā mādmas,{{gap}}þē þū mē sealdest,
+Hrōðgār lēofa,{{gap}}Higelāce onsend.
+Mæg þonne on þǣm golde ongitan{{gap}}Gēata dryhten,
+gesēon sunu Hrēðles,{{gap}}þonne hē on þæt sinc starað,
+þæt ic gum‐cystum{{gap}}gōdne funde
+bēaga bryttan,{{gap}}brēac þonne mōste.
+And þū Unferð lǣt{{gap}}ealde lāfe,
+wrǣtlīc wǣg‐sweord{{gap}}wīd‐cūðne man
+heard‐ecg habban;{{gap}}ic mē mid Hruntinge         {{pline|1490}}
+dōm gewyrce,{{gap}}oððe mec dēað nimeð."
+Æfter þǣm wordum{{gap}}Weder‐Gēata lēod
+efste mid elne,{{gap}}nalas andsware
+bīdan wolde;{{gap}}brim‐wylm onfēng
+hilde‐rince.{{gap}}Þā wæs hwīl dæges,
+ǣr hē þone grund‐wong{{gap}}ongytan mehte.
+Sōna þæt onfunde,{{gap}}sē þe flōda begong
+heoro‐gīfre behēold{{gap}}hund missēra,
+grim and grǣdig,{{gap}}þæt þǣr gumena sum
+æl‐wihta eard{{gap}}ufan cunnode.   {{pline|1500}}
+Grāp þā tōgēanes,{{gap}}gūð‐rinc gefēng
+atolan clommum;{{gap}}nō þȳ ǣr in gescōd
+hālan līce:{{gap}}hring ūtan ymb‐bearh,
+þæt hēo þone fyrd‐hom{{gap}}þurh‐fōn ne mihte,
+locene leoðo‐syrcan{{gap}}lāðan fingrum.
+Bær þā sēo brim‐wylf,{{gap}}þā hēo tō botme cōm,
+hringa þengel{{gap}}tō hofe sīnum,
+swā hē ne mihte nō{{gap}}(hē þæs mōdig wæs)
+wǣpna gewealdan,{{gap}}ac hine wundra þæs fela
+swencte on sunde,{{gap}}sǣ‐dēor monig       {{pline|1510}}
+hilde‐tūxum{{gap}}here‐syrcan bræc,
+ēhton āglǣcan.{{gap}}Þā se eorl ongeat,
+þæt hē in nið‐sele{{gap}}nāt‐hwylcum wæs,
+þǣr him nǣnig wæter{{gap}}wihte ne sceðede,
+nē him for hrōf‐sele{{gap}}hrīnan ne mehte
+fǣr‐gripe flōdes:{{gap}}fȳr‐lēoht geseah,
+blācne lēoman{{gap}}beorhte scīnan.
+Ongeat þā se gōda{{gap}}grund‐wyrgenne,
+mere‐wīf mihtig;{{gap}}mægen‐rǣs forgeaf
+hilde‐bille,{{gap}}hond swenge ne oftēah,   {{pline|1520}}
+þæt hire on hafelan{{gap}}hring‐mǣl āgōl
+grǣdig gūð‐lēoð.{{gap}}Þā se gist onfand,
+þæt se beado‐lēoma{{gap}}bītan nolde,
+aldre sceððan,{{gap}}ac sēo ecg geswāc
+þēodne æt þearfe:{{gap}}þolode ǣr fela
+hond‐gemōta,{{gap}}helm oft gescær,
+fǣges fyrd‐hrægl:{{gap}}þæt wæs forma sīð
+dēorum māðme,{{gap}}þæt his dōm ālæg.
+Eft wæs ān‐rǣd,{{gap}}nalas elnes læt,
+mǣrða gemyndig{{gap}}mǣg Hygelāces;         {{pline|1530}}
+wearp þā wunden‐mǣl{{gap}}wrǣttum gebunden
+yrre ōretta,{{gap}}þæt hit on eorðan læg,
+stīð and stȳl‐ecg;{{gap}}strenge getruwode,
+mund‐gripe mægenes.{{gap}}Swā sceal man dōn,
+þonne hē æt gūðe{{gap}}gegān þenceð
+longsumne lof,{{gap}}nā ymb his līf cearað.
+Gefēng þā be eaxle{{gap}}(nalas for fǣhðe mearn)
+Gūð‐Gēata lēod{{gap}}Grendles mōdor;
+brægd þā beadwe heard,{{gap}}þā hē gebolgen wæs,
+feorh‐genīðlan,{{gap}}þæt hēo on flet gebēah.       {{pline|1540}}
+Hēo him eft hraðe{{gap}}and‐lēan forgeald
+grimman grāpum{{gap}}and him tōgēanes fēng;
+oferwearp þā wērig‐mōd{{gap}}wigena strengest,
+fēðe‐cempa,{{gap}}þæt hē on fylle wearð.
+Ofsæt þā þone sele‐gyst{{gap}}and hyre seaxe getēah,
+brād and brūn‐ecg{{gap}}wolde hire bearn wrecan,
+āngan eaferan.{{gap}}Him on eaxle læg
+brēost‐net brōden;{{gap}}þæt gebearh fēore,
+wið ord and wið ecge{{gap}}ingang forstōd.
+Hæfde þā forsīðod{{gap}}sunu Ecgþēowes      {{pline|1550}}
+under gynne grund,{{gap}}Gēata cempa,
+nemne him heaðo‐byrne{{gap}}helpe gefremede,
+here‐net hearde,{{gap}}and hālig god
+gewēold wīg‐sigor,{{gap}}wītig drihten;
+rodera rǣdend{{gap}}hit on ryht gescēd,
+ȳðelīce{{gap}}syððan hē eft āstōd.
+}}
+
+===BĒOWULF SLAYS THE SPRITE.===
+{{ppoem|
+Geseah þā on searwum{{gap}}sige‐ēadig bil,
+eald sweord eotenisc{{gap}}ecgum þȳhtig,
+wigena weorð‐mynd:{{gap}}þæt wæs wǣpna cyst,
+būton hit wæs māre{{gap}}þonne ǣnig mon ōðer        {{pline|1560}}
+tō beadu‐lāce{{gap}}ætberan meahte
+gōd and geatolīc{{gap}}gīganta geweorc.
+Hē gefēng þā fetel‐hilt,{{gap}}freca Scildinga,
+hrēoh and heoro‐grim{{gap}}hring‐mǣl gebrægd,
+aldres orwēna,{{gap}}yrringa slōh,
+þæt hire wið halse{{gap}}heard grāpode,
+bān‐hringas bræc,{{gap}}bil eal þurh‐wōd
+fǣgne flǣsc‐homan,{{gap}}hēo on flet gecrong;
+sweord wæs swātig,{{gap}}secg weorce gefeh.
+Līxte se lēoma,{{gap}}lēoht inne stōd,      {{pline|1570}}
+efne swā of hefene{{gap}}hādre scīneð
+rodores candel.{{gap}}Hē æfter recede wlāt,
+hwearf þā be wealle,{{gap}}wǣpen hafenade
+heard be hiltum{{gap}}Higelāces þegn,
+yrre and ān‐rǣd.{{gap}}Næs sēo ecg fracod
+hilde‐rince,{{gap}}ac hē hraðe wolde
+Grendle forgyldan{{gap}}gūð‐rǣsa fela
+þāra þe hē geworhte{{gap}}tō West‐Denum
+oftor micle{{gap}}þonne on ǣnne sīð,
+þonne hē Hrōðgāres{{gap}}heorð‐genēatas     {{pline|1580}}
+slōh on sweofote,{{gap}}slǣpende fræt
+folces Denigea{{gap}}fȳf‐tȳne men
+and ōðer swylc{{gap}}ūt of‐ferede,
+lāðlīcu lāc.{{gap}}Hē him þæs lēan forgeald,
+rēðe cempa,{{gap}}tō þæs þe hē on ræste geseah
+gūð‐wērigne{{gap}}Grendel licgan,
+aldor‐lēasne,{{gap}}swā him ǣr gescōd
+hild æt Heorote;{{gap}}hrā wīde sprong,
+syððan hē æfter dēaðe{{gap}}drepe þrowade,
+heoro‐sweng heardne,{{gap}}and hine þā hēafde becearf,      {{pline|1590}}
+Sōna þæt gesāwon{{gap}}snottre ceorlas,
+þā þe mid Hrōðgāre{{gap}}on holm wliton,
+þæt wæs ȳð‐geblond{{gap}}eal gemenged,
+brim blōde fāh:{{gap}}blonden‐feaxe
+gomele ymb gōdne{{gap}}ongeador sprǣcon,
+þæt hig þæs æðelinges{{gap}}eft ne wēndon,
+þæt hē sige‐hrēðig{{gap}}sēcean cōme
+mǣrne þēoden;{{gap}}þā þæs monige gewearð,
+þæt hine sēo brim‐wylf{{gap}}ābroten hæfde.
+Þā cōm nōn dæges.{{gap}}Næs ofgēafon        {{pline|1600}}
+hwate Scyldingas; gewāt him hām þonon
+gold‐wine gumena.{{gap}}Gistas sētan,
+mōdes sēoce,{{gap}}and on mere staredon,
+wiston and ne wēndon,{{gap}}þæt hīe heora wine‐drihten
+selfne gesāwon.{{gap}}Þā þæt sweord ongan
+æfter heaðo‐swāte{{gap}}hilde‐gicelum
+wīg‐bil wanian;{{gap}}þæt wæs wundra sum,
+þæt hit eal gemealt{{gap}}īse gelīcost,
+þonne forstes bend{{gap}}fæder onlǣteð,
+onwindeð wæl‐rāpas,{{gap}}sē þe geweald hafað       {{pline|1610}}
+sǣla and mǣla;{{gap}}þæt is sōð metod.
+Ne nom hē in þǣm wīcum,{{gap}}Weder‐Gēata lēod,
+māðm‐ǣhta mā,{{gap}}þēh hē þǣr monige geseah,
+būton þone hafelan{{gap}}and þā hilt somod,
+since fāge;{{gap}}sweord ǣr gemealt,
+forbarn brōden mǣl:{{gap}}wæs þæt blōd tō þæs hāt,
+ǣttren ellor‐gǣst,{{gap}}sē þǣr inne swealt.
+Sōna wæs on sunde,{{gap}}sē þe ǣr æt sæcce gebād
+wīg‐hryre wrāðra,{{gap}}wæter up þurh‐dēaf;
+wǣron ȳð‐gebland{{gap}}eal gefǣlsod,        {{pline|1620}}
+ēacne eardas,{{gap}}þā se ellor‐gāst
+oflēt līf‐dagas{{gap}}and þās lǣnan gesceaft.
+Cōm þā tō lande{{gap}}lid‐manna helm
+swīð‐mōd swymman,{{gap}}sǣ‐lāce gefeah,
+mægen‐byrðenne{{gap}}þāra þe hē him mid hæfde.
+Ēodon him þā tōgēanes,{{gap}}gode þancodon,
+þrȳðlīc þegna hēap,{{gap}}þēodnes gefēgon,
+þæs þe hī hyne gesundne{{gap}}gesēon mōston.
+Þā wæs of þǣm hrōran{{gap}}helm and byrne
+lungre ālȳsed:{{gap}}lagu drūsade,  {{pline|1630}}
+wæter under wolcnum,{{gap}}wæl‐drēore fāg.
+Fērdon forð þonon{{gap}}fēðe‐lāstum
+ferhðum fægne,{{gap}}fold‐weg mǣton,
+cūðe strǣte;{{gap}}cyning‐balde men
+from þǣm holm‐clife{{gap}}hafelan bǣron
+earfoðlīce{{gap}}heora ǣghwæðrum
+fela‐mōdigra:{{gap}}fēower scoldon
+on ðæm wæl‐stenge{{gap}}weorcum geferian
+tō þǣm gold‐sele{{gap}}Grendles hēafod,
+oð þæt semninga{{gap}}tō sele cōmon         {{pline|1640}}
+frome fyrd‐hwate{{gap}}fēower‐tȳne
+Gēata gongan;{{gap}}gum‐dryhten mid
+mōdig on gemonge{{gap}}meodo‐wongas træd.
+Þā cōm in gān{{gap}}ealdor þegna,
+dǣd‐cēne mon{{gap}}dōme gewurðad,
+hæle hilde‐dēor.{{gap}}Hrōðgār grētan:
+Þā wæs be feaxe{{gap}}on flet boren
+Grendles hēafod,{{gap}}þǣr guman druncon,
+egeslīc for eorlum{{gap}}and þǣre idese mid:
+wlite‐sēon wrǣtlīc{{gap}}weras onsāwon.     {{pline|1650}}
+}}
+
+===HROTHGAR'S GRATITUDE: HE DISCOURSES.===
+{{ppoem|
+Bēowulf maðelode,{{gap}}bearn Ecgþēowes:
+"Hwæt! wē þē þās sǣ‐lāc,{{gap}}sunu Healfdenes,
+lēod Scyldinga,{{gap}}lustum brōhton,
+tīres tō tācne,{{gap}}þē þū hēr tō lōcast.
+Ic þæt unsōfte{{gap}}ealdre gedīgde:
+wigge under wætere{{gap}}weorc genēðde
+earfoðlīce,{{gap}}æt‐rihte wæs
+gūð getwǣfed,{{gap}}nymðe mec god scylde.
+Ne meahte ic æt hilde{{gap}}mid Hruntinge
+wiht gewyrcan,{{gap}}þēah þæt wǣpen duge,   {{pline|1660}}
+ac mē geūðe{{gap}}ylda waldend,
+þæt ic on wāge geseah{{gap}}wlitig hangian
+eald sweord ēacen{{gap}}(oftost wīsode
+winigea lēasum){{gap}}þæt ic þȳ wǣpne gebrǣ.
+Ofslōh þā æt þǣre sæcce{{gap}}(þā mē sǣl āgeald)
+hūses hyrdas.{{gap}}Þā þæt hilde‐bil
+forbarn, brogden mǣl,{{gap}}swā þæt blōd gesprang,
+hātost heaðo‐swāta:{{gap}}ic þæt hilt þanan
+fēondum ætferede;{{gap}}fyren‐dǣda wræc,
+dēað‐cwealm Denigea,{{gap}}swā hit gedēfe wæs.      {{pline|1670}}
+Ic hit þē þonne gehāte,{{gap}}þæt þū on Heorote mōst
+sorh‐lēas swefan{{gap}}mid þīnra secga gedryht,
+and þegna gehwylc{{gap}}þīnra lēoda,
+duguðe and iogoðe,{{gap}}þæt þū him ondrǣdan ne þearft,
+þēoden Scyldinga,{{gap}}on þā healfe,
+aldor‐bealu eorlum,{{gap}}swā þū ǣr dydest."
+Þā wæs gylden hilt{{gap}}gamelum rince.
+hārum hild‐fruman,{{gap}}on hand gyfen,
+enta ǣr‐geweorc,{{gap}}hit on ǣht gehwearf
+æfter dēofla hryre{{gap}}Denigea frēan,     {{pline|1680}}
+wundor‐smiða geweorc,{{gap}}and þā þās worold ofgeaf
+grom‐heort guma,{{gap}}godes andsaca,
+morðres scyldig,{{gap}}and his mōdor ēac;
+on geweald gehwearf{{gap}}worold‐cyninga
+þǣm sēlestan{{gap}}be sǣm twēonum
+þāra þe on Sceden‐igge{{gap}}sceattas dǣlde.
+Hrōðgār maðelode,{{gap}}hylt scēawode,
+ealde lāfe,{{gap}}on þǣm wæs ōr writen
+fyrn‐gewinnes:{{gap}}syððan flōd ofslōh,
+gifen gēotende,{{gap}}gīganta cyn,  {{pline|1690}}
+frēcne gefērdon:{{gap}}þæt wæs fremde þēod
+ēcean dryhtne,{{gap}}him þæs ende‐lēan
+þurh wæteres wylm{{gap}}waldend sealde.
+Swā wæs on þǣm scennum{{gap}}scīran goldes
+þurh rūn‐stafas{{gap}}rihte gemearcod,
+geseted and gesǣd,{{gap}}hwām þæt sweord geworht,
+īrena cyst{{gap}}ǣrest wǣre,
+wreoðen‐hilt and wyrm‐fāh.{{gap}}þā se wīsa spræc
+sunu Healfdenes{{gap}}(swīgedon ealle):
+"Þæt lā mæg secgan,{{gap}}sē þe sōð and riht        {{pline|1700}}
+fremeð on folce,{{gap}}(feor eal gemon
+eald ēðel‐weard),{{gap}}þæt þes eorl wǣre
+geboren betera!{{gap}}Blǣd is ārǣred
+geond wīd‐wegas,{{gap}}wine mīn Bēowulf,
+þīn ofer þēoda gehwylce.{{gap}}Eal þū hit geþyldum healdest,
+mægen mid mōdes snyttrum.{{gap}}Ic þē sceal mīne gelǣstan
+frēode, swā wit furðum sprǣcon;{{gap}}þū scealt tō frōfre weorðan
+eal lang‐twidig{{gap}}lēodum þīnum,
+hæleðum tō helpe.{{gap}}Ne wearð Heremōd swā
+eaforum Ecgwelan,{{gap}}Ār‐Scyldingum;      {{pline|1710}}
+ne gewēox hē him tō willan,{{gap}}ac tō wæl‐fealle
+and tō dēað‐cwalum{{gap}}Deniga lēodum;
+brēat bolgen‐mōd{{gap}}bēod‐genēatas,
+eaxl‐gesteallan,{{gap}}oð þæt hē āna hwearf,
+mǣre þēoden.{{gap}}mon‐drēamum from:
+þēah þe hine mihtig god{{gap}}mægenes wynnum,
+eafeðum stēpte,{{gap}}ofer ealle men
+forð gefremede,{{gap}}hwæðere him on ferhðe grēow
+brēost‐hord blōd‐rēow:{{gap}}nallas bēagas geaf
+Denum æfter dōme;{{gap}}drēam‐lēas gebād,   {{pline|1720}}
+þæt hē þæs gewinnes{{gap}}weorc þrowade,
+lēod‐bealo longsum.{{gap}}Þū þē lǣr be þon,
+gum‐cyste ongit!{{gap}}ic þis gid be þē
+āwræc wintrum frōd.{{gap}}Wundor is tō secganne,
+hū mihtig god{{gap}}manna cynne
+þurh sīdne sefan{{gap}}snyttru bryttað,
+eard and eorl‐scipe,{{gap}}hē āh ealra geweald.
+Hwīlum hē on lufan{{gap}}lǣteð hworfan
+monnes mōd‐geþonc{{gap}}mǣran cynnes,
+seleð him on ēðle{{gap}}eorðan wynne,       {{pline|1730}}
+tō healdanne{{gap}}hlēo‐burh wera,
+gedēð him swā gewealdene{{gap}}worolde dǣlas,
+sīde rīce,{{gap}}þæt hē his selfa ne mæg
+for his un‐snyttrum{{gap}}ende geþencean;
+wunað hē on wiste,{{gap}}nō hine wiht dweleð,
+ādl nē yldo,{{gap}}nē him inwit‐sorh
+on sefan sweorceð,{{gap}}nē gesacu ōhwǣr,
+ecg‐hete ēoweð,{{gap}}ac him eal worold
+wendeð on willan;{{gap}}hē þæt wyrse ne con,
+oð þæt him on innan{{gap}}ofer‐hygda dǣl    {{pline|1740}}
+weaxeð and wridað,{{gap}}þonne se weard swefeð,
+sāwele hyrde:{{gap}}bið se slǣp tō fæst,
+bisgum gebunden,{{gap}}bona swīðe nēah,
+sē þe of flān‐bogan{{gap}}fyrenum scēoteð.
+}}
+
+===THE DISCOURSE IS ENDED.-BĒOWULF PREPARES TO LEAVE.===
+{{ppoem|
+"Þonne bið on hreðre{{gap}}under helm drepen
+biteran strǣle:{{gap}}him bebeorgan ne con
+wom wundor‐bebodum{{gap}}wergan gāstes;
+þinceð him tō lȳtel,{{gap}}þæt hē tō lange hēold,
+gȳtsað grom‐hȳdig,{{gap}}nallas on gylp seleð
+fǣtte bēagas{{gap}}and hē þā forð‐gesceaft  {{pline|1750}}
+forgyteð and forgȳmeð,{{gap}}þæs þe him ǣr god sealde
+wuldres waldend,{{gap}}weorð‐mynda dǣl.
+Hit on ende‐stæf{{gap}}eft gelimpeð,
+þæt se līc‐homa{{gap}}lǣne gedrēoseð,
+fǣge gefealleð;{{gap}}fēhð ōðer tō,
+sē þe unmurnlīce{{gap}}mādmas dǣleð,
+eorles ǣr‐gestrēon,{{gap}}egesan ne gȳmeð.
+Bebeorh þē þone bealo‐nīð,{{gap}}Bēowulf lēofa,
+secg se betsta,{{gap}}and þē þæt sēlre gecēos,
+ēce rǣdas;{{gap}}oferhȳda ne gȳm,   {{pline|1760}}
+mǣre cempa!{{gap}}Nū is þīnes mægnes blǣd
+āne hwīle;{{gap}}eft sōna bið,
+þæt þec ādl oððe ecg{{gap}}eafoðes getwǣfeð,
+oððe fȳres feng{{gap}}oððe flōdes wylm,
+oððe gripe mēces{{gap}}oððe gāres fliht,
+oððe atol yldo,{{gap}}oððe ēagena bearhtm
+forsiteð and forsworceð;{{gap}}semninga bið,
+þæt þec, dryht‐guma,{{gap}}dēað oferswȳðeð.
+Swā ic Hring‐Dena{{gap}}hund missēra
+wēold under wolcnum,{{gap}}and hig wigge belēac     {{pline|1770}}
+manigum mǣgða{{gap}}geond þysne middan‐geard,
+æscum and ecgum,{{gap}}þæt ic mē ǣnigne
+under swegles begong{{gap}}gesacan ne tealde.
+Hwæt! mē þæs on ēðle{{gap}}edwenden cwōm,
+gyrn æfter gomene,{{gap}}seoððan Grendel wearð,
+eald‐gewinna,{{gap}}in‐genga mīn:
+ic þǣre sōcne{{gap}}singāles wæg
+mōd‐ceare micle.{{gap}}Þæs sig metode þanc,
+ēcean drihtne,{{gap}}þæs þe ic on aldre gebād,
+þæt ic on þone hafelan{{gap}}heoro‐drēorigne        {{pline|1780}}
+ofer eald gewin{{gap}}ēagum starige!
+Gā nū tō setle,{{gap}}symbel‐wynne drēoh
+wīgge weorðad:{{gap}}unc sceal worn fela
+māðma gemǣnra,{{gap}}siððan morgen bið."
+Gēat wæs glæd‐mōd,{{gap}}gēong sōna tō,
+setles nēosan,{{gap}}swā se snottra heht.
+Þā wæs eft swā ǣr{{gap}}ellen‐rōfum,
+flet‐sittendum{{gap}}fægere gereorded
+nīowan stefne.{{gap}}Niht‐helm geswearc
+deorc ofer dryht‐gumum.{{gap}}Duguð eal ārās;       {{pline|1790}}
+wolde blonden‐feax{{gap}}beddes nēosan,
+gamela Scylding.{{gap}}Gēat ungemetes wēl,
+rōfne rand‐wigan{{gap}}restan lyste:
+sōna him sele‐þegn{{gap}}sīðes wērgum,
+feorran‐cundum{{gap}}forð wīsade,
+se for andrysnum{{gap}}ealle beweotede
+þegnes þearfe,{{gap}}swylce þȳ dōgore
+hēaðo‐līðende{{gap}}habban scoldon.
+Reste hine þā rūm‐heort;{{gap}}reced hlīfade
+gēap and gold‐fāh,{{gap}}gæst inne swæf,    {{pline|1800}}
+oð þæt hrefn blaca{{gap}}heofones wynne
+blīð‐heort bodode.{{gap}}Þā cōm beorht sunne
+scacan ofer grundas;{{gap}}scaðan ōnetton,
+wǣron æðelingas{{gap}}eft tō lēodum
+fūse tō farenne,{{gap}}wolde feor þanon
+cuma collen‐ferhð{{gap}}cēoles nēosan.
+Heht þā se hearda{{gap}}Hrunting beran,
+sunu Ecglāfes,{{gap}}heht his sweord niman,
+lēoflīc īren;{{gap}}sægde him þæs lēanes þanc,
+cwæð hē þone gūð‐wine{{gap}}gōdne tealde,   {{pline|1810}}
+wīg‐cræftigne,{{gap}}nales wordum lōg
+mēces ecge:{{gap}}þæt wæs mōdig secg.
+And þā sīð‐frome{{gap}}searwum gearwe
+wīgend wǣron,{{gap}}ēode weorð Denum
+æðeling tō yppan,{{gap}}þǣr se ōðer wæs
+hæle hilde‐dēor,{{gap}}Hrōðgār grētte.
+}}
+
+===THE PARTING WORDS.===
+{{ppoem|
+Bēowulf maðelode,{{gap}}bearn Ecgþēowes:
+"Nū wē sǣ‐līðend{{gap}}secgan wyllað
+feorran cumene,{{gap}}þæt wē fundiað
+Higelāc sēcan.{{gap}}Wǣron hēr tela         {{pline|1820}}
+willum bewenede;{{gap}}þū ūs wēl dohtest.
+Gif ic þonne on eorðan{{gap}}ōwihte mæg
+þīnre mōd‐lufan{{gap}}māran tilian,
+gumena dryhten,{{gap}}þonne ic gȳt dyde,
+gūð‐geweorca{{gap}}ic bēo gearo sōna.
+Gif ic þæt gefricge{{gap}}ofer flōda begang,
+þæt þec ymbe‐sittend{{gap}}egesan þȳwað,
+swā þec hetende{{gap}}hwīlum dydon,
+ic þē þūsenda{{gap}}þegna bringe,
+hæleða tō helpe.{{gap}}Ic on Higelāce wāt,  {{pline|1830}}
+Gēata dryhten,{{gap}}þēah þe hē geong sȳ,
+folces hyrde,{{gap}}þæt hē mec fremman wile
+wordum and worcum,{{gap}}þæt ic þē wēl herige,
+and þē tō gēoce{{gap}}gār‐holt bere
+mægenes fultum,{{gap}}þǣr þē bið manna þearf;
+gif him þonne Hrēðrīc{{gap}}tō hofum Gēata
+geþingeð, þēodnes bearn,{{gap}}hē mæg þǣr fela
+frēonda findan:{{gap}}feor‐cȳððe bēoð
+sēlran gesōhte{{gap}}þǣm þe him selfa dēah."
+Hrōðgār maðelode{{gap}}him on andsware:     {{pline|1840}}
+"Þē þā word‐cwydas{{gap}}wittig drihten
+on sefan sende!{{gap}}ne hȳrde ic snotorlīcor
+on swā geongum feore{{gap}}guman þingian:
+þū eart mægenes strang{{gap}}and on mōde frōd,
+wīs word‐cwida.{{gap}}Wēn ic talige,
+gif þæt gegangeð,{{gap}}þæt þe gār nymeð,
+hild heoru‐grimme{{gap}}Hrēðles eaferan,
+ādl oððe īren{{gap}}ealdor þīnne,
+folces hyrde,{{gap}}and þū þīn feorh hafast,
+þæt þe Sǣ‐Gēatas{{gap}}sēlran næbben        {{pline|1850}}
+tō gecēosenne{{gap}}cyning ǣnigne,
+hord‐weard hæleða,{{gap}}gif þū healdan wylt
+māga rīce.{{gap}}Mē þīn mōd‐sefa
+līcað leng swā wēl,{{gap}}lēofa Bēowulf:
+hafast þū gefēred,{{gap}}þæt þām folcum sceal,
+Gēata lēodum{{gap}}and Gār‐Denum
+sib gemǣnum{{gap}}and sacu restan,
+inwit‐nīðas,{{gap}}þē hīe ǣr drugon;
+wesan, þenden ic wealde{{gap}}wīdan rīces,
+māðmas gemǣne,{{gap}}manig ōðerne   {{pline|1860}}
+gōdum gegrētan{{gap}}ofer ganotes bæð;
+sceal hring‐naca{{gap}}ofer hēaðu bringan
+lāc and luf‐tācen.{{gap}}Ic þā lēode wāt
+gē wið fēond gē wið frēond{{gap}}fæste geworhte
+ǣghwæs untǣle{{gap}}ealde wīsan."
+Þā gīt him eorla hlēo{{gap}}inne gesealde,
+mago Healfdenes{{gap}}māðmas twelfe,
+hēt hine mid þǣm lācum{{gap}}lēode swǣse
+sēcean on gesyntum,{{gap}}snūde eft cuman.
+Gecyste þā{{gap}}cyning æðelum gōd,         {{pline|1870}}
+þēoden Scildinga,{{gap}}þegen betstan
+and be healse genam;{{gap}}hruron him tēaras,
+blonden‐feaxum:{{gap}}him wæs bēga wēn,
+ealdum infrōdum,{{gap}}ōðres swīðor,
+þæt hī seoððan{{gap}}gesēon mōston
+mōdige on meðle.{{gap}}Wæs him se man tō þon lēof,
+þæt hē þone brēost‐wylm{{gap}}forberan ne mehte,
+ac him on hreðre{{gap}}hyge‐bendum fæst
+æfter dēorum men{{gap}}dyrne langað
+beorn wið blōde.{{gap}}Him Bēowulf þanan,   {{pline|1880}}
+gūð‐rinc gold‐wlanc{{gap}}græs‐moldan træd,
+since hrēmig:{{gap}}sǣ‐genga bād
+āgend‐frēan,{{gap}}sē þe on ancre rād.
+Þā wæs on gange{{gap}}gifu Hrōðgāres
+oft geæhted:{{gap}}þæt wæs ān cyning
+ǣghwæs orleahtre,{{gap}}oð þæt hine yldo benam
+mægenes wynnum,{{gap}}sē þe oft manegum scōd.
+}}
+
+===BĒOWULF RETURNS TO GEATLAND.-THE QUEENS HYGD AND THRYTHO.===
+{{ppoem|
+Cwōm þā tō flōde{{gap}}fela‐mōdigra
+hæg‐stealdra hēap;{{gap}}hring‐net bǣron,
+locene leoðo‐syrcan.{{gap}}Land‐weard onfand        {{pline|1890}}
+eft‐sīð eorla,{{gap}}swā hē ǣr dyde;
+nō hē mid hearme{{gap}}of hlīðes nosan
+gæstas grētte,{{gap}}ac him tōgēanes rād;
+cwæð þæt wilcuman{{gap}}Wedera lēodum
+scawan scīr‐hame{{gap}}tō scipe fōron.
+Þā wæs on sande{{gap}}sǣ‐gēap naca
+hladen here‐wǣdum,{{gap}}hringed‐stefna
+mēarum and māðmum:{{gap}}mæst hlīfade
+ofer Hrōðgāres{{gap}}hord‐gestrēonum.
+Hē þǣm bāt‐wearde{{gap}}bunden golde        {{pline|1900}}
+swurd gesealde,{{gap}}þæt hē syððan wæs
+on meodu‐bence{{gap}}māðme þȳ weorðra,
+yrfe‐lāfe.{{gap}}Gewāt him on ȳð‐nacan,
+drēfan dēop wæter,{{gap}}Dena land ofgeaf.
+Þā wæs be mæste{{gap}}mere‐hrægla sum,
+segl sāle fæst.{{gap}}Sund‐wudu þunede,
+nō þǣr wēg‐flotan{{gap}}wind ofer ȳðum
+sīðes getwǣfde;{{gap}}sǣ‐genga fōr,
+flēat fāmig‐heals{{gap}}forð ofer ȳðe,
+bunden‐stefna{{gap}}ofer brim‐strēamas,     {{pline|1910}}
+þæt hīe Gēata clifu{{gap}}ongitan meahton,
+cūðe næssas.{{gap}}Cēol up geþrang,
+lyft‐geswenced{{gap}}on lande stōd.
+Hraðe wæs æt holme{{gap}}hȳð‐weard gearo,
+sē þe ǣr lange tīd,{{gap}}lēofra manna
+fūs, æt faroðe{{gap}}feor wlātode;
+sǣlde tō sande{{gap}}sīd‐fæðme scip
+oncer‐bendum fæst,{{gap}}þȳ lǣs hym ȳða þrym
+wudu wynsuman{{gap}}forwrecan meahte.
+Hēt þā up beran{{gap}}æðelinga gestrēon,    {{pline|1920}}
+frætwe and fǣt‐gold;{{gap}}næs him feor þanon
+tō gesēcanne{{gap}}sinces bryttan:
+Higelāc Hrēðling{{gap}}þǣr æt hām wunað,
+selfa mid gesīðum{{gap}}sǣ‐wealle nēah;
+bold wæs betlīc,{{gap}}brego‐rōf cyning,
+hēa on healle,{{gap}}Hygd swīðe geong,
+wīs, wēl‐þungen,{{gap}}þēah þe wintra lȳt
+under burh‐locan{{gap}}gebiden hæbbe
+Hæreðes dōhtor:{{gap}}næs hīo hnāh swā þēah,
+nē tō gnēað gifa{{gap}}Gēata lēodum,        {{pline|1930}}
+māðm‐gestrēona.{{gap}}Mod Þrȳðo wæg,
+fremu folces cwēn,{{gap}}firen ondrysne:
+nǣnig þæt dorste{{gap}}dēor genēðan
+swǣsra gesīða,{{gap}}nefne sin‐frēa,
+þæt hire an dæges{{gap}}ēagum starede;
+ac him wæl‐bende{{gap}}weotode tealde,
+hand‐gewriðene:{{gap}}hraðe seoððan wæs
+æfter mund‐gripe{{gap}}mēce geþinged,
+þæt hit sceaðen‐mǣl{{gap}}scȳran mōste,
+cwealm‐bealu cȳðan.{{gap}}Ne bið swylc cwēnlīc þēaw         {{pline|1940}}
+idese tō efnanne,{{gap}}þēah þe hīo ǣnlīcu sȳ,
+þætte freoðu‐webbe{{gap}}fēores onsæce
+æfter līge‐torne{{gap}}lēofne mannan.
+Hūru þæt onhōhsnode{{gap}}Heminges mǣg;
+ealo drincende{{gap}}ōðer sǣdan,
+þæt hīo lēod‐bealewa{{gap}}lǣs gefremede,
+inwit‐nīða,{{gap}}syððan ǣrest wearð
+gyfen gold‐hroden{{gap}}geongum cempan,
+æðelum dīore,{{gap}}syððan hīo Offan flet
+ofer fealone flōd{{gap}}be fæder lāre       {{pline|1950}}
+sīðe gesōhte,{{gap}}þǣr hīo syððan wēl
+in gum‐stōle,{{gap}}gōde mǣre,
+līf‐gesceafta{{gap}}lifigende brēac,
+hīold hēah‐lufan{{gap}}wið hæleða brego,
+ealles mon‐cynnes{{gap}}mīne gefrǣge
+þone sēlestan{{gap}}bī sǣm twēonum
+eormen‐cynnes;{{gap}}forþām Offa wæs
+geofum and gūðum{{gap}}gār‐cēne man,
+wīde geweorðod;{{gap}}wīsdōme hēold
+ēðel sīnne,{{gap}}þonon Ēomǣr wōc   {{pline|1960}}
+hæleðum tō helpe,{{gap}}Heminges mǣg,
+nefa Gārmundes,{{gap}}nīða cræftig.
+}}
+
+===HIS ARRIVAL. HYGELAC'S RECEPTION.===
+{{ppoem|
+Gewāt him þā se hearda{{gap}}mid his hond‐scole
+sylf æfter sande{{gap}}sǣ‐wong tredan,
+wīde waroðas.{{gap}}Woruld‐candel scān,
+sigel sūðan fūs:{{gap}}hī sīð drugon,
+elne geēodon,{{gap}}tō þæs þe eorla hlēo,
+bonan Ongenþēowes{{gap}}burgum on innan,
+geongne gūð‐cyning{{gap}}gōdne gefrūnon
+hringas dǣlan.{{gap}}Higelāce wæs   {{pline|1970}}
+sīð Bēowulfes{{gap}}snūde gecȳðed,
+þæt þǣr on worðig{{gap}}wīgendra hlēo,
+lind‐gestealla{{gap}}lifigende cwōm,
+heaðo‐lāces hāl{{gap}}tō hofe gongan.
+Hraðe wæs gerȳmed,{{gap}}swā se rīca bebēad,
+fēðe‐gestum{{gap}}flet innan‐weard.
+Gesæt þā wið sylfne,{{gap}}sē þā sæcce genæs,
+mǣg wið mǣge,{{gap}}syððan man‐dryhten
+þurh hlēoðor‐cwyde{{gap}}holdne gegrētte
+mēaglum wordum.{{gap}}Meodu‐scencum         {{pline|1980}}
+hwearf geond þæt reced{{gap}}Hæreðes dōhtor:
+lufode þā lēode,{{gap}}līð‐wǣge bær
+hǣlum tō handa.{{gap}}Higelāc ongan
+sīnne geseldan{{gap}}in sele þām hēan
+fægre fricgean,{{gap}}hyne fyrwet bræc,
+hwylce Sǣ‐Gēata{{gap}}sīðas wǣron:
+"Hū lomp ēow on lāde,{{gap}}lēofa Bīowulf,
+þā þū fǣringa{{gap}}feorr gehogodest,
+sæcce sēcean{{gap}}ofer sealt wæter,
+hilde tō Hiorote?{{gap}}Ac þū Hrōðgāre      {{pline|1990}}
+wīd‐cūðne wēan{{gap}}wihte gebēttest,
+mǣrum þēodne?{{gap}}Ic þæs mōd‐ceare
+sorh‐wylmum sēað,{{gap}}sīðe ne truwode
+lēofes mannes;{{gap}}ic þē lange bæd,
+þæt þū þone wæl‐gǣst{{gap}}wihte ne grētte,
+lēte Sūð‐Dene{{gap}}sylfe geweorðan
+gūðe wið Grendel.{{gap}}Gode ic þanc secge,
+þæs þe ic þē gesundne{{gap}}gesēon mōste."
+Bīowulf maðelode,{{gap}}bearn Ecgþīowes:
+"Þæt is undyrne,{{gap}}dryhten Higelāc,     {{pline|2000}}
+mǣre gemēting{{gap}}monegum fīra,
+hwylc orleg‐hwīl{{gap}}uncer Grendles
+wearð on þām wange,{{gap}}þǣr hē worna fela
+Sige‐Scildingum{{gap}}sorge gefremede,
+yrmðe tō aldre;{{gap}}ic þæt eal gewræc,
+swā ne gylpan þearf{{gap}}Grendeles māga
+ǣnig ofer eorðan{{gap}}ūht‐hlem þone,
+sē þe lengest leofað{{gap}}lāðan cynnes,
+fenne bifongen.{{gap}}Ic þǣr furðum cwōm,
+tō þām hring‐sele{{gap}}Hrōðgār grētan:     {{pline|2010}}
+sōna mē se mǣra{{gap}}mago Healfdenes,
+syððan hē mōd‐sefan{{gap}}mīnne cūðe,
+wið his sylfes sunu{{gap}}setl getǣhte.
+Weorod wæs on wynne;{{gap}}ne seah ic wīdan feorh
+under heofenes hwealf{{gap}}heal‐sittendra
+medu‐drēam māran.{{gap}}Hwīlum mǣru cwēn,
+friðu‐sibb folca{{gap}}flet eall geond‐hwearf,
+bǣdde byre geonge;{{gap}}oft hīo bēah‐wriðan
+secge sealde,{{gap}}ǣr hīo tō setle gēong.
+Hwīlum for duguðe{{gap}}dōhtor Hrōðgāres    {{pline|2020}}
+eorlum on ende{{gap}}ealu‐wǣge bær,
+þā ic Frēaware{{gap}}flet‐sittende
+nemnan hȳrde,{{gap}}þǣr hīo nægled sinc
+hæleðum sealde:{{gap}}sīo gehāten wæs,
+geong gold‐hroden,{{gap}}gladum suna Frōdan;
+hafað þæs geworden{{gap}}wine Scyldinga
+rīces hyrde{{gap}}and þæt rǣd talað,
+þæt hē mid þȳ wīfe{{gap}}wæl‐fǣhða dǣl,
+sæcca gesette.{{gap}}Oft nō seldan hwǣr
+æfter lēod‐hryre{{gap}}lȳtle hwīle  {{pline|2030}}
+bon‐gār būgeð,{{gap}}þēah sēo brȳd duge!
+}}
+
+===BĒOWULF'S STORY OF THE SLAYINGS.===
+{{ppoem|
+"Mæg þæs þonne ofþyncan{{gap}}þēoden Heaðobeardna
+and þegna gehwām{{gap}}þāra lēoda,
+þonne hē mid fǣmnan{{gap}}on flett gǣð,
+dryht‐bearn Dena{{gap}}duguða biwenede:
+on him gladiað{{gap}}gomelra lāfe
+heard and hring‐mǣl,{{gap}}Heaðobeardna gestrēon,
+þenden hīe þām wǣpnum{{gap}}wealdan mōston,
+oð þæt hīe forlǣddan{{gap}}tō þām lind‐plegan
+swǣse gesīðas{{gap}}ond hyra sylfra feorh.  {{pline|2040}}
+Þonne cwið æt bēore,{{gap}}sē þe bēah gesyhð,
+eald æsc‐wiga,{{gap}}sē þe eall geman
+gār‐cwealm gumena{{gap}}(him bið grim sefa),
+onginneð geōmor‐mōd{{gap}}geongne cempan
+þurh hreðra gehygd{{gap}}higes cunnian,
+wīg‐bealu weccean{{gap}}and þæt word ācwyð:
+'Meaht þū, mīn wine,{{gap}}mēce gecnāwan,
+þone þin fæder{{gap}}tō gefeohte bær
+under here‐grīman{{gap}}hindeman sīðe,
+dȳre īren,{{gap}}þǣr hyne Dene slōgon,      {{pline|2050}}
+wēoldon wæl‐stōwe,{{gap}}syððan wiðer‐gyld læg,
+æfter hæleða hryre,{{gap}}hwate Scyldungas?
+Nu hēr þāra banena{{gap}}byre nāt‐hwylces,
+frætwum hrēmig{{gap}}on flet gǣð,
+morðres gylpeð{{gap}}and þone māððum byreð,
+þone þe þū mid rihte{{gap}}rǣdan sceoldest!'
+Manað swā and myndgað{{gap}}mǣla gehwylce
+sārum wordum,{{gap}}oð þæt sǣl cymeð,
+þæt se fǣmnan þegn{{gap}}fore fæder dǣdum
+æfter billes bite{{gap}}blōd‐fāg swefeð,    {{pline|2060}}
+ealdres scyldig;{{gap}}him se ōðer þonan
+losað lifigende,{{gap}}con him land geare.
+Þonne bīoð brocene{{gap}}on bā healfe
+āð‐sweord eorla;{{gap}}syððan Ingelde
+weallað wæl‐nīðas{{gap}}and him wīf‐lufan
+æfter cear‐wælmum{{gap}}cōlran weorðað.
+Þȳ ic Heaðobeardna{{gap}}hyldo ne telge,
+dryht‐sibbe dǣl{{gap}}Denum unfǣcne,
+frēond‐scipe fæstne.{{gap}}Ic sceal forð sprecan
+gēn ymbe Grendel,{{gap}}þæt þū geare cunne,         {{pline|2070}}
+sinces brytta,{{gap}}tō hwan syððan wearð
+hond‐rǣs hæleða.{{gap}}Syððan heofones gim
+glād ofer grundas,{{gap}}gæst yrre cwōm,
+eatol ǣfen‐grom,{{gap}}ūser nēosan,
+þǣr wē gesunde{{gap}}sæl weardodon;
+þǣr wæs Hondscīo{{gap}}hild onsǣge,
+feorh‐bealu fǣgum,{{gap}}hē fyrmest læg,
+gyrded cempa;{{gap}}him Grendel wearð,
+mǣrum magu‐þegne{{gap}}tō mūð‐bonan,
+lēofes mannes{{gap}}līc eall forswealg.     {{pline|2080}}
+Nō þȳ ǣr ūt þā gēn{{gap}}īdel‐hende
+bona blōdig‐tōð{{gap}}bealewa gemyndig,
+of þām gold‐sele{{gap}}gongan wolde,
+ac hē mægnes rōf{{gap}}mīn costode,
+grāpode gearo‐folm.{{gap}}Glōf hangode
+sīd and syllīc{{gap}}searo‐bendum fæst,
+sīo wæs orþoncum{{gap}}eall gegyrwed
+dēofles cræftum{{gap}}and dracan fellum:
+hē mec þǣr on innan{{gap}}unsynnigne,
+dīor dǣd‐fruma,{{gap}}gedōn wolde,  {{pline|2090}}
+manigra sumne:{{gap}}hyt ne mihte swā,
+syððan ic on yrre{{gap}}upp‐riht āstōd.
+Tō lang ys tō reccenne,{{gap}}hū ic þām lēod‐sceaðan
+yfla gehwylces{{gap}}ond‐lēan forgeald;
+þǣr ic, þēoden mīn,{{gap}}þīne lēode
+weorðode weorcum.{{gap}}Hē on weg losade,
+lȳtle hwīle{{gap}}līf‐wynna brēac;
+hwæðre him sīo swīðre{{gap}}swaðe weardade
+hand on Hiorte{{gap}}and hē hēan þonan,
+mōdes geōmor{{gap}}mere‐grund gefēoll.      {{pline|2100}}
+Mē þone wæl‐rǣs{{gap}}wine Scildunga
+fǣttan golde{{gap}}fela lēanode,
+manegum māðmum,{{gap}}syððan mergen cōm
+and wē tō symble{{gap}}geseten hæfdon.
+Þǣr wæs gidd and glēo;{{gap}}gomela Scilding
+fela fricgende{{gap}}feorran rehte;
+hwīlum hilde‐dēor{{gap}}hearpan wynne,
+gomen‐wudu grētte;{{gap}}hwīlum gyd āwræc
+sōð and sārlīc;{{gap}}hwīlum syllīc spell
+rehte æfter rihte{{gap}}rūm‐heort cyning.   {{pline|2110}}
+Hwīlum eft ongan{{gap}}eldo gebunden,
+gomel gūð‐wiga{{gap}}gioguðe cwīðan
+hilde‐strengo;{{gap}}hreðer inne wēoll,
+þonne hē wintrum frōd{{gap}}worn gemunde.
+Swā wē þǣr inne{{gap}}andlangne dæg
+nīode nāman,{{gap}}oð þæt niht becwōm
+ōðer tō yldum.{{gap}}Þā wæs eft hraðe
+gearo gyrn‐wræce{{gap}}Grendeles mōdor,
+sīðode sorh‐full;{{gap}}sunu dēað fornam,
+wīg‐hete Wedra.{{gap}}Wīf unhȳre    {{pline|2120}}
+hyre bearn gewræc,{{gap}}beorn ācwealde
+ellenlīce;{{gap}}þǣr wæs Æsc‐here,
+frōdan fyrn‐witan,{{gap}}feorh ūðgenge;
+nōðer hȳ hine ne mōston,{{gap}}syððan mergen cwōm,
+dēað‐wērigne{{gap}}Denia lēode
+bronde forbærnan,{{gap}}nē on bǣl hladan
+lēofne mannan:{{gap}}hīo þæt līc ætbær
+fēondes fæðmum{{gap}}under firgen‐strēam.
+Þæt wæs Hrōðgāre{{gap}}hrēowa tornost
+þāra þe lēod‐fruman{{gap}}lange begeāte;    {{pline|2130}}
+þā se þēoden mec{{gap}}þīne līfe
+healsode hrēoh‐mōd,{{gap}}þæt ic on holma geþring
+eorl‐scipe efnde,{{gap}}ealdre genēðde,
+mǣrðo fremede:{{gap}}hē mē mēde gehēt.
+Ic þā þæs wælmes,{{gap}}þē is wīde cūð,
+grimne gryrelīcne{{gap}}grund‐hyrde fond.
+Þǣr unc hwīle wæs{{gap}}hand gemǣne;
+holm heolfre wēoll{{gap}}and ic hēafde becearf
+in þām grund‐sele{{gap}}Grendeles mōdor
+ēacnum ecgum,{{gap}}unsōfte þonan   {{pline|2140}}
+feorh oðferede;{{gap}}næs ic fǣge þā gȳt,
+ac mē eorla hlēo{{gap}}eft gesealde
+māðma menigeo,{{gap}}maga Healfdenes.
+}}
+
+===HE GIVES PRESENTS TO HYGELAC. HYGELAC REWARDS HIM. HYGELAC'S DEATH. BĒOWULF REIGNS.===
+{{ppoem|
+"Swā se þēod‐kyning{{gap}}þēawum lyfde;
+nealles ic þām lēanum{{gap}}forloren hæfde,
+mægnes mēde,{{gap}}ac hē mē māðmas geaf,
+sunu Healfdenes,{{gap}}on sīnne sylfes dōm;
+þā ic þē, beorn‐cyning,{{gap}}bringan wylle,
+ēstum geȳwan.{{gap}}Gēn is eall æt þē
+lissa gelong:{{gap}}ic lȳt hafo     {{pline|2150}}
+hēafod‐māga,{{gap}}nefne Hygelāc þec!"
+Hēt þā in beran{{gap}}eafor, hēafod‐segn,
+heaðo‐stēapne helm,{{gap}}hāre byrnan,
+gūð‐sweord geatolīc,{{gap}}gyd æfter wræc:
+"Mē þis hilde‐sceorp{{gap}}Hrōðgār sealde,
+snotra fengel,{{gap}}sume worde hēt,
+þæt ic his ǣrest{{gap}}þē eft gesægde,
+cwæð þæt hyt hæfde{{gap}}Hiorogār cyning,
+lēod Scyldunga{{gap}}lange hwīle:
+nō þȳ ǣr suna sīnum{{gap}}syllan wolde,     {{pline|2160}}
+hwatum Heorowearde,{{gap}}þēah hē him hold wǣre,
+brēost‐gewǣdu.{{gap}}Brūc ealles well!"
+Hȳrde ic þæt þām frætwum{{gap}}fēower mēaras
+lungre gelīce{{gap}}lāst weardode,
+æppel‐fealuwe;{{gap}}hē him ēst getēah
+mēara and māðma.{{gap}}Swā sceal mǣg dōn,
+nealles inwit‐net{{gap}}ōðrum bregdan,
+dyrnum cræfte{{gap}}dēað rēnian
+hond‐gesteallan.{{gap}}Hygelāce wæs,
+nīða heardum,{{gap}}nefa swȳðe hold         {{pline|2170}}
+and gehwæðer ōðrum{{gap}}hrōðra gemyndig.
+Hȳrde ic þæt hē þone heals‐bēah{{gap}}Hygde gesealde,
+wrǣtlīcne wundur‐māððum,{{gap}}þone þe him Wealhþēo geaf,
+þēodnes dōhtor,{{gap}}þrīo wicg somod
+swancor and sadol‐beorht;{{gap}}hyre syððan wæs
+æfter bēah‐þege{{gap}}brēost geweorðod.
+Swā bealdode{{gap}}bearn Ecgþēowes,
+guma gūðum cūð,{{gap}}gōdum dǣdum,
+drēah æfter dōme,{{gap}}nealles druncne slōg
+heorð‐genēatas;{{gap}}næs him hrēoh sefa,   {{pline|2180}}
+ac hē man‐cynnes{{gap}}mǣste cræfte
+gin‐fæstan gife,{{gap}}þē him god sealde,
+hēold hilde‐dēor.{{gap}}Hēan wæs lange,
+swā hyne Gēata bearn{{gap}}gōdne ne tealdon,
+nē hyne on medo‐bence{{gap}}micles wyrðne
+drihten wereda{{gap}}gedōn wolde;
+swȳðe oft sægdon,{{gap}}þæt hē slēac wǣre,
+æðeling unfrom:{{gap}}edwenden cwōm
+tīr‐ēadigum menn{{gap}}torna gehwylces.
+Hēt þā eorla hlēo{{gap}}in gefetian,        {{pline|2190}}
+heaðo‐rōf cyning,{{gap}}Hrēðles lāfe,
+golde gegyrede;{{gap}}næs mid Gēatum þā
+sinc‐māððum sēlra{{gap}}on sweordes hād;
+þæt hē on Bīowulfes{{gap}}bearm ālegde,
+and him gesealde{{gap}}seofan þūsendo,
+bold and brego‐stōl.{{gap}}Him wæs bām samod
+on þām lēod‐scipe{{gap}}lond gecynde,
+eard ēðel‐riht,{{gap}}ōðrum swīðor
+sīde rīce,{{gap}}þām þǣr sēlra wæs.
+Eft þæt geīode{{gap}}ufaran dōgrum  {{pline|2200}}
+hilde‐hlæmmum,{{gap}}syððan Hygelāc læg
+and Heardrēde{{gap}}hilde‐mēceas
+under bord‐hrēoðan{{gap}}tō bonan wurdon,
+þā hyne gesōhtan{{gap}}on sige‐þēode
+hearde hilde‐frecan,{{gap}}Heaðo‐Scilfingas,
+nīða genǣgdan{{gap}}nefan Hererīces.
+Syððan Bēowulfe{{gap}}brāde rīce
+on hand gehwearf:{{gap}}hē gehēold tela
+fīftig wintru{{gap}}(wæs þā frōd cyning,
+eald ēðel‐weard),{{gap}}oð þæt ān ongan     {{pline|2210}}
+deorcum nihtum{{gap}}draca rīcsian,
+sē þe on hēare hǣðe{{gap}}hord beweotode,
+stān‐beorh stēapne:{{gap}}stīg under læg,
+eldum uncūð.{{gap}}Þǣr on innan gīong
+niða nāt‐hwylces{{gap}}nēode gefēng
+hǣðnum horde{{gap}}hond . d . . geþ . . hwylc
+since fāhne,{{gap}}hē þæt syððan . . . . .
+. . . þ . . . lð . þ . . l . g
+slǣpende be fȳre,{{gap}}fyrena hyrde
+þēofes cræfte,{{gap}}þæt sie . . . . ðioð . . . . .         {{pline|2220}}
+. idh . folc‐beorn,{{gap}}þæt hē gebolgen wæs.
+}}
+
+===THE FIRE-DRAKE. THE HOARD.===
+{{ppoem|
+Nealles mid geweoldum{{gap}}wyrm‐horda . . . cræft
+sōhte sylfes willum,{{gap}}sē þe him sāre gesceōd,
+ac for þrēa‐nēdlan{{gap}}þēow nāt‐hwylces
+hæleða bearna{{gap}}hete‐swengeas flēah,
+for ofer‐þearfe{{gap}}and þǣr inne fealh
+secg syn‐bysig.{{gap}}Sōna in þā tīde
+þæt . . . . . þām gyste{{gap}}. . . . br . g . stōd,
+hwæðre earm‐sceapen . . . . . . .
+. . ð . . . sceapen o . . . . i r . . e se fǣs begeat,  {{pline|2230}}
+sinc‐fæt geseah:{{gap}}þǣr wæs swylcra fela
+in þām eorð‐scræfe{{gap}}ǣr‐gestrēona,
+swā hȳ on geār‐dagum{{gap}}gumena nāt‐hwylc
+eormen‐lāfe{{gap}}æðelan cynnes
+þanc‐hycgende{{gap}}þǣr gehȳdde,
+dēore māðmas.{{gap}}Ealle hīe dēað fornam
+ǣrran mǣlum,{{gap}}and se ān þā gēn
+lēoda duguðe,{{gap}}sē þǣr lengest hwearf,
+weard wine‐geōmor{{gap}}wīscte þæs yldan,
+þæt hē lȳtel fæc{{gap}}long‐gestrēona       {{pline|2240}}
+brūcan mōste.{{gap}}Beorh eal gearo
+wunode on wonge{{gap}}wæter‐ȳðum nēah,
+nīwe be næsse{{gap}}nearo‐cræftum fæst:
+þǣr on innan bær{{gap}}eorl‐gestrēona
+hringa hyrde{{gap}}hard‐fyrdne dǣl
+fǣttan goldes,{{gap}}fēa worda cwæð:
+"Heald þū nū, hrūse,{{gap}}nū hæleð ne mōston,
+eorla ǣhte.{{gap}}Hwæt! hit ǣr on þē
+gōde begeāton;{{gap}}gūð‐dēað fornam,
+feorh‐bealo frēcne{{gap}}fȳra gehwylcne,    {{pline|2250}}
+lēoda mīnra,{{gap}}þāra þe þis līf ofgeaf,
+gesāwon sele‐drēam.{{gap}}Nāh hwā sweord wege
+oððe fetige{{gap}}fǣted wǣge,
+drync‐fæt dēore:{{gap}}duguð ellor scōc.
+Sceal se hearda helm{{gap}}hyrsted golde
+fǣtum befeallen:{{gap}}feormiend swefað,
+þā þe beado‐grīman{{gap}}bȳwan sceoldon,
+gē swylce sēo here‐pād,{{gap}}sīo æt hilde gebād
+ofer borda gebræc{{gap}}bite īrena,
+brosnað æfter beorne.{{gap}}Ne mæg byrnan hring     {{pline|2260}}
+æfter wīg‐fruman{{gap}}wīde fēran
+hæleðum be healfe;{{gap}}næs hearpan wyn,
+gomen glēo‐bēames,{{gap}}nē gōd hafoc
+geond sæl swingeð,{{gap}}nē se swifta mearh
+burh‐stede bēateð.{{gap}}Bealo‐cwealm hafað
+fela feorh‐cynna{{gap}}feorr onsended!"
+Swā giōmor‐mōd{{gap}}giohðo mǣnde,
+ān æfter eallum{{gap}}unblīðe hwēop,
+dæges and nihtes,{{gap}}oð þæt dēaðes wylm
+hrān æt heortan.{{gap}}Hord‐wynne fond      {{pline|2270}}
+eald ūht‐sceaða{{gap}}opene standan,
+sē þe byrnende{{gap}}biorgas sēceð
+nacod nīð‐draca,{{gap}}nihtes flēogeð
+fȳre befangen;{{gap}}hyne fold‐būend
+wīde gesāwon.{{gap}}Hē gēwunian sceall
+hlāw under hrūsan,{{gap}}þǣr hē hǣðen gold
+warað wintrum frōd;{{gap}}ne byð him wihte þē sēl.
+Swā se þēod‐sceaða{{gap}}þrēo hund wintra
+hēold on hrūsan{{gap}}hord‐ærna sum
+ēacen‐cræftig,{{gap}}oð þæt hyne ān ābealh  {{pline|2280}}
+mon on mōde:{{gap}}man‐dryhtne bær
+fǣted wǣge,{{gap}}frioðo‐wǣre bæd
+hlāford sīnne.{{gap}}Þā wæs hord rāsod,
+onboren bēaga hord,{{gap}}bēne getīðad
+fēa‐sceaftum men.{{gap}}Frēa scēawode
+fīra fyrn‐geweorc{{gap}}forman sīðe.
+Þā se wyrm onwōc,{{gap}}wrōht wæs genīwad;
+stonc þā æfter stāne,{{gap}}stearc‐heort onfand
+fēondes fōt‐lāst;{{gap}}hē tō forð gestōp,
+dyrnan cræfte,{{gap}}dracan hēafde nēah.    {{pline|2290}}
+Swā mæg unfǣge{{gap}}ēaðe gedīgan
+wēan and wræc‐sīð,{{gap}}sē þe waldendes
+hyldo gehealdeð.{{gap}}Hord‐weard sōhte
+georne æfter grunde,{{gap}}wolde guman findan,
+þone þe him on sweofote{{gap}}sāre getēode:
+hāt and hrēoh‐mōd{{gap}}hlǣw oft ymbe hwearf,
+ealne ūtan‐weardne;{{gap}}nē þǣr ǣnig mon
+wæs on þǣre wēstenne.{{gap}}Hwæðre hilde gefeh,
+beado‐weorces:{{gap}}hwīlum on beorh æthwearf,
+sinc‐fæt sōhte;{{gap}}hē þæt sōna onfand,   {{pline|2300}}
+þæt hæfde gumena sum{{gap}}goldes gefandod
+hēah‐gestrēona.{{gap}}Hord‐weard onbād
+earfoðlīce,{{gap}}oð þæt ǣfen cwōm;
+wæs þā gebolgen{{gap}}beorges hyrde,
+wolde se lāða{{gap}}līge forgyldan
+drinc‐fæt dȳre.{{gap}}Þā wæs dæg sceacen
+wyrme on willan,{{gap}}nō on wealle leng
+bīdan wolde,{{gap}}ac mid bǣle fōr,
+fȳre gefȳsed.{{gap}}Wæs se fruma egeslīc
+lēodum on lande,{{gap}}swā hyt lungre wearð         {{pline|2310}}
+on hyra sinc‐gifan{{gap}}sāre geendod.
+}}
+
+===BEOWULF RESOLVES TO KILL THE FIRE-DRAKE.===
+{{ppoem|
+Þā se gæst ongan{{gap}}glēdum spīwan,
+beorht hofu bærnan;{{gap}}bryne‐lēoma stōd
+eldum on andan;{{gap}}nō þǣr āht cwices
+lāð lyft‐floga{{gap}}lǣfan wolde.
+Wæs þæs wyrmes wīg{{gap}}wīde gesȳne,
+nearo‐fāges nīð{{gap}}nēan and feorran,
+hū se gūð‐sceaða{{gap}}Gēata lēode
+hatode and hȳnde:{{gap}}hord eft gescēat,
+dryht‐sele dyrnne{{gap}}ǣr dæges hwīle.     {{pline|2320}}
+Hæfde land‐wara{{gap}}līge befangen,
+bǣle and bronde;{{gap}}beorges getruwode,
+wīges and wealles:{{gap}}him sēo wēn gelēah.
+Þā wæs Bīowulfe{{gap}}brōga gecȳðed
+snūde tō sōðe,{{gap}}þæt his sylfes him
+bolda sēlest{{gap}}bryne‐wylmum mealt,
+gif‐stōl Gēata.{{gap}}Þæt þām gōdan wæs
+hrēow on hreðre,{{gap}}hyge‐sorga mǣst:
+wēnde se wīsa,{{gap}}þæt hē wealdende,
+ofer ealde riht,{{gap}}ēcean dryhtne        {{pline|2330}}
+bitre gebulge:{{gap}}brēost innan wēoll
+þēostrum geþoncum,{{gap}}swā him geþȳwe ne wæs.
+Hæfde līg‐draca{{gap}}lēoda fæsten,
+ēa‐lond ūtan,{{gap}}eorð‐weard þone
+glēdum forgrunden.{{gap}}Him þæs gūð‐cyning,
+Wedera þīoden,{{gap}}wræce leornode.
+Heht him þā gewyrcean{{gap}}wīgendra hlēo
+eall‐īrenne,{{gap}}eorla dryhten
+wīg‐bord wrǣtlīc;{{gap}}wisse hē gearwe,
+þæt him holt‐wudu{{gap}}helpan ne meahte,   {{pline|2340}}
+lind wið līge.{{gap}}Sceolde lǣn‐daga
+æðeling ǣr‐gōd{{gap}}ende gebīdan
+worulde līfes{{gap}}and se wyrm somod;
+þēah þe hord‐welan{{gap}}hēolde lange.
+Oferhogode þā{{gap}}hringa fengel,
+þæt hē þone wīd‐flogan{{gap}}weorode gesōhte,
+sīdan herge;{{gap}}nō hē him þā sæcce ondrēd,
+nē him þæs wyrmes wīg{{gap}}for wiht dyde,
+eafoð and ellen;{{gap}}forþon hē ǣr fela
+nearo nēðende{{gap}}nīða gedīgde,   {{pline|2350}}
+hilde‐hlemma,{{gap}}syððan hē Hrōðgāres,
+sigor‐ēadig secg,{{gap}}sele fǣlsode
+and æt gūðe forgrāp{{gap}}Grendeles mǣgum,
+lāðan cynnes.{{gap}}Nō þæt lǣsest wæs
+hond‐gemota,{{gap}}þǣr mon Hygelāc slōh,
+syððan Gēata cyning{{gap}}gūðe rǣsum,
+frēa‐wine folces{{gap}}Frēslondum on,
+Hrēðles eafora{{gap}}hioro‐dryncum swealt,
+bille gebēaten;{{gap}}þonan Bīowulf cōm
+sylfes cræfte,{{gap}}sund‐nytte drēah;      {{pline|2360}}
+hæfde him on earme{{gap}}... XXX
+hilde‐geatwa,{{gap}}þā hē tō holme stāg.
+Nealles Hetware{{gap}}hrēmge þorfton
+fēðe‐wīges,{{gap}}þē him foran ongēan
+linde bǣron:{{gap}}lȳt eft becwōm
+fram þām hild‐frecan{{gap}}hāmes nīosan.
+Oferswam þā sioleða bigong{{gap}}sunu Ecgþēowes,
+earm ān‐haga{{gap}}eft tō lēodum,
+þǣr him Hygd gebēad{{gap}}hord and rīce,
+bēagas and brego‐stōl:{{gap}}bearne ne truwode,     {{pline|2370}}
+þæt hē wið æl‐fylcum{{gap}}ēðel‐stōlas
+healdan cūðe,{{gap}}þā wæs Hygelāc dēad.
+Nō þȳ ǣr fēa‐sceafte{{gap}}findan meahton
+æt þām æðelinge{{gap}}ǣnige þinga,
+þæt hē Heardrēde{{gap}}hlāford wǣre,
+oððe þone cyne‐dōm{{gap}}cīosan wolde;
+hwæðre hē him on folce{{gap}}frēond‐lārum hēold,
+ēstum mid āre,{{gap}}oð þæt hē yldra wearð,
+Weder‐Gēatum wēold.{{gap}}Hyne wræc‐mæcgas
+ofer sǣ sōhtan,{{gap}}suna Ōhteres:         {{pline|2380}}
+hæfdon hȳ forhealden{{gap}}helm Scylfinga,
+þone sēlestan{{gap}}sǣ‐cyninga,
+þāra þe in Swīo‐rīce{{gap}}sinc brytnade,
+mǣrne þēoden.{{gap}}Him þæt tō mearce wearð;
+hē þǣr orfeorme{{gap}}feorh‐wunde hlēat
+sweordes swengum,{{gap}}sunu Hygelāces;
+and him eft gewāt{{gap}}Ongenþīowes bearn
+hāmes nīosan,{{gap}}syððan Heardrēd læg;
+lēt þone brego‐stōl{{gap}}Bīowulf healdan,
+Gēatum wealdan:{{gap}}þæt wæs gōd cyning.   {{pline|2390}}
+}}
+
+===RETROSPECT OF BĒOWULF.--STRIFE BETWEEN SWEONAS AND GEATAS.===
+{{ppoem|
+Sē þæs lēod‐hryres{{gap}}lēan gemunde
+uferan dōgrum,{{gap}}Ēadgilse wearð
+fēa‐sceaftum fēond.{{gap}}Folce gestepte
+ofer sǣ sīde{{gap}}sunu Ōhteres
+wigum and wǣpnum:{{gap}}hē gewræc syððan
+cealdum cear‐sīðum,{{gap}}cyning ealdre binēat.
+Swā hē nīða gehwane{{gap}}genesen hæfde,
+slīðra geslyhta,{{gap}}sunu Ecgþīowes,
+ellen‐weorca,{{gap}}oð þone ānne dæg,
+þē hē wið þām wyrme{{gap}}gewegan sceolde.  {{pline|2400}}
+Gewāt þā twelfa sum{{gap}}torne gebolgen
+dryhten Gēata{{gap}}dracan scēawian;
+hæfde þā gefrūnen,{{gap}}hwanan sīo fǣhð ārās,
+bealo‐nīð biorna;{{gap}}him tō bearme cwōm
+māððum‐fæt mǣre{{gap}}þurh þæs meldan hond,
+Sē wæs on þām þrēate{{gap}}þreotteoða secg,
+sē þæs orleges{{gap}}ōr onstealde,
+hæft hyge‐giōmor,{{gap}}sceolde hēan þonon
+wong wīsian:{{gap}}hē ofer willan gīong
+tō þæs þe hē eorð‐sele{{gap}}ānne wisse,    {{pline|2410}}
+hlǣw under hrūsan{{gap}}holm‐wylme nēh,
+ȳð‐gewinne,{{gap}}sē wæs innan full
+wrǣtta and wīra:{{gap}}weard unhīore,
+gearo gūð‐freca,{{gap}}gold‐māðmas hēold,
+eald under eorðan;{{gap}}næs þæt ȳðe cēap,
+tō gegangenne{{gap}}gumena ǣnigum.
+Gesæt þā on næsse{{gap}}nīð‐heard cyning,
+þenden hǣlo ābēad{{gap}}heorð‐genēatum
+gold‐wine Gēata:{{gap}}him wæs geōmor sefa,
+wǣfre and wæl‐fūs,{{gap}}Wyrd ungemete nēah,        {{pline|2420}}
+sē þone gomelan{{gap}}grētan sceolde,
+sēcean sāwle hord,{{gap}}sundur gedǣlan
+līf wið līce:{{gap}}nō þon lange wæs
+feorh æðelinges{{gap}}flǣsce bewunden.
+Bīowulf maðelade,{{gap}}bearn Ecgþēowes:
+"Fela ic on giogoðe{{gap}}guð‐rǣsa genæs,
+orleg‐hwīla:{{gap}}ic þæt eall gemon.
+Ic wæs syfan‐wintre,{{gap}}þā mec sinca baldor,
+frēa‐wine folca{{gap}}æt mīnum fæder genam,
+hēold mec and hæfde{{gap}}Hrēðel cyning,    {{pline|2430}}
+geaf mē sinc and symbel,{{gap}}sibbe gemunde;
+næs ic him tō līfe{{gap}}lāðra ōwihte
+beorn in burgum,{{gap}}þonne his bearna hwylc,
+Herebeald and Hæðcyn,{{gap}}oððe Hygelāc mīn.
+Wæs þām yldestan{{gap}}ungedēfelīce
+mǣges dǣdum{{gap}}morðor‐bed strēd,
+syððan hyne Hæðcyn{{gap}}of horn‐bogan,
+his frēa‐wine{{gap}}flāne geswencte,
+miste mercelses{{gap}}and his mǣg ofscēt,
+brōðor ōðerne,{{gap}}blōdigan gāre:         {{pline|2440}}
+þæt wæs feoh‐lēas gefeoht,{{gap}}fyrenum gesyngad
+hreðre hyge‐mēðe;{{gap}}sceolde hwæðre swā þēah
+æðeling unwrecen{{gap}}ealdres linnan.
+Swā bið geōmorlīc{{gap}}gomelum ceorle
+tō gebīdanne,{{gap}}þæt his byre rīde
+giong on galgan,{{gap}}þonne hē gyd wrece,
+sārigne sang,{{gap}}þonne his sunu hangað
+hrefne tō hrōðre{{gap}}and hē him helpe ne mæg,
+eald and in‐frōd,{{gap}}ǣnige gefremman.
+Symble bið gemyndgad{{gap}}morna gehwylce   {{pline|2450}}
+eaforan ellor‐sīð;{{gap}}ōðres ne gȳmeð
+tō gebīdanne{{gap}}burgum on innan
+yrfe‐weardes,{{gap}}þonne se ān hafað
+þurh dēaðes nȳd{{gap}}dǣda gefondad.
+Gesyhð sorh‐cearig{{gap}}on his suna būre
+wīn‐sele wēstne,{{gap}}wind‐gereste,
+rēote berofene;{{gap}}rīdend swefað
+hæleð in hoðman;{{gap}}nis þǣr hearpan swēg,
+gomen in geardum,{{gap}}swylce þǣr iū wǣron.
+}}
+
+===MEMORIES OF PAST TIME.-THE FEUD WITH THE FIRE-DRAKE.===
+{{ppoem|
+"Gewīteð þonne on sealman,{{gap}}sorh‐lēoð gæleð    {{pline|2460}}
+ān æfter ānum:{{gap}}þūhte him eall tō rūm,
+wongas and wīc‐stede.{{gap}}Swā Wedra helm
+æfter Herebealde{{gap}}heortan sorge
+weallende wæg,{{gap}}wihte ne meahte
+on þām feorh‐bonan{{gap}}fǣhðe gebētan:
+nō þȳ ǣr hē þone heaðo‐rinc{{gap}}hatian ne meahte
+lāðum dǣdum,{{gap}}þēah him lēof ne wæs.
+Hē þā mid þǣre sorge,{{gap}}þē him sīo sār belamp,
+gum‐drēam ofgeaf,{{gap}}godes lēoht gecēas;
+eaferum lǣfde,{{gap}}swā dēð ēadig mon,     {{pline|2470}}
+lond and lēod‐byrig,{{gap}}þā hē of līfe gewāt.
+Þā wæs synn and sacu{{gap}}Swēona and Gēata,
+ofer wīd wæter{{gap}}wrōht gemǣne,
+here‐nīð hearda,{{gap}}syððan Hrēðel swealt,
+oððe him Ongenþēowes{{gap}}eaferan wǣran
+frome fyrd‐hwate,{{gap}}frēode ne woldon
+ofer heafo healdan,{{gap}}ac ymb Hrēosna‐beorh
+eatolne inwit‐scear{{gap}}oft gefremedon.
+Þæt mǣg‐wine{{gap}}mīne gewrǣcan,
+fǣhðe and fyrene,{{gap}}swā hyt gefrǣge wæs,        {{pline|2480}}
+þēah þe ōðer hit{{gap}}ealdre gebohte,
+heardan cēape:{{gap}}Hæðcynne wearð,
+Gēata dryhtne,{{gap}}gūð onsǣge.
+Þā ic on morgne gefrægn{{gap}}mǣg ōðerne
+billes ecgum{{gap}}on bonan stǣlan,
+þǣr Ongenþēow{{gap}}Eofores nīosade:
+gūð‐helm tōglād,{{gap}}gomela Scylfing
+hrēas heoro‐blāc;{{gap}}hond gemunde
+fǣhðo genōge,{{gap}}feorh‐sweng ne oftēah.
+Ic him þā māðmas,{{gap}}þē hē mē sealde,    {{pline|2490}}
+geald æt gūðe,{{gap}}swā mē gifeðe wæs,
+lēohtan sweorde:{{gap}}hē mē lond forgeaf,
+eard ēðel‐wyn.{{gap}}Næs him ǣnig þearf,
+þæt hē tō Gifðum{{gap}}oððe tō Gār‐Denum
+oððe in Swīo‐rīce{{gap}}sēcean þurfe
+wyrsan wīg‐frecan,{{gap}}weorðe gecȳpan;
+symle ic him on fēðan{{gap}}beforan wolde,
+āna on orde,{{gap}}and swā tō aldre sceall
+sæcce fremman,{{gap}}þenden þis sweord þolað,
+þæt mec ǣr and sīð{{gap}}oft gelǣste,       {{pline|2500}}
+syððan ic for dugeðum{{gap}}Dæghrefne wearð
+tō hand‐bonan,{{gap}}Hūga cempan:
+nalles hē þā frætwe{{gap}}Frēs‐cyninge,
+brēost‐weorðunge{{gap}}bringan mōste,
+ac in campe gecrong{{gap}}cumbles hyrde,
+æðeling on elne.{{gap}}Ne wæs ecg bona,
+ac him hilde‐grāp{{gap}}heortan wylmas,
+bān‐hūs gebræc.{{gap}}Nū sceall billes ecg,
+hond and heard sweord{{gap}}ymb hord wīgan."
+Bēowulf maðelode,{{gap}}bēot‐wordum spræc   {{pline|2510}}
+nīehstan sīðe:{{gap}}"Ic genēðde fela
+gūða on geogoðe;{{gap}}gȳt ic wylle,
+frōd folces weard,{{gap}}fǣhðe sēcan,
+mǣrðum fremman,{{gap}}gif mec se mān‐sceaða
+of eorð‐sele{{gap}}ūt gesēceð!"
+Gegrētte þā{{gap}}gumena gehwylcne,
+hwate helm‐berend{{gap}}hindeman sīðe,
+swǣse gesīðas:{{gap}}"Nolde ic sweord beran,
+wǣpen tō wyrme,{{gap}}gif ic wiste hū
+wið þām āglǣcean{{gap}}elles meahte         {{pline|2520}}
+gylpe wiðgrīpan,{{gap}}swā ic giō wið Grendle dyde;
+ac ic þǣr heaðu‐fȳres{{gap}}hātes wēne,
+rēðes and‐hāttres:{{gap}}forþon ic mē on hafu
+bord and byrnan.{{gap}}Nelle ic beorges weard
+oferflēon fōtes trem,{{gap}}fēond unhȳre,
+ac unc sceal weorðan æt wealle,{{gap}}swā unc Wyrd getēoð,
+metod manna gehwæs.{{gap}}Ic eom on mōde from,
+þæt ic wið þone gūð‐flogan{{gap}}gylp ofersitte.
+Gebīde gē on beorge{{gap}}byrnum werede,
+secgas on searwum,{{gap}}hwæðer sēl mǣge    {{pline|2530}}
+æfter wæl‐rǣse{{gap}}wunde gedȳgan
+uncer twēga.{{gap}}Nis þæt ēower sīð,
+nē gemet mannes,{{gap}}nefne mīn ānes,
+þæt hē wið āglǣcean{{gap}}eofoðo dǣle,
+eorl‐scype efne.{{gap}}Ic mid elne sceall
+gold gegangan{{gap}}oððe gūð nimeð,
+feorh‐bealu frēcne,{{gap}}frēan ēowerne!"
+Ārās þā bī ronde{{gap}}rōf ōretta,
+heard under helm,{{gap}}hioro‐sercean bær
+under stān‐cleofu,{{gap}}strengo getruwode  {{pline|2540}}
+ānes mannes:{{gap}}ne bið swylc earges sīð.
+Geseah þā be wealle,{{gap}}sē þe worna fela,
+gum‐cystum gōd,{{gap}}gūða gedīgde,
+hilde‐hlemma,{{gap}}þonne hnitan fēðan,
+(stōd on stān‐bogan){{gap}}strēam ūt þonan
+brecan of beorge;{{gap}}wæs þǣre burnan wælm
+heaðo‐fȳrum hāt:{{gap}}ne meahte horde nēah
+unbyrnende{{gap}}ǣnige hwīle
+dēop gedȳgan{{gap}}for dracan lēge.
+Lēt þā of brēostum,{{gap}}þā hē gebolgen wæs,       {{pline|2550}}
+Weder‐Gēata lēod{{gap}}word ūt faran,
+stearc‐heort styrmde;{{gap}}stefn in becōm
+heaðo‐torht hlynnan{{gap}}under hārne stān.
+Hete wæs onhrēred,{{gap}}hord‐weard oncnīow
+mannes reorde;{{gap}}næs þǣr māra fyrst,
+frēode tō friclan.{{gap}}From ǣrest cwōm
+oruð āglǣcean{{gap}}ūt of stāne,
+hāt hilde‐swāt;{{gap}}hrūse dynede.
+Biorn under beorge{{gap}}bord‐rand onswāf
+wið þām gryre‐gieste,{{gap}}Gēata dryhten:  {{pline|2560}}
+þā wæs hring‐bogan{{gap}}heorte gefȳsed
+sæcce tō sēceanne.{{gap}}Sweord ǣr gebrǣ
+gōd gūð‐cyning{{gap}}gomele lāfe,
+ecgum unglēaw,{{gap}}ǣghwæðrum wæs
+bealo‐hycgendra{{gap}}brōga fram ōðrum.
+Stīð‐mōd gestōd{{gap}}wið stēapne rond
+winia bealdor,{{gap}}þā se wyrm gebēah
+snūde tōsomne:{{gap}}hē on searwum bād.
+Gewāt þā byrnende{{gap}}gebogen scrīðan tō,
+gescīfe scyndan.{{gap}}Scyld wēl gebearg    {{pline|2570}}
+līfe and līce{{gap}}lǣssan hwīle
+mǣrum þēodne,{{gap}}þonne his myne sōhte,
+þǣr hē þȳ fyrste{{gap}}forman dōgore
+wealdan mōste,{{gap}}swā him Wyrd ne gescrāf
+hrēð æt hilde.{{gap}}Hond up ābræd
+Gēata dryhten,{{gap}}gryre‐fāhne slōh
+incge lāfe,{{gap}}þæt sīo ecg gewāc
+brūn on bāne,{{gap}}bāt unswīðor,
+þonne his þīod‐cyning{{gap}}þearfe hæfde,
+bysigum gebǣded.{{gap}}Þā wæs beorges weard         {{pline|2580}}
+æfter heaðu‐swenge{{gap}}on hrēoum mōde,
+wearp wæl‐fȳre,{{gap}}wīde sprungon
+hilde‐lēoman:{{gap}}hrēð‐sigora ne gealp
+gold‐wine Gēata,{{gap}}gūð‐bill geswāc
+nacod æt nīðe,{{gap}}swā hyt nō sceolde,
+īren ǣr‐gōd.{{gap}}Ne wæs þæt ēðe sīð,
+þæt se mǣra{{gap}}maga Ecgþēowes
+grund‐wong þone{{gap}}ofgyfan wolde;
+sceolde wyrmes willan{{gap}}wīc eardian
+elles hwergen,{{gap}}swā sceal ǣghwylc mon  {{pline|2590}}
+ālǣtan lǣn‐dagas.{{gap}}Næs þā long tō þon,
+þæt þā āglǣcean{{gap}}hȳ eft gemētton.
+Hyrte hyne hord‐weard,{{gap}}hreðer ǣðme wēoll,
+nīwan stefne:{{gap}}nearo þrowode
+fȳre befongen{{gap}}sē þe ǣr folce wēold.
+Nealles him on hēape{{gap}}hand‐gesteallan,
+æðelinga bearn{{gap}}ymbe gestōdon
+hilde‐cystum,{{gap}}ac hȳ on holt bugon,
+ealdre burgan.{{gap}}Hiora in ānum wēoll
+sefa wið sorgum:{{gap}}sibb ǣfre ne mæg     {{pline|2600}}
+wiht onwendan,{{gap}}þām þe wēl þenceð.
+}}
+
+===WIGLAF HELPS BĒOWULF IN THE FEUD===
+{{ppoem|
+Wīglāf wæs hāten{{gap}}Wēoxstānes sunu,
+lēoflīc lind‐wiga,{{gap}}lēod Scylfinga,
+mǣg Ælfheres:{{gap}}geseah his mon‐dryhten
+under here‐grīman{{gap}}hāt þrowian.
+Gemunde þā þā āre,{{gap}}þē hē him ǣr forgeaf
+wīc‐stede weligne{{gap}}Wǣgmundinga,
+folc‐rihta gehwylc,{{gap}}swā his fæder āhte;
+ne mihte þā forhabban,{{gap}}hond rond gefēng,
+geolwe linde,{{gap}}gomel swyrd getēah,     {{pline|2610}}
+þæt wæs mid eldum{{gap}}Ēanmundes lāf,
+suna Ōhteres,{{gap}}þām æt sæcce wearð
+wracu wine‐lēasum{{gap}}Wēohstānes bana
+mēces ecgum,{{gap}}and his māgum ætbær
+brūn‐fāgne helm,{{gap}}hringde byrnan,
+eald sweord eotonisc,{{gap}}þæt him Onela forgeaf,
+his gædelinges{{gap}}gūð‐gewǣdu,
+fyrd‐searo fūslīc:{{gap}}nō ymbe þā fǣhðe spræc,
+þēah þe hē his brōðor{{gap}}bearn ābredwade.
+Hē frætwe gehēold{{gap}}fela missēra,       {{pline|2620}}
+bill and byrnan,{{gap}}oð þæt his byre mihte
+eorl‐scipe efnan,{{gap}}swā his ǣr‐fæder;
+geaf him þā mid Gēatum{{gap}}gūð‐gewǣda
+ǣghwæs unrīm;{{gap}}þā hē of ealdre gewāt,
+frōd on forð‐weg.{{gap}}Þā wæs forma sīð
+geongan cempan,{{gap}}þæt hē gūðe rǣs
+mid his frēo‐dryhtne{{gap}}fremman sceolde;
+ne gemealt him se mōd‐sefa,{{gap}}nē his mǣges lāf
+gewāc æt wīge:{{gap}}þæt se wyrm onfand,
+syððan hīe tōgædre{{gap}}gegān hæfdon.      {{pline|2630}}
+Wīglāf maðelode{{gap}}word‐rihta fela,
+sægde gesīðum,{{gap}}him wæs sefa geōmor:
+"Ic þæt mǣl geman,{{gap}}þǣr wē medu þēgun,
+þonne wē gehēton{{gap}}ūssum hlāforde
+in bīor‐sele,{{gap}}þē ūs þās bēagas geaf,
+þæt wē him þā gūð‐geatwa{{gap}}gyldan woldon,
+gif him þyslīcu{{gap}}þearf gelumpe,
+helmas and heard sweord:{{gap}}þē hē ūsic on herge gecēas
+tō þyssum sīð‐fate{{gap}}sylfes willum,
+onmunde ūsic mǣrða{{gap}}and mē þās māðmas geaf,    {{pline|2640}}
+þē hē ūsic gār‐wīgend{{gap}}gōde tealde,
+hwate helm‐berend,{{gap}}þēah þe hlāford ūs
+þis ellen‐weorc{{gap}}āna āþōhte
+tō gefremmanne,{{gap}}folces hyrde,
+forþām hē manna mǣst{{gap}}mǣrða gefremede,
+dǣda dollīcra.{{gap}}Nū is sē dæg cumen,
+þæt ūre man‐dryhten{{gap}}mægenes behōfað
+gōdra gūð‐rinca:{{gap}}wutun gangan tō,
+helpan hild‐fruman,{{gap}}þenden hyt sȳ,
+glēd‐egesa grim!{{gap}}God wāt on mec,      {{pline|2650}}
+þæt mē is micle lēofre,{{gap}}þæt mīnne līc‐haman
+mid mīnne gold‐gyfan{{gap}}glēd fæðmie.
+Ne þynceð mē gerysne,{{gap}}þæt wē rondas beren
+eft tō earde,{{gap}}nemne wē ǣror mǣgen
+fāne gefyllan,{{gap}}feorh ealgian
+Wedra þīodnes.{{gap}}Ic wāt geare,
+þæt nǣron eald‐gewyrht,{{gap}}þæt hē āna scyle
+Gēata duguðe{{gap}}gnorn þrowian,
+gesīgan æt sæcce:{{gap}}sceal ūrum þæt sweord and helm,
+byrne and byrdu‐scrūd{{gap}}bām gemǣne."    {{pline|2660}}
+Wōd þā þurh þone wæl‐rēc,{{gap}}wīg‐heafolan bær
+frēan on fultum,{{gap}}fēa worda cwæð:
+"Lēofa Bīowulf,{{gap}}lǣst eall tela,
+swā þū on geoguð‐fēore{{gap}}geāra gecwǣde,
+þæt þū ne ālǣte{{gap}}be þē lifigendum
+dōm gedrēosan:{{gap}}scealt nū dǣdum rōf,
+æðeling ān‐hȳdig,{{gap}}ealle mægene
+feorh ealgian;{{gap}}ic þē fullǣstu!"
+Æfter þām wordum{{gap}}wyrm yrre cwōm,
+atol inwit‐gæst{{gap}}ōðre sīðe,    {{pline|2670}}
+fȳr‐wylmum fāh{{gap}}fīonda nīosan,
+lāðra manna;{{gap}}līg‐ȳðum forborn
+bord wið ronde:{{gap}}byrne ne meahte
+geongum gār‐wigan{{gap}}gēoce gefremman:
+ac se maga geonga{{gap}}under his mǣges scyld
+elne geēode,{{gap}}þā his āgen wæs
+glēdum forgrunden.{{gap}}Þā gēn gūð‐cyning
+mǣrða gemunde,{{gap}}mægen‐strengo,
+slōh hilde‐bille,{{gap}}þæt hyt on heafolan stōd
+nīðe genȳded:{{gap}}Nægling forbærst,       {{pline|2680}}
+geswāc æt sæcce{{gap}}sweord Bīowulfes
+gomol and grǣg‐mǣl.{{gap}}Him þæt gifeðe ne wæs,
+þæt him īrenna{{gap}}ecge mihton
+helpan æt hilde;{{gap}}wæs sīo hond tō strong,
+sē þe mēca gehwane{{gap}}mīne gefrǣge
+swenge ofersōhte,{{gap}}þonne hē tō sæcce bær
+wǣpen wundrum heard,{{gap}}næs him wihte þē sēl.
+Þā wæs þēod‐sceaða{{gap}}þriddan sīðe,
+frēcne fȳr‐draca{{gap}}fǣhða gemyndig,
+rǣsde on þone rōfan,{{gap}}þā him rūm āgeald,       {{pline|2690}}
+hāt and heaðo‐grim,{{gap}}heals ealne ymbefēng
+biteran bānum;{{gap}}hē geblōdegod wearð
+sāwul‐drīore;{{gap}}swāt ȳðum wēoll.
+}}
+
+===BĒOWULF WOUNDED TO DEATH.===
+{{ppoem|
+Þā ic æt þearfe gefrægn{{gap}}þēod‐cyninges
+and‐longne eorl{{gap}}ellen cȳðan,
+cræft and cēnðu,{{gap}}swā him gecynde wæs;
+ne hēdde hē þæs heafolan,{{gap}}ac sīo hand gebarn
+mōdiges mannes,{{gap}}þǣr hē his mǣges healp,
+þæt hē þone nīð‐gæst{{gap}}nioðor hwēne slōh,
+secg on searwum,{{gap}}þæt þæt sweord gedēaf        {{pline|2700}}
+fāh and fǣted,{{gap}}þæt þæt fȳr ongon
+sweðrian syððan.{{gap}}Þā gēn sylf cyning
+gewēold his gewitte,{{gap}}wæll‐seaxe gebrǣ,
+biter and beadu‐scearp,{{gap}}þæt hē on byrnan wæg:
+forwrāt Wedra helm{{gap}} wyrm on middan.
+Fēond gefyldan{{gap}}(ferh ellen wræc),
+and hī hyne þā bēgen{{gap}}ābroten hæfdon,
+sib‐æðelingas:{{gap}}swylc sceolde secg wesan,
+þegn æt þearfe.{{gap}}Þæt þām þēodne wæs
+sīðast sīge‐hwīle{{gap}}sylfes dǣdum,       {{pline|2710}}
+worlde geweorces.{{gap}}Þā sīo wund ongon,
+þē him se eorð‐draca{{gap}}ǣr geworhte,
+swelan and swellan.{{gap}}Hē þæt sōna onfand,
+þæt him on brēostum{{gap}}bealo‐nīð wēoll,
+attor on innan.{{gap}}Þā se æðeling gīong,
+þæt hē bī wealle,{{gap}}wīs‐hycgende,
+gesæt on sesse;{{gap}}seah on enta geweorc,
+hū þā stān‐bogan{{gap}}stapulum fæste
+ēce eorð‐reced{{gap}}innan hēoldon.
+Hyne þā mid handa{{gap}}heoro‐drēorigne     {{pline|2720}}
+þēoden mǣrne{{gap}}þegn ungemete till,
+wine‐dryhten his{{gap}}wætere gelafede,
+hilde‐sædne{{gap}}and his helm onspēon.
+Bīowulf maðelode,{{gap}}hē ofer benne spræc,
+wunde wæl‐blēate{{gap}}(wisse hē gearwe,
+þæt hē dæg‐hwīla{{gap}}gedrogen hæfde
+eorðan wynne;{{gap}}þā wæs eall sceacen
+dōgor‐gerīmes,{{gap}}dēað ungemete nēah):
+"Nū ic suna mīnum{{gap}}syllan wolde
+gūð‐gewǣdu,{{gap}}þǣr mē gifeðe swā         {{pline|2730}}
+ǣnig yrfe‐weard{{gap}}æfter wurde,
+līce gelenge.{{gap}}Ic þās lēode hēold
+fīftig wintra:{{gap}}næs se folc‐cyning
+ymbe‐sittendra{{gap}}ǣnig þāra,
+þē mec gūð‐winum{{gap}}grētan dorste,
+egesan þēon.{{gap}}Ic on earde bād
+mǣl‐gesceafta,{{gap}}hēold mīn tela,
+ne sōhte searo‐nīðas,{{gap}}nē mē swōr fela
+āða on unriht.{{gap}}Ic þæs ealles mæg,
+feorh‐bennum sēoc,{{gap}}gefēan habban:     {{pline|2740}}
+forþām mē wītan ne þearf{{gap}}waldend fīra
+morðor‐bealo māga,{{gap}}þonne mīn sceaceð
+līf of līce.{{gap}}Nū þū lungre
+geong, hord scēawian{{gap}}under hārne stān,
+Wīglāf lēofa,{{gap}}nū se wyrm ligeð,
+swefeð sāre wund,{{gap}}since berēafod.
+Bīo nū on ofoste,{{gap}}þæt ic ǣr‐welan,
+gold‐ǣht ongite,{{gap}}gearo scēawige
+swegle searo‐gimmas,{{gap}}þæt ic þȳ sēft mǣge
+æfter māððum‐welan{{gap}}mīn ālǣtan         {{pline|2750}}
+līf and lēod‐scipe,{{gap}}þone ic longe hēold."
+}}
+
+===THE JEWEL-HOARD. THE PASSING OF BEOWULF.===
+{{ppoem|
+Þā ic snūde gefrægn{{gap}}sunu Wīhstānes
+æfter word‐cwydum{{gap}}wundum dryhtne
+hȳran heaðo‐sīocum,{{gap}}hring‐net beran,
+brogdne beadu‐sercean{{gap}}under beorges hrōf.
+Geseah þā sige‐hrēðig,{{gap}}þā hē bī sesse gēong,
+mago‐þegn mōdig{{gap}}māððum‐sigla fela,
+gold glitinian{{gap}}grunde getenge,
+wundur on wealle{{gap}}and þæs wyrmes denn,
+ealdes ūht‐flogan,{{gap}}orcas stondan,     {{pline|2760}}
+fyrn‐manna fatu{{gap}}feormend‐lēase,
+hyrstum behrorene:{{gap}}þǣr wæs helm monig,
+eald and ōmig,{{gap}}earm‐bēaga fela,
+searwum gesǣled.{{gap}}Sinc ēaðe mæg,
+gold on grunde,{{gap}}gumena cynnes
+gehwone ofer‐hīgian,{{gap}}hȳde sē þe wylle!
+Swylce hē siomian geseah{{gap}}segn eall‐gylden
+hēah ofer horde,{{gap}}hond‐wundra mǣst,
+gelocen leoðo‐cræftum:{{gap}}of þām lēoma stōd,
+þæt hē þone grund‐wong{{gap}}ongitan meahte,        {{pline|2770}}
+wrǣte giond‐wlītan.{{gap}}Næs þæs wyrmes þǣr
+onsȳn ǣnig,{{gap}}ac hyne ecg fornam.
+Þā ic on hlǣwe{{gap}}gefrægn hord rēafian,
+eald enta geweorc{{gap}}ānne mannan,
+him on bearm hladan{{gap}}bunan and discas
+sylfes dōme,{{gap}}segn ēac genom,
+bēacna beorhtost;{{gap}}bill ǣr‐gescōd
+(ecg wæs īren){{gap}}eald‐hlāfordes
+þām þāra māðma{{gap}}mund‐bora wæs
+longe hwīle,{{gap}}līg‐egesan wæg   {{pline|2780}}
+hātne for horde,{{gap}}hioro‐weallende,
+middel‐nihtum,{{gap}}oð þæt hē morðre swealt.
+Ār wæs on ofoste{{gap}}eft‐sīðes georn,
+frætwum gefyrðred:{{gap}}hyne fyrwet bræc,
+hwæðer collen‐ferð{{gap}}cwicne gemētte
+in þām wong‐stede{{gap}}Wedra þēoden,
+ellen‐sīocne,{{gap}}þǣr hē hine ǣr forlēt.
+Hē þā mid þām māðmum{{gap}}mǣrne þīoden,
+dryhten sīnne{{gap}}drīorigne fand
+ealdres æt ende:{{gap}}hē hine eft ongon    {{pline|2790}}
+wæteres weorpan,{{gap}}oð þæt wordes ord
+brēost‐hord þurhbræc.{{gap}}Bēowulf maðelode,
+gomel on giohðe{{gap}}(gold scēawode):
+"Ic þāra frætwa{{gap}}frēan ealles þanc
+wuldur‐cyninge{{gap}}wordum secge,
+ēcum dryhtne,{{gap}}þē ic hēr on starie,
+þæs þe ic mōste{{gap}}mīnum lēodum
+ǣr swylt‐dæge{{gap}}swylc gestrȳnan.
+Nū ic on māðma hord{{gap}}mīne bebohte
+frōde feorh‐lege,{{gap}}fremmað gē nū       {{pline|2800}}
+lēoda þearfe;{{gap}}ne mæg ic hēr leng wesan.
+Hātað heaðo‐mǣre{{gap}}hlǣw gewyrcean,
+beorhtne æfter bǣle{{gap}}æt brimes nosan;
+se scel tō gemyndum{{gap}}mīnum lēodum
+hēah hlīfian{{gap}}on Hrones næsse,
+þæt hit sǣ‐līðend{{gap}}syððan hātan
+Bīowulfes biorh,{{gap}}þā þe brentingas
+ofer flōda genipu{{gap}}feorran drīfað."
+Dyde him of healse{{gap}}hring gyldenne
+þīoden þrīst‐hȳdig,{{gap}}þegne gesealde,   {{pline|2810}}
+geongum gār‐wigan,{{gap}}gold‐fāhne helm,
+bēah and byrnan,{{gap}}hēt hyne brūcan well:
+"Þū eart ende‐lāf{{gap}}ūsses cynnes,
+Wǣgmundinga;{{gap}}ealle Wyrd forswēof,
+mīne māgas{{gap}}tō metod‐sceafte,
+eorlas on elne:{{gap}}ic him æfter sceal."
+Þæt wæs þām gomelan{{gap}}gingeste word
+brēost‐gehygdum,{{gap}}ǣr hē bǣl cure,
+hāte heaðo‐wylmas:{{gap}}him of hreðre gewāt
+sāwol sēcean{{gap}}sōð‐fæstra dōm.  {{pline|2820}}
+}}
+
+===THE COWARD-THANES.===
+{{ppoem|
+Þā wæs gegongen{{gap}}guman unfrōdum
+earfoðlīce,{{gap}}þæt hē on eorðan geseah
+þone lēofestan{{gap}}līfes æt ende
+blēate gebǣran.{{gap}}Bona swylce læg,
+egeslīc eorð‐draca,{{gap}}ealdre berēafod,
+bealwe gebǣded:{{gap}}bēah‐hordum leng
+wyrm wōh‐bogen{{gap}}wealdan ne mōste,
+ac him īrenna{{gap}}ecga fornāmon,
+hearde heaðo‐scearpe{{gap}}homera lāfe,
+þæt se wīd‐floga{{gap}}wundum stille        {{pline|2830}}
+hrēas on hrūsan{{gap}}hord‐ærne nēah,
+nalles æfter lyfte{{gap}}lācende hwearf
+middel‐nihtum,{{gap}}māðm‐ǣhta wlonc
+ansȳn ȳwde:{{gap}}ac hē eorðan gefēoll
+for þæs hild‐fruman{{gap}}hond‐geweorce.
+Hūru þæt on lande{{gap}}lȳt manna þāh
+mægen‐āgendra{{gap}}mīne gefrǣge,
+þēah þe hē dǣda gehwæs{{gap}}dyrstig wǣre,
+þæt hē wið attor‐sceaðan{{gap}}oreðe gerǣsde,
+oððe hring‐sele{{gap}}hondum styrede,       {{pline|2840}}
+gif hē wæccende{{gap}}weard onfunde
+būan on beorge.{{gap}}Bīowulfe wearð
+dryht‐māðma dǣl{{gap}}dēaðe forgolden;
+hæfde ǣghwæðer{{gap}}ende gefēred
+lǣnan līfes.{{gap}}Næs þā lang tō þon,
+þæt þā hild‐latan{{gap}}holt ofgēfan,
+tȳdre trēow‐logan{{gap}}tȳne ætsomne,
+þā ne dorston ǣr{{gap}}dareðum lācan
+on hyra man‐dryhtnes{{gap}}miclan þearfe;
+ac hȳ scamiende{{gap}}scyldas bǣran,        {{pline|2850}}
+gūð‐gewǣdu,{{gap}}þǣr se gomela læg:
+wlitan on Wīglāf.{{gap}}Hē gewērgad sæt,
+fēðe‐cempa{{gap}}frēan eaxlum nēah,
+wehte hyne wætre;{{gap}}him wiht ne spēow;
+ne meahte hē on eorðan,{{gap}}þēah hē ūðe wēl,
+on þām frum‐gāre{{gap}}feorh gehealdan,
+nē þæs wealdendes willan{{gap}}wiht oncirran;
+wolde dōm godes{{gap}}dǣdum rǣdan
+gumena gehwylcum,{{gap}}swā hē nū gēn dēð.
+Þā wæs æt þām geongan{{gap}}grim andswaru   {{pline|2860}}
+ēð‐begēte þām þe ǣr{{gap}}his elne forlēas.
+Wīglāf maðelode,{{gap}}Wēohstānes sunu,
+secg sārig‐ferð{{gap}}seah on unlēofe:
+"Þæt lā mæg secgan,{{gap}}sē þe wyle sōð sprecan,
+þæt se mon‐dryhten,{{gap}}se ēow þā māðmas geaf,
+ēored‐geatwe,{{gap}}þē gē þǣr on standað,
+þonne hē on ealu‐bence{{gap}}oft gesealde
+heal‐sittendum{{gap}}helm and byrnan,
+þēoden his þegnum,{{gap}}swylce hē þrȳðlīcost
+ōhwǣr feor oððe nēah{{gap}}findan meahte,   {{pline|2870}}
+þæt hē gēnunga{{gap}}gūð‐gewǣdu
+wrāðe forwurpe.{{gap}}Þā hyne wīg beget,
+nealles folc‐cyning{{gap}}fyrd‐gesteallum
+gylpan þorfte;{{gap}}hwæðre him god ūðe,
+sigora waldend,{{gap}}þæt hē hyne sylfne gewræc
+āna mid ecge,{{gap}}þā him wæs elnes þearf,
+Ic him līf‐wraðe{{gap}}lȳtle meahte
+ætgifan æt gūðe{{gap}}and ongan swā þēah
+ofer mīn gemet{{gap}}mǣges helpan:
+symle wæs þȳ sǣmra,{{gap}}þonne ic sweorde drep     {{pline|2880}}
+ferhð‐genīðlan,{{gap}}fȳr unswīðor
+wēoll of gewitte.{{gap}}Wergendra tō lȳt
+þrong ymbe þēoden,{{gap}}þā hyne sīo þrāg becwōm.
+Nū sceal sinc‐þego{{gap}}and swyrd‐gifu
+eall ēðel‐wyn{{gap}}ēowrum cynne,
+lufen ālicgean:{{gap}}lond‐rihtes mōt
+þǣre mǣg‐burge{{gap}}monna ǣghwylc
+īdel hweorfan,{{gap}}syððan æðelingas
+feorran gefricgean{{gap}}flēam ēowerne,
+dōm‐lēasan dǣd.{{gap}}Dēað bið sēlla        {{pline|2890}}
+eorla gehwylcum{{gap}}þonne edwīt‐līf!"
+}}
+
+===THE SOLDIER'S DIRGE AND PROPHECY.===
+{{ppoem|
+Heht þā þæt heaðo‐weorc{{gap}}tō hagan bīodan
+up ofer ēg‐clif,{{gap}}þǣr þæt eorl‐weorod
+morgen‐longne dæg{{gap}}mōd‐giōmor sæt,
+bord‐hæbbende,{{gap}}bēga on wēnum
+ende‐dōgores{{gap}}and eft‐cymes
+lēofes monnes.{{gap}}Lȳt swīgode
+nīwra spella,{{gap}}sē þe næs gerād,
+ac hē sōðlīce{{gap}}sægde ofer ealle;
+"Nū is wil‐geofa{{gap}}Wedra lēoda,         {{pline|2900}}
+dryhten Gēata{{gap}}dēað‐bedde fæst,
+wunað wæl‐reste{{gap}}wyrmes dǣdum;
+him on efn ligeð{{gap}}ealdor‐gewinna,
+siex‐bennum sēoc:{{gap}}sweorde ne meahte
+on þām āglǣcean{{gap}}ǣnige þinga
+wunde gewyrcean.{{gap}}Wīglāf siteð
+ofer Bīowulfe,{{gap}}byre Wīhstānes,
+eorl ofer ōðrum{{gap}}unlifigendum,
+healdeð hige‐mēðum{{gap}}hēafod‐wearde
+lēofes and lāðes.{{gap}}Nū ys lēodum wēn    {{pline|2910}}
+orleg‐hwīle,{{gap}}syððan underne
+Froncum and Frȳsum{{gap}}fyll cyninges
+wīde weorðeð.{{gap}}Wæs sīo wrōht scepen
+heard wið Hūgas,{{gap}}syððan Higelāc cwōm
+faran flot‐herge{{gap}}on Frēsna land,
+þǣr hyne Hetware{{gap}}hilde gehnǣgdon,
+elne geēodon{{gap}}mid ofer‐mægene,
+þæt se byrn‐wiga{{gap}}būgan sceolde,
+fēoll on fēðan:{{gap}}nalles frætwe geaf
+ealdor dugoðe;{{gap}}ūs wæs ā syððan        {{pline|2920}}
+Merewīoinga{{gap}}milts ungyfeðe.
+Nē ic tō Swēo‐þēode{{gap}}sibbe oððe trēowe
+wihte ne wēne;{{gap}}ac wæs wīde cūð,
+þætte Ongenþīo{{gap}}ealdre besnyðede
+Hæðcyn Hrēðling{{gap}}wið Hrefna‐wudu,
+þā for on‐mēdlan{{gap}}ǣrest gesōhton
+Gēata lēode{{gap}}Gūð‐scilfingas.
+Sōna him se frōda{{gap}}fæder Ōhtheres,
+eald and eges‐full{{gap}}ond‐slyht āgeaf,
+ābrēot brim‐wīsan,{{gap}}brȳd āhēorde,      {{pline|2930}}
+gomela īo‐meowlan{{gap}}golde berofene,
+Onelan mōdor{{gap}}and Ōhtheres,
+and þā folgode{{gap}}feorh‐genīðlan
+oð þæt hī oðēodon{{gap}}earfoðlīce
+in Hrefnes‐holt{{gap}}hlāford‐lēase.
+Besæt þā sin‐herge{{gap}}sweorda lāfe
+wundum wērge,{{gap}}wēan oft gehēt
+earmre teohhe{{gap}}andlonge niht:
+cwæð hē on mergenne{{gap}}mēces ecgum
+gētan wolde,{{gap}}sume on galg‐trēowum     {{pline|2940}}
+fuglum tō gamene.{{gap}}Frōfor eft gelamp
+sārig‐mōdum{{gap}}somod ǣr‐dæge,
+syððan hīe Hygelāces{{gap}}horn and bȳman
+gealdor ongeāton.{{gap}}Þā se gōda cōm
+lēoda dugoðe{{gap}}on lāst faran.
+}}
+
+===HE TELLS OF THE SWEDES AND THE GEATAS===
+{{ppoem|
+"Wæs sīo swāt‐swaðu{{gap}}Swēona and Gēata,
+wæl‐rǣs wera{{gap}}wīde gesȳne,
+hū þā folc mid him{{gap}}fǣhðe tōwehton.
+Gewāt him þā se gōda{{gap}}mid his gædelingum,
+frōd fela geōmor{{gap}}fæsten sēcean,       {{pline|2950}}
+eorl Ongenþīo{{gap}}ufor oncirde;
+hæfde Higelāces{{gap}}hilde gefrūnen,
+wlonces wīg‐cræft,{{gap}}wiðres ne truwode,
+þæt hē sǣ‐mannum{{gap}}onsacan mihte,
+hēaðo‐līðendum{{gap}}hord forstandan,
+bearn and brȳde;{{gap}}bēah eft þonan
+eald under eorð‐weall.{{gap}}Þā wæs ǣht boden
+Swēona lēodum,{{gap}}segn Higelāce.
+Freoðo‐wong þone{{gap}}forð oferēodon,
+syððan Hrēðlingas{{gap}}tō hagan þrungon.   {{pline|2960}}
+Þǣr wearð Ongenþīo{{gap}}ecgum sweorda,
+blonden‐fexa{{gap}}on bīd wrecen,
+þæt se þēod‐cyning{{gap}}þafian sceolde
+Eofores ānne dōm:{{gap}}hyne yrringa
+Wulf Wonrēding{{gap}}wǣpne gerǣhte,
+þæt him for swenge{{gap}}swāt ǣdrum sprong
+forð under fexe.{{gap}}Næs hē forht swā þēh,
+gomela Scilfing,{{gap}}ac forgeald hraðe
+wyrsan wrixle{{gap}}wæl‐hlem þone,
+syððan þēod‐cyning{{gap}}þyder oncirde:     {{pline|2970}}
+ne meahte se snella{{gap}}sunu Wonrēdes
+ealdum ceorle{{gap}}ond‐slyht giofan,
+ac hē him on hēafde{{gap}}helm ǣr gescer,
+þæt hē blōde fāh{{gap}}būgan sceolde,
+fēoll on foldan;{{gap}}næs hē fǣge þā gīt,
+ac hē hyne gewyrpte,{{gap}}þēah þe him wund hrīne,
+Lēt se hearda{{gap}}Higelāces þegn
+brādne mēce,{{gap}}þā his brōðor læg,
+eald sweord eotonisc,{{gap}}entiscne helm,
+brecan ofer bord‐weal:{{gap}}þā gebēah cyning,      {{pline|2980}}
+folces hyrde,{{gap}}wæs in feorh dropen.
+Þā wǣron monige,{{gap}}þē his mǣg wriðon,
+ricone ārǣrdon,{{gap}}þā him gerȳmed wearð,
+þæt hīe wæl‐stōwe{{gap}}wealdan mōston.
+Þenden rēafode{{gap}}rinc ōðerne,
+nam on Ongenþīo{{gap}}īren‐byrnan,
+heard swyrd hilted{{gap}}and his helm somod;
+hāres hyrste{{gap}}Higelāce bær.
+Hē þām frætwum fēng{{gap}}and him fægre gehēt
+lēana fore lēodum{{gap}}and gelǣste swā:    {{pline|2990}}
+geald þone gūð‐rǣs{{gap}}Gēata dryhten,
+Hrēðles eafora,{{gap}}þā hē tō hām becōm,
+Jofore and Wulfe{{gap}}mid ofer‐māðmum,
+sealde hiora gehwæðrum{{gap}}hund þūsenda
+landes and locenra bēaga;{{gap}}ne þorfte him þā lēan oðwītan
+mon on middan‐gearde,{{gap}}syððan hīe þā mǣrða geslōgon;
+and þā Jofore forgeaf{{gap}}āngan dōhtor,
+hām‐weorðunge,{{gap}}hyldo tō wedde.
+Þæt ys sīo fǣhðo{{gap}}and se fēond‐scipe,
+wæl‐nīð wera,{{gap}}þæs þe ic wēn hafo,     {{pline|3000}}
+þē ūs sēceað tō{{gap}}Swēona lēode,
+syððan hīe gefricgeað{{gap}}frēan ūserne
+ealdor‐lēasne,{{gap}}þone þe ǣr gehēold
+wið hettendum{{gap}}hord and rīce,
+æfter hæleða hryre{{gap}}hwate Scylfingas,
+folc‐rǣd fremede{{gap}}oððe furður gēn
+eorl‐scipe efnde.{{gap}}Nū is ofost betost,
+þæt wē þēod‐cyning{{gap}}þǣr scēawian
+and þone gebringan,{{gap}}þē ūs bēagas geaf,
+on ād‐fære.{{gap}}Ne scel ānes hwæt         {{pline|3010}}
+meltan mid þām mōdigan,{{gap}}ac þǣr is māðma hord.
+gold unrīme{{gap}}grimme gecēapod
+and nū æt sīðestan{{gap}}sylfes fēore
+bēagas gebohte;{{gap}}þā sceal brond fretan,
+ǣled þeccean,{{gap}}nalles eorl wegan
+māððum tō gemyndum,{{gap}}nē mægð scȳne
+habban on healse{{gap}}hring‐weorðunge,
+ac sceall geōmor‐mōd{{gap}}golde berēafod
+oft nalles ǣne{{gap}}el‐land tredan,
+nū se here‐wīsa{{gap}}hleahtor ālegde,      {{pline|3020}}
+gamen and glēo‐drēam.{{gap}}Forþon sceall gār wesan
+monig morgen‐ceald{{gap}}mundum bewunden,
+hæfen on handa,{{gap}}nalles hearpan swēg
+wīgend weccean,{{gap}}ac se wonna hrefn
+fūs ofer fǣgum,{{gap}}fela reordian,
+earne secgan,{{gap}}hū him æt ǣte spēow,
+þenden hē wið wulf{{gap}}wæl rēafode."
+Swā se secg hwata{{gap}}secgende wæs
+lāðra spella;{{gap}}hē ne lēag fela
+wyrda nē worda.{{gap}}Weorod eall ārās,     {{pline|3030}}
+ēodon unblīðe{{gap}}under Earna næs
+wollen‐tēare{{gap}}wundur scēawian.
+Fundon þā on sande{{gap}}sāwul‐lēasne
+hlim‐bed healdan,{{gap}}þone þe him hringas geaf
+ǣrran mǣlum:{{gap}}þā wæs ende‐dæg
+gōdum gegongen,{{gap}}þæt se gūð‐cyning,
+Wedra þēoden,{{gap}}wundor‐dēaðe swealt.
+Ǣr hī gesēgan{{gap}}syllīcran wiht,
+wyrm on wonge{{gap}}wiðer‐ræhtes þǣr
+lāðne licgean:{{gap}}wæs se lēg‐draca,      {{pline|3040}}
+grimlīc gryre‐gæst,{{gap}}glēdum beswǣled,
+sē wæs fīftiges{{gap}}fōt‐gemearces.
+lang on legere,{{gap}}lyft‐wynne hēold
+nihtes hwīlum,{{gap}}nyðer eft gewāt
+dennes nīosian;{{gap}}wæs þā dēaðe fæst,
+hæfde eorð‐scrafa{{gap}}ende genyttod.
+Him big stōdan{{gap}}bunan and orcas,
+discas lāgon{{gap}}and dȳre swyrd,
+ōmige þurh‐etone,{{gap}}swā hīe wið eorðan fæðm
+þūsend wintra{{gap}}þǣr eardodon:   {{pline|3050}}
+þonne wæs þæt yrfe{{gap}}ēacen‐cræftig,
+iū‐monna gold{{gap}}galdre bewunden,
+þæt þām hring‐sele{{gap}}hrīnan ne mōste
+gumena ǣnig,{{gap}}nefne god sylfa,
+sigora sōð‐cyning,{{gap}}sealde þām þe hē wolde
+(hē is manna gehyld){{gap}}hord openian,
+efne swā hwylcum manna,{{gap}}swā him gemet þūhte.
+}}
+
+===WĪGLAF SPEAKS. THE BUILDING OF THE BALE-FIRE.===
+{{ppoem|
+Þā wæs gesȳne,{{gap}}þæt se sīð ne þāh
+þām þe unrihte{{gap}}inne gehȳdde
+wrǣte under wealle.{{gap}}Weard ǣr ofslōh   {{pline|3060}}
+fēara sumne;{{gap}}þā sīo fǣhð gewearð
+gewrecen wrāðlīce.{{gap}}Wundur hwār, þonne
+eorl ellen‐rōf{{gap}}ende gefēre
+līf‐gesceafta,{{gap}}þonne leng ne mæg
+mon mid his māgum{{gap}}medu‐seld būan.
+Swā wæs Bīowulfe,{{gap}}þā hē biorges weard
+sōhte, searo‐nīðas:{{gap}}seolfa ne cūðe,
+þurh hwæt his worulde gedāl{{gap}}weorðan sceolde;
+swā hit oð dōmes dæg{{gap}}dīope benemdon
+þēodnas mǣre,{{gap}}þā þæt þǣr dydon,       {{pline|3070}}
+þæt se secg wǣre{{gap}}synnum scildig,
+hergum geheaðerod,{{gap}}hell‐bendum fæst,
+wommum gewītnad,{{gap}}sē þone wong strāde.
+Næs hē gold‐hwæt:{{gap}}gearwor hæfde
+āgendes ēst{{gap}}ǣr gescēawod.
+Wīglāf maðelode,{{gap}}Wīhstānes sunu:
+"Oft sceall eorl monig{{gap}}ānes willan
+wrǣc ādrēogan,{{gap}}swā ūs geworden is.
+Ne meahton wē gelǣran{{gap}}lēofne þēoden,
+rīces hyrde{{gap}}rǣd ǣnigne,       {{pline|3080}}
+þæt hē ne grētte{{gap}}gold‐weard þone,
+lēte hyne licgean,{{gap}}þǣr hē longe wæs,
+wīcum wunian{{gap}}oð woruld‐ende.
+Hēoldon hēah gesceap:{{gap}}hord ys gescēawod,
+grimme gegongen;{{gap}}wæs þæt gifeðe tō swīð,
+þē þone þēoden{{gap}}þyder ontyhte.
+Ic wæs þǣr inne{{gap}}and þæt eall geond‐seh,
+recedes geatwa,{{gap}}þā mē gerȳmed wæs,
+nealles swǣslīce{{gap}}sīð ālȳfed
+inn under eorð‐weall.{{gap}}Ic on ofoste gefēng     {{pline|3090}}
+micle mid mundum{{gap}}mægen‐byrðenne
+hord‐gestrēona,{{gap}}hider ūt ætbær
+cyninge mīnum:{{gap}}cwico wæs þā gēna,
+wīs and gewittig;{{gap}}worn eall gespræc
+gomol on gehðo{{gap}}and ēowic grētan hēt,
+bæd þæt gē geworhton{{gap}}æfter wines dǣdum
+in bǣl‐stede{{gap}}beorh þone hēan
+micelne and mǣrne,{{gap}}swā hē manna wæs
+wīgend weorð‐fullost{{gap}}wīde geond eorðan,
+þenden hē burh‐welan{{gap}}brūcan mōste.    {{pline|3100}}
+Uton nū efstan{{gap}}ōðre sīðe
+sēon and sēcean{{gap}}searo‐geþræc,
+wundur under wealle!{{gap}}ic ēow wīsige,
+þæt gē genōge{{gap}}nēan scēawiað
+bēagas and brād gold.{{gap}}Sīe sīo bǣr gearo
+ǣdre geæfned,{{gap}}þonne wē ūt cymen,
+and þonne geferian{{gap}}frēan ūserne,
+lēofne mannan,{{gap}}þǣr hē longe sceal
+on þæs waldendes{{gap}}wǣre geþolian."
+Hēt þā gebēodan{{gap}}byre Wīhstānes,       {{pline|3110}}
+hæle hilde‐dīor,{{gap}}hæleða monegum
+bold‐āgendra,{{gap}}þæt hīe bǣl‐wudu
+feorran feredon,{{gap}}folc‐āgende
+gōdum tōgēnes:{{gap}}"Nū sceal glēd fretan
+(weaxan wonna lēg){{gap}}wigena strengel,
+þone þe oft gebād{{gap}}īsern‐scūre,
+þonne strǣla storm,{{gap}}strengum gebǣded,
+scōc ofer scild‐weall,{{gap}}sceft nytte hēold,
+feðer‐gearwum fūs{{gap}}flāne full‐ēode."
+Hūru se snotra{{gap}}sunu Wīhstānes         {{pline|3120}}
+ācīgde of corðre{{gap}}cyninges þegnas
+syfone tōsomne{{gap}}þā sēlestan,
+ēode eahta sum{{gap}}under inwit‐hrōf;
+hilde‐rinc sum{{gap}}on handa bær
+ǣled‐lēoman,{{gap}}sē þe on orde gēong.
+Næs þā on hlytme,{{gap}}hwā þæt hord strude,
+syððan or‐wearde{{gap}}ǣnigne dǣl
+secgas gesēgon{{gap}}on sele wunian,
+lǣne licgan:{{gap}}lȳt ǣnig mearn,
+þæt hī ofostlice{{gap}}ūt geferedon         {{pline|3130}}
+dȳre māðmas;{{gap}}dracan ēc scufun,
+wyrm ofer weall‐clif,{{gap}}lēton wǣg niman,
+flōd fæðmian{{gap}}frætwa hyrde.
+Þǣr wæs wunden gold{{gap}}on wǣn hladen,
+ǣghwæs unrīm,{{gap}}æðeling boren,
+hār hilde‐rinc{{gap}}tō Hrones næsse.
+}}
+
+===BĒOWULF'S FUNERAL PYRE.===
+{{ppoem|
+Him þā gegiredan{{gap}}Gēata lēode
+ād on eorðan{{gap}}un-wāclīcne,
+helmum behongen,{{gap}}hilde-bordum, {{pline|3140}}
+beorhtum byrnum,{{gap}}swā hē bēna wæs;
+ālegdon þā tō-middes{{gap}}mǣrne þēoden
+hæleð hīofende,{{gap}}hlāford lēofne.
+Ongunnon þā on beorge{{gap}}bǣl-fȳra mǣst
+wīgend weccan:{{gap}}wudu-rēc āstāh
+sweart ofer swioðole,{{gap}}swōgende lēg,
+wōpe bewunden{{gap}}(wind-blond gelæg)
+oð þæt hē þā bān-hūs{{gap}}gebrocen hæfde,
+hāt on hreðre.{{gap}}Higum unrōte
+mōd-ceare mǣndon{{gap}}mon-dryhtnes cwealm; {{pline|3150}}
+swylce giōmor-gyd{{gap}}lat . con meowle
+. . . . .{{gap}}wunden heorde . . .
+serg (?) cearig sǣlde{{gap}}geneahhe
+þæt hīo hyre . . . . gas hearde
+. . . . . ede{{gap}}wælfylla wonn . .
+hildes egesan{{gap}}hyðo
+haf mid{{gap}}heofon rēce swealh (?)
+Geworhton þā{{gap}}Wedra lēode
+hlǣw on hlīðe,{{gap}}sē wæs hēah and brād,
+wǣg-līðendum{{gap}}wīde gesȳne, {{pline|3160}}
+and betimbredon{{gap}}on tȳn dagum
+beadu-rōfes bēcn:{{gap}}bronda betost
+wealle beworhton,{{gap}}swā hyt weorðlīcost
+fore-snotre men{{gap}}findan mihton.
+Hī on beorg dydon{{gap}}bēg and siglu,
+eall swylce hyrsta,{{gap}}swylce on horde ǣr
+nīð-hȳdige men{{gap}}genumen hæfdon;
+forlēton eorla gestrēon{{gap}}eorðan healdan,
+gold on grēote,{{gap}}þǣr hit nū gēn lifað
+eldum swā unnyt,{{gap}}swā hit ǣror wæs. {{pline|3170}}
+Þā ymbe hlǣw riodan{{gap}}hilde-dēore,
+æðelinga bearn{{gap}}ealra twelfa,
+woldon ceare cwīðan,{{gap}}kyning mǣnan,
+word-gyd wrecan{{gap}}and ymb wer sprecan,
+eahtodan eorl-scipe{{gap}}and his ellen-weorc
+duguðum dēmdon,{{gap}}swā hit ge-dēfe bið,
+þæt mon his wine-dryhten{{gap}}wordum herge,
+ferhðum frēoge,{{gap}}þonne hē forð scile
+of līc-haman{{gap}}lǣne weorðan.
+Swā begnornodon{{gap}}Gēata lēode {{pline|3180}}
+hlāfordes hryre,{{gap}}heorð-genēatas,
+cwǣdon þæt hē wǣre{{gap}}woruld-cyning
+mannum mildust{{gap}}and mon-þwǣrust,
+lēodum līðost{{gap}}and lof-geornost.
+}}
+
+==Appendix==
+*[[/The Fight at Finnsburh]]
+*[[/List of Names]]
+*[[/Notes]]
+*[[/Glossary]]
+
+<!--[were these all applied?]
+
+==CORRECTIONS MADE TO THE SOURCE TEXT:==
+ARGUMENT, recals = recalls ll. 131, 737 þryð-swyð = þrȳð-sw̄ð l. 256 ōfest
+= ōfost l. 303 scīonon = scionon l. 706 buton = būton l. 1115 āt = æt l.
+1133 wīð = wið ll. 1304, 1560, 1616 missing caesuras supplied l. 1436
+here-stræl = here-strǣl l. 1642 feōwer- = fēower l. 1747 stræle = strǣle l.
+1828 þywað = þȳwað l. 1926 betlic = betlīc l. 2224 gescēod = gesceōd ll.
+2288, 3036 wās = wæs l. 2453 to = tō l. 2503 Huga = Hūga (marked long,
+correctly, in the list of names, but not elsewhere) l. 2586 niðe = nīðe l.
+2587 sið = sīð l. 2684 irenna = īrenna l. 2915 Hugas = Hūgas l. 2956
+hēaðo-liðendum = heaðo-līðendum l. 3000 Þāt = Þæt; feōnd- = fēond- l. 3056
+sóð = sōð l. 3137 Hrōnes = Hrones list of names, under: Dene, Scedenīgge =
+Scedenigge Ēadgils, Ohthere = Ōhthere Frēawaru, Freawaru = Frēawaru
+Hrōðgār, Hrōð-gāre = Hrōðgāre Hygelac, Hǣreð = Hæreð notes, for l. 31, of
+l. 31 = of l. 30 l. 1441, wōð- = wǣg- l. 1916, leōfra = lēofra glossary,
+under: æðele, Beowulf's = Bēowulf's ān, gehwilces = gehwylces ǣg-hwā,
+ǣgh-wæs = ǣghwæs æt-beran, beadolāce = beadulāce beadu-lāc, beado- = beadu-
+(twice) bēag, beages = bēages beorh, hēaford- = hēafod bēodan, leodum =
+lēodum bēon, cwēnlic = cwēnlīc biddan, bliðne = blīðne bitter, stræle =
+strǣle ge-bīdan, therefor = therefore on-bīdan, earfōðlīce = earfoðlīce
+brecan, lētdse = lēt se burne, of of = of būtan, swīce = swice cempa, Huga
+= Hūga ge-cēosan, usic = ūsic on-cirran, wealdendas = wealdendes corðer, þæ
+= þā cūð, wīð- = wīd- cunnan, þēawe = þēaw dōgor, gehwam = gehwām dōn,
+ymbsittend = ymbesittend; hettend = hetend; þywað = þȳwað drīfan, feoran =
+feorran dryhten, frēah- = frēa- dryht-scipe, drihtscipe = drihtscype
+ge-dȳgan, wræcsið = wræcsīð eal, oncyððe = oncȳððe ealdor, herestræl =
+herestrǣl ēacen-cræftig, iūmanna = iūmonna eofor-sprēot, hocyhtum =
+hōcyhtum eorlīc, eorlic [ellen] = eorlīc fāh, wāldrēore = wældrēore fela,
+maððum- = māððum- oð-ferian, panon = þonan fēran, wære = wǣre fēond, feonda
+= fēonda flēon, fenhōpu = fenhopu floga, wīð- = wīd- folc-toga, Hrōðgar =
+Hrōðgār for, wonhydum = wonhȳdum; handgeweorc = hondgeweorc fōt-gemearc,
+long = lang ge-frignan, þeodcyninga = þēodcyninga ge-fyrðran, fratwum =
+frætwum ge-fȳsan, to sēcanne = tō sēceanne gān, swa = swā; [or] giong =
+gīong; flore = flōre; sīttan = sittan ge-gan, Wīglaf = Wīglāf gār-wiga,
+Wīglaf = Wīglāf gæst, fēde- = fēðe- gegn-cwide, þinra = þīnra ge-gyrwan,
+yðlidan = ȳðlidan gēoc, gást = gāst geōmore-līc, [bið] geōmorlic =
+geōmorlīc for-gildan, therefor = therefore gold-wlanc, guðrinc = gūðrinc
+grētan, walgǣst = wælgǣst grim, searo-grimm = searo-grim habban, gecorene =
+gecorone wið-habban, winsele = wīnsele hatan, sǣliðend = sǣlīðend hatian,
+guð-sceaða = gūð-sceaða hār, heāre = hēare here-strǣl, -stræl = strǣl
+heard, -stræl = -strǣl; regen- = regn- heorte, starc- = stearc heoro-drēor,
+heoro-dreore (citation) = heoro-drēore hlið, hliðu = hliðo (twice) hōp, hōp
+= hop (twice) hreow, þāt = þæt hrōf, gesēah = geseah hwīl, seo = sēo
+hȳran, ǣghwilc = ǣghwylc inne, abēad = ābēad īren, drihtlīc = dryhtlīc
+lāð, gewiðru = gewidru; scynnum = scinnum be-lēan, beleān = belēan mētan,
+Aescheres = Æscheres mearcian, mōrhōpu = mōrhopu ge-mearian, hwam = hwām
+morðor-bed, stred = strēd mōd, stið- = stīð nǣnig, horð-māðum = hord-māððum
+on, hēaðe = heoðe; willen = willan rǣd, fǣst- = fæst reccan, hu = hū rīdan,
+gealgan = galgan sang, -leasne = lēasne sceapan, Hugas = Hūgas (twice)
+scānan, scīonon = scionon scīnan, scīnon = scinon secg, synnigne = sinnigne
+ge-sēcan, -cyððe = cȳððe ge-sīgan, ætsæcce = æt sæcce ge-slēan, ge-slōgan
+= ge-slōgon standan, stræl = strǣl stapan, furðor = furður ge-steppan,
+Ohtheres = Ōhteres stincan, þæ = þā styrian, ge-wiðru = ge-widru sweord,
+maððum- = māððum ge-swīcan, þeodne = þēodne tēon (w. v.), nalæs = nalas;
+teodan = tēodan tō, hælum = hǣlum; sitte = site; Eofore = Jofore ge-trūwan,
+-wære = wǣre ge-twǣfan, ōððe = oððe þǣr, snotera = snottra þē, gimfæstan =
+ginfæstan of-þincan, gehwam = gehwām ge-þolian, þāt = þæt þū, sǣlran =
+selran þūsend, sēofon = seofan un-hēore, -speru = -sporu ūs, ǣg-hwilc =
+ǣg-hwylc wacan, wōcon = wōcun werian, beaduscrūd = beaduscrūda be-werian,
+scynnum = scinnum wēn, orlēg = orleg; ōr-wena = or-wēna weorðian, leōde =
+lēode willa, wyllum = willum wilnian, fæðer = fæder nāt, hwilc = hwylc
+(twice) ge-wītan, wære = wǣre
+
+Changes to Vowel Quantities in the Revised Edition: (_Revisions that were
+mentioned in the source text have been siltently incorporated and aren't
+listed here. Unless otherwise noted, changes are to all related forms of
+the word._) Abel = Ābel aglǣc (æglǣc) = āglǣc (ǣglǣc) āttor = attor āwā =
+āwa begen = bēgen gebræd = gebrǣd breme = brēme Brosinga = Brōsinga cōfa =
+cofa cymlīcor = cȳlīcor drusian = drūsian ēfstan = efstan eode (-iode)
+[pret. of gān] = ēode (-īode) [and in compounds] fæger = fǣ [in cpd. un-
+and l. 774 only] fīftena = fīftȳna feor(-e/-es/-um) = fēor- [except ll.
+73, 934, 1844] forþam = forþām Fresan/Frysan = Frēsan/Frȳsan frinan
+(gefrunon) = frīnan (gefrūnon) (of)geāfon = (of)gēafon gen = gēn genunga =
+gēnunga gēo/gīo = geō/gio [and in compounts] gigant = gīgant Hǣðcyn =
+Hæðcyn hēht = heht her = hēr ofer-higian = ofer-hīgian hliðe/hliðes =
+hlīðe/hlīðes [dat. and gen. of hlið] hlifian = hlīfian Hreosna- = Hrēosna
+(H)ūnferð = (H)unferð hydig = hȳdig hyda = hȳda læs = lǣs lixan = līxan
+lyt(el) = lȳt(el) [and in compounds] Merewioingas = Merewīoingas meagol =
+mēagol mearh [oblique cases], mear- = mēar- missere = missēre ne = nē [as
+conjunct/disjunct] niwe = nīwe geniwian = genīwian niw-tyrwed = nīw-tyrwed
+ōfost = ofost onettan = ōnettan oret/oretta = ōret/ōretta ōð = oð [and as
+verbal prefix] scōp = scop [n. only] scyran = scȳran se = sē [as
+substantive and relative] singal = singāl sīoloð (sēoloð) = sioloð sleac =
+slēac stæl = stǣl swēlan = swelan Sweon = Swēon (ge)trūwan = (ge)truwan tux
+= tūx twegen = twēgen tydre = tȳdre (un)tyder = (un)tȳder tyn = tȳn þrag
+= þrā þritig = þrītig þryð = þrȳð þihtig/þyhtig = þīhtig/þȳhtig wag = wāg
+wæfre = wǣfre wel = wēl [and in compounds] weōx = wēox wīga = wiga Wihstān
+(Weohstān) = Wīhstān (Wēohstān) witig = wītig ge-witnian = ge-wītnian wræt
+= wrǣt uhte = ūhte [and in compounds]
+
+
+-->
+{{PD-old}}

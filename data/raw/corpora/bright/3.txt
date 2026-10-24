@@ -1,0 +1,43 @@
+{{header
+ | title    = Bright's Anglo-Saxon Reader
+ | author   = James W. Bright
+ | section  = Account of the Poet Cædmon
+ | previous = [[Bright's Anglo-Saxon Reader/Orpheus and Eurydice|Orpheus and Eurydice]]
+ | next     = [[Bright's Anglo-Saxon Reader/Cynewulf and Cyneheard|Cynewulf and Cyneheard]]
+ | notes    =
+}}
+
+
+[From the Anglo-Saxon version of Bede's Ecclesiastical History.
+The text follows the Tanner MS. (= Tanner 10, Bodl. Lib.); the
+variants are from C (= MS. Cotton; Otho B. xi.), O (= MS. 279,
+Corp. C. C. Camb.), and Ca (= MS. Kk. 3. 18, Camb. Univ. Lib.).]
+                                                                                                 
+In ðeosse abbudissan mynstre wæs sum brōðor syndriglīce mid godcundre gife gemǣred ond gewordðad, for þon hē of godcundan stafum þurh bōceras geleornode, þæt hē æfter medmiclum fæce in scopgereorde mid þā mǣstan swētnisse ond inbryrdnisse ''geglengde'', ond in Engliscgereorde wel geworht forþ brōhte.  Ond for his lēoþsongum monigra  monna mōd oft tō worulde forhogdnisse ond tō geþēodnisse þæs heofonlīcan līfes onbærnde wǣron.  Ond ēac swelce monige ōðre æfter him in Ongelþēode ongunnan ǣfteste lēoð wyrcan, ac nǣnig hwæðre him þæt gelīce dōn ne meahte; for þon hē nālæs from monnum nē þurh mon gelǣred wæs þæt hē þone lēoðcræft leornade, ac hē wæs godcundlīce gefultumod, ond þurh Godes gife þone songcræft onfēng; ond hē for ðon nǣfre nōht lēasunge, nē īdles lēoþes wyrcan ne meahte, ac efne þa ān ðā ðe tō ǣfestnisse belumþon, ond hīs þā ǣfèstan tungangedeofanade singan.
+
+Wæs hē sē mon in weoruldhāde geseted oð þā tīde þe hē wæs gelȳfdre ylde, ond nǣfre nǣnig lēoð geleornade.  Ond hē for þon oft in gebēorscipe, þonne þǣr wæs blisse intinga gedēmed, þæt hēo ealle sceolden þurh endebyrdnesse be hearpan singan, þonne hē geseah þā hearpan him
+nēalēcan, þonne ārās hē for scome from þǣm symble, ond hām ēode tō his hūse.  Ðā hē þæt þā sumre tīde dyde, þæt hē forlēt þæt hūs þæs gebēorscipes, ond ūt wæs
+gongende tō nēata scipene, þāra heord him wæs þǣre
+neahte beboden; þā hē ðā þǣr in gelimplīce tīde his leomu on reste gesette ond onslēpte, þā stōd him sum mon æt þurh swefn, on hine hālette on grētte, on hine be his noman nemnde: 'Cedmon, sing mē hwæthwugu.'  Þā ondswarede hē, on cwæð: 'Ne con ic nōht singan; ond ic for þon of þeossum gebēorscipe ūt ēode ond hider gewāt, for þon ic nāht singan ne cūðe.'  Eft hē cwæð sē ðe wið hine sprecende wæs: 'Hwæðre þū meaht mē singan.'  Þā cwæð hē: 'Hwæt sceal ic singan?' Cwæð hē: 'Sing mē frumsceaft.'  Þā hē ðā þās andsware onfēng, þā ongon hē sōna singan, in herenesse Godes Scyppendes, þā fres ond þā word þe hē nǣfre ne gehȳrde, þāra endebyrdnes þis is:
+ 
+: Nū wē sculon herigean &nbsp; heofonrīces Weard,
+: Meotodes meahte &nbsp;  ond his mōdgeþanc,
+: weorc Wuldorfæder, &nbsp;  swā hē wundra gehwæs,
+: ēce Drihten &nbsp;  ōr onstealde.
+
+: Hē ǣrest scēop &nbsp; eorðan bearnum
+: heofan tō hrōfe, &nbsp; hālig Scyppend;
+: þā middangeard  &nbsp;  monncynnes Weard
+: ēce Drihten,  &nbsp;    æfter tēode
+: fīrum foldan,  &nbsp;   Frēa ælmihtig.
+ 
+Þā ārās hē from þǣm slǣpe, ond eal þā þe hē slǣpende song fæste in gemynde hæfde. ond þǣm wordum sōna monig word in þæt ilce gemet Gode wyrðes songes tōgeþēodde. Þā cōm hē on morgenne tō þǣm tūngerēfan, sē þe his ealdormon wæs: sægde him hwylc gife hē onfeng; on hē hine sōna tō þǣre abbudissan gelǣdde, ond hire þæt cȳðde ond sægde. Þā heht hēo gesomnian ealle þā gelǣredestan men ond þā leorneras, ond him ondweardum hēt secgan þæt swefn, on þæt lēoð singan þæt ealra heora dōme gecoren wǣre, hwæt oððe hwonan þæt cumen wǣre. Þā wæs him eallum gesegen, swā swā hit wæs, þæt him wǣre from Drihtne sylfum heofonlīc gifu forgifen. Þā rehton hēo him ond sægdon sum hālig spell ond godcundre lāre word: bebudon him þā, gif hē meahte, þæt hē in swīnsunge lēoðsonges þæt gehwyrfde. Þā hē ðā hæfde þā wīsan onfongne, þā ēode hē hām tō his hūse, ond cwōm eft on morgenne, ond þȳ betstan lēoðe geglenged him āsong ond āgeaf þæt him beboden wæs.
+
+Ðā ongan sēo abbudisse clyppan ond lufigean þā Godes gife in þǣm men, ond hēo hine þā monade ond lǣrde þæt hē woruldhād ānforlēte ond munuchād onfēnge: ond hē þæt wel þafode. Ond hēo hine in þæt mynster onfēng mid his gōdum, ond hine geþēodde tō gesomnunge þāra
+<!--end of page 10 -- start of page 11-->
+Godes þēowa, on heht hine lǣran þæt getæl þæs hālgan stǣres on spelles. Ond hē eal þā [þe] hē in gehȳrnesse geleornian meahte, mid hine gemyndgade, ond swā swā clǣne nēten eodorcende in þæt swēteste lēoð gehwyrfde. Ond his song ond his lēoð wǣron swā wynsumu tō gehȳranne, þætte seolfan þā his lārēowas æt his mūðe wreoton ond leornodon. Song hē ǣrest be middangeardes gesceape, ond bī fruman moncynnes, ond eal þæt stǣr Genesis, þæt is sēo ǣreste Moyses booc; ond eft bī ūtgonge Israhēla folces of Ǣgypta londe, on bī ingonge þæs gehātlandes; ond bī ōðrum monegum spellum þæs hālgan gewrites canones bōca; ond bī Crīstes menniscnesse, ond bī his þrōwunge, on bī his ūpāstīgnesse in heofonas; on bī þæs Hālgan Gāstes cyme, ond þāra apostola lāre; ond eft bī þǣm dæge þæs tōweardan dōmes, ond bī fyrhtu þæs tintreglīcan wiites, ond bī swētnesse þæs heofonlecan rīces, hē monig lēoð geworhte; ond swelce ēac ōðer monig be þǣ godcundan fremsumnessum ond dōmum bē geworhte. In eallum þǣm hē geornelīce gēmde þæt hē men ātuge from synna lufan ond māndǣda, ond tō lufan ond tō geornfulnesse āwehte gōdra dǣda; for þon hē wæs sē mon swīþe ǣfest ond regollecum þēodscipum ēaðmōdlīce underþēoded; ond wið þǣm þā ðe in ōðre wīsan dōn woldon, hē wæs mid welme micelre ellenwōdnisse onbærned. Ond hē for ðon fægre ende his līf betȳnde on geendade.
+
+For þon þā ðǣre tīde nēalǣcte his gewitenesse ond forðfōre, þā wæs hē fēowertȳnum dagum ǣr; þæt hē wæs līchomlīcre untrymnesse þrycced ond hefgad, hwæðre tō
+<!--end of page 11 -- start of page 12-->
+þon gemetlīce þæt hē ealle þā tīd meahte ge sprecan ge gongan.  Wæs þǣr in nēaweste untrumra monna hūs, in þǣm heora þēaw wæs þæt hēo þā untruman on þā ðe æt forðfōre wǣron in lǣdan sceoldon, ond him þǣr ætsomne þegnian.  Þā bæd hē his þegn on ǣfenne þǣre neahte þe hē of worulde gongende wæs þæt hē in þǣm hūse him stōwe gegearwode, þæt hē gerestan meahte.  Þā wundrode sē þegn for hwon hē ðæs bǣde, for þon him þūhte þæt his forðfōr swā nēah ne wǣre: dyde hwæðre swā swā hē cwæð ond bibēad.  Ond mid þȳ hē ðā þǣr on reste ēode, ond hē gefēonde mōde sumu þing mid him sprecende ætgædere ond glēowiende wæs þe þǣr ǣr inne wǣron þā wæs ofer middeneaht þæt hē frægn, hwæðer hēo ǣnig hūsl inne hæfdon.  Þā ondswarodon hēo ond cwǣdon: 'Hwylc þearf is ðē hūsles?  Ne þīnre forþfōre swā nēah is, nu þū þus rōtlīce ond þus glædlīce tō ūs sprecende eart.'  Cwæð hē eft: 'Berað mē hūsl tō.'  Þā hē hit þā on honda hæfdem þā frægn hē, hwæþer hēo ealle smolt mōd ond būton eallum incan blīðe tō him hæfdon.  Þā ondswaredon hȳ ealle, ond cwǣdon þæt hēo nǣnigne incan tō him wiston, ac hēo ealle swīðe hlīðemōde wǣron; ond hēo wrīxendlīce hine bǣdon þæt hē him eallum nlīðe wǣre.  Þā ondswarade hē ond cwæð: 'Mīne brōðor, mīne þā lēofan, ic eom swīðe blīðemōd tō ēow ond tō eallum Godes monnum.'  Ond hē swā wæs hine getrymmende mid þȳ heofonlecan wegneste, ond him ōðres līfes ingong gegearwode.  Þā gȳt hē frægn, hū nēah þǣre tīde wǣre þætte þā brōðor ārīsan ''sceoldon'', ond Godes lof rǣran ond heora ūhtsong singan.  Þā
+<!--end of page 12 -- start of page 13-->ondswaredon hēo: 'Nis hit feor tō þon.'  Cwæð hē: 'Teala, wuton wē wel þǣre tīde bīdan;' ond þā him gebæd, ond hine gesegnode mid Crīstes rōdetācne, ond his hēafod onhylde tō þām bolstre, ond medmicel fæc onslēpte, ond swā mid stilnesse his līf geendade.  Ond swā wæs geworden þætte swā swā hē hlūttre mōde ond bilwiltre ond smyltre wilsumnesse Drihtne þēode, þæt hē ēac swylce swā smylte dēaðe middangeard wæs forlǣtende, ond tō his gesihðe becwōm.  Ond sēo tunge þe swā monig hālwende word in þæs Scyppendes lof gesette, hē ðā swelce ēac þā ȳtmæstan word in his herenisse, hine seolfne segniende ond his gāst in his honda bebēodende, betȳnde.  Ēac swelce þæt is gesegen þæt hē wǣre gewis his seolfes forðfōre of þǣm þe wē nū secgan hȳrdon.

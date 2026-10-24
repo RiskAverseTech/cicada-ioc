@@ -1,0 +1,14 @@
+{{similar|The Wanderer}}
+{{header
+ | title    = [[Bright's Anglo-Saxon Reader]]
+ | author   = James W. Bright
+ | section  = The Wanderer
+ | previous = [[Bright's Anglo-Saxon Reader/The Battle of Maldon|The Battle of Maldon]]
+ | next     = [[Bright's Anglo-Saxon Reader/The Phœnix|The Phœnix]]
+ | portal   = Exeter Book
+ | notes    =
+}}
+<pages index="Bright's Anglo-Saxon Reader.djvu" from=246 to=250 />
+{{smallrefs}}
+
+[[li:Se Wīdfarend]]

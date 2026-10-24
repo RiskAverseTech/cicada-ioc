@@ -415,6 +415,13 @@ more. What it does not exclude: phrases from text outside the book, keys applied
 plaintext (the scorer is English), a rejection loop that consumes two key draws per rejection
 (wazar's skip_by_two), or any keystream that is not periodic.
 
+**Prior-art correction (2026-10-23, after a wider survey).** pnotisdev/cicada3301 had already tested
+1,841 word, phrase, title and line keys of up to 24 runes from the solved pages, in eight spellings,
+both signs, with and without the F rule, at the eight section starts (its `solved-phrase-keys`
+entry, excluded) and 1,940 keywords of length 3–30 under its collision-repair model on all windows.
+Phase 4's additions over that are keys longer than 24 runes, reversed keys, and every page rather
+than section starts. See the field survey at the end of `results/ledger_diff.md`.
+
 With this, the book-internal key space under the anti-repeat rule is closed by at least one
 controlled analysis for every family any of the four projects could name. The remaining lanes are
 the non-English rescoring of these same families and the external hunts (an untried text, a seed,

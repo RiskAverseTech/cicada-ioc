@@ -104,3 +104,39 @@ Nothing yet. Every family that this repository closed was already closed by at l
 three, usually with comparable controls, and the mechanism parameter (81 % here, 81–82 % there)
 agrees to within fitting error. The convergence is the result. The list above is what remains
 after four independent sweeps, and it is short.
+
+## Field survey (2026-10-23): the three ledgers are not the whole field
+
+GitHub search finds 39 Liber Primus repositories, 21 of them pushed in 2026. The serious ones, by
+recency and rigor (READMEs read as data; r/cicada and X could not be read, both block automated
+access; the CicadaSolvers Discord is unread by every AI lab including this one):
+
+| Repo | Last push | What it is | Relevance here |
+|---|---|---|---|
+| **pnotisdev/cicada3301** | 2026-10-24 | Registry-driven workspace: 56 families excluded, 33 partly, 8 open; IoC screens at 10⁹–10¹⁰ decodes with planted controls; a live queue | **Already ran phrase keys**: 1,841 keys ≤ 24 runes (words, phrases, titles, first/last lines, 2014 messages), 8 spellings, both signs, F rule on/off, at the 8 section starts (`solved-phrase-keys`, excluded); 1,940 keywords of length 3–30 under its R4 collision-repair model on all 48 windows (partial). Also all 28 key multipliers and periodic sign templates. Our phase 4 adds only keys > 24 runes, reversed keys, and all 55 pages. |
+| **murphyaidanbusiness-ux/liberprimus** | 2026-10-18 | Orchestrated agent campaign, 14 + 14 lanes, all controlled; seven structural constraints; census of 232 community methods (`research/EXHAUSTED.md`: 130 dead by the fingerprint, 21 open-ended, 6 finite partials) | Lane E: plaintext language from word statistics favours English with THE/OF(/TO) absent; Latin 10–30× worse; Old English tested on verse only ("no prose source reachable"); Dutch/Danish not excluded. Names the best-fitting family left: evolving-alphabet walk / Quagmire dodge with skip-on-repeat (Oosterhof), excluded in its odometer form, clock form has no search tool yet. |
+| **micheloosterhof/aldegonde** | 2026-10-21 (since 2021) | Classical-crypto library for non-standard alphabets; the walk model, the lag-5 echo, the layout findings | The community member whose findings the October campaign builds on |
+| wazar (Dukotah)/cicada3301 | 2026-10-07 | see table above | |
+| Leo-Y-Zhang/LiberPrimusAnalysis | 2026-10-02 | see table above | |
+| jens-wedin/liber-primus | 2026-08-26 | see table above; HistoCrypt paper drafted, not reported as submitted | |
+| TheronEagle/liber-primus-research | 2026-09-30 | AI-assisted log, no solve | cited by the October campaign |
+| aergasrg/liber-primus | 2026-09 | Multi-session Claude lab with YAML ledger and backlog | backlog B07 "non-English plaintext scoring" still open there |
+| ZzNible/…-findings, Wulfic, Pitchfork-and-Torch, anon5376 | Aug–Sep 2026 | sanitised negative results, trackers, "hypothesis lab, not a solve" | Wulfic retracted its pre-2026-09-29 claims as artifacts |
+| relikd/LiberPrayground, Taiiwo/cicada-library, mortlach/RuneDecrypterPrime | long-running | community tooling, transcriptions, the finished 29-rune interrupter DB | infrastructure, not attacks |
+| johnvteixido, 2retooz270703 (27×27 grid), vionorromanov ("full decipherment") | 2026 | unverified or crank | ignore |
+
+**What this changes.** Phase 4 was, like phases 2 and 3, mostly a replication: pnotisdev had the
+phrase family at the section starts five days earlier. Phase 5's Latin lane has low prior by lane E's
+word statistics; its Old English prose lane is a real gap (lane E could not fetch OE prose), and
+our own controls show the unigram scorer barely loses power across registers anyway, so the
+"English-only blind spot" is a property of quadgram scorers, not of this decoder.
+
+**The actual frontier, as the two most thorough repos state it:** the evolving-alphabet walk in
+its clock-dependent form (no working search tool), the lag-5/lag-6 within-word echo (2.5σ, mechanism
+unknown), pnotisdev's open items (keyword-mixed outer alphabet, unkeyed insertions and extra key
+advance at separators, pointer-direction sign rules, tableau ciphers, drift-tracking keyword decoder),
+and the external hunts. Anything else is on a ledger already.
+
+**Rule for further work in this repository:** check `pnotisdev/docs/registry.toml` and
+`murphy…/research/EXHAUSTED.md` before any sweep, and prefer contributing a lane to pnotisdev's queue
+format over a sixth parallel ledger.

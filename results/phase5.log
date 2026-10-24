@@ -1,0 +1,55 @@
+22863 configurations per page x 55 pages x 2 F variants x 2 registers = 5,029,860 tests; chance max ~ 5.6 sigma
+  la-control-00: sub phrase-2 'HE SAID' F=False: own model z=11.5 rank 1 rec 1.000 | English model z=10.8 rank 1 rec 1.000
+  la-control-01: add sentence-rev 'THAT IS WHAT YOU DO NOT WHO YO' F=False: own model z=11.0 rank 1 rec 1.000 | English model z=10.3 rank 1 rec 1.000
+  la-control-02: beaufort sentence 'FINALLY HE ANSWERED I AM A HUM' F=False: own model z=11.8 rank 1 rec 1.000 | English model z=10.0 rank 1 rec 1.000
+  la-control-03: sub vigenere-word-rev 'FOLLWNGʳ' F=False: own model z=11.8 rank 1 rec 1.000 | English model z=11.1 rank 1 rec 1.000
+  la-control-04: add self running key 'plaintext@2510' F=False: own model z=11.9 rank 2 rec 1.000 | English model z=10.8 rank 2 rec 1.000
+  la-control-05: beaufort lucas 'L[n+9]' F=False: own model z=12.3 rank 1 rec 1.000 | English model z=11.2 rank 1 rec 1.000
+  la-control-06: sub phrase-3 'HE STARTED BUT' F=True: own model z=12.9 rank 1 rec 0.996 | English model z=11.3 rank 1 rec 0.996
+  la-control-07: add phrase-2-rev 'AFTER A ʳ' F=True: own model z=13.9 rank 1 rec 1.000 | English model z=11.9 rank 1 rec 0.983
+  la-control-08: beaufort phrase-2 'A STUDENT' F=True: own model z=15.0 rank 1 rec 0.971 | English model z=12.9 rank 1 rec 0.954
+  la-control-09: sub square position 'n²+4' F=True: own model z=14.0 rank 1 rec 0.992 | English model z=12.6 rank 1 rec 0.992
+  la-control-10: add primes+1 'p[n+58]+1' F=True: own model z=14.0 rank 1 rec 1.000 | English model z=12.1 rank 1 rec 1.000
+  la-control-11: beaufort affine position '11·n+28' F=True: own model z=14.0 rank 1 rec 1.000 | English model z=11.8 rank 1 rec 1.000
+  ang-control-00: sub phrase-2 'BY LUCK' F=False: own model z=9.4 rank 1 rec 1.000 | English model z=8.4 rank 1 rec 1.000
+  ang-control-01: add sentence-rev 'IT IS THE BEHAVIORS OF CONSUMP' F=False: own model z=8.7 rank 1 rec 0.975 | English model z=9.0 rank 1 rec 0.963
+  ang-control-02: beaufort sentence 'WHO ARE YOU WHO WISHES TO STUD' F=False: own model z=8.1 rank 1 rec 1.000 | English model z=7.0 rank 1 rec 0.912
+  ang-control-03: sub vigenere-word-rev 'WORTHʳ' F=False: own model z=9.6 rank 1 rec 1.000 | English model z=8.0 rank 1 rec 1.000
+  ang-control-04: add self running key 'plaintext@2742' F=False: own model z=8.7 rank 1 rec 1.000 | English model z=8.9 rank 1 rec 1.000
+  ang-control-05: beaufort lucas 'L[n+2]' F=False: own model z=8.7 rank 1 rec 1.000 | English model z=6.9 rank 1 rec 1.000
+  ang-control-06: sub phrase-3 'NOT WHO YOU' F=True: own model z=10.5 rank 1 rec 1.000 | English model z=8.4 rank 1 rec 0.933
+  ang-control-07: add phrase-2-rev 'PRIMALITY AND ʳ' F=True: own model z=11.0 rank 1 rec 0.971 | English model z=9.3 rank 1 rec 0.971
+  ang-control-08: beaufort phrase-2 'FOR A' F=True: own model z=11.4 rank 1 rec 0.971 | English model z=10.6 rank 1 rec 0.988
+  ang-control-09: sub square position 'n²+18' F=True: own model z=9.8 rank 1 rec 0.967 | English model z=8.6 rank 1 rec 0.988
+  ang-control-10: add primes+1 'p[n+60]+1' F=True: own model z=9.2 rank 3 rec 0.967 | English model z=7.9 rank 3 rec 0.929
+  ang-control-11: beaufort affine position '13·n+12' F=True: own model z=10.0 rank 1 rec 0.933 | English model z=8.2 rank 1 rec 0.863
+controls done in 74s
+  LP2-00 done (1/55), best z on this page: la 4.82, ang 3.80  [38s]
+  LP2-01 done (2/55), best z on this page: la 3.91, ang 3.68  [71s]
+  LP2-02 done (3/55), best z on this page: la 3.97, ang 3.39  [94s]
+  LP2-03 done (4/55), best z on this page: la 3.79, ang 3.43  [117s]
+  LP2-04 done (5/55), best z on this page: la 4.88, ang 4.04  [153s]
+  LP2-05 done (6/55), best z on this page: la 4.59, ang 3.96  [182s]
+  LP2-06 done (7/55), best z on this page: la 3.71, ang 3.49  [211s]
+  LP2-07 done (8/55), best z on this page: la 3.92, ang 4.11  [234s]
+  LP2-08 done (9/55), best z on this page: la 4.06, ang 4.04  [270s]
+  LP2-09 done (10/55), best z on this page: la 3.79, ang 4.34  [310s]
+  LP2-10 done (11/55), best z on this page: la 3.98, ang 3.97  [344s]
+  LP2-11 done (12/55), best z on this page: la 4.56, ang 3.56  [383s]
+  LP2-12 done (13/55), best z on this page: la 3.80, ang 3.81  [421s]
+  LP2-13 done (14/55), best z on this page: la 4.26, ang 4.04  [456s]
+  LP2-14 done (15/55), best z on this page: la 3.47, ang 3.65  [477s]
+  LP2-15 done (16/55), best z on this page: la 3.76, ang 4.02  [502s]
+  LP2-16 done (17/55), best z on this page: la 3.78, ang 3.40  [552s]
+  LP2-17 done (18/55), best z on this page: la 3.93, ang 3.56  [590s]
+  LP2-18 done (19/55), best z on this page: la 4.13, ang 3.89  [630s]
+  LP2-19 done (20/55), best z on this page: la 4.27, ang 4.05  [661s]
+  LP2-20 done (21/55), best z on this page: la 3.73, ang 3.87  [690s]
+  LP2-21 done (22/55), best z on this page: la 3.89, ang 3.54  [717s]
+  LP2-22 done (23/55), best z on this page: la 3.66, ang 3.37  [732s]
+  LP2-23 done (24/55), best z on this page: la 3.45, ang 3.65  [765s]
+  LP2-24 done (25/55), best z on this page: la 3.85, ang 4.53  [806s]
+  LP2-25 done (26/55), best z on this page: la 3.76, ang 3.80  [846s]
+  LP2-26 done (27/55), best z on this page: la 3.55, ang 3.92  [882s]
+  LP2-27 done (28/55), best z on this page: la 3.52, ang 4.48  [919s]
+  LP2-28 done (29/55), best z on this page: la 3.76, ang 3.81  [952s]

@@ -1,0 +1,376 @@
+{{header
+ | title    = [[Bright's Anglo-Saxon Reader]]
+ | author   = James W. Bright
+ | section  = The Battle of Maldon
+ | previous = [[../The Battle of Brunanburh|The Battle of Brunanburh]]
+ | next     = [[../The Wanderer|The Wanderer]]
+ | notes    =
+}}
+
+
+[This poem was preserved in but one MS., Cotton Otho A xii, which was destroyed in the fire of 1731; fortunately, Thomas Hearne had copied and published it in 1726.  The variants therefore refer to Hearne's text.]
+
+{{ppoem|
+::::: [...] brocen wurde;
+hēt þā hyssa hwæne {{ces}} hors forlǣtan,
+feorr āfȳsan, {{ces}} and forð gangan,
+hicgan tō handum, {{ces}} and tō hige gōdum.
+Þā þæt Offan mǣg {{ces}} ǣrest onfunde,
+þæt sē eorl nolde {{ces}} yrhðo geþolian:
+hē lēt him þā of handon {{ces}} lēofne flēogan
+hafoc wið þæs holtes, {{ces}} and tō þǣre hilde stōp:
+be þām man mihte oncnāwan {{ces}} þæt sē cniht nolde
+wācian æt þām wīge, {{ces}} þā hē tō wǣpnum fēng.
+Ēac him wolde Ēadrīc {{ces}} his ealdre gelǣstan,
+frēan tō gefeohte; {{ces}} ongan þā forð beran
+gār tō gūþe: {{ces}} hē hæfde gōd geþanc,
+þā hwīle þe hē mid handum {{ces}} healdan mihte
+bord and brād swurd; {{ces}} bēot hē gelǣste,
+þā hē ætforan his frēan {{ces}} feohtan sceolde.
+
+Ðā þǣr Byrhtnōð ongan  {{ces}} beornas trymian,
+rād and rǣdde,  {{ces}} rincum tǣhte
+hū hī sceoldon standan  {{ces}} and þone stede healdan,
+and bæd þæt hyra randas  {{ces}} rihte hēoldon
+fæste mid folman,  {{ces}} and ne forhtedon nā.
+<!-- END OF PAGE 149 -- START OF PAGE 150-->
+Þā hē hæfde þæt folc {{ces}} fægere getrymmed,
+hē lihte þā mid lēodon  {{ces}} þǣr him lēofost wæs,
+þǣr hē his heorðwerod  {{ces}} holdost wiste.
+
+Þā stōd on stæðe, {{ces}} stīðlīce clypode
+wīcinga ār, {{ces}} wordum mǣlde,
+sē on bēot ābēad {{ces}} brimlīþendra
+ǣrende tō þām eorle, {{ces}} þǣr hē on ōfre stōd:
+
+'Me sendon tō þē {{ces}} sǣmen snelle;
+hēton ðē secgan {{ces}} þæt þū mōst sendan raðe
+bēagas wið gebeorge; {{ces}} and ēow betere is
+þæt gē þisne gārrǣs {{ces}} mid gafole forgyldon,
+þonne wē swā hearde {{ces}} hilde dǣlon.
+Ne þurfe wē ūs spillan, {{ces}} if gē spedaþ tō þām:
+wē willað wið þām golde {{ces}} grið fæstnian.
+Gyf þū þat gerǣdest, {{ces}} þe hēr rīcost eart,
+þæt þū þīne lēoda {{ces}} lȳsan wille,
+syllan sǣmannum {{ces}} on hyra sylfra dōm
+feoh wið frēode, {{ces}} and niman frið æt ūs,
+wē willaþ mid þām sceattum {{ces}} ūs tō scype gangan,
+on flot fēran, {{ces}} and ēow frīþes healdan.'
+
+Byrhtnōð maþelode, {{ces}} bord hafenode,
+wand wācne æsc, {{ces}} wordum mǣlde,
+yrre and anrǣd {{ces}} āgeaf him andsware: 
+
+'Gehȳrst þū, sǣlida, {{ces}} hwæt þis folc segeð?
+hī willað ēow tō gafole {{ces}} gāras syllan,
+ǣttrynne ord {{ces}} and ealde swurd,
+þā heregeatu {{ces}} þe ēow æt hilde ne dēah.
+Brimmanna boda, {{ces}} ābēod eft ongēan,
+
+50 <<< sege þīnum lēodum {{ces}} miccle lāþre spell,
+þæt hēr stynt unforcuð {{ces}} eorl mid his werode,
+þe wile gealgean {{ces}}  ēþel þysne,
+<!-- END OF PAGE 150 -- START OF PAGE 151-->
+Æþelrēdes eard, {{ces}} ealdres mīnes,
+folc and foldan; {{ces}} feallan sceolon
+hǣþene æt hilde. {{ces}} Tō hēanlīc mē þinceð
+þæt gē mid ūrum sceattum  {{ces}} tō scype gangon
+unbefohtene, {{ces}} nū gē þus feor hider
+on ūrne eard  {{ces}} in becōmon.
+Ne sceole gē swā sōfte {{ces}} sinc gegangan;
+ūs sceal ord and ecg {{ces}} ǣr geseman,
+grim gūðplega,  {{ces}} ǣr wē gofol syllon.'
+
+Hēt þā bord beran, {{ces}} beornas gangan,
+þæt hī on þām ēasteðe  {{ces}} ealle stōdon.
+Ne mihte þǣr for wætere  {{ces}} werod tō þām ōðrum;
+þǣr cōm flōwende  {{ces}} flōd æfter ebban,
+lucon lagustrēamas;  {{ces}} tō lang hit him þūhte,
+hwænne hī tōgædere  {{ces}} gāras bēron.
+Hī þǣr Pantan strēam  {{ces}} mid prasse bestōdon,
+Ēastseaxena ord  {{ces}} and sē æschere;
+ne mihte hyra ǣnig  {{ces}} ōðrum derian,
+būton hwā þurh flānes flyht  {{ces}} fyl genāme.
+Sē flōd ūt gewāt; {{ces}} þā flotan stōdon gearowe,
+wīcinga fela,  {{ces}} wīges georne.
+Hēt þā hæleða hlēo  {{ces}} healdan þā bricge
+
+wigan wīgheardne, {{ces}} sē wæs hāten Wulfstān,
+cāfne mid his cynne, {{ces}} þæt wæs Cēolan sunu,
+þe ðone forman man {{ces}} mid his francan ofscēat
+þe þǣr baldlīcost {{ces}} on þā bricge stop.
+
+Þǣr stōdon mid Wulfstāne {{ces}} wigan unforhte,
+Ælfere and Maccus, {{ces}} mōdige twēgen,
+þā noldon æt þām forda {{ces}} flēam gewyrcan,
+ac hī fæstlīce {{ces}} wið ðā fȳnd weredon,
+þā hwīle þe hī wǣpna {{ces}} wealdan mōston.
+<!-- END OF PAGE 151 -- START OF PAGE 152-->
+Þā hī þæt ongēaton {{ces}} and georne gesāwon
+þæt hī þǣr bricgweardas {{ces}} bitere fundon,
+ongunnon lytegian þā {{ces}} lāðe gystas,
+bǣdon þæt hī ūpgang {{ces}} āgan mōston,
+ofer þone ford faran, {{ces}} feþan lǣdan.
+Ðā sē eorl ongan {{ces}} for his ofermōde
+ālȳfan landes tō fela {{ces}} lāþere ðēode.
+Ongan ceallian þā {{ces}} ofer cald wæter
+Byrhtelmes bearn {{ces}} (beornas gehlyston):
+
+'Nū ēow is gerȳmed, {{ces}} gāð ricene tō ūs,
+guman tō gūþe; {{ces}} God āna wāt
+hwā þǣre wælstōwe {{ces}} wealdan mōte.'
+
+Wōdon þā wælwulfas {{ces}} (for wætere ne murnon),
+wīcinga werod, {{ces}} west ofer Pantan,
+ofer scīr wæter {{ces}} scyldas wǣgon,
+lidmen tō lande {{ces}} linde bǣron.
+100 <<< Þǣr ongēan gramum {{ces}} gearowe stōdon
+Byrhtnōð mid beornum; {{ces}} hē mid bordum hēt
+wyrcan þone wīhagan, {{ces}} and þæt werod healdan
+fæste wið fēondum. {{ces}} Þā wæs feohte nēh,
+tīr æt getohte; {{ces}} wæs sēo tīd cumen
+þæt þǣr fǣge men {{ces}} feallan sceoldon.
+Þǣr wearð hrēam āhafen, {{ces}} hremmas wundon,
+earn ǣses georn; {{ces}} wæs on eorþan cyrm.
+Hī lēton þā of folman {{ces}} fēolhearde speru,
+gegrundene {{ces}} gāras flēogan;
+bogan wǣron bysige, {{ces}} bord ord onfēng.
+biter wæs sē beadurǣs, {{ces}} beornas fēollon
+on gehwæðere hand, {{ces}} hyssas lāgon.
+Wund wearð Wulfmǣr, {{ces}} wælræste gecēas,
+<!-- END OF PAGE 152 -- START OF PAGE 153-->
+Byrhtnōðes mǣg; {{ces}} hē mid billum wearð,
+his swuster sunu, {{ces}} swīðe forhēawen.
+Þǣr wearð wīcingum {{ces}} wiþerlean āgyfen:
+gehȳrde ic þæt Ēadweard {{ces}} ānne slōge
+swīðe mid his swurde, {{ces}} swenges ne wyrnde,
+þæt him æt fōtum feoll {{ces}} fǣge cempa;
+þæs him his ðēoden {{ces}} þanc gesǣde,
+þām būrþēne, {{ces}} þā hē byre hæfde.
+Swā stemnetton {{ces}} stīðhicgende
+hyssas æt hilde; {{ces}} hogodon georne
+hwā þǣr mid orde {{ces}} ǣrost mihte
+on fǣgean men {{ces}} feorh gewinnan,
+wigan mid wǣpnum; {{ces}} wæl fēol on eorðan.
+Stōdon stædefæste; {{ces}} stihte hī Byrhtnōð,
+bæd þæt hyssa gehwylc {{ces}} hogode tō wīge
+þe on Denon wolde {{ces}} dōm gefeohtan.
+Wōd þā wīges heard, {{ces}} wǣpen ūp āhōf,
+bord tō gebeorge, {{ces}} and wið þæs beornes stōp;
+ēode swā anrǣd {{ces}} eorl tō þām ceorle:
+ǣgþer hyra ōðrum {{ces}} yfeles hogode.
+Sende ðā sē sǣrinc {{ces}} sūþerne gār,
+þæt gewundod wearð {{ces}} wigena hlāford;
+hē scēaf þā mid ðām scylde, {{ces}} þæt sē sceaft tobærst,
+and þæt spere sprengde, {{ces}} þæt hit sprang ongēan.
+Gegremod wearð sē gūðrinc; {{ces}} hē mid gāre stang
+wlancne wīcing, {{ces}} þe him þā wunde forgeaf.
+
+Frōd wæs sē fyrdrinc; {{ces}} hē lēt his francan wadan
+þurh ðæs hysses hals; {{ces}} hand wīsode
+þæt hē on þām fǣrsceaðan {{ces}} feorh gerǣhte.
+Ða hē ōþerne {{ces}} ofstlīce scēat,
+þæt sēo byrne tōbærst; {{ces}} hē wæs on brēostum wund
+<!-- END OF PAGE 153 -- START OF PAGE 154-->
+þurh ðā hringlocan,   {{ces}} him æt heortan stōd
+ǣtterne ord. {{ces}} Se ēorl wæs þē blīþra,
+hlōh þā mōdi man, {{ces}} sǣde Metode þanc
+ðæs dægweorces {{ces}} þe him Drihten forgeaf.
+Forlēt þā drenga sum {{ces}} daroð of handa,
+150 <<< flēogan of folman, {{ces}} þæt sē tō forð gewāt
+þurh ðone æþelan {{ces}} Æþelrēdes þegen.
+Him be healfe stōd {{ces}} hyse unweaxen,
+cniht on gecampe, {{ces}} se full cāflīce
+brǣd of þām beorne {{ces}} blōdigne gār,
+Wulfstānes bearn, {{ces}} Wulfmǣr sē geonga,
+forlēt forheardne {{ces}} faran eft ongēan;
+ord in gewōd, {{ces}} þæt sē on eorþan læg
+þe his þēoden ǣr {{ces}} þearle gerǣhte.
+Ēode þā gesyrwed {{ces}} secg tō þām eorle;
+hē wolde þæs beornes {{ces}} bēagas gefecgan,
+rēaf and hringas {{ces}} and gerēnod swurd.
+Ðā Byrhtnōð brǣd {{ces}} bill of scēaðe,
+brād and brūneccg, {{ces}} and on þā byrnan slōh:
+tō raþe hine gelette {{ces}} lidmanna sum,
+þā hē þæs eorles {{ces}} earm āmyrde;
+fēoll þā tō foldan {{ces}} fealohilte swurd,
+ne mihte hē gehealdan {{ces}} heardne mēce,
+wǣpnes wealdan. {{ces}} Þā gȳt þæt word gecwæð
+hār hilderinc, {{ces}} hyssas bylde,
+bæd gangan forð {{ces}} gōde gefēran;
+ne mihte þā on fōtum leng {{ces}} fæste gestandan;
+hē tō heofenum wlāt:
+'Ic geþancie þē, {{ces}} ðēoda Waldend,
+ealra þǣra wynna {{ces}} þe ic on worulde gebād.
+Nū ic āh, milde metod, {{ces}} mǣste þearfe 
+<!-- END OF PAGE 154 -- START OF PAGE 155-->
+þæt þū mīnum gāste {{ces}} gōdes geunne,
+þæt mīn sāwul tō ðē {{ces}} sīðian mōte
+on þīn geweald, {{ces}} Þeoden engla,
+mid friþe ferian; {{ces}} ic eom frymdi tō þē
+þæt hī helsceaðan {{ces}} hynan ne mōton.'
+Ðā hine hēowon {{ces}} hǣðene scealcas
+and bēgen þā beornas {{ces}} þe him big stōdon,
+Ælfnōð and Wulmǣr {{ces}} bēgen lāgon,
+ðā onemn hyra frēan {{ces}} feorh gesealdon.
+Hī bugon þā fram beaduwe {{ces}} þe þǣr bēon noldon.
+Þǣr wurdon Oddan bearn {{ces}} ǣrest on flēame,
+Godrīc fram gūþe, {{ces}} and þone gōdan forlēt
+þe him mænigne oft {{ces}} mēar gesealde;
+hē gehlēop þone eoh {{ces}} þe āhte his hlāford,
+on þām gerǣdum {{ces}} þe hit riht ne wæs,
+and his brōðru mid him, {{ces}} bēgen ærndon,
+Godrinc and Godwīg, {{ces}} gūþe ne gȳmdon,
+ac wendon fram þām wīge {{ces}} and þone wudu sōhton,
+flugon on þæt fæsten, {{ces}} and hyra fēore burgon,
+and manna mā {{ces}} þonne hit ǣnig mǣð wǣre,
+gyf hī þā geearnunga {{ces}} ealle gemundon,
+þe hē him tō duguþe {{ces}} gedōn hæfde.
+Swā him Offa on dæg {{ces}} ǣr āsǣde,
+on þām mæþelstede, {{ces}} þā hē gemōt hæfde,
+200 <<< þæt þǣr mōdiglīce {{ces}} manega sprǣcon,
+þe eft æt þearfe {{ces}} þolian noldon.
+Ðā wearð āfeallen {{ces}} þæs folces ealdor,
+Æþelrēdes eorl; {{ces}} ealle gesāwon
+heorðgenēatas {{ces}} þæt hyra heorra læg.
+Þā ðǣr wendon forð {{ces}} wlance þegenas, 
+<!-- END OF PAGE 155 -- START OF PAGE 156-->
+unearge men {{ces}} efston georne:
+hī woldon þā ealle {{ces}} ōðer twēga,
+līf forlǣtan {{ces}} oððe leofne gewrecan.
+Swā hī bylde forð {{ces}} bearn Ælfrīces,
+wiga wintrum geong, {{ces}} wordum mǣlde,
+Ælfwine þā cwæð, {{ces}} hē on ellen spræc:
+
+'Gemunað þā mǣla, {{ces}} þe wē oft æt meodo sprǣcon,
+þonne wē on bence {{ces}} bēot āhōfon,
+hæleð on healle, {{ces}} ymbe heard gewinn;
+nū mæg cunnian {{ces}} hwā cēne sȳ.
+Ic wylle mīne æþelo {{ces}} eallum gecȳþan,
+þæt ic wæs on Myrcon {{ces}} miccles cynnes;
+wæs mīn ealda fæder {{ces}} Ealhelm hāten,
+wīs ealdorman, {{ces}} woruldgesǣlig.
+Ne sceolon mē on þǣre þēode {{ces}} þegenas ætwītan
+þæt ic of ðisse fyrde {{ces}} fēran wille,
+eard gesēcan, {{ces}} nū mīn ealdor ligeð
+forhēawan æt hilde; {{ces}} mē is þæt hearma mǣst:
+hē wæs ǣgðer mīn mǣg {{ces}} and mīn hlāford.'
+
+Þā hē forð ēode, {{ces}} fǣhðe gemunde,
+þæt hē mid orde {{ces}} ānne gerǣhte
+flotan on þām folce, {{ces}} þæt sē on foldan læg
+forwegen mid his wǣpne. {{ces}} Ongan þā winas manian,
+frȳnd and gefēran, {{ces}} þæt hī forð ēodon.
+
+Offa gemǣlde, {{ces}} æscholt āscēoc:
+'Hwæt þū, Ælfwine, {{ces}} hafast ealle gemanode,
+þegenas tō þearfe: {{ces}} nū ūre þēoden līð,
+eorl on eorðan, {{ces}} ūs is eallum þearf
+þæt ūre ǣghwylc {{ces}} ōþerne bylde
+wigan tō wīge, {{ces}} þā hwīle þe hē wǣpen mæge
+habban and healdan, {{ces}} heardne mēce,
+<!-- END OF PAGE 156 -- START OF PAGE 157-->
+gār and gōd swurd. {{ces}} Ūs Godrīc hæfð,
+earh Oddan bearn, {{ces}} ealle beswicene:
+wēnde þæs formoni man, {{ces}} þā hē on mēare rād,
+on wlancan þām wicge, {{ces}} þæt wǣre hit ūre hlāford;
+for þan wearð hēr on felda {{ces}} folc tōtwǣmed,
+scyldburh tōbrocen: {{ces}} ābrēoðe his angin,
+þæt hē hēr swā manigne {{ces}} man āflȳmde!'
+
+Lēofsunu gemǣlde {{ces}} and his linde āhōf,
+bord tō gebeorge, {{ces}} hē þām beorne oncwæð:
+'Ic þæt gehāte, {{ces}} þæt ic heonon nelle
+flēon fōtes trym, {{ces}} ac wille furðor gān,
+wrecan on gewinne {{ces}} mīnne winedrihten.
+Ne þurfon mē embe Stūrmere {{ces}} stedefæste hælæð
+250 <<< wordum ætwītan, {{ces}} nū mīn wine gecranc,
+þæt ic hlāfordlēas {{ces}} hām sīðie,
+wende fram wīge, {{ces}} ac mē sceal wǣpen niman,
+ord and īren.' {{ces}} Hē ful yrre wōd,
+feaht fæstlīce, {{ces}} flēam hē forhogode.
+
+Dunnere þā cwæð, {{ces}} daroð ācwehte,
+unorne ceorl, {{ces}} ofer eall clypode,
+bæd þæt beorna gehwylc {{ces}} Byrhtnōð wrǣce:
+'Ne mæg nā wandian {{ces}} sē þe wrecan þenceð
+frēan on folce, {{ces}} nē for feore murnan.'
+
+Þā hī forð ēodon, {{ces}} feores hī ne rōhton;
+ongunnon þā hīredmen {{ces}} heardlīce feohtan,
+grame gārberend, {{ces}} and God bǣdon
+þæt hī moston gewrecan {{ces}} hyra winedrihten,
+and on hyra fēondum {{ces}} fyl gewyrcan.
+
+Him sē gȳsel ongan {{ces}} geornlīce fylstan;
+hē wæs on Norðhymbron {{ces}} heardes cynnes,
+Ecglāfes bearn, {{ces}} him wæs Æscferð nama:
+<!-- END OF PAGE 157 -- START OF PAGE 158-->
+hē ne wandode nā {{ces}} æt þām wīgplegan,
+ac hē fȳsde forð {{ces}} flān genehe;
+
+hwīlon hē on bord scēat, {{ces}} hwīlon beorn tǣsde;
+ǣfre embe stunde {{ces}} hē sealde sume wunde,
+þā hwīle ðe hē wǣpna {{ces}} wealdan mōste.
+Ðā gȳt on orde stōd {{ces}} Ēadweard sē langa,
+gearo and geornful; {{ces}} gylpwordum spræc,
+þæt hē nolde flēogan {{ces}} fōtmǣl landes,
+ofer bæc būgan, {{ces}} þā his betera læg:
+hē bræc þone bordweall, {{ces}} and wið þā beornas feaht,
+oð þæt hē his sincgyfan {{ces}} on þām sǣmannum
+wurðlīce wrec, {{ces}} ǣr hē on wæle lǣge.
+
+Swā dyde Æþerīc, {{ces}} æþele gefēra,
+fūs and forðgeorn, {{ces}} feaht eornoste,
+Sībyrhtes brōðor {{ces}} and swīðe mænig ōþer
+clufon cellod bord, {{ces}} cēne hī weredon;
+bærst bordes lǣrig, {{ces}} and sēo byrne sang
+gryreleoða sum. {{ces}} Þā æt gūðe slōh
+Offa þone sǣlidan, {{ces}} þæt hē on eorðan feoll,
+and ðǣr Gaddes mǣg {{ces}} grund gesōhte:
+raðe wearð æt hilde {{ces}} Offa forhēawen;
+hē hæfde ðēah geforþod {{ces}} þæt hē his frēan gehet,
+swā hē bēotode ǣr {{ces}} wið his bēahgifan
+þæt hī sceoldon bēgen {{ces}} on burh rīdan,
+hāle tō hāme, {{ces}} oððe on here crincgan,
+on wælstōwe {{ces}} wundum sweltan;
+hē læg ðegenlīce {{ces}} ðēodne gehende.
+
+Ðā wearð borda gebræc; {{ces}} brimmen wōdon,
+gūðe gegremode; {{ces}} gār oft þurhwōd
+fǣges feorhhūs. {{ces}} Forð þā ēode Wīstān,
+<!-- END OF PAGE 158 -- START OF PAGE 159-->
+Þurstānes sunu, {{ces}} wið þās secgas feaht;
+hē wæs on geþrange {{ces}} hyra þrēora bana,
+300 <<< ǣr him Wīgelīnes bearn {{ces}} on þām wæle lǣge.
+Þǣr wæs stīð gemōt; {{ces}} stōdon fæste
+wigan on gewinne, {{ces}} wīgend cruncon,
+wundum wērige; {{ces}} wæl fēol on eorþan.
+Oswold and Ealdwold {{ces}} ealle hwīle,
+bēgen þā gebrōþru, {{ces}} beornas trymedon,
+hyra winemāgas {{ces}} wordon bǣdon
+þæt hī þǣr æt ðearfe {{ces}} þolian sceoldon,
+unwāclīce {{ces}} wǣpna nēotan.
+Byrhtwold maþelode, {{ces}} bord hafenode,
+(sē wæs eald genēat), {{ces}} æsc ācwehte;
+hē ful baldlīce {{ces}} beornas lǣrde:
+
+'Hige sceal þē heardra, {{ces}} heorte þē cēnre,
+mōd sceal þē māre, {{ces}} þē ūre mægen lȳtlað.
+hēr līð ūre ealdor {{ces}} eall forhēawen,
+gōd on grēote; {{ces}} ā mæg gnornian
+sē ðe nū fram þīs wīgplegan {{ces}} wendan þenceð.
+Ic eom frōd fēores; {{ces}} fram ic ne wille,
+ac ic mē be healfe {{ces}} mīnum hlāforde
+be swā lēofan men, {{ces}} licgan þence.'
+
+320 <<< Swā hī Æþelgāres bearn  {{ces}} ealle bylde,
+Godrīc tō gūþe; {{ces}}  oft hē gār forlēt
+wælspere windan  {{ces}} on þā wīcingas,
+swā hē on þām folce {{ces}} fyrmest ēode,
+hēow and hȳnde, {{ces}} oð þæt hē on hilde gecranc.
+Næs þæt nā sē Godrīc {{ces}} þe ðā gūðe forbēah}}
+
+----
+
+[[Category:Old English poetry]]
