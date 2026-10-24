@@ -53,3 +53,39 @@ controls done in 74s
   LP2-26 done (27/55), best z on this page: la 3.55, ang 3.92  [882s]
   LP2-27 done (28/55), best z on this page: la 3.52, ang 4.48  [919s]
   LP2-28 done (29/55), best z on this page: la 3.76, ang 3.81  [952s]
+  LP2-29 done (30/55), best z on this page: la 4.22, ang 3.75  [995s]
+  LP2-30 done (31/55), best z on this page: la 3.64, ang 3.58  [1026s]
+  LP2-31 done (32/55), best z on this page: la 3.85, ang 3.33  [1066s]
+  LP2-32 done (33/55), best z on this page: la 3.68, ang 4.27  [1083s]
+  LP2-33 done (34/55), best z on this page: la 4.07, ang 3.53  [1113s]
+  LP2-34 done (35/55), best z on this page: la 3.73, ang 3.49  [1163s]
+  LP2-35 done (36/55), best z on this page: la 3.65, ang 3.67  [1211s]
+  LP2-36 done (37/55), best z on this page: la 4.20, ang 3.66  [1242s]
+  LP2-37 done (38/55), best z on this page: la 3.83, ang 3.76  [1276s]
+  LP2-38 done (39/55), best z on this page: la 4.28, ang 3.90  [1311s]
+  LP2-39 done (40/55), best z on this page: la 4.03, ang 3.96  [1347s]
+  LP2-40 done (41/55), best z on this page: la 3.85, ang 3.62  [1373s]
+  LP2-41 done (42/55), best z on this page: la 3.99, ang 3.67  [1411s]
+  LP2-42 done (43/55), best z on this page: la 3.69, ang 3.51  [1443s]
+  LP2-43 done (44/55), best z on this page: la 3.96, ang 3.57  [1475s]
+  LP2-44 done (45/55), best z on this page: la 3.85, ang 3.54  [1502s]
+  LP2-45 done (46/55), best z on this page: la 3.46, ang 3.57  [1529s]
+  LP2-46 done (47/55), best z on this page: la 4.26, ang 3.33  [1555s]
+  LP2-47 done (48/55), best z on this page: la 4.01, ang 3.91  [1584s]
+  LP2-48 done (49/55), best z on this page: la 3.79, ang 3.85  [1611s]
+  LP2-49 done (50/55), best z on this page: la 3.42, ang 3.36  [1617s]
+  LP2-51 done (51/55), best z on this page: la 3.65, ang 3.82  [1625s]
+  LP2-52 done (52/55), best z on this page: la 3.62, ang 3.56  [1654s]
+  LP2-53 done (53/55), best z on this page: la 3.42, ang 3.16  [1671s]
+  LP2-54 done (54/55), best z on this page: la 3.45, ang 3.54  [1694s]
+  LP2-55 done (55/55), best z on this page: la 3.83, ang 3.53  [1701s]
+# Phase 5 sweep: phases 3 and 4 rerun under Latin and Old English plaintext models
+
+22863 configurations per page (phase 3's 4716 book keystreams and phase 4's 2905 phrase/sentence keys, each under three sign conventions), 55 pages, 2 F variants, 2 registers: **5,029,860 tests**. Chance maximum about 5.6.
+Per page, register, variant and decoder mode the null is 2,000 random keystreams through the same decoder with the same model. Positive rule (pre-registered): z ≥ 6 over that null and readable in that language on inspection.
+Largest z per register: la 4.88; ang 4.53.
+
+## Verdict
+
+**No page decrypts under either register.** Every family of phases 3 and 4, under the skip-on-repeat rule, all three sign conventions and both F variants, is excluded for a Latin plaintext and for an Old English plaintext at the sensitivity the controls demonstrate. This says nothing about other languages or about keys from outside these families.
+

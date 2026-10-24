@@ -426,3 +426,33 @@ With this, the book-internal key space under the anti-repeat rule is closed by a
 controlled analysis for every family any of the four projects could name. The remaining lanes are
 the non-English rescoring of these same families and the external hunts (an untried text, a seed,
 the "AN END" page), none of which this repository can finish on its own.
+
+## 13. Phase 5: Latin and Old English plaintext models (`results/phase5.md`)
+
+Every lab's negatives were English-register negatives, and wazar showed that under its quadgram
+scorer a correct key over a Latin or Old English plaintext scores as noise. `src/registers.py`
+builds rune-unigram models from public-domain corpora transliterated with the book's own rules:
+Latin from Caesar's Gallic War and Cicero's Catilinarians (68,000 words, 379,331 runes); Old
+English from Beowulf and eighteen prose and verse texts of Bright's Anglo-Saxon Reader (36,863
+words, 159,508 runes; thorn and eth to TH, ash to AE, length marks dropped). `src/sweep_registers.py`
+reruns every phase 3 and 4 family (22,863 configurations, three signs) on all 55 pages, both F
+variants, with the decoder's model set to each language: **5,029,860 tests**.
+
+**Controls.** Twelve planted keys per register on windows of that language's corpus, decoded
+with the register's own model and, separately, with the English model. Latin: own model
+z 11.0–15.0, 11 of 12 rank 1; English model z 10.0–12.9,
+11 of 12 rank 1. Old English: own model z 8.1–11.4,
+11 of 12 rank 1; English model z 6.9–10.6,
+11 of 12 rank 1. So the English unigram scorer loses little power
+on either register: the blind spot wazar reported belongs to quadgram scorers, and phases 3 and 4
+already covered Latin and Old English plaintexts at only slightly reduced sensitivity.
+
+**Result: null.** Largest z under the Latin model 4.88, under the Old English model
+4.53, both inside the chance range for this many tests; the top transliterations
+are gibberish in either language. The book families and phrase keys under the skip rule are
+excluded for Latin and Old English plaintexts at the controls' sensitivity.
+
+Context from the wider survey (§11, `results/ledger_diff.md`): the October 2026 campaign's
+language lane found Latin ten to thirty times worse than English on word-length statistics and
+could not fetch Old English prose at all, so the Old English prose lane here was the only
+genuinely untested register; it is now closed for these families.

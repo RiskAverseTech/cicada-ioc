@@ -28,7 +28,7 @@ def english_model():
     return lu, lb, plain
 
 
-def decode(C, Ks, lu, f_rule=False, mode="sub"):
+def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, penalty=0.0):
     """C: (n,) ciphertext; Ks: (m, L) keystreams, L >= n + S_MAX.
     mode "sub": P = C - K (additive cipher C = P + K); mode "beaufort": P = K - C (C = K - P).
     For C = P - K pass -K with mode "sub".  The forced-skip condition C_i - C_{i-1} == K_j - K_{j-1}
@@ -37,13 +37,16 @@ def decode(C, Ks, lu, f_rule=False, mode="sub"):
     so j - i can go as low as -T0).  Transitions at a non-ᚠ position: stay (no skip) or skip
     (t+1, only where C_i - C_{i-1} == K_{j} - K_{j-1}).  At a ᚠ position with the F rule: also
     'literal F' (t-1, plaintext F, no key consumed).  Viterbi on unigram English log-likelihood.
+    Word-edge events (phase 6): adv_mask[i] True allows one extra key advance before rune i
+    (t+1 without the collision condition); null_mask[i] True allows rune i to be an unencrypted
+    uniform null that consumes no key (t-1, gain 0).  Each event costs `penalty` (log prior).
     Returns best LLR (m,), best final state (m,), decoded plaintext along the best path (m, n)."""
     C = np.asarray(C); m, L = Ks.shape; n = len(C)
-    T0 = int((C == 0).sum()) if f_rule else 0
+    T0 = (int((C == 0).sum()) if f_rule else 0) + (int(np.asarray(null_mask).sum()) if null_mask is not None else 0)  # room for j < i
     S = T0 + S_MAX + 1
     NEG = -1e9
     dp = np.full((m, S), NEG); dp[:, T0] = 0.0
-    back = np.zeros((n, m, S), dtype=np.int8)          # 0 stay, 1 skip (from t-1), 2 double skip (from t-2), -1 literal F (from t+1)
+    back = np.zeros((n, m, S), dtype=np.int8)          # 0 stay, 1 skip or extra advance (from t-1), 2 double skip (from t-2), -1 literal F, -3 uniform null (from t+1)
     rows = np.arange(m)
     jbase = np.arange(S) - T0                            # j = i + jbase[t]
     gF = lu[0] - LOGU
@@ -75,6 +78,16 @@ def decode(C, Ks, lu, f_rule=False, mode="sub"):
             lit[:, :-1] = dp[:, 1:] + gF                 # j unchanged while i advances: t decreases by one
             take = lit > cand
             cand = np.where(take, lit, cand); src = np.where(take, -1, src)
+        if adv_mask is not None and i > 0 and adv_mask[i]:
+            adv = np.full((m, S), NEG)
+            adv[:, 1:] = dp[:, :-1] + gain[:, 1:] + penalty   # extra key advance, no collision needed
+            take = adv > cand
+            cand = np.where(take, adv, cand); src = np.where(take, 1, src)
+        if null_mask is not None and i > 0 and null_mask[i]:
+            nul = np.full((m, S), NEG)
+            nul[:, :-1] = dp[:, 1:] + penalty                # uniform null: gain 0, no key consumed
+            take = nul > cand
+            cand = np.where(take, nul, cand); src = np.where(take, -3, src)
         dp = cand; back[i] = src
     best = dp.max(1); t_best = dp.argmax(1)
     out = np.zeros((m, n), dtype=np.int16); t = t_best.copy()
@@ -83,8 +96,9 @@ def decode(C, Ks, lu, f_rule=False, mode="sub"):
         src = back[i][rows, t]
         j = np.clip(i + (t - T0), 0, L - 1)
         Kj = Ks[rows, j]
-        out[:, i] = np.where(src == -1, 0, ((c - Kj) if mode == "sub" else (Kj - c)) % N)
-        t = t - (src == 1) - 2 * (src == 2) + (src == -1)
+        dec = ((c - Kj) if mode == "sub" else (Kj - c)) % N
+        out[:, i] = np.where(src == -1, 0, np.where(src == -3, c, dec))   # a null is written as itself
+        t = t - (src == 1) - 2 * (src == 2) + (src == -1) + (src == -3)
     return best, t_best - T0, out
 
 
