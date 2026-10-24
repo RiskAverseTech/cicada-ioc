@@ -1,0 +1,91 @@
+22863 configurations x 55 pages x 2 F variants x 4 kinds = 10,059,720 tests; chance max ~ 5.7 sigma; event prior -0.323
+  control-00: adv sub phrase-2 'INSTAR TUNNELING' F=False LP2-00 events=29: edge z=12.9 rank 1, edge-base +206.4 nats, base-decoder z=1.9, rec 0.905
+  control-01: advline sub phrase-4-rev 'AND THUS OUR DIVINITY ʳ' F=False LP2-01 events=4: edge z=13.5 rank 1, edge-base +16.5 nats, base-decoder z=11.5, rec 0.921
+  control-02: nulli sub phrase-3 'EXPLAIN WHAT THAT' F=False LP2-02 events=18: edge z=9.8 rank 1, edge-base +143.3 nats, base-decoder z=1.5, rec nan
+  control-03: nullf sub sentence-rev 'WHEN ASKED BY A STUDENT ' F=False LP2-03 events=22: edge z=9.4 rank 1, edge-base +191.3 nats, base-decoder z=0.2, rec nan
+  control-04: adv add phrase-4 'THE MAN THOUGHT FOR' F=False LP2-04 events=25: edge z=12.3 rank 1, edge-base +179.4 nats, base-decoder z=3.1, rec 0.904
+  control-05: advline add phrase-2-rev 'HERE HE ʳ' F=False LP2-05 events=7: edge z=12.8 rank 1, edge-base +75.6 nats, base-decoder z=8.1, rec 0.970
+  control-06: nulli add sentence 'IT IS THE BEHAVIORS OF C' F=False LP2-06 events=24: edge z=10.1 rank 1, edge-base +184.7 nats, base-decoder z=0.2, rec nan
+  control-07: nullf add phrase-3-rev 'VOICE INSIDE YOUR ʳ' F=False LP2-07 events=21: edge z=9.1 rank 1, edge-base +137.8 nats, base-decoder z=2.5, rec nan
+  control-08: adv beaufort phrase-2 'TO COME' F=False LP2-08 events=16: edge z=12.6 rank 1, edge-base +129.7 nats, base-decoder z=5.4, rec 0.922
+  control-09: advline beaufort phrase-4-rev 'AND BE RIGHT OR ʳ' F=False LP2-09 events=4: edge z=15.3 rank 1, edge-base +113.8 nats, base-decoder z=7.4, rec 0.993
+  control-10: nulli beaufort phrase-3 'ANYTHING ELSE TO' F=False LP2-10 events=34: edge z=15.0 rank 1, edge-base +248.8 nats, base-decoder z=0.2, rec nan
+  control-11: nullf beaufort sentence-rev 'WE CONSUME TOO MUCH BECA' F=False LP2-11 events=15: edge z=14.6 rank 1, edge-base +160.3 nats, base-decoder z=5.4, rec nan
+  control-12: adv sub primes-1 (totient) 'p[n+59]-1' F=True LP2-12 events=33: edge z=13.5 rank 1, edge-base +196.0 nats, base-decoder z=0.6, rec 0.897
+  control-13: advline sub vigenere-word-rev 'THNGSʳ' F=True LP2-13 events=6: edge z=15.0 rank 1, edge-base +27.1 nats, base-decoder z=12.2, rec 0.890
+  control-14: nulli sub primes+1 'p[n+13]+1' F=True LP2-14 events=15: edge z=8.5 rank 1, edge-base +97.9 nats, base-decoder z=1.7, rec nan
+  control-15: nullf sub vigenere-word 'ONE' F=True LP2-15 events=16: edge z=7.0 rank 24, edge-base +24.1 nats, base-decoder z=6.7, rec nan
+  control-16: adv add primes 'p[n+6]' F=True LP2-16 events=26: edge z=11.8 rank 1, edge-base +156.4 nats, base-decoder z=3.5, rec 0.925
+  control-17: advline add square position 'n²+6' F=True LP2-17 events=4: edge z=14.0 rank 1, edge-base +32.1 nats, base-decoder z=11.4, rec 0.974
+  control-18: nulli add lucas 'L[n+4]' F=True LP2-18 events=25: edge z=11.0 rank 1, edge-base +161.4 nats, base-decoder z=1.4, rec nan
+  control-19: nullf add shift 's=22' F=True LP2-19 events=33: edge z=11.5 rank 1, edge-base +22.3 nats, base-decoder z=11.1, rec nan
+  control-20: adv beaufort fibonacci 'F[n+3]' F=True LP2-20 events=32: edge z=12.8 rank 1, edge-base +172.5 nats, base-decoder z=2.8, rec 0.833
+  control-21: advline beaufort self running key 'plaintext@2624' F=True LP2-21 events=3: edge z=15.0 rank 1, edge-base +62.7 nats, base-decoder z=10.4, rec 0.996
+  control-22: nulli beaufort affine position '15·n+16' F=True LP2-22 events=10: edge z=8.6 rank 1, edge-base +71.9 nats, base-decoder z=3.4, rec nan
+  control-23: nullf beaufort primes-1 (totient) 'p[n+55]-1' F=True LP2-23 events=24: edge z=8.5 rank 1, edge-base +131.9 nats, base-decoder z=1.2, rec nan
+controls done in 44s
+  LP2-00 done (1/55), best z: adv 4.22, advline 4.48, nulli 4.20, nullf 4.66  [97s]
+  LP2-01 done (2/55), best z: adv 4.14, advline 4.44, nulli 4.80, nullf 4.09  [206s]
+  LP2-02 done (3/55), best z: adv 4.05, advline 3.88, nulli 3.94, nullf 4.38  [269s]
+  LP2-03 done (4/55), best z: adv 4.47, advline 4.92, nulli 4.12, nullf 3.75  [342s]
+  LP2-04 done (5/55), best z: adv 4.02, advline 4.05, nulli 3.94, nullf 3.84  [440s]
+  LP2-05 done (6/55), best z: adv 4.54, advline 4.51, nulli 4.68, nullf 4.56  [538s]
+  LP2-06 done (7/55), best z: adv 3.97, advline 3.68, nulli 3.93, nullf 3.46  [598s]
+  LP2-07 done (8/55), best z: adv 4.66, advline 5.18, nulli 4.70, nullf 4.77  [665s]
+  LP2-08 done (9/55), best z: adv 3.89, advline 3.59, nulli 3.89, nullf 3.63  [751s]
+  LP2-09 done (10/55), best z: adv 3.75, advline 4.58, nulli 4.26, nullf 4.72  [850s]
+  LP2-10 done (11/55), best z: adv 3.69, advline 3.75, nulli 4.59, nullf 3.51  [944s]
+  LP2-11 done (12/55), best z: adv 4.42, advline 4.03, nulli 3.95, nullf 3.77  [1040s]
+  LP2-12 done (13/55), best z: adv 4.45, advline 3.93, nulli 4.26, nullf 4.66  [1141s]
+  LP2-13 done (14/55), best z: adv 3.99, advline 4.17, nulli 3.88, nullf 4.17  [1243s]
+  LP2-14 done (15/55), best z: adv 4.36, advline 4.30, nulli 4.78, nullf 4.46  [1279s]
+  LP2-15 done (16/55), best z: adv 4.50, advline 4.34, nulli 5.24, nullf 4.76  [1326s]
+  LP2-16 done (17/55), best z: adv 3.80, advline 4.29, nulli 3.98, nullf 3.78  [1420s]
+  LP2-17 done (18/55), best z: adv 4.82, advline 4.31, nulli 4.29, nullf 4.62  [1529s]
+  LP2-18 done (19/55), best z: adv 3.87, advline 4.41, nulli 3.85, nullf 4.53  [1621s]
+  LP2-19 done (20/55), best z: adv 5.14, advline 3.96, nulli 4.05, nullf 3.65  [1725s]
+  LP2-20 done (21/55), best z: adv 3.75, advline 3.94, nulli 4.22, nullf 4.75  [1822s]
+  LP2-21 done (22/55), best z: adv 4.15, advline 4.77, nulli 4.36, nullf 4.25  [1911s]
+  LP2-22 done (23/55), best z: adv 4.16, advline 3.77, nulli 3.78, nullf 3.30  [1946s]
+  LP2-23 done (24/55), best z: adv 5.17, advline 4.71, nulli 3.98, nullf 3.75  [2014s]
+  LP2-24 done (25/55), best z: adv 4.36, advline 4.14, nulli 3.69, nullf 3.73  [2115s]
+  LP2-25 done (26/55), best z: adv 4.15, advline 4.36, nulli 3.81, nullf 3.92  [2208s]
+  LP2-26 done (27/55), best z: adv 4.03, advline 4.08, nulli 3.82, nullf 4.42  [2305s]
+  LP2-27 done (28/55), best z: adv 4.84, advline 4.48, nulli 4.01, nullf 3.85  [2380s]
+  LP2-28 done (29/55), best z: adv 4.02, advline 3.88, nulli 4.11, nullf 4.19  [2476s]
+  LP2-29 done (30/55), best z: adv 4.59, advline 3.87, nulli 4.33, nullf 4.51  [2582s]
+  LP2-30 done (31/55), best z: adv 3.80, advline 4.35, nulli 3.79, nullf 4.50  [2675s]
+  LP2-31 done (32/55), best z: adv 4.30, advline 4.05, nulli 3.83, nullf 3.72  [2775s]
+  LP2-32 done (33/55), best z: adv 3.83, advline 3.69, nulli 3.85, nullf 4.01  [2804s]
+  LP2-33 done (34/55), best z: adv 4.14, advline 4.04, nulli 3.79, nullf 4.05  [2877s]
+  LP2-34 done (35/55), best z: adv 4.18, advline 4.79, nulli 3.83, nullf 3.99  [2967s]
+  LP2-35 done (36/55), best z: adv 3.90, advline 4.10, nulli 3.87, nullf 4.51  [3063s]
+  LP2-36 done (37/55), best z: adv 4.01, advline 3.70, nulli 3.93, nullf 3.65  [3142s]
+  LP2-37 done (38/55), best z: adv 4.41, advline 4.43, nulli 4.03, nullf 3.92  [3217s]
+  LP2-38 done (39/55), best z: adv 3.97, advline 3.76, nulli 4.33, nullf 3.79  [3285s]
+  LP2-39 done (40/55), best z: adv 4.43, advline 3.90, nulli 4.14, nullf 4.07  [3364s]
+  LP2-40 done (41/55), best z: adv 3.87, advline 4.17, nulli 3.95, nullf 3.78  [3446s]
+  LP2-41 done (42/55), best z: adv 4.18, advline 4.03, nulli 4.34, nullf 4.04  [3543s]
+  LP2-42 done (43/55), best z: adv 4.33, advline 4.91, nulli 3.90, nullf 4.11  [3640s]
+  LP2-43 done (44/55), best z: adv 3.75, advline 4.52, nulli 4.23, nullf 4.57  [3741s]
+  LP2-44 done (45/55), best z: adv 3.66, advline 3.67, nulli 3.83, nullf 4.01  [3838s]
+  LP2-45 done (46/55), best z: adv 3.99, advline 4.20, nulli 3.72, nullf 4.03  [3933s]
+  LP2-46 done (47/55), best z: adv 4.00, advline 3.55, nulli 3.75, nullf 4.01  [4029s]
+  LP2-47 done (48/55), best z: adv 4.31, advline 4.09, nulli 3.82, nullf 3.87  [4124s]
+  LP2-48 done (49/55), best z: adv 3.84, advline 4.26, nulli 4.51, nullf 4.54  [4226s]
+  LP2-49 done (50/55), best z: adv 4.04, advline 3.55, nulli 3.47, nullf 3.58  [4241s]
+  LP2-51 done (51/55), best z: adv 3.71, advline 4.23, nulli 3.91, nullf 3.94  [4264s]
+  LP2-52 done (52/55), best z: adv 4.29, advline 3.92, nulli 3.66, nullf 3.57  [4356s]
+  LP2-53 done (53/55), best z: adv 4.40, advline 3.47, nulli 3.24, nullf 4.14  [4408s]
+  LP2-54 done (54/55), best z: adv 3.77, advline 3.62, nulli 3.96, nullf 3.71  [4480s]
+  LP2-55 done (55/55), best z: adv 4.83, advline 5.17, nulli 4.12, nullf 4.24  [4499s]
+# Phase 6: word-edge events under the skip rule (pnotisdev registry item `open-unkeyed`, run independently)
+
+Kinds adv / advline / nulli / nullf at event rate nu = 0.42; 22863 configurations (phase 3 book families and phase 4 phrase keys, three sign conventions) x 55 pages x 2 F variants x 4 kinds = **10,059,720 tests**; chance maximum about 5.7.
+Per page, kind, variant and decoder mode the null is 2,000 random keystreams through the same edge decoder. Pre-registered hit rule: z >= 6 over that null AND edge score minus base score for the same configuration >= 20 nats AND readable English.
+Largest z per kind: adv 5.17; advline 5.18; nulli 5.24; nullf 4.77.
+
+## Verdict
+
+**No page decrypts under any word-edge or line-edge event kind.** Extra key advances at word or line starts and unencrypted null runes at word starts or ends, at the 42 % rate pnotisdev's word-length fit implies, combined with this repository's key families under the skip rule, all three sign conventions and both F variants, are excluded at the sensitivity the controls demonstrate. Not covered: nulls inside words, non-uniform null runes, more than one event per position, event rates far from 0.42, key streams outside these families, and pnotisdev's own 1,447-stream library.
+

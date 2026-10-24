@@ -1,0 +1,11 @@
+[[experiment]]
+id = "open-unkeyed-ext-viterbi"
+group = "structure"
+title = "Word-edge events under the skip rule, independent run: extra key advance at word starts and at line starts, unencrypted null runes at word starts and at word ends, nu = 0.42, over the solved-text key families (external: cicada-ioc phase 6)"
+status = "excluded"
+what = "Independent implementation outside this repository (Viterbi over skip count with event transitions and a per-event log prior ln(0.42/0.58); unigram English model; per-page null of 2,000 random keystreams through the same edge decoder). Kinds adv (word-initial extra advance), advline (line-initial extra advance, the registry row's 'line / page breaks' part), nulli, nullf. Key library: 4,716 book keystreams (shifts, solved-text and headline words fwd/rev, primes p/p-1/p+1 at 101 starts, Fibonacci, Lucas, affine and square position formulas, the solved plaintext as running key at every offset) and 2,905 solved-text phrases and lines fwd/rev, each under c = p + k, c = p - k and c = k - p: 22,863 configurations x 55 pages x F rule on/off x 4 kinds = 10,059,720 decodes"
+control = "24 plants at nu = 0.42 on the pages' own edge masks (solved English windows, skip 0.81, every kind x sign x F): edge decoder z 7.0-15.3, 23 of 24 rank 1 in their set (the exception a 3-rune key with aliases); edge minus base score +17 to +249 nats; the base decoder scores the same plants at z 0.2-12.2 (adv kinds 0.6-12.2, null kinds 0.2-11.1)"
+result = "Largest z 5.24 (LP2-15, nulli, beaufort, phrase-4-rev 'MY HEAD THOUGHT THE ʳ'), per kind adv 5.17 / advline 5.18 / nulli 5.24 / nullf 4.77, against a chance maximum of about 5.7 for 10,059,720 tests; cells meeting the pre-registered rule (z >= 6 and edge minus base >= 20 nats): 0. Negative."
+gap = "Max-path rather than summed-path likelihood; the anti-repeat check compares with the previous emitted rune, not the previous real rune; nulls inside words; non-uniform null runes; more than one event per position; event rates far from 0.42; the 1,447-stream kscreen library (only this repository's book families and phrases were run); hold/spend/coin channel variants"
+log = ["external: github cryptojaz/cicada-ioc README section 14, results/phase6.md"]
+files = ["external: src/edges_lane.py, src/edges.py, src/score.py (decode with adv_mask/null_mask), results/phase6.json"]

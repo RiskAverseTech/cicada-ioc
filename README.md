@@ -456,3 +456,33 @@ Context from the wider survey (§11, `results/ledger_diff.md`): the October 2026
 language lane found Latin ten to thirty times worse than English on word-length statistics and
 could not fetch Old English prose at all, so the Old English prose lane here was the only
 genuinely untested register; it is now closed for these families.
+
+## 14. Phase 6: word-edge events under the skip rule, pnotisdev's open lane run independently (`results/phase6.md`)
+
+The field survey (§11) found that pnotisdev/cicada3301's registry item `open-unkeyed` (its priority 2:
+"unkeyed insertions and extra key advance at word separators / line / page breaks") had an engine,
+a one-window pilot and a written campaign queue, but the campaign was never launched for want of a
+free CPU, and its line-break part was never built. `src/edges.py` aligns the master transcription's
+word and line separators to every unsolved page (3,261 word edges, 539 line edges); `score.decode`
+gained two event transitions (an extra key advance before a candidate rune; a candidate rune as an
+unencrypted uniform null that consumes no key) with a per-event log prior ln(0.42/0.58), the
+default path left bit-identical; `src/edges_lane.py` runs four kinds (adv, advline, nulli, nullf)
+over the phase 3 and 4 key families under all three signs and both F variants: **10,059,720
+tests**. The hit rule was written before any page was scored: z ≥ 6 over the page's own
+random-keystream null under the same kind, edge score at least 20 nats above the base decoder's
+score for the same configuration (pnotisdev's edge-versus-base margin), and readable English.
+
+**Controls.** Twenty-four plants at the 42 % event rate on the pages' own edge masks: the edge
+decoder recovers them at z 7.0–15.3, 23 of 24 ranked first (the exception a three-rune
+key with aliases), while the base decoder without events scores the same plants at z
+0.2–12.2; for the advance kinds the base decoder is blind (z 0.6–12.2), which is
+why an event-aware decoder was needed at all.
+
+**Result.** Largest z 5.24 (LP2-15, nulli, beaufort, phrase-4-rev 'MY HEAD THOUGHT THE ʳ'); per kind adv 5.17, advline
+5.18, nulli 5.24, nullf 4.77; chance maximum about 5.7. Cells meeting the rule: 0.
+**Null.** Extra key advances at word or line starts and unencrypted
+nulls at word starts or ends, at pnotisdev's fitted rate, over the book's own key families under the
+skip rule, are excluded at the controls' sensitivity. The entry in pnotisdev's registry format is
+`results/pnotisdev_open-unkeyed_entry.toml`, written to be pasted into their `docs/registry.toml`
+with the gaps stated (max-path decoder, emitted-rune anti-repeat check, no in-word nulls, their
+1,447-stream library not run).
