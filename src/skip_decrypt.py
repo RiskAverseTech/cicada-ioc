@@ -16,14 +16,21 @@ import numpy as np
 from lp import N
 
 
-def encrypt(P, K, f_rule=False, rng=None, soft=1.0):
+def combine(p, k, mode):
+    if mode == "sub": return (p + k) % N        # C = P + K, decrypt P = C - K
+    if mode == "add": return (p - k) % N        # C = P - K, decrypt P = C + K
+    if mode == "beaufort": return (k - p) % N   # C = K - P, decrypt P = K - C
+    raise ValueError(mode)
+
+
+def encrypt(P, K, f_rule=False, rng=None, soft=1.0, mode="sub"):
     C, j, prev = [], 0, None
     for p in P:
         if f_rule and p == 0:
             C.append(0); prev = 0; continue
-        c = (p + K[j]) % N
+        c = combine(p, K[j], mode)
         while prev is not None and c == prev and (rng is None or rng.random() < soft):
-            j += 1; c = (p + K[j]) % N
+            j += 1; c = combine(p, K[j], mode)
         C.append(c); j += 1; prev = c
     return np.array(C)
 

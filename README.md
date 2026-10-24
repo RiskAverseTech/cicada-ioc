@@ -385,3 +385,37 @@ The one family nobody has run under the anti-repeat rule is multi-word phrase an
 drawn from the book itself (about one million tests, chance maximum ≈ 5.2σ against our 10–15σ
 controls). Two instrument gaps follow: our phase 3 decrypts with one key sign only, and no
 project has scored the book families under a Latin or Old English model.
+
+## 12. Phase 4: phrase and sentence keys from the book, all key signs (`results/phase4.md`)
+
+The ledger diff (§11) left one family untested by anyone under the anti-repeat rule: keys longer
+than a word, drawn from the book's own text, which is where both solved word keys came from.
+`src/phrases.py` takes every 2-, 3- and 4-word contiguous phrase and every full line of the solved
+translation (94 numbered lines, 726 words), forwards and reversed, 2,905 distinct keys, and
+runs each under the skip rule with all three sign conventions (C = P + K, C = P − K, and
+Beaufort C = K − P), with and without the F rule. The same run also closes this repository's own
+instrument gap by taking phase 3's 4,716 keystreams through the two sign conventions phase 3 had
+not used. The decoder gained a double-skip transition (two consecutive key symbols both reproducing
+the previous rune, which doubled letters in a phrase key force) and a Beaufort mode; the forced-skip
+condition is the same under every sign. 18,147 configurations per page, 55 pages, two F
+variants: **1,996,170 tests**, chance maximum about 5.4σ.
+
+**Controls.** Twenty-six planted keys spanning every family, sign and F variant: all recovered at
+z between 10.6 and 16.3, 24 of 26 ranked first in their set, the other two
+(Lucas streams under Beaufort) second behind a neighbouring Lucas offset. Rune recovery 0.92 to 1.00.
+
+**Result: null.** The largest z over all 1,996,170 tests is 5.10 (LP2-09, sign
+sub, phrase-2 'CERTAINTY AND'), below the chance maximum and the pre-registered bar of 6;
+its transliteration is gibberish. Nothing among the phase 3 families changes sign.
+
+What this excludes: every phrase of two to four words and every line of the solved text, in either
+direction, as a periodic key under the soft anti-repeat rule, at any of the three sign conventions,
+with or without the F rule, at a sensitivity where planted phrase keys stand out at ten sigma or
+more. What it does not exclude: phrases from text outside the book, keys applied to a non-English
+plaintext (the scorer is English), a rejection loop that consumes two key draws per rejection
+(wazar's skip_by_two), or any keystream that is not periodic.
+
+With this, the book-internal key space under the anti-repeat rule is closed by at least one
+controlled analysis for every family any of the four projects could name. The remaining lanes are
+the non-English rescoring of these same families and the external hunts (an untried text, a seed,
+the "AN END" page), none of which this repository can finish on its own.

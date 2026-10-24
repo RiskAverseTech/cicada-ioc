@@ -28,8 +28,11 @@ def english_model():
     return lu, lb, plain
 
 
-def decode(C, Ks, lu, f_rule=False):
+def decode(C, Ks, lu, f_rule=False, mode="sub"):
     """C: (n,) ciphertext; Ks: (m, L) keystreams, L >= n + S_MAX.
+    mode "sub": P = C - K (additive cipher C = P + K); mode "beaufort": P = K - C (C = K - P).
+    For C = P - K pass -K with mode "sub".  The forced-skip condition C_i - C_{i-1} == K_j - K_{j-1}
+    is the same under both modes (a skipped key symbol would have reproduced C_{i-1}).
     State t = (key index j) - i + T0, where T0 = number of ᚠ in C (a literal F consumes no key,
     so j - i can go as low as -T0).  Transitions at a non-ᚠ position: stay (no skip) or skip
     (t+1, only where C_i - C_{i-1} == K_{j} - K_{j-1}).  At a ᚠ position with the F rule: also
@@ -40,7 +43,7 @@ def decode(C, Ks, lu, f_rule=False):
     S = T0 + S_MAX + 1
     NEG = -1e9
     dp = np.full((m, S), NEG); dp[:, T0] = 0.0
-    back = np.zeros((n, m, S), dtype=np.int8)          # 0 stay, 1 came by skip (from t-1), -1 came by literal F (from t+1)
+    back = np.zeros((n, m, S), dtype=np.int8)          # 0 stay, 1 skip (from t-1), 2 double skip (from t-2), -1 literal F (from t+1)
     rows = np.arange(m)
     jbase = np.arange(S) - T0                            # j = i + jbase[t]
     gF = lu[0] - LOGU
@@ -48,7 +51,7 @@ def decode(C, Ks, lu, f_rule=False):
         c = C[i]
         j = np.clip(i + jbase, 0, L - 1)
         Kj = Ks[:, j]
-        P = (c - Kj) % N
+        P = ((c - Kj) if mode == "sub" else (Kj - c)) % N
         gain = lu[P] - LOGU
         stay = dp + gain
         cand = stay; src = np.zeros((m, S), dtype=np.int8)
@@ -59,6 +62,14 @@ def decode(C, Ks, lu, f_rule=False):
             skip[:, 1:] = np.where(cond[:, 1:], dp[:, :-1] + gain[:, 1:], NEG)
             take = skip > cand
             cand = np.where(take, skip, cand); src = np.where(take, 1, src)
+            # double skip: two consecutive key symbols both would have reproduced C_{i-1},
+            # which requires K_{j-2} == K_{j-1} (doubled key letters, common in phrase keys)
+            Kprev2 = Ks[:, np.clip(j - 2, 0, L - 1)]
+            cond2 = cond & (Kprev == Kprev2)
+            skip2 = np.full((m, S), NEG)
+            skip2[:, 2:] = np.where(cond2[:, 2:], dp[:, :-2] + gain[:, 2:], NEG)
+            take = skip2 > cand
+            cand = np.where(take, skip2, cand); src = np.where(take, 2, src)
         if f_rule and c == 0:
             lit = np.full((m, S), NEG)
             lit[:, :-1] = dp[:, 1:] + gF                 # j unchanged while i advances: t decreases by one
@@ -71,8 +82,9 @@ def decode(C, Ks, lu, f_rule=False):
         c = C[i]
         src = back[i][rows, t]
         j = np.clip(i + (t - T0), 0, L - 1)
-        out[:, i] = np.where(src == -1, 0, (c - Ks[rows, j]) % N)
-        t = t - (src == 1) + (src == -1)
+        Kj = Ks[rows, j]
+        out[:, i] = np.where(src == -1, 0, ((c - Kj) if mode == "sub" else (Kj - c)) % N)
+        t = t - (src == 1) - 2 * (src == 2) + (src == -1)
     return best, t_best - T0, out
 
 
@@ -80,9 +92,9 @@ def bigram_llr(P, lu, lb):
     return float(lu[P[0]] - LOGU + (lb[P[:-1], P[1:]] - LOGU).sum())
 
 
-def null_scores(C, lu, f_rule, rng, reps=2000):
+def null_scores(C, lu, f_rule, rng, reps=2000, mode="sub"):
     Ks = rng.integers(0, N, size=(reps, len(C) + S_MAX + 2))
-    best, _, _ = decode(C, Ks, lu, f_rule)
+    best, _, _ = decode(C, Ks, lu, f_rule, mode)
     return best
 
 

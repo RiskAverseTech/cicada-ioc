@@ -1,0 +1,95 @@
+94 numbered lines, 726 words
+2905 distinct phrase/sentence keys
+2905 phrase keys x 3 signs + 4716 phase-3 keys x 2 new signs = 18147 configurations per page; 55 pages x 2 F variants: 1,996,170 tests; chance max ~ 5.4 sigma
+  control-00: sub phrase-2 'FOR ALL' F=False: z=11.9 rank 1, recovered 0.979
+  control-01: sub phrase-3 'SO THAT WE' F=False: z=11.0 rank 1, recovered 0.996
+  control-02: sub phrase-4 'YOU WILL ARRIVE OUTSIDE' F=False: z=11.5 rank 1, recovered 0.938
+  control-03: sub phrase-3-rev 'WHAT WE HAVE ʳ' F=True: z=13.7 rank 1, recovered 1.000
+  control-04: sub phrase-4-rev 'MASTER REPLIED THEN YOU ʳ' F=True: z=13.8 rank 1, recovered 1.000
+  control-05: sub sentence-rev 'IT IS THROUGH THIS PILGRIMAGE THAT WE SHAPE OURSELVES AND OU ʳ' F=True: z=12.7 rank 1, recovered 0.988
+  control-06: add sentence 'BE PREPARED TO DESTROY ALL THAT YOU OWN' F=False: z=11.7 rank 1, recovered 1.000
+  control-07: add phrase-2 'THE MESSAGE' F=False: z=11.7 rank 1, recovered 1.000
+  control-08: add phrase-3 'THROUGH THIS PILGRIMAGE' F=False: z=12.1 rank 1, recovered 1.000
+  control-09: add phrase-2-rev 'AND WE ʳ' F=True: z=13.0 rank 1, recovered 0.983
+  control-10: add phrase-3-rev 'WITHIN AND EMERGE ʳ' F=True: z=13.4 rank 1, recovered 0.946
+  control-11: add phrase-4-rev 'ALL THAT YOU OWN ʳ' F=True: z=12.9 rank 1, recovered 1.000
+  control-12: beaufort phrase-4 'THE STUDENTS WERE ENLIGHTENED' F=False: z=11.4 rank 1, recovered 1.000
+  control-13: beaufort sentence 'FIND THE DIVINITY WITHIN AND EMERGE' F=False: z=12.0 rank 1, recovered 1.000
+  control-14: beaufort phrase-2 'FOLLOW REASON' F=False: z=12.1 rank 1, recovered 1.000
+  control-15: beaufort sentence-rev 'THAT IS ONLY YOUR SPECIES NOT WHO YOU ARE ʳ' F=True: z=16.3 rank 1, recovered 0.996
+  control-16: beaufort phrase-2-rev 'WITHIN THE ʳ' F=True: z=14.9 rank 1, recovered 0.988
+  control-17: beaufort phrase-3-rev 'TO STUDY HERE ʳ' F=True: z=12.6 rank 1, recovered 0.921
+  control-18: add shift 's=15' F=False: z=11.6 rank 1, recovered 1.000
+  control-19: add vigenere-word 'LIUES' F=False: z=11.5 rank 1, recovered 0.992
+  control-20: add vigenere-word 'INHABITNG' F=True: z=14.2 rank 1, recovered 1.000
+  control-21: add affine position '18·n+18' F=True: z=13.5 rank 1, recovered 1.000
+  control-22: beaufort affine position '27·n+6' F=False: z=10.9 rank 1, recovered 0.992
+  control-23: beaufort lucas 'L[n+10]' F=False: z=10.6 rank 2, recovered 0.992
+  control-24: beaufort lucas 'L[n+0]' F=True: z=15.1 rank 2, recovered 0.988
+  control-25: beaufort primes+1 'p[n+55]+1' F=True: z=12.2 rank 1, recovered 0.925
+controls done in 29s
+  LP2-00 done (1/55), best z on this page: 3.91  [13s]
+  LP2-01 done (2/55), best z on this page: 4.26  [25s]
+  LP2-02 done (3/55), best z on this page: 3.98  [36s]
+  LP2-03 done (4/55), best z on this page: 3.55  [46s]
+  LP2-04 done (5/55), best z on this page: 4.52  [55s]
+  LP2-05 done (6/55), best z on this page: 4.25  [72s]
+  LP2-06 done (7/55), best z on this page: 3.98  [90s]
+  LP2-07 done (8/55), best z on this page: 3.86  [102s]
+  LP2-08 done (9/55), best z on this page: 3.79  [118s]
+  LP2-09 done (10/55), best z on this page: 5.10  [136s]
+  LP2-10 done (11/55), best z on this page: 3.70  [155s]
+  LP2-11 done (12/55), best z on this page: 4.59  [168s]
+  LP2-12 done (13/55), best z on this page: 4.02  [180s]
+  LP2-13 done (14/55), best z on this page: 4.34  [191s]
+  LP2-14 done (15/55), best z on this page: 3.81  [198s]
+  LP2-15 done (16/55), best z on this page: 4.07  [207s]
+  LP2-16 done (17/55), best z on this page: 3.80  [223s]
+  LP2-17 done (18/55), best z on this page: 3.93  [237s]
+  LP2-18 done (19/55), best z on this page: 4.12  [248s]
+  LP2-19 done (20/55), best z on this page: 4.09  [260s]
+  LP2-20 done (21/55), best z on this page: 3.98  [273s]
+  LP2-21 done (22/55), best z on this page: 3.96  [284s]
+  LP2-22 done (23/55), best z on this page: 3.24  [289s]
+  LP2-23 done (24/55), best z on this page: 3.54  [298s]
+  LP2-24 done (25/55), best z on this page: 3.62  [308s]
+  LP2-25 done (26/55), best z on this page: 3.37  [319s]
+  LP2-26 done (27/55), best z on this page: 3.92  [330s]
+  LP2-27 done (28/55), best z on this page: 4.29  [341s]
+  LP2-28 done (29/55), best z on this page: 3.68  [352s]
+  LP2-29 done (30/55), best z on this page: 4.22  [363s]
+  LP2-30 done (31/55), best z on this page: 3.64  [374s]
+  LP2-31 done (32/55), best z on this page: 4.23  [385s]
+  LP2-32 done (33/55), best z on this page: 3.62  [390s]
+  LP2-33 done (34/55), best z on this page: 4.05  [399s]
+  LP2-34 done (35/55), best z on this page: 3.54  [410s]
+  LP2-35 done (36/55), best z on this page: 4.40  [420s]
+  LP2-36 done (37/55), best z on this page: 3.41  [429s]
+  LP2-37 done (38/55), best z on this page: 3.85  [438s]
+  LP2-38 done (39/55), best z on this page: 3.66  [448s]
+  LP2-39 done (40/55), best z on this page: 4.40  [458s]
+  LP2-40 done (41/55), best z on this page: 3.80  [469s]
+  LP2-41 done (42/55), best z on this page: 3.49  [480s]
+  LP2-42 done (43/55), best z on this page: 4.20  [491s]
+  LP2-43 done (44/55), best z on this page: 3.75  [502s]
+  LP2-44 done (45/55), best z on this page: 4.20  [514s]
+  LP2-45 done (46/55), best z on this page: 3.55  [526s]
+  LP2-46 done (47/55), best z on this page: 3.72  [536s]
+  LP2-47 done (48/55), best z on this page: 3.64  [547s]
+  LP2-48 done (49/55), best z on this page: 3.79  [559s]
+  LP2-49 done (50/55), best z on this page: 3.32  [562s]
+  LP2-51 done (51/55), best z on this page: 3.58  [565s]
+  LP2-52 done (52/55), best z on this page: 4.02  [576s]
+  LP2-53 done (53/55), best z on this page: 3.53  [583s]
+  LP2-54 done (54/55), best z on this page: 3.77  [592s]
+  LP2-55 done (55/55), best z on this page: 4.84  [595s]
+# Phase 4 sweep: phrase and sentence keys from the book, all key signs, under the skip-on-repeat rule
+
+2905 distinct phrase/sentence keys (2-, 3- and 4-word contiguous phrases and whole lines of the solved text, forwards and reversed) under three sign conventions, plus phase 3's 4716 keystreams under the two sign conventions phase 3 did not run: 18147 configurations per page, 55 pages, 2 F-rule variants: **1,996,170 tests**.
+Per page, variant and decoder mode, the null is 2,000 random keystreams through the same decoder. Positive rule (pre-registered): z ≥ 6 over that null and English on inspection. Chance maximum for this many tests: about 5.4.
+Largest z over all 1,996,170 tests: 5.10. Largest z among phrase/sentence keys: 5.10 (LP2-09, sub, phrase-2 'CERTAINTY AND').
+
+## Verdict
+
+**No page decrypts.** Every 2-, 3- and 4-word phrase and every full line of the solved text, forwards and reversed, as a Vigenère key under the skip-on-repeat rule, with the key added, subtracted or used Beaufort-style, with and without the F rule, is excluded at the sensitivity the controls demonstrate; so are phase 3's families under the two sign conventions phase 3 had not run. This says nothing about keys from outside the book's own text.
+
