@@ -156,6 +156,7 @@ python3 -m venv .venv && .venv/bin/pip install numpy matplotlib
 .venv/bin/python -I src/depth_two.py 30 # results/depth_two.md, *.npz, summary.json (~3 min)
 .venv/bin/python -I src/lag1.py         # results/lag1.md
 .venv/bin/python -I src/plot.py         # results/depth_two.png
+.venv/bin/python -I src/word_lag.py     # results/word_lag.md (phase 7 lane: src/skip2_lane.py, ~11 min)
 ```
 
 Layout: `data/raw/` downloaded sources (never executed), `data/processed/` verified
@@ -498,3 +499,25 @@ Lag 1 shows the doublet deficit (chi-square z +32, d = 0 at −16). Lags 2–12 
 chi-square (|z| ≤ 1.4). The d = 0 count sits at +2.1σ at lags 4 and 5 (110 vs 91 and 72 vs 57),
 which, over twelve lags and two statistics, is what chance gives. The echo is not a feature
 this transcription supports; a 2.5σ reading at one of a dozen lags is a selection effect.
+
+## 16. Phase 7: the skip-by-two rejection rule (`src/skip2_lane.py`, `results/phase7.md`)
+
+The ledger diff (§11, item 4) left one instrument variant untested on the book's families: wazar's
+skip_by_two, where a rejected key draw discards two key symbols (the second unread) instead of one.
+wazar validated a decoder for it but ran it only on PRNG seeds. `src/score.py` now has a
+`rejection="two"` mode (the forced-skip condition becomes C_i − C_{i−1} ≡ K_j − K_{j−2}, the same
+under every sign; the default path is bit-identical to before) and `src/skip_decrypt.py` encrypts
+with `skip_by=2`. The lane reruns every family of phases 3 and 4 (22,863 configurations: book
+keystreams and phrase/sentence keys under three signs) on all 55 pages, both F variants:
+**2,514,930 tests**, chance maximum about 5.4, pre-registered rule z ≥ 6 and readable English.
+
+**The blind spot is real.** Twenty-four skip-by-two plants (soft 81 %) decoded with the single-advance
+decoder that every earlier phase and every public ledger used score z −1.5 to 11.9 with rune recovery
+5 % to 100 %; half of them sit below z = 6. The same plants under the skip-by-two decoder score
+z 9.5–14.9, 22 of 24 ranked first in their set (the other two are a Fibonacci offset ranked 11th and a
+running-key offset ranked 2nd behind neighbouring offsets of the same stream, both above z = 6). So the
+earlier negatives covered this variant only when the window happened to contain few rejections.
+
+**Result: null.** Largest z over all 2.5 million tests is 4.99 (LP2-35, self running key at offset 878,
+gibberish), inside the chance range. The book's keystream families and phrase keys are now excluded
+under both rejection widths. Runtime 11 minutes.
