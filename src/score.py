@@ -28,7 +28,7 @@ def english_model():
     return lu, lb, plain
 
 
-def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, penalty=0.0, rejection="one"):
+def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, penalty=0.0, rejection="one", mult_inv=None):
     """C: (n,) ciphertext; Ks: (m, L) keystreams, L >= n + S_MAX.
     mode "sub": P = C - K (additive cipher C = P + K); mode "beaufort": P = K - C (C = K - P).
     For C = P - K pass -K with mode "sub".  The forced-skip condition C_i - C_{i-1} == K_j - K_{j-1}
@@ -44,6 +44,9 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
     doubled-letter double skip.  rejection "two" (phase 7, wazar's skip_by_two): a rejection advances
     the key by two, the first draw having collided (C_i - C_{i-1} == K_j - K_{j-2}) and the second
     draw unconstrained; the single-advance skip is not available in that mode.
+    mult_inv (phase 8): per-position modular inverses of an affine multiplier, C = m_i * P + K
+    (mode "sub"): shape (n,) shared by all rows or (m, n) per row; P = inv_i * (C - K).  The
+    forced-skip condition is unchanged (a skipped key symbol would still have reproduced C_{i-1}).
     Returns best LLR (m,), best final state (m,), decoded plaintext along the best path (m, n)."""
     C = np.asarray(C); m, L = Ks.shape; n = len(C)
     T0 = (int((C == 0).sum()) if f_rule else 0) + (int(np.asarray(null_mask).sum()) if null_mask is not None else 0)  # room for j < i
@@ -59,6 +62,8 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
         j = np.clip(i + jbase, 0, L - 1)
         Kj = Ks[:, j]
         P = ((c - Kj) if mode == "sub" else (Kj - c)) % N
+        if mult_inv is not None:
+            P = (P * (mult_inv[i] if mult_inv.ndim == 1 else mult_inv[:, i][:, None])) % N
         gain = lu[P] - LOGU
         stay = dp + gain
         cand = stay; src = np.zeros((m, S), dtype=np.int8)
@@ -110,6 +115,8 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
         j = np.clip(i + (t - T0), 0, L - 1)
         Kj = Ks[rows, j]
         dec = ((c - Kj) if mode == "sub" else (Kj - c)) % N
+        if mult_inv is not None:
+            dec = (dec * (mult_inv[i] if mult_inv.ndim == 1 else mult_inv[:, i])) % N
         out[:, i] = np.where(src == -1, 0, np.where(src == -3, c, dec))   # a null is written as itself
         t = t - (src == 1) - 2 * (src == 2) + (src == -1) + (src == -3)
     return best, t_best - T0, out

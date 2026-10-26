@@ -1,0 +1,83 @@
+15834 configurations per page x 55 pages x 2 F variants = 1,741,740 tests; chance max ~ 5.4 sigma
+  control-00: lcg(a=1033,c=0,m=3301) add seed=3029 F=False: z=10.8 rank 1, recovered 1.000
+  control-01: lcg(a=3,c=0,m=3301) add seed=1590 F=False: z=11.1 rank 1, recovered 1.000
+  control-02: lcg(a=7,c=1,m=3301) add seed=3104 F=False: z=10.8 rank 1, recovered 1.000
+  control-03: lcg(a=7,c=1,m=3301) beaufort seed=418 F=False: z=11.7 rank 1, recovered 1.000
+  control-04: lcg(a=2,c=24,m=29) add seed=24 F=False: z=11.8 rank 1, recovered 0.992
+  control-05: lcg(a=3301,c=29,m=1033) add skip2 seed=512 F=False: z=11.5 rank 1, recovered 0.992
+  control-06: word keys × position multiplier m=(5i+23)%28+1 F=False: z=10.9 rank 1, recovered 0.983
+  control-07: lcg(a=1033,c=0,m=3301) add seed=878 F=True: z=12.4 rank 1, recovered 0.988
+  control-08: lcg(a=3,c=0,m=3301) add seed=1950 F=True: z=13.1 rank 1, recovered 0.975
+  control-09: lcg(a=7,c=1,m=3301) add seed=667 F=True: z=11.9 rank 1, recovered 1.000
+  control-10: lcg(a=7,c=1,m=3301) beaufort seed=2717 F=True: z=12.4 rank 1, recovered 0.925
+  control-11: lcg(a=2,c=24,m=29) add seed=8 F=True: z=12.4 rank 1, recovered 0.996
+  control-12: lcg(a=3301,c=29,m=1033) add skip2 seed=962 F=True: z=14.4 rank 1, recovered 0.988
+  control-13: word keys × position multiplier m=(19i+21)%28+1 F=True: z=12.2 rank 1, recovered 1.000
+  control-14: lcg(a=1033,c=0,m=3301) add seed=710 F=False: z=12.0 rank 1, recovered 1.000
+  control-15: lcg(a=3,c=0,m=3301) add seed=2214 F=False: z=11.5 rank 1, recovered 1.000
+controls done in 12s
+  LP2-00 done (1/55), best z on this page: 4.14  [13s]
+  LP2-01 done (2/55), best z on this page: 3.90  [26s]
+  LP2-02 done (3/55), best z on this page: 3.82  [35s]
+  LP2-03 done (4/55), best z on this page: 3.86  [46s]
+  LP2-04 done (5/55), best z on this page: 3.72  [60s]
+  LP2-05 done (6/55), best z on this page: 3.90  [76s]
+  LP2-06 done (7/55), best z on this page: 3.72  [85s]
+  LP2-07 done (8/55), best z on this page: 3.70  [95s]
+  LP2-08 done (9/55), best z on this page: 4.01  [110s]
+  LP2-09 done (10/55), best z on this page: 3.96  [125s]
+  LP2-10 done (11/55), best z on this page: 3.58  [139s]
+  LP2-11 done (12/55), best z on this page: 3.86  [154s]
+  LP2-12 done (13/55), best z on this page: 4.27  [168s]
+  LP2-13 done (14/55), best z on this page: 3.93  [182s]
+  LP2-14 done (15/55), best z on this page: 3.48  [189s]
+  LP2-15 done (16/55), best z on this page: 4.44  [198s]
+  LP2-16 done (17/55), best z on this page: 3.87  [223s]
+  LP2-17 done (18/55), best z on this page: 3.92  [246s]
+  LP2-18 done (19/55), best z on this page: 3.75  [266s]
+  LP2-19 done (20/55), best z on this page: 4.11  [296s]
+  LP2-20 done (21/55), best z on this page: 3.69  [320s]
+  LP2-21 done (22/55), best z on this page: 4.40  [341s]
+  LP2-22 done (23/55), best z on this page: 3.88  [349s]
+  LP2-23 done (24/55), best z on this page: 4.43  [359s]
+  LP2-24 done (25/55), best z on this page: 4.44  [374s]
+  LP2-25 done (26/55), best z on this page: 4.39  [391s]
+  LP2-26 done (27/55), best z on this page: 3.75  [409s]
+  LP2-27 done (28/55), best z on this page: 3.83  [425s]
+  LP2-28 done (29/55), best z on this page: 3.94  [447s]
+  LP2-29 done (30/55), best z on this page: 4.05  [468s]
+  LP2-30 done (31/55), best z on this page: 4.21  [486s]
+  LP2-31 done (32/55), best z on this page: 3.90  [502s]
+  LP2-32 done (33/55), best z on this page: 3.35  [508s]
+  LP2-33 done (34/55), best z on this page: 3.91  [523s]
+  LP2-34 done (35/55), best z on this page: 3.88  [545s]
+  LP2-35 done (36/55), best z on this page: 3.84  [563s]
+  LP2-36 done (37/55), best z on this page: 3.78  [579s]
+  LP2-37 done (38/55), best z on this page: 3.90  [597s]
+  LP2-38 done (39/55), best z on this page: 3.82  [610s]
+  LP2-39 done (40/55), best z on this page: 3.77  [626s]
+  LP2-40 done (41/55), best z on this page: 3.76  [641s]
+  LP2-41 done (42/55), best z on this page: 4.21  [655s]
+  LP2-42 done (43/55), best z on this page: 4.14  [669s]
+  LP2-43 done (44/55), best z on this page: 4.26  [686s]
+  LP2-44 done (45/55), best z on this page: 4.18  [709s]
+  LP2-45 done (46/55), best z on this page: 3.76  [727s]
+  LP2-46 done (47/55), best z on this page: 4.15  [747s]
+  LP2-47 done (48/55), best z on this page: 4.51  [767s]
+  LP2-48 done (49/55), best z on this page: 3.89  [788s]
+  LP2-49 done (50/55), best z on this page: 3.56  [796s]
+  LP2-51 done (51/55), best z on this page: 3.84  [810s]
+  LP2-52 done (52/55), best z on this page: 3.96  [850s]
+  LP2-53 done (53/55), best z on this page: 3.46  [870s]
+  LP2-54 done (54/55), best z on this page: 4.15  [891s]
+  LP2-55 done (55/55), best z on this page: 3.38  [902s]
+# Phase 8 sweep: the hypothesis loop's short list (LCG seeds; word keys with a position-walking multiplier)
+
+15834 configurations per page (lcg(a=1033,c=0,m=3301) add: 3,301, lcg(a=3,c=0,m=3301) add: 3,301, lcg(a=7,c=1,m=3301) add: 3,301, lcg(a=7,c=1,m=3301) beaufort: 3,301, lcg(a=2,c=24,m=29) add: 29, lcg(a=3301,c=29,m=1033) add skip2: 1,033, word keys × position multiplier: 1,568), 55 pages, 2 F variants: **1,741,740 tests**. Chance maximum about 5.4.
+Per page, variant, decoder mode and rejection width the null is 2,000 random keystreams through the same decoder (a random key through a multiplier schedule is still a random key, so one null serves every schedule). Positive rule (pre-registered): z ≥ 6 over that null and English on inspection.
+Largest z over all 1,741,740 tests: 4.51 (LP2-47, lcg(a=7,c=1,m=3301) add, seed=15).
+
+## Verdict
+
+**No page decrypts.** The LCG families at every seed (five moduli/multiplier pairs, add and Beaufort, single and double skip) and the two solved word keys under every position-walking affine multiplier schedule, each with and without the F rule under the soft reject-on-repeat rule, are excluded at the sensitivity the controls demonstrate. This says nothing about other LCG parameters, other words under the multiplier, or the loop's larger feedback families, which were not run.
+
