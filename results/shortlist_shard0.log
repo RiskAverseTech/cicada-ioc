@@ -1,0 +1,46 @@
+A lcg mod 3301: 9,902 keystreams x 3 signs x 1 rejection modes
+B lcg mod 1033: 1,033 keystreams x 3 signs x 2 rejection modes
+C lcg mod 29: 21,953 keystreams x 3 signs x 1 rejection modes
+D word keys with clock multiplier: 1,624 keystreams x 3 signs x 1 rejection modes
+E prime-gap stream with clock multiplier: 82,824 keystreams x 1 signs x 1 rejection modes
+F prime_value ciphertext feedback over the book text: 2,977 keystreams x 3 signs x 2 rejection modes
+F totient_value ciphertext feedback over the book text: 2,977 keystreams x 3 signs x 2 rejection modes
+225,183 configurations per page x 55 pages x 2 F variants = 24,770,130 tests; chance max ~ 5.8 sigma
+decode_lane == score.decode without hooks: ok
+null check on LP2-00: plain -149.1 ± 21.2; with multiplier schedules -150.6 ± 21.9; with feedback-corrected C -149.8 ± 21.8
+  control A  add F=False one 'lcg3301(a=7,c=1)@2500': z 10.7, rank 2, recovered 1.000, best z in family 10.7
+  control A  sub F=True one 'lcg3301(a=1033,c=0)@2665': z 14.1, rank 1, recovered 0.992, best z in family 14.1
+  control B  sub F=True one 'lcg1033(a=202,c=29)@737': z 12.8, rank 1, recovered 0.992, best z in family 12.8
+  control B  beaufort F=False two 'lcg1033(a=202,c=29)@95': z 10.9, rank 1, recovered 1.000, best z in family 10.9
+  control C  beaufort F=False one 'lcg29(a=23,c=7)@4': z 10.6, rank 1, recovered 1.000, best z in family 10.6
+  control C  add F=True one 'lcg29(a=16,c=11)@5': z 11.8, rank 1, recovered 0.954, best z in family 11.8
+  control D  add F=True one 'FIRFUMFERENFE m=(((3i+19) mod 28)+1)': z 13.3, rank 1, recovered 1.000, best z in family 13.3
+  control D  sub F=False one 'DIVINITY m=(((14i+17) mod 28)+1)': z 10.1, rank 1, recovered 1.000, best z in family 10.1
+  control E  add F=False one 'gap[n+87] m=(((11i+26) mod 28)+1)': z 11.1, rank 1, recovered 1.000, best z in family 11.1
+  control E  add F=True one 'gap[n+55] m=(((4i+11) mod 28)+1)': z 13.8, rank 1, recovered 0.971, best z in family 13.8
+  control F  beaufort F=True one 'plaintext@589': z 12.3, rank 1, recovered 1.000, best z in family 12.3
+  control F  add F=False two 'plaintext@1994': z 11.8, rank 1, recovered 0.996, best z in family 11.8
+  control F  add F=False one 'plaintext@234': z 11.2, rank 1, recovered 0.979, best z in family 11.2
+  control F  sub F=True two 'plaintext@1752': z 11.7, rank 4, recovered 0.938, best z in family 12.9
+controls done in 250s
+  LP2-00 done (1/19), best z 4.55  [343s]
+  LP2-03 done (2/19), best z 4.55  [646s]
+  LP2-06 done (3/19), best z 4.37  [835s]
+  LP2-09 done (4/19), best z 4.20  [1071s]
+  LP2-12 done (5/19), best z 4.45  [1301s]
+  LP2-15 done (6/19), best z 4.77  [1436s]
+  LP2-18 done (7/19), best z 4.38  [1667s]
+  LP2-21 done (8/19), best z 4.32  [1894s]
+  LP2-24 done (9/19), best z 4.54  [2125s]
+  LP2-27 done (10/19), best z 4.71  [2324s]
+  LP2-30 done (11/19), best z 4.38  [2531s]
+  LP2-33 done (12/19), best z 5.21  [2701s]
+  LP2-36 done (13/19), best z 4.44  [2887s]
+  LP2-39 done (14/19), best z 4.33  [3068s]
+  LP2-42 done (15/19), best z 4.25  [3295s]
+  LP2-45 done (16/19), best z 4.67  [3513s]
+  LP2-48 done (17/19), best z 4.29  [3706s]
+  LP2-52 done (18/19), best z 5.15  [3839s]
+  LP2-55 done (19/19), best z 4.21  [3876s]
+shard 0/3 done in 69 min
+exit 0

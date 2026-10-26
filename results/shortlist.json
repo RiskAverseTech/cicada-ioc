@@ -1,0 +1,5664 @@
+{
+ "ntests": 24770130,
+ "controls": [
+  [
+   "A lcg mod 3301",
+   "add",
+   false,
+   "one",
+   "lcg3301(a=7,c=1)@2500",
+   10.722313718956133,
+   2,
+   1.0,
+   10.735688315596818
+  ],
+  [
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=1033,c=0)@2665",
+   14.12850428108721,
+   1,
+   0.9916666666666667,
+   14.12850428108721
+  ],
+  [
+   "B lcg mod 1033",
+   "sub",
+   true,
+   "one",
+   "lcg1033(a=202,c=29)@737",
+   12.818047280929274,
+   1,
+   0.9916666666666667,
+   12.818047280929274
+  ],
+  [
+   "B lcg mod 1033",
+   "beaufort",
+   false,
+   "two",
+   "lcg1033(a=202,c=29)@95",
+   10.873888123790946,
+   1,
+   1.0,
+   10.873888123790946
+  ],
+  [
+   "C lcg mod 29",
+   "beaufort",
+   false,
+   "one",
+   "lcg29(a=23,c=7)@4",
+   10.628217194564078,
+   1,
+   1.0,
+   10.628217194564078
+  ],
+  [
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=16,c=11)@5",
+   11.782301190268159,
+   1,
+   0.9541666666666667,
+   11.782301190268159
+  ],
+  [
+   "D word keys with clock multiplier",
+   "add",
+   true,
+   "one",
+   "FIRFUMFERENFE m=(((3i+19) mod 28)+1)",
+   13.325347911638929,
+   1,
+   1.0,
+   13.325347911638929
+  ],
+  [
+   "D word keys with clock multiplier",
+   "sub",
+   false,
+   "one",
+   "DIVINITY m=(((14i+17) mod 28)+1)",
+   10.077548431139961,
+   1,
+   1.0,
+   10.077548431139961
+  ],
+  [
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+87] m=(((11i+26) mod 28)+1)",
+   11.067793615004303,
+   1,
+   1.0,
+   11.067793615004303
+  ],
+  [
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+55] m=(((4i+11) mod 28)+1)",
+   13.822045177701646,
+   1,
+   0.9708333333333333,
+   13.822045177701646
+  ],
+  [
+   "F prime_value ciphertext feedback over the book text",
+   "beaufort",
+   true,
+   "one",
+   "plaintext@589",
+   12.265345000954172,
+   1,
+   1.0,
+   12.265345000954172
+  ],
+  [
+   "F prime_value ciphertext feedback over the book text",
+   "add",
+   false,
+   "two",
+   "plaintext@1994",
+   11.831081141816284,
+   1,
+   0.9958333333333333,
+   11.831081141816284
+  ],
+  [
+   "F totient_value ciphertext feedback over the book text",
+   "add",
+   false,
+   "one",
+   "plaintext@234",
+   11.219403818307937,
+   1,
+   0.9791666666666666,
+   11.219403818307937
+  ],
+  [
+   "F totient_value ciphertext feedback over the book text",
+   "sub",
+   true,
+   "two",
+   "plaintext@1752",
+   11.681083366536772,
+   4,
+   0.9375,
+   12.927022855791595
+  ]
+ ],
+ "results": [
+  [
+   "LP2-33",
+   "B lcg mod 1033",
+   "sub",
+   true,
+   "two",
+   "lcg1033(a=202,c=29)@241",
+   5.210700261796398,
+   6,
+   "NMRLOLHLBSMNSOMETHITHCCNNGDIFBATORDLPGRUNCTEISOEFIAFPRDMBNJNFNGISDITRBCYTHWNIOENGSWNUHFLN"
+  ],
+  [
+   "LP2-52",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+28] m=(((11i+26) mod 28)+1)",
+   5.152511049728643,
+   1,
+   "IFOYWTTUIBIABETHSHNGESFTSRAEILXCNPDTPPOWSFNREFGTHDEAWHOTHUCUSUWIAHNWENIWHGJEOTHCTOYGPCYYU"
+  ],
+  [
+   "LP2-52",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+27] m=(((11i+26) mod 28)+1)",
+   5.1405597970946655,
+   2,
+   "NBOYWTTUIBIABETHSHNGESFTSRAEILXCNPDTPPOWSFNREFGTHDEAWHOTHUCUSUWIAHNWENIWHGJEOTHCTOYGPCYYU"
+  ],
+  [
+   "LP2-33",
+   "B lcg mod 1033",
+   "sub",
+   true,
+   "two",
+   "lcg1033(a=202,c=29)@160",
+   4.991763426855473,
+   5,
+   "UTHFHFLHLBSMNSOMETHITHCCNNGDIFBATORDLPGRUNCTEISOEFIAFPRDMBNJNFNGISDITRBCYTHWNIOENGSWNUHFLN"
+  ],
+  [
+   "LP2-05",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+34] m=(((24i+18) mod 28)+1)",
+   4.985473666826576,
+   -3,
+   "DNGPNGCTHEAFAMWUPOGUDSNGWDMOMUEEYRWFPIEYDOPIAJENGPOJJNHAEOTHJNDETLOSFIAPPFUTHJAIAELWTHYWFSBL"
+  ],
+  [
+   "LP2-20",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+89] m=(((22i+11) mod 28)+1)",
+   4.812205427660916,
+   5,
+   "HAWDEETMEPMGANCDSYIBICGFIATHAEGTUBUTJYOIATMYYFFAPDBGAIHTNOPWXUSNSJGMIUFFXRDDXEAWSLEFS"
+  ],
+  [
+   "LP2-05",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+60] m=(((17i+20) mod 28)+1)",
+   4.7922070921852375,
+   7,
+   "HRARPSBMFSTHDRAERGCNEATHARMFSMOETHGIFWEMOEONEEWYWMODDLPLRRSNTBPAATIOIATAAEGCXLTCYIRPEYFTH"
+  ],
+  [
+   "LP2-15",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+66] m=(((21i+20) mod 28)+1)",
+   4.770131600242931,
+   5,
+   "HESXCEWPCYEAEIIREONOEOEAGHWCAUGTHTHMNGWSYCMNSNGEOPOTHNGYRWETHAAINRGMIPGSNCLEAEJGETEADARGTOJAF"
+  ],
+  [
+   "LP2-04",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+4] m=(((20i+26) mod 28)+1)",
+   4.732951169693098,
+   2,
+   "LEEOETAEWLMAFAEBOLGOSNGAYHLGFCLGDCFEOCAESRUMHEMANOHOEATHXTERNGUONEFHNLFFFOINGYNYEADIIEWIEJ"
+  ],
+  [
+   "LP2-20",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+87] m=(((22i+11) mod 28)+1)",
+   4.727921687380951,
+   7,
+   "HTOLEGTMEPMGANCDSYIBICGFIATHAEGTUBUTJYOIATMYYFFAPDBGAIHTNOPWXUSNSJGMIUFFXRDDXEAWSLEFS"
+  ],
+  [
+   "LP2-15",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+67] m=(((21i+20) mod 28)+1)",
+   4.719352662124028,
+   4,
+   "FESXCEWPCYEAEIIREONOEOEAGHWCAUGTHTHMNGWSYCMNSNGEOPOTHNGYRWETHAAINRGMIPGSNCLEAEJGETEADARGTOJAF"
+  ],
+  [
+   "LP2-27",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+95] m=(((2i+23) mod 28)+1)",
+   4.710001899163686,
+   -1,
+   "NMCUADAEASUSIGIOCETOEAHGTHTRUCCYMWEBLGFHAATDTHOENGATHRIAOTDIENHCEMOUYFUNFGACDSEETHHFDSATB"
+  ],
+  [
+   "LP2-19",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+16] m=(((20i+0) mod 28)+1)",
+   4.696265908883225,
+   5,
+   "WRBPTBDNGRUUTHWHHIETWTHTHENGAAEFHRNGCASWFNGPOWPYEASHJTONGRTHRESGDELAEHAEAAEMIAFNIDNGHLOSCDYAEFRI"
+  ],
+  [
+   "LP2-19",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+16] m=(((20i+28) mod 28)+1)",
+   4.696265908883225,
+   5,
+   "WRBPTBDNGRUUTHWHHIETWTHTHENGAAEFHRNGCASWFNGPOWPYEASHJTONGRTHRESGDELAEHAEAAEMIAFNIDNGHLOSCDYAEFRI"
+  ],
+  [
+   "LP2-45",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=3,c=0)@2094",
+   4.672897550016123,
+   5,
+   "EADGNTYMRULDEAIANPBIAPALCUUNCJYTGFRFYCIGEEAJDWOWGSILEOUMBRHIAPFPDOSSRFAEJRCWWGPPLCNNTHMEO"
+  ],
+  [
+   "LP2-45",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=3,c=0)@2981",
+   4.647929866331292,
+   4,
+   "YBWBGUYGWNMGFSYFIAPALCUUNCJYTGFRFYCIGEEAJDWOWGSILEOUMBRHIAPFPDOSSRFAEJRCWWGPPLCNNTHMEO"
+  ],
+  [
+   "LP2-15",
+   "D word keys with clock multiplier",
+   "add",
+   true,
+   "one",
+   "FIRFUMFERENFE m=(((4i+6) mod 28)+1)",
+   4.622812218669649,
+   -1,
+   "FSOUUIEAPSRAJMNGWBEPFEAPIMAMLEFTSRTOOAYERPBIAAMPTGPYIICESYSNNGULTHFUIMIIFLSLASYUUSNGWH"
+  ],
+  [
+   "LP2-02",
+   "F totient_value ciphertext feedback over the book text",
+   "sub",
+   true,
+   "one",
+   "plaintext@1307",
+   4.622160722838509,
+   5,
+   "AEOOCAROGOSCTHLLXFJCIBEDUHRNCMSBSSUDRPYRUCITNEOTRCRHSLRNYRLINTXLNGOHFONGIMIAAEJTRSDWHGR"
+  ],
+  [
+   "LP2-01",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+62] m=(((27i+4) mod 28)+1)",
+   4.62127168995246,
+   5,
+   "RTHCSOAMFDGPIAHAIGJPPDIEOFBSFIAAHPENIAEIAOTHFBUFRGNGEGROWOTCLAEEAUTCUHOTHWDYEOIAICTUUAEAGEAFTHT"
+  ],
+  [
+   "LP2-19",
+   "A lcg mod 3301",
+   "sub",
+   false,
+   "one",
+   "lcg3301(a=1033,c=0)@329",
+   4.60585388895312,
+   10,
+   "OTCYXLYRPTPTIHBUNFGHEANGUGSOEULTEFNGRMYWGDLITHXEOIAEWHHWPSDGIAOEEASNBEGROAMNGEFMNWOEOETHWAB"
+  ],
+  [
+   "LP2-40",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+100] m=(((25i+11) mod 28)+1)",
+   4.573416924967672,
+   6,
+   "RIWHFREDCCAEATFDANGREACTHARRMBBIAUSXPFJHTNUTWRPIJHPNGUUWLLWATHIAOIAPNGONNGDTBSYATPUCMLTHONAES"
+  ],
+  [
+   "LP2-33",
+   "F totient_value ciphertext feedback over the book text",
+   "beaufort",
+   true,
+   "one",
+   "plaintext@292",
+   4.571363263550896,
+   0,
+   "OERNGTNDSLCWWIYOEIOEDXCAFWOYEEUONDPNGTHAHGTAWOIAYOETHCTBEFEOBHIADDHDAENUHAIOTBTHILFSSHTTAN"
+  ],
+  [
+   "LP2-03",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+18] m=(((17i+9) mod 28)+1)",
+   4.554119131829268,
+   4,
+   "MIRATHCTHDEPUFYEGGMTHWFIMRYTENGOFETHOXDOEWRTENCAERIANMXMAUOCOOBNXESESEUMWXRUFIMOUHLITRF"
+  ],
+  [
+   "LP2-00",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=12,c=26)@19",
+   4.552124745457772,
+   1,
+   "WNGHTTIEAMWOHUAAHTRFSYMLBPJMTHCJYIMCEPRLNLNGNIATNIIEAAUOEOCGPUAFSLFRNPFPEUOCCAOETHNGDDG"
+  ],
+  [
+   "LP2-46",
+   "F prime_value ciphertext feedback over the book text",
+   "sub",
+   true,
+   "one",
+   "plaintext@337",
+   4.550216828210386,
+   5,
+   "EACAHIPNSFRHYHISSWOEUPITHWRPNFAENGAPANGROURLUNLEYNGDYEPCUUAYONBHTYYWNGYTHHWPUGDMUBTIRATY"
+  ],
+  [
+   "LP2-24",
+   "D word keys with clock multiplier",
+   "beaufort",
+   true,
+   "one",
+   "DIVINITY m=(((16i+15) mod 28)+1)",
+   4.535436328033045,
+   -1,
+   "FTFTGEEABMAWJWMTHNGNRIOEMINOAYTHIALCGPIMYPOMSCNHTHEOAHEOGRGRJYPSTHMTAIAHAELUFASTSBUNNGHDABW"
+  ],
+  [
+   "LP2-43",
+   "C lcg mod 29",
+   "beaufort",
+   false,
+   "one",
+   "lcg29(a=11,c=27)@26",
+   4.516130081792965,
+   11,
+   "SHDANXHYXTHIAUAAECWPUINUIATHUHAENGUFMGTHTREACBAOLTHEOEMNETWFWWNUIGLATHRGHLNNNGSNUCIDCTHEOEAEAXIA"
+  ],
+  [
+   "LP2-04",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=23,c=14)@11",
+   4.5148822779344115,
+   -2,
+   "SNRAICRTTHLBESTHHTHTANGJPIAAEJSIDITATHTHODRUTNWIRFECUTHEILRSGTEOCNGMIAORFFNUFFTHCTPOYHIAEALDRWEA"
+  ],
+  [
+   "LP2-04",
+   "F prime_value ciphertext feedback over the book text",
+   "sub",
+   true,
+   "two",
+   "plaintext@1588",
+   4.50744206134659,
+   20,
+   "AEOGSSFOGPOOUOIATHYOESLOTHCUWXJTHYAYTHEHTSOENXOEAFFCOEUETLIIIASXTRTAIPDYTHWNEONAWNGNGESYEAMEAEA"
+  ],
+  [
+   "LP2-43",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=18,c=9)@20",
+   4.506605524268788,
+   -4,
+   "TUAFTHIAYPMIAUWHDENDFRRMBMAENGFYOFGUDMUTHLOEWIMRLOGNTHIIAYLMYOEGEOSNGEJDSNFMNAEJEAFOFAIMRONL"
+  ],
+  [
+   "LP2-43",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=18,c=20)@9",
+   4.506605524268788,
+   -4,
+   "TUAFTHIAYPMIAUWHDENDFRRMBMAENGFYOFGUDMUTHLOEWIMRLOGNTHIIAYLMYOEGEOSNGEJDSNFMNAEJEAFOFAIMRONL"
+  ],
+  [
+   "LP2-07",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+88] m=(((20i+24) mod 28)+1)",
+   4.503798637533463,
+   6,
+   "PUBDTHCGDOPNLPUIAOITHEAASLIANGBGTHSEALXHRROATYGOSTNIACCLHIHNDUAAMNXTHAWMWEATHCHGEUEEORRYFGAEI"
+  ],
+  [
+   "LP2-49",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+15] m=(((4i+26) mod 28)+1)",
+   4.499561144603655,
+   2,
+   "RSNYWIEASLMOAEWONLSCECORRBRCABEIARMHGTRESBHAEDMYLIITSISEAYSLRSWSWBSIUO"
+  ],
+  [
+   "LP2-31",
+   "F totient_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "two",
+   "plaintext@387",
+   4.497293886418751,
+   6,
+   "NGWHTAIGCDDYFSRAIAGFULIATHTYPEEAOTNHTXFHXWHINTHHJWTHOEPEANIADGINTHFEIHNGEAASRIAWSYGMLTHDAMEONAY"
+  ],
+  [
+   "LP2-33",
+   "F totient_value ciphertext feedback over the book text",
+   "beaufort",
+   true,
+   "one",
+   "plaintext@293",
+   4.479556316273842,
+   -1,
+   "OEPUNFDSLCWWIYOEIOEDXCAFWOYEEUONDPNGTHAHGTAWOIAYOETHCTBEFEOBHIADDHDAENUHAIOTBTHILFSSHTTAN"
+  ],
+  [
+   "LP2-14",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+48] m=(((15i+23) mod 28)+1)",
+   4.463308344722758,
+   5,
+   "OIATHNMCTFHTITATHLAIBYTWOEPNGUULRNIDIANGXIABIDMTHJUWNRPYRDDGCWFHORCTSEAAHIHMTEMLPEOELNRCDB"
+  ],
+  [
+   "LP2-23",
+   "D word keys with clock multiplier",
+   "beaufort",
+   true,
+   "one",
+   "DIVINITY m=(((14i+24) mod 28)+1)",
+   4.460475488975726,
+   0,
+   "NRTEANGYNSRTHAPNTHPFDODBHXLESWSTXMAENFRHREBTHPRLUFNOAWGMJFYNETHCSOEJMHCIPTHDPMIARCMBWTHRM"
+  ],
+  [
+   "LP2-45",
+   "A lcg mod 3301",
+   "sub",
+   false,
+   "one",
+   "lcg3301(a=3,c=0)@2094",
+   4.4516890580929,
+   5,
+   "EADGNTYMRULDEAIANPBIAPALCUUNCJYTGFRFYCIGEEAJDWOWGSILEOUMBRHIAPFPDOSSRFAEJRCWWGPPLCNNTHMEO"
+  ],
+  [
+   "LP2-12",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+3] m=(((12i+23) mod 28)+1)",
+   4.451582074691448,
+   1,
+   "DUFHLOSSFTSTRBHSNATAACIPCPYEOLCOLNGBCEAUMTFMRRMCWCRHLUINDWNFJDNMCFEAARECELFBTTDJWNFD"
+  ],
+  [
+   "LP2-19",
+   "A lcg mod 3301",
+   "sub",
+   false,
+   "one",
+   "lcg3301(a=1033,c=0)@3155",
+   4.448501232066219,
+   9,
+   "OESIDBYYRPTPTIHBUNFGHEANGUGSOEULTEFNGRMYWGDLITHXEOIAEWHHWPSDGIAOEEASNBEGROAMNGEFMNWOEOETHWAB"
+  ],
+  [
+   "LP2-26",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+82] m=(((8i+11) mod 28)+1)",
+   4.441571680272446,
+   -1,
+   "MIAITTGLONBOEAYHNCIEMGROHMSGLNGEANGPUAFSEUYHXAEUTHIAOEMREMITHGMWIFALBNMNTOLUOOEHHFTFTMIAW"
+  ],
+  [
+   "LP2-36",
+   "C lcg mod 29",
+   "add",
+   false,
+   "one",
+   "lcg29(a=7,c=0)@16",
+   4.441038146951371,
+   3,
+   "UHDTYXMUOAEMAESIAPTHGNRTHNWPTHAIATHRPAAIRONBNCINBYYIBUEHYEALMEAIALUCSCEAETHIEAMPUOPRELDDIXLCD"
+  ],
+  [
+   "LP2-36",
+   "C lcg mod 29",
+   "sub",
+   false,
+   "one",
+   "lcg29(a=7,c=0)@13",
+   4.441038146951371,
+   3,
+   "UHDTYXMUOAEMAESIAPTHGNRTHNWPTHAIATHRPAAIRONBNCINBYYIBUEHYEALMEAIALUCSCEAETHIEAMPUOPRELDDIXLCD"
+  ],
+  [
+   "LP2-41",
+   "F prime_value ciphertext feedback over the book text",
+   "sub",
+   true,
+   "one",
+   "plaintext@2856",
+   4.429927476153219,
+   0,
+   "MWDNTHYPOEOTHPTBDCNGANGARGONACRONGSIDNNSEAEAGULFGEATHSTHFPYTWTUDPIFIAYEPFCEAMRYYUGPAABAPEAFYCL"
+  ],
+  [
+   "LP2-00",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=12,c=26)@22",
+   4.426106793439626,
+   0,
+   "XEUMDWNGFWOHUAAHTRFSYMLBPJMTHCJYIMCEPRLNLNGNIATNIIEAAUOEOCGPUAFSLFRNPFPEUOCCAOETHNGDDG"
+  ],
+  [
+   "LP2-12",
+   "A lcg mod 3301",
+   "beaufort",
+   true,
+   "one",
+   "lcg3301(a=1033,c=0)@1156",
+   4.424187766818813,
+   2,
+   "BPWFXGEATNSEEWYLUTHTCEHIAETCEAHYLHWTHWEAUTEAEFDICSOIAREAWSYSCCDFSDGOXEAFTEOMAODOEDREUEATXFL"
+  ],
+  [
+   "LP2-23",
+   "D word keys with clock multiplier",
+   "add",
+   true,
+   "one",
+   "DIVINITY m=(((14i+3) mod 28)+1)",
+   4.422457458197121,
+   0,
+   "NRTEANGYNSRTHAPNTHPFDODBHXLESWSTXMAENFRHREBTHPRLUFNOAWGMJFYNETHCSOEJMHCIPTHDPMIARCMBWTHRM"
+  ],
+  [
+   "LP2-53",
+   "D word keys with clock multiplier",
+   "sub",
+   true,
+   "one",
+   "DIVINITY m=(((0i+4) mod 28)+1)",
+   4.41482532962918,
+   1,
+   "WWFWWHWTHMREOIAXECESXDWNAAEOBFTHDSNABUHEFDTHNGHNBYBRSMRMIHREOHRTULTCITLTTHIBFCUFIOHTIINN"
+  ],
+  [
+   "LP2-01",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+61] m=(((27i+4) mod 28)+1)",
+   4.414069333037402,
+   6,
+   "THTAELALDNHDDIAUIAIGJPPDIEOFBSFIAAHPENIAEIAOTHFBUFRGNGEGROWOTCLAEEAUTCUHOTHWDYEOIAICTUUAEAGEAFTHT"
+  ],
+  [
+   "LP2-43",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=18,c=9)@22",
+   4.407607121448379,
+   -2,
+   "NLEHUNNGIDEONGMNGTHBLEYHEIFOFIANBOANGUDMUTHLOEWIMRLOGNTHIIAYLMYOEGEOSNGEJDSNFMNAEJEAFOFAIMRONL"
+  ],
+  [
+   "LP2-43",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=18,c=20)@7",
+   4.407607121448379,
+   -2,
+   "NLEHUNNGIDEONGMNGTHBLEYHEIFOFIANBOANGUDMUTHLOEWIMRLOGNTHIIAYLMYOEGEOSNGEJDSNFMNAEJEAFOFAIMRONL"
+  ],
+  [
+   "LP2-49",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=16,c=28)@24",
+   4.399448340499403,
+   -1,
+   "NGIFFMWOIRPAURHUFTBEAIOIUIETNTHMOWWXBOFTHNHWNGAILHOBEULNTSYOTTSNGYFTWS"
+  ],
+  [
+   "LP2-49",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=16,c=1)@5",
+   4.399448340499403,
+   -1,
+   "NGIFFMWOIRPAURHUFTBEAIOIUIETNTHMOWWXBOFTHNHWNGAILHOBEULNTSYOTTSNGYFTWS"
+  ],
+  [
+   "LP2-26",
+   "F prime_value ciphertext feedback over the book text",
+   "sub",
+   true,
+   "one",
+   "plaintext@252",
+   4.397164260830164,
+   2,
+   "RRFTYCCTHUMLDWTHYFBWOITHEAWLSWHGHIDHGTNODWEAISLCBIRYOONMUNGLBFBIUONIRHTWUDSINRRFAEOOFUI"
+  ],
+  [
+   "LP2-54",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+68] m=(((16i+19) mod 28)+1)",
+   4.395293624027875,
+   7,
+   "RLNEAHETHOLTHEEBWTBNLNOYXNGGPIAEHAEMYFONGUNGTEGEAIAFRECBFALERETHUDTHDIULINSCIAFNGNLWREOWWFRSNIAL"
+  ],
+  [
+   "LP2-46",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=5,c=24)@2",
+   4.394435060864503,
+   5,
+   "YRNGFDRJOFJSGOAPWENGXLNGOECYLIATTHTHYXMAOGLLWTGXTHDHREITHAOCTATHEAMEUXAETHODHSNIGTETHMUAHANACI"
+  ],
+  [
+   "LP2-49",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=16,c=28)@7",
+   4.392198139834006,
+   0,
+   "OEOOEMWOIRPAURHUFTBEAIOIUIETNTHMOWWXBOFTHNHWNGAILHOBEULNTSYOTTSNGYFTWS"
+  ],
+  [
+   "LP2-49",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=16,c=1)@22",
+   4.392198139834006,
+   0,
+   "OEOOEMWOIRPAURHUFTBEAIOIUIETNTHMOWWXBOFTHNHWNGAILHOBEULNTSYOTTSNGYFTWS"
+  ],
+  [
+   "LP2-45",
+   "A lcg mod 3301",
+   "sub",
+   false,
+   "one",
+   "lcg3301(a=3,c=0)@2981",
+   4.381230818790289,
+   4,
+   "YBWBGUYGWNMGFSYIAIAPALCUUNCJYTGFRFYCIGEEAJDWOWGSILEOUMBRHIAPFPDOSSRFAEJRCWWGPPLCNNTHMEO"
+  ],
+  [
+   "LP2-18",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+23] m=(((21i+13) mod 28)+1)",
+   4.3803469501997485,
+   6,
+   "EWLEAGDIFONOABEAUEAOOESTTANNGITHAEMPNGHDAFAMTHACEAPIAJBDGHTHPOWAAEFUBATHTLNCUPNGOYISBIWRRAJLRW"
+  ],
+  [
+   "LP2-30",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+49] m=(((10i+21) mod 28)+1)",
+   4.380109479261059,
+   4,
+   "EMWIWSPLIFMARYHGTHUOTCAFOAWJIEONGYCBTGOIIPAEANTNGCEATHHINUSIRCHAMYEJXLBCLFURPRIMEAFWWIM"
+  ],
+  [
+   "LP2-49",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+16] m=(((4i+26) mod 28)+1)",
+   4.3789518847210305,
+   1,
+   "THRUFWIEASLMOAEWONLSCECORRBRCABEIARMHGTRESBHAEDMYLIITSISEAYSLRSWSWBSIUO"
+  ],
+  [
+   "LP2-06",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=6,c=23)@16",
+   4.374795855557047,
+   -1,
+   "EWNGCLHPDOINGEANGSDNGTFLURLBNNGNGBYSLDDBNRYSUNGENGWDOEMREOTHNFAMLOEATHFBYOWWNGHEALGRBNGEAYUNGPTE"
+  ],
+  [
+   "LP2-33",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+91] m=(((12i+24) mod 28)+1)",
+   4.373071559148502,
+   -3,
+   "EBNGGSIAAIYSWEFIYJMNGINFNMRISFTHTHEYTHJEUCLSEATHRHAENTHESCFETHUYXCAEIMIETHTUSBAEEDOSFEAOEUWYYTAE"
+  ],
+  [
+   "LP2-03",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@331",
+   4.372477574392986,
+   4,
+   "EECEAEXNEEOEELIASAMASCSHFGTHMNDLGNGCSLTHNTNHNGFUEAOOHATPLNGIAOINILFFNYTHRHIAEAAMNJAANHWPHEANIAC"
+  ],
+  [
+   "LP2-15",
+   "D word keys with clock multiplier",
+   "beaufort",
+   true,
+   "one",
+   "FIRFUMFERENFE m=(((24i+21) mod 28)+1)",
+   4.371717021096865,
+   -1,
+   "FSOUUIEAPSRAJMNGWBEPFEAPIMAMLEFTSRTOOAYERPBIAAMPTGPYIICESYSNNGULTHFUIMIIFLSLASYUUSNGWH"
+  ],
+  [
+   "LP2-46",
+   "F prime_value ciphertext feedback over the book text",
+   "sub",
+   true,
+   "one",
+   "plaintext@1092",
+   4.369833705425859,
+   -5,
+   "CMNEPYFWFEIIFEAGEHUFIDWHHCRSFSTUGNGEASNUDENGHLUASIUEHFHTWPNEALFEMLTHNGCTLEAIACPSPOJPIATHTY"
+  ],
+  [
+   "LP2-07",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+71] m=(((14i+4) mod 28)+1)",
+   4.367451130060419,
+   5,
+   "FPYGHHGNGEAYSRDHMIUEATHIHTHTPFTNUDCATFGNGAALJCYAOJLPTXHINGASADGUJNGDUDEANNTEPEAOMICFRATHXHY"
+  ],
+  [
+   "LP2-16",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+74] m=(((13i+2) mod 28)+1)",
+   4.365651716922796,
+   0,
+   "ANGTTAEYHASUEDCWLSOEANTHRXNODTXUHIEAEATHARTHTNDGUHNGEATLUEEOYJATBIFCIWIOGEAWLWWWCAEJESLYGNGWEH"
+  ],
+  [
+   "LP2-24",
+   "D word keys with clock multiplier",
+   "add",
+   true,
+   "one",
+   "DIVINITY m=(((12i+12) mod 28)+1)",
+   4.356975984527449,
+   -1,
+   "FTFTGEEABMAWJWMTHNGNRIOEMINOAYTHIALCGPIMYPOMSCNHTHEOAHEOGRGRJYPSTHMTAIAHAELUFASTSBUNNGHDABW"
+  ],
+  [
+   "LP2-26",
+   "A lcg mod 3301",
+   "sub",
+   false,
+   "one",
+   "lcg3301(a=7,c=1)@3123",
+   4.354591087285082,
+   8,
+   "AOLCHRHDSOAADYMALGUPJCRMOEUHLSANFTHRGJBUGSLENIRDYCSNGJFIEDPNGIIPBUNFEMGEIALOEPBEFSOEMXE"
+  ],
+  [
+   "LP2-03",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@2405",
+   4.349545798419749,
+   5,
+   "OECEAEXNEEOEELIASAMASCSHFGTHMNDLGNGCSLTHNTNHNGFUEAOOHATPLNGIAOINILFFNYTHRHIAEAAMNJAANHWPHEANIAC"
+  ],
+  [
+   "LP2-47",
+   "A lcg mod 3301",
+   "add",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@15",
+   4.348212031332176,
+   6,
+   "NNGSFASNEAPTNJEADRIAIAONGFNOHRSAAOEAEDTNJRLIPNEMCMDADEUHPNWLRCTTIOFEAETGTFRXHLOEYEAEANGHEFEJ"
+  ],
+  [
+   "LP2-44",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+0] m=(((26i+15) mod 28)+1)",
+   4.347313852364196,
+   -1,
+   "EGIDOMHINILTGSUEAHEAIARTHPJSENIFNNLHMHBRNGACACEHGUUWMDNIAFNGTYHNGAFSFOJBNSANXLDGTHOWCBIA"
+  ],
+  [
+   "LP2-54",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+30] m=(((26i+13) mod 28)+1)",
+   4.347219100778555,
+   7,
+   "EEEAIAEEACNGYAETHSEODYTDDIOERJDSNFDTPCEAXARNAEUJTHFEYWREANPIEAUIJUFNGHDBHUAPFAPNGTGHCALETHIAGE"
+  ],
+  [
+   "LP2-05",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=17,c=1)@3",
+   4.346938682711173,
+   1,
+   "IIMCBIABGMYLTGHTHNGWDDEAOEGOFNGFSNGLYYLHMHCOESEAMEATHAEHBEEYSCHNBEUMPOEBIIAYEFTCDFNTHNTHEGJCL"
+  ],
+  [
+   "LP2-05",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=17,c=28)@26",
+   4.346938682711173,
+   1,
+   "IIMCBIABGMYLTGHTHNGWDDEAOEGOFNGFSNGLYYLHMHCOESEAMEATHAEHBEEYSCHNBEUMPOEBIIAYEFTCDFNTHNTHEGJCL"
+  ],
+  [
+   "LP2-52",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+84] m=(((18i+5) mod 28)+1)",
+   4.34447976722477,
+   9,
+   "TWWYULPNGNAEDNTHWIASRIPAGTUAETYCUSHLSPCARPDUYAXOTHEAEAPLERCNGCHEUHJWWCSPLEATCDSIARHEAAOPHOEA"
+  ],
+  [
+   "LP2-15",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+66] m=(((21i+20) mod 28)+1)",
+   4.341901411299423,
+   5,
+   "HESXCEWPCYEAEIIREONOEOEAGHWCAUGTHTHMNGWSYCMNSNGEOPOTHNGYRWETHAAINRGMIPGSNCLEAEJGETEADARGTOJAF"
+  ],
+  [
+   "LP2-05",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=17,c=1)@24",
+   4.335886647982209,
+   2,
+   "UIMCBIABGMYLTGHTHNGWDDEAOEGOFNGFSNGLYYLHMHCOESEAMEATHAEHBEEYSCHNBEUMPOEBIIAYEFTCDFNTHNTHEGJCL"
+  ],
+  [
+   "LP2-05",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=17,c=28)@5",
+   4.335886647982209,
+   2,
+   "UIMCBIABGMYLTGHTHNGWDDEAOEGOFNGFSNGLYYLHMHCOESEAMEATHAEHBEEYSCHNBEUMPOEBIIAYEFTCDFNTHNTHEGJCL"
+  ],
+  [
+   "LP2-12",
+   "A lcg mod 3301",
+   "add",
+   false,
+   "one",
+   "lcg3301(a=3,c=0)@150",
+   4.333202422895848,
+   10,
+   "MDNLPBADEAYYSMAWSBHCYSAAUOWCHSIWELINRJTHGOEOCXIAUWOGMFSOENMFFWRYXFCXIADFXFICRATHMEALSE"
+  ],
+  [
+   "LP2-31",
+   "B lcg mod 1033",
+   "add",
+   true,
+   "one",
+   "lcg1033(a=202,c=29)@318",
+   4.332355127860268,
+   4,
+   "SDNGRRAULEAOIATLTHHBCLWYNUDEHUSGEBCTGRPDXREEAPTHDTHMSDHWSLNGHOAABCIIADAEMSEHBTHTNGUOJIFTC"
+  ],
+  [
+   "LP2-30",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+48] m=(((10i+21) mod 28)+1)",
+   4.331238291157749,
+   5,
+   "YCSLTSPCWTHPARYHGTHUOTCAFOAWJIEONGYCBTGOIIPAEANTNGCEATHHINUSIRCHAMYEJXLBCLFURPRIMEAFWWIM"
+  ],
+  [
+   "LP2-19",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=11,c=21)@5",
+   4.329085590425743,
+   5,
+   "NPURMAEFNFOEAASEMNGOYIAETNGHFTADASENGTAEFYEOEFEONSYITHSAUYFOEORDRNGSWMFPTRFCAOEAHHEINGENHOHF"
+  ],
+  [
+   "LP2-43",
+   "A lcg mod 3301",
+   "add",
+   true,
+   "one",
+   "lcg3301(a=3,c=0)@2234",
+   4.3285563508585625,
+   -6,
+   "AUNSYDEBARMRFYCSMTHHYCNGUMMYWBDATHDTAFCREFWTNFJYMPAUGBMTHMANGDRXSEAWWARDCTHIAEGFDIAWFEAS"
+  ],
+  [
+   "LP2-03",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+20] m=(((17i+9) mod 28)+1)",
+   4.327933350555706,
+   2,
+   "PJRFIATHDESUHICGEAMTHWFIMRYTENGOFETHOXDOEWRTENCAERIANMXMAUOCOOBNXESESEUMWXRUFIMOUHLITRF"
+  ],
+  [
+   "LP2-39",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@1804",
+   4.32599690684321,
+   7,
+   "SRWTHUUNTNNINNFNPBDWIYTHNGWTREAATDTIAAPAONGDSWSPUSFGLCFYCDTHMRXMNGJJSOEWOFGMPJOBTFOYCYIJ"
+  ],
+  [
+   "LP2-08",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=17,c=0)@23",
+   4.3231660115618835,
+   3,
+   "FREAAETHRJBWBDPOUCFWEOEEAPCSLLGAGTTHYBFWNCSNYREJIAHPTHCTOBNIORNEAEAOOEEEEASSMEAEEAUDTEIATEOEOG"
+  ],
+  [
+   "LP2-08",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=17,c=0)@6",
+   4.3231660115618835,
+   3,
+   "FREAAETHRJBWBDPOUCFWEOEEAPCSLLGAGTTHYBFWNCSNYREJIAHPTHCTOBNIORNEAEAOOEEEEASSMEAEEAUDTEIATEOEOG"
+  ],
+  [
+   "LP2-31",
+   "B lcg mod 1033",
+   "add",
+   true,
+   "one",
+   "lcg1033(a=202,c=29)@219",
+   4.322972591229613,
+   3,
+   "LNNGRRAULEAOIATLTHHBCLWYNUDEHUSGEBCTGRPDXREEAPTHDTHMSDHWSLNGHOAABCIIADAEMSEHBTHTNGUOJIFTC"
+  ],
+  [
+   "LP2-47",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+14] m=(((3i+21) mod 28)+1)",
+   4.321983632511504,
+   -2,
+   "UEAFDRTHMTHNWIUPXCFBILRSAEHURURELXTHNNGNAWNEUTNGBRISOLWDYIADMLHUFBFNGCHUCFEEALFSHWITHCMMTEL"
+  ],
+  [
+   "LP2-21",
+   "A lcg mod 3301",
+   "add",
+   true,
+   "one",
+   "lcg3301(a=1033,c=0)@630",
+   4.318924495086424,
+   6,
+   "CNNGERCYTHASRBCATEORIBWRTEAHDUDIRHEAUARSEJSFIEAFITHMRTHSUTHROSNWDJXPYINOATNRMGTHAYTHGNGGPCFY"
+  ],
+  [
+   "LP2-14",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+49] m=(((15i+23) mod 28)+1)",
+   4.318904350066664,
+   4,
+   "SJLASCTMWILBNIYIXPCAAETHFRUULRNIDIANGXIABIDMTHJUWNRPYRDDGCWFHORCTSEAAHIHMTEMLPEOELNRCDB"
+  ],
+  [
+   "LP2-40",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+98] m=(((23i+4) mod 28)+1)",
+   4.3188325810707955,
+   6,
+   "HYPXFEATLCANPTHINEBEGUDLPEATTHEALMXCWFNFNGEXAPGYIAFOORSHSRNYTHDNEOEYAEPITIAYUALWOUEOATHNBWTMW"
+  ],
+  [
+   "LP2-06",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+53] m=(((6i+25) mod 28)+1)",
+   4.317074655203648,
+   3,
+   "WWURINGTHORMEMUIABRXLESCSGTMTTRHACOOERHNGTMOATHRRUEOJYTHCEPYAERLEIGBIATDFUIIATHGOEARSTIRSN"
+  ],
+  [
+   "LP2-18",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+70] m=(((6i+15) mod 28)+1)",
+   4.3156919981360184,
+   1,
+   "CGAUTHRAUMMRAUXNHITGTHAUTHNGRWUPSNGHBNTEPMHUIXAFOENGOMFGOBBHMFTRITHBNEPASNUDCTHSILBNNNPIANG"
+  ],
+  [
+   "LP2-36",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=16,c=15)@19",
+   4.310941498442699,
+   3,
+   "YDWUYSTYENRAETANBMDROGOEASNIAOUNIHARRGPAEANEDOEAEUSENDAGOPIANGIAUUEPEOWXIOIAURIFRRHDJJTLW"
+  ],
+  [
+   "LP2-36",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=16,c=14)@10",
+   4.310941498442699,
+   3,
+   "YDWUYSTYENRAETANBMDROGOEASNIAOUNIHARRGPAEANEDOEAEUSENDAGOPIANGIAUUEPEOWXIOIAURIFRRHDJJTLW"
+  ],
+  [
+   "LP2-07",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+88] m=(((20i+24) mod 28)+1)",
+   4.310927737882856,
+   6,
+   "PUBDTHCGDOPNLPUIAOITHEAASLIANGBGTHSEALXHRROATYGOSTNIACCLHIHNDUAAMNXTHAWMWEATHCHGEUEEORRYFGAEI"
+  ],
+  [
+   "LP2-40",
+   "B lcg mod 1033",
+   "beaufort",
+   true,
+   "one",
+   "lcg1033(a=202,c=29)@147",
+   4.310416258350274,
+   4,
+   "TNGFNWDRHIMBLNGOWLSSIAGFLCNIYTANMLEDEHGDBEAEIEFGCIPNGTCDURETHWNGITNWJTFLNHOLNMARBTHCTO"
+  ],
+  [
+   "LP2-47",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+74] m=(((13i+0) mod 28)+1)",
+   4.302997504245609,
+   7,
+   "ANGOEAUFOULCPOCYMELLNGAENWHEPOWRFMPBINHAERLJFTHIMNGISHRJATHARAEIALTHBNGAEAIAFTNNGCAEFELBUMUUTHE"
+  ],
+  [
+   "LP2-15",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=5,c=18)@4",
+   4.302494868510968,
+   2,
+   "NRDJEAEMELSECDEAHBCXFTHWSUXPDSFWOOLTHBNLBLLNGYEOCTHUGCGETITHTHBIAUHROMUGDOUMYUWIRBSMEARTHIAS"
+  ],
+  [
+   "LP2-19",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=11,c=21)@18",
+   4.2994913080455035,
+   4,
+   "WLLIFAEFNFOEAASEMNGOYIAETNGHFTADASENGTAEFYEOEFEONSYITHSAUYFOEORDRNGSWMFPTRFCAOEAHHEINGENHOHF"
+  ],
+  [
+   "LP2-21",
+   "A lcg mod 3301",
+   "beaufort",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@1139",
+   4.2969408122387325,
+   0,
+   "RLEAOAASNGOUTILRMESIRIDDHLOEFFMEABAEDTHAPIDGOFFSGMIAMGGHPBSPIRRIABGPAEYPIRCAOAERTEALPJMTHPI"
+  ],
+  [
+   "LP2-46",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=5,c=24)@8",
+   4.2939417278739835,
+   2,
+   "IANMMTHSHBFDBTAPTOEGMREAOMMNOEHHFBXXMAOGLLWTGXTHDHREITHAOCTATHEAMEUXAETHODHSNIGTETHMUAHANACI"
+  ],
+  [
+   "LP2-23",
+   "D word keys with clock multiplier",
+   "beaufort",
+   true,
+   "one",
+   "DIVINITY m=(((0i+24) mod 28)+1)",
+   4.293528860630401,
+   0,
+   "NETINGUNARNASNNPFDEADRHCLDSBSXXPADNFRWRDBNPELMFYONGWIAMGFUNDTHHSEAEGMWCTPNDSMLRHMRWNRP"
+  ],
+  [
+   "LP2-41",
+   "F totient_value ciphertext feedback over the book text",
+   "beaufort",
+   true,
+   "one",
+   "plaintext@1205",
+   4.293000443446046,
+   4,
+   "CUAPFFWRISOIRACUREOACHYISAHUTLWNMESUYDLEXBHLEEDTSLNGAETDLFNGIACFCBLNGONGNEELBBETHGANGDO"
+  ],
+  [
+   "LP2-48",
+   "F prime_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "one",
+   "plaintext@2779",
+   4.292484945112297,
+   3,
+   "YHAHOEUAOLIRNXMFCWHFPYAJONFYRYNGUBNGMPFDMUFEAIANEAAPFRMAWTSFEAFSNGUEGROESYSTHUETEASGUXAUR"
+  ],
+  [
+   "LP2-32",
+   "F totient_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "one",
+   "plaintext@260",
+   4.290574237456146,
+   3,
+   "SSEHFNHXCSNEARAIHTHSPOEXTHYDNUCBYFITINGTOYUIDDFUEHONGRPARUTIHTAFLDWUETAEEMPAHOLNFSYDTL"
+  ],
+  [
+   "LP2-01",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=6,c=5)@20",
+   4.286866997325424,
+   9,
+   "SNHTHPCSSRLUEITHSAITHIAONTWBAETYDOELTUROIAAEDSESNMONGNDIAUNYDDLEDWSNMITHBEAIHOFFTHIWYSRIIEOBUF"
+  ],
+  [
+   "LP2-01",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=6,c=24)@9",
+   4.286866997325424,
+   9,
+   "SNHTHPCSSRLUEITHSAITHIAONTWBAETYDOELTUROIAAEDSESNMONGNDIAUNYDDLEDWSNMITHBEAIHOFFTHIWYSRIIEOBUF"
+  ],
+  [
+   "LP2-33",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+92] m=(((12i+24) mod 28)+1)",
+   4.28664154496793,
+   -4,
+   "BDGDFIAAIYSWEFIYJMNGINFNMRISFTHTHEYTHJEUCLSEATHRHAENTHESCFETHUYXCAEIMIETHTUSBAEEDOSFEAOEUWYYTAE"
+  ],
+  [
+   "LP2-28",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@2806",
+   4.2839785132374715,
+   0,
+   "MLSTHRHNIRNGSLHAHFUDWXLASSPITISEMUAEBOLEAYTHEBMTFEWSAEAWSTHSGDHSDWIRCWMAEDAEFIWSFMWOMDEAF"
+  ],
+  [
+   "LP2-12",
+   "A lcg mod 3301",
+   "beaufort",
+   true,
+   "one",
+   "lcg3301(a=1033,c=0)@1770",
+   4.283814577133341,
+   4,
+   "DSEERGOEAUGEOEWYLUTHTCEHIAETCEAHYLHWTHWEAUTEAEFDICSOIAREAWSYSCCDFSDGOXEAFTEOMAODOEDREUEATXFL"
+  ],
+  [
+   "LP2-46",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+65] m=(((25i+16) mod 28)+1)",
+   4.282521303510634,
+   10,
+   "SNONGWBEXHMNOLADECMXGHRMBHAGBBAXSROTHSLLJDHTHRHESLEFGECCOTHENGUUHNFNRDBJSESXIACYOHOAIL"
+  ],
+  [
+   "LP2-12",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+100] m=(((26i+13) mod 28)+1)",
+   4.27919253838746,
+   7,
+   "IIDRCMOMFGHIOTCIAMRIAIAOPIATHANCEABIHTHTHOFDAFYOJONGBPULNGTEWGHELWJYDRFECAEMWEYRTHYUDMPTTHN"
+  ],
+  [
+   "LP2-06",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+0] m=(((12i+21) mod 28)+1)",
+   4.274531244104198,
+   5,
+   "DSRTHTWWDDMTSUTHSTHASEODOAETHMOELHSXMDITHCGNFRYHMYTHYREAESTHMOEFILEATBFMISUFDWRIEOANODRWAFEYTH"
+  ],
+  [
+   "LP2-33",
+   "F totient_value ciphertext feedback over the book text",
+   "beaufort",
+   true,
+   "two",
+   "plaintext@292",
+   4.274143523183958,
+   0,
+   "OERNGTNDSLCWWIYOEIOEDXCAFWOYEEUONDPNGTHAHGTAWOIAYOETHCTBEFEOBHIADDHDAENUHAIOTBTHILFSSHTTAN"
+  ],
+  [
+   "LP2-18",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+72] m=(((3i+12) mod 28)+1)",
+   4.2733584529222215,
+   3,
+   "AEOHAAPENAWTHEANGPTOIMMWFYTNTMMLWJAEOGICRNSCDFAPATHFFOGSNJOEFTOOFDBLYHOCGUEHNGMDIAFAEOILE"
+  ],
+  [
+   "LP2-10",
+   "B lcg mod 1033",
+   "sub",
+   true,
+   "two",
+   "lcg1033(a=202,c=29)@308",
+   4.264194079163166,
+   13,
+   "NLLAHDXISACIAIAMSNGWLDFREAILSEPISUMHRGEAUELOEFPUIDTHWXAIAPTTHOPPHYOETHEGAXUHBAOUYPRMWWBLLO"
+  ],
+  [
+   "LP2-40",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=9,c=4)@2",
+   4.258917318807438,
+   2,
+   "WIANDIAEATHANOICIGRDEANODRTIAFHHTHTUGNGTIITHOAEPMTHSHOFIAEOYPWOEIRURNETHTHEOWRUEFDTTOCLYNOTXDEA"
+  ],
+  [
+   "LP2-40",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=9,c=25)@27",
+   4.258917318807438,
+   2,
+   "WIANDIAEATHANOICIGRDEANODRTIAFHHTHTUGNGTIITHOAEPMTHSHOFIAEOYPWOEIRURNETHTHEOWRUEFDTTOCLYNOTXDEA"
+  ],
+  [
+   "LP2-23",
+   "D word keys with clock multiplier",
+   "add",
+   true,
+   "one",
+   "DIVINITY m=(((0i+3) mod 28)+1)",
+   4.257447440811512,
+   0,
+   "NETINGUNARNASNNPFDEADRHCLDSBSXXPADNFRWRDBNPELMFYONGWIAMGFUNDTHHSEAEGMWCTPNDSMLRHMRWNRP"
+  ],
+  [
+   "LP2-01",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=11,c=14)@18",
+   4.253346246656493,
+   7,
+   "SPNWDROTHDOSGRTTHURDIUSNCEANAWAHYEWDHNEISYYWRTCUGWDWIMEAIAUBOSOAPCGJOTEOOEOPFHNGYHIIATHNGATH"
+  ],
+  [
+   "LP2-01",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=11,c=15)@11",
+   4.253346246656493,
+   7,
+   "SPNWDROTHDOSGRTTHURDIUSNCEANAWAHYEWDHNEISYYWRTCUGWDWIMEAIAUBOSOAPCGJOTEOOEOPFHNGYHIIATHNGATH"
+  ],
+  [
+   "LP2-30",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+32] m=(((24i+7) mod 28)+1)",
+   4.251804786548992,
+   9,
+   "EAEESCYRCBGLRDGEAGEERTLASOSRIASPTHIAWPTHLLSIRWEFOTHFOEYTNAEAUTRRLHICNLEGEAEOOFAEMNGCOMDSAEWTHB"
+  ],
+  [
+   "LP2-46",
+   "A lcg mod 3301",
+   "add",
+   true,
+   "one",
+   "lcg3301(a=1033,c=0)@1490",
+   4.251216413789707,
+   3,
+   "OANXWFIYFHLJYFWPPEOUNHTHNGETHHARDDICHWOGDTHFBEFMWETFBDATHHWGSOELCOARHPBTHTBURAXNGHUDFPYTH"
+  ],
+  [
+   "LP2-42",
+   "F totient_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "two",
+   "plaintext@1190",
+   4.249642254499808,
+   9,
+   "WAOUAYHDTHACWOIFLGFRNDIEIAAEOEARYYCEEMIAGDINGAEWOOTWLIAAUEABNGAEYSNGNJYTHUEIIWTIEIEOLYEJIDJAP"
+  ],
+  [
+   "LP2-25",
+   "A lcg mod 3301",
+   "beaufort",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@463",
+   4.249435305433179,
+   3,
+   "SNGLORWJPUBEBSNGSIASINGIARTHEFEDRWYEOIINXPLATMPWNGWCFUUPEACANGHYYEFIWNWTHYEMAUCNGPPTHPEATHDR"
+  ],
+  [
+   "LP2-35",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+62] m=(((15i+26) mod 28)+1)",
+   4.2488246343217115,
+   10,
+   "GUUYBBATTJIUMPEONPPGJGDYSTEDDDEAUTYROPCBAESEEPHLHEIANMHSRYPCOEOCDOAJUTHOICSOTHWHUNOBTH"
+  ],
+  [
+   "LP2-27",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+46] m=(((10i+7) mod 28)+1)",
+   4.246873729326535,
+   1,
+   "MSCMEASGESULUSYHBTOPTATNGTFRBFGEWISRDFILRNWAANGADRLTHSAESNWOOEICEBXYJLXTHDGESAEIIAMFJAOOAE"
+  ],
+  [
+   "LP2-28",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@3138",
+   4.242157020832211,
+   -1,
+   "EASSTHRHNIRNGSLHAHFUDWXLASSPITISEMUAEBOLEAYTHEBMTFEWSAEAWSTHSGDHSDWIRCWMAEDAEFIWSFMWOMDEAF"
+  ],
+  [
+   "LP2-03",
+   "F totient_value ciphertext feedback over the book text",
+   "beaufort",
+   false,
+   "one",
+   "plaintext@810",
+   4.22776472847327,
+   5,
+   "PLIHTHMCBWGICEODNIACEEAINIRWFCJNGCILOAYFRNIAOSNSJREPOROAEONECXPXUYUAITMILWNEAAERAUEADIYEY"
+  ],
+  [
+   "LP2-32",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+79] m=(((4i+20) mod 28)+1)",
+   4.226085112638632,
+   0,
+   "GFSUSTHYDWCSGLJAMTWBDERUTHOEORRSFFGGEBTPRUSDDFTHNLLYRIAHSESONEOEIABAEWGFHSLNFSPATLLPETNIA"
+  ],
+  [
+   "LP2-34",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=9,c=25)@27",
+   4.226071703939272,
+   10,
+   "BPAERCIARNSMRTTHEFEICEMSNGPPXURTSPTHINIALPPYWNGAENGTHCJAEPATYPDFLSBIDYUPIAILIYNGOTHAEOATHNRGTHMI"
+  ],
+  [
+   "LP2-25",
+   "A lcg mod 3301",
+   "add",
+   true,
+   "one",
+   "lcg3301(a=3,c=0)@2319",
+   4.224007809840568,
+   1,
+   "UBUJTUTHXHTRMXHDYIAYFHOSDTNGLINNGEOTSBYTHIEAGEMCRTHBGFTIASAMOEEACFSNGAIAFOHGTLNGLSCWULOFPREAJ"
+  ],
+  [
+   "LP2-31",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@1268",
+   4.222955076255302,
+   0,
+   "SUSRANDYHNAFTHAEGPYHMSNGAWNGRNLMYEBJMPJDMBXNIOEMWTSBORHDSDINBMICFYALUITUDFLETHYPHEAXDYT"
+  ],
+  [
+   "LP2-33",
+   "B lcg mod 1033",
+   "sub",
+   false,
+   "two",
+   "lcg1033(a=202,c=29)@241",
+   4.221006036740366,
+   6,
+   "NMRLOLHLBSMNSOMETHITHCCNNGDIFBATORDLPGRUNCTEISOEFIAFPRDMBNJNFNGISDITRBCYTHWNIOENGSWNUHFLN"
+  ],
+  [
+   "LP2-24",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+3] m=(((25i+15) mod 28)+1)",
+   4.220747571822764,
+   3,
+   "OEFTHANGEAXOWNIMTBHLOBGYEAGYYAYIWMHNGFXFEAASOGOHCHTOENGTLFFGIJEASIAIUTSUUGGORUDETAESYRUEA"
+  ],
+  [
+   "LP2-31",
+   "F totient_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "two",
+   "plaintext@384",
+   4.220522113025305,
+   9,
+   "XRIITHBWOIFXOTHEEPAEOSBNGGAWDTHTOEONOUDLJPEATRNWSLGBIAAEAEIAOEIAEAIEAOEIHNGEAASRIAWSYGMLTHDAMEONAY"
+  ],
+  [
+   "LP2-16",
+   "F totient_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "two",
+   "plaintext@1497",
+   4.218912606110812,
+   9,
+   "EAILSEONPDRLWWMFBNWLRIAYLMCBNGECAFFCFPUHEATPMTTYSFRHREAADWOTHBFLTHUNOCEECIAUCMPFETNTTFWIAH"
+  ],
+  [
+   "LP2-40",
+   "B lcg mod 1033",
+   "beaufort",
+   true,
+   "one",
+   "lcg1033(a=202,c=29)@799",
+   4.217836494013422,
+   3,
+   "FNGFNWDRHIMBLNGOWLSSIAGFLCNIYTANMLEDEHGDBEAEIEFGCIPNGTCDURETHWNGITNWJTFLNHOLNMARBTHCTO"
+  ],
+  [
+   "LP2-04",
+   "F prime_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "two",
+   "plaintext@392",
+   4.216206976345967,
+   15,
+   "XHWGMCHEAUIHUBLNDRIASAENWDUDPFHIAANGRSLNGEAESNUGFIMUWDFFESTHUTEAGNINGPYXERFENBDUUUCOPNGYMIU"
+  ],
+  [
+   "LP2-30",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=9,c=16)@3",
+   4.215439169193398,
+   5,
+   "LTHCSRGYDTOOCEOGIIACOADRTLRWORATREOHLOHSOIATTHEAHIAMSITGCHDYDRFXIETEAACINAOTHYIAFAEUNGEEOAAAW"
+  ],
+  [
+   "LP2-55",
+   "F prime_value ciphertext feedback over the book text",
+   "sub",
+   true,
+   "two",
+   "plaintext@2123",
+   4.213435622747689,
+   1,
+   "EOHWSRXGCYOBAMLOFEMTEFMYUDNMTIEEOUTHWSCFCTWTHHTHNNGTTHINGEECESPAOSEAEATHTSOYNGWIAYAEEUO"
+  ],
+  [
+   "LP2-40",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=9,c=4)@22",
+   4.21292478053338,
+   1,
+   "FIANDIAEATHANOICIGRDEANODRTIAFHHTHTUGNGTIITHOAEPMTHSHOFIAEOYPWOEIRURNETHTHEOWRUEFDTTOCLYNOTXDEA"
+  ],
+  [
+   "LP2-40",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=9,c=25)@7",
+   4.21292478053338,
+   1,
+   "FIANDIAEATHANOICIGRDEANODRTIAFHHTHTUGNGTIITHOAEPMTHSHOFIAEOYPWOEIRURNETHTHEOWRUEFDTTOCLYNOTXDEA"
+  ],
+  [
+   "LP2-46",
+   "F prime_value ciphertext feedback over the book text",
+   "sub",
+   false,
+   "one",
+   "plaintext@391",
+   4.209216795417735,
+   6,
+   "JXMPSDAEDOLOIARIADAAYANEASADONTHIRATUWIAANDTHSLADYEABSAEHXCRTHANAEIHLGFYAJETHOEMYTSTHHCMHTTHIY"
+  ],
+  [
+   "LP2-26",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@304",
+   4.2072725132384,
+   3,
+   "INGGEANTANXSTHIOTIAORAURUPYDBSAWNGNIGTIMFYTFWHTNGLCSAEHJECUEAGIAUNCSBCLOSEOJOOETHROFSPOFYC"
+  ],
+  [
+   "LP2-44",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+46] m=(((17i+1) mod 28)+1)",
+   4.204664961097275,
+   7,
+   "HNSSEFPCODRWEHSXNGTHGYOEMTDWGCIIACGDPTAEPLROEWTBTNGWMNGMXXSDIAOEOAAEAPDLLWTHEATHTHHAELETSDANUI"
+  ],
+  [
+   "LP2-34",
+   "F prime_value ciphertext feedback over the book text",
+   "beaufort",
+   false,
+   "one",
+   "plaintext@883",
+   4.202326914678578,
+   3,
+   "NORDGHEMNDWTHYACAOTHASCNESIXEANUAEIAPEAEOEDPARNXLOUREJOEACIRFDNGDTUUYXEAALMNGILDDIASWYYSOETH"
+  ],
+  [
+   "LP2-15",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=5,c=18)@9",
+   4.200484670261763,
+   1,
+   "FRDJEAEMELSECDEAHBCXFTHWSUXPDSFWOOLTHBNLBLLNGYEOCTHUGCGETITHTHBIAUHROMUGDOUMYUWIRBSMEARTHIAS"
+  ],
+  [
+   "LP2-38",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+79] m=(((20i+8) mod 28)+1)",
+   4.19957204650368,
+   4,
+   "EADYODNLEEOLAIMFIAIACFICTABHPNGDPRSJIHDMTIDIAHWAGTJOWSTNGBIABDAARGNNGBEEAYEOCHDUFNGLEASBNGTHN"
+  ],
+  [
+   "LP2-25",
+   "A lcg mod 3301",
+   "beaufort",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@3242",
+   4.199211526492472,
+   2,
+   "IONGIATDTHEANGEAEAUFHEOTHLARRTHEFEDRWYEOIINXPLATMPWNGWCFUUPEACANGHYYEFIWNWTHYEMAUCNGPPTHPEATHDR"
+  ],
+  [
+   "LP2-16",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+73] m=(((13i+2) mod 28)+1)",
+   4.197424856910354,
+   1,
+   "ROEADTHIMYTJREAGAETMONTHRXNODTXUHIEAEATHARTHTNDGUHNGEATLUEEOYJATBIFCIWIOGEAWLWWWCAEJESLYGNGWEH"
+  ],
+  [
+   "LP2-33",
+   "F prime_value ciphertext feedback over the book text",
+   "beaufort",
+   true,
+   "two",
+   "plaintext@2223",
+   4.196623818084768,
+   6,
+   "OGGHXIHETHLLHEATTFUHTHFNURIOEERIITNGOBODYPWWOBICNFCJFDAOPGINTHCIFEAPTHTHATYBTUPDTALCOYON"
+  ],
+  [
+   "LP2-26",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+29] m=(((27i+7) mod 28)+1)",
+   4.1966049506517855,
+   -1,
+   "IARSJLOIGMEDUGJESTSISTNROEOGYAEIXTHSIHMFIANFAAEFMMOWYAEUYTHSGUFWDAYOIUITHOBSILLSSXFANSNOEA"
+  ],
+  [
+   "LP2-41",
+   "A lcg mod 3301",
+   "add",
+   true,
+   "one",
+   "lcg3301(a=3,c=0)@2633",
+   4.195979999460414,
+   -2,
+   "WFDWYNBOROFFMLYNEDSEAHNEAMTHFRDSORTHHUPUMELAOFNLNTHITHNETCEADHAATFOYIAAEAYHEAOHRXSOEAJINGW"
+  ],
+  [
+   "LP2-09",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+52] m=(((26i+16) mod 28)+1)",
+   4.195133728942364,
+   1,
+   "ETHYFUIAOBYSACOOLEEAWCNGMWSOGCHBLSSXUYIALLIAOUGLPEYEAEBOLYNLLUALPUEAJFFTMTEAJSTHOMSNFLULA"
+  ],
+  [
+   "LP2-19",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+16] m=(((20i+28) mod 28)+1)",
+   4.193811843049169,
+   8,
+   "WRBPTBDNGRUUTHWHHIETWTHTHENGAAEFHRNGCASWFNGPOWPYEASHJTONGRTHRESGDELAEHAEFDPTHGDNIDNGHLOSCDYAEFRI"
+  ],
+  [
+   "LP2-19",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+16] m=(((20i+0) mod 28)+1)",
+   4.193811843049169,
+   8,
+   "WRBPTBDNGRUUTHWHHIETWTHTHENGAAEFHRNGCASWFNGPOWPYEASHJTONGRTHRESGDELAEHAEFDPTHGDNIDNGHLOSCDYAEFRI"
+  ],
+  [
+   "LP2-36",
+   "C lcg mod 29",
+   "beaufort",
+   false,
+   "one",
+   "lcg29(a=16,c=24)@6",
+   4.191350114906168,
+   5,
+   "WNGIMPNIARWDAYYMNGHPCEIHIAYBMAIPNGSARENHBUXRPALHFTHPRRLGMFSANGTFAXSRIWTSFUNGNRUNGWOBFFALR"
+  ],
+  [
+   "LP2-48",
+   "C lcg mod 29",
+   "beaufort",
+   false,
+   "one",
+   "lcg29(a=15,c=10)@13",
+   4.188444840266256,
+   8,
+   "DGLDYHAESJETHNXACTILMOMMWXWSGREJPOGRENXFNXOCUTNGAWUWNYURXJIEOUPEAUPOHNGULTHWWIAFBLAEGSLD"
+  ],
+  [
+   "LP2-46",
+   "D word keys with clock multiplier",
+   "add",
+   false,
+   "one",
+   "FIRFUMFERENFE m=(((20i+4) mod 28)+1)",
+   4.187726823826291,
+   10,
+   "MPRGNUNUUNGCSUCHCAEANGTHTONGEAYDIAOEENALLEAHAEAIMSIABLIALMUUAWSEIOWBDAEORATHETONAULIAGTAUNGNGSLIA"
+  ],
+  [
+   "LP2-20",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=1033,c=0)@688",
+   4.186166930321218,
+   4,
+   "TSHMLTYIOEAYEEOOSNGFETCOATHNGSTIXISSAAEBEIITHTFNGUWAMOEOMSDWYYEANTHFIAWEDEAYIATGDWAEUIAACNDYOCTG"
+  ],
+  [
+   "LP2-42",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=3,c=20)@14",
+   4.183354405228889,
+   2,
+   "IELULEGNBNUUNWCAWENGEOEUETFYBAEACWPNGYRXOUNWOILPCCMLLTHALULUHPNGTHNUMUINGFNGNCDEACDAEWFNGW"
+  ],
+  [
+   "LP2-18",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+22] m=(((21i+13) mod 28)+1)",
+   4.183144481052149,
+   7,
+   "XWLEAGDIFONOABEAUEAOOESTTANNGITHAEMPNGHDAFAMTHACEAPIAJBDGHTHPOWAAEFUBATHTLNCUPNGOYISBIWRRAJLRW"
+  ],
+  [
+   "LP2-32",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+74] m=(((4i+20) mod 28)+1)",
+   4.183011335255568,
+   5,
+   "IAUBEEGTTNGUSYLJNLEYDMHCUIAHEOERUTDGGEBTPRUSDDFTHNLLYRIAHSESONEOEIABAEWGFHSLNFSPATLLPETNIA"
+  ],
+  [
+   "LP2-11",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@2894",
+   4.182652699846353,
+   11,
+   "TYYBUAEEYTWTTHOOELWNGOPEARFSXHLEONAESAUHLAEIAWSNGTJNGUEAPNTHILUUIATHAIATIIMMRNSOOIGOALIAPGYMXTCW"
+  ],
+  [
+   "LP2-24",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+95] m=(((5i+8) mod 28)+1)",
+   4.182160946579466,
+   -1,
+   "ETGFCBANNGMLEACAATNSLIHIBTWMEAENSSEOEFAEWINNGHHEEIDRNGEADIFCMEOITARHWCREONYSSDTHXFMRCYPNEET"
+  ],
+  [
+   "LP2-08",
+   "A lcg mod 3301",
+   "beaufort",
+   false,
+   "one",
+   "lcg3301(a=1033,c=0)@2701",
+   4.182000902256594,
+   3,
+   "LCINGHCLCSMNGAOLSBWWBBCPIGGTSGLOFNEYSCENGYTHEOIMAWIRIYBWNGJLEEPYDMFYIURNGBXRCLEIAPJRSC"
+  ],
+  [
+   "LP2-21",
+   "A lcg mod 3301",
+   "beaufort",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@2992",
+   4.179639564265719,
+   1,
+   "OPBRNGASNGOUTILRMESIRIDDHLOEFFMEABAEDTHAPIDGOFFSGMIAMGGHPBSPIRRIABGPAEYPIRCAOAERTEALPJMTHPI"
+  ],
+  [
+   "LP2-12",
+   "A lcg mod 3301",
+   "add",
+   false,
+   "one",
+   "lcg3301(a=3,c=0)@450",
+   4.17877191862437,
+   9,
+   "ESMJAEAADEAYYSMAWSBHCYSAAUOWCHSIWELINRJTHGOEOCXIAUWOGMFSOENMFFWRYXFCXIADFXFICRATHMEALSE"
+  ],
+  [
+   "LP2-40",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+100] m=(((25i+11) mod 28)+1)",
+   4.178312280456288,
+   11,
+   "RIWHFREDCCAEATFDANGREACTHARRMBBIAUSXPFJHTNUTWRPIJHPNGUUWLLWATHIAOIAPNGONNGDTBSYATPUCMLTHONAES"
+  ],
+  [
+   "LP2-43",
+   "C lcg mod 29",
+   "beaufort",
+   false,
+   "one",
+   "lcg29(a=11,c=27)@23",
+   4.17704408217707,
+   10,
+   "JOEOWAETUWHDYMMEANOEREDWHBHNNWYDIPIAUCEATHNOSLRXSHPWOETTWFWWNUIGLATHRGHLNNNGSNUCIDCTHEOEAEAXIA"
+  ],
+  [
+   "LP2-40",
+   "B lcg mod 1033",
+   "beaufort",
+   false,
+   "one",
+   "lcg1033(a=202,c=29)@147",
+   4.1765020944890265,
+   5,
+   "TNGFNWDRHIMBLNGOWLSSIAGFLCNIYTANMLEDEHGDBEAEIEEACCIPNGTCDURETHWNGITNWJTFLNHOLNMARBTHCTO"
+  ],
+  [
+   "LP2-21",
+   "A lcg mod 3301",
+   "beaufort",
+   false,
+   "one",
+   "lcg3301(a=1033,c=0)@2058",
+   4.175332303818183,
+   6,
+   "WGXOIHIEXAIIAWWAFHRIAYEAIRCGNGATMIARLAANYOECTHNMONGWCNHMTHNTEACIBIAUCTTSHRJBCPEAEULOIAHNGWJN"
+  ],
+  [
+   "LP2-36",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+1] m=(((1i+25) mod 28)+1)",
+   4.17491212986493,
+   1,
+   "NGJOCDTHSRIEOHTHSGOENSFTSOEOEOESTMIHNTHAPSPPLCOYOUTDCEGFSRXIADWIENGDMNXWGTHYWNGNHINUTLHIACDJ"
+  ],
+  [
+   "LP2-33",
+   "F totient_value ciphertext feedback over the book text",
+   "beaufort",
+   true,
+   "two",
+   "plaintext@293",
+   4.174858782598738,
+   -1,
+   "OEPUNFDSLCWWIYOEIOEDXCAFWOYEEUONDPNGTHAHGTAWOIAYOETHCTBEFEOBHIADDHDAENUHAIOTBTHILFSSHTTAN"
+  ],
+  [
+   "LP2-31",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+48] m=(((26i+27) mod 28)+1)",
+   4.174548746778519,
+   4,
+   "FMNGENDXAECEFIRLGIAGTAAAFMUNGAXXFTMCSOAEYRENAYWSCICNGAEEAYMHEFYPAWCEOREAEFIHRYYAHTHITHTHIX"
+  ],
+  [
+   "LP2-37",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+83] m=(((10i+4) mod 28)+1)",
+   4.168523154842865,
+   5,
+   "ESYEYTYJPNIHUETHWLYOIAPTHIATHGOHBTNGNGPEANGYOEDTRDDECSIDDDCIIAHYHESGHDDUXTIHNXECOOTHIHWPRLAY"
+  ],
+  [
+   "LP2-53",
+   "B lcg mod 1033",
+   "sub",
+   false,
+   "one",
+   "lcg1033(a=202,c=29)@356",
+   4.168265062614448,
+   6,
+   "NYLMISHHTHINGYNGPSRCIOYUEATOECPEAIAHFICHTCPAULPIUELIAREYREOLNGSTPININNGLTFITHIAYAEWPPAUEEAOEIAXI"
+  ],
+  [
+   "LP2-29",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=3,c=0)@1192",
+   4.165539643822722,
+   -1,
+   "TWTEOLPATHTPNGNANGYETACLCIHASEUEAUEAIAWSSCNMPRSFMEOETTHIAWWYFEAUUIXGEOTTHHUIIANGSNGCEETNNGSNPNENTH"
+  ],
+  [
+   "LP2-35",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=24,c=16)@17",
+   4.164580050461096,
+   -3,
+   "OOAEAEOOETENNXTHNGBEWRJLAITHCODTHGIADAWTSSNFNYGTARYRYRUITOMSTHDRWNTDTHFNNSSESYHTTHSOMPOAC"
+  ],
+  [
+   "LP2-35",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=24,c=13)@12",
+   4.164580050461096,
+   -3,
+   "OOAEAEOOETENNXTHNGBEWRJLAITHCODTHGIADAWTSSNFNYGTARYRYRUITOMSTHDRWNTDTHFNNSSESYHTTHSOMPOAC"
+  ],
+  [
+   "LP2-14",
+   "F totient_value ciphertext feedback over the book text",
+   "sub",
+   true,
+   "one",
+   "plaintext@2495",
+   4.163454575593858,
+   4,
+   "WITLEAYFFWMNIYESEPETHWHOOEFSJODOWGSDTHISEOYGITFMIAMDPMTHNGTHGINASMTYEEAMEAIAHROTDEODAGLRGOPH"
+  ],
+  [
+   "LP2-41",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+92] m=(((10i+12) mod 28)+1)",
+   4.162782747548105,
+   7,
+   "PMREJMTHMWAEBXTBIAHNGIAIMAOOBWHHBBESTCBFHSCNCIHITEFSGAIADMTHBTHNIADISFRXOCOFBSSXTNRMEBIWM"
+  ],
+  [
+   "LP2-28",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+71] m=(((2i+2) mod 28)+1)",
+   4.162623291603807,
+   4,
+   "NGDNOUEGGNDYUXTIENAEEAWURRLITHWILARIARSOFTHSTMTAETODDWBOERRWSSJAIELRNMETIARNGACGWIWGBSTYTHOE"
+  ],
+  [
+   "LP2-42",
+   "F prime_value ciphertext feedback over the book text",
+   "sub",
+   true,
+   "one",
+   "plaintext@901",
+   4.158313226742387,
+   -2,
+   "EAETPEEBSAUHDTHNFTHXFRIPJUCRUXWRWPRNSEAIOATHWHYPRNTHXDNGYPILWUMEAHGEANGUEFRREDESYRPUTCBFL"
+  ],
+  [
+   "LP2-42",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=10,c=27)@8",
+   4.157667600197733,
+   -2,
+   "OMOMROFEOHATOTXUDHFEACCACHTOFEENEPJFIIAASJOJEAEIATHBAWEOBTWIEAOEUPLTPNCTHFHLFLNRHHTUATHNGEA"
+  ],
+  [
+   "LP2-42",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=10,c=2)@21",
+   4.157667600197733,
+   -2,
+   "OMOMROFEOHATOTXUDHFEACCACHTOFEENEPJFIIAASJOJEAEIATHBAWEOBTWIEAOEUPLTPNCTHFHLFLNRHHTUATHNGEA"
+  ],
+  [
+   "LP2-53",
+   "B lcg mod 1033",
+   "sub",
+   true,
+   "one",
+   "lcg1033(a=202,c=29)@356",
+   4.156784833484095,
+   6,
+   "NYLMISHHTHINGYNGPSRCIOYUEATOECPEAIAHFICHTCPAULPIUELIAREYREOLNGSTPININNGLTFITHIAYFJIAHNGINEDNGH"
+  ],
+  [
+   "LP2-20",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=1033,c=0)@283",
+   4.15024479631371,
+   -1,
+   "HOIYPGEALAERTCRTUOAETJHAPBLAETHSCOETHHJDEPRTBLOFEIAOFMRGIRUWNGPARBAEBNGNMHNLITHTWTXRCNGREENGS"
+  ],
+  [
+   "LP2-35",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=24,c=16)@23",
+   4.149557142236501,
+   -2,
+   "ROAEAEOOETENNXTHNGBEWRJLAITHCODTHGIADAWTSSNFNYGTARYRYRUITOMSTHDRWNTDTHFNNSSESYHTTHSOMPOAC"
+  ],
+  [
+   "LP2-35",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=24,c=13)@6",
+   4.149557142236501,
+   -2,
+   "ROAEAEOOETENNXTHNGBEWRJLAITHCODTHGIADAWTSSNFNYGTARYRYRUITOMSTHDRWNTDTHFNNSSESYHTTHSOMPOAC"
+  ],
+  [
+   "LP2-52",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+3] m=(((23i+22) mod 28)+1)",
+   4.149430398140193,
+   7,
+   "PTMGYIAIUANGHAEEPSCUDLMSBYGFLYWOWSOEEFSDEALYREAJIAEDTIAGCBMXOEUHUJSEEAFOLEAIRIAUSDUHAPLALT"
+  ],
+  [
+   "LP2-14",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+48] m=(((15i+23) mod 28)+1)",
+   4.149332203750498,
+   5,
+   "OIATHNMCTFHTITATHLAIBYTWOEPNGUULRNIDIANGXIABIDMTHJUWNRPYRDDGCWFHORCTSEAAHIHMTEMLPEOELNRCDB"
+  ],
+  [
+   "LP2-35",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+62] m=(((15i+26) mod 28)+1)",
+   4.147787273574631,
+   10,
+   "GUUYBBATTJIUMPEONPPGJGDYSTEDDDEAUTYROPFJLSEEPHLHEIANMHSRYPCOEOCDOAJUTHOICSOTHWHUNOBTH"
+  ],
+  [
+   "LP2-42",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+72] m=(((6i+10) mod 28)+1)",
+   4.147770634273521,
+   -1,
+   "LNRPAAELTDDIADUHDYFFWDEANGMAEEAFSMASYWUNEANGPTHMAFIANTHUNNIONLHTESELJBIIUOEEETFOEBFRNGSMWBOLFT"
+  ],
+  [
+   "LP2-00",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+34] m=(((17i+11) mod 28)+1)",
+   4.139945920998907,
+   0,
+   "ETHLRFUDGCDBOTFBFPFONGIAEFASTHGHPLDTYGEAFXHLCIPEAIGIWRTHEAMGHAAEDFCBFMYNFIHTHEAAAIAIAGNNFBX"
+  ],
+  [
+   "LP2-26",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+97] m=(((24i+10) mod 28)+1)",
+   4.13953090264765,
+   6,
+   "YTHULSXMMPBLLLCLCILEAEMRCTIENGJEAUSUDIAEDIUFHNGNGEALTHNLEWLLTEPPIGOEONPYMFRYHYTTRTIACAFAICH"
+  ],
+  [
+   "LP2-04",
+   "F prime_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "two",
+   "plaintext@393",
+   4.138884879082218,
+   14,
+   "XPSTPARNCTEAAEFLNDRIASAENWDUDPFHIAANGRSLNGEAESNUGFIMUWDFFESTHUTEAGNINGPYXERFENBDUUUCOPNGYMIU"
+  ],
+  [
+   "LP2-41",
+   "C lcg mod 29",
+   "add",
+   false,
+   "one",
+   "lcg29(a=2,c=7)@3",
+   4.1364473594989555,
+   5,
+   "SGNWOAYAEGNGAGGLWCLIAOUSNGTHTAYTHNGBYSOEAXNEOFSHBUYJAIEMYIAFEEATHFXTOGBUCGAEEEAIOFMLUYSEYRENBW"
+  ],
+  [
+   "LP2-41",
+   "C lcg mod 29",
+   "sub",
+   false,
+   "one",
+   "lcg29(a=2,c=22)@26",
+   4.1364473594989555,
+   5,
+   "SGNWOAYAEGNGAGGLWCLIAOUSNGTHTAYTHNGBYSOEAXNEOFSHBUYJAIEMYIAFEEATHFXTOGBUCGAEEEAIOFMLUYSEYRENBW"
+  ],
+  [
+   "LP2-54",
+   "A lcg mod 3301",
+   "add",
+   false,
+   "one",
+   "lcg3301(a=7,c=1)@1107",
+   4.134758160971198,
+   14,
+   "WCDWLIIIBYARWOMAHLNGPTHPTLEEAEADETGEOSIEAERSTSOEAOIADFLFOSEOPAEYAEOAEJSOECALOINGGHBGSIEOEAOEOIE"
+  ],
+  [
+   "LP2-22",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+50] m=(((22i+10) mod 28)+1)",
+   4.133954884524655,
+   1,
+   "RSFFIFUHGEAOYGFFGTUTTPGNENFREOGRCNGYERRPTHEAUBAMFELFSRARATHTHSTHEALSOHNGAUIOEPMEAAHSIOENIRDM"
+  ],
+  [
+   "LP2-26",
+   "F prime_value ciphertext feedback over the book text",
+   "sub",
+   true,
+   "one",
+   "plaintext@253",
+   4.1336911738757705,
+   1,
+   "IWRFEOEHOEALOYWTHYFBWOITHEAWLSWHGHIDHGTNODWEAISLCBIRYOONMUNGLBFBIUONIRHTWUDSINRRFAEOOFUI"
+  ],
+  [
+   "LP2-46",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+65] m=(((25i+16) mod 28)+1)",
+   4.132462448091583,
+   10,
+   "SNONGWBEXHMNOLADECMXGHRMBHAGBBAXSROTHSLLJDHTHRHESLEFGECCOTHENGUUHNFNRDBJSESXIACYOHOAIL"
+  ],
+  [
+   "LP2-33",
+   "F totient_value ciphertext feedback over the book text",
+   "beaufort",
+   false,
+   "two",
+   "plaintext@292",
+   4.130968850947133,
+   2,
+   "OERNGTNDSLCWWIYOEIOEDXCAFWOYEEUONDPNGTHAHGTAWOIAYOETHCTBEFEOBHIADDHDAENUHAIOTBTHILFSSHTTAN"
+  ],
+  [
+   "LP2-32",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@1898",
+   4.130540887840042,
+   1,
+   "TRTHAICUEORTTDFNIEYINGYGRMNIYAEEWSUTHTSLLYHOAFSLTHAGSCNGGBCGSUSESONGGYIAREORTNUWXOHUDDTHTH"
+  ],
+  [
+   "LP2-52",
+   "F prime_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "one",
+   "plaintext@2048",
+   4.130406533030319,
+   0,
+   "AEFEARTHITHEAORIAMFATPHOROEHROTHIISRBRPMUISYAJNGFHDIAGTMNGYXYTRYOHDOTHIIULDNGOMOAPJRHBNGIBTYJ"
+  ],
+  [
+   "LP2-52",
+   "F prime_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "one",
+   "plaintext@2047",
+   4.130406533030319,
+   1,
+   "OEFEARTHITHEAORIAMFATPHOROEHROTHIISRBRPMUISYAJNGFHDIAGTMNGYXYTRYOHDOTHIIULDNGOMOAPJRHBNGIBTYJ"
+  ],
+  [
+   "LP2-42",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+87] m=(((2i+23) mod 28)+1)",
+   4.128730959258025,
+   2,
+   "THAEAEPURFOAENTHDEAFHRFLBUOBIMIINETHWMHCALUUCTHDSLYIMDOEIONNOESISMRMFRIATIAMWRSTCREAYEAMUETAX"
+  ],
+  [
+   "LP2-00",
+   "D word keys with clock multiplier",
+   "add",
+   true,
+   "one",
+   "FIRFUMFERENFE m=(((3i+6) mod 28)+1)",
+   4.127262240553058,
+   -1,
+   "IADITHXFSEDJUNOPEBTHFTHRAECUPDWCIACAYLBAPTHEYAYSRWGIMITHIWINSDORDFWDSPTNFIWPOWOIJIAUHAWM"
+  ],
+  [
+   "LP2-39",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+3] m=(((2i+7) mod 28)+1)",
+   4.12487260919185,
+   7,
+   "CSASBYNSIAUEOLGOTHLOIEATHOETPHEAIAPISTHEAXAEFATEAOSTTUFCHRGRENGGULFOPCCAEGRETFEAEINGOOIFRGRDTHTN"
+  ],
+  [
+   "LP2-28",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+71] m=(((2i+2) mod 28)+1)",
+   4.12454182891748,
+   0,
+   "NGDNOUEGGNDYUXTIENAEEAWURRLITHWILARIARSOFTHSTMTAETODDWBOERRWSSJAIELRNMETIAYFYURIALDLRYAEUAES"
+  ],
+  [
+   "LP2-05",
+   "F prime_value ciphertext feedback over the book text",
+   "beaufort",
+   false,
+   "one",
+   "plaintext@2135",
+   4.124245851510568,
+   6,
+   "GTHTHEATUCHAFDMAIAWGHHSEAELDPIIAEOIXNGBTHOETNMUDSDENWTPLEPGOSTHWGRSFETHNGEOOJABSIAGPWEAJEAWMSPCEO"
+  ],
+  [
+   "LP2-36",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+77] m=(((9i+9) mod 28)+1)",
+   4.124161796461045,
+   14,
+   "HYNWEAYFOLLRIAERDDMLLUCALJMEOLXYURTJBIAWWYTSTTHHUYODSLGDMLEOSNLDIAREAWORTHDOTHRNGYOHUBRURFY"
+  ],
+  [
+   "LP2-11",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@1828",
+   4.122017264968377,
+   12,
+   "NGRYBUAEEYTWTTHOOELWNGOPEARFSXHLEONAESAUHLAEIAWSNGTJNGUEAPNTHILUUIATHAIATIIMMRNSOOIGOALIAPGYMXTCW"
+  ],
+  [
+   "LP2-52",
+   "C lcg mod 29",
+   "add",
+   false,
+   "one",
+   "lcg29(a=13,c=2)@25",
+   4.121930983484742,
+   7,
+   "CITHUDYSJWISHNGESOTYYEEAAETRCOEXOCUOWTILYESINFNGCHRTIANGHTDGABJDEJOTHBASUFTXMEEAHOEUAETHCMXT"
+  ],
+  [
+   "LP2-52",
+   "C lcg mod 29",
+   "sub",
+   false,
+   "one",
+   "lcg29(a=13,c=27)@4",
+   4.121930983484742,
+   7,
+   "CITHUDYSJWISHNGESOTYYEEAAETRCOEXOCUOWTILYESINFNGCHRTIANGHTDGABJDEJOTHBASUFTXMEEAHOEUAETHCMXT"
+  ],
+  [
+   "LP2-46",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+64] m=(((25i+16) mod 28)+1)",
+   4.120502303231022,
+   11,
+   "MAEGLMEBYHMNOLADECMXGHRMBHAGBBAXSROTHSLLJDHTHRHESLEFGECCOTHENGUUHNFNRDBJSESXIACYOHOAIL"
+  ],
+  [
+   "LP2-19",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=11,c=20)@21",
+   4.120311804312333,
+   3,
+   "MGGTFTHHFBYDIATHJHWCDFTUICEYITHOTHREEATHTHHYAEEABNUMRIITILLOUNCITLEOUAESIAASMFBTOICEHTCHBEDEY"
+  ],
+  [
+   "LP2-19",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=11,c=9)@8",
+   4.120311804312333,
+   3,
+   "MGGTFTHHFBYDIATHJHWCDFTUICEYITHOTHREEATHTHHYAEEABNUMRIITILLOUNCITLEOUAESIAASMFBTOICEHTCHBEDEY"
+  ],
+  [
+   "LP2-34",
+   "F prime_value ciphertext feedback over the book text",
+   "beaufort",
+   true,
+   "one",
+   "plaintext@883",
+   4.118794911215247,
+   3,
+   "NORDGHEMNDWTHYACAOTHASCNESIXEANUAEIAPEAEOEDPARNXLOUREJOEACIRFDNGDTUUYXEAALMNGILDDIASWYYSOETH"
+  ],
+  [
+   "LP2-51",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+44] m=(((7i+11) mod 28)+1)",
+   4.118781198589006,
+   1,
+   "IASMFXRTHOOSECMEFDTHBOEUNUDSXPNTHEENGNGIJLASRAETALRTHLNOUATHENGRTHJEYIAFTANTHHODDENGNUYDLIAMON"
+  ],
+  [
+   "LP2-01",
+   "F prime_value ciphertext feedback over the book text",
+   "sub",
+   true,
+   "one",
+   "plaintext@228",
+   4.118490845489919,
+   -1,
+   "SFSTHRIHLXTHLAEFDGSNDPAFORBPHTWBRFTHCUNGNANUNGFUWDDBIDDHBTUNGWRUAENGUMSTHTIATTEUYSBILIAOIYYTH"
+  ],
+  [
+   "LP2-45",
+   "B lcg mod 1033",
+   "sub",
+   true,
+   "two",
+   "lcg1033(a=202,c=29)@987",
+   4.118334625044203,
+   15,
+   "ICCYTTHULLINGALSGICAENGMUMPNBSJSTHHMNBGDWTWEACDOTHMELGLMNLEOWDEOETHNGTYESRGEBUIEAJFIETHHBREAI"
+  ],
+  [
+   "LP2-34",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+69] m=(((10i+17) mod 28)+1)",
+   4.116473520620232,
+   0,
+   "AEEOOORHIYBOAFNGLOULREWEAFIXTPCUOTFSTEONGBOEBOEIXEAOFIALTTOEGIATHGFSSBOAECGRDDNGWLTOABYPCXWSLO"
+  ],
+  [
+   "LP2-03",
+   "F totient_value ciphertext feedback over the book text",
+   "beaufort",
+   true,
+   "one",
+   "plaintext@810",
+   4.116291911662729,
+   4,
+   "PLIHTHMCBWGICEODNIACEEAINIRWFCJNGCILOAYFRNIAOSNSJREPOROAEONECXPXUYUAITMILWNEAAERAUEADIYEY"
+  ],
+  [
+   "LP2-11",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=4,c=2)@0",
+   4.112077571274678,
+   1,
+   "RAHWYUWBPLDRUXEONFWCYNTERTDONYGNGEAUEDDRLBSEFEAWNGEEAAWTHFOHPDLPDNGDLUBYJFPIAATBRMYSODPS"
+  ],
+  [
+   "LP2-48",
+   "F prime_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "one",
+   "plaintext@2780",
+   4.111944287291068,
+   2,
+   "ONCYYATHHBNLFSIANGFWHFPYAJONFYRYNGUBNGMPFDMUFEAIANEAAPFRMAWTSFEAFSNGUEGROESYSTHUETEASGUXAUR"
+  ],
+  [
+   "LP2-49",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+15] m=(((4i+26) mod 28)+1)",
+   4.111594600748582,
+   2,
+   "RSNYWIEASLMOAEWONLSCECORRBRCABEIARMHGTRESBHAEDMYLIITSISEAYSLRSWSWBSIUO"
+  ],
+  [
+   "LP2-51",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=22,c=22)@22",
+   4.111102049231851,
+   1,
+   "DEURGFTIWYAIRYAMFTHLMLDBHMHJASBELYDWLDAMTHORWMTHUHPPSYDSEITHIFSRFRDSAEIAOAOETGLSRBIBLTH"
+  ],
+  [
+   "LP2-51",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=22,c=7)@7",
+   4.111102049231851,
+   1,
+   "DEURGFTIWYAIRYAMFTHLMLDBHMHJASBELYDWLDAMTHORWMTHUHPPSYDSEITHIFSRFRDSAEIAOAOETGLSRBIBLTH"
+  ],
+  [
+   "LP2-33",
+   "F totient_value ciphertext feedback over the book text",
+   "beaufort",
+   false,
+   "one",
+   "plaintext@292",
+   4.110031692742621,
+   0,
+   "OERNGTNDSLCWWIYOEIOEDXCAFWOYEEUONDPNGTHAHGTAWOIAYOETHCTBEFEOBHIADDHDAENUHAIOTBTHILFSSHTTAN"
+  ],
+  [
+   "LP2-48",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+15] m=(((5i+22) mod 28)+1)",
+   4.109956448624324,
+   5,
+   "MYADEFOGEAXDALWSJEPOEPBTEOSFHOROUNNHIOGBAETHRLSTHSJFISRUCFNGFAIOPNBCRSLTCMONDEATEAIAHTH"
+  ],
+  [
+   "LP2-28",
+   "D word keys with clock multiplier",
+   "add",
+   true,
+   "one",
+   "FIRFUMFERENFE m=(((16i+26) mod 28)+1)",
+   4.108317656037126,
+   -1,
+   "HMEODDTIAEOGUUHYSTXOEBWJATOBNUNDECMBIBYSLIXCIAACLJUOITHEATHHNIALIPJSALEOTHEOYBFWRIWEARUTGYF"
+  ],
+  [
+   "LP2-42",
+   "D word keys with clock multiplier",
+   "beaufort",
+   true,
+   "one",
+   "DIVINITY m=(((20i+15) mod 28)+1)",
+   4.106235596900894,
+   -5,
+   "FTHEAXLTYOAEPEAEERFTUSGMEOOTHTSATHNAIUINHHLFDRYNGHMONCUEOFPRIFDREPBIOSUWAFOPFDOATYIDMTTIW"
+  ],
+  [
+   "LP2-21",
+   "F totient_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "two",
+   "plaintext@1473",
+   4.10614141731489,
+   5,
+   "FNCSNWIAIUORONGROGSEAAERDWATMUPTCIUEBITHISNWNXFGSNPIAEAMLROCYGUDEAIOOSWETHOYBCRTTEMRTHWSOC"
+  ],
+  [
+   "LP2-21",
+   "A lcg mod 3301",
+   "beaufort",
+   false,
+   "one",
+   "lcg3301(a=1033,c=0)@427",
+   4.10469728281343,
+   7,
+   "DTOMNGNJOTBJYWWAFHRIAYEAIRCGNGATMIARLAANYOECTHNMONGWCNHMTHNTEACIBIAUCTTSHRJBCPEAEULOIAHNGWJN"
+  ],
+  [
+   "LP2-41",
+   "D word keys with clock multiplier",
+   "sub",
+   true,
+   "one",
+   "DIVINITY m=(((12i+19) mod 28)+1)",
+   4.103015829492944,
+   1,
+   "RCWRSFDLAECNJIADAEMXMBIAAGTHAEADYSLYTEMCODTFCTEOLDIANWSHAAWHLOFTSIAAHNIAWMOLANGREACTHEABIAOUNG"
+  ],
+  [
+   "LP2-27",
+   "F totient_value ciphertext feedback over the book text",
+   "add",
+   false,
+   "two",
+   "plaintext@1432",
+   4.102220545988988,
+   4,
+   "SGNTRGBNTAYDPIMLXHSNHMBBFRYAERLEAGNWNIDAEPYMCRIENDSOESEAGAYTHIXNESSEATTERTHUYAEWYMTHIHCYNIA"
+  ],
+  [
+   "LP2-46",
+   "D word keys with clock multiplier",
+   "beaufort",
+   false,
+   "one",
+   "FIRFUMFERENFE m=(((8i+23) mod 28)+1)",
+   4.100847449068313,
+   10,
+   "MPRGNUNUUNGCSUCHCAEANGTHTONGEAYDIAOEENALLEAHAEAIMSIABLIALMUUAWSEIOWBDAEORATHETONAULIAGTAUNGNGSLIA"
+  ],
+  [
+   "LP2-01",
+   "C lcg mod 29",
+   "add",
+   false,
+   "one",
+   "lcg29(a=6,c=5)@20",
+   4.099513843509056,
+   9,
+   "SNHTHPCSSRLUEITHSAITHIAONTWBAETYDOELTUROIAAEDSESNMONGNDIAUNYDDLEDWSNMITHBEAIHOFFTHLNNFUNGETHSES"
+  ],
+  [
+   "LP2-01",
+   "C lcg mod 29",
+   "sub",
+   false,
+   "one",
+   "lcg29(a=6,c=24)@9",
+   4.099513843509056,
+   9,
+   "SNHTHPCSSRLUEITHSAITHIAONTWBAETYDOELTUROIAAEDSESNMONGNDIAUNYDDLEDWSNMITHBEAIHOFFTHLNNFUNGETHSES"
+  ],
+  [
+   "LP2-13",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=14,c=5)@7",
+   4.097294042617086,
+   -2,
+   "IAFIOIAEURIAUNGDODTHNTIAEACEOTLRSDFAMXAEOFWLMNCNTHNGPTHOXAFPBEAHYNGCRRYGPOOEUIABPLWDUFLOSSOW"
+  ],
+  [
+   "LP2-19",
+   "F totient_value ciphertext feedback over the book text",
+   "beaufort",
+   true,
+   "one",
+   "plaintext@768",
+   4.095854676466197,
+   -3,
+   "ENFRFNGUIODTSNCBOEOIIIHEUTNBAEXPFSAOONGSGTHEOOHNJAYHEOEAELMTFUYFYTHEERJRFRNDTAMCDNEAAWEOJ"
+  ],
+  [
+   "LP2-45",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+95] m=(((26i+26) mod 28)+1)",
+   4.095043257904321,
+   6,
+   "SBYXPAMEHXWAENPTFFLEAHPBTHJMYRIIGOSEAEHDNEANGOTHDTHTHNLEOTHNEASIRJWAEDOGFAEACURHNGBTHRSIEOYHYASL"
+  ],
+  [
+   "LP2-21",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=8,c=12)@12",
+   4.091299389680535,
+   8,
+   "TIOCIINGLHEOOFEOUTHHSYNMLCOEONGOCIXTUCOEAIADFEAMLFPCTDTUMUBSCOWPIABYNDEORILIIAMINSOCMOTHOMT"
+  ],
+  [
+   "LP2-09",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+92] m=(((22i+4) mod 28)+1)",
+   4.090438579116202,
+   3,
+   "TSUFTTWRTHUECWAIHIACCTHYPDHNSINHSTXITHOGEANGAEUNIAYNTOSASMACEJEIFEARYTHDFFATHBNEOSHYTSOFOOAE"
+  ],
+  [
+   "LP2-00",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=8,c=26)@24",
+   4.089242343994962,
+   -2,
+   "FWPAOIAWBNINIWNGNGTHAEONNETOLOEPIFFNGWTHENEPMULIWMDPLWEAYNAEOULIEAIABOEFGOHAUIPRMDTTHIIAFGRTPRA"
+  ],
+  [
+   "LP2-00",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=8,c=3)@5",
+   4.089242343994962,
+   -2,
+   "FWPAOIAWBNINIWNGNGTHAEONNETOLOEPIFFNGWTHENEPMULIWMDPLWEAYNAEOULIEAIABOEFGOHAUIPRMDTTHIIAFGRTPRA"
+  ],
+  [
+   "LP2-00",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@62",
+   4.087154491214951,
+   0,
+   "SNIAAXRUHCUEECDMAESFSDNGTMNMTANGSROYRNHFYWYETENFCTHPFPLNTHWPUIEAEOFTHSTHDSFOFTNGWNPYIEXNGDM"
+  ],
+  [
+   "LP2-46",
+   "A lcg mod 3301",
+   "add",
+   false,
+   "one",
+   "lcg3301(a=3,c=0)@619",
+   4.084552625895405,
+   10,
+   "WHNIDTGNTWPOOCSXOEEPNUJTTOUECPXENGSUTHUBFHMNGNGEFIAEACFUOWEWOTOLEATHEAENTIPNNBUSWMTBWFOEMMO"
+  ],
+  [
+   "LP2-44",
+   "A lcg mod 3301",
+   "beaufort",
+   false,
+   "one",
+   "lcg3301(a=7,c=1)@1443",
+   4.084145417982215,
+   3,
+   "YUMUTRCFRUJOSTHUWHRTNGHYTXTHFEETBHTHYSIBMUNGUPEHFERREAEACOEURGNYTTHIYNGECWESJEPMIMUTOOFHSEA"
+  ],
+  [
+   "LP2-30",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+43] m=(((7i+16) mod 28)+1)",
+   4.083758544999475,
+   7,
+   "AEPIEGSWRRWRTHEAEFLWLEAHEAOTHYNAEHGSLNCIATRTAXDLIBEAUIBLLAEPCNOPJEANIRLFSCHUIJSFEMOEFTERALE"
+  ],
+  [
+   "LP2-38",
+   "F totient_value ciphertext feedback over the book text",
+   "beaufort",
+   true,
+   "two",
+   "plaintext@2835",
+   4.083509830416518,
+   14,
+   "ANGTENGTHLRPNGEXRTHROENEARGIATHSONABMDENPANMEHMEAOIWYOTHAUPUWUOUOETHPEOSILAENTYAETHGESWYNGCWSDNM"
+  ],
+  [
+   "LP2-42",
+   "D word keys with clock multiplier",
+   "add",
+   true,
+   "one",
+   "DIVINITY m=(((8i+12) mod 28)+1)",
+   4.083015724050671,
+   -5,
+   "FTHEAXLTYOAEPEAEERFTUSGMEOOTHTSATHNAIUINHHLFDRYNGHMONCUEOFPRIFDREPBIOSUWAFOPFDOATYIDMTTIW"
+  ],
+  [
+   "LP2-46",
+   "A lcg mod 3301",
+   "add",
+   false,
+   "one",
+   "lcg3301(a=3,c=0)@2270",
+   4.082901338874092,
+   8,
+   "OUIAUSYBOBSEPRHABNGIECEDRMEOEAWLFNIAACAORTHHIAEAALLIAJXTHUDGTJIWRLEIAEPIOETHTWLHMYOFIANGODAWOFR"
+  ],
+  [
+   "LP2-02",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+69] m=(((4i+19) mod 28)+1)",
+   4.0826454405743045,
+   0,
+   "IANWSDERETHFNPTJTHEAIAANISTHSYUNGODNFWNGSASOAERSOOESCCUHEEACLTTHEPRBDNLDEATBGFBHGMXBHARUBWMSH"
+  ],
+  [
+   "LP2-19",
+   "C lcg mod 29",
+   "add",
+   true,
+   "one",
+   "lcg29(a=11,c=20)@8",
+   4.082184694688001,
+   4,
+   "BPGTFTHHFBYDIATHJHWCDFTUICEYITHOTHREEATHTHHYAEEABNUMRIITILLOUNCITLEOUAESIAASMFBTOICEHTCHBEDEY"
+  ],
+  [
+   "LP2-19",
+   "C lcg mod 29",
+   "sub",
+   true,
+   "one",
+   "lcg29(a=11,c=9)@21",
+   4.082184694688001,
+   4,
+   "BPGTFTHHFBYDIATHJHWCDFTUICEYITHOTHREEATHTHHYAEEABNUMRIITILLOUNCITLEOUAESIAASMFBTOICEHTCHBEDEY"
+  ],
+  [
+   "LP2-30",
+   "C lcg mod 29",
+   "add",
+   false,
+   "one",
+   "lcg29(a=10,c=22)@20",
+   4.079959855846207,
+   6,
+   "RSBWOGIMILJNGHNSFTNEARHEPTHJCIEEYANATHTDLTIESWTBTIPABRYTHBHAOEOREAGFRCLNGXSBCMOUONNGRSUED"
+  ],
+  [
+   "LP2-30",
+   "C lcg mod 29",
+   "sub",
+   false,
+   "one",
+   "lcg29(a=10,c=7)@9",
+   4.079959855846207,
+   6,
+   "RSBWOGIMILJNGHNSFTNEARHEPTHJCIEEYANATHTDLTIESWTBTIPABRYTHBHAOEOREAGFRCLNGXSBCMOUONNGRSUED"
+  ],
+  [
+   "LP2-38",
+   "F totient_value ciphertext feedback over the book text",
+   "beaufort",
+   true,
+   "two",
+   "plaintext@2838",
+   4.079322270704893,
+   11,
+   "ENGAOTTHIANEAFYFTTHROENEARGIATHSONABMDENPANMEHMEAOIWYOTHAUPUWUOUOETHPEOSILAENTYAETHGESWYNGCWSDNM"
+  ],
+  [
+   "LP2-24",
+   "F prime_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "two",
+   "plaintext@2315",
+   4.078253316775965,
+   1,
+   "EANEAPRLTJEEYEAIAJGEGTWGCRRRNUTMNEAYRDHFROGEATDRBNLYNHJCPDFWCEOOOYPYIAELIPTASOETHNGTHHOEAEANGE"
+  ],
+  [
+   "LP2-19",
+   "F totient_value ciphertext feedback over the book text",
+   "beaufort",
+   true,
+   "one",
+   "plaintext@766",
+   4.07224484799833,
+   -1,
+   "YFIEASTMGNMNGWRCAGRUGIHEUTNBAEXPFSAOONGSGTHEOOHNJAYHEOEAELMTFUYFYTHEERJRFRNDTAMCDNEAAWEOJ"
+  ],
+  [
+   "LP2-09",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=23,c=24)@15",
+   4.072064807844474,
+   -2,
+   "AWTHUCDTHMLDTSGHTHEBDCWTHFDHPWLRBUTHWFUEHFPWOCNGNMPCGEOIOBNUEDLIUOEMFFBCNEAJERDGHWHNGIBJ"
+  ],
+  [
+   "LP2-17",
+   "F prime_value ciphertext feedback over the book text",
+   "add",
+   false,
+   "one",
+   "plaintext@794",
+   4.069198456055102,
+   11,
+   "BTHLAENGRNGDPTRSYCSUUYDEASROOALYACONGDROEYTHTHSHHMEUPYXJMYPABTIRCBOYDSNGISAOEBOCAEOSWXSAINTH"
+  ],
+  [
+   "LP2-32",
+   "A lcg mod 3301",
+   "sub",
+   false,
+   "one",
+   "lcg3301(a=7,c=1)@1898",
+   4.064592553119529,
+   1,
+   "TRTHAICUEORTTDFNIEYINGYGRMNIYAEEWSUTHTSLLYHOAFSLTHAGSCNGGBCGSUSESONGGYIAREORTNUWXOHUDDTHTH"
+  ],
+  [
+   "LP2-41",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+72] m=(((27i+26) mod 28)+1)",
+   4.0644584931564935,
+   2,
+   "EEARYTHNAMTHLPNGNUEAOJIAFMAFMBFDBNOIATHLFHULYNEGOGREDEOEEAAAJDNFTSBHLNEOLIESANEETHEAARURWEA"
+  ],
+  [
+   "LP2-04",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+3] m=(((20i+26) mod 28)+1)",
+   4.064323586659227,
+   3,
+   "NGEOTHDHTAEWLMAFAEBOLGOSNGAYHLGFCLGDCFEOCAESRUMHEMANOHOEATHXTERNGUONEFHNLFFFOINGYNYEADIIEWIEJ"
+  ],
+  [
+   "LP2-00",
+   "F prime_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "one",
+   "plaintext@2903",
+   4.062698995521342,
+   1,
+   "RRGOWSJWATUHPDUNUFLAGTSEINRERDPLIRAENGTNGIOCTHNPIABYEAPIBONCIIDNFTHUSGHFETHNGNJTOLTHSCOAELTH"
+  ],
+  [
+   "LP2-47",
+   "A lcg mod 3301",
+   "add",
+   true,
+   "one",
+   "lcg3301(a=3,c=0)@1167",
+   4.061586273705027,
+   4,
+   "THHLHLSTPPREHSNFENGAEWMYDTHNGEOFALETHROSYLIYEAUIAMTRGEIWGIDFOYIAOGAEAYAPUURASNANIAEAWNGGORNGNC"
+  ],
+  [
+   "LP2-30",
+   "D word keys with clock multiplier",
+   "add",
+   true,
+   "one",
+   "DIVINITY m=(((2i+8) mod 28)+1)",
+   4.061244741812817,
+   3,
+   "FAENGTRBBTIOBSLDETYJCIBEMIRNRREMDROIXWTJEOOENTHJJBNGAETHIOTHURSSOAETHATTHYTHULDESNLNESLEDHXH"
+  ],
+  [
+   "LP2-29",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+1] m=(((1i+3) mod 28)+1)",
+   4.060439041140322,
+   -3,
+   "FIIRTTHWSEOMAEJDREFUUAYNETHTIALETEASHSLDOOEGDBFREOMTHGMTTHFONGNGFWXLWSIXORAFNGEJAGTHSHEYTLEATIA"
+  ],
+  [
+   "LP2-00",
+   "B lcg mod 1033",
+   "add",
+   false,
+   "two",
+   "lcg1033(a=202,c=29)@966",
+   4.059148884348169,
+   14,
+   "SIUWRPNNEMHANGUTHDNGSBYRTHAUNGYCYIGWIGNGTAODOEAEHCUIAALTIASTHEATHNGFIARBCNGGUETHSNGMNWPYCEIUNGUGTHC"
+  ],
+  [
+   "LP2-19",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=1033,c=0)@329",
+   4.058400371660228,
+   10,
+   "OTCYXLYRPTPTIHBUNFGHEANGUGSOEULTEFNGRMYWGDLITHXEOIAEWHHWPSDGIAOEEASNBEGROAMNGEFMNWOEOETHWAB"
+  ],
+  [
+   "LP2-19",
+   "A lcg mod 3301",
+   "add",
+   true,
+   "one",
+   "lcg3301(a=1033,c=0)@3275",
+   4.058241964261249,
+   1,
+   "FNGGOFHPTTHTALLHLYHIJICAMAECLUYSOPIAYURTMWIEOYGITGNFASEWTOTEIACNIAOTMYWIAWRHWLAETHEPNPSBD"
+  ],
+  [
+   "LP2-10",
+   "F prime_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "two",
+   "plaintext@572",
+   4.057746825301575,
+   2,
+   "XJDGAEAEEACOEAMIGOOREWJEANGERENRIOAMBHOEEIPAOAFEEORWIJYPXACCXIYNIBTRMOIYLGWUSCYTFGWYTNA"
+  ],
+  [
+   "LP2-54",
+   "A lcg mod 3301",
+   "add",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@1107",
+   4.053385978467875,
+   14,
+   "WCDWLIIIBYARWOMAHLNGPTHPTLEEAEADETGEOSIEAERSTSOEAOIADFLFOSEOPAEYAEOAEJSOECALOINGGHBGSIEOEAOEOIE"
+  ],
+  [
+   "LP2-33",
+   "F prime_value ciphertext feedback over the book text",
+   "beaufort",
+   true,
+   "one",
+   "plaintext@2223",
+   4.05250759921616,
+   0,
+   "OGGHXIHETHLLHEATTFUHTHFNURIOEERIITNGOIOSYGLESUJTGAYTHIADAOPGINTHCIFEAPTHTHATYBTUPDTALCOYON"
+  ],
+  [
+   "LP2-30",
+   "D word keys with clock multiplier",
+   "beaufort",
+   true,
+   "one",
+   "DIVINITY m=(((26i+19) mod 28)+1)",
+   4.050878063295696,
+   3,
+   "FAENGTRBBTIOBSLDETYJCIBEMIRNRREMDROIXWTJEOOENTHJJBNGAETHIOTHURSSOAETHATTHYTHULDESNLNESLEDHXH"
+  ],
+  [
+   "LP2-43",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=3,c=0)@1497",
+   4.050232881137141,
+   -7,
+   "NMCOINSEONIYDDUHOOTHEUAAEFSOFNGTEULBHAEHFSFHANGXGIAESEXBEACNDNYDEANCAPUJRNWEHFSFYAEEADC"
+  ],
+  [
+   "LP2-00",
+   "F prime_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "two",
+   "plaintext@2902",
+   4.048017078790903,
+   4,
+   "EORSCHIIAFATUHPDUNUFLAGTSEINRERDPLIRAENGTNGIOCTHNPIABYEAPIBONCIIDNFTHUSGHFETHNGNJTOLTHSCOAELTH"
+  ],
+  [
+   "LP2-00",
+   "F prime_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "two",
+   "plaintext@2900",
+   4.048017078790903,
+   6,
+   "NRSCHIIAFATUHPDUNUFLAGTSEINRERDPLIRAENGTNGIOCTHNPIABYEAPIBONCIIDNFTHUSGHFETHNGNJTOLTHSCOAELTH"
+  ],
+  [
+   "LP2-18",
+   "A lcg mod 3301",
+   "beaufort",
+   true,
+   "one",
+   "lcg3301(a=1033,c=0)@866",
+   4.047397870301961,
+   5,
+   "HAEAHUELRSTMLTHLDTNTIBTHTHNGINUNSBUODEOPWSSDRPLTHDRBLRJEAIYICJFSDBTHTELFENGNTHIDEATHEAXIAPAREOC"
+  ],
+  [
+   "LP2-37",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+3] m=(((26i+17) mod 28)+1)",
+   4.047133579483378,
+   2,
+   "ETUUSOTHUDSYDWWWTWLTHSSIUNCNGEAEHOEISWTHFMAEDNGTHDAGUETAETOEIALIEANGMNGECWEAEAEFSOFWCNNEAIARAEWSH"
+  ],
+  [
+   "LP2-54",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+68] m=(((16i+19) mod 28)+1)",
+   4.046801783560547,
+   7,
+   "RLNEAHETHOLTHEEBWTBNLNOYXGJOAEOELLOTHMOEATHIAUEAEAIAPRECBFALERETHUDTHDIULINSCIAAAECNWREOWWFRSNIAL"
+  ],
+  [
+   "LP2-27",
+   "F totient_value ciphertext feedback over the book text",
+   "add",
+   true,
+   "two",
+   "plaintext@2192",
+   4.046690102647211,
+   9,
+   "OFDNGXJNOLNESABPMOTHGTSELBFRINLSWWNGUGFJYNSXLCMULGDYUOSTEFTHFMOODFXNTNGYABFRLMEADJRTEA"
+  ],
+  [
+   "LP2-15",
+   "F prime_value ciphertext feedback over the book text",
+   "beaufort",
+   true,
+   "two",
+   "plaintext@1921",
+   4.0459135357331,
+   4,
+   "BMTYPIADOHHIASUIUMATHTIAFGBTHBELFARWNGWBWIEOGNOATUERPRDWUTSCOIEOESAELRPGUAIFBOXPUANTHIAGSHH"
+  ],
+  [
+   "LP2-47",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   false,
+   "one",
+   "gap[n+2] m=(((10i+22) mod 28)+1)",
+   4.04430546554602,
+   5,
+   "SWFREOETHIWGGHHNGPTHTUONGNOXNRALSXEOFFCLFHACSEDEAELYGAEAMPALNERRLHNGLBNANGGWHEOEHEAIAMGUINHIY"
+  ],
+  [
+   "LP2-13",
+   "C lcg mod 29",
+   "beaufort",
+   true,
+   "one",
+   "lcg29(a=7,c=20)@17",
+   4.0439986288405105,
+   1,
+   "BCFFRIAAWRTEAJAEONGTUHTHHAEHEOIMDCLTLWXLTHAUFIOWENAEGEAWESIAFNEHWGLOREAIBTCRNEODNTTEUUUTEEAH"
+  ],
+  [
+   "LP2-53",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+11] m=(((4i+13) mod 28)+1)",
+   4.0417361023776905,
+   7,
+   "PMNPIRTWDANGSATHMYERYHSOXMLOESWBOTHUMOEAEABEAOENTHRLONGEROEBAWDWJMNFBHMACOYLEARFIPTXREOWNGNPI"
+  ],
+  [
+   "LP2-09",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=1033,c=0)@1134",
+   4.041390212729679,
+   4,
+   "DUIASPTAAYIIXBTHIABFMELLGDONGTHRBBHLBCOONOAYOOOEEDEAMSIEAMPAEAEOWHNGOSEOFEWLRCTAETHGCUDEODEAGW"
+  ],
+  [
+   "LP2-11",
+   "E prime-gap stream with clock multiplier",
+   "add",
+   true,
+   "one",
+   "gap[n+29] m=(((8i+23) mod 28)+1)",
+   4.0407609849726915,
+   -5,
+   "NIEOAOLTHOYMMNGAIWSFNTHRAFJTHGUYMGSDRBYYHSAEUELFGCUAEANPEATILAEPYTOUHGBLENTDTBJYBHNGDSRIWNG"
+  ],
+  [
+   "LP2-35",
+   "A lcg mod 3301",
+   "beaufort",
+   true,
+   "one",
+   "lcg3301(a=3,c=0)@2201",
+   4.040149940921302,
+   2,
+   "NTROAXIAWIEADEDYHCUREOTJLFRHGTHSASUDEOSYLIBTHRIFMYHEUSOHDXAOETAETHGJOTHPAWTYNGNETHEUCYEAETHFNG"
+  ],
+  [
+   "LP2-39",
+   "A lcg mod 3301",
+   "sub",
+   true,
+   "one",
+   "lcg3301(a=7,c=1)@2578",
+   4.039454090386241,
+   5,
+   "LFBFTNOIAOLFYBOUSTHWWIYTHNGWTREAATDTIAAPAONGDSWSPUSFGLCFYCDTHMRXMNGJJSOEWOFGMPJOBTFOYCYIJ"
+  ]
+ ],
+ "nulls": {
+  "LP2-00|False|sub|one": [
+   -150.27575749215643,
+   22.02089419886162,
+   -76.53961959361718
+  ],
+  "LP2-00|False|beaufort|one": [
+   -150.13343055749021,
+   21.26378838026106,
+   -73.19791737281723
+  ],
+  "LP2-00|False|sub|two": [
+   -152.05606971434617,
+   21.724689025563855,
+   -91.26083347932374
+  ],
+  "LP2-00|False|beaufort|two": [
+   -151.49067205848078,
+   22.084688932594716,
+   -80.25323058914198
+  ],
+  "LP2-00|True|sub|one": [
+   -108.46086294409234,
+   14.988572827594467,
+   -56.163890800911176
+  ],
+  "LP2-00|True|beaufort|one": [
+   -108.92404866369502,
+   15.524387811595815,
+   -50.935185667651005
+  ],
+  "LP2-00|True|sub|two": [
+   -101.1627779959461,
+   14.495432062478251,
+   -51.27006475929566
+  ],
+  "LP2-00|True|beaufort|two": [
+   -101.17277736132866,
+   14.337242600770766,
+   -41.851705329410905
+  ],
+  "LP2-03|False|sub|one": [
+   -126.37955398159345,
+   20.262065119331897,
+   -58.368576785445356
+  ],
+  "LP2-03|False|beaufort|one": [
+   -126.88740219406964,
+   21.242772467376728,
+   -65.65683885114632
+  ],
+  "LP2-03|False|sub|two": [
+   -127.81822550827196,
+   20.907049404792506,
+   -60.140953072864434
+  ],
+  "LP2-03|False|beaufort|two": [
+   -126.94698920640401,
+   20.86093559459883,
+   -67.54959651438337
+  ],
+  "LP2-03|True|sub|one": [
+   -104.60172083818725,
+   16.858287984517272,
+   -57.35630209472099
+  ],
+  "LP2-03|True|beaufort|one": [
+   -103.99200191235057,
+   16.665549236407603,
+   -44.0796526192231
+  ],
+  "LP2-03|True|sub|two": [
+   -98.41635944576966,
+   16.41532677934731,
+   -49.551708015740246
+  ],
+  "LP2-03|True|beaufort|two": [
+   -97.5922170738501,
+   16.32319148674141,
+   -47.209251075323564
+  ],
+  "LP2-06|False|sub|one": [
+   -114.57338885774216,
+   19.620378592806638,
+   -48.67312533329109
+  ],
+  "LP2-06|False|beaufort|one": [
+   -114.68395203485085,
+   20.007371273741306,
+   -58.89571900802457
+  ],
+  "LP2-06|False|sub|two": [
+   -115.30859496387178,
+   19.426427252318998,
+   -51.4377638261447
+  ],
+  "LP2-06|False|beaufort|two": [
+   -115.68886308672164,
+   19.99238044369752,
+   -47.633037338559625
+  ],
+  "LP2-06|True|sub|one": [
+   -104.5267528102278,
+   17.599300865674376,
+   -45.07408894395305
+  ],
+  "LP2-06|True|beaufort|one": [
+   -104.39180717002192,
+   17.612089810844633,
+   -42.99408204586952
+  ],
+  "LP2-06|True|sub|two": [
+   -100.41861594621649,
+   16.727908214119118,
+   -40.544392486964064
+  ],
+  "LP2-06|True|beaufort|two": [
+   -100.32088626299013,
+   17.089011337625948,
+   -41.82492286737768
+  ],
+  "LP2-09|False|sub|one": [
+   -153.87022031476698,
+   22.061742995419447,
+   -66.73505985841878
+  ],
+  "LP2-09|False|beaufort|one": [
+   -153.13862056968094,
+   21.698554568057048,
+   -89.2708492576835
+  ],
+  "LP2-09|False|sub|two": [
+   -154.9107112377289,
+   21.32857591169861,
+   -86.58681317854027
+  ],
+  "LP2-09|False|beaufort|two": [
+   -155.9071146950106,
+   21.954767445474687,
+   -87.16046615229693
+  ],
+  "LP2-09|True|sub|one": [
+   -120.57721525207951,
+   16.62258008293671,
+   -64.06032600291783
+  ],
+  "LP2-09|True|beaufort|one": [
+   -120.67862575545973,
+   16.85256785556833,
+   -66.90226151275508
+  ],
+  "LP2-09|True|sub|two": [
+   -113.05061430320409,
+   15.737224238176392,
+   -58.46313551284643
+  ],
+  "LP2-09|True|beaufort|two": [
+   -112.43418550515987,
+   15.810424303092542,
+   -61.04525934922345
+  ],
+  "LP2-12|False|sub|one": [
+   -149.4744677631877,
+   21.442000270418035,
+   -82.41472969179657
+  ],
+  "LP2-12|False|beaufort|one": [
+   -149.77680234715163,
+   21.23241111159159,
+   -63.63314932422749
+  ],
+  "LP2-12|False|sub|two": [
+   -151.5983314222825,
+   21.63998228544647,
+   -82.46028902024302
+  ],
+  "LP2-12|False|beaufort|two": [
+   -151.8609216341353,
+   21.908172738846936,
+   -77.3970327332483
+  ],
+  "LP2-12|True|sub|one": [
+   -115.90722393803843,
+   16.908647366347104,
+   -63.84025404050158
+  ],
+  "LP2-12|True|beaufort|one": [
+   -115.90999651405151,
+   17.138506247738018,
+   -63.9411271417607
+  ],
+  "LP2-12|True|sub|two": [
+   -109.77297181775985,
+   16.737079869875338,
+   -64.17690401475195
+  ],
+  "LP2-12|True|beaufort|two": [
+   -109.58995150084836,
+   15.998587847669967,
+   -55.520090191656394
+  ],
+  "LP2-15|False|sub|one": [
+   -94.22064411257331,
+   18.358881896121,
+   -39.14839986335583
+  ],
+  "LP2-15|False|beaufort|one": [
+   -93.93312032545181,
+   18.218079626157895,
+   -43.775753152859465
+  ],
+  "LP2-15|False|sub|two": [
+   -95.9502559990291,
+   18.94552913715539,
+   -33.98496196475389
+  ],
+  "LP2-15|False|beaufort|two": [
+   -96.19531608640443,
+   18.344794963953348,
+   -44.14763553734249
+  ],
+  "LP2-15|True|sub|one": [
+   -70.27224639065656,
+   12.284346145675517,
+   -28.513192737848247
+  ],
+  "LP2-15|True|beaufort|one": [
+   -70.04032066728071,
+   12.936861984500165,
+   -23.856146519822403
+  ],
+  "LP2-15|True|sub|two": [
+   -65.95761637435929,
+   11.90901323556985,
+   -21.118248018315146
+  ],
+  "LP2-15|True|beaufort|two": [
+   -65.55073248731487,
+   11.669506974383896,
+   -24.45675842968182
+  ],
+  "LP2-18|False|sub|one": [
+   -148.7191073762783,
+   21.484204043572444,
+   -39.799748633400355
+  ],
+  "LP2-18|False|beaufort|one": [
+   -149.2347256149633,
+   22.037857867362334,
+   -81.66514668405578
+  ],
+  "LP2-18|False|sub|two": [
+   -149.29421282202972,
+   21.887403515333407,
+   -81.92521057438339
+  ],
+  "LP2-18|False|beaufort|two": [
+   -149.20639527465863,
+   21.48776807177118,
+   -71.78134319660425
+  ],
+  "LP2-18|True|sub|one": [
+   -121.12106982641531,
+   17.26315836820938,
+   -60.416257139840006
+  ],
+  "LP2-18|True|beaufort|one": [
+   -121.25153895740138,
+   17.644815854977725,
+   -66.37384822106452
+  ],
+  "LP2-18|True|sub|two": [
+   -114.23176095295645,
+   17.045858853481125,
+   -43.068930672224944
+  ],
+  "LP2-18|True|beaufort|two": [
+   -114.48219101033429,
+   17.087615824176485,
+   -62.43791628169029
+  ],
+  "LP2-21|False|sub|one": [
+   -156.46580252210586,
+   22.446799243632018,
+   -82.65296769402109
+  ],
+  "LP2-21|False|beaufort|one": [
+   -155.40108322528351,
+   21.85379386779008,
+   -91.81145462758487
+  ],
+  "LP2-21|False|sub|two": [
+   -157.5008441097776,
+   22.5882275700057,
+   -89.24567280105498
+  ],
+  "LP2-21|False|beaufort|two": [
+   -158.13060999493283,
+   22.236614934795092,
+   -88.48489129255802
+  ],
+  "LP2-21|True|sub|one": [
+   -132.6134707798985,
+   18.70942491565414,
+   -72.0995581925301
+  ],
+  "LP2-21|True|beaufort|one": [
+   -132.7898829863448,
+   18.860220466477582,
+   -62.46595372987002
+  ],
+  "LP2-21|True|sub|two": [
+   -125.8102913588943,
+   17.284197462723913,
+   -70.16616151907152
+  ],
+  "LP2-21|True|beaufort|two": [
+   -125.51913573916187,
+   17.40431447086737,
+   -67.39207166395349
+  ],
+  "LP2-24|False|sub|one": [
+   -154.52658627528243,
+   21.956363806618672,
+   -70.16326007593128
+  ],
+  "LP2-24|False|beaufort|one": [
+   -154.7113034730833,
+   21.133821281934075,
+   -88.95782096923402
+  ],
+  "LP2-24|False|sub|two": [
+   -156.63730598224151,
+   21.5816925792192,
+   -89.5017631056249
+  ],
+  "LP2-24|False|beaufort|two": [
+   -155.58534355552592,
+   21.974304748961774,
+   -87.80352174233383
+  ],
+  "LP2-24|True|sub|one": [
+   -117.43046375946116,
+   16.552165902299343,
+   -55.32802396593045
+  ],
+  "LP2-24|True|beaufort|one": [
+   -117.7799979741988,
+   15.977938681458212,
+   -73.08311850837413
+  ],
+  "LP2-24|True|sub|two": [
+   -108.21276565552819,
+   14.770349648207942,
+   -62.20977343645583
+  ],
+  "LP2-24|True|beaufort|two": [
+   -107.84845632770306,
+   14.890223906422316,
+   -55.88432830266587
+  ],
+  "LP2-27|False|sub|one": [
+   -135.10354434090627,
+   20.968790855016437,
+   -67.27667929266195
+  ],
+  "LP2-27|False|beaufort|one": [
+   -135.6104499494236,
+   20.403738767265178,
+   -71.57795573575436
+  ],
+  "LP2-27|False|sub|two": [
+   -136.87127645811643,
+   20.261255924889575,
+   -76.56104643477617
+  ],
+  "LP2-27|False|beaufort|two": [
+   -136.7610497995495,
+   21.105163673611468,
+   -67.9185053200532
+  ],
+  "LP2-27|True|sub|one": [
+   -104.65399200034709,
+   15.582051829434997,
+   -59.77099802327549
+  ],
+  "LP2-27|True|beaufort|one": [
+   -104.88144454513764,
+   16.41909664368749,
+   -52.86193936074974
+  ],
+  "LP2-27|True|sub|two": [
+   -97.28854216718358,
+   15.037236862924404,
+   -46.5698842480311
+  ],
+  "LP2-27|True|beaufort|two": [
+   -97.90052855256471,
+   15.249339134785385,
+   -50.22617635119951
+  ],
+  "LP2-30|False|sub|one": [
+   -150.99842016455972,
+   21.962666570951022,
+   -81.35400605893811
+  ],
+  "LP2-30|False|beaufort|one": [
+   -151.25405921935263,
+   21.06938508133077,
+   -75.40308107396822
+  ],
+  "LP2-30|False|sub|two": [
+   -153.16969558909915,
+   22.913184242250317,
+   -84.61944521122244
+  ],
+  "LP2-30|False|beaufort|two": [
+   -152.9660420251203,
+   22.02524428715903,
+   -71.07006709672712
+  ],
+  "LP2-30|True|sub|one": [
+   -127.68445761317656,
+   18.941396889596515,
+   -67.11152622369296
+  ],
+  "LP2-30|True|beaufort|one": [
+   -128.27050703913122,
+   19.13454237211883,
+   -73.46944323565013
+  ],
+  "LP2-30|True|sub|two": [
+   -122.6685777991691,
+   18.090589032647767,
+   -61.910882473963674
+  ],
+  "LP2-30|True|beaufort|two": [
+   -122.07595517788093,
+   18.08374281711292,
+   -65.22999408489478
+  ],
+  "LP2-33|False|sub|one": [
+   -124.76395538531467,
+   20.029091011153636,
+   -58.80781100839238
+  ],
+  "LP2-33|False|beaufort|one": [
+   -123.56700448574303,
+   19.65271033119518,
+   -62.05428215603887
+  ],
+  "LP2-33|False|sub|two": [
+   -125.50370113869141,
+   20.559726425068668,
+   -63.42413729285754
+  ],
+  "LP2-33|False|beaufort|two": [
+   -125.22201492800899,
+   20.506707616618215,
+   -61.8361823371208
+  ],
+  "LP2-33|True|sub|one": [
+   -95.2708768270826,
+   14.726915255296726,
+   -37.92761230887359
+  ],
+  "LP2-33|True|beaufort|one": [
+   -95.50062575820289,
+   14.59103161733599,
+   -44.22560731316707
+  ],
+  "LP2-33|True|sub|two": [
+   -88.51753279289338,
+   13.693512326043042,
+   -42.92476562346278
+  ],
+  "LP2-33|True|beaufort|two": [
+   -87.71644272456591,
+   13.492084105923457,
+   -36.15002147923796
+  ],
+  "LP2-36|False|sub|one": [
+   -137.47401368175156,
+   20.828437389774457,
+   -73.19130781652072
+  ],
+  "LP2-36|False|beaufort|one": [
+   -137.5660091980809,
+   21.122475931796387,
+   -81.36837352153213
+  ],
+  "LP2-36|False|sub|two": [
+   -138.94432243588173,
+   21.18469485924832,
+   -70.64121369263388
+  ],
+  "LP2-36|False|beaufort|two": [
+   -137.70522993402213,
+   20.79819422243728,
+   -76.17486911246729
+  ],
+  "LP2-36|True|sub|one": [
+   -112.89041718256155,
+   16.956761428308184,
+   -44.24699339115625
+  ],
+  "LP2-36|True|beaufort|one": [
+   -113.36604746779504,
+   17.071699865124806,
+   -49.02211500185049
+  ],
+  "LP2-36|True|sub|two": [
+   -106.24266554815583,
+   16.059013282268374,
+   -42.71854906605006
+  ],
+  "LP2-36|True|beaufort|two": [
+   -105.61035454925639,
+   16.185112152860764,
+   -52.98687102307146
+  ],
+  "LP2-39|False|sub|one": [
+   -138.712180156216,
+   20.98672622712129,
+   -64.84757400682406
+  ],
+  "LP2-39|False|beaufort|one": [
+   -138.63974462862242,
+   20.667493563351016,
+   -72.44726809856257
+  ],
+  "LP2-39|False|sub|two": [
+   -139.89021945078076,
+   21.382583643026464,
+   -57.40108333596601
+  ],
+  "LP2-39|False|beaufort|two": [
+   -139.79029982563688,
+   21.57316820517861,
+   -73.34171612427475
+  ],
+  "LP2-39|True|sub|one": [
+   -124.42014598812672,
+   18.530469988081872,
+   -67.0643725740925
+  ],
+  "LP2-39|True|beaufort|one": [
+   -125.04375332425727,
+   18.770436366932465,
+   -67.16459906555956
+  ],
+  "LP2-39|True|sub|two": [
+   -119.16985473252663,
+   17.32595974888096,
+   -66.1800888923842
+  ],
+  "LP2-39|True|beaufort|two": [
+   -119.06277348047773,
+   17.238963731738462,
+   -65.7946372557221
+  ],
+  "LP2-42|False|sub|one": [
+   -156.21703245710933,
+   21.856582062673453,
+   -81.13371965420413
+  ],
+  "LP2-42|False|beaufort|one": [
+   -155.52526209578198,
+   21.960484005590622,
+   -83.5463412366013
+  ],
+  "LP2-42|False|sub|two": [
+   -157.18555322604098,
+   22.069194956964317,
+   -79.69000011960597
+  ],
+  "LP2-42|False|beaufort|two": [
+   -157.40028686940332,
+   21.929959276956456,
+   -85.04862581597638
+  ],
+  "LP2-42|True|sub|one": [
+   -115.54902023676506,
+   16.00243903789706,
+   -53.67634469610421
+  ],
+  "LP2-42|True|beaufort|one": [
+   -115.2294201822835,
+   15.834115852847322,
+   -51.652812951658376
+  ],
+  "LP2-42|True|sub|two": [
+   -107.22540365188168,
+   15.511941193234508,
+   -60.16256029512244
+  ],
+  "LP2-42|True|beaufort|two": [
+   -106.7338752396339,
+   14.938498505349656,
+   -54.348148234252356
+  ],
+  "LP2-45|False|sub|one": [
+   -154.5726607479827,
+   21.490989629342064,
+   -70.1377280974387
+  ],
+  "LP2-45|False|beaufort|one": [
+   -154.2554521428699,
+   21.700335876165855,
+   -79.38989557440635
+  ],
+  "LP2-45|False|sub|two": [
+   -156.19527290618402,
+   22.368835872475188,
+   -88.84457575699972
+  ],
+  "LP2-45|False|beaufort|two": [
+   -155.639805005168,
+   22.345826430980146,
+   -84.47303815669144
+  ],
+  "LP2-45|True|sub|one": [
+   -128.01610194292005,
+   17.463128683503548,
+   -73.19897702828843
+  ],
+  "LP2-45|True|beaufort|one": [
+   -127.79371804003955,
+   17.604766225530476,
+   -74.1529346980286
+  ],
+  "LP2-45|True|sub|two": [
+   -119.36384155313286,
+   15.971433417234396,
+   -65.00146964801718
+  ],
+  "LP2-45|True|beaufort|two": [
+   -119.04997508023028,
+   15.715017505927843,
+   -67.87562495821518
+  ],
+  "LP2-48|False|sub|one": [
+   -154.5535378808107,
+   21.773075913609986,
+   -79.58768884750012
+  ],
+  "LP2-48|False|beaufort|one": [
+   -155.92713862312323,
+   21.999416189583567,
+   -82.55985317170972
+  ],
+  "LP2-48|False|sub|two": [
+   -156.68199915854387,
+   22.250243408422634,
+   -92.43559965007329
+  ],
+  "LP2-48|False|beaufort|two": [
+   -156.09723340911688,
+   21.97898745799349,
+   -84.7063603161972
+  ],
+  "LP2-48|True|sub|one": [
+   -117.13829366261561,
+   15.851028920917946,
+   -59.31289375083405
+  ],
+  "LP2-48|True|beaufort|one": [
+   -117.09614485992665,
+   16.092062150969,
+   -57.074931347568
+  ],
+  "LP2-48|True|sub|two": [
+   -108.59112103921117,
+   15.210857766675698,
+   -55.32080248860906
+  ],
+  "LP2-48|True|beaufort|two": [
+   -109.10597725737209,
+   15.272349139312537,
+   -49.585326934356566
+  ],
+  "LP2-52|False|sub|one": [
+   -150.3925955859033,
+   21.678050048071526,
+   -67.17593150036559
+  ],
+  "LP2-52|False|beaufort|one": [
+   -151.65509044740833,
+   21.667914094691795,
+   -87.85606991321201
+  ],
+  "LP2-52|False|sub|two": [
+   -153.56123855391553,
+   22.439028843330885,
+   -77.44857772261585
+  ],
+  "LP2-52|False|beaufort|two": [
+   -151.91021854839863,
+   22.085116279380568,
+   -82.21498682322931
+  ],
+  "LP2-52|True|sub|one": [
+   -118.89704848041453,
+   16.454813535403495,
+   -64.58822273342211
+  ],
+  "LP2-52|True|beaufort|one": [
+   -118.66350024603683,
+   16.55720244785622,
+   -56.20865076325436
+  ],
+  "LP2-52|True|sub|two": [
+   -111.49355829524741,
+   15.128504044108217,
+   -52.24335276172596
+  ],
+  "LP2-52|True|beaufort|two": [
+   -111.8081216098105,
+   15.512665697910178,
+   -49.663209869256924
+  ],
+  "LP2-55|False|sub|one": [
+   -47.714341134526784,
+   14.075792063895301,
+   -2.6309442816040014
+  ],
+  "LP2-55|False|beaufort|one": [
+   -47.837439549750535,
+   13.476665783730047,
+   -5.836921208815662
+  ],
+  "LP2-55|False|sub|two": [
+   -48.56381536742075,
+   14.25756847180775,
+   -7.829860973842653
+  ],
+  "LP2-55|False|beaufort|two": [
+   -48.742439786173854,
+   13.920059866024268,
+   -0.2914960871883796
+  ],
+  "LP2-55|True|sub|one": [
+   -37.71000268445605,
+   11.15863153670739,
+   0.13123183003055905
+  ],
+  "LP2-55|True|beaufort|one": [
+   -37.84829779530513,
+   10.76882883171806,
+   4.858415780078328
+  ],
+  "LP2-55|True|sub|two": [
+   -35.831343889573624,
+   10.319141298199378,
+   -2.1308898926515405
+  ],
+  "LP2-55|True|beaufort|two": [
+   -35.81613472620381,
+   10.648432614811936,
+   -2.3960290288395774
+  ],
+  "LP2-01|False|sub|one": [
+   -152.22568651033828,
+   21.38872134303669,
+   -81.03758869225072
+  ],
+  "LP2-01|False|beaufort|one": [
+   -152.0719577387391,
+   21.579083236635164,
+   -78.73266768807385
+  ],
+  "LP2-01|False|sub|two": [
+   -152.77934489154296,
+   22.199423982931947,
+   -79.55286821741369
+  ],
+  "LP2-01|False|beaufort|two": [
+   -154.32974283102143,
+   22.66774549743132,
+   -83.42322829173463
+  ],
+  "LP2-01|True|sub|one": [
+   -116.3691509468529,
+   16.873315032497437,
+   -63.065488164451835
+  ],
+  "LP2-01|True|beaufort|one": [
+   -115.93699813258657,
+   16.38314776131508,
+   -59.93263717361473
+  ],
+  "LP2-01|True|sub|two": [
+   -107.80336356844795,
+   15.988030038193,
+   -45.31884563543589
+  ],
+  "LP2-01|True|beaufort|two": [
+   -107.43393950524388,
+   16.201500824058293,
+   -53.36605986486783
+  ],
+  "LP2-04|False|sub|one": [
+   -150.18596477574232,
+   21.53863936909851,
+   -82.03870327936282
+  ],
+  "LP2-04|False|beaufort|one": [
+   -148.26359014243516,
+   20.940703568021906,
+   -80.62877231061478
+  ],
+  "LP2-04|False|sub|two": [
+   -150.74200257909322,
+   22.202575343171983,
+   -72.81336150938938
+  ],
+  "LP2-04|False|beaufort|two": [
+   -151.43738628673708,
+   21.843908768714744,
+   -81.68452995232923
+  ],
+  "LP2-04|True|sub|one": [
+   -125.15420693944485,
+   16.8963709877557,
+   -75.83405896765605
+  ],
+  "LP2-04|True|beaufort|one": [
+   -125.60900935158512,
+   17.091950807246707,
+   -67.07188275208887
+  ],
+  "LP2-04|True|sub|two": [
+   -117.81591626301713,
+   15.659413880662122,
+   -72.02283594109653
+  ],
+  "LP2-04|True|beaufort|two": [
+   -117.73886260291806,
+   15.936238315858374,
+   -54.43371591148729
+  ],
+  "LP2-07|False|sub|one": [
+   -121.18052603251869,
+   19.839594229874674,
+   -58.496384241162986
+  ],
+  "LP2-07|False|beaufort|one": [
+   -121.22106191743988,
+   21.106213420395406,
+   -61.17597016171318
+  ],
+  "LP2-07|False|sub|two": [
+   -123.29182404506356,
+   20.332280539085275,
+   -49.250083744918044
+  ],
+  "LP2-07|False|beaufort|two": [
+   -122.04975315530538,
+   20.129752660699154,
+   -44.712097666495126
+  ],
+  "LP2-07|True|sub|one": [
+   -116.51507118972289,
+   17.95408914537885,
+   -56.46052457135185
+  ],
+  "LP2-07|True|beaufort|one": [
+   -115.57593146518086,
+   18.203871730140946,
+   -56.18265961571799
+  ],
+  "LP2-07|True|sub|two": [
+   -112.62725895746861,
+   17.42332813399009,
+   -49.70774063957506
+  ],
+  "LP2-07|True|beaufort|two": [
+   -112.06466035736568,
+   17.242928280544035,
+   -54.038607936392744
+  ],
+  "LP2-10|False|sub|one": [
+   -151.0376906609531,
+   21.58458268484491,
+   -80.25585724015433
+  ],
+  "LP2-10|False|beaufort|one": [
+   -150.33346857679274,
+   21.38300124336223,
+   -81.3258906435656
+  ],
+  "LP2-10|False|sub|two": [
+   -151.94532599203302,
+   22.14875442285419,
+   -89.62718214187261
+  ],
+  "LP2-10|False|beaufort|two": [
+   -152.40721913714478,
+   21.97581331040468,
+   -93.48387940195873
+  ],
+  "LP2-10|True|sub|one": [
+   -129.42470742773352,
+   17.933508519443148,
+   -72.9491982332137
+  ],
+  "LP2-10|True|beaufort|one": [
+   -129.11566618246547,
+   18.535110465264513,
+   -68.4219462925885
+  ],
+  "LP2-10|True|sub|two": [
+   -122.2663306545954,
+   17.101074839799395,
+   -48.19954220432578
+  ],
+  "LP2-10|True|beaufort|two": [
+   -122.40921430428358,
+   17.59492921562496,
+   -62.05961732544887
+  ],
+  "LP2-13|False|sub|one": [
+   -155.71139201275344,
+   21.748246217729566,
+   -85.38249895734485
+  ],
+  "LP2-13|False|beaufort|one": [
+   -156.09277422961642,
+   21.87883106722152,
+   -85.7013372948585
+  ],
+  "LP2-13|False|sub|two": [
+   -156.65877069781322,
+   22.084394955001997,
+   -79.43424016548683
+  ],
+  "LP2-13|False|beaufort|two": [
+   -157.1396277172464,
+   22.43392949874001,
+   -75.05338865733783
+  ],
+  "LP2-13|True|sub|one": [
+   -117.34966776356552,
+   15.173281586133688,
+   -66.53737421500325
+  ],
+  "LP2-13|True|beaufort|one": [
+   -116.37022301913933,
+   14.817853834993208,
+   -65.84227499061363
+  ],
+  "LP2-13|True|sub|two": [
+   -108.43419681613246,
+   13.823652782390392,
+   -54.549840058094304
+  ],
+  "LP2-13|True|beaufort|two": [
+   -108.81652838657133,
+   14.259703258787377,
+   -60.189547313110424
+  ],
+  "LP2-16|False|sub|one": [
+   -152.18631748564815,
+   21.64980207074825,
+   -82.41187001466702
+  ],
+  "LP2-16|False|beaufort|one": [
+   -153.2709603490949,
+   22.370870461270087,
+   -84.66113070309355
+  ],
+  "LP2-16|False|sub|two": [
+   -154.36645498985303,
+   22.06514032961422,
+   -92.8781380344307
+  ],
+  "LP2-16|False|beaufort|two": [
+   -154.98679630687647,
+   21.576911927110462,
+   -81.88504287976674
+  ],
+  "LP2-16|True|sub|one": [
+   -126.37743327335251,
+   18.340073613314846,
+   -67.013546769436
+  ],
+  "LP2-16|True|beaufort|one": [
+   -126.2205236569579,
+   18.440751908893183,
+   -72.45496478386526
+  ],
+  "LP2-16|True|sub|two": [
+   -119.17384342303468,
+   17.599316033765085,
+   -65.24893393865568
+  ],
+  "LP2-16|True|beaufort|two": [
+   -118.89534661403316,
+   17.416919253529816,
+   -64.67454597528314
+  ],
+  "LP2-19|False|sub|one": [
+   -155.27364663377892,
+   21.952490108374903,
+   -80.34371397579483
+  ],
+  "LP2-19|False|beaufort|one": [
+   -155.54641297729302,
+   22.058090086420368,
+   -86.84604711580685
+  ],
+  "LP2-19|False|sub|two": [
+   -157.05215012616944,
+   22.58252635008633,
+   -70.9619273868838
+  ],
+  "LP2-19|False|beaufort|two": [
+   -156.82133938028093,
+   22.394939979075726,
+   -89.02584326966793
+  ],
+  "LP2-19|True|sub|one": [
+   -119.26452211212892,
+   16.041009130299702,
+   -56.53141709951785
+  ],
+  "LP2-19|True|beaufort|one": [
+   -120.51410249165161,
+   16.115195100402907,
+   -65.89053067499954
+  ],
+  "LP2-19|True|sub|two": [
+   -111.6492871905957,
+   15.164980873161587,
+   -54.66108769440018
+  ],
+  "LP2-19|True|beaufort|two": [
+   -111.07621768583735,
+   15.08006349638523,
+   -53.91728488327685
+  ],
+  "LP2-22|False|sub|one": [
+   -79.70559054618239,
+   17.29162333404718,
+   -19.514881420557618
+  ],
+  "LP2-22|False|beaufort|one": [
+   -78.70257745686125,
+   16.974429940442235,
+   -14.456236224498117
+  ],
+  "LP2-22|False|sub|two": [
+   -79.6715669118085,
+   17.09798178274937,
+   -20.759178291901755
+  ],
+  "LP2-22|False|beaufort|two": [
+   -80.11705453072645,
+   17.080298561487574,
+   -26.240630704533302
+  ],
+  "LP2-22|True|sub|one": [
+   -63.77975726441867,
+   14.150588099267516,
+   -12.15830825781599
+  ],
+  "LP2-22|True|beaufort|one": [
+   -63.64919416197226,
+   13.581837181879083,
+   -22.88614722856746
+  ],
+  "LP2-22|True|sub|two": [
+   -60.50360805237206,
+   13.425431296324897,
+   -9.170552357082926
+  ],
+  "LP2-22|True|beaufort|two": [
+   -60.79755183555948,
+   12.955645048112425,
+   -20.213465875270657
+  ],
+  "LP2-25|False|sub|one": [
+   -155.29256048193352,
+   22.03840845810695,
+   -76.73580111088371
+  ],
+  "LP2-25|False|beaufort|one": [
+   -155.70410629076503,
+   21.816142460454728,
+   -86.74049544049211
+  ],
+  "LP2-25|False|sub|two": [
+   -157.1339114190474,
+   22.217546618632948,
+   -90.60033097959993
+  ],
+  "LP2-25|False|beaufort|two": [
+   -157.28062053519128,
+   22.1574493176911,
+   -93.80153251497536
+  ],
+  "LP2-25|True|sub|one": [
+   -128.7023017327263,
+   18.17968346110666,
+   -60.714453247548754
+  ],
+  "LP2-25|True|beaufort|one": [
+   -128.64265716226652,
+   17.890815380596155,
+   -70.47067131383353
+  ],
+  "LP2-25|True|sub|two": [
+   -121.07733505997955,
+   17.601078736124492,
+   -59.96520164871139
+  ],
+  "LP2-25|True|beaufort|two": [
+   -121.06872764821115,
+   17.485783238720966,
+   -62.38877583647087
+  ],
+  "LP2-28|False|sub|one": [
+   -153.55380966673175,
+   22.58667630206449,
+   -70.48147613911148
+  ],
+  "LP2-28|False|beaufort|one": [
+   -153.80685001159952,
+   21.902432317165065,
+   -86.55511666263813
+  ],
+  "LP2-28|False|sub|two": [
+   -155.24499906467622,
+   21.83201510209454,
+   -83.92172279241188
+  ],
+  "LP2-28|False|beaufort|two": [
+   -155.93006201081045,
+   22.996810236146832,
+   -81.58646796563212
+  ],
+  "LP2-28|True|sub|one": [
+   -120.11097585436126,
+   17.143725065262995,
+   -54.69507916239489
+  ],
+  "LP2-28|True|beaufort|one": [
+   -118.84640285158765,
+   17.25405669574053,
+   -65.17298228735402
+  ],
+  "LP2-28|True|sub|two": [
+   -112.39823234389092,
+   17.0323362416782,
+   -56.19048304543501
+  ],
+  "LP2-28|True|beaufort|two": [
+   -111.72010798009279,
+   16.614185163209196,
+   -50.14032675600507
+  ],
+  "LP2-31|False|sub|one": [
+   -153.52667940150943,
+   21.822344000332166,
+   -83.18284841183934
+  ],
+  "LP2-31|False|beaufort|one": [
+   -154.08370443741012,
+   22.6011058951528,
+   -81.64761211890878
+  ],
+  "LP2-31|False|sub|two": [
+   -155.04495617372638,
+   22.16595533814549,
+   -65.34550477806155
+  ],
+  "LP2-31|False|beaufort|two": [
+   -155.3787315735332,
+   22.11839368425607,
+   -81.67445703606427
+  ],
+  "LP2-31|True|sub|one": [
+   -124.72006867235606,
+   17.593575538339888,
+   -60.140281492200444
+  ],
+  "LP2-31|True|beaufort|one": [
+   -125.79105655529823,
+   17.52596310530699,
+   -75.05858289079053
+  ],
+  "LP2-31|True|sub|two": [
+   -116.99242792744315,
+   16.127874266273306,
+   -59.77005526782195
+  ],
+  "LP2-31|True|beaufort|two": [
+   -117.13126867912975,
+   16.1376237992251,
+   -69.61130518409755
+  ],
+  "LP2-34|False|sub|one": [
+   -149.8088868872444,
+   21.062513338212987,
+   -78.08531160164375
+  ],
+  "LP2-34|False|beaufort|one": [
+   -150.01772539544746,
+   21.759757324071867,
+   -79.76452790872355
+  ],
+  "LP2-34|False|sub|two": [
+   -152.03021561397233,
+   21.686631803734315,
+   -78.70059578081823
+  ],
+  "LP2-34|False|beaufort|two": [
+   -151.2748706402097,
+   21.42771652081887,
+   -84.15519984804607
+  ],
+  "LP2-34|True|sub|one": [
+   -132.4760949938128,
+   19.066288528701204,
+   -73.54543925404118
+  ],
+  "LP2-34|True|beaufort|one": [
+   -131.93560803112516,
+   19.20173989547146,
+   -59.95277780982465
+  ],
+  "LP2-34|True|sub|two": [
+   -125.40630447286955,
+   18.106493796262505,
+   -67.55821549274573
+  ],
+  "LP2-34|True|beaufort|two": [
+   -124.58691478120471,
+   18.265016901930032,
+   -66.98877449724453
+  ],
+  "LP2-37|False|sub|one": [
+   -131.1227326652963,
+   20.99965052316939,
+   -73.80102820594311
+  ],
+  "LP2-37|False|beaufort|one": [
+   -132.02371613941546,
+   20.521099990017063,
+   -60.68554287914158
+  ],
+  "LP2-37|False|sub|two": [
+   -133.1616015213244,
+   21.05498738003501,
+   -60.99126191551077
+  ],
+  "LP2-37|False|beaufort|two": [
+   -133.2004133481991,
+   20.58046596997311,
+   -57.30800531784274
+  ],
+  "LP2-37|True|sub|one": [
+   -114.34927245530535,
+   18.49003308472061,
+   -49.08480656014915
+  ],
+  "LP2-37|True|beaufort|one": [
+   -114.82594910505844,
+   17.986801549323747,
+   -52.99259648474891
+  ],
+  "LP2-37|True|sub|two": [
+   -109.78623287502477,
+   17.64873044595997,
+   -52.265109280893874
+  ],
+  "LP2-37|True|beaufort|two": [
+   -109.14111165776136,
+   18.06348766128131,
+   -57.458294416323604
+  ],
+  "LP2-40|False|sub|one": [
+   -133.43631140957132,
+   20.636358678926257,
+   -76.72637261899635
+  ],
+  "LP2-40|False|beaufort|one": [
+   -133.2764768967523,
+   20.225637825347302,
+   -64.69261618740066
+  ],
+  "LP2-40|False|sub|two": [
+   -134.79356466604503,
+   20.53517894385567,
+   -69.8822379474323
+  ],
+  "LP2-40|False|beaufort|two": [
+   -134.69536733092536,
+   20.604251721004392,
+   -64.1783162878432
+  ],
+  "LP2-40|True|sub|one": [
+   -105.67179718835867,
+   15.404515097924794,
+   -52.22961665417982
+  ],
+  "LP2-40|True|beaufort|one": [
+   -104.82242411089048,
+   15.001856777920178,
+   -25.116508471288935
+  ],
+  "LP2-40|True|sub|two": [
+   -99.23553845800684,
+   14.527005870387521,
+   -33.07023177263634
+  ],
+  "LP2-40|True|beaufort|two": [
+   -99.38786801249424,
+   14.332524035624534,
+   -47.565791365305
+  ],
+  "LP2-43|False|sub|one": [
+   -156.52249600475452,
+   22.35822965177979,
+   -72.0829114276895
+  ],
+  "LP2-43|False|beaufort|one": [
+   -156.48759488215254,
+   21.941615491486107,
+   -94.34516101390362
+  ],
+  "LP2-43|False|sub|two": [
+   -159.08661448310002,
+   22.324538705686376,
+   -76.21018766956777
+  ],
+  "LP2-43|False|beaufort|two": [
+   -158.5708251526635,
+   22.11842487079917,
+   -77.404274437214
+  ],
+  "LP2-43|True|sub|one": [
+   -111.0102148094213,
+   15.712618568845397,
+   -59.13222776120766
+  ],
+  "LP2-43|True|beaufort|one": [
+   -111.53161898333154,
+   15.531387918948363,
+   -59.830943358595356
+  ],
+  "LP2-43|True|sub|two": [
+   -103.74175769306204,
+   15.053391630320212,
+   -52.26366742329869
+  ],
+  "LP2-43|True|beaufort|two": [
+   -104.49647194933279,
+   14.504871886941082,
+   -49.94748898599015
+  ],
+  "LP2-46|False|sub|one": [
+   -154.68039845183716,
+   21.188268078054712,
+   -92.08658770878723
+  ],
+  "LP2-46|False|beaufort|one": [
+   -154.62692549072463,
+   21.624117141915733,
+   -89.45851657710243
+  ],
+  "LP2-46|False|sub|two": [
+   -156.90028580643232,
+   21.583154877841544,
+   -91.20730085242482
+  ],
+  "LP2-46|False|beaufort|two": [
+   -155.75735389635378,
+   21.884858364149792,
+   -94.95729793610953
+  ],
+  "LP2-46|True|sub|one": [
+   -126.65677423894596,
+   16.89476200891621,
+   -75.42919761318635
+  ],
+  "LP2-46|True|beaufort|one": [
+   -125.68201621745376,
+   16.71874549993362,
+   -72.48438251803502
+  ],
+  "LP2-46|True|sub|two": [
+   -116.23782173752947,
+   15.642199648768518,
+   -64.12130677422005
+  ],
+  "LP2-46|True|beaufort|two": [
+   -116.95385159409766,
+   15.772504326026622,
+   -55.02092834843377
+  ],
+  "LP2-49|False|sub|one": [
+   -42.104751032292434,
+   13.027817334177394,
+   -1.5062756846722412
+  ],
+  "LP2-49|False|beaufort|one": [
+   -41.78208377573985,
+   12.778678713100927,
+   2.8431357495397833
+  ],
+  "LP2-49|False|sub|two": [
+   -42.59464205816548,
+   13.49259497045823,
+   1.1635010838872115
+  ],
+  "LP2-49|False|beaufort|two": [
+   -42.60975205935965,
+   13.301255791481273,
+   -2.3955590401127
+  ],
+  "LP2-49|True|sub|one": [
+   -33.61731259727908,
+   10.01823589613646,
+   1.2259013531600105
+  ],
+  "LP2-49|True|beaufort|one": [
+   -33.50657434368783,
+   10.22733123363303,
+   -1.7064046143774472
+  ],
+  "LP2-49|True|sub|two": [
+   -31.899239364219138,
+   9.719975905243812,
+   -4.143781511123225
+  ],
+  "LP2-49|True|beaufort|two": [
+   -31.884228144352036,
+   9.541606332484362,
+   3.3215610766335493
+  ],
+  "LP2-53|False|sub|one": [
+   -105.53786236041788,
+   18.872792987244623,
+   -49.67872413317744
+  ],
+  "LP2-53|False|beaufort|one": [
+   -105.23791918563326,
+   19.3615613822799,
+   -47.917835205553544
+  ],
+  "LP2-53|False|sub|two": [
+   -106.9642696076901,
+   19.465816781452318,
+   -48.79460706925052
+  ],
+  "LP2-53|False|beaufort|two": [
+   -106.06733373514052,
+   19.215094392308178,
+   -41.16853706818812
+  ],
+  "LP2-53|True|sub|one": [
+   -92.36457718818285,
+   17.291165636809684,
+   -36.38478611314093
+  ],
+  "LP2-53|True|beaufort|one": [
+   -91.21006092254561,
+   16.860016203951897,
+   -38.66918689710516
+  ],
+  "LP2-53|True|sub|two": [
+   -88.75300199610979,
+   15.872793883554804,
+   -39.77684533664329
+  ],
+  "LP2-53|True|beaufort|two": [
+   -89.27063749180937,
+   16.754985796076387,
+   -36.796900491998414
+  ],
+  "LP2-02|False|sub|one": [
+   -118.38880813751018,
+   19.871349649039875,
+   -59.786407901614766
+  ],
+  "LP2-02|False|beaufort|one": [
+   -117.23853842948408,
+   20.05641183168843,
+   -45.64130461065132
+  ],
+  "LP2-02|False|sub|two": [
+   -118.20451309786961,
+   20.094062873426516,
+   -59.949542445343674
+  ],
+  "LP2-02|False|beaufort|two": [
+   -119.26787853262739,
+   20.22223848087942,
+   -55.624994890378616
+  ],
+  "LP2-02|True|sub|one": [
+   -96.88642191518726,
+   16.05532068168203,
+   -45.065308185399964
+  ],
+  "LP2-02|True|beaufort|one": [
+   -96.50994926398128,
+   16.566847479631097,
+   -41.29000594885488
+  ],
+  "LP2-02|True|sub|two": [
+   -92.59623746631804,
+   15.720089664378216,
+   -37.21359948313763
+  ],
+  "LP2-02|True|beaufort|two": [
+   -92.74664677500466,
+   16.257214875189252,
+   -42.173762403015395
+  ],
+  "LP2-05|False|sub|one": [
+   -151.3454577044284,
+   21.622368822717014,
+   -77.10783932800385
+  ],
+  "LP2-05|False|beaufort|one": [
+   -151.26737304922207,
+   21.267467932055638,
+   -68.33632651425792
+  ],
+  "LP2-05|False|sub|two": [
+   -152.07257385569787,
+   22.041149178164034,
+   -78.56958471719898
+  ],
+  "LP2-05|False|beaufort|two": [
+   -152.2355815357484,
+   22.664264688733873,
+   -82.38050897315148
+  ],
+  "LP2-05|True|sub|one": [
+   -123.83195333559264,
+   16.643894175545995,
+   -62.79039636730728
+  ],
+  "LP2-05|True|beaufort|one": [
+   -123.5701864069608,
+   16.545028370710696,
+   -70.83114623938326
+  ],
+  "LP2-05|True|sub|two": [
+   -115.60528613458108,
+   15.108561344903025,
+   -61.921465292071574
+  ],
+  "LP2-05|True|beaufort|two": [
+   -115.49443894609237,
+   15.66155978951685,
+   -51.62825702538393
+  ],
+  "LP2-08|False|sub|one": [
+   -146.85361482918623,
+   21.567912609462354,
+   -71.73180740714184
+  ],
+  "LP2-08|False|beaufort|one": [
+   -145.91550115393883,
+   21.36635150735199,
+   -74.73796316458397
+  ],
+  "LP2-08|False|sub|two": [
+   -147.3042572240553,
+   21.941728774218497,
+   -77.67021063792035
+  ],
+  "LP2-08|False|beaufort|two": [
+   -148.26939806857138,
+   21.830030115583764,
+   -75.35249273727626
+  ],
+  "LP2-08|True|sub|one": [
+   -126.42944861565444,
+   18.48439901331239,
+   -58.61092307910741
+  ],
+  "LP2-08|True|beaufort|one": [
+   -126.3450238778407,
+   19.215438667318914,
+   -69.96413172007567
+  ],
+  "LP2-08|True|sub|two": [
+   -119.71484140685503,
+   17.331891308601463,
+   -64.06614711528138
+  ],
+  "LP2-08|True|beaufort|two": [
+   -119.41451002653223,
+   18.12825174378417,
+   -56.77649219460053
+  ],
+  "LP2-11|False|sub|one": [
+   -156.61537931542244,
+   22.153198125913356,
+   -76.70366903598574
+  ],
+  "LP2-11|False|beaufort|one": [
+   -154.89714028848482,
+   21.93805238224338,
+   -92.67338207400213
+  ],
+  "LP2-11|False|sub|two": [
+   -158.17946830501612,
+   22.130245509229287,
+   -79.21426691201113
+  ],
+  "LP2-11|False|beaufort|two": [
+   -156.9103256790851,
+   22.24520806634096,
+   -67.10645061164315
+  ],
+  "LP2-11|True|sub|one": [
+   -114.3473858482701,
+   15.438257959940342,
+   -66.5215506473159
+  ],
+  "LP2-11|True|beaufort|one": [
+   -114.29141664918768,
+   15.557782209697542,
+   -53.82593796938688
+  ],
+  "LP2-11|True|sub|two": [
+   -105.58587053667658,
+   14.563460809535046,
+   -56.453215641507235
+  ],
+  "LP2-11|True|beaufort|two": [
+   -106.58499103005218,
+   14.727696518766836,
+   -58.037798932921596
+  ],
+  "LP2-14|False|sub|one": [
+   -82.82912911520316,
+   17.32303907067995,
+   -21.60676403155405
+  ],
+  "LP2-14|False|beaufort|one": [
+   -82.61484252849137,
+   17.94476168593294,
+   -25.24437301761581
+  ],
+  "LP2-14|False|sub|two": [
+   -83.32669365120191,
+   17.570441440648594,
+   -30.886063108229852
+  ],
+  "LP2-14|False|beaufort|two": [
+   -82.84763827486614,
+   17.310217588251913,
+   -27.713829959125725
+  ],
+  "LP2-14|True|sub|one": [
+   -73.55750089867736,
+   14.027132080242492,
+   -28.27291912266373
+  ],
+  "LP2-14|True|beaufort|one": [
+   -73.1697595226669,
+   14.491877247712647,
+   -26.463756540218416
+  ],
+  "LP2-14|True|sub|two": [
+   -69.75333797932718,
+   13.712541002840206,
+   -17.06379319861291
+  ],
+  "LP2-14|True|beaufort|two": [
+   -70.12577221553956,
+   13.143286248783813,
+   -31.327384212503294
+  ],
+  "LP2-17|False|sub|one": [
+   -156.59399642737606,
+   21.83726470609177,
+   -82.45447052028697
+  ],
+  "LP2-17|False|beaufort|one": [
+   -156.47355598801207,
+   21.679638947393112,
+   -87.7807765595958
+  ],
+  "LP2-17|False|sub|two": [
+   -157.03740910642938,
+   22.107314575227143,
+   -76.73325585831707
+  ],
+  "LP2-17|False|beaufort|two": [
+   -157.40478166243258,
+   21.84116786094371,
+   -62.36649248362937
+  ],
+  "LP2-17|True|sub|one": [
+   -125.02024724602309,
+   17.743104640391365,
+   -63.5448340530991
+  ],
+  "LP2-17|True|beaufort|one": [
+   -124.99580097491366,
+   17.251244083329468,
+   -68.28624114093863
+  ],
+  "LP2-17|True|sub|two": [
+   -119.79462406757456,
+   16.688450705480403,
+   -61.86254684106597
+  ],
+  "LP2-17|True|beaufort|two": [
+   -119.1555096527905,
+   16.79693105799378,
+   -60.256726297128964
+  ],
+  "LP2-20|False|sub|one": [
+   -153.6232131775812,
+   22.12131332952332,
+   -78.31451509028597
+  ],
+  "LP2-20|False|beaufort|one": [
+   -154.12291167802474,
+   21.426231238573884,
+   -82.11271852624168
+  ],
+  "LP2-20|False|sub|two": [
+   -155.7414425892322,
+   22.250257683518157,
+   -74.89976148401772
+  ],
+  "LP2-20|False|beaufort|two": [
+   -156.06022074492907,
+   22.538157676245724,
+   -90.25479222998062
+  ],
+  "LP2-20|True|sub|one": [
+   -131.68059690626833,
+   17.18466199317523,
+   -75.16419511577838
+  ],
+  "LP2-20|True|beaufort|one": [
+   -131.223491229498,
+   17.594200410663777,
+   -53.9421658575091
+  ],
+  "LP2-20|True|sub|two": [
+   -124.62752662386299,
+   16.98889563308539,
+   -69.727873003914
+  ],
+  "LP2-20|True|beaufort|two": [
+   -123.87975172428466,
+   16.80930428535539,
+   -69.2957015695627
+  ],
+  "LP2-23|False|sub|one": [
+   -123.34400053022901,
+   20.504535834061688,
+   -56.247197241972934
+  ],
+  "LP2-23|False|beaufort|one": [
+   -123.91738600435158,
+   19.744677665850734,
+   -59.11211885737715
+  ],
+  "LP2-23|False|sub|two": [
+   -124.91776585628517,
+   20.35669188885838,
+   -49.04016074255651
+  ],
+  "LP2-23|False|beaufort|two": [
+   -124.14105036288198,
+   20.299907454336484,
+   -62.29451989372273
+  ],
+  "LP2-23|True|sub|one": [
+   -104.6872633672067,
+   17.508655593917705,
+   -42.82051322692997
+  ],
+  "LP2-23|True|beaufort|one": [
+   -104.44696952961249,
+   17.30555203531844,
+   -46.82501287140644
+  ],
+  "LP2-23|True|sub|two": [
+   -98.30345314690825,
+   16.27926380871293,
+   -37.5628048404599
+  ],
+  "LP2-23|True|beaufort|two": [
+   -99.14747392256176,
+   17.260310539374178,
+   -45.59403199166606
+  ],
+  "LP2-26|False|sub|one": [
+   -152.58056651515366,
+   21.826126239258333,
+   -76.92922132992122
+  ],
+  "LP2-26|False|beaufort|one": [
+   -152.02127032372803,
+   21.405791889647094,
+   -76.81602869740945
+  ],
+  "LP2-26|False|sub|two": [
+   -154.00593727283078,
+   21.727590076667934,
+   -89.07917673804688
+  ],
+  "LP2-26|False|beaufort|two": [
+   -153.65048156472855,
+   22.313834126695994,
+   -87.11044399134397
+  ],
+  "LP2-26|True|sub|one": [
+   -125.91366693902941,
+   17.898786794024705,
+   -62.2999368363177
+  ],
+  "LP2-26|True|beaufort|one": [
+   -126.1336856622895,
+   17.70819644715385,
+   -69.34236634532596
+  ],
+  "LP2-26|True|sub|two": [
+   -118.37465239744283,
+   16.90833180095022,
+   -67.67138400348972
+  ],
+  "LP2-26|True|beaufort|two": [
+   -118.5912921336033,
+   16.697724266233326,
+   -63.113889476568545
+  ],
+  "LP2-29|False|sub|one": [
+   -157.45717919265638,
+   22.149426543299082,
+   -88.56094878842288
+  ],
+  "LP2-29|False|beaufort|one": [
+   -157.66273558547599,
+   21.24037036249538,
+   -80.79356780703512
+  ],
+  "LP2-29|False|sub|two": [
+   -159.61294752894108,
+   22.482995879365383,
+   -93.15721833467676
+  ],
+  "LP2-29|False|beaufort|two": [
+   -159.69416219376706,
+   22.405125493633175,
+   -68.24681242040735
+  ],
+  "LP2-29|True|sub|one": [
+   -134.9135573814272,
+   18.44728158862643,
+   -73.2403915519265
+  ],
+  "LP2-29|True|beaufort|one": [
+   -134.79875287054386,
+   18.45812056746506,
+   -72.81363733603112
+  ],
+  "LP2-29|True|sub|two": [
+   -128.06893104531065,
+   17.65304352570699,
+   -71.28156237763112
+  ],
+  "LP2-29|True|beaufort|two": [
+   -128.6488080773253,
+   17.57309942366732,
+   -73.0464918762515
+  ],
+  "LP2-32|False|sub|one": [
+   -74.12634361150415,
+   16.777923606971115,
+   -24.561449215291585
+  ],
+  "LP2-32|False|beaufort|one": [
+   -73.26748308126345,
+   16.919621090436426,
+   -25.476482639718824
+  ],
+  "LP2-32|False|sub|two": [
+   -74.61773184733345,
+   16.885412569517843,
+   -21.477769467414074
+  ],
+  "LP2-32|False|beaufort|two": [
+   -73.89205460047557,
+   17.047279481845905,
+   -20.28394462488236
+  ],
+  "LP2-32|True|sub|one": [
+   -62.22773120617765,
+   13.629404107851737,
+   -21.223692293584982
+  ],
+  "LP2-32|True|beaufort|one": [
+   -62.49856719320234,
+   13.752048856697174,
+   -10.958512286257129
+  ],
+  "LP2-32|True|sub|two": [
+   -60.42612183529123,
+   13.237969612145822,
+   -15.127652928789967
+  ],
+  "LP2-32|True|beaufort|two": [
+   -59.94957278395968,
+   13.145480076655685,
+   -16.730664848472756
+  ],
+  "LP2-35|False|sub|one": [
+   -154.94041560933397,
+   22.12824926842781,
+   -88.90914423717415
+  ],
+  "LP2-35|False|beaufort|one": [
+   -156.23672724585165,
+   21.62364191631903,
+   -86.80239097825825
+  ],
+  "LP2-35|False|sub|two": [
+   -156.60374550791437,
+   22.41903310719366,
+   -84.72619610828599
+  ],
+  "LP2-35|False|beaufort|two": [
+   -157.95065883490577,
+   22.07889570783313,
+   -95.43035798338342
+  ],
+  "LP2-35|True|sub|one": [
+   -141.61845887151418,
+   19.623333632433066,
+   -76.66055175465537
+  ],
+  "LP2-35|True|beaufort|one": [
+   -141.45610645884884,
+   19.12724678217606,
+   -76.23958928927684
+  ],
+  "LP2-35|True|sub|two": [
+   -134.59518288531197,
+   18.202102221986188,
+   -73.65952893757687
+  ],
+  "LP2-35|True|beaufort|two": [
+   -134.67671801658068,
+   17.909806573942372,
+   -79.16822796511295
+  ],
+  "LP2-38|False|sub|one": [
+   -132.21354935951962,
+   20.57357240432894,
+   -57.34145951659594
+  ],
+  "LP2-38|False|beaufort|one": [
+   -131.8608153061743,
+   21.376697745874438,
+   -63.65918359018178
+  ],
+  "LP2-38|False|sub|two": [
+   -133.8018876300327,
+   21.090462744522593,
+   -50.428565482054246
+  ],
+  "LP2-38|False|beaufort|two": [
+   -133.4015342701848,
+   21.403039326790307,
+   -66.76948021485656
+  ],
+  "LP2-38|True|sub|one": [
+   -120.04253029453386,
+   17.456216233714155,
+   -61.78804518447233
+  ],
+  "LP2-38|True|beaufort|one": [
+   -119.42033308262899,
+   17.509386465547127,
+   -61.7113591671895
+  ],
+  "LP2-38|True|sub|two": [
+   -114.76133732439787,
+   16.693715092811576,
+   -63.38301608404303
+  ],
+  "LP2-38|True|beaufort|two": [
+   -114.19242311413376,
+   16.069387002025845,
+   -65.83720233133609
+  ],
+  "LP2-41|False|sub|one": [
+   -155.64329198583678,
+   21.721281133991194,
+   -79.38802432022058
+  ],
+  "LP2-41|False|beaufort|one": [
+   -156.79364894627133,
+   22.509233712054417,
+   -78.54956936345286
+  ],
+  "LP2-41|False|sub|two": [
+   -157.36300439997046,
+   22.003182249562602,
+   -66.2823849299162
+  ],
+  "LP2-41|False|beaufort|two": [
+   -157.0822900479438,
+   22.282689932911214,
+   -81.45184088889283
+  ],
+  "LP2-41|True|sub|one": [
+   -122.95449519938872,
+   16.680495048372418,
+   -62.99071867445196
+  ],
+  "LP2-41|True|beaufort|one": [
+   -122.91957642157341,
+   16.98176831762486,
+   -61.81206761024819
+  ],
+  "LP2-41|True|sub|two": [
+   -114.64255228877764,
+   16.100312944430446,
+   -48.43494175669042
+  ],
+  "LP2-41|True|beaufort|two": [
+   -114.97104057113957,
+   15.792566982899608,
+   -63.252937844547574
+  ],
+  "LP2-44|False|sub|one": [
+   -156.00760943550674,
+   22.203294585946463,
+   -86.00864063347161
+  ],
+  "LP2-44|False|beaufort|one": [
+   -156.2744182739467,
+   22.25133629052921,
+   -84.19395101046686
+  ],
+  "LP2-44|False|sub|two": [
+   -158.23435238376797,
+   22.477395567010714,
+   -83.01921772664842
+  ],
+  "LP2-44|False|beaufort|two": [
+   -157.97056088658405,
+   22.143734568553267,
+   -85.04077697369428
+  ],
+  "LP2-44|True|sub|one": [
+   -119.96597775935781,
+   16.458207282808644,
+   -65.2359865919764
+  ],
+  "LP2-44|True|beaufort|one": [
+   -120.17335062125166,
+   16.53274136054972,
+   -62.811094413698555
+  ],
+  "LP2-44|True|sub|two": [
+   -112.08610225878193,
+   15.871289057406818,
+   -61.46185975919297
+  ],
+  "LP2-44|True|beaufort|two": [
+   -111.75234343086689,
+   15.645211739041013,
+   -61.17125208391531
+  ],
+  "LP2-47|False|sub|one": [
+   -157.29100245436342,
+   21.589218700696772,
+   -95.63737762755389
+  ],
+  "LP2-47|False|beaufort|one": [
+   -156.17264388953276,
+   22.143578237783036,
+   -83.56410970033667
+  ],
+  "LP2-47|False|sub|two": [
+   -157.2763607592386,
+   21.49500857884909,
+   -78.881393324809
+  ],
+  "LP2-47|False|beaufort|two": [
+   -157.41688673128363,
+   22.345758837495378,
+   -78.1898631500186
+  ],
+  "LP2-47|True|sub|one": [
+   -127.97703821341885,
+   17.2720695878258,
+   -68.8915499614851
+  ],
+  "LP2-47|True|beaufort|one": [
+   -128.01181227809886,
+   17.018910077144444,
+   -71.63562100796013
+  ],
+  "LP2-47|True|sub|two": [
+   -119.94264600442877,
+   15.805779545562704,
+   -59.94085171318086
+  ],
+  "LP2-47|True|beaufort|two": [
+   -119.67742023542401,
+   15.781625749508756,
+   -55.374085547792355
+  ],
+  "LP2-51|False|sub|one": [
+   -57.069411794686005,
+   14.463210840719961,
+   -14.336011039567985
+  ],
+  "LP2-51|False|beaufort|one": [
+   -56.93445592800027,
+   14.64275689521082,
+   -15.426040095406366
+  ],
+  "LP2-51|False|sub|two": [
+   -57.57496994027944,
+   14.799743492413645,
+   -15.79142632469198
+  ],
+  "LP2-51|False|beaufort|two": [
+   -58.03778456421511,
+   15.019193521085338,
+   -16.520936371989333
+  ],
+  "LP2-51|True|sub|one": [
+   -45.683742464740455,
+   11.808276050246464,
+   0.2747855129219756
+  ],
+  "LP2-51|True|beaufort|one": [
+   -46.2003143848857,
+   11.711754503574369,
+   -4.922384735105178
+  ],
+  "LP2-51|True|sub|two": [
+   -43.82818051538196,
+   11.148360743956319,
+   -6.728653558139252
+  ],
+  "LP2-51|True|beaufort|two": [
+   -44.01211594531049,
+   10.893024128210323,
+   -3.4540334948769136
+  ],
+  "LP2-54|False|sub|one": [
+   -134.11548756631336,
+   20.46414862177614,
+   -70.82451765064963
+  ],
+  "LP2-54|False|beaufort|one": [
+   -133.98504749907238,
+   20.947472879058893,
+   -72.21415678395844
+  ],
+  "LP2-54|False|sub|two": [
+   -136.10735361212892,
+   20.813280112624277,
+   -68.87952229143289
+  ],
+  "LP2-54|False|beaufort|two": [
+   -135.0957895568077,
+   21.13155552027266,
+   -57.80546966618205
+  ],
+  "LP2-54|True|sub|one": [
+   -123.42933277518419,
+   18.238616091041756,
+   -62.6851327018574
+  ],
+  "LP2-54|True|beaufort|one": [
+   -123.82684790610911,
+   17.98219453462579,
+   -63.87574212108549
+  ],
+  "LP2-54|True|sub|two": [
+   -117.45227271789085,
+   17.1794616181029,
+   -64.50849055681554
+  ],
+  "LP2-54|True|beaufort|two": [
+   -117.46824498418466,
+   17.262728030395195,
+   -60.49095111047955
+  ]
+ },
+ "pages_done": 55
+}

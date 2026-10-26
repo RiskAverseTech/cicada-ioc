@@ -1,0 +1,32 @@
+A lcg mod 3301: 9,902 keystreams x 3 signs x 1 rejection modes
+B lcg mod 1033: 1,033 keystreams x 3 signs x 2 rejection modes
+C lcg mod 29: 21,953 keystreams x 3 signs x 1 rejection modes
+D word keys with clock multiplier: 1,624 keystreams x 3 signs x 1 rejection modes
+E prime-gap stream with clock multiplier: 82,824 keystreams x 1 signs x 1 rejection modes
+F prime_value ciphertext feedback over the book text: 2,977 keystreams x 3 signs x 2 rejection modes
+F totient_value ciphertext feedback over the book text: 2,977 keystreams x 3 signs x 2 rejection modes
+225,183 configurations per page x 55 pages x 2 F variants = 24,770,130 tests; chance max ~ 5.8 sigma
+shard 1/3: 18 pages, controls and checks run in shard 0
+decode_lane == score.decode without hooks: ok
+null check on LP2-00: plain -149.1 ± 21.2; with multiplier schedules -150.6 ± 21.9; with feedback-corrected C -149.8 ± 21.8
+controls done in 6s
+  LP2-01 done (1/18), best z 4.62  [414s]
+  LP2-04 done (2/18), best z 4.73  [778s]
+  LP2-07 done (3/18), best z 4.50  [998s]
+  LP2-10 done (4/18), best z 4.26  [1218s]
+  LP2-13 done (5/18), best z 4.10  [1455s]
+  LP2-16 done (6/18), best z 4.37  [1681s]
+  LP2-19 done (7/18), best z 4.70  [1924s]
+  LP2-22 done (8/18), best z 4.13  [2034s]
+  LP2-25 done (9/18), best z 4.25  [2262s]
+  LP2-28 done (10/18), best z 4.28  [2487s]
+  LP2-31 done (11/18), best z 4.50  [2700s]
+  LP2-34 done (12/18), best z 4.23  [2898s]
+  LP2-37 done (13/18), best z 4.17  [3072s]
+  LP2-40 done (14/18), best z 4.57  [3255s]
+  LP2-43 done (15/18), best z 4.52  [3507s]
+  LP2-46 done (16/18), best z 4.55  [3725s]
+  LP2-49 done (17/18), best z 4.50  [3777s]
+  LP2-53 done (18/18), best z 4.41  [3907s]
+shard 1/3 done in 65 min
+exit 0

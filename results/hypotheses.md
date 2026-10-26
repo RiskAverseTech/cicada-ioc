@@ -206,3 +206,5 @@ Result: 58 proposals, 45 pass the pre-registered rule, 24 pass strict. All three
 ```
 
 Files touched by this session: `src/hypothesis_loop.py`, `results/hypotheses.md`, `results/hypotheses.json`, `results/hypotheses/` (brief, schema, raw responses, run logs), `docs/hypothesis-loop.md`. README.md untouched; nothing committed.
+
+**Follow-up (2026-10-26):** the short list above was swept under the skip decoder in `src/shortlist_lane.py`, results in `results/shortlist.md`: 24,770,130 tests, 14 planted controls recovered, no page decrypts (largest z 5.21, chance maximum about 5.8). The LCG seed and word-key-with-multiplier families replicate phase 8 (`results/phase8.md`, README §18); the prime-gap stream under every clock multiplier and the prime-value and totient-value ciphertext feedback over the book's text are excluded there for the first time. Feedback over an LCG base remains unrun.

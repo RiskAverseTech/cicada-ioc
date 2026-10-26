@@ -1,0 +1,9 @@
+
+Largest z over all 24,770,130 tests: 5.21 (LP2-33, B lcg mod 1033, 'lcg1033(a=202,c=29)@241').
+
+## Verdict
+
+**No page decrypts.** The six families the hypothesis loop left standing (LCG seeds mod 3301, 1033 and 29; the two published word keys and the prime-gap stream with every clock multiplier; Gematria prime-value and totient-value ciphertext feedback over the book's own text at every offset), under the soft reject-on-repeat rule at the stated sign conventions and both F variants, are excluded at the sensitivity the controls demonstrate.
+
+Wall time 69 min (longest shard).
+merge exit 0
