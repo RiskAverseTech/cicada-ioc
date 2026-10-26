@@ -1,4 +1,18 @@
-# Liber Primus: is any keystream reused across the unsolved pages?
+# Liber Primus (Cicada 3301): pre-registered cryptanalysis of the unsolved pages
+
+**Status (2026-10-26).** Eight pre-registered analyses on the 56 unsolved pages, each with planted
+controls, each a negative result reported as one; a three-model hypothesis loop gated on the pages'
+own statistics (§17); and a ledger against the other public 2026 labs (`results/ledger_diff.md`).
+A sweep of the loop's remaining short-list families is running and will be added as §19. Nothing
+here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
+was known to the community a decade ago; this repository's contribution is independent
+replication with controls, the exclusion of every key family anyone has named for it, and the
+tooling to test the next one in minutes. Sources and pinned revisions: `SOURCES.md`. Licence: MIT.
+The transcription in `data/raw/` is rtkd/iddqd's; the Latin and Old English corpora are public domain.
+
+---
+
+# Phase 1: is any keystream reused across the unsolved pages?
 
 A depth-two (key-reuse) index-of-coincidence test on the 56 unsolved pages of Cicada
 3301's Liber Primus, preceded by the computation that decides whether such a test can
