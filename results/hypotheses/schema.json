@@ -1,0 +1,216 @@
+{
+ "type": "object",
+ "additionalProperties": false,
+ "properties": {
+  "proposals": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "rank": {
+      "type": "integer"
+     },
+     "name": {
+      "type": "string"
+     },
+     "rationale": {
+      "type": "string"
+     },
+     "predicted_doublets": {
+      "type": "integer"
+     },
+     "key_source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+       "type": {
+        "type": "string",
+        "enum": [
+         "uniform",
+         "lcg",
+         "prime",
+         "totient",
+         "prime_plus1",
+         "prime_gap",
+         "fibonacci",
+         "lucas",
+         "position",
+         "word",
+         "running_text",
+         "cipher_feedback",
+         "plain_feedback"
+        ]
+       },
+       "offset": {
+        "type": "integer"
+       },
+       "period": {
+        "type": "integer"
+       },
+       "text": {
+        "type": "string"
+       },
+       "lag": {
+        "type": "integer"
+       },
+       "map": {
+        "type": "string",
+        "enum": [
+         "identity",
+         "atbash",
+         "shift",
+         "affine",
+         "prime_value",
+         "totient_value",
+         "square",
+         "random_bijection"
+        ]
+       },
+       "base": {
+        "type": "string",
+        "enum": [
+         "none",
+         "uniform",
+         "lcg",
+         "prime",
+         "totient",
+         "prime_plus1",
+         "fibonacci",
+         "lucas",
+         "position",
+         "word",
+         "running_text"
+        ]
+       },
+       "a": {
+        "type": "integer"
+       },
+       "b": {
+        "type": "integer"
+       },
+       "c": {
+        "type": "integer"
+       },
+       "modulus": {
+        "type": "integer"
+       }
+      },
+      "required": [
+       "type",
+       "offset",
+       "period",
+       "text",
+       "lag",
+       "map",
+       "base",
+       "a",
+       "b",
+       "c",
+       "modulus"
+      ]
+     },
+     "combine": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+       "rule": {
+        "type": "string",
+        "enum": [
+         "add",
+         "sub",
+         "beaufort",
+         "affine"
+        ]
+       },
+       "multiplier": {
+        "type": "integer"
+       },
+       "multiplier_source": {
+        "type": "string",
+        "enum": [
+         "const",
+         "position",
+         "key2"
+        ]
+       },
+       "a": {
+        "type": "integer"
+       },
+       "b": {
+        "type": "integer"
+       }
+      },
+      "required": [
+       "rule",
+       "multiplier",
+       "multiplier_source",
+       "a",
+       "b"
+      ]
+     },
+     "repeat_rule": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+       "rule": {
+        "type": "string",
+        "enum": [
+         "none",
+         "redraw",
+         "skip",
+         "bump"
+        ]
+       },
+       "p": {
+        "type": "number"
+       },
+       "k": {
+        "type": "integer"
+       },
+       "delta": {
+        "type": "integer"
+       },
+       "target": {
+        "type": "string",
+        "enum": [
+         "cipher",
+         "key",
+         "plain"
+        ]
+       }
+      },
+      "required": [
+       "rule",
+       "p",
+       "k",
+       "delta",
+       "target"
+      ]
+     },
+     "f_rule": {
+      "type": "string",
+      "enum": [
+       "none",
+       "literal_f",
+       "literal_f_consumes"
+      ]
+     }
+    },
+    "required": [
+     "rank",
+     "name",
+     "rationale",
+     "predicted_doublets",
+     "key_source",
+     "combine",
+     "repeat_rule",
+     "f_rule"
+    ]
+   }
+  }
+ },
+ "required": [
+  "proposals"
+ ]
+}

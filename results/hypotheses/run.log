@@ -1,0 +1,182 @@
+observed: doublets 86, lag-1 class chi2 42.1, unigram chi2 26.4, IC 0.0345
+
+== gate calibration (hand-built constructions, no API) ==
+  [calibration] uniform; add; no repeat rule; F=none
+      doublets 446 (z -16.7) | lag-1 χ² 27 (+2.2) | uni χ² 28 (-0.3) | IC 0.0345 (-0.3) -> fail; finite=False swept=n/a [0.1s]
+  [calibration] uniform; add; redraw p=0.81; F=none
+      doublets 87 (z -0.1) | lag-1 χ² 27 (+2.0) | uni χ² 26 (+0.0) | IC 0.0345 (+0.0) -> PASS; finite=False swept=n/a [0.3s]
+  [calibration] random key len 13; add; skip k=1 p=0.81; F=none
+      doublets 88 (z -0.1) | lag-1 χ² 175 (-2.4) | uni χ² 797 (-2.4) | IC 0.0365 (-2.4) -> PASS; finite=False swept=yes [0.3s]
+  [calibration] totient[n+0]; add; skip k=1 p=0.81; F=literal_f
+      doublets 100 (z -1.6) | lag-1 χ² 199 (-5.5) | uni χ² 143 (-4.4) | IC 0.0348 (-4.4) -> fail; finite=True swept=yes [0.2s]
+  [calibration] C-feedback lag 1 map identity; add; no repeat rule; F=none
+      doublets 207 (z -8.5) | lag-1 χ² 9913 (-62.0) | uni χ² 29 (-0.3) | IC 0.0345 (-0.3) -> fail; finite=True swept=yes [0.1s]
+  [calibration] uniform; add; bump δ=1 p=0.81; F=none
+      doublets 86 (z +0.1) | lag-1 χ² 304 (-6.1) | uni χ² 27 (-0.1) | IC 0.0345 (-0.1) -> fail; finite=False swept=n/a [0.2s]
+  [calibration] uniform; add; skip k=1 p=1.00 on key; F=none
+      doublets 449 (z -15.6) | lag-1 χ² 29 (+1.6) | uni χ² 28 (-0.2) | IC 0.0345 (-0.2) -> fail; finite=False swept=n/a [0.2s]
+  [calibration] word 'DIVINITY'; add; no repeat rule; F=literal_f
+      doublets 504 (z -22.1) | lag-1 χ² 188 (-5.4) | uni χ² 2589 (-30.4) | IC 0.0413 (-30.4) -> fail; finite=True swept=yes [0.1s]
+
+brief: 18,655 chars (+ menu 3,501); rough token estimate 5,539
+proposers with keys: ['claude', 'gpt', 'grok']
+round-1 prompt: 11342 tokens by the Anthropic token counter
+
+== round 1: asking claude (claude-fable-5-1) ==
+  claude: reusing saved response round1_claude.json (no new API call)
+  claude: 12868 in / 20313 out, stop=end_turn, served by claude-fable-5-1, 298.0s, $1.14 (running $2.47)
+  claude: 13 proposals
+  [claude] C-feedback lag 1 map identity + totient; add; skip k=1 p=0.81; F=none
+      doublets 88 (z -0.2) | lag-1 χ² 87 (-2.3) | uni χ² 26 (+0.0) | IC 0.0345 (+0.0) -> PASS; finite=True swept=partly [0.2s]
+  [claude] C-feedback lag 1 map identity + prime; beaufort; skip k=1 p=0.81; F=none
+      doublets 86 (z -0.0) | lag-1 χ² 96 (-2.9) | uni χ² 27 (-0.0) | IC 0.0345 (-0.0) -> PASS; finite=True swept=partly [0.2s]
+  [claude] P-feedback lag 1 map identity + totient; add; skip k=1 p=0.81; F=none
+      doublets 87 (z -0.2) | lag-1 χ² 276 (-5.9) | uni χ² 29 (-0.3) | IC 0.0345 (-0.3) -> fail; finite=True swept=partly [0.2s]
+  [claude] lcg(a=1033,c=0,m=3301); add; redraw p=0.81; F=none
+      doublets 87 (z -0.1) | lag-1 χ² 27 (+2.3) | uni χ² 27 (-0.1) | IC 0.0345 (-0.1) -> PASS; finite=True swept=partly [0.4s]
+  [claude] totient[n+0]; affine m=position; skip k=1 p=0.81; F=none
+      doublets 86 (z +0.0) | lag-1 χ² 89 (-2.8) | uni χ² 33 (-0.8) | IC 0.0345 (-0.8) -> PASS; finite=True swept=partly [0.2s]
+  [claude] prime[n+0]; affine m=3; skip k=1 p=0.81; F=none
+      doublets 84 (z +0.2) | lag-1 χ² 190 (-5.5) | uni χ² 41 (-1.5) | IC 0.0345 (-1.5) -> fail; finite=True swept=partly [0.2s]
+  [claude] 3n²+3n+1; add; skip k=1 p=0.81; F=none
+      doublets 87 (z -0.1) | lag-1 χ² 35 (+0.8) | uni χ² 356 (-8.7) | IC 0.0354 (-8.7) -> fail; finite=True swept=yes [0.2s]
+  [claude] C-feedback lag 1 map identity + prime_plus1; sub; skip k=1 p=0.81; F=none
+      doublets 85 (z +0.1) | lag-1 χ² 70 (-1.8) | uni χ² 27 (-0.1) | IC 0.0345 (-0.1) -> PASS; finite=True swept=partly [0.2s]
+  [claude] lcg(a=2,c=24,m=29); add; skip k=1 p=0.81; F=none
+      doublets 91 (z -0.4) | lag-1 χ² 39 (+0.3) | uni χ² 41 (-1.0) | IC 0.0345 (-1.0) -> PASS; finite=True swept=partly [0.9s]
+  [claude] C-feedback lag 1 map identity + uniform; add; redraw p=0.81; F=none
+      doublets 87 (z -0.1) | lag-1 χ² 27 (+2.1) | uni χ² 26 (+0.1) | IC 0.0345 (+0.1) -> PASS; finite=False swept=partly [0.3s]
+  [claude] C-feedback lag 2 map identity + totient; add; skip k=1 p=0.81; F=none
+      doublets 85 (z +0.1) | lag-1 χ² 71 (-1.7) | uni χ² 28 (-0.2) | IC 0.0345 (-0.2) -> PASS; finite=True swept=partly [0.3s]
+  [claude] uniform; add; redraw p=1.00; F=literal_f
+      doublets 23 (z +15.0) | lag-1 χ² 28 (+1.8) | uni χ² 113 (-4.0) | IC 0.0347 (-4.0) -> fail; finite=False swept=n/a [0.3s]
+  [claude] uniform; affine m=key2; redraw p=0.80; F=none
+      doublets 92 (z -0.6) | lag-1 χ² 27 (+2.2) | uni χ² 27 (-0.0) | IC 0.0345 (-0.0) -> PASS; finite=False swept=n/a [0.3s]
+
+== round 1: asking gpt (gpt-6.1-sol) ==
+  gpt: reusing saved response round1_gpt.json (no new API call)
+  gpt: 8376 in / 5140 out, stop=completed, served by gpt-6.1-sol, 116.0s, $0.14 (running $2.62)
+  gpt: 7 proposals
+  [gpt] C-feedback lag 1 map prime_value + totient; add; redraw p=0.81; F=none
+      doublets 85 (z +0.1) | lag-1 χ² 69 (-1.8) | uni χ² 27 (-0.1) | IC 0.0345 (-0.1) -> PASS; finite=True swept=partly [0.2s]
+  [gpt] totient[n+0]; affine m=position; skip k=1 p=0.81; F=none
+      doublets 87 (z -0.1) | lag-1 χ² 64 (-1.5) | uni χ² 30 (-0.5) | IC 0.0345 (-0.5) -> PASS; finite=True swept=partly [0.2s]
+  [gpt] P-feedback lag 1 map prime_value + totient; add; redraw p=0.81; F=none
+      doublets 79 (z +0.7) | lag-1 χ² 81 (-2.4) | uni χ² 28 (-0.2) | IC 0.0345 (-0.2) -> PASS; finite=True swept=partly [0.2s]
+  [gpt] C-feedback lag 1 map random_bijection + totient; add; redraw p=0.81; F=none
+      doublets 84 (z +0.2) | lag-1 χ² 70 (-1.9) | uni χ² 26 (+0.1) | IC 0.0345 (+0.1) -> PASS; finite=False swept=partly [0.2s]
+  [gpt] C-feedback lag 1 map prime_value + running_text; add; redraw p=0.81; F=none
+      doublets 83 (z +0.3) | lag-1 χ² 51 (-0.7) | uni χ² 39 (-1.3) | IC 0.0345 (-1.3) -> PASS; finite=True swept=partly [0.4s]
+  [gpt] prime_gap[n+3301]; affine m=position; skip k=1 p=0.81; F=none
+      doublets 85 (z +0.1) | lag-1 χ² 39 (+0.3) | uni χ² 42 (-1.4) | IC 0.0345 (-1.4) -> PASS; finite=True swept=no [0.2s]
+  [gpt] word 'DIVINITY'; affine m=key2; redraw p=0.81; F=none
+      doublets 84 (z +0.2) | lag-1 χ² 54 (-1.0) | uni χ² 49 (-2.1) | IC 0.0345 (-2.1) -> PASS; finite=False swept=partly [0.2s]
+
+== round 1: asking grok (grok-4.7) ==
+  grok: 9854 in / 27545 out, stop=completed, served by grok-4.7, 412.4s, $0.44 (running $3.06)
+  grok: 15 proposals
+  [grok] uniform; add; redraw p=0.81; F=none
+      doublets 86 (z -0.0) | lag-1 χ² 27 (+2.2) | uni χ² 27 (-0.0) | IC 0.0345 (-0.0) -> PASS; finite=False swept=n/a [0.4s]
+  [grok] lcg(a=3301,c=1,m=2147483647); add; skip k=1 p=0.81; F=literal_f
+      doublets 109 (z -2.2) | lag-1 χ² 27 (+2.1) | uni χ² 116 (-3.8) | IC 0.0347 (-3.8) -> fail; finite=True swept=partly [0.6s]
+  [grok] C-feedback lag 1 map prime_value + lcg; add; skip k=1 p=0.81; F=none
+      doublets 87 (z -0.1) | lag-1 χ² 27 (+2.1) | uni χ² 27 (-0.0) | IC 0.0345 (-0.0) -> PASS; finite=True swept=partly [0.9s]
+  [grok] C-feedback lag 5 map identity + totient; add; skip k=1 p=0.81; F=literal_f
+      doublets 107 (z -2.1) | lag-1 χ² 69 (-1.9) | uni χ² 117 (-3.7) | IC 0.0347 (-3.7) -> fail; finite=True swept=partly [0.3s]
+  [grok] C-feedback lag 5 map identity; add; redraw p=0.81; F=none
+      doublets 87 (z -0.1) | lag-1 χ² 28 (+2.0) | uni χ² 26 (+0.1) | IC 0.0345 (+0.1) -> PASS; finite=False swept=yes [0.2s]
+  [grok] uniform; affine m=position; redraw p=0.81; F=none
+      doublets 87 (z -0.2) | lag-1 χ² 27 (+2.1) | uni χ² 27 (-0.0) | IC 0.0345 (-0.0) -> PASS; finite=False swept=n/a [0.3s]
+  [grok] lcg(a=3301,c=1,m=2147483647); beaufort; skip k=1 p=0.81; F=none
+      doublets 87 (z -0.1) | lag-1 χ² 28 (+2.1) | uni χ² 26 (+0.0) | IC 0.0345 (+0.0) -> PASS; finite=True swept=partly [0.4s]
+  [grok] C-feedback lag 2 map atbash; add; redraw p=0.81; F=none
+      doublets 88 (z -0.2) | lag-1 χ² 30 (+1.4) | uni χ² 27 (-0.1) | IC 0.0345 (-0.1) -> PASS; finite=False swept=yes [0.2s]
+  [grok] lcg(a=3301,c=1,m=2147483647); add; skip k=2 p=0.81; F=none
+      doublets 86 (z +0.0) | lag-1 χ² 28 (+2.0) | uni χ² 26 (+0.1) | IC 0.0345 (+0.1) -> PASS; finite=True swept=partly [0.3s]
+  [grok] uniform; affine m=key2; redraw p=0.81; F=none
+      doublets 87 (z -0.1) | lag-1 χ² 27 (+2.0) | uni χ² 27 (-0.1) | IC 0.0345 (-0.1) -> PASS; finite=False swept=n/a [0.4s]
+  [grok] uniform; add; redraw p=0.81; F=literal_f
+      doublets 109 (z -2.1) | lag-1 χ² 27 (+2.3) | uni χ² 114 (-4.2) | IC 0.0347 (-4.2) -> fail; finite=False swept=n/a [0.5s]
+  [grok] uniform; add; bump δ=1 p=0.81; F=none
+      doublets 85 (z +0.1) | lag-1 χ² 301 (-5.5) | uni χ² 28 (-0.2) | IC 0.0345 (-0.2) -> fail; finite=False swept=n/a [0.2s]
+  [grok] P-feedback lag 1 map identity; add; redraw p=0.81; F=none
+      doublets 139 (z -4.2) | lag-1 χ² 1040 (-13.5) | uni χ² 1629 (-14.4) | IC 0.0387 (-14.4) -> fail; finite=False swept=yes [0.2s]
+  [grok] uniform; add; redraw p=1.00; F=none
+      doublets 0 (z +86000000000.0) | lag-1 χ² 26 (+2.3) | uni χ² 25 (+0.2) | IC 0.0345 (+0.2) -> fail; finite=False swept=n/a [0.4s]
+  [grok] uniform; add; redraw p=1.00 on key; F=none
+      doublets 449 (z -18.9) | lag-1 χ² 29 (+1.7) | uni χ² 28 (-0.2) | IC 0.0345 (-0.2) -> fail; finite=False swept=n/a [0.3s]
+
+== round 2: asking claude (claude-fable-5-1) ==
+  claude: 17824 in / 7657 out, stop=end_turn, served by claude-fable-5-1, 105.5s, $0.56 (running $3.62)
+  claude: 10 proposals
+  [claude] C-feedback lag 1 map prime_value + prime; add; skip k=1 p=0.81; F=none
+      doublets 86 (z +0.0) | lag-1 χ² 71 (-1.8) | uni χ² 28 (-0.2) | IC 0.0345 (-0.2) -> PASS; finite=True swept=partly [0.2s]
+  [claude] lcg(a=3,c=0,m=3301); add; redraw p=0.81; F=none
+      doublets 89 (z -0.3) | lag-1 χ² 28 (+2.1) | uni χ² 28 (-0.2) | IC 0.0345 (-0.2) -> PASS; finite=True swept=partly [0.5s]
+  [claude] prime_gap[n+3301]; add; skip k=1 p=0.81; F=none
+      doublets 85 (z +0.1) | lag-1 χ² 59 (-1.3) | uni χ² 738 (-15.7) | IC 0.0364 (-15.7) -> fail; finite=True swept=no [0.2s]
+  [claude] C-feedback lag 1 map affine(3,0) + totient; add; skip k=1 p=0.81; F=none
+      doublets 85 (z +0.2) | lag-1 χ² 69 (-1.8) | uni χ² 27 (-0.0) | IC 0.0345 (-0.0) -> PASS; finite=True swept=partly [0.2s]
+  [claude] C-feedback lag 1 map totient_value + lcg; beaufort; skip k=1 p=0.81; F=none
+      doublets 88 (z -0.2) | lag-1 χ² 26 (+2.2) | uni χ² 27 (-0.0) | IC 0.0345 (-0.0) -> PASS; finite=True swept=partly [0.5s]
+  [claude] lcg(a=3301,c=29,m=1033); add; skip k=2 p=0.81; F=none
+      doublets 88 (z -0.2) | lag-1 χ² 28 (+1.8) | uni χ² 26 (-0.0) | IC 0.0345 (-0.0) -> PASS; finite=True swept=partly [0.5s]
+  [claude] prime_gap[n+0]; affine m=position; skip k=1 p=0.81; F=none
+      doublets 93 (z -0.7) | lag-1 χ² 69 (-1.9) | uni χ² 51 (-2.0) | IC 0.0345 (-2.0) -> PASS; finite=True swept=no [0.2s]
+  [claude] C-feedback lag 2 map prime_value + prime_plus1; sub; skip k=1 p=0.81; F=none
+      doublets 84 (z +0.2) | lag-1 χ² 70 (-1.7) | uni χ² 26 (+0.0) | IC 0.0345 (+0.0) -> PASS; finite=True swept=partly [0.2s]
+  [claude] word 'WELCOMEPILGRIMTOTHEGREATJOURNE'; affine m=position; skip k=1 p=0.81; F=none
+      doublets 83 (z +0.4) | lag-1 χ² 45 (-0.2) | uni χ² 84 (-3.2) | IC 0.0346 (-3.2) -> fail; finite=True swept=partly [0.2s]
+  [claude] C-feedback lag 1 map atbash + prime; add; skip k=1 p=0.81; F=none
+      doublets 86 (z +0.0) | lag-1 χ² 72 (-1.7) | uni χ² 26 (-0.0) | IC 0.0345 (-0.0) -> PASS; finite=True swept=partly [0.2s]
+
+== round 2: asking gpt (gpt-6.1-sol) ==
+  gpt: 12039 in / 2128 out, stop=completed, served by gpt-6.1-sol, 46.0s, $0.10 (running $3.72)
+  gpt: 3 proposals
+  [gpt] C-feedback lag 1 map totient_value + running_text; add; skip k=1 p=0.81; F=none
+      doublets 85 (z +0.1) | lag-1 χ² 53 (-0.9) | uni χ² 39 (-1.4) | IC 0.0345 (-1.4) -> PASS; finite=True swept=partly [0.4s]
+  [gpt] prime_gap[n+0]; affine m=position; skip k=1 p=0.81; F=none
+      doublets 93 (z -0.7) | lag-1 χ² 73 (-2.2) | uni χ² 48 (-1.8) | IC 0.0345 (-1.8) -> PASS; finite=True swept=no [0.2s]
+  [gpt] C-feedback lag 1 map prime_value + totient; affine m=position; skip k=1 p=0.81; F=none
+      doublets 85 (z +0.2) | lag-1 χ² 67 (-1.7) | uni χ² 26 (+0.0) | IC 0.0345 (+0.0) -> PASS; finite=True swept=partly [0.2s]
+
+== round 2: asking grok (grok-4.7) ==
+  grok: 13554 in / 26435 out, stop=completed, served by grok-4.7, 337.5s, $0.44 (running $4.16)
+  grok: 10 proposals
+  [grok] lcg(a=7,c=1,m=3301); add; skip k=1 p=0.81; F=none
+      doublets 88 (z -0.2) | lag-1 χ² 27 (+1.9) | uni χ² 27 (-0.1) | IC 0.0345 (-0.1) -> PASS; finite=True swept=partly [0.5s]
+  [grok] prime_gap[n+0]; affine m=position; skip k=1 p=0.81; F=none
+      doublets 94 (z -0.8) | lag-1 χ² 69 (-1.8) | uni χ² 52 (-2.2) | IC 0.0345 (-2.2) -> PASS; finite=True swept=no [0.2s]
+  [grok] C-feedback lag 1 map atbash + totient; add; skip k=1 p=0.81; F=none
+      doublets 85 (z +0.1) | lag-1 χ² 72 (-1.9) | uni χ² 26 (+0.0) | IC 0.0345 (+0.0) -> PASS; finite=True swept=partly [0.2s]
+  [grok] C-feedback lag 1 map totient_value + totient; add; skip k=1 p=0.81; F=none
+      doublets 83 (z +0.3) | lag-1 χ² 69 (-1.7) | uni χ² 27 (-0.1) | IC 0.0345 (-0.1) -> PASS; finite=True swept=partly [0.3s]
+  [grok] P-feedback lag 1 map prime_value + prime; sub; skip k=1 p=0.81; F=none
+      doublets 78 (z +0.9) | lag-1 χ² 87 (-2.6) | uni χ² 29 (-0.4) | IC 0.0345 (-0.4) -> PASS; finite=True swept=partly [0.4s]
+  [grok] word 'DIVINITY'; affine m=position; skip k=1 p=0.81; F=none
+      doublets 86 (z +0.0) | lag-1 χ² 58 (-1.2) | uni χ² 46 (-1.9) | IC 0.0345 (-1.9) -> PASS; finite=True swept=partly [0.4s]
+  [grok] word 'FIRFUMFERENFE'; affine m=position; skip k=1 p=0.81; F=none
+      doublets 84 (z +0.2) | lag-1 χ² 74 (-2.1) | uni χ² 48 (-1.9) | IC 0.0345 (-1.9) -> PASS; finite=True swept=partly [0.4s]
+  [grok] lcg(a=7,c=1,m=3301); beaufort; skip k=1 p=0.81; F=none
+      doublets 86 (z -0.0) | lag-1 χ² 26 (+2.2) | uni χ² 27 (-0.0) | IC 0.0345 (-0.0) -> PASS; finite=True swept=partly [0.6s]
+  [grok] C-feedback lag 1 map prime_value + lcg; add; skip k=1 p=0.81; F=none
+      doublets 88 (z -0.2) | lag-1 χ² 27 (+2.0) | uni χ² 26 (-0.0) | IC 0.0345 (-0.0) -> PASS; finite=True swept=partly [0.5s]
+  [grok] C-feedback lag 1 map prime_value + running_text; add; skip k=2 p=0.81; F=none
+      doublets 87 (z -0.1) | lag-1 χ² 52 (-0.8) | uni χ² 40 (-1.3) | IC 0.0345 (-1.3) -> PASS; finite=True swept=partly [0.4s]
+## Hand-over note (for the README owner)
+
+Text to merge into README.md as the next section (adjust the number):
+
+```markdown
+## 1x. Hypothesis loop: a model panel proposes, a statistical gate kills (`src/hypothesis_loop.py`, `results/hypotheses.md`)
+
+A panel of models (Claude Fable 5.1, GPT-6.1 Sol, Grok 4.7) was given a 12k-token brief of this repository's results, the ledger diff and the book's own methods, plus a fixed menu of cipher constructions (key source × combining rule × repeat-avoidance rule × F rule), and asked for ranked constructions in a JSON schema. Proposals are data: the gate assembles each one from the menu and enciphers 200 replicates of solved-page English cut to the 55 real page lengths, scoring doublets, lag-1 class χ², unigram χ² and IC against the pages (pass = |z| < 3 on all four). Survivors that are decryptable finite families are checked against the ledgers and sized.
+
+Result: 58 proposals, 45 distinct survivors, 36 of them decryptable and not fully swept: C-feedback lag 1 map identity + totient; add; skip k=1 p=0.81; F=none; C-feedback lag 1 map identity + prime; beaufort; skip k=1 p=0.81; F=none; lcg(a=1033,c=0,m=3301); add; redraw p=0.81; F=none; totient[n+0]; affine m=position; skip k=1 p=0.81; F=none; C-feedback lag 1 map identity + prime_plus1; sub; skip k=1 p=0.81; F=none; lcg(a=2,c=24,m=29); add; skip k=1 p=0.81; F=none; C-feedback lag 2 map identity + totient; add; skip k=1 p=0.81; F=none; C-feedback lag 1 map prime_value + totient; add; redraw p=0.81; F=none; totient[n+0]; affine m=position; skip k=1 p=0.81; F=none; P-feedback lag 1 map prime_value + totient; add; redraw p=0.81; F=none; C-feedback lag 1 map prime_value + running_text; add; redraw p=0.81; F=none; prime_gap[n+3301]; affine m=position; skip k=1 p=0.81; F=none; C-feedback lag 1 map prime_value + lcg; add; skip k=1 p=0.81; F=none; lcg(a=3301,c=1,m=2147483647); beaufort; skip k=1 p=0.81; F=none; lcg(a=3301,c=1,m=2147483647); add; skip k=2 p=0.81; F=none; C-feedback lag 1 map prime_value + prime; add; skip k=1 p=0.81; F=none; lcg(a=3,c=0,m=3301); add; redraw p=0.81; F=none; C-feedback lag 1 map affine(3,0) + totient; add; skip k=1 p=0.81; F=none; C-feedback lag 1 map totient_value + lcg; beaufort; skip k=1 p=0.81; F=none; lcg(a=3301,c=29,m=1033); add; skip k=2 p=0.81; F=none; prime_gap[n+0]; affine m=position; skip k=1 p=0.81; F=none; C-feedback lag 2 map prime_value + prime_plus1; sub; skip k=1 p=0.81; F=none; C-feedback lag 1 map atbash + prime; add; skip k=1 p=0.81; F=none; C-feedback lag 1 map totient_value + running_text; add; skip k=1 p=0.81; F=none; prime_gap[n+0]; affine m=position; skip k=1 p=0.81; F=none; C-feedback lag 1 map prime_value + totient; affine m=position; skip k=1 p=0.81; F=none; lcg(a=7,c=1,m=3301); add; skip k=1 p=0.81; F=none; prime_gap[n+0]; affine m=position; skip k=1 p=0.81; F=none; C-feedback lag 1 map atbash + totient; add; skip k=1 p=0.81; F=none; C-feedback lag 1 map totient_value + totient; add; skip k=1 p=0.81; F=none; P-feedback lag 1 map prime_value + prime; sub; skip k=1 p=0.81; F=none; word 'DIVINITY'; affine m=position; skip k=1 p=0.81; F=none; word 'FIRFUMFERENFE'; affine m=position; skip k=1 p=0.81; F=none; lcg(a=7,c=1,m=3301); beaufort; skip k=1 p=0.81; F=none; C-feedback lag 1 map prime_value + lcg; add; skip k=1 p=0.81; F=none; C-feedback lag 1 map prime_value + running_text; add; skip k=2 p=0.81; F=none. Every survivor works by the phase 2 route (an independent key with a soft reject-on-repeat); the gate separates repeat mechanisms, not key sources. Cost of the run: $4.16. Method: `docs/hypothesis-loop.md`.
+```
+
+Files touched by this session: `src/hypothesis_loop.py`, `results/hypotheses.md`, `results/hypotheses.json`, `results/hypotheses/` (brief, schema, raw responses), `docs/hypothesis-loop.md`. README.md untouched; nothing committed.
+
+
+wrote results/hypotheses.md; tokens in 87,383 out 113,218; cost $4.16; 15.4 min
+exit 0

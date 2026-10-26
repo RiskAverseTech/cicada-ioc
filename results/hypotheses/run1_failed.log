@@ -1,0 +1,58 @@
+observed: doublets 86, lag-1 class chi2 42.1, unigram chi2 26.4, IC 0.0345
+
+== gate calibration (hand-built constructions, no API) ==
+  [calibration] uniform; add; no repeat rule; F=none
+      doublets 446 (z -16.7) | lag-1 χ² 27 (+2.2) | uni χ² 28 (-0.3) | IC 0.0345 (-0.3) -> fail; finite=False swept=n/a [0.3s]
+  [calibration] uniform; add; redraw p=0.81; F=none
+      doublets 87 (z -0.1) | lag-1 χ² 27 (+2.0) | uni χ² 26 (+0.0) | IC 0.0345 (+0.0) -> PASS; finite=False swept=n/a [0.6s]
+  [calibration] random key len 13; add; skip k=1 p=0.81; F=none
+      doublets 88 (z -0.1) | lag-1 χ² 175 (-2.4) | uni χ² 797 (-2.4) | IC 0.0365 (-2.4) -> PASS; finite=False swept=yes [0.6s]
+  [calibration] totient[n+0]; add; skip k=1 p=0.81; F=literal_f
+      doublets 100 (z -1.6) | lag-1 χ² 199 (-5.5) | uni χ² 143 (-4.4) | IC 0.0348 (-4.4) -> fail; finite=True swept=yes [0.2s]
+  [calibration] C-feedback lag 1 map identity; add; no repeat rule; F=none
+      doublets 207 (z -8.5) | lag-1 χ² 9913 (-62.0) | uni χ² 29 (-0.3) | IC 0.0345 (-0.3) -> fail; finite=True swept=yes [0.1s]
+  [calibration] uniform; add; bump δ=1 p=0.81; F=none
+      doublets 86 (z +0.1) | lag-1 χ² 304 (-6.1) | uni χ² 27 (-0.1) | IC 0.0345 (-0.1) -> fail; finite=False swept=n/a [0.3s]
+  [calibration] uniform; add; skip k=1 p=1.00 on key; F=none
+      doublets 449 (z -15.6) | lag-1 χ² 29 (+1.6) | uni χ² 28 (-0.2) | IC 0.0345 (-0.2) -> fail; finite=False swept=n/a [0.3s]
+  [calibration] word 'DIVINITY'; add; no repeat rule; F=literal_f
+      doublets 504 (z -22.1) | lag-1 χ² 188 (-5.4) | uni χ² 2589 (-30.4) | IC 0.0413 (-30.4) -> fail; finite=True swept=yes [0.1s]
+
+brief: 18,655 chars (+ menu 3,501); rough token estimate 5,539
+proposers with keys: ['claude', 'gpt', 'grok']
+round-1 prompt: 11342 tokens by the Anthropic token counter
+
+== round 1: asking claude (claude-fable-5-1) ==
+  claude: 12868 in / 24000 out, stop=max_tokens, served by claude-fable-5-1, 353.7s, $1.33 (running $1.33)
+  claude: no JSON object found
+
+== round 1: asking gpt (gpt-6.1-sol) ==
+Traceback (most recent call last):
+  File "/Users/jaz/Desktop/cicada-ioc/src/hypothesis_loop.py", line 805, in <module>
+    main()
+  File "/Users/jaz/Desktop/cicada-ioc/src/hypothesis_loop.py", line 719, in main
+    elif prop == "gpt": r = ask_responses("https://api.openai.com", keys["OPENAI_API_KEY"], model, SYSTEM, user)
+  File "/Users/jaz/Desktop/cicada-ioc/src/hypothesis_loop.py", line 570, in ask_responses
+    r = http_json(f"{base}/v1/responses", hdr, body)
+  File "/Users/jaz/Desktop/cicada-ioc/src/hypothesis_loop.py", line 512, in http_json
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+exit 1

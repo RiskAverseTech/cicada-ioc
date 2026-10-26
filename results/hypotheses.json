@@ -1,0 +1,5490 @@
+{
+ "observed": [
+  86.0,
+  42.05595005852517,
+  26.361685705464648,
+  0.03447839786450569
+ ],
+ "calibration": [
+  {
+   "proposer": "calibration",
+   "round": 0,
+   "rank": 1,
+   "name": "independent uniform keystream (should fail on doublets)",
+   "rationale": "",
+   "predicted_doublets": null,
+   "construction": {
+    "key_source": {
+     "type": "uniform",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "none",
+     "p": 1.0,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "8346ad34e7",
+   "describe": "uniform; add; no repeat rule; F=none",
+   "gate": {
+    "mean": [
+     445.51,
+     27.136106949288756,
+     28.36941417104043,
+     0.03448374190279626
+    ],
+    "sd": [
+     21.484177900095887,
+     6.923854287688576,
+     7.925205790628919,
+     2.1095786434817886e-05
+    ],
+    "z": [
+     -16.73370988044162,
+     2.15484649002011,
+     -0.25333455289574935,
+     -0.25332254415267275
+    ],
+    "pass": false,
+    "pass_each": [
+     false,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -18.07898423373149,
+     2.257988905011199,
+     -0.25495498306741265,
+     -0.25494282021115044
+    ],
+    "pass_strict": false,
+    "seconds": 0.1
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 1,
+    "tests": null,
+    "swept": "n/a",
+    "note": "secret pad: not decryptable without the pad; not a sweepable family; phase 2 construction table covers its statistics"
+   }
+  },
+  {
+   "proposer": "calibration",
+   "round": 0,
+   "rank": 2,
+   "name": "uniform key re-drawn 81% when it would repeat (phase 2 survivor, should pass)",
+   "rationale": "",
+   "predicted_doublets": null,
+   "construction": {
+    "key_source": {
+     "type": "uniform",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "b8b583c133",
+   "describe": "uniform; add; redraw p=0.81; F=none",
+   "gate": {
+    "mean": [
+     87.25,
+     26.838312529325798,
+     26.245426057425135,
+     0.034478088412295674
+    ],
+    "sd": [
+     9.59934893725604,
+     7.739677735980907,
+     6.530164029314657,
+     1.738255692334153e-05
+    ],
+    "z": [
+     -0.13021716453588056,
+     1.9661849043732476,
+     0.017803480512527732,
+     0.017802456300364214
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.06285980999739747,
+     2.303057508704111,
+     0.014763438933878393,
+     0.014762734631106451
+    ],
+    "pass_strict": true,
+    "seconds": 0.3
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 1,
+    "tests": null,
+    "swept": "n/a",
+    "note": "secret pad: not decryptable without the pad; not a sweepable family; phase 2 construction table covers its statistics"
+   }
+  },
+  {
+   "proposer": "calibration",
+   "round": 0,
+   "rank": 3,
+   "name": "random 13-rune word key + skip 0.81 (a FIRFUMFERENFE-like key under the skip rul",
+   "rationale": "",
+   "predicted_doublets": null,
+   "construction": {
+    "key_source": {
+     "type": "word",
+     "text": "",
+     "period": 13,
+     "offset": 0,
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "362e90ba68",
+   "describe": "random key len 13; add; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     87.54,
+     174.99329462355877,
+     796.9514719049082,
+     0.03652950258029759
+    ],
+    "sd": [
+     14.268090272651637,
+     56.33983185799369,
+     327.2110250793465,
+     0.0008709495755156354
+    ],
+    "z": [
+     -0.10793315507344395,
+     -2.359562323510413,
+     -2.3550239054829545,
+     -2.355021201517402
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.077443285916794,
+     -20.11891458186112,
+     -97.85471953054041,
+     -97.85005128334355
+    ],
+    "pass_strict": false,
+    "seconds": 0.3
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 10260628712958602189,
+    "tests": null,
+    "swept": "yes",
+    "note": "29^13 random keys of that length; JW exhausts length \u2264 3, WZ k 4-12 by hand-Vigen\u00e8re; 29^period too large to enumerate: not sweepable as a blind family; here ph3 (book streams, words), ph4 (phrases, all signs), ph5 (Latin/OE); JW \u00a77-8, WZ LP1-H, LZ, pnotisdev solved-phrase-keys; random short keys: JW \u00a710/\u00a733 exhaustive to length 3; WZ hand-Vigen\u00e8re k \u2264 12; longer: nobody"
+   }
+  },
+  {
+   "proposer": "calibration",
+   "round": 0,
+   "rank": 4,
+   "name": "totient stream + skip 0.81 + F rule (phase 3 family: passes doublets, fails unig",
+   "rationale": "",
+   "predicted_doublets": null,
+   "construction": {
+    "key_source": {
+     "type": "totient",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "literal_f"
+   },
+   "hash": "fc1f2f1586",
+   "describe": "totient[n+0]; add; skip k=1 p=0.81; F=literal_f",
+   "gate": {
+    "mean": [
+     100.15,
+     198.64333278837213,
+     142.70515977153443,
+     0.03478807319706555
+    ],
+    "sd": [
+     8.986517680279333,
+     28.23472915282287,
+     26.28213016168573,
+     6.995702858884403e-05
+    ],
+    "z": [
+     -1.5745810004971996,
+     -5.545914107491681,
+     -4.4267140201472746,
+     -4.426650742699506
+    ],
+    "pass": false,
+    "pass_each": [
+     true,
+     false,
+     false,
+     false
+    ],
+    "z_strict": [
+     -0.7115730491705397,
+     -23.69814282094232,
+     -14.774083731493118,
+     -14.773378920573244
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 101,
+    "tests": 5555,
+    "swept": "yes",
+    "note": "offsets 0-100 as in phase 3; here ph3 (book streams, words), ph4 (phrases, all signs), ph5 (Latin/OE); JW \u00a77-8, WZ LP1-H, LZ, pnotisdev solved-phrase-keys"
+   }
+  },
+  {
+   "proposer": "calibration",
+   "round": 0,
+   "rank": 5,
+   "name": "ciphertext autokey lag 1 (should fail on lag-1 structure)",
+   "rationale": "",
+   "predicted_doublets": null,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "lag": 1,
+     "map": "identity",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "base": "none",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "none",
+     "p": 1.0,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "9e18ebe785",
+   "describe": "C-feedback lag 1 map identity; add; no repeat rule; F=none",
+   "gate": {
+    "mean": [
+     206.7,
+     9912.790914135327,
+     28.654467428218606,
+     0.034484500638625
+    ],
+    "sd": [
+     14.272000561538098,
+     159.22753785769322,
+     8.857564878396326,
+     2.357747793395282e-05
+    ],
+    "z": [
+     -8.457118501331681,
+     -61.99138099402501,
+     -0.2588501189921929,
+     -0.2588391403188586
+    ],
+    "pass": false,
+    "pass_each": [
+     false,
+     false,
+     true,
+     true
+    ],
+    "z_strict": [
+     -6.069743253348699,
+     -1493.8501611584447,
+     -0.29115297976032245,
+     -0.2911390900462677
+    ],
+    "pass_strict": false,
+    "seconds": 0.1
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 29,
+    "tests": 1595,
+    "swept": "yes",
+    "note": "ciphertext autokey/chain lags 1-60 with named maps: LZ (14 bijections, \u0394c detector), WZ R12/R18/R22, JW \u00a73, here ph2"
+   }
+  },
+  {
+   "proposer": "calibration",
+   "round": 0,
+   "rank": 6,
+   "name": "uniform + bump 0.81 (should fail on lag-1 class chi2)",
+   "rationale": "",
+   "predicted_doublets": null,
+   "construction": {
+    "key_source": {
+     "type": "uniform",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "bump",
+     "p": 0.81,
+     "delta": 1,
+     "k": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "0fb4377696",
+   "describe": "uniform; add; bump \u03b4=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     85.525,
+     303.50823449587483,
+     26.86014279098488,
+     0.034479724624471936
+    ],
+    "sd": [
+     8.671180716450465,
+     42.95374814137177,
+     6.2966439861547165,
+     1.6760988781204635e-05
+    ],
+    "z": [
+     0.0547791604779787,
+     -6.0868328318367775,
+     -0.07916234213277071,
+     -0.07915761913362716
+    ],
+    "pass": false,
+    "pass_each": [
+     true,
+     false,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.023886727799010753,
+     -39.56853655410735,
+     -0.06329746276830187,
+     -0.06329444310584381
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 1,
+    "tests": null,
+    "swept": "n/a",
+    "note": "secret pad: not decryptable without the pad; not a sweepable family; phase 2 construction table covers its statistics"
+   }
+  },
+  {
+   "proposer": "calibration",
+   "round": 0,
+   "rank": 7,
+   "name": "hand pad: key never repeats a symbol (should fail)",
+   "rationale": "",
+   "predicted_doublets": null,
+   "construction": {
+    "key_source": {
+     "type": "uniform",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 1.0,
+     "target": "key",
+     "k": 1,
+     "delta": 1
+    },
+    "f_rule": "none"
+   },
+   "hash": "07958da99c",
+   "describe": "uniform; add; skip k=1 p=1.00 on key; F=none",
+   "gate": {
+    "mean": [
+     448.7,
+     29.03231247235535,
+     27.611622414325396,
+     0.034481724863025406
+    ],
+    "sd": [
+     23.219603787455963,
+     7.916825495093081,
+     6.6059230734630905,
+     1.758420731567679e-05
+    ],
+    "z": [
+     -15.620421576527638,
+     1.6450580594762365,
+     -0.1892145420042684,
+     -0.1892037815517639
+    ],
+    "pass": false,
+    "pass_each": [
+     false,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -18.23940246884485,
+     1.9710146385020078,
+     -0.1587254441558851,
+     -0.15871787201666737
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 1,
+    "tests": null,
+    "swept": "n/a",
+    "note": "secret pad: not decryptable without the pad; not a sweepable family; phase 2 construction table covers its statistics"
+   }
+  },
+  {
+   "proposer": "calibration",
+   "round": 0,
+   "rank": 8,
+   "name": "book Vigen\u00e8re DIVINITY with F rule, no repeat rule (should fail)",
+   "rationale": "",
+   "predicted_doublets": null,
+   "construction": {
+    "key_source": {
+     "type": "word",
+     "text": "DIVINITY",
+     "offset": 0,
+     "period": 0,
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "none",
+     "p": 1.0,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "literal_f"
+   },
+   "hash": "ebd975e4db",
+   "describe": "word 'DIVINITY'; add; no repeat rule; F=literal_f",
+   "gate": {
+    "mean": [
+     503.755,
+     188.3144163718135,
+     2589.234402593392,
+     0.04130008225447078
+    ],
+    "sd": [
+     18.906744168095507,
+     27.01120944113006,
+     84.3648888011726,
+     0.00022455785809013314
+    ],
+    "z": [
+     -22.095554701848002,
+     -5.414732229301073,
+     -30.378428198109663,
+     -30.378292917395918
+    ],
+    "pass": false,
+    "pass_each": [
+     false,
+     false,
+     false,
+     false
+    ],
+    "z_strict": [
+     -21.007999940370222,
+     -22.134950869216024,
+     -325.45096677239525,
+     -325.4354408420122
+    ],
+    "pass_strict": false,
+    "seconds": 0.1
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 1,
+    "tests": 55,
+    "swept": "yes",
+    "note": "a single stated key; rigid periodic/stream keys: JW \u00a73, WZ ledger A, LZ, here ph3 (skip decoder subsumes p=0)"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "proposer": "claude",
+   "round": 1,
+   "rank": 1,
+   "name": "Totient chain: K_i = C_(i-1) + phi(p_n), skip-on-repeat",
+   "rationale": "The one number stream the author actually published (section 0.16, f(n)=phi(n) over the primes) but used in the chain form the book's later sections hint at ('numbers are the direction'): each rune is keyed by its predecessor plus the next totient. The lag-1 difference stream is then exactly a totient Vigenere of the plaintext, so lag-1 classes, unigram and IC all stay flat (the totient residues are near-uniform), and a doublet needs phi(p_n) = -P_i, which the author's rejection loop skips four times in five. LZ and WZ swept the chain only rigidly; phase 3 ran the totient only in plain Vigenere form. The skip decoder has never been pointed at the first-difference stream. No F rule: any literal F would push F to twice its share and the pages' unigram chi-square of 26 forbids it.",
+   "predicted_doublets": 87,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "totient",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "c510b3acb5",
+   "describe": "C-feedback lag 1 map identity + totient; add; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     87.66,
+     86.6900156053785,
+     26.297064680456923,
+     0.03447822586055299
+    ],
+    "sd": [
+     9.470712751368897,
+     19.04267294467788,
+     6.836323613218069,
+     1.8197472170824817e-05
+    ],
+    "z": [
+     -0.17527719862056423,
+     -2.343897081912959,
+     0.00945259889142455,
+     0.009452079447315631
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.08347782767654367,
+     -6.754978859526053,
+     0.00820601621141951,
+     0.0082056247362447
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 2929,
+    "tests": 161095,
+    "swept": "partly",
+    "note": "\u00d7 base stream (101); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 1,
+   "rank": 2,
+   "name": "Prime chain, Beaufort sign: C_i = K_i - P_i with K_i = C_(i-1) + p_n",
+   "rationale": "Same chain idea with the raw prime stream (the 'stream of prime numbers' of the published key) and the one sign combination the chain sweeps did not pair with skip: Beaufort. Under Beaufort a doublet requires p_n = 2C_(i-1) - ... effectively a different rejection set, so a decoder built for C = P + K misses it even on the difference stream. Statistically it is indistinguishable from rank 1 at the gate (flat everywhere, doublets governed by the soft skip), which is the point: the gate cannot choose among signs, the decoder must. Primes mod 29 never hit residue 0, a 1/29 hole that the plaintext convolution washes out of the unigram.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "prime",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "beaufort",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "df23e9bf0c",
+   "describe": "C-feedback lag 1 map identity + prime; beaufort; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     86.025,
+     96.21243266085459,
+     26.58728851497374,
+     0.03447899835908111
+    ],
+    "sd": [
+     9.725449862060412,
+     18.955212834556804,
+     7.021139266765036,
+     1.8689402203289872e-05
+    ],
+    "z": [
+     -0.0025705751769419167,
+     -2.857075943963974,
+     -0.03213193770090774,
+     -0.032130218446099645
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.0012571961999482352,
+     -8.19611412500639,
+     -0.028648575474500615,
+     -0.02864720876886362
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 2929,
+    "tests": 161095,
+    "swept": "partly",
+    "note": "\u00d7 base stream (101); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 1,
+   "rank": 3,
+   "name": "Plaintext autokey over the totient stream (K_i = P_(i-1) + phi(p_n))",
+   "rationale": "The book's own polyalphabetic method with the plaintext folded in: the previous clear rune is added to the published totient stream. Pure plaintext autokey fails the gate because P_i + P_(i-1) is far from flat, but adding a flat deterministic stream restores a flat unigram and a flat lag-1 difference spectrum (the differences are P_i - P_(i-2) plus totient gaps). Doublets occur when P_i - P_(i-2) equals a totient gap, independent of the key's history, so the soft skip delivers 1/5 of 445. WZ's 48 PT-feedback configs and LZ's plaintext lags 1-3 were run without a base stream and without the skip; this is the untried corner that still only needs the published key.",
+   "predicted_doublets": 88,
+   "construction": {
+    "key_source": {
+     "type": "plain_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "totient",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "6d9684b2f0",
+   "describe": "P-feedback lag 1 map identity + totient; add; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     87.415,
+     275.665301658663,
+     28.88756869404136,
+     0.03448512109209344
+    ],
+    "sd": [
+     9.096855226845907,
+     39.60935811326967,
+     8.094702270179521,
+     2.1546940907330422e-05
+    ],
+    "z": [
+     -0.15554825977928857,
+     -5.897832298420295,
+     -0.312041493839982,
+     -0.31202701193931964
+    ],
+    "pass": false,
+    "pass_each": [
+     true,
+     false,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.07115730491705426,
+     -35.35475005721878,
+     -0.32075376009482304,
+     -0.32073845824915864
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 2929,
+    "tests": 161095,
+    "swept": "partly",
+    "note": "\u00d7 base stream (101); plaintext autokey beyond lag 3 or with a base stream: WZ R12-C1 k=2..6 only"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 1,
+   "rank": 4,
+   "name": "Cicada LCG mod 3301 (a = 1033, c = 0), key = x mod 29, skip-on-repeat",
+   "rationale": "The author is 'machine not hand' (WZ, power 0.99) and loves 3301 and 1033; a multiplicative congruential generator modulo the prime 3301 is the simplest publishable 'numbers are the direction' pad. Its residues mod 29 are flat to the gate, its period (a divisor of 3300) exceeds every page, each page starts from a different seed (so no shared keystream at any alignment, as observed), and a code loop that redraws on a repeated output with a random-looking 81 percent (e.g. a secondary test on the generator state) is exactly the signature. WZ's PRNG rounds covered MT and KDF seeds, never small modular generators with Cicada constants; the seed space per page is 3300, trivially exhaustive for a decoder.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "lcg",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 1033,
+     "b": 0,
+     "c": 0,
+     "modulus": 3301
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "fd2746ac11",
+   "describe": "lcg(a=1033,c=0,m=3301); add; redraw p=0.81; F=none",
+   "gate": {
+    "mean": [
+     87.205,
+     26.622994866230524,
+     27.47271071318307,
+     0.03448135511708481
+    ],
+    "sd": [
+     8.670811670042294,
+     6.769651212557846,
+     7.4125756247995325,
+     1.97313015046768e-05
+    ],
+    "z": [
+     -0.13897199545496766,
+     2.2797267846925684,
+     -0.149883800713125,
+     -0.14987620448763703
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.060596856837491074,
+     2.3356439702883542,
+     -0.14108549382403052,
+     -0.14107876321330706
+    ],
+    "pass_strict": true,
+    "seconds": 0.4
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 3301,
+    "tests": 181555,
+    "swept": "partly",
+    "note": "3,301 seeds for the stated (a, c, m); WZ B-04/R16 swept named PRNGs and KDFs, JW \u00a713/\u00a741 passphrase seeds; PRNG/KDF pads: WZ B-04, R16, R25 (MT 2^32 tail at 0.5%); JW \u00a713, \u00a741; a plain LCG mod m is not named by anyone"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 1,
+   "rank": 5,
+   "name": "Totient key with position-walking multiplier: C = ((i mod 28)+1)*P + phi(p_n)",
+   "rationale": "'Numbers are the direction, words are the map' read literally: the position supplies a multiplier that walks through the units of Z/29 while the published totient stream supplies the shift. Every non-additive sweep (JW section 48, WZ LP1-H) used a constant multiplier and no skip; a multiplier that changes every rune defeats both a constant-affine decoder and the additive skip decoder of phases 3-4, while at the gate it is as flat as any Vigenere because multiplication by a unit permutes the alphabet. A doublet needs m_i P_i - m_(i-1) P_(i-1) = K_(i-1) - K_i, still one chance in 29, so the soft rejection gives the observed deficit.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "totient",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "affine",
+     "multiplier": 1,
+     "multiplier_source": "position",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "98fab8864e",
+   "describe": "totient[n+0]; affine m=position; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     85.975,
+     88.65781646005905,
+     33.03005171349182,
+     0.034496147278280244
+    ],
+    "sd": [
+     10.161908040339853,
+     16.492568356143227,
+     8.547463364768966,
+     2.2752070319724688e-05
+    ],
+    "z": [
+     0.0024601679035829564,
+     -2.825628209943141,
+     -0.7801573078994317,
+     -0.7801230184826768
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.0012571961999482352,
+     -7.05278845876973,
+     -0.8467943607983416,
+     -0.8467539637140473
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 82012,
+    "tests": 4510660,
+    "swept": "partly",
+    "note": "offsets 0-100 as in phase 3; \u00d7812 multiplier schedules; affine multipliers under the skip rule: pnotisdev '28 key multipliers' under its collision-repair model (coverage unclear); not run here"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 1,
+   "rank": 6,
+   "name": "Shift-3 multiplier: C = 3*P + p_n, prime stream, skip-on-repeat",
+   "rationale": "Section 0.3's published key is literally '3' and the last solved page is shift 3 then Atbash; multiplying by 3 is the other thing '3' can mean in the author's modular arithmetic. JW's all-multiplier sweep was rigid, so a constant affine with the published prime stream under the author's own skip rule has never been decoded. At the gate it is a flat Vigenere with a doublet rate of 1/29 before rejection; the number-theory flavour (multiply by 3 in Z/29, add the n-th prime) matches the author's demonstrated toolbox better than any external text.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "prime",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "affine",
+     "multiplier": 3,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "4b454d7ba6",
+   "describe": "prime[n+0]; affine m=3; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     84.25,
+     189.58861455448073,
+     40.83695199135537,
+     0.03451692716696086
+    ],
+    "sd": [
+     8.418877598399787,
+     26.657770359930122,
+     9.602007937505395,
+     2.5558987028055786e-05
+    ],
+    "z": [
+     0.2078661887580632,
+     -5.534321231820464,
+     -1.5075249239641226,
+     -1.5074659419355845
+    ],
+    "pass": false,
+    "pass_each": [
+     true,
+     false,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.08800373399635646,
+     -22.327789717331445,
+     -1.838167528175767,
+     -1.838079836744958
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 101,
+    "tests": 5555,
+    "swept": "partly",
+    "note": "offsets 0-100 as in phase 3; stated multiplier (\u00d728 for all); affine multipliers under the skip rule: pnotisdev '28 key multipliers' under its collision-repair model (coverage unclear); not run here"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 1,
+   "rank": 7,
+   "name": "Quadratic position key 3n^2 + 3n + 1 mod 29 (3301 digits), skip",
+   "rationale": "Phase 3 and LZ covered a*n+b, n^2+b, n^3 and triangular numbers, i.e. one-parameter polynomials; a full quadratic with the 3-3-0-1 digits as coefficients is the smallest untested step. Quadratic residues mod the prime 29 walk the alphabet irregularly (differences 6n+6 cycle through all classes), so unigram and IC are flat and the within-page period is 29, which the rejection skips desynchronise beyond the reach of the rigid period tests. A decoder only needs 29^3 coefficient triples per page, so a null here closes the whole family rather than a line in it.",
+   "predicted_doublets": 88,
+   "construction": {
+    "key_source": {
+     "type": "position",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 3,
+     "b": 3,
+     "c": 1,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "7d56ea8f43",
+   "describe": "3n\u00b2+3n+1; add; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     86.545,
+     34.968418835211644,
+     356.3859385612843,
+     0.03535683450288473
+    ],
+    "sd": [
+     9.314396116691022,
+     9.197329251644227,
+     37.83249831533782,
+     0.00010070103144662004
+    ],
+    "z": [
+     -0.05851157639982518,
+     0.7706075350131096,
+     -8.72330053661889,
+     -8.723213911117536
+    ],
+    "pass": false,
+    "pass_each": [
+     true,
+     true,
+     false,
+     false
+    ],
+    "z_strict": [
+     -0.027406877158865382,
+     1.0726364043503298,
+     -41.90871885385197,
+     -41.90671956081528
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 24389,
+    "tests": 1341395,
+    "swept": "yes",
+    "note": "all a, b, c mod 29; here ph3 (book streams, words), ph4 (phrases, all signs), ph5 (Latin/OE); JW \u00a77-8, WZ LP1-H, LZ, pnotisdev solved-phrase-keys; quadratic position formulas: only n\u00b2+b here; a\u00b7n\u00b2+b\u00b7n+c in full: nobody"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 1,
+   "rank": 8,
+   "name": "Prime+1 chain with subtract sign: C_i = P_i - (C_(i-1) + (p_n+1))",
+   "rationale": "The third chain variant with the third sign, included so that the three signs of the chain family are all on the ledger under the soft skip. p+1 is a stream the ledgers list only in plain Vigenere form; in chain form with subtraction the difference stream is C_i + C_(i-1) rather than C_i - C_(i-1), which the lag-1 class test of the gate treats identically but a difference-stream decoder does not. Flat on all four statistics; doublets at the 1/5 soft-skip rate.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "prime_plus1",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "sub",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "f9f75a3535",
+   "describe": "C-feedback lag 1 map identity + prime_plus1; sub; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     84.89,
+     70.48539179540997,
+     26.881765205310284,
+     0.034479782177578355
+    ],
+    "sd": [
+     9.100434056582184,
+     15.720602915385184,
+     7.148232622068321,
+     1.9027690855796194e-05
+    ],
+    "z": [
+     0.12197220408373334,
+     -1.8084193010855794,
+     -0.07275637592431237,
+     -0.07275255222277453
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.05581951127768892,
+     -4.302549534036859,
+     -0.06604322364818697,
+     -0.06604007299558459
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 2929,
+    "tests": 161095,
+    "swept": "partly",
+    "note": "\u00d7 base stream (101); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 1,
+   "rank": 9,
+   "name": "Small LCG mod 29 (x -> 2x + 24, 24 = 3301 mod 29): period-28 key smeared by skip",
+   "rationale": "A probe of the 'no within-page period 2-200' claim: the brief itself notes the kappa tests only see periods where the skip desynchronisation does not smear the lag. A full-period generator mod 29 is a 28-rune cycle through the alphabet, flat on every unigram statistic, and the rejection loop slips its phase by one rune roughly every 36 runes, which is faster than one cycle, so periodic IoC at 28 sees nothing. If this passes the gate (it should) it says a period-length key of the kind the author could print in one line is still alive and only a skip-aware period scan can kill it.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "lcg",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 2,
+     "b": 0,
+     "c": 24,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "ebb4583aae",
+   "describe": "lcg(a=2,c=24,m=29); add; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     91.325,
+     38.553544035193504,
+     40.7802547082433,
+     0.034516776253898096
+    ],
+    "sd": [
+     11.835513297853673,
+     11.00346227555835,
+     15.071745535338383,
+     4.011797130475099e-05
+    ],
+    "z": [
+     -0.44991711521000716,
+     0.3183003617971638,
+     -0.9566621841492583,
+     -0.9566383379874661
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.26778279058891336,
+     0.5300587870546342,
+     -1.8309677224731262,
+     -1.830880374515233
+    ],
+    "pass_strict": true,
+    "seconds": 0.9
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 29,
+    "tests": 1595,
+    "swept": "partly",
+    "note": "29 seeds for the stated (a, c, m); WZ B-04/R16 swept named PRNGs and KDFs, JW \u00a713/\u00a741 passphrase seeds; PRNG/KDF pads: WZ B-04, R16, R25 (MT 2^32 tail at 0.5%); JW \u00a713, \u00a741; a plain LCG mod m is not named by anyone"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 1,
+   "rank": 10,
+   "name": "Chained secret pad: K_i = C_(i-1) + U_i, 81% redraw",
+   "rationale": "The construction the brief calls consistent, restated in the chaining form a programmer writes by default (previous ciphertext fed back). To the gate it is identical to the plain pad, which is exactly the lesson: the four statistics cannot tell a pad from a pad-plus-feedback, so the surviving family is wider than 'uniform' and includes every chained generator; only decryption with a candidate generator separates them. Ranked below the publishable streams because it is not decryptable from anything the author printed.",
+   "predicted_doublets": 87,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "uniform",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "11428c5240",
+   "describe": "C-feedback lag 1 map identity + uniform; add; redraw p=0.81; F=none",
+   "gate": {
+    "mean": [
+     87.135,
+     26.693731012327568,
+     25.662023772769366,
+     0.03447653555083982
+    ],
+    "sd": [
+     8.557848737686108,
+     7.333430273372049,
+     6.5624305647304375,
+     1.746844184439621e-05
+    ],
+    "z": [
+     -0.13262678913706638,
+     2.0948203601223803,
+     0.1066162797143472,
+     0.10661017636594675
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.05707670747763716,
+     2.324938667833029,
+     0.08884781944458904,
+     0.08884358088008847
+    ],
+    "pass_strict": true,
+    "seconds": 0.3
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 29,
+    "tests": null,
+    "swept": "partly",
+    "note": "\u00d7 base stream (1); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 1,
+   "rank": 11,
+   "name": "Probe: lag-2 totient chain (K_i = C_(i-2) + phi(p_n)), skip-on-repeat",
+   "rationale": "A probe of the gate's blind spot above lag 1. With feedback at lag 2 the plaintext lives in C_i - C_(i-2), yet because the totient base is flat that stream is a flat Vigenere too, so all four statistics pass and the lag-1 doublet deficit is supplied by the soft skip. The brief reports lags 2 and beyond 'null' only by coincidence counts, which are flat here as well. If the gate accepts this, the reading 'the deficit is the only structure' is incomplete: deterministic-base chains at any lag are invisible to every statistic in the table and need a difference-stream decoder per lag.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 2,
+     "map": "identity",
+     "base": "totient",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "4a79d51761",
+   "describe": "C-feedback lag 2 map identity + totient; add; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     85.25,
+     70.58729524697415,
+     27.764881907996276,
+     0.03448213279896725
+    ],
+    "sd": [
+     9.67406326314585,
+     16.390146038049274,
+     6.650704787763771,
+     1.770340430871805e-05
+    ],
+    "z": [
+     0.07752688602494336,
+     -1.7407621092706707,
+     -0.21098458694382044,
+     -0.21097266923530117
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.03771588599843848,
+     -4.31797173796552,
+     -0.17818737453329486,
+     -0.17817887394533455
+    ],
+    "pass_strict": false,
+    "seconds": 0.3
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 84941,
+    "tests": 4671755,
+    "swept": "partly",
+    "note": "\u00d7 base stream (101); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 1,
+   "rank": 12,
+   "name": "Probe: hard anti-repeat (p = 1) with the published literal-F rule as the only le",
+   "rationale": "The one way a deliberate, hard 'never repeat' rule could still leave 86 doublets is a channel the rule does not inspect, and the author's own channel is the unencrypted plaintext F that consumes no key. Doublets then arise only where a cipher F precedes a literal F or two literal Fs abut, which I estimate at 15-25, and the literal Fs should push the F count to about twice its share and break the unigram chi-square of 26. I expect the gate to reject it on both columns; a rejection is useful because it rules out the hard rule for good and, with it, the F rule on the unsolved pages.",
+   "predicted_doublets": 20,
+   "construction": {
+    "key_source": {
+     "type": "uniform",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 1.0,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "literal_f"
+   },
+   "hash": "e01e68850c",
+   "describe": "uniform; add; redraw p=1.00; F=literal_f",
+   "gate": {
+    "mean": [
+     23.475,
+     28.253171582647887,
+     113.17308274158691,
+     0.03470946667573853
+    ],
+    "sd": [
+     4.173652478147566,
+     7.878499757204187,
+     21.610250208676515,
+     5.752172880308903e-05
+    ],
+    "z": [
+     14.980883129912892,
+     1.7519551819819337,
+     -4.017139838633959,
+     -4.017070001909086
+    ],
+    "pass": false,
+    "pass_each": [
+     false,
+     true,
+     false,
+     false
+    ],
+    "z_strict": [
+     3.1442476960698214,
+     2.0889308572932688,
+     -11.023900214043953,
+     -11.02337430899283
+    ],
+    "pass_strict": false,
+    "seconds": 0.3
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 1,
+    "tests": null,
+    "swept": "n/a",
+    "note": "secret pad: not decryptable without the pad; not a sweepable family; phase 2 construction table covers its statistics"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 1,
+   "rank": 13,
+   "name": "Probe: four-in-five as a clean rate (p = 0.80) on a secret-multiplier affine pad",
+   "rationale": "Tests two things at once. First, whether the gate can distinguish p = 0.80 from 0.81 (it cannot, 89 versus 87 against sd 10), which matters because an author-chosen 'skip four of five' rule is a different mechanism from a noisy 0.81 and would be coded with a counter, not a random draw. Second, that a second secret stream used as a per-rune multiplier (C = m_i P + K_i) is as flat as a pad, so the surviving family also includes two-stream constructions the single-key decoders of phases 3-7 cannot see even in principle.",
+   "predicted_doublets": 89,
+   "construction": {
+    "key_source": {
+     "type": "uniform",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "affine",
+     "multiplier": 1,
+     "multiplier_source": "key2",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 0.8,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "930bfa3e6a",
+   "describe": "uniform; affine m=key2; redraw p=0.80; F=none",
+   "gate": {
+    "mean": [
+     91.735,
+     26.874715541114465,
+     26.64033729546155,
+     0.034479139560801855
+    ],
+    "sd": [
+     9.10630413604842,
+     7.059396017676994,
+     6.756106921337212,
+     1.798395670780107e-05
+    ],
+    "z": [
+     -0.6297834900217422,
+     2.1505004789922992,
+     -0.04124440202638898,
+     -0.041242108631376645
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.2884008082680596,
+     2.297548228470667,
+     -0.035385069558693284,
+     -0.03538338148103834
+    ],
+    "pass_strict": true,
+    "seconds": 0.3
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 1,
+    "tests": null,
+    "swept": "n/a",
+    "note": "secret pad: not decryptable without the pad; key2 is a second secret stream: not decryptable; not a sweepable family; phase 2 construction table covers its statistics"
+   }
+  },
+  {
+   "proposer": "gpt",
+   "round": 1,
+   "rank": 1,
+   "name": "Totient stream with Gematria ciphertext feedback and soft rejection",
+   "rationale": "Combine two operations actually evidenced in the book: the prime-indexed totient stream and Gematria prime values. The new ingredient relative to the listed sweeps is their composition: the previous ciphertext rune's prime value is added to the totient stream before ciphertext-targeted rejection. This is not the bare prime-value feedback or independent totient key already tested. The extra stream prevents the ciphertext difference from simply exposing shifted plaintext, while nonlinear feedback may dilute the totient stream's residual structure. Decryption remains causal given the stream alignment and rejection path. The estimated 87 doublets assumes approximately uniform candidate ciphertext; the other three statistics still require simulation. The 0.81 rejection probability is an empirical fit, not an independently established authorial constant.",
+   "predicted_doublets": 87,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "prime_value",
+     "base": "totient",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "4d92b3ca90",
+   "describe": "C-feedback lag 1 map prime_value + totient; add; redraw p=0.81; F=none",
+   "gate": {
+    "mean": [
+     84.85,
+     68.92785312199496,
+     27.173846866316758,
+     0.034480559621145664
+    ],
+    "sd": [
+     8.895363962075454,
+     14.56198240095615,
+     6.9140086101279605,
+     1.840424893631252e-05
+    ],
+    "z": [
+     0.1292808259339272,
+     -1.8453464867328337,
+     -0.11746603260840877,
+     -0.11745965007613901
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.05783102519760596,
+     -4.066829559104968,
+     -0.1031337347471823,
+     -0.10312881466017194
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 2929,
+    "tests": 161095,
+    "swept": "partly",
+    "note": "\u00d7 base stream (101); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "gpt",
+   "round": 1,
+   "rank": 2,
+   "name": "Clock-dependent affine plaintext multiplier over the totient stream",
+   "rationale": "Retain the author's published totient key but replace the fixed plaintext coefficient with the menu's position-dependent multiplier, cycling through all 28 invertible multipliers. This is a limited, executable clock-dependent construction, not a claim to implement the frontier's evolving alphabet. The listed constant-affine sweeps and additive position-key sweeps do not establish coverage of this changing coefficient combined with totient skip-on-repeat. Every coefficient is invertible, so a published clock and alignment suffice for ordinary keyed decoding with rejection-path search. Cycling the multiplier may average away English and prime-stream biases while rejection removes only the zero-difference class; approximately 87 doublets is the working prediction, with residual clock correlations the principal reason it could fail.",
+   "predicted_doublets": 87,
+   "construction": {
+    "key_source": {
+     "type": "totient",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "affine",
+     "multiplier": 1,
+     "multiplier_source": "position",
+     "a": 13,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "d98b95b396",
+   "describe": "totient[n+0]; affine m=position; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     86.51,
+     64.37511003946197,
+     30.211236492744675,
+     0.034488644343131356
+    ],
+    "sd": [
+     8.536386824475143,
+     14.737417732041408,
+     7.958021365415694,
+     2.1183132752407544e-05
+    ],
+    "z": [
+     -0.05974424665688253,
+     -1.5144552720665252,
+     -0.4837321503068046,
+     -0.48370931464331235
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.025646802478938423,
+     -3.377811364177576,
+     -0.4888420783069679,
+     -0.4888187576556478
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 82012,
+    "tests": 4510660,
+    "swept": "partly",
+    "note": "offsets 0-100 as in phase 3; \u00d7812 multiplier schedules; affine multipliers under the skip rule: pnotisdev '28 key multipliers' under its collision-repair model (coverage unclear); not run here"
+   }
+  },
+  {
+   "proposer": "gpt",
+   "round": 1,
+   "rank": 3,
+   "name": "Totient stream with Gematria plaintext feedback and soft rejection",
+   "rationale": "This is the plaintext-feedback counterpart of the first proposal: the preceding recovered plaintext rune contributes its Gematria prime value, with the published totient stream supplying a separate numerical component. It changes both ingredients responsible for the failed bare plaintext autokeys: feedback is nonlinear, and it is not the entire key. The explicit novelty against the supplied ledger is composite prime-value plaintext feedback plus a totient base under soft ciphertext rejection, rather than another seed or sign of a bare autokey. It remains causally decryptable after initialization, although rejection creates alignment ambiguity. The expected doublet count is approximately 87 if the composite sufficiently mixes candidate differences; plaintext-dependent residual difference classes are the main gate risk.",
+   "predicted_doublets": 87,
+   "construction": {
+    "key_source": {
+     "type": "plain_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "prime_value",
+     "base": "totient",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "70509a9651",
+   "describe": "P-feedback lag 1 map prime_value + totient; add; redraw p=0.81; F=none",
+   "gate": {
+    "mean": [
+     79.49,
+     80.73497234469768,
+     27.751944272923733,
+     0.03448209836242945
+    ],
+    "sd": [
+     8.820425160820813,
+     16.3658796512806,
+     7.214408180073267,
+     1.92038325611821e-05
+    ],
+    "z": [
+     0.7380596605384265,
+     -2.3633940313832107,
+     -0.19270583709126454,
+     -0.19269580235979247
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.32737389046644627,
+     -5.853734690064596,
+     -0.17654446584947212,
+     -0.17653604363833372
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 2929,
+    "tests": 161095,
+    "swept": "partly",
+    "note": "\u00d7 base stream (101); plaintext autokey beyond lag 3 or with a base stream: WZ R12-C1 k=2..6 only"
+   }
+  },
+  {
+   "proposer": "gpt",
+   "round": 1,
+   "rank": 4,
+   "name": "Permuted ciphertext feedback with a totient base",
+   "rationale": "A fixed keyed permutation is a modest extension of the book's demonstrated substitution practice, while the totient base preserves its demonstrated numerical keying. The menu's random bijection represents a publishable secret permutation; it does not specifically implement a keyword-mixed alphabet. Unlike the additive chains and sample bijections listed in the ledger, this proposal adds a changing totient base and applies soft rejection. A bijection preserves a uniform input distribution, making flat marginals more plausible than for a many-to-one prime-value map, although temporal structure still needs testing. Approximately 87 doublets is expected under adequate mixing. Its lower rank reflects the unsupported permutation key, not stronger statistical evidence.",
+   "predicted_doublets": 87,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "random_bijection",
+     "base": "totient",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "139253b6d8",
+   "describe": "C-feedback lag 1 map random_bijection + totient; add; redraw p=0.81; F=none",
+   "gate": {
+    "mean": [
+     84.205,
+     70.48930688318661,
+     25.66596326026553,
+     0.03447654603670602
+    ],
+    "sd": [
+     8.918686843803707,
+     15.04766854728551,
+     7.145865402855515,
+     1.902138994890942e-05
+    ],
+    "z": [
+     0.2012628127252932,
+     -1.8895523074098157,
+     0.09736013848247174,
+     0.09735502004044466
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.09026668715626285,
+     -4.3031420486294785,
+     0.0883475565927641,
+     0.08834334189319215
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 2929,
+    "tests": null,
+    "swept": "partly",
+    "note": "29! bijections: not enumerable (LZ ran 14 named bijections); \u00d7 base stream (101); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "gpt",
+   "round": 1,
+   "rank": 5,
+   "name": "Self-book running key with Gematria ciphertext feedback",
+   "rationale": "This gives a concrete composite reading of 'numbers are the direction, words are the map': the solved plaintext supplies the running word stream, and the previous ciphertext rune supplies a Gematria prime-value contribution. Both ingredients are tied to the book, and the running text and offset could be published or derived. The change from the exhausted self-running-key lane is the nonlinear ciphertext-feedback term inside every key symbol, not another offset, phrase, or external text. That term may smooth the severe unigram bias of an English running key without reducing the difference stream to plaintext. Soft rejection predicts roughly 87 doublets if it succeeds, but this is a weaker mixing hypothesis than the totient-base proposals and could fail the unigram or difference-spectrum gate.",
+   "predicted_doublets": 87,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "prime_value",
+     "base": "running_text",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "8c54c16614",
+   "describe": "C-feedback lag 1 map prime_value + running_text; add; redraw p=0.81; F=none",
+   "gate": {
+    "mean": [
+     83.15,
+     50.52219315331906,
+     39.36752315529483,
+     0.03451301593887407
+    ],
+    "sd": [
+     9.446030913504996,
+     12.873316758676136,
+     9.66018965623824,
+     2.571385126296143e-05
+    ],
+    "z": [
+     0.3017140242390428,
+     -0.6576582596002662,
+     -1.3463335516846124,
+     -1.346281193523274
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.14332036679406596,
+     -1.2812924931722458,
+     -1.6515694844462119,
+     -1.6514906948418429
+    ],
+    "pass_strict": true,
+    "seconds": 0.4
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 86333,
+    "tests": 4748315,
+    "swept": "partly",
+    "note": "\u00d7 base stream (2,977); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "gpt",
+   "round": 1,
+   "rank": 6,
+   "name": "Prime-gap key with a clock-dependent affine multiplier",
+   "rationale": "This is a deliberate boundary probe of the independent-additive-key reading, not another prime, prime-minus-one, or prime-plus-one offset sweep. Prime gaps retain the author's prime-number vocabulary, while the position-dependent invertible coefficient changes how plaintext differences interact with the numerical stream. The explicitly changed construction is a prime-gap key combined with a changing affine coefficient under soft rejection; the supplied ledger does not identify that combination. The gap distribution alone is strongly nonuniform, so a plain additive gap key would be a poor candidate. Here the multiplier cycle is intended to average that bias, giving a provisional prediction near 87 doublets. Failure of flatness would reject this proposed averaging mechanism, and success would still require checking clock-dependent signatures beyond the four pooled statistics.",
+   "predicted_doublets": 87,
+   "construction": {
+    "key_source": {
+     "type": "prime_gap",
+     "offset": 3301,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "affine",
+     "multiplier": 1,
+     "multiplier_source": "position",
+     "a": 13,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "b315831133",
+   "describe": "prime_gap[n+3301]; affine m=position; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     85.135,
+     38.97150979499381,
+     42.09185782648966,
+     0.034520267391970866
+    ],
+    "sd": [
+     8.216859194146734,
+     9.989129900198996,
+     11.323939189867696,
+     3.014230927712031e-05
+    ],
+    "z": [
+     0.10527136702259376,
+     0.3087796729392734,
+     -1.3891077881361171,
+     -1.3890617032768933
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.04349898851819879,
+     0.46680329291881406,
+     -1.9975239857015636,
+     -1.9974286920280555
+    ],
+    "pass_strict": true,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 82012,
+    "tests": 4510660,
+    "swept": "no",
+    "note": "prime gaps: LZ's 24 integer sequences may include it (unverified); not run here; \u00d7812 multiplier schedules"
+   }
+  },
+  {
+   "proposer": "gpt",
+   "round": 1,
+   "rank": 7,
+   "name": "DIVINITY with a secret multiplicative pad",
+   "rationale": "This is a deliberate identifiability probe, ranked below the derivable-stream candidates. Use the author's actual DIVINITY key additively, but put independent secret randomness in the invertible plaintext multiplier instead of the additive key. The changed ingredient is a fresh multiplicative pad, not a constant affine multiplier or another DIVINITY skip sweep. For nonzero plaintext runes, random multiplication spreads outputs over 28 possibilities; soft ciphertext rejection should then yield approximately 87 doublets with only modest remaining structure. A published multiplier pad makes it decryptable, but the book provides no evidence for such a second pad. Acceptance would demonstrate that these four statistics do not uniquely locate the cipher's randomness in an additive keystream; it would not identify a new pad source or establish this as the historical mechanism.",
+   "predicted_doublets": 87,
+   "construction": {
+    "key_source": {
+     "type": "word",
+     "offset": 0,
+     "period": 8,
+     "text": "DIVINITY",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "affine",
+     "multiplier": 1,
+     "multiplier_source": "key2",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "daf0289d26",
+   "describe": "word 'DIVINITY'; affine m=key2; redraw p=0.81; F=none",
+   "gate": {
+    "mean": [
+     84.015,
+     54.45685220967415,
+     48.99274313059587,
+     0.034538635710165425
+    ],
+    "sd": [
+     9.116730500471839,
+     12.77315515275345,
+     10.650443047258788,
+     2.834964197356576e-05
+    ],
+    "z": [
+     0.2177315650492537,
+     -0.9708566131740581,
+     -2.124893520833953,
+     -2.124818567934733
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.09982137827586715,
+     -1.8767690292995975,
+     -2.8738452243676633,
+     -2.8737081250029917
+    ],
+    "pass_strict": true,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 1,
+    "tests": null,
+    "swept": "partly",
+    "note": "a single stated key; key2 is a second secret stream: not decryptable; affine multipliers under the skip rule: pnotisdev '28 key multipliers' under its collision-repair model (coverage unclear); not run here"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 1,
+   "rank": 1,
+   "name": "uniform pad redrawn on a cipher repeat",
+   "rationale": "Phase 2's only construction inside all four gates is an otherwise uniform key re-drawn about four times in five exactly when it would repeat the previous rune: an independent key hits a doublet once in 29, and a single soft redraw leaves a residual near 86 while the other 28 lag-1 classes, the unigram and the IC stay flat. Every key the author demonstrably used (book words, phrases, phi of the primes, Fibonacci, position polynomials, running text) has already been run under that same rejection and come back null, and no two pages share a stream, so what remains is a per-page pad generated by that rejection and publishable the way the keys file publishes section keys. A hard redraw would have driven the pages to zero doublets; the 86 that remain are why the rule is soft.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "uniform",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "4741b426c8",
+   "describe": "uniform; add; redraw p=0.81; F=none",
+   "gate": {
+    "mean": [
+     86.27,
+     26.810213222151578,
+     26.646313677060817,
+     0.03447915546833752
+    ],
+    "sd": [
+     9.284239334407987,
+     6.862152241208332,
+     7.3056471391832645,
+     1.9446686363095614e-05
+    ],
+    "z": [
+     -0.029081542415581498,
+     2.221713582047988,
+     -0.038959994395238375,
+     -0.038957990975086856
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.013577718959437653,
+     2.3073100952342345,
+     -0.036143991044128736,
+     -0.03614226676295598
+    ],
+    "pass_strict": true,
+    "seconds": 0.4
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 1,
+    "tests": null,
+    "swept": "n/a",
+    "note": "secret pad: not decryptable without the pad; not a sweepable family; phase 2 construction table covers its statistics"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 1,
+   "rank": 2,
+   "name": "LCG multiplier 3301 with soft cipher-skip and literal F",
+   "rationale": "The same soft cipher-locus skip, but on a short published generator rather than a pad: x goes to 3301*x+1 in the Mersenne modulus, key symbol x mod 29, one seed per page so the cross-page reuse test stays null. Phases 3-7 swept words, phrases, primes, totients, Fibonacci, Lucas, position formulas and running text under skip, and phase 7's skip-by-two was those book families only; an LCG was not among them. Addition matches the solved polyalphabetic sections, literal F is the author's own published skip (sections 0.1, 0.5, 0.16), and because the skip decision is a function of the generator plus the visible previous rune it is decryptable, unlike a naked coin-flip. Cleartext F can add a few unfixable doubles, so the mean should sit a little above 86 and still inside the gate.",
+   "predicted_doublets": 90,
+   "construction": {
+    "key_source": {
+     "type": "lcg",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 3301,
+     "b": 0,
+     "c": 1,
+     "modulus": 2147483647
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "literal_f"
+   },
+   "hash": "bbf5d4c0ee",
+   "describe": "lcg(a=3301,c=1,m=2147483647); add; skip k=1 p=0.81; F=literal_f",
+   "gate": {
+    "mean": [
+     109.195,
+     26.56171758689533,
+     116.16924205001544,
+     0.03471744165360202
+    ],
+    "sd": [
+     10.514132157293263,
+     7.5522807510668395,
+     23.344453487340314,
+     6.213771591674181e-05
+    ],
+    "z": [
+     -2.206078414556591,
+     2.0515964623588863,
+     -3.8470618467574487,
+     -3.846999935057566
+    ],
+    "pass": false,
+    "pass_each": [
+     true,
+     true,
+     false,
+     false
+    ],
+    "z_strict": [
+     -1.1664266343117071,
+     2.3449177552641816,
+     -11.404372852075012,
+     -11.403828796234835
+    ],
+    "pass_strict": false,
+    "seconds": 0.6
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 2147483647,
+    "tests": 118111600585,
+    "swept": "partly",
+    "note": "2,147,483,647 seeds for the stated (a, c, m); WZ B-04/R16 swept named PRNGs and KDFs, JW \u00a713/\u00a741 passphrase seeds; PRNG/KDF pads: WZ B-04, R16, R25 (MT 2^32 tail at 0.5%); JW \u00a713, \u00a741; a plain LCG mod m is not named by anyone"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 1,
+   "rank": 3,
+   "name": "Gematria prime of previous rune plus 3301-LCG, soft skip",
+   "rationale": "Each rune already carries a prime, and the book's hint treats numbers as the direction, so the natural unswept step is K = prime(C previous) mod 29 plus the 3301-LCG, not prime-value feedback alone. WZ and LZ ran prime-value and totient feedback without a uniformizing base and without this soft cipher-locus skip; pure lag-1 feedback can be tuned to 86 doubles only by wrecking the lag-1 chi-square (phase 2's offset autokey). The LCG base makes the sum equidistributed, so unigram and lag-1 stay flat, and the skip \u2014 the change those feedback sweeps did not try \u2014 is what cuts doubles from about 445 to about 86. Decryptable from the LCG seed plus the visible ciphertext.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "prime_value",
+     "base": "lcg",
+     "a": 3301,
+     "b": 0,
+     "c": 1,
+     "modulus": 2147483647
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "becb592e33",
+   "describe": "C-feedback lag 1 map prime_value + lcg; add; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     87.11,
+     26.742015762158754,
+     26.50469357826489,
+     0.034478778513363936
+    ],
+    "sd": [
+     9.1906419807531,
+     7.207517225214085,
+     7.4552876092858265,
+     1.984498942835516e-05
+    ],
+    "z": [
+     -0.12077502336882932,
+     2.1247169889228457,
+     -0.01918207322037075,
+     -0.019181106627461385
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.05581951127768892,
+     2.3176311895571637,
+     -0.018160110001646336,
+     -0.01815924365711824
+    ],
+    "pass_strict": true,
+    "seconds": 0.9
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 62277025763,
+    "tests": 3425236416965,
+    "swept": "partly",
+    "note": "\u00d7 base stream (2,147,483,647); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 1,
+   "rank": 4,
+   "name": "phi(primes) plus lag-5 ciphertext feedback, soft skip, literal F",
+   "rationale": "Section 0.16 is exactly f(n)=phi(n) on the primes with cleartext F left in the clear, and phase 2 shows that stream under F-skip still has about 430 doubles, so it cannot be the unsolved pages unless something else supplies the rejection. Lag-5 ciphertext feedback is the delay at which phase 2's autokey is already flat on lag-1 chi-square, unigram and IC and fails only the doublet column; adding it to the totient base was not in phase 3's totient sweep nor in phase 2's autokey rows. Soft skip then moves doubles from about 443 to about 86 without the lag-1 spike that kills lag-1 autokey. Literal F is the rule published with that totient page.",
+   "predicted_doublets": 90,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 5,
+     "map": "identity",
+     "base": "totient",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "literal_f"
+   },
+   "hash": "51d7a4cfaa",
+   "describe": "C-feedback lag 5 map identity + totient; add; skip k=1 p=0.81; F=literal_f",
+   "gate": {
+    "mean": [
+     106.755,
+     69.0234097557768,
+     117.23225455387464,
+     0.03472027110968702
+    ],
+    "sd": [
+     10.059074262580936,
+     14.041558656044186,
+     24.524428990883536,
+     6.527849634646073e-05
+    ],
+    "z": [
+     -2.0633111415835916,
+     -1.9205460275340223,
+     -3.705308241108867,
+     -3.705251479715557
+    ],
+    "pass": false,
+    "pass_each": [
+     true,
+     true,
+     false,
+     false
+    ],
+    "z_strict": [
+     -1.0437242851967874,
+     -4.081291227186855,
+     -11.539361392392463,
+     -11.53881089680215
+    ],
+    "pass_strict": false,
+    "seconds": 0.3
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 2071626049,
+    "tests": 113939432695,
+    "swept": "partly",
+    "note": "\u00d7 base stream (101); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 1,
+   "rank": 5,
+   "name": "lag-5 ciphertext autokey with soft redraw",
+   "rationale": "The phase 2 lag-5 ciphertext autokey row is the near-miss: doubles 443, lag-1 class chi-square 27, unigram 27, IC 0.0345, ruled out only on doubles. The change from that row, and from LZ's lag 1-60 autokey sweep, is the soft redraw, which on a feedback-only key is a fresh uniform symbol and therefore cuts doubles the same way the winning pad rule does while leaving the other three columns alone. A five-rune primer is the sort of short key the author published. Ranked below the generators because no solved page is an autokey, but it is the one text-dependent family the four statistics do not reject once the redraw is added, and lags 2 and beyond being null does not by itself kill a lag-5 difference that those tests did not score.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 5,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "5d0c63ab04",
+   "describe": "C-feedback lag 5 map identity; add; redraw p=0.81; F=none",
+   "gate": {
+    "mean": [
+     87.055,
+     28.331916062953795,
+     25.76769604816301,
+     0.03447681682228446
+    ],
+    "sd": [
+     9.99309636799257,
+     6.764233268784526,
+     7.173003477741609,
+     1.9093624274322288e-05
+    ],
+    "z": [
+     -0.10557288363385783,
+     2.02891199197769,
+     0.08280905748126764,
+     0.08280472049265417
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.05305367963780381,
+     2.0770135628847544,
+     0.07542883692498069,
+     0.07542523852492106
+    ],
+    "pass_strict": true,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 20511149,
+    "tests": null,
+    "swept": "yes",
+    "note": "a re-drawn symbol on a feedback-only key is a fresh secret symbol: not decryptable; ciphertext autokey/chain lags 1-60 with named maps: LZ (14 bijections, \u0394c detector), WZ R12/R18/R22, JW \u00a73, here ph2"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 1,
+   "rank": 6,
+   "name": "position-evolving affine alphabet plus soft redraw",
+   "rationale": "The open frontier both thorough repos name is a clock-dependent evolving alphabet, and no ledger ran a position-varying multiplier under the soft cipher-locus redraw: JW and WZ swept constant non-additive multipliers only. Here m_i = (i mod 28)+1 and the key is an independent pad re-drawn with probability 0.81 on a would-be doublet. Because 29 is prime every m is invertible, so a uniform key still hides m and the four statistics come only from the redraw \u2014 this asks whether that evolving alphabet can sit on the doublet rule without disturbing flatness. It is decryptable with no second secret, which is why it outranks a key2 mixer, and it is ranked below plain addition because every solved polyalphabetic page uses a fixed multiplier of 1.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "uniform",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "affine",
+     "multiplier": 1,
+     "multiplier_source": "position",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "fec50eb871",
+   "describe": "uniform; affine m=position; redraw p=0.81; F=none",
+   "gate": {
+    "mean": [
+     87.41,
+     26.994341960741018,
+     26.557518524235885,
+     0.03447891911929686
+    ],
+    "sd": [
+     8.686305314538087,
+     7.206210748588576,
+     6.931573600053865,
+     1.8451002259955193e-05
+    ],
+    "z": [
+     -0.16232448077091063,
+     2.0900870961530167,
+     -0.028252288739993327,
+     -0.02825075753754319
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.07090586567706418,
+     2.279443806977404,
+     -0.024868180060168523,
+     -0.02486699370102366
+    ],
+    "pass_strict": true,
+    "seconds": 0.3
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 812,
+    "tests": null,
+    "swept": "n/a",
+    "note": "secret pad: not decryptable without the pad; \u00d7812 multiplier schedules; not a sweepable family; phase 2 construction table covers its statistics"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 1,
+   "rank": 7,
+   "name": "3301-LCG under Beaufort with soft cipher-skip",
+   "rationale": "Phase 4 ran both signs for phase 3's families only, so Beaufort on the 3301-LCG is the unread sign on the unswept generator, not a re-proposal of those families. For an equidistributed key, C = K-P has the same doublet rate and the same flat lag-1 spectrum as addition once the soft skip is applied, so the gate should accept it at the same 86. Ranked below addition because the solved polyalphabetic sections are described as substitution with a key, not as Beaufort, but it is the one sign asymmetry this generator has not been asked.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "lcg",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 3301,
+     "b": 0,
+     "c": 1,
+     "modulus": 2147483647
+    },
+    "combine": {
+     "rule": "beaufort",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "7f8f24ad5f",
+   "describe": "lcg(a=3301,c=1,m=2147483647); beaufort; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     87.225,
+     27.63869668719627,
+     26.15038592158073,
+     0.03447783544077398
+    ],
+    "sd": [
+     9.240366606281412,
+     6.9032507605421864,
+     6.441033261067245,
+     1.714531456385418e-05
+    ],
+    "z": [
+     -0.13257049770809573,
+     2.0884730790507398,
+     0.03280526203165501,
+     0.032803348670995325
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.06160261379744923,
+     2.1819263054477283,
+     0.02683228023408152,
+     0.026831000176283728
+    ],
+    "pass_strict": true,
+    "seconds": 0.4
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 2147483647,
+    "tests": 118111600585,
+    "swept": "partly",
+    "note": "2,147,483,647 seeds for the stated (a, c, m); WZ B-04/R16 swept named PRNGs and KDFs, JW \u00a713/\u00a741 passphrase seeds; PRNG/KDF pads: WZ B-04, R16, R25 (MT 2^32 tail at 0.5%); JW \u00a713, \u00a741; a plain LCG mod m is not named by anyone"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 1,
+   "rank": 8,
+   "name": "lag-2 Atbash ciphertext feedback with soft redraw",
+   "rationale": "The last solved page is shift then Atbash, and phase 2's lag-2 ciphertext autokey is flat on every column except doubles (445, lag-1 chi-square 25, unigram 25, IC 0.0345). The change from that row is the Atbash map on the feedback rune plus the soft redraw that supplies the missing deficit. Atbash is a bijection, so it does not bias the unigram the way a prime-value map with no base would. Lag 2 is the shortest delay that already keeps lag-1 flat, which is why this is preferred to a lag-1 Atbash chain. Not used on the solved polyalphabetic pages, so it sits below the 3301 generator.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 2,
+     "map": "atbash",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "22e337bc37",
+   "describe": "C-feedback lag 2 map atbash; add; redraw p=0.81; F=none",
+   "gate": {
+    "mean": [
+     87.745,
+     30.259756822674277,
+     27.220426829268273,
+     0.03448068360459751
+    ],
+    "sd": [
+     9.015540750173063,
+     8.333219799905727,
+     7.927332178496291,
+     2.1101446312823765e-05
+    ],
+    "z": [
+     -0.19355466836157414,
+     1.415562473941266,
+     -0.10832662293792222,
+     -0.10832148933932444
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.0877522947563671,
+     1.7852515775739053,
+     -0.10904877448946067,
+     -0.10904357221884624
+    ],
+    "pass_strict": true,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 841,
+    "tests": null,
+    "swept": "yes",
+    "note": "a re-drawn symbol on a feedback-only key is a fresh secret symbol: not decryptable; ciphertext autokey/chain lags 1-60 with named maps: LZ (14 bijections, \u0394c detector), WZ R12/R18/R22, JW \u00a73, here ph2"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 1,
+   "rank": 9,
+   "name": "3301-LCG skip-by-two on cipher repeat",
+   "rationale": "Phase 7 showed a single-advance decoder misses skip-by-two plants and then ran that relation only on the book families. On the 3301-LCG a rejection that discards two generator outputs is the same statistical object as k=1 \u2014 another equidistributed symbol, soft with p=0.81 \u2014 so doubles should still land near 86 with a flat lag-1 spectrum, but decryption is a different machine. This is the instrument completion on the unswept generator, not a new shape, which is why it ranks below the k=1 LCG.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "lcg",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 3301,
+     "b": 0,
+     "c": 1,
+     "modulus": 2147483647
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 2,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "2a329bd6e8",
+   "describe": "lcg(a=3301,c=1,m=2147483647); add; skip k=2 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     85.925,
+     27.786900867566892,
+     25.943383760419877,
+     0.034477284456169
+    ],
+    "sd": [
+     9.793843730608922,
+     7.035742621551572,
+     6.683987907543438,
+     1.779199510651853e-05
+    ],
+    "z": [
+     0.007657871828769704,
+     2.0280800419347296,
+     0.06258269027876043,
+     0.06257917282587144
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.003771588599843991,
+     2.1594968876245626,
+     0.05311881917526659,
+     0.05311628509524857
+    ],
+    "pass_strict": true,
+    "seconds": 0.3
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 2147483647,
+    "tests": 118111600585,
+    "swept": "partly",
+    "note": "2,147,483,647 seeds for the stated (a, c, m); WZ B-04/R16 swept named PRNGs and KDFs, JW \u00a713/\u00a741 passphrase seeds; PRNG/KDF pads: WZ B-04, R16, R25 (MT 2^32 tail at 0.5%); JW \u00a713, \u00a741; a plain LCG mod m is not named by anyone"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 1,
+   "rank": 10,
+   "name": "second-stream affine multiplier plus soft redraw",
+   "rationale": "The menu cannot express a keyword-mixed outer alphabet, which is one of the open lanes; the closest object is an affine combiner whose multiplier is a second secret stream in 1..28, over a uniform pad, with the soft cipher redraw. Constant-multiplier sweeps did not try key2, and they were not under this repeat rule. Every m is invertible mod 29, so the four statistics again come only from the redraw and should match the pad row. Ranked low because no solved page varies the multiplier and decryption needs a second pad the keys file never hints at.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "uniform",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "affine",
+     "multiplier": 1,
+     "multiplier_source": "key2",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "b1b6bb5047",
+   "describe": "uniform; affine m=key2; redraw p=0.81; F=none",
+   "gate": {
+    "mean": [
+     87.275,
+     26.900003005707614,
+     26.89179299166408,
+     0.034479808868874154
+    ],
+    "sd": [
+     9.330561345313642,
+     7.481542400937229,
+     6.90116433489907,
+     1.8370060897534237e-05
+    ],
+    "z": [
+     -0.13664772705667766,
+     2.025778407794486,
+     -0.0768141809808365,
+     -0.07680999950594028
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.0641170061973457,
+     2.2937211899375445,
+     -0.06731661999827675,
+     -0.06731340859985731
+    ],
+    "pass_strict": true,
+    "seconds": 0.4
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 1,
+    "tests": null,
+    "swept": "n/a",
+    "note": "secret pad: not decryptable without the pad; key2 is a second secret stream: not decryptable; not a sweepable family; phase 2 construction table covers its statistics"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 1,
+   "rank": 11,
+   "name": "uniform pad soft redraw with the book's literal F",
+   "rationale": "The winning pad rule with the one skip the author actually published: a plaintext F is written unencrypted and consumes no key symbol, as on the DIVINITY, FIRFUMFERENFE and totient pages. The redraw cannot repair a doublet caused by a cleartext F landing on a previous F, and English F is only a couple of percent, so the mean should rise by a handful above 86 and remain inside 3 sd. This was not one of the 20 phase-2 rows, which paired F-skip only with book keys that lack the redraw. If the unsolved pages continue the published F convention, this is the survivor plus that convention.",
+   "predicted_doublets": 90,
+   "construction": {
+    "key_source": {
+     "type": "uniform",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "literal_f"
+   },
+   "hash": "bd6eb5952c",
+   "describe": "uniform; add; redraw p=0.81; F=literal_f",
+   "gate": {
+    "mean": [
+     109.25,
+     26.894431572953337,
+     113.73383297313984,
+     0.03471095924346383
+    ],
+    "sd": [
+     10.86128445542803,
+     6.6320264642727995,
+     21.024604648968854,
+     5.596289634668784e-05
+    ],
+    "z": [
+     -2.1406307969754526,
+     2.286106451361136,
+     -4.155709404598023,
+     -4.155635146498381
+    ],
+    "pass": false,
+    "pass_each": [
+     true,
+     true,
+     false,
+     false
+    ],
+    "z_strict": [
+     -1.1691924659515929,
+     2.294564377982624,
+     -11.095108083156685,
+     -11.094578781070883
+    ],
+    "pass_strict": false,
+    "seconds": 0.5
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 1,
+    "tests": null,
+    "swept": "n/a",
+    "note": "secret pad: not decryptable without the pad; not a sweepable family; phase 2 construction table covers its statistics"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 1,
+   "rank": 12,
+   "name": "probe: soft bump by 1 instead of redraw",
+   "rationale": "Probe of the brief's claim that the deficit must be a redraw rather than a nudge. A bump of +1 with probability 0.81 also leaves about 0.19 of the natural doubles, near 85, and JW already called a deterministic bump ruled out. Phase 2's always-+1 row spiked lag-1 chi-square to 438 by dumping every prevented doublet into one difference class; the soft version should spike the same class by about 360 counts. If the gate's lag-1 tolerance is wider than that reading, this passes and the redraw story is wrong. I expect it to fail the lag-1 column.",
+   "predicted_doublets": 85,
+   "construction": {
+    "key_source": {
+     "type": "uniform",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "bump",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "fef1f5b966",
+   "describe": "uniform; add; bump \u03b4=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     84.975,
+     301.2729425247911,
+     27.79800941648656,
+     0.034482220975569244
+    ],
+    "sd": [
+     9.370932451935712,
+     47.502944997557556,
+     7.962341383186625,
+     2.1194631488805157e-05
+    ],
+    "z": [
+     0.10938079057311698,
+     -5.456861516261656,
+     -0.18038961680980817,
+     -0.18038110573300348
+    ],
+    "pass": false,
+    "pass_each": [
+     true,
+     false,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.051545044197866215,
+     -39.230244493445994,
+     -0.18239413033270718,
+     -0.18238542905707558
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 1,
+    "tests": null,
+    "swept": "n/a",
+    "note": "secret pad: not decryptable without the pad; not a sweepable family; phase 2 construction table covers its statistics"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 1,
+   "rank": 13,
+   "name": "probe: plaintext autokey lag 1 plus soft redraw",
+   "rationale": "Probe of the claim that text-tied keys cannot be repaired by the same redraw that saves a pad. Phase 2 plaintext autokey lag 1 raises doubles to about 698 and wrecks both lag-1 structure and the unigram. A feedback-only redraw replaces the key with a fresh uniform symbol only when a doublet would form, so the doublet rate should fall to roughly 0.054*(0.19+0.81/29)*12901, near 152, not 86, and the unigram bias on the positions that are not redrawn should survive. If this lands inside all four gates, the brief's rejection of autokey is an artifact of testing feedback without the repeat rule.",
+   "predicted_doublets": 152,
+   "construction": {
+    "key_source": {
+     "type": "plain_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "0eb2720b50",
+   "describe": "P-feedback lag 1 map identity; add; redraw p=0.81; F=none",
+   "gate": {
+    "mean": [
+     138.595,
+     1040.1061278547904,
+     1629.1334439641862,
+     0.03874454928589464
+    ],
+    "sd": [
+     12.565069638690034,
+     73.74848014820132,
+     111.3840984211041,
+     0.0002964757958320022
+    ],
+    "z": [
+     -4.185810466028047,
+     -13.533162660310188,
+     -14.389592239631956,
+     -14.389543704290649
+    ],
+    "pass": false,
+    "pass_each": [
+     false,
+     false,
+     false,
+     false
+    ],
+    "z_strict": [
+     -2.6448893654504957,
+     -151.04624168020212,
+     -203.53083272672055,
+     -203.52112310572525
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 29,
+    "tests": null,
+    "swept": "yes",
+    "note": "a re-drawn symbol on a feedback-only key is a fresh secret symbol: not decryptable; plaintext autokey primers/lags 1-3: JW \u00a73, LZ, here ph2 lags 1,2,5"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 1,
+   "rank": 14,
+   "name": "probe: hard redraw until no doublet",
+   "rationale": "Probe of the soft-versus-hard reading. If the 86 doubles are transcription noise and the author's rule was a hard re-roll until the rune changed, the construction mean is 0, which phase 2 already measured, and the pages sit many sd away. The haplography audit says the doubles are on the page and every page is low, so I expect the gate to reject this; it is here so a hard rule cannot be smuggled back in as the decryptable idealisation of the soft one.",
+   "predicted_doublets": 0,
+   "construction": {
+    "key_source": {
+     "type": "uniform",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 1.0,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "3015c36e95",
+   "describe": "uniform; add; redraw p=1.00; F=none",
+   "gate": {
+    "mean": [
+     0.0,
+     26.43835051546392,
+     25.30498533497991,
+     0.03447558520963808
+    ],
+    "sd": [
+     1e-09,
+     6.885463899231281,
+     6.718067216500523,
+     1.788270514779399e-05
+    ],
+    "z": [
+     86000000000.0,
+     2.2681985951309476,
+     0.15729231882189743,
+     0.15728352306677537
+    ],
+    "pass": false,
+    "pass_each": [
+     false,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     4.324754927820946,
+     2.3635882919780293,
+     0.13418698279351365,
+     0.13418058128332444
+    ],
+    "pass_strict": false,
+    "seconds": 0.4
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 1,
+    "tests": null,
+    "swept": "n/a",
+    "note": "secret pad: not decryptable without the pad; not a sweepable family; phase 2 construction table covers its statistics"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 1,
+   "rank": 15,
+   "name": "probe: rejection locus on the key, not the ciphertext",
+   "rationale": "Probe of the locus. A pad that never repeats a key symbol, which is what target=key with a hard redraw encodes, left cipher doubles at 448 in phase 2: a doublet needs the plaintext difference to match the key difference, and a key-side constraint does not hit that event. If the pages' deficit were a property of the pad rather than of the ciphertext, this would land near 86; the brief says it will not. Included so the gate, not the reading, is what kills a key-locus rule.",
+   "predicted_doublets": 446,
+   "construction": {
+    "key_source": {
+     "type": "uniform",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 1.0,
+     "k": 1,
+     "delta": 1,
+     "target": "key"
+    },
+    "f_rule": "none"
+   },
+   "hash": "b1ed620412",
+   "describe": "uniform; add; redraw p=1.00 on key; F=none",
+   "gate": {
+    "mean": [
+     448.75,
+     28.9777821551678,
+     27.660015436863233,
+     0.03448185367235888
+    ],
+    "sd": [
+     19.22907954215329,
+     7.596764514192806,
+     7.178343445413275,
+     1.910783784562833e-05
+    ],
+    "z": [
+     -18.864657520646926,
+     1.7215444652685787,
+     -0.18086759727666346,
+     -0.18085813167904846
+    ],
+    "pass": false,
+    "pass_each": [
+     false,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -18.241916861244746,
+     1.9792673292504783,
+     -0.164870718506108,
+     -0.1648628532011006
+    ],
+    "pass_strict": false,
+    "seconds": 0.3
+   },
+   "classify": {
+    "finite": false,
+    "n_configs": 1,
+    "tests": null,
+    "swept": "n/a",
+    "note": "secret pad: not decryptable without the pad; not a sweepable family; phase 2 construction table covers its statistics"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 2,
+   "rank": 1,
+   "name": "Gematria-value ciphertext feedback over a prime base stream, add, skip p=0.81",
+   "rationale": "Round 1 showed that a feedback term through the Gematria prime value (prime_value map) flattens the lag-1 class chi-square that the identity map leaves at 70-96, and that stacking it on a deterministic base stream keeps the family finite: grok's prime_value+lcg passed all four with lag-1 chi2 27. Here the base is the book's own prime stream, the one keystream the author published for section 16, so the construction is 'the primes, shifted at each step by the prime value of the rune just written' - numbers as direction, the page's own runes as map. WZ's 48 feedback configs used value/totient maps alone or with Atbash, not a prime base under the soft skip rule, and the phase 3 prime sweep had no feedback term, so this sits in the gap between the two ledgers. Family size 101 offsets x 1 seed symbol (29), decryptable by beam over the skip rule.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "prime_value",
+     "base": "prime",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "c27dac9d68",
+   "describe": "C-feedback lag 1 map prime_value + prime; add; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     85.83,
+     71.47813236162027,
+     28.05013661623958,
+     0.03448289207100505
+    ],
+    "sd": [
+     9.319393758106742,
+     16.76150939829667,
+     8.085917733405642,
+     2.152355881075243e-05
+    ],
+    "z": [
+     0.018241529911977625,
+     -1.7553420520758725,
+     -0.20881376319219455,
+     -0.20880406158087794
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.008548934159646141,
+     -4.452792212035912,
+     -0.21441095284930706,
+     -0.21440072418268863
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 2929,
+    "tests": 161095,
+    "swept": "partly",
+    "note": "\u00d7 base stream (101); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 2,
+   "rank": 2,
+   "name": "LCG mod 3301 with multiplier 3 (the book's shift), add, redraw p=0.81",
+   "rationale": "The lcg(1033,0,3301) construction passed cleanly in round 1 with only 3,301 seeds, so an LCG with book constants is a small, fully decryptable family that the PRNG ledgers (WZ B-04/R16, JW \u00a713/\u00a741) never covered because they swept named generators and passphrase KDFs, not toy congruential generators built from 3301 and the shift-3 the author used on the last solved page. x_(n+1)=3*x_n mod 3301 reduced mod 29 gives a near-uniform key with period dividing 3300, longer than any page, which is why no within-page period showed. Redraw on repeat is the single-draw loop. Doublets predicted at the 81% soft-rule level; all other columns at the uniform control.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "lcg",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 3,
+     "b": 0,
+     "c": 0,
+     "modulus": 3301
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "redraw",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "8c5908c15d",
+   "describe": "lcg(a=3,c=0,m=3301); add; redraw p=0.81; F=none",
+   "gate": {
+    "mean": [
+     88.715,
+     27.51080588025283,
+     27.77670037048472,
+     0.03448216425656581
+    ],
+    "sd": [
+     9.249528367354689,
+     7.073978135733205,
+     6.908750925144584,
+     1.839025437960195e-05
+    ],
+    "z": [
+     -0.29352847974198687,
+     2.0561477430640607,
+     -0.20481483271745787,
+     -0.2048036956084927
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.1365315073143475,
+     2.201281470312193,
+     -0.17968816308876293,
+     -0.17967959090469937
+    ],
+    "pass_strict": true,
+    "seconds": 0.5
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 3301,
+    "tests": 181555,
+    "swept": "partly",
+    "note": "3,301 seeds for the stated (a, c, m); WZ B-04/R16 swept named PRNGs and KDFs, JW \u00a713/\u00a741 passphrase seeds; PRNG/KDF pads: WZ B-04, R16, R25 (MT 2^32 tail at 0.5%); JW \u00a713, \u00a741; a plain LCG mod m is not named by anyone"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 2,
+   "rank": 3,
+   "name": "Prime-gap stream from offset 3301, add, skip p=0.81",
+   "rationale": "The one family the round-1 ledger check marked 'not run' anywhere was prime gaps; gpt's prime_gap with a position multiplier passed all four. This is the stripped-down version: the differences of consecutive primes, mod 29, as a plain additive key under the soft skip rule, started at p_3301 so the gaps are large enough to spread over the alphabet. Prime gaps are the most natural 'next number' the author could derive from the stream already used in section 16 (totient of primes), and differencing is exactly what the solved key description 'f(n)=phi(n)' invites one to generalise. Unigram risk: small gaps are concentrated on even values, so the unigram chi-square may sit near 40 as in round 1; the offset is chosen to mitigate that. Family: 101 offsets as in phase 3.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "prime_gap",
+     "offset": 3301,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "44b9157b08",
+   "describe": "prime_gap[n+3301]; add; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     85.095,
+     59.356087113440324,
+     737.6849714418037,
+     0.03637175094542593
+    ],
+    "sd": [
+     9.146910681661529,
+     13.594915763525181,
+     45.276059968677,
+     0.0001205138095068527
+    ],
+    "z": [
+     0.09894050915074734,
+     -1.2725446303485741,
+     -15.710803595287413,
+     -15.710673230461467
+    ],
+    "pass": false,
+    "pass_each": [
+     true,
+     true,
+     false,
+     false
+    ],
+    "z_strict": [
+     0.04551050243811582,
+     -2.618225757413529,
+     -90.32865717643503,
+     -90.32434796679514
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 101,
+    "tests": 5555,
+    "swept": "no",
+    "note": "prime gaps: LZ's 24 integer sequences may include it (unverified); not run here"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 2,
+   "rank": 4,
+   "name": "Affine ciphertext feedback (coefficient 3) over totient base, add, skip p=0.81 -",
+   "rationale": "WZ's open item D-04 is the non-additive ciphertext-feedback coefficient sweep, run on only 3 of 55 pages. The menu's affine map with a=3, b=0 realises it: K_i = 3*C_(i-1) + phi(p_n). Round 1's identity-map feedback over a totient base passed but with lag-1 chi2 at 87 (z -2.3); a non-unit coefficient decorrelates C_i from C_(i-1) more thoroughly, so this should pull the lag-1 column back toward 27 while keeping the totient base the author demonstrably used. Decryptable: 101 offsets x 29 seeds, beam over skip. If it passes with a flatter lag-1 than identity it is the single most informative run for closing D-04 across all pages.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "affine",
+     "base": "totient",
+     "a": 3,
+     "b": 0,
+     "c": 0,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "7bb3855658",
+   "describe": "C-feedback lag 1 map affine(3,0) + totient; add; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     84.59,
+     68.64654748468023,
+     26.62037125656068,
+     0.03447908641652552
+    ],
+    "sd": [
+     9.20988056482926,
+     15.163382783941875,
+     6.990850871424949,
+     1.860878256411425e-05
+    ],
+    "z": [
+     0.1530964478936363,
+     -1.7536058942147579,
+     -0.03700344290755907,
+     -0.03700145441857852
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.07090586567706418,
+     -4.0242563897141626,
+     -0.032849646468781385,
+     -0.03284807934622255
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 2378348,
+    "tests": 130809140,
+    "swept": "partly",
+    "note": "\u00d7 base stream (101); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 2,
+   "rank": 5,
+   "name": "Totient-value ciphertext feedback over LCG(3301) base, beaufort, skip p=0.81",
+   "rationale": "The totient map (prime value minus one) is the book's own f(n)=phi(n) applied to the previous ciphertext rune instead of to the prime stream; combined with a 3301-modulus LCG base it mirrors grok's clean pass (prime_value+lcg, lag-1 27) but changes two things the ledgers did not try together: the totient map and the Beaufort sign (C = K - P), which WZ's Round 22 X4 ran only without a base stream and without the soft skip. Beaufort is the sign under which 'invert Gematria' and key subtraction coincide, the author's stated habit on sections 0.0 and 0.3. Family finite: 3,301 LCG seeds x 29 feedback seeds.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "totient_value",
+     "base": "lcg",
+     "a": 1033,
+     "b": 0,
+     "c": 0,
+     "modulus": 3301
+    },
+    "combine": {
+     "rule": "beaufort",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "d0181a7b6a",
+   "describe": "C-feedback lag 1 map totient_value + lcg; beaufort; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     87.595,
+     26.261199252108817,
+     26.596018061129985,
+     0.03447902159480732
+    ],
+    "sd": [
+     8.625020290831205,
+     7.0412692125354965,
+     7.822931423025931,
+     2.0823559315471288e-05
+    ],
+    "z": [
+     -0.18492710117975694,
+     2.2431681462053925,
+     -0.029954545552528567,
+     -0.029953107064000513
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.08020911755667912,
+     2.390398599850296,
+     -0.029757112475699964,
+     -0.02975569288664775
+    ],
+    "pass_strict": true,
+    "seconds": 0.5
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 95729,
+    "tests": 5265095,
+    "swept": "partly",
+    "note": "\u00d7 base stream (3,301); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 2,
+   "rank": 6,
+   "name": "LCG mod 1033 with multiplier 3301, skip-by-two p=0.81, add",
+   "rationale": "grok's lcg with skip k=2 passed cleanly, and phase 7 established that single-advance decoders miss half of skip-by-two plants, so the PRNG lane under skip-by-two is a real blind spot (WZ ran R24-C2 on a PRNG seed slice only, with named generators). This uses the two numbers Cicada signed with (3301 as multiplier, 1033 as the prime modulus, c=29) and a rejection loop coded as j += 2. Only 1,033 seeds per page: trivially decryptable by exhaustive seed trial with the two-transition DP. Statistics identical to the uniform-redraw control.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "lcg",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 3301,
+     "b": 0,
+     "c": 29,
+     "modulus": 1033
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 2,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "88c05628d5",
+   "describe": "lcg(a=3301,c=29,m=1033); add; skip k=2 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     87.65,
+     27.664532693636353,
+     26.372429762272315,
+     0.03447842646232258
+    ],
+    "sd": [
+     9.192252173346011,
+     7.81818233861765,
+     7.227767485269065,
+     1.9239391472521564e-05
+    ],
+    "z": [
+     -0.17949899207338652,
+     1.8407625636719795,
+     -0.0014864972938828447,
+     -0.0014864200322133438
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.08297494919656495,
+     2.178016249861729,
+     -0.001364353232242718,
+     -0.0013642881457799165
+    ],
+    "pass_strict": true,
+    "seconds": 0.5
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 1033,
+    "tests": 56815,
+    "swept": "partly",
+    "note": "1,033 seeds for the stated (a, c, m); WZ B-04/R16 swept named PRNGs and KDFs, JW \u00a713/\u00a741 passphrase seeds; PRNG/KDF pads: WZ B-04, R16, R25 (MT 2^32 tail at 0.5%); JW \u00a713, \u00a741; a plain LCG mod m is not named by anyone"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 2,
+   "rank": 7,
+   "name": "Prime-gap stream, affine with position-varying multiplier (a=1,b=0), skip p=0.81",
+   "rationale": "Direct refinement of gpt's round-1 pass (prime_gap[n+3301], m=position) toward the smallest family: offset 0, multiplier schedule m_i = (i mod 28)+1, the schedule that reads as 'multiply the n-th plaintext rune by n'. The position multiplier flattened the unigram column (42) that the raw gap stream might not, and prime gaps are on no ledger. The author's published keys are all 'a function of n over the primes', and the gap is the first-difference function; the position multiplier is the only non-additive combiner compatible with the Gematria value table being multiplicative in spirit. 101 offsets x 1 schedule if this one passes, before widening to the 812.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "prime_gap",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "affine",
+     "multiplier": 1,
+     "multiplier_source": "position",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "1a4351c6b5",
+   "describe": "prime_gap[n+0]; affine m=position; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     93.48,
+     68.64983774159394,
+     50.6058289595554,
+     0.03454292931489518
+    ],
+    "sd": [
+     10.371094446621447,
+     13.982396206838438,
+     12.085448338526877,
+     3.2169243754979034e-05
+    ],
+    "z": [
+     -0.7212353564513855,
+     -1.9019549503297848,
+     -2.006060724847377,
+     -2.0059983654263327
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.37615310302442667,
+     -4.024754341572732,
+     -3.078685807773307,
+     -3.078538936302994
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 82012,
+    "tests": 4510660,
+    "swept": "no",
+    "note": "prime gaps: LZ's 24 integer sequences may include it (unverified); not run here; \u00d7812 multiplier schedules"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 2,
+   "rank": 8,
+   "name": "Prime-value ciphertext feedback at lag 2 over prime_plus1 base, sub, skip p=0.81",
+   "rationale": "Lag-2 identity feedback over totient passed in round 1 (lag-1 chi2 71) and lag-1 prime_value maps passed with flatter lag-1; this combines the two untried ways: lag 2 (so the key depends on the rune before last, decorrelating adjacent ciphertext further and pushing lag-1 chi2 toward 27) with the prime-value map and the p+1 stream the author's section-16 key implicitly contrasts with p-1. Sign sub (C = P - K) is the decryption-as-addition variant the phase 3 decoder never ran on feedback families. LZ's chain tests ran lags 1-60 only with identity-type maps and no base stream; WZ's 48 configs were lag 1. Finite: 101 offsets x 29^2 seeds.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 2,
+     "map": "prime_value",
+     "base": "prime_plus1",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "sub",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "d9a0b50ac7",
+   "describe": "C-feedback lag 2 map prime_value + prime_plus1; sub; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     83.895,
+     70.1046585996585,
+     26.119944427292385,
+     0.034477754413626174
+    ],
+    "sd": [
+     8.867579997819877,
+     16.18260009543024,
+     6.92108293785797,
+     1.8423078912037474e-05
+    ],
+    "z": [
+     0.23738156301014762,
+     -1.7332634048748405,
+     0.03492824466095483,
+     0.034926348770911136
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.10585592003561754,
+     -4.244928865677147,
+     0.030697947725430476,
+     0.030696483253234933
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 84941,
+    "tests": 4671755,
+    "swept": "partly",
+    "note": "\u00d7 base stream (101); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 2,
+   "rank": 9,
+   "name": "Book phrase key with position-varying multiplier, skip p=0.81",
+   "rationale": "Every book word and phrase has been swept under add/sub/beaufort (phases 3-4), but never with a non-additive combiner under the skip rule except pnotisdev's constant multipliers. A position-varying multiplier m_i=(i mod 28)+1 is the one combiner that keeps the key a 'word from the map' while making the periodic key invisible to kappa tests, which is what the ledgers observed. gpt's DIVINITY with a secret key2 multiplier passed at unigram 49; replacing the secret stream by the deterministic position schedule makes it decryptable (phrase list x 812 schedules). The phrase used is the first line of the solved book's own warning, a longer key than the two solved ones, the smallest escalation from what the author did.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "word",
+     "offset": 0,
+     "period": 0,
+     "text": "WELCOMEPILGRIMTOTHEGREATJOURNEY",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "affine",
+     "multiplier": 1,
+     "multiplier_source": "position",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "c174adb29c",
+   "describe": "word 'WELCOMEPILGRIMTOTHEGREATJOURNE'; affine m=position; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     82.755,
+     44.69129065784208,
+     83.78121565297928,
+     0.03463123335592163
+    ],
+    "sd": [
+     9.016372608651043,
+     10.71197052217601,
+     17.838837520456153,
+     4.748323298009346e-05
+    ],
+    "z": [
+     0.3599008316145328,
+     -0.24601828336450404,
+     -3.2187932583426755,
+     -3.2187254705258455
+    ],
+    "pass": false,
+    "pass_each": [
+     true,
+     true,
+     false,
+     false
+    ],
+    "z_strict": [
+     0.16318406675324407,
+     -0.39883595226945356,
+     -7.291521506275536,
+     -7.2911736576992885
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 812,
+    "tests": 44660,
+    "swept": "partly",
+    "note": "a single stated key; \u00d7812 multiplier schedules; affine multipliers under the skip rule: pnotisdev '28 key multipliers' under its collision-repair model (coverage unclear); not run here"
+   }
+  },
+  {
+   "proposer": "claude",
+   "round": 2,
+   "rank": 10,
+   "name": "Atbash ciphertext feedback over prime base, add, skip p=0.81",
+   "rationale": "Atbash is the only non-identity map the author demonstrably used (the last solved page: shift 3 then Atbash), and 'invert Gematria' appears in two keys. K_i = (28 - C_(i-1)) + p_n puts the published prime stream under the published reflection with the page's own runes as feedback; grok's lag-2 Atbash feedback alone passed but was not decryptable because the redraw was a fresh secret symbol, whereas with a prime base and the skip rule the key is fully determined by 101 offsets x 29 seeds. WZ's X4 ran Atbash only on the value streams without a base and without the soft skip. Lag-1 chi2 is expected to sit near the identity-map results (70-90), so this is the lowest-ranked of the feedback trio but the most faithful to the author's own toolkit.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "atbash",
+     "base": "prime",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "90747c2bbc",
+   "describe": "C-feedback lag 1 map atbash + prime; add; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     85.72,
+     72.07478838152453,
+     26.485309509107736,
+     0.03447872691813603
+    ],
+    "sd": [
+     9.010083241458995,
+     17.29825976483619,
+     6.912030099278203,
+     1.8398982667531502e-05
+    ],
+    "z": [
+     0.031076294468802376,
+     -1.735367530092333,
+     -0.01788531037444381,
+     -0.017884338296446242
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.01408059743941709,
+     -4.543090927859399,
+     -0.01569858937847643,
+     -0.01569784046397357
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 2929,
+    "tests": 161095,
+    "swept": "partly",
+    "note": "\u00d7 base stream (101); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "gpt",
+   "round": 2,
+   "rank": 1,
+   "name": "Totient-valued ciphertext feedback plus the book as running key",
+   "rationale": "Refine the passing prime-value-feedback plus running-text construction by replacing prime_value with totient_value: K_i = phi(GP(C_(i-1))) + T_j modulo 29. This combines three demonstrated ingredients\u2014Gematria prime values, totients, and plaintext-derived keys\u2014without introducing an arbitrary permutation or secret pad. The change from Round 1 is the feedback map, not another search through the already-exhausted additive running-key family; the supplied ledgers do not establish exhaustive coverage of this map/base combination under soft rejection. Search is finite: 2,977 text starts and 29 initial feedback symbols per page. Ciphertext feedback should help flatten the English running key, while rejecting ciphertext collisions rather than applying a fixed bump avoids concentrating the displaced probability in one difference class. The 0.81 rejection probability remains empirical, not explained by the totient map; omit literal F because Round 1 showed its unigram penalty.",
+   "predicted_doublets": 85,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "totient_value",
+     "base": "running_text",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "954faefb6f",
+   "describe": "C-feedback lag 1 map totient_value + running_text; add; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     85.12,
+     52.97299418696743,
+     39.45040907687559,
+     0.03451323655911545
+    ],
+    "sd": [
+     9.378464694114749,
+     11.82574111621314,
+     9.59825628451895,
+     2.5549001127294603e-05
+    ],
+    "z": [
+     0.09383198942490238,
+     -0.9231594046545591,
+     -1.3636563750148838,
+     -1.3636030010011588
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.04425330623816759,
+     -1.652199982068168,
+     -1.6620949011524435,
+     -1.6620156094242582
+    ],
+    "pass_strict": true,
+    "seconds": 0.4
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 86333,
+    "tests": 4748315,
+    "swept": "partly",
+    "note": "\u00d7 base stream (2,977); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "gpt",
+   "round": 2,
+   "rank": 2,
+   "name": "Prime gaps with a fixed, rune-clocked affine coefficient",
+   "rationale": "Narrow Round 1's passing prime-gap/position-affine family to the initial prime-gap stream and the single coefficient schedule m_i = ((i + 2) mod 28) + 1. This changes the previously submitted offset of 3301 and commits to one schedule instead of treating all 812 schedules as interchangeable. Prime gaps are a modest extension of the author's demonstrated prime streams; the starting coefficient 3 references an actual solved-page operation, although the changing coefficient itself remains conjectural. The added rune-position clock is the essential distinction from the exhausted additive prime-stream searches, and Round 1 supplies direct statistical support for this combination. On rejection, advance only the gap-stream index; the multiplier remains tied to plaintext position. This is a small, reproducible candidate rather than a pad hunt, with soft collision rejection expected to preserve roughly 86 doublets without a preferred replacement difference.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "prime_gap",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "affine",
+     "multiplier": 1,
+     "multiplier_source": "position",
+     "a": 1,
+     "b": 2
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "b017567b0c",
+   "describe": "prime_gap[n+0]; affine m=position; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     92.545,
+     73.06760452822635,
+     48.001335288669345,
+     0.03453599684661406
+    ],
+    "sd": [
+     9.139364037955744,
+     14.273621937229168,
+     12.323349381744011,
+     3.280247295211304e-05
+    ],
+    "z": [
+     -0.716132979583551,
+     -2.1726548878820346,
+     -1.7559876712788804,
+     -1.75593413924795
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.3291339651463732,
+     -4.69334504431059,
+     -2.7479495298625856,
+     -2.747818436464692
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 82012,
+    "tests": 4510660,
+    "swept": "no",
+    "note": "prime gaps: LZ's 24 integer sequences may include it (unverified); not run here; \u00d7812 multiplier schedules"
+   }
+  },
+  {
+   "proposer": "gpt",
+   "round": 2,
+   "rank": 3,
+   "name": "Rune-clocked affine encryption with prime-valued ciphertext feedback and totient",
+   "rationale": "Combine two separately passing Round 1 mechanisms: prime-valued ciphertext feedback plus the prime-totient stream, and a position-dependent affine plaintext coefficient. The specific change is adding the fixed clock m_i = ((i + 2) mod 28) + 1 to the passing feedback/base construction; neither the ledger's constant-multiplier sweeps nor its additive feedback tests establish coverage of this joint construction under soft rejection. This is less conservative than the first two proposals, but it directly tests a menu-expressible clock dependence using the author's prime and totient machinery rather than an unrestricted evolving alphabet. Decryption is finite and sequential because the previous ciphertext is known and every coefficient is invertible modulo 29; rejection advances the totient stream without advancing the rune clock. The clock may reduce the residual lag-1 structure seen in additive feedback, but that improvement requires simulation rather than being guaranteed by the separate passes.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "prime_value",
+     "base": "totient",
+     "a": 1,
+     "b": 0,
+     "c": 0,
+     "modulus": 29
+    },
+    "combine": {
+     "rule": "affine",
+     "multiplier": 1,
+     "multiplier_source": "position",
+     "a": 1,
+     "b": 2
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "ef7eb03d27",
+   "describe": "C-feedback lag 1 map prime_value + totient; affine m=position; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     84.55,
+     66.53558271276601,
+     26.072648193886995,
+     0.034477628523653166
+    ],
+    "sd": [
+     7.871943852425773,
+     14.328837032205922,
+     6.515876850002942,
+     1.7344528258302582e-05
+    ],
+    "z": [
+     0.18419846827962055,
+     -1.7084172706563479,
+     0.04435895862235687,
+     0.04435640111204377
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.0729173795969812,
+     -3.7047801727758642,
+     0.03670394434986224,
+     0.036702193356726705
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 1931218576,
+    "tests": 106217021680,
+    "swept": "partly",
+    "note": "\u00d7 base stream (82,012); \u00d7812 multiplier schedules; stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 2,
+   "rank": 1,
+   "name": "3301-LCG pad, soft cipher skip",
+   "rationale": "The four statistics match only an otherwise independent key that is rejected about four times in five exactly when the next rune would repeat; a hard ban falls to zero doublets, and the solved pages' normal doublet rate shows this rule belongs to the unsolved cipher alone. A per-page LCG with the book's modulus, x\u21927x+1 mod 3301, is that pad made finite: 3301 seeds, no period inside 2\u2013200, and independent seeds so the \u00b1200 depth test stays null. Named-PRNG sweeps and the round-1 triple (1033, 0, 3301) did not run this multiplier and increment under skip-on-cipher at p=0.81. Additive, no F-rule: every round-1 row with literal F drove unigram chi-square past 100.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "lcg",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 7,
+     "b": 0,
+     "c": 1,
+     "modulus": 3301
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "b92429cb4f",
+   "describe": "lcg(a=7,c=1,m=3301); add; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     87.67,
+     27.145207395304293,
+     26.84899583204692,
+     0.034479694954236945
+    ],
+    "sd": [
+     9.984042268538735,
+     7.667836373599748,
+     6.893826160582949,
+     1.835052863248913e-05
+    ],
+    "z": [
+     -0.16726692005926605,
+     1.9445827919018137,
+     -0.07068790468906531,
+     -0.0706840526085996
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.0839807061565231,
+     2.256611631404279,
+     -0.061881946289849304,
+     -0.06187899415625229
+    ],
+    "pass_strict": true,
+    "seconds": 0.5
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 3301,
+    "tests": 181555,
+    "swept": "partly",
+    "note": "3,301 seeds for the stated (a, c, m); WZ B-04/R16 swept named PRNGs and KDFs, JW \u00a713/\u00a741 passphrase seeds; PRNG/KDF pads: WZ B-04, R16, R25 (MT 2^32 tail at 0.5%); JW \u00a713, \u00a741; a plain LCG mod m is not named by anyone"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 2,
+   "rank": 2,
+   "name": "prime-gap stream, position multiplier, soft skip",
+   "rationale": "Phase 3 exhausted p, p\u22121 and p+1 at 101 starts under skip, and phase 4 both signs, but never prime gaps, the one prime-derived generator still outside that ledger; LZ's 24 sequences are unverified and were additive, not affine. Raw gaps are small even numbers, so a plain add would leak plaintext into the unigram the way 3n\u00b2+3n+1 did (chi-square 356). The position multiplier m_i=((i mod 28)+1) is what whitened prime_gap in round 1, and it is not among pnotisdev's 28 constant multipliers. Offset 0 is the same stream start as the solved phi(p_n) page. Skip on the cipher rune, not bump, which is what broke lag-1.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "prime_gap",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "affine",
+     "multiplier": 1,
+     "multiplier_source": "position",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "58c83a51a5",
+   "describe": "prime_gap[n+0]; affine m=position; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     93.635,
+     68.8012555668642,
+     52.197180456931136,
+     0.03454716506862465
+    ],
+    "sd": [
+     9.142853767740448,
+     15.042902579857266,
+     11.909667206062917,
+     3.1701361210724024e-05
+    ],
+    "z": [
+     -0.8350784332720339,
+     -1.777935166857459,
+     -2.16928771429602,
+     -2.1692192856280057
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.383947719464104,
+     -4.047670116690334,
+     -3.280766418286232,
+     -3.280609906381437
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 82012,
+    "tests": 4510660,
+    "swept": "no",
+    "note": "prime gaps: LZ's 24 integer sequences may include it (unverified); not run here; \u00d7812 multiplier schedules"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 2,
+   "rank": 3,
+   "name": "Atbash ciphertext feedback on the totient stream, soft skip",
+   "rationale": "Invert Gematria and a prime-totient key are both published methods (sections 0.0, 0.3, 0.16), and the last solved page is shift-then-Atbash. K_i = atbash(C_{i-1}) + phi(p_n) is that pair with a one-rune memory, which is why a shared start still fails the depth test: the streams diverge after the first mismatch, while lags 2 and beyond stay null. Round 1's identity feedback plus totient plus skip passed all four (lag-1 z=\u22122.3); Atbash is a bijection so the same shape is expected, and it is the map those rows did not use. WZ's Atbash runs were on value streams without this soft cipher-skip; skip rather than redraw keeps the totient index decryptable. No F-rule.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "atbash",
+     "base": "totient",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "96dd75e74e",
+   "describe": "C-feedback lag 1 map atbash + totient; add; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     85.285,
+     71.97027422840712,
+     26.314658073479468,
+     0.034478272689478125
+    ],
+    "sd": [
+     9.52280289720656,
+     15.53873437624904,
+     7.238369701222174,
+     1.926761174682175e-05
+    ],
+    "z": [
+     0.07508293595047978,
+     -1.9251454748853938,
+     0.00649699226847174,
+     0.006496655071230133
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.03595581131851153,
+     -4.527273616884484,
+     0.0059718877936233905,
+     0.0059716028988541945
+    ],
+    "pass_strict": false,
+    "seconds": 0.2
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 2929,
+    "tests": 161095,
+    "swept": "partly",
+    "note": "\u00d7 base stream (101); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 2,
+   "rank": 4,
+   "name": "phi of the previous rune plus phi of the primes, soft skip",
+   "rationale": "The published construction nearest these pages is f(n)=phi(n) on the primes, and that page's ciphertext has the ordinary doublet rate, so the unsolved pages need the same function plus the soft anti-repeat. Applying phi to the previous ciphertext rune as well \u2014 totient_value is the Gematria prime minus one, added to the phi(p_n) base \u2014 is the smallest stateful change, and the state explains the depth null without a per-page reseeding. Identity plaintext autokey failed lag-1 in round 1; prime_value feedback plus a totient base passed, and totient_value is the map those rows did not try. WZ's feedback functions were index-totient and digit sum, not phi of the rune's own prime. Skip k=1 at p=0.81, add, offset 0, no F-rule.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "totient_value",
+     "base": "totient",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "9f2a7beb10",
+   "describe": "C-feedback lag 1 map totient_value + totient; add; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     83.49,
+     69.17425011472471,
+     27.162252238345165,
+     0.034480528759334945
+    ],
+    "sd": [
+     9.561375425069489,
+     15.769509805010795,
+     6.7136377093771245,
+     1.7870914979909513e-05
+    ],
+    "z": [
+     0.2625145325241492,
+     -1.7196666473159898,
+     -0.1192448218887866,
+     -0.11923814934215052
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.12622249847477438,
+     -4.104119607782993,
+     -0.10166137021738877,
+     -0.10165652037006949
+    ],
+    "pass_strict": false,
+    "seconds": 0.3
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 2929,
+    "tests": 161095,
+    "swept": "partly",
+    "note": "\u00d7 base stream (101); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 2,
+   "rank": 5,
+   "name": "plaintext gematria autokey on the prime stream, soft skip, other sign",
+   "rationale": "The encipherer knows the plaintext, and the book already treats the rune's prime as the numeric value of a letter, so K_i = prime(P_{i-1}) + p_n is an autokey in the book's own units on the generator that section 0.16 was defined on. Round 1's identity plaintext autokey failed lag-1 with or without a base; prime_value plus a number base passed (doublets z=+0.7) for a totient base with redraw. This changes the base to the raw primes, the combine to subtraction \u2014 the sign hole phase 4 was opened to close \u2014 and redraw to skip, so a rejection advances the prime index instead of inserting an unrecoverable symbol. Not in WZ R12, which stopped at ordinary autokey lags 2\u20136.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "plain_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "prime_value",
+     "base": "prime",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "sub",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "0cc120bbf5",
+   "describe": "P-feedback lag 1 map prime_value + prime; sub; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     77.745,
+     87.07936853610443,
+     29.388599876505108,
+     0.034486454703619975
+    ],
+    "sd": [
+     8.841944074562102,
+     17.199812011912115,
+     7.848073607852537,
+     2.089048111327678e-05
+    ],
+    "z": [
+     0.933618210021174,
+     -2.617669219082004,
+     -0.3856888100554796,
+     -0.3856703476859555
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.41512618522281264,
+     -6.813904050044207,
+     -0.38437809915835125,
+     -0.3843597620563197
+    ],
+    "pass_strict": false,
+    "seconds": 0.4
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 2929,
+    "tests": 161095,
+    "swept": "partly",
+    "note": "\u00d7 base stream (101); plaintext autokey beyond lag 3 or with a base stream: WZ R12-C1 k=2..6 only"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 2,
+   "rank": 6,
+   "name": "DIVINITY as the map, position as the direction, soft skip",
+   "rationale": "Both published polyalphabetic keys are words of the book's own plaintext, and the hint that numbers are the direction and words are the map is a word key whose multiplier is a position formula, not a constant add. Phases 3\u20137 and JW, WZ and LZ all ran DIVINITY under add, sub and Beaufort with skip, including skip-by-two; none ran C = m_i*P + K with m_i = ((i mod 28)+1), which is not pnotisdev's 28 constant multipliers. The cycling multiplier plus the skip desync is also why a period-8 kappa null on additive DIVINITY does not cover this row. F-rule off, because an unencrypted F is what pushed unigram chi-square past 100 in round 1.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "word",
+     "offset": 0,
+     "period": 8,
+     "text": "DIVINITY",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "affine",
+     "multiplier": 1,
+     "multiplier_source": "position",
+     "a": 1,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "b6bc60e3a3",
+   "describe": "word 'DIVINITY'; affine m=position; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     85.78,
+     58.11370985887348,
+     45.849233559740654,
+     0.034530268525159356
+    ],
+    "sd": [
+     8.899528078375786,
+     13.30592535539431,
+     10.45230287806157,
+     2.7822245630262822e-05
+    ],
+    "z": [
+     0.02472041192100493,
+     -1.2068127072303458,
+     -1.8644262495663602,
+     -1.8643592376758193
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.011063326559541897,
+     -2.430202730890311,
+     -2.4746610502369255,
+     -2.4745429943115065
+    ],
+    "pass_strict": true,
+    "seconds": 0.4
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 812,
+    "tests": 44660,
+    "swept": "partly",
+    "note": "a single stated key; \u00d7812 multiplier schedules; affine multipliers under the skip rule: pnotisdev '28 key multipliers' under its collision-repair model (coverage unclear); not run here"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 2,
+   "rank": 7,
+   "name": "FIRFUMFERENFE with a 3301 multiplier schedule, soft skip",
+   "rationale": "FIRFUMFERENFE is the other published key, period 13, and itself contains the F-pattern the author liked on the solved pages. Additive and Beaufort sweeps of this word under skip are already null, so the change is the combiner those ledgers did not run: m_i = ((25*i+3) mod 28)+1, using 3301\u226125 (mod 28) and the shift of 3 from the last solved page, then the same soft cipher-skip at p=0.81. A longer key than DIVINITY, so less of the unigram damage the phase-2 DIVINITY row showed. No F-rule, skip k=1 not bump, target the cipher rune.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "word",
+     "offset": 0,
+     "period": 13,
+     "text": "FIRFUMFERENFE",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "affine",
+     "multiplier": 1,
+     "multiplier_source": "position",
+     "a": 25,
+     "b": 3
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "ef7a2c337b",
+   "describe": "word 'FIRFUMFERENFE'; affine m=position; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     84.475,
+     74.43817973865121,
+     48.427314757641234,
+     0.03453713069047403
+    ],
+    "sd": [
+     8.401748330960851,
+     15.667591575100806,
+     11.703137943823425,
+     3.1151635336705155e-05
+    ],
+    "z": [
+     0.18150984056262512,
+     -2.0668288118761287,
+     -1.8854455239350727,
+     -1.8853849993273972
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     0.0766889681968252,
+     -4.900769720023625,
+     -2.802043293118389,
+     -2.8019096191288484
+    ],
+    "pass_strict": false,
+    "seconds": 0.4
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 812,
+    "tests": 44660,
+    "swept": "partly",
+    "note": "a single stated key; \u00d7812 multiplier schedules; affine multipliers under the skip rule: pnotisdev '28 key multipliers' under its collision-repair model (coverage unclear); not run here"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 2,
+   "rank": 8,
+   "name": "3301-LCG in Beaufort, soft cipher skip",
+   "rationale": "Same finite pad as the leading proposal \u2014 the phase-2 independent key plus an 81 percent redraw, modulus 3301 so each page is a 3301-seed search \u2014 but Beaufort, C=K\u2212P, rather than add. Phase 4 existed because this repository had only decrypted P=C\u2212K, and neither sign of (a, c, m)=(7, 1, 3301) has been run; the other three ledgers treat the sign as part of the construction. A uniform key hits the doublet congruence once in 29 under either sign, and the skip then cuts that rate to about 86, which is why round 1's Beaufort LCG row passed the other three columns as well. No F-rule, skip not bump.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "lcg",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "identity",
+     "base": "none",
+     "a": 7,
+     "b": 0,
+     "c": 1,
+     "modulus": 3301
+    },
+    "combine": {
+     "rule": "beaufort",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "4721d3b269",
+   "describe": "lcg(a=7,c=1,m=3301); beaufort; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     86.235,
+     26.128875475361028,
+     26.705741741278175,
+     0.03447931365001206
+    ],
+    "sd": [
+     8.140624977007676,
+     7.1970937884951764,
+     7.426461254068218,
+     1.976826135047906e-05
+    ],
+    "z": [
+     -0.02886756246157166,
+     2.2129869432331377,
+     -0.046328395724821496,
+     -0.046326052156842705
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.011817644279510696,
+     2.410424656262425,
+     -0.043690569859964896,
+     -0.04368848556251509
+    ],
+    "pass_strict": true,
+    "seconds": 0.6
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 3301,
+    "tests": 181555,
+    "swept": "partly",
+    "note": "3,301 seeds for the stated (a, c, m); WZ B-04/R16 swept named PRNGs and KDFs, JW \u00a713/\u00a741 passphrase seeds; PRNG/KDF pads: WZ B-04, R16, R25 (MT 2^32 tail at 0.5%); JW \u00a713, \u00a741; a plain LCG mod m is not named by anyone"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 2,
+   "rank": 9,
+   "name": "rune-prime feedback on a 3301-LCG, soft skip",
+   "rationale": "Round 1's prime_value ciphertext feedback plus an LCG passed all four but sat on a 2^31 modulus, which is not a sweep. Shrinking the base to x\u21927x+1 mod 3301 keeps the whitening a structured stream lacks and cuts the family to 3301 seeds. The feedback term is the Gematria prime, not the identity map already gated on totient and prime bases, and the repeat rule is skip so a rejection advances the LCG instead of substituting a secret symbol. That is outside WZ's 48 feedback configs, which had no LCG base and no soft skip, and outside the named-PRNG sweeps.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "prime_value",
+     "base": "lcg",
+     "a": 7,
+     "b": 0,
+     "c": 1,
+     "modulus": 3301
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 1,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "3b79f46399",
+   "describe": "C-feedback lag 1 map prime_value + lcg; add; skip k=1 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     88.085,
+     27.46832590661745,
+     26.42845554183389,
+     0.03447857558802177
+    ],
+    "sd": [
+     9.95127002044978,
+     7.330012588423164,
+     7.142110245528645,
+     1.901139472052767e-05
+    ],
+    "z": [
+     -0.2095209953820302,
+     1.9901226602184887,
+     -0.009348754650076237,
+     -0.009348262907061915
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.10485016307565867,
+     2.2077104460361046,
+     -0.008478886857866158,
+     -0.008478482365400683
+    ],
+    "pass_strict": true,
+    "seconds": 0.5
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 95729,
+    "tests": 5265095,
+    "swept": "partly",
+    "note": "\u00d7 base stream (3,301); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  },
+  {
+   "proposer": "grok",
+   "round": 2,
+   "rank": 10,
+   "name": "solved-text running key plus rune-prime feedback, skip by two",
+   "rationale": "The book keys itself: both solved word keys were taken from its plaintext, and phase 3 already ran that plaintext as a running key at all 2,977 offsets under single skip, null. A naked running key fails the unigram at z=\u221213; round 1 showed that adding a Gematria-prime feedback term brings the same base inside all four statistics (lag-1 z=\u22120.7). The change from that row is skip k=2 rather than one redraw: phase 7 ran skip-by-two on the book families and found the single-advance decoder misses those plants, but not on a running key mixed with prime_value feedback. Finite offsets, decryptable, no F-rule.",
+   "predicted_doublets": 86,
+   "construction": {
+    "key_source": {
+     "type": "cipher_feedback",
+     "offset": 0,
+     "period": 0,
+     "text": "",
+     "lag": 1,
+     "map": "prime_value",
+     "base": "running_text",
+     "a": 0,
+     "b": 0,
+     "c": 0,
+     "modulus": 0
+    },
+    "combine": {
+     "rule": "add",
+     "multiplier": 1,
+     "multiplier_source": "const",
+     "a": 0,
+     "b": 0
+    },
+    "repeat_rule": {
+     "rule": "skip",
+     "p": 0.81,
+     "k": 2,
+     "delta": 1,
+     "target": "cipher"
+    },
+    "f_rule": "none"
+   },
+   "hash": "62f78f2d67",
+   "describe": "C-feedback lag 1 map prime_value + running_text; add; skip k=2 p=0.81; F=none",
+   "gate": {
+    "mean": [
+     86.515,
+     52.02474200708057,
+     40.075265514047544,
+     0.03451489976048134
+    ],
+    "sd": [
+     9.430788674276483,
+     11.934934477806348,
+     10.271586480813133,
+     2.734122672596973e-05
+    ],
+    "z": [
+     -0.05460837028452561,
+     -0.8352615564913995,
+     -1.3350985102641402,
+     -1.3350496794270845
+    ],
+    "pass": true,
+    "pass_each": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "z_strict": [
+     -0.025898241718927788,
+     -1.5086902356411624,
+     -1.7414434112175496,
+     -1.7413603340956436
+    ],
+    "pass_strict": true,
+    "seconds": 0.4
+   },
+   "classify": {
+    "finite": true,
+    "n_configs": 86333,
+    "tests": 4748315,
+    "swept": "partly",
+    "note": "\u00d7 base stream (2,977); stream + ciphertext-feedback term: WZ 48 PT/CT feedback configs (f \u2208 mod 29, totient, digit sum); not here"
+   }
+  }
+ ],
+ "usage": [
+  [
+   "claude (failed attempt)",
+   "claude-fable-5-1",
+   0,
+   12868,
+   24000,
+   353.7,
+   1.3286799999999999
+  ],
+  [
+   "claude",
+   "claude-fable-5-1",
+   1,
+   12868,
+   20313,
+   298.0,
+   1.14433
+  ],
+  [
+   "gpt",
+   "gpt-6.1-sol",
+   1,
+   8376,
+   5140,
+   116.0,
+   0.14467999999999998
+  ],
+  [
+   "grok",
+   "grok-4.7",
+   1,
+   9854,
+   27545,
+   412.4,
+   0.442737
+  ],
+  [
+   "claude",
+   "claude-fable-5-1",
+   2,
+   17824,
+   7657,
+   105.5,
+   0.56109
+  ],
+  [
+   "gpt",
+   "gpt-6.1-sol",
+   2,
+   12039,
+   2128,
+   46.0,
+   0.102755
+  ],
+  [
+   "grok",
+   "grok-4.7",
+   2,
+   13554,
+   26435,
+   337.5,
+   0.437187
+  ]
+ ],
+ "brief_tokens": 11342
+}
