@@ -23,14 +23,16 @@ def combine(p, k, mode):
     raise ValueError(mode)
 
 
-def encrypt(P, K, f_rule=False, rng=None, soft=1.0, mode="sub"):
+def encrypt(P, K, f_rule=False, rng=None, soft=1.0, mode="sub", skip_by=1):
+    """skip_by=1: a rejected key symbol is skipped and the next one tried (phase 3 rule).
+    skip_by=2: a rejection discards two key symbols (wazar's skip_by_two); the second is unread."""
     C, j, prev = [], 0, None
     for p in P:
         if f_rule and p == 0:
             C.append(0); prev = 0; continue
         c = combine(p, K[j], mode)
         while prev is not None and c == prev and (rng is None or rng.random() < soft):
-            j += 1; c = combine(p, K[j], mode)
+            j += skip_by; c = combine(p, K[j], mode)
         C.append(c); j += 1; prev = c
     return np.array(C)
 

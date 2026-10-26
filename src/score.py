@@ -28,7 +28,7 @@ def english_model():
     return lu, lb, plain
 
 
-def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, penalty=0.0):
+def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, penalty=0.0, rejection="one"):
     """C: (n,) ciphertext; Ks: (m, L) keystreams, L >= n + S_MAX.
     mode "sub": P = C - K (additive cipher C = P + K); mode "beaufort": P = K - C (C = K - P).
     For C = P - K pass -K with mode "sub".  The forced-skip condition C_i - C_{i-1} == K_j - K_{j-1}
@@ -40,6 +40,10 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
     Word-edge events (phase 6): adv_mask[i] True allows one extra key advance before rune i
     (t+1 without the collision condition); null_mask[i] True allows rune i to be an unencrypted
     uniform null that consumes no key (t-1, gain 0).  Each event costs `penalty` (log prior).
+    rejection "one" (default): a rejected key draw advances the key by one (phase 3 rule), with the
+    doubled-letter double skip.  rejection "two" (phase 7, wazar's skip_by_two): a rejection advances
+    the key by two, the first draw having collided (C_i - C_{i-1} == K_j - K_{j-2}) and the second
+    draw unconstrained; the single-advance skip is not available in that mode.
     Returns best LLR (m,), best final state (m,), decoded plaintext along the best path (m, n)."""
     C = np.asarray(C); m, L = Ks.shape; n = len(C)
     T0 = (int((C == 0).sum()) if f_rule else 0) + (int(np.asarray(null_mask).sum()) if null_mask is not None else 0)  # room for j < i
@@ -58,7 +62,7 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
         gain = lu[P] - LOGU
         stay = dp + gain
         cand = stay; src = np.zeros((m, S), dtype=np.int8)
-        if i > 0:
+        if i > 0 and rejection == "one":
             Kprev = Ks[:, np.clip(j - 1, 0, L - 1)]
             cond = ((c - C[i - 1]) - (Kj - Kprev)) % N == 0
             skip = np.full((m, S), NEG)
@@ -69,6 +73,15 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
             # which requires K_{j-2} == K_{j-1} (doubled key letters, common in phrase keys)
             Kprev2 = Ks[:, np.clip(j - 2, 0, L - 1)]
             cond2 = cond & (Kprev == Kprev2)
+            skip2 = np.full((m, S), NEG)
+            skip2[:, 2:] = np.where(cond2[:, 2:], dp[:, :-2] + gain[:, 2:], NEG)
+            take = skip2 > cand
+            cand = np.where(take, skip2, cand); src = np.where(take, 2, src)
+        elif i > 0 and rejection == "two":
+            # skip_by_two: the rejected draw K_{j-2} would have reproduced C_{i-1}; K_{j-1} was
+            # discarded unread; K_j is the symbol used.  Same condition under both modes.
+            Kprev2 = Ks[:, np.clip(j - 2, 0, L - 1)]
+            cond2 = ((c - C[i - 1]) - (Kj - Kprev2)) % N == 0
             skip2 = np.full((m, S), NEG)
             skip2[:, 2:] = np.where(cond2[:, 2:], dp[:, :-2] + gain[:, 2:], NEG)
             take = skip2 > cand
@@ -106,9 +119,9 @@ def bigram_llr(P, lu, lb):
     return float(lu[P[0]] - LOGU + (lb[P[:-1], P[1:]] - LOGU).sum())
 
 
-def null_scores(C, lu, f_rule, rng, reps=2000, mode="sub"):
+def null_scores(C, lu, f_rule, rng, reps=2000, mode="sub", rejection="one"):
     Ks = rng.integers(0, N, size=(reps, len(C) + S_MAX + 2))
-    best, _, _ = decode(C, Ks, lu, f_rule, mode)
+    best, _, _ = decode(C, Ks, lu, f_rule, mode, rejection=rejection)
     return best
 
 

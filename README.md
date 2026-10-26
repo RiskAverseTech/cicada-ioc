@@ -486,3 +486,15 @@ skip rule, are excluded at the controls' sensitivity. The entry in pnotisdev's r
 `results/pnotisdev_open-unkeyed_entry.toml`, written to be pasted into their `docs/registry.toml`
 with the gaps stated (max-path decoder, emitted-rune anti-repeat check, no in-word nulls, their
 1,447-stream library not run).
+
+## 15. Within-word lag echo: not replicated (`src/word_lag.py`, `results/word_lag.md`)
+
+The field survey (§11) lists a lag-5/lag-6 within-word echo at about 2.5σ as one of the two
+"frontier" observations in the most thorough public labs. `src/word_lag.py` measures it on this
+transcription: for lags 1–12, pairs of runes k apart inside the same word (word boundaries from
+the master file), pooled over the 55 pages, scored by the chi-square of the 29 difference classes
+and by the d = 0 count, against 300 within-page shuffles with the word boundaries held fixed.
+Lag 1 shows the doublet deficit (chi-square z +32, d = 0 at −16). Lags 2–12 are null on the
+chi-square (|z| ≤ 1.4). The d = 0 count sits at +2.1σ at lags 4 and 5 (110 vs 91 and 72 vs 57),
+which, over twelve lags and two statistics, is what chance gives. The echo is not a feature
+this transcription supports; a 2.5σ reading at one of a dozen lags is a selection effect.
