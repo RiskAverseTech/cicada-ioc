@@ -1,0 +1,60 @@
+n= 66 vigenere-word     z_uni>=6 0.30 (median 5.4) | z_5>=6 1.00 (median 25.5)  [5s]
+n= 66 phrase-3          z_uni>=6 0.15 (median 5.3) | z_5>=6 1.00 (median 27.2)  [10s]
+n= 66 primes            z_uni>=6 0.25 (median 5.6) | z_5>=6 0.95 (median 26.4)  [13s]
+n= 66 self running key  z_uni>=6 0.15 (median 5.6) | z_5>=6 1.00 (median 23.7)  [16s]
+n= 76 vigenere-word     z_uni>=6 0.35 (median 5.8) | z_5>=6 1.00 (median 26.5)  [19s]
+n= 76 phrase-3          z_uni>=6 0.40 (median 5.9) | z_5>=6 1.00 (median 27.6)  [22s]
+n= 76 primes            z_uni>=6 0.70 (median 6.2) | z_5>=6 1.00 (median 26.1)  [25s]
+n= 76 self running key  z_uni>=6 0.70 (median 6.2) | z_5>=6 1.00 (median 27.6)  [29s]
+n= 92 vigenere-word     z_uni>=6 0.90 (median 6.5) | z_5>=6 1.00 (median 29.1)  [33s]
+n= 92 phrase-3          z_uni>=6 0.95 (median 6.9) | z_5>=6 1.00 (median 32.6)  [37s]
+n= 92 primes            z_uni>=6 1.00 (median 6.8) | z_5>=6 1.00 (median 29.0)  [40s]
+n= 92 self running key  z_uni>=6 0.90 (median 6.6) | z_5>=6 1.00 (median 28.5)  [43s]
+n=121 vigenere-word     z_uni>=6 1.00 (median 7.9) | z_5>=6 1.00 (median 35.0)  [47s]
+n=121 phrase-3          z_uni>=6 1.00 (median 8.1) | z_5>=6 1.00 (median 34.3)  [52s]
+n=121 primes            z_uni>=6 1.00 (median 7.9) | z_5>=6 1.00 (median 35.6)  [55s]
+n=121 self running key  z_uni>=6 1.00 (median 7.8) | z_5>=6 1.00 (median 36.9)  [63s]
+n=137 vigenere-word     z_uni>=6 1.00 (median 8.4) | z_5>=6 1.00 (median 34.8)  [68s]
+n=137 phrase-3          z_uni>=6 1.00 (median 8.2) | z_5>=6 1.00 (median 37.7)  [75s]
+n=137 primes            z_uni>=6 1.00 (median 8.6) | z_5>=6 1.00 (median 36.5)  [84s]
+n=137 self running key  z_uni>=6 1.00 (median 8.3) | z_5>=6 1.00 (median 36.6)  [90s]
+n=159 vigenere-word     z_uni>=6 1.00 (median 9.2) | z_5>=6 1.00 (median 37.0)  [96s]
+n=159 phrase-3          z_uni>=6 1.00 (median 9.4) | z_5>=6 1.00 (median 41.3)  [103s]
+n=159 primes            z_uni>=6 1.00 (median 9.1) | z_5>=6 1.00 (median 39.8)  [108s]
+n=159 self running key  z_uni>=6 1.00 (median 8.8) | z_5>=6 1.00 (median 38.3)  [115s]
+n=196 vigenere-word     z_uni>=6 1.00 (median 10.4) | z_5>=6 1.00 (median 44.9)  [133s]
+n=196 phrase-3          z_uni>=6 1.00 (median 10.6) | z_5>=6 1.00 (median 42.3)  [145s]
+n=196 primes            z_uni>=6 1.00 (median 10.4) | z_5>=6 1.00 (median 44.8)  [157s]
+n=196 self running key  z_uni>=6 1.00 (median 10.0) | z_5>=6 1.00 (median 44.9)  [165s]
+# Rescoring power: rune 5-gram on the decoder's output, by page length
+
+20 plants per cell, 400 nulls, soft rule 0.81, base decoder, max_skip 4; 5-gram trained on the running-key corpus (results/ngram5.npz, held-out solved plaintext −1.96 nats/rune against −3.37 uniform).
+
+| length | share z_uni ≥ 6 (median) | share z_5 ≥ 6 (median) | share z_5 ≥ 7 | median recovery |
+|---|---|---|---|---|
+| 66 | 0.21 (5.6) | **0.99** (25.9) | 0.99 | 1.00 |
+| 76 | 0.54 (6.0) | **1.00** (26.9) | 0.99 | 1.00 |
+| 92 | 0.94 (6.8) | **1.00** (30.1) | 1.00 | 1.00 |
+| 121 | 1.00 (7.9) | **1.00** (35.2) | 1.00 | 1.00 |
+| 137 | 1.00 (8.4) | **1.00** (36.6) | 1.00 | 1.00 |
+| 159 | 1.00 (9.2) | **1.00** (39.3) | 1.00 | 1.00 |
+| 196 | 1.00 (10.4) | **1.00** (44.7) | 1.00 | 1.00 |
+
+Per family at the two shortest lengths:
+
+| length | family | z_uni ≥ 6 | z_5 ≥ 6 |
+|---|---|---|---|
+| 66 | vigenere-word | 0.30 | 1.00 |
+| 66 | phrase-3 | 0.15 | 1.00 |
+| 66 | primes | 0.25 | 0.95 |
+| 66 | self running key | 0.15 | 1.00 |
+| 76 | vigenere-word | 0.35 | 1.00 |
+| 76 | phrase-3 | 0.40 | 1.00 |
+| 76 | primes | 0.70 | 1.00 |
+| 76 | self running key | 0.70 | 1.00 |
+| 92 | vigenere-word | 0.90 | 1.00 |
+| 92 | phrase-3 | 0.95 | 1.00 |
+| 92 | primes | 1.00 | 1.00 |
+| 92 | self running key | 0.90 | 1.00 |
+
+done in 165s

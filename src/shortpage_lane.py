@@ -30,6 +30,16 @@ lane, families and signs cycled; the lane is trusted only if most controls pass 
 Lane A: soft anti-repeat rule 0.81, base decoder.  Lane B: hard rule + 22 % uniform nulls, free-null
 decoder at prior -0.8.  Key library: families.ALLSETS (22,863 configurations).
 Usage: .venv/bin/python -I src/shortpage_lane.py   (SMOKE=1: one page, one control, 200 nulls).
+
+RESCORE=1 (§27, rule written 2026-10-27 before the rescored run, after results/rescore_power.md
+showed the 5-gram lifts a planted key's z from about 5.5 to about 20 at 66 runes): the same pages
+and lanes, with the rune 5-gram (src/ngram.py) as the second statistic.  A cell is a candidate only if
+  (1r) z_uni >= 3.5 (the recording threshold; the unigram Viterbi still finds the path);
+  (2r) its key leads its family by z_5 among the recorded cells of that family;
+  (3r) z_5 >= 6 over the 5-gram scores of the same 2,000 random keystreams' decodes
+       (chance maximum over about 45,700 tests per page and lane is about 4.6);
+  (4)  the §22 margin for lane B;  (5) readable.
+Outputs go to results/shortpage_rescore.md/json; controls as before, passed = planted key meets (1r)-(4).
 """
 import json, os, sys, time
 from pathlib import Path
@@ -41,6 +51,9 @@ from skip_decrypt import encrypt, combine
 import families as F
 
 SMOKE = os.environ.get("SMOKE") == "1"
+RESCORE = os.environ.get("RESCORE") == "1"
+if RESCORE:
+    import ngram; T5 = ngram.load_dense()
 CTRL_REPS = 1 if SMOKE else int(os.environ.get("CTRL_REPS", 5))
 rng = np.random.default_rng(4049)
 lu, lb, plain, pages = F.lu, F.lb, F.plain, dict(F.pages)
@@ -50,6 +63,7 @@ SETS = F.ALLSETS
 NREPS = 200 if SMOKE else 2000
 PEN, Q, SOFT = -0.8, 0.22, 0.81
 Z_UNI, Z_BIG, MARGIN = 4.0, 3.0, 20.0
+Z_UNI_R, Z_5 = 3.5, 6.0
 LOGU = np.log(1 / N)
 
 
@@ -72,7 +86,8 @@ def null_cell(C, f_rule, mode, lane):
     Ks = rng.integers(0, N, size=(NREPS, len(C) + S_MAX + 2))
     sc, dec = run_decode(C, Ks, f_rule, mode, lane, batch=500)
     bg = bigram_many(dec)
-    return (sc.mean(), sc.std(), bg.mean(), bg.std(), sc.max())
+    s5 = ngram.score_batch(dec, T5) if RESCORE else np.zeros(2)
+    return (sc.mean(), sc.std(), bg.mean(), bg.std(), sc.max(), s5.mean(), s5.std())
 
 
 def score_page(C, lane, only_family=None, record_all=False):
@@ -85,12 +100,14 @@ def score_page(C, lane, only_family=None, record_all=False):
             if len(idx) == 0: continue
             key = (f_rule, mode)
             if key not in nulls: nulls[key] = null_cell(C, f_rule, mode, lane)
-            m0, s0, b0, sb, mx = nulls[key]
+            m0, s0, b0, sb, mx, m5, s5 = nulls[key]
             sc, dec = run_decode(C, Ks[idx], f_rule, mode, lane)
             zu = (sc - m0) / s0
             zb = (bigram_many(dec) - b0) / sb
-            for k in np.where(zu >= rec_thr)[0]:               # keep a margin below the rule for the record
-                rows.append(dict(sign=sign, F=f_rule, set=si, ki=int(idx[k]), fam=labs[idx[k]][0], key=labs[idx[k]][1], zu=float(zu[k]), zb=float(zb[k]), sc=float(sc[k]), translit=translit(dec[k])))
+            keep = np.where(zu >= rec_thr)[0]
+            z5 = (ngram.score_batch(dec[keep], T5) - m5) / s5 if (RESCORE and len(keep)) else np.zeros(len(keep))
+            for j_, k in enumerate(keep):                       # keep a margin below the rule for the record
+                rows.append(dict(sign=sign, F=f_rule, set=si, ki=int(idx[k]), fam=labs[idx[k]][0], key=labs[idx[k]][1], zu=float(zu[k]), zb=float(zb[k]), z5=float(z5[j_]), sc=float(sc[k]), translit=translit(dec[k])))
             # the family ranking needs every key's z over all six cells, not only the recorded rows
             for k in range(len(idx)):
                 fam, kid = labs[idx[k]][0], (labs[idx[k]][0], int(idx[k]))
@@ -101,10 +118,16 @@ def score_page(C, lane, only_family=None, record_all=False):
 
 def apply_rule(C, rows, lane):
     out = []
+    if RESCORE:                                                  # family lead by z_5 among recorded cells
+        fb5, kb5 = {}, {}
+        for r in rows:
+            fb5[r["fam"]] = max(fb5.get(r["fam"], -99), r["z5"]); kb5[(r["fam"], r["ki"])] = max(kb5.get((r["fam"], r["ki"]), -99), r["z5"])
     for r in rows:
         kid = (r["fam"], r["ki"])
+        if RESCORE:
+            if r["zu"] < Z_UNI_R or r["z5"] < Z_5 or kb5[kid] < fb5[r["fam"]] - 1e-9: continue
         # (1) z_uni, (3) z_big, (2) the key leads its family; any cell of that key may be the candidate
-        if r["zu"] < Z_UNI or r["zb"] < Z_BIG or key_best[kid] < fam_best[r["fam"]] - 1e-9: continue
+        elif r["zu"] < Z_UNI or r["zb"] < Z_BIG or key_best[kid] < fam_best[r["fam"]] - 1e-9: continue
         if lane == "B":
             sign, mode, Ks, labs = SETS[r["set"]]
             base = float(decode(C, Ks[r["ki"]:r["ki"] + 1], lu, r["F"], mode)[0][0]); r["free_minus_base"] = r["sc"] - base
@@ -158,6 +181,7 @@ for lane in ("A", "B"):
         zu = mine[0]["zu"] if mine else float("nan"); zb = mine[0]["zb"] if mine else float("nan")
         passed = any(h["ki"] == truth["ki"] for h in hits)
         zu, zb = key_best[(truth["fam"], truth["ki"])], max(r["zb"] for r in rows if r["ki"] == truth["ki"])
+        if RESCORE: zb = max(r["z5"] for r in rows if r["ki"] == truth["ki"])          # the z_big column carries z_5 in rescore mode
         report["controls"].append(dict(lane=lane, n=n, **truth, zu=zu, zb=zb, passed=bool(passed), other_hits=len(hits) - int(passed)))
         print(f"control lane {lane} n={n} {truth['fam']} {truth['sign']} F={truth['F']} '{truth['key']}': z_uni {zu:.1f} z_big {zb:.1f} rank-first {'yes' if key_best[(truth['fam'], truth['ki'])] >= fam_best[truth['fam']] - 1e-9 else 'no'} -> {'PASS' if passed else 'miss'}  [{time.time()-t0:.0f}s]", flush=True)
 
@@ -176,10 +200,11 @@ for pid in PAGE_IDS:
             print(f"    CANDIDATE {h['sign']} F={h['F']} {h['fam']} '{h['key']}' z_uni {h['zu']:.2f} z_big {h['zb']:.2f}: {h['translit']}", flush=True)
 
 report["seconds"] = time.time() - t0
-json.dump(report, open(RESULTS / ("shortpage_smoke.json" if SMOKE else "shortpage.json"), "w"), indent=1)
+TAG = ("shortpage_smoke" if SMOKE else "shortpage") + ("_rescore" if RESCORE else "")
+json.dump(report, open(RESULTS / f"{TAG}.json", "w"), indent=1)
 
 # ---------- markdown ----------
-out = [f"# Short-page lane: z >= {Z_UNI:.0f}, rank first within family, bigram z >= {Z_BIG:.0f}, readable", "",
+out = [(f"# Short-page lane, RESCORED: z_uni >= {Z_UNI_R}, key leads family by z_5, 5-gram z_5 >= {Z_5:.0f}, readable (the 'z_big' columns below carry z_5)" if RESCORE else f"# Short-page lane: z >= {Z_UNI:.0f}, rank first within family, bigram z >= {Z_BIG:.0f}, readable"), "",
        f"Pages below the §23 power threshold, scored with a secondary rule fixed before scoring (module docstring; rule (2) was re-worded after the controls and before any page result was read, see docstring). {NREPS} random-keystream nulls per cell; decoder max_skip {MAX_SKIP}; lane B prior {PEN}. A hypothesis is a key; its z_uni is the best of its six sign x F cells.", "",
        "## Controls (one plant per page length per lane)", "", "| lane | length | family | sign | F | key | z_uni | z_big | passes (1)-(4) | other cells passing |", "|---|---|---|---|---|---|---|---|---|---|"]
 for c in report["controls"]:
@@ -201,5 +226,5 @@ for k, v in report["pages"].items():
         out.append(f"- **{pid} lane {lane}** {h['sign']} F={h['F']} {h['fam']} '{h['key']}', z_uni {h['zu']:.2f}, z_big {h['zb']:.2f}" + (f", free−base {h['free_minus_base']:+.0f}" if 'free_minus_base' in h else "") + f": `{h['translit']}`")
 if not anyc: out.append("None.")
 out += ["", f"Runtime {report['seconds']/60:.0f} minutes.", ""]
-(RESULTS / ("shortpage_smoke.md" if SMOKE else "shortpage.md")).write_text("\n".join(out) + "\n")
+(RESULTS / f"{TAG}.md").write_text("\n".join(out) + "\n")
 print("\n".join(out[-12:]))

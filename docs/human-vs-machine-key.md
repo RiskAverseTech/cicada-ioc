@@ -33,11 +33,14 @@ exactly at chance.
 
 ## What would settle it
 
-- **Short-window dispersion of the key's differences.** Not directly observable (the key is
-  masked by the plaintext), but the ciphertext difference stream C_i − C_{i−1} inherits the key's
-  balancing if any; its lag-1 class chi² is already flat (§5, 42 against a flat expectation).
-  A windowed version of that test, 50-rune windows, would show the gambler's-fallacy
-  under-dispersion if a hand made the key. Not yet run.
+- **Short-window dispersion.** Run the same day (`src/dispersion.py`, `results/dispersion.md`,
+  README §28): the proposal above was wrong in one respect and the test as a whole has no power.
+  A key's local balance does not carry into its successive differences, so the difference-stream
+  statistic (S1) cannot see it: an iid key, a permutation-bag key and a recent-avoid key all give
+  windowed chi² 29.1 ± 0.5. A statistic on the ciphertext itself (S2, 29- and 58-rune windows)
+  separates the bag key from iid by only 1.5 sd through the plaintext. The observed pages sit at
+  z −0.1 to −0.5 from iid on all three statistics, which is consistent with a machine and says
+  nothing against a hand. No verdict from this test; the lag-2 row above remains the discriminator.
 - **The soft rate itself.** A program's rejection step is usually all-or-nothing; the pages show
   four in five. A program draws a *fresh* uniform rune and re-tests only once would give a
   "soft" rate of 1 − 1/29 ≈ 0.966, not 0.81. A rate of 0.81 is what you get from a rule that
