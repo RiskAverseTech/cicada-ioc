@@ -69,3 +69,22 @@ back onto runes; all nine sections match (the only differences are the book's ow
 - The Uncovering Cicada wiki (uncovering-cicada.fandom.com) did not surface in search
   results and was not needed: the rtkd repository is the transcription the community
   tools (LiberPrimusSolver, Taiiwo/cicada) themselves consume.
+
+## External running-key corpus (fetched by hand 2026-10-27; `src/corpus.py` builds `data/corpus/corpus.json`)
+
+Raw files in `data/corpus/raw/` are committed where public domain; Gibson's *Agrippa* is under copyright and only its hash is recorded (file gitignored).
+
+| file | SHA-256 | source |
+|---|---|---|
+| agrippa_gibson_diskimage.txt | d404a19157557a27a0438b657dfe6d71d8181da0c1a2c6a92b3197fa0df2b056 | https://agrippa.english.ucsb.edu/wp-content/uploads/images/emulation/diskimage-analysis/freek/agrippa-poem-extracted-from-diskimage.txt (copyrighted; not committed) |
+| blake_mhh_wikisource.json | 90aeff70c035fa5281d9242baa61716a5f4035001622e632dfc453614de65e2a | https://en.wikisource.org/wiki/The_Marriage_of_Heaven_and_Hell (API action=parse) |
+| bulfinch_age_of_chivalry_pg4926.txt | 6372dea2a04426db725fc645ee1c6c360bd75be65a28f4d047f564ad5d192d4d | https://mirrors.xmission.com/gutenberg/4/9/2/4926/4926.txt (Project Gutenberg #4926) |
+| cypherpunk_manifesto.html | e63fe33f5de9f49b842d02d3d8e42c5f132edb480d6c2173b54084bcf090afe1 | https://www.activism.net/cypherpunk/manifesto.html |
+| emerson_essays1_pg2944.txt | c38b1203b6acc456dc038279868649f656acd80eea90a8c8c92e2c3808cd91da | https://gutenberg.pglaf.org/2/9/4/2944/2944-0.txt (Project Gutenberg #2944) |
+| king_in_yellow_pg8492.txt | e1f3f545b2d0f681181e169479aa6e3d3097004108d51eb198cf19cf686944c8 | https://gutenberg.pglaf.org/8/4/9/8492/8492-0.txt (Project Gutenberg #8492) |
+| kybalion_pg14209.txt | a9aa0a3ec5b60c630cab7ad0817f0d3253503fe8fff5b56d3d73813333bd62ca | https://gutenberg.pglaf.org/1/4/2/0/14209/14209-0.txt (Project Gutenberg #14209) |
+| liber_al_wikisource.json | 0a2a0180e1e459a6db8b9bf620278414b7e9cfbd4cd12d8e0fdd8d3b74aae9c3 | https://en.wikisource.org/wiki/Liber_AL_vel_Legis (API action=parse, rendered page) |
+| mabinogion_guest_pg5160.txt | 80dc6f0d8efc8398a2d1cc8cdf17237020c881cf4fbd2412dfa37ec8be19a5ed | https://gutenberg.pglaf.org/5/1/6/5160/5160-0.txt (Project Gutenberg #5160) |
+| rune_poem_wikisource.json | 8d8998cda226badf8c5378039ab54e16dd5afa0f6f2a6cae82f885a6d3707f4e | https://en.wikisource.org/wiki/Runic_and_Heroic_Poems_of_the_Old_Teutonic_Peoples/The_Runic_Poems/The_Anglo-Saxon_Runic_Poem (API action=parse) |
+
+Rune counts per text and both transliteration conventions: `data/corpus/CORPUS.md`.
