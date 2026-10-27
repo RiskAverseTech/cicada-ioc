@@ -1,0 +1,573 @@
+{
+ "rule": {
+  "z_uni": 4.0,
+  "z_big": 3.0,
+  "margin_nats": 20.0,
+  "nulls": 2000,
+  "prior": -0.8,
+  "max_skip": 4
+ },
+ "controls": [
+  {
+   "lane": "A",
+   "n": 66,
+   "fam": "vigenere-word",
+   "sign": "sub",
+   "F": false,
+   "key": "GAIN",
+   "ki": 175,
+   "zu": 5.600522499807908,
+   "zb": 12.447393079533507,
+   "passed": true,
+   "other_hits": 0
+  },
+  {
+   "lane": "A",
+   "n": 76,
+   "fam": "phrase-3",
+   "sign": "add",
+   "F": false,
+   "key": "THAT IS WHAT",
+   "ki": 1109,
+   "zu": 6.225245305091437,
+   "zb": 13.630081162028645,
+   "passed": true,
+   "other_hits": 0
+  },
+  {
+   "lane": "A",
+   "n": 92,
+   "fam": "primes",
+   "sign": "beaufort",
+   "F": false,
+   "key": "p[n+75]",
+   "ki": 792,
+   "zu": 6.160385948609437,
+   "zb": 13.288229750488124,
+   "passed": true,
+   "other_hits": 0
+  },
+  {
+   "lane": "A",
+   "n": 121,
+   "fam": "self running key",
+   "sign": "sub",
+   "F": true,
+   "key": "plaintext@508",
+   "ki": 2247,
+   "zu": 7.2021883596284395,
+   "zb": 15.812988104341326,
+   "passed": false,
+   "other_hits": 1
+  },
+  {
+   "lane": "A",
+   "n": 131,
+   "fam": "phrase-2",
+   "sign": "add",
+   "F": true,
+   "key": "TO SAY",
+   "ki": 1373,
+   "zu": 9.41719720847613,
+   "zb": 14.9679781123421,
+   "passed": true,
+   "other_hits": 0
+  },
+  {
+   "lane": "A",
+   "n": 137,
+   "fam": "fibonacci",
+   "sign": "beaufort",
+   "F": true,
+   "key": "F[n+13]",
+   "ki": 896,
+   "zu": 9.857000684906343,
+   "zb": 18.486292299646887,
+   "passed": false,
+   "other_hits": 1
+  },
+  {
+   "lane": "A",
+   "n": 159,
+   "fam": "affine position",
+   "sign": "sub",
+   "F": false,
+   "key": "24\u00b7n+6",
+   "ki": 1571,
+   "zu": 9.55906249529755,
+   "zb": 18.287947507326336,
+   "passed": true,
+   "other_hits": 1
+  },
+  {
+   "lane": "A",
+   "n": 179,
+   "fam": "sentence",
+   "sign": "add",
+   "F": false,
+   "key": "AFTER A LONG PAUSE THE MASTER ",
+   "ki": 1513,
+   "zu": 10.098290706137492,
+   "zb": 19.81223049302126,
+   "passed": true,
+   "other_hits": 0
+  },
+  {
+   "lane": "A",
+   "n": 196,
+   "fam": "primes+1",
+   "sign": "beaufort",
+   "F": false,
+   "key": "p[n+71]+1",
+   "ki": 782,
+   "zu": 11.095663753968799,
+   "zb": 20.699225780064374,
+   "passed": true,
+   "other_hits": 0
+  },
+  {
+   "lane": "B",
+   "n": 66,
+   "fam": "vigenere-word",
+   "sign": "sub",
+   "F": false,
+   "key": "TOWARD",
+   "ki": 375,
+   "zu": 4.3972022396020956,
+   "zb": 1.3795823391338902,
+   "passed": false,
+   "other_hits": 0
+  },
+  {
+   "lane": "B",
+   "n": 76,
+   "fam": "phrase-3",
+   "sign": "add",
+   "F": false,
+   "key": "SEEK OUT THIS",
+   "ki": 2807,
+   "zu": 4.215131819744426,
+   "zb": 4.670132561987737,
+   "passed": false,
+   "other_hits": 0
+  },
+  {
+   "lane": "B",
+   "n": 92,
+   "fam": "primes",
+   "sign": "beaufort",
+   "F": false,
+   "key": "p[n+17]",
+   "ki": 618,
+   "zu": 2.8470147826843215,
+   "zb": 1.8215617018266632,
+   "passed": false,
+   "other_hits": 0
+  },
+  {
+   "lane": "B",
+   "n": 121,
+   "fam": "self running key",
+   "sign": "sub",
+   "F": true,
+   "key": "plaintext@1825",
+   "ki": 3564,
+   "zu": 6.283854532271921,
+   "zb": 6.0042319066434295,
+   "passed": true,
+   "other_hits": 0
+  },
+  {
+   "lane": "B",
+   "n": 131,
+   "fam": "phrase-2",
+   "sign": "add",
+   "F": true,
+   "key": "IT IS",
+   "ki": 222,
+   "zu": 8.199241323481385,
+   "zb": 10.749606611697011,
+   "passed": true,
+   "other_hits": 0
+  },
+  {
+   "lane": "B",
+   "n": 137,
+   "fam": "fibonacci",
+   "sign": "beaufort",
+   "F": true,
+   "key": "F[n+12]",
+   "ki": 894,
+   "zu": 6.910185146196619,
+   "zb": 6.057278933541301,
+   "passed": false,
+   "other_hits": 1
+  },
+  {
+   "lane": "B",
+   "n": 159,
+   "fam": "affine position",
+   "sign": "sub",
+   "F": false,
+   "key": "24\u00b7n+15",
+   "ki": 1580,
+   "zu": 7.469852318062534,
+   "zb": 6.864829024709281,
+   "passed": true,
+   "other_hits": 1
+  },
+  {
+   "lane": "B",
+   "n": 179,
+   "fam": "sentence",
+   "sign": "add",
+   "F": false,
+   "key": "WE DO NOT HAVE ENOUGH OR THERE",
+   "ki": 1715,
+   "zu": 7.048035888636648,
+   "zb": 8.759588249881133,
+   "passed": true,
+   "other_hits": 0
+  },
+  {
+   "lane": "B",
+   "n": 196,
+   "fam": "primes+1",
+   "sign": "beaufort",
+   "F": false,
+   "key": "p[n+62]+1",
+   "ki": 755,
+   "zu": 6.401008165974473,
+   "zb": 5.447651934199189,
+   "passed": true,
+   "other_hits": 0
+  }
+ ],
+ "pages": {
+  "LP2-49|A": {
+   "n": 66,
+   "cells_z4": 0,
+   "best": {
+    "sign": "beaufort",
+    "F": true,
+    "set": 5,
+    "ki": 1567,
+    "fam": "affine position",
+    "key": "24\u00b7n+2",
+    "zu": 3.3612159286901453,
+    "zb": 1.7458279944725619,
+    "sc": -0.4765588349064882,
+    "translit": "RHITLPLSCEEAIACREONFRHAEITEUIAILCUIIAOFGIAXLLAGIOPLTHMCDFURWCTHNRYMEDENTHT"
+   },
+   "candidates": [],
+   "null_max": 3.11154237082472
+  },
+  "LP2-49|B": {
+   "n": 66,
+   "cells_z4": 1,
+   "best": {
+    "sign": "sub",
+    "F": false,
+    "set": 0,
+    "ki": 2146,
+    "fam": "phrase-3-rev",
+    "key": "BEHAVIORS OF CONSUMPTION \u02b3",
+    "zu": 4.071974240339559,
+    "zb": 1.4014617285848927,
+    "sc": 19.96797611711351,
+    "translit": "ELATLONMUEUTHTSITHAUESNNEAFDOETWAJOHFSAUATADIEFDDLUSSLSUTSAABADWHNIES"
+   },
+   "candidates": [],
+   "null_max": 21.83519249804698
+  },
+  "LP2-55|A": {
+   "n": 76,
+   "cells_z4": 1,
+   "best": {
+    "sign": "add",
+    "F": true,
+    "set": 1,
+    "ki": 909,
+    "fam": "phrase-3-rev",
+    "key": "TO STUDY HERE \u02b3",
+    "zu": 4.794702625467131,
+    "zb": 2.6621716507514575,
+    "sc": 14.53199945995245,
+    "translit": "IFHERNEUCEEAAIALRFAEENGTILGOFOETAGFDAWUDRTHAWURDSNGUOEWSRWUNGECRTLISNONLTHYHNOTHHAERP"
+   },
+   "candidates": [],
+   "null_max": 0.5272215568541259
+  },
+  "LP2-55|B": {
+   "n": 76,
+   "cells_z4": 4,
+   "best": {
+    "sign": "sub",
+    "F": true,
+    "set": 3,
+    "ki": 2129,
+    "fam": "self running key",
+    "key": "plaintext@390",
+    "zu": 4.2091441435646235,
+    "zb": -0.650999392154686,
+    "sc": 22.07814014978336,
+    "translit": "EASIOTYROEEOCOSSIOAUTIROIENDTNSFIWOTEOAGCEMYTHMNGCTHTHEOIRIOSBNRTHTHTCTNAHRSAADTAEATS"
+   },
+   "candidates": [],
+   "null_max": 20.79177972421408
+  },
+  "LP2-51|A": {
+   "n": 92,
+   "cells_z4": 0,
+   "best": {
+    "sign": "sub",
+    "F": true,
+    "set": 3,
+    "ki": 1883,
+    "fam": "self running key",
+    "key": "plaintext@144",
+    "zu": 3.616999981224938,
+    "zb": 2.1134781266749143,
+    "sc": -4.265539512125802,
+    "translit": "IAEOFAETHISLTHSSETRFWPWHYGAESSAIDEMLXSDRPMUUNREAILTHBPYOEOYIAPFTFWSFCCMAALEAEMDSSOSYLOAEMBSTHESEOBXPAEN"
+   },
+   "candidates": [],
+   "null_max": -2.796611869728486
+  },
+  "LP2-51|B": {
+   "n": 92,
+   "cells_z4": 24,
+   "best": {
+    "sign": "sub",
+    "F": true,
+    "set": 3,
+    "ki": 4517,
+    "fam": "self running key",
+    "key": "plaintext@2778",
+    "zu": 4.426986624414726,
+    "zb": -0.8278611012829928,
+    "sc": 25.547390583234243,
+    "translit": "EWRFAEXBBTHIGTHURTAEETHBAEIWNSFRNRTRALWENNGUUTRUTHTOEEYMORUUHRWCTAEFEOOEAEIABGIOHENSUTEIEONIEREEJTPRO"
+   },
+   "candidates": [],
+   "null_max": 22.30463494325841
+  },
+  "LP2-32|A": {
+   "n": 121,
+   "cells_z4": 0,
+   "best": {
+    "sign": "beaufort",
+    "F": true,
+    "set": 2,
+    "ki": 700,
+    "fam": "phrase-3",
+    "key": "ALL THAT LIVES",
+    "zu": 3.730834534381179,
+    "zb": 2.961364914311343,
+    "sc": -11.951565191841837,
+    "translit": "RFEANANBLIBEAEOAWYCBEOHBTHPEDWETDEAFFSPTBUPINYAIENGOOHRRAEOWNMIRDCIEOTLPBOCIAIEGSFUWAEPEAUTHEOMRNWESTHABLPBNGNONOLDTHNGNHEMFWNGMMDFMTHLEOH"
+   },
+   "candidates": [],
+   "null_max": -17.51470505246894
+  },
+  "LP2-32|B": {
+   "n": 121,
+   "cells_z4": 0,
+   "best": {
+    "sign": "add",
+    "F": true,
+    "set": 1,
+    "ki": 1424,
+    "fam": "phrase-4-rev",
+    "key": "BUT HE COULD NOT \u02b3",
+    "zu": 3.8737320891101716,
+    "zb": 1.1236950848049865,
+    "sc": 28.35913254026415,
+    "translit": "WCCUTTHTODSHNARMETHEREDIWHBTRAEUBMCBYIESIDLLETHHEEOSWAIOOTSMYAAIDSSEIYNASUOOURNTDAIHEOSEFJEELANNGOMEEIEBLEARTNNIIGGNOMIAEOOLISGES"
+   },
+   "candidates": [],
+   "null_max": 33.44869116330352
+  },
+  "LP2-22|A": {
+   "n": 131,
+   "cells_z4": 0,
+   "best": {
+    "sign": "sub",
+    "F": true,
+    "set": 3,
+    "ki": 1236,
+    "fam": "affine position",
+    "key": "12\u00b7n+19",
+    "zu": 3.310144877235263,
+    "zb": 1.3158234906450796,
+    "sc": -18.830542123457672,
+    "translit": "THBAENTHXUTOWHCHEAENOWSSTUEOODREAFUMFGNAIPHRWANIDLAETMTWNNAHHSFRMCFGMHNBTHTHIEETDNGJPGRINBRWDSDAEMCPRTHIARGAYGRIASEARDJYAEDIAUWCEEATHSPCLDCUOEESIFHU"
+   },
+   "candidates": [],
+   "null_max": -15.844212871107574
+  },
+  "LP2-22|B": {
+   "n": 131,
+   "cells_z4": 0,
+   "best": {
+    "sign": "beaufort",
+    "F": true,
+    "set": 2,
+    "ki": 79,
+    "fam": "phrase-2-rev",
+    "key": "OR CHANGE \u02b3",
+    "zu": 3.9131632335392275,
+    "zb": 0.7419613763182713,
+    "sc": 29.947607377771824,
+    "translit": "YMISJEOOOSUWAATHOJIATOEWTTJRDNANTUEROTHSODIJWERYITMEORWIDANYATHLETTHYONERIWTWSMRNTHTEAAANLEESUWOJUMLTELEOSEAGNLRAAETCTYSCSOBIOFENSTHENONCAE"
+   },
+   "candidates": [],
+   "null_max": 30.59505611064689
+  },
+  "LP2-14|A": {
+   "n": 137,
+   "cells_z4": 0,
+   "best": {
+    "sign": "sub",
+    "F": true,
+    "set": 3,
+    "ki": 810,
+    "fam": "primes",
+    "key": "p[n+81]",
+    "zu": 3.6144701659922687,
+    "zb": 1.3882759268623814,
+    "sc": -20.80987493685658,
+    "translit": "USFCTSAPHNGORCRAEONGINGWTHGAEHRTTHTHRRUUGUNRIATRSNGIIUICEAAPPPFOCEAEATHUGCBLBMOLLSJITHSMWDLCENIAAOSBTHIWTMWIANEBTHIITHTYDFBUECUNGAMPFFUNGIXIACAWDIAXFAWWEAMYEAIYS"
+   },
+   "candidates": [],
+   "null_max": -22.083406253187846
+  },
+  "LP2-14|B": {
+   "n": 137,
+   "cells_z4": 50,
+   "best": {
+    "sign": "add",
+    "F": true,
+    "set": 4,
+    "ki": 2105,
+    "fam": "self running key",
+    "key": "plaintext@366",
+    "zu": 5.351937880645533,
+    "zb": 0.8880383507095491,
+    "sc": 37.44382653054113,
+    "translit": "WTHUEEOAOCDWDRLCNOENYAEOOGEINEAFORCNGERTAEAENIAUTLTHWPDEUORTOANNTHOHSOUCYRTOAENGEETIXNGXTHNISOHEWATHLTHSAPYONERHLILPLOLREAUOOEOTIAERDTRLDSTISOONHSAAUETN"
+   },
+   "candidates": [],
+   "null_max": 33.37234179698839
+  },
+  "LP2-15|A": {
+   "n": 159,
+   "cells_z4": 2,
+   "best": {
+    "sign": "beaufort",
+    "F": true,
+    "set": 5,
+    "ki": 4435,
+    "fam": "self running key",
+    "key": "plaintext@2696",
+    "zu": 4.13841235919737,
+    "zb": 1.7543507062591146,
+    "sc": -18.3298515651741,
+    "translit": "EBEUSWJDDEBTHSRNNGGFRNASBHEOJWSLYOIHWBATOSLITLTHHCNGWCHNUIFBUIAOCLTPMSHSOUDUGDOAEOXOGCEANGATUASFDEUEADBUBTHWFETHTHNGIOSNMEATXYTIAOSEAGYUTHEATPTDAEUOYNGSDJIADIIELIMCCFEOHAFONTHTYNFUC"
+   },
+   "candidates": [],
+   "null_max": -23.641959104102984
+  },
+  "LP2-15|B": {
+   "n": 159,
+   "cells_z4": 42,
+   "best": {
+    "sign": "beaufort",
+    "F": true,
+    "set": 5,
+    "ki": 986,
+    "fam": "affine position",
+    "key": "4\u00b7n+1",
+    "zu": 4.558789684468773,
+    "zb": 0.4356980250947417,
+    "sc": 37.76435253367479,
+    "translit": "UREMEEAOANOTOCSONTFOETHYUEAERFAEEGNSEXNEAMDHRXOOHINECTSTTEATHOWTHETHEBEOCOGRNLNIMREOUIEOTEHTFNGISOETHETOIAOCMTHOETHSGMRLODSNTNOSWUULTCIGTHWEAFIWTRLAOUOERXYETHEWATYOEFEARNGOTHHYCA"
+   },
+   "candidates": [],
+   "null_max": 36.661079567129924
+  },
+  "LP2-53|A": {
+   "n": 179,
+   "cells_z4": 0,
+   "best": {
+    "sign": "sub",
+    "F": true,
+    "set": 3,
+    "ki": 4322,
+    "fam": "self running key",
+    "key": "plaintext@2583",
+    "zu": 3.6796327008194325,
+    "zb": 3.39641694011621,
+    "sc": -28.807966447007093,
+    "translit": "THILUBWOIIANGIEURMJHSNDERIAOBUCONGORBOEWFUOWLDBBBNTSTTREEOIMENHINTTHXMNRBEABNGYXICDONGEINAEAODUCHFNGETFALFDHESWEATHIAWTCSMXOBIACXIAECOIYBADNGEAAENGXNNUYOJILMOYTHMLAGEOWFOAESEASNIANLAWTHNGRHUIAXNFNEUMOOTTHIPITH"
+   },
+   "candidates": [],
+   "null_max": -38.29263677549443
+  },
+  "LP2-53|B": {
+   "n": 179,
+   "cells_z4": 3,
+   "best": {
+    "sign": "add",
+    "F": true,
+    "set": 4,
+    "ki": 829,
+    "fam": "primes-1 (totient)",
+    "key": "p[n+87]-1",
+    "zu": 4.108291587251073,
+    "zb": 0.2814334996200619,
+    "sc": 39.38755631848108,
+    "translit": "RAEAAEAORPWWGEELNAEWNSOFCWATNNGSSNOSNTIETYYNGLHUOTHEYIAREJEEATYEEOTHEEAESINJYISOTNGOTNOETFNGTIEEUWTSHUMICIEITEHYSFNNPNWYNDAOWOERLSCEOUDRWLNIEDRSYUSTTHNEEJRTANTHAIEOAETLEEAINTHOUOYNOEGSBEMCAAHDTERNN"
+   },
+   "candidates": [],
+   "null_max": 39.15868861374995
+  },
+  "LP2-06|A": {
+   "n": 196,
+   "cells_z4": 1,
+   "best": {
+    "sign": "beaufort",
+    "F": true,
+    "set": 5,
+    "ki": 667,
+    "fam": "primes-1 (totient)",
+    "key": "p[n+33]-1",
+    "zu": 4.020948624390041,
+    "zb": 1.6346126326228665,
+    "sc": -33.55627981771161,
+    "translit": "HIAEODNPTWLNPHAGWUEAIIABLNDTHEAMWUNAOXPRWTHGRTHDHBOBJXTMPONGFTNGTHNGYTPHSLDCRTHRHWLUMIAUULCNGNGWMIAEASATPSUCBNTOSCULNGNOTHIIBDYCAEEDBLUACUHRJSNMFLTTAOYIDLIATHDITHTYMNGFOSORPIAOESGTHHALWIRFWBRHSFAENGWNFTFDEBGRULSMTAYEAEASYUNAEPC"
+   },
+   "candidates": [],
+   "null_max": -48.89595979661781
+  },
+  "LP2-06|B": {
+   "n": 196,
+   "cells_z4": 5,
+   "best": {
+    "sign": "sub",
+    "F": false,
+    "set": 3,
+    "ki": 955,
+    "fam": "affine position",
+    "key": "2\u00b7n+28",
+    "zu": 4.323670353835289,
+    "zb": -0.014032013448433727,
+    "sc": 42.396816196456506,
+    "translit": "SRPOTOOBSINDNOBAONIAEORIAWOHTHISANORNYDUUNSIASIUELIAESMINGRWRAEISGNYDERTROEEEDIRDMLEOIAIIXOANSIETHFEEEORIANGRTCREUROEEHRJEENOOADTHRIONLEINEHTLAEOESTDYUJOSOOEOOTHMRAERTWEEMDEUEOEREPWALOSIAEOOTFLUGNUOIDOUIEASIEOABASEASR"
+   },
+   "candidates": [],
+   "null_max": 42.61824599027801
+  }
+ },
+ "seconds": 860.5341260433197
+}

@@ -1,0 +1,77 @@
+{
+ "rule": {
+  "z_uni": 4.0,
+  "z_big": 3.0,
+  "margin_nats": 20.0,
+  "nulls": 200,
+  "prior": -0.8,
+  "max_skip": 4
+ },
+ "controls": [
+  {
+   "lane": "A",
+   "n": 66,
+   "fam": "vigenere-word",
+   "sign": "sub",
+   "F": false,
+   "key": "GAIN",
+   "ki": 175,
+   "zu": 5.18197226955148,
+   "zb": 12.438070623023096,
+   "passed": false,
+   "other_hits": 1
+  },
+  {
+   "lane": "B",
+   "n": 66,
+   "fam": "vigenere-word",
+   "sign": "sub",
+   "F": false,
+   "key": "MORE",
+   "ki": 455,
+   "zu": 4.635722056556384,
+   "zb": 5.61618699297058,
+   "passed": true,
+   "other_hits": 0
+  }
+ ],
+ "pages": {
+  "LP2-49|A": {
+   "n": 66,
+   "cells_z4": 0,
+   "best": {
+    "sign": "sub",
+    "F": true,
+    "set": 0,
+    "ki": 866,
+    "fam": "phrase-3",
+    "key": "OF THE MASTER",
+    "zu": 3.402999964873586,
+    "zb": 1.9764969482852195,
+    "sc": -1.4578329589857026,
+    "translit": "AENFTHOSMDOTHEAMPWTFPONGPATWOFWUIWWSHFOENTFRDCIPUTPMDNYEABBEASHIANHENWNAR"
+   },
+   "candidates": [],
+   "null_max": -6.689458658395239
+  },
+  "LP2-49|B": {
+   "n": 66,
+   "cells_z4": 1,
+   "best": {
+    "sign": "sub",
+    "F": true,
+    "set": 0,
+    "ki": 2146,
+    "fam": "phrase-3-rev",
+    "key": "BEHAVIORS OF CONSUMPTION \u02b3",
+    "zu": 4.102402476684144,
+    "zb": 1.4680356475625818,
+    "sc": 20.013305532213337,
+    "translit": "ELATLONMUEUTHTSITHAUESNNEAFDOETWAJOHFSAUATADIEFDDLUSSLSUTSAABADWHNIES"
+   },
+   "candidates": [],
+   "null_max": 18.61817148780328
+  }
+ },
+ "seconds": 23.02513599395752
+}

@@ -1,0 +1,48 @@
+control lane A n=66 vigenere-word sub F=False 'GAIN': z_uni 5.6 z_big 12.4 rank-first yes -> PASS  [1s]
+control lane A n=76 phrase-3 add F=False 'THAT IS WHAT': z_uni 6.2 z_big 13.6 rank-first yes -> PASS  [3s]
+control lane A n=92 primes beaufort F=False 'p[n+75]': z_uni 6.2 z_big 13.3 rank-first yes -> PASS  [4s]
+control lane A n=121 self running key sub F=True 'plaintext@508': z_uni 7.2 z_big 15.8 rank-first no -> miss  [10s]
+control lane A n=131 phrase-2 add F=True 'TO SAY': z_uni 9.4 z_big 15.0 rank-first yes -> PASS  [12s]
+control lane A n=137 fibonacci beaufort F=True 'F[n+13]': z_uni 9.9 z_big 18.5 rank-first no -> miss  [14s]
+control lane A n=159 affine position sub F=False '24·n+6': z_uni 9.6 z_big 18.3 rank-first yes -> PASS  [18s]
+control lane A n=179 sentence add F=False 'AFTER A LONG PAUSE THE MASTER ': z_uni 10.1 z_big 19.8 rank-first yes -> PASS  [21s]
+control lane A n=196 primes+1 beaufort F=False 'p[n+71]+1': z_uni 11.1 z_big 20.7 rank-first yes -> PASS  [25s]
+control lane B n=66 vigenere-word sub F=False 'TOWARD': z_uni 4.4 z_big 1.4 rank-first yes -> miss  [29s]
+control lane B n=76 phrase-3 add F=False 'SEEK OUT THIS': z_uni 4.2 z_big 4.7 rank-first no -> miss  [35s]
+control lane B n=92 primes beaufort F=False 'p[n+17]': z_uni 2.8 z_big 1.8 rank-first no -> miss  [40s]
+control lane B n=121 self running key sub F=True 'plaintext@1825': z_uni 6.3 z_big 6.0 rank-first yes -> PASS  [72s]
+control lane B n=131 phrase-2 add F=True 'IT IS': z_uni 8.2 z_big 10.7 rank-first yes -> PASS  [82s]
+control lane B n=137 fibonacci beaufort F=True 'F[n+12]': z_uni 6.9 z_big 6.1 rank-first no -> miss  [90s]
+control lane B n=159 affine position sub F=False '24·n+15': z_uni 7.5 z_big 6.9 rank-first yes -> PASS  [113s]
+control lane B n=179 sentence add F=False 'WE DO NOT HAVE ENOUGH OR THERE': z_uni 7.0 z_big 8.8 rank-first yes -> PASS  [125s]
+control lane B n=196 primes+1 beaufort F=False 'p[n+62]+1': z_uni 6.4 z_big 5.4 rank-first yes -> PASS  [140s]
+LP2-49 (66 runes) lane A: 0 cells at z_uni >= 4, best z 3.36 (affine position); candidates after rank + bigram: 0  [146s]
+LP2-49 (66 runes) lane B: 1 cells at z_uni >= 4, best z 4.07 (phrase-3-rev); candidates after rank + bigram + margin: 0  [166s]
+LP2-55 (76 runes) lane A: 1 cells at z_uni >= 4, best z 4.79 (phrase-3-rev); candidates after rank + bigram: 0  [175s]
+LP2-55 (76 runes) lane B: 4 cells at z_uni >= 4, best z 4.21 (self running key); candidates after rank + bigram + margin: 0  [196s]
+LP2-51 (92 runes) lane A: 0 cells at z_uni >= 4, best z 3.62 (self running key); candidates after rank + bigram: 0  [204s]
+LP2-51 (92 runes) lane B: 24 cells at z_uni >= 4, best z 4.43 (self running key); candidates after rank + bigram + margin: 0  [235s]
+LP2-32 (121 runes) lane A: 0 cells at z_uni >= 4, best z 3.73 (phrase-3); candidates after rank + bigram: 0  [246s]
+LP2-32 (121 runes) lane B: 0 cells at z_uni >= 4, best z 3.87 (phrase-4-rev); candidates after rank + bigram + margin: 0  [291s]
+LP2-22 (131 runes) lane A: 0 cells at z_uni >= 4, best z 3.31 (affine position); candidates after rank + bigram: 0  [303s]
+LP2-22 (131 runes) lane B: 0 cells at z_uni >= 4, best z 3.91 (phrase-2-rev); candidates after rank + bigram + margin: 0  [372s]
+LP2-14 (137 runes) lane A: 0 cells at z_uni >= 4, best z 3.61 (primes); candidates after rank + bigram: 0  [390s]
+LP2-14 (137 runes) lane B: 50 cells at z_uni >= 4, best z 5.35 (self running key); candidates after rank + bigram + margin: 0  [468s]
+LP2-15 (159 runes) lane A: 2 cells at z_uni >= 4, best z 4.14 (self running key); candidates after rank + bigram: 0  [487s]
+LP2-15 (159 runes) lane B: 42 cells at z_uni >= 4, best z 4.56 (affine position); candidates after rank + bigram + margin: 0  [596s]
+LP2-53 (179 runes) lane A: 0 cells at z_uni >= 4, best z 3.68 (self running key); candidates after rank + bigram: 0  [612s]
+LP2-53 (179 runes) lane B: 3 cells at z_uni >= 4, best z 4.11 (primes-1 (totient)); candidates after rank + bigram + margin: 0  [702s]
+LP2-06 (196 runes) lane A: 1 cells at z_uni >= 4, best z 4.02 (primes-1 (totient)); candidates after rank + bigram: 0  [724s]
+LP2-06 (196 runes) lane B: 5 cells at z_uni >= 4, best z 4.32 (affine position); candidates after rank + bigram + margin: 0  [861s]
+| LP2-15 | 159 | B | 42 | 36.7 | 4.56 (affine position) | 0 |
+| LP2-53 | 179 | A | 0 | -38.3 | 3.68 (self running key) | 0 |
+| LP2-53 | 179 | B | 3 | 39.2 | 4.11 (primes-1 (totient)) | 0 |
+| LP2-06 | 196 | A | 1 | -48.9 | 4.02 (primes-1 (totient)) | 0 |
+| LP2-06 | 196 | B | 5 | 42.6 | 4.32 (affine position) | 0 |
+
+## Candidates meeting (1)-(4), for the readability check (5)
+
+None.
+
+Runtime 14 minutes.
+

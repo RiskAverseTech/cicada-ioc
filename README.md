@@ -10,7 +10,9 @@ the one survivor that was still breakable, a hard rule with nulls at unknown pos
 records an external review of 2026-10-27 and what it changed: the z ≥ 6 rule reaches 80 % power
 only at 92 runes under the soft rule and at 200 runes in the null lane, so exclusions on the 2 and 9
 pages shorter than that are inconclusive, not negative; the decoder's rejection bound was raised;
-two calibration statements were corrected. Nothing here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
+two calibration statements were corrected. §24 runs a pre-registered secondary rule on those nine
+pages (null; it covers the soft-rule lane down to 66 runes and the null lane down to 121, leaving
+three pages inconclusive for the null lane). Nothing here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
 was known to the community a decade ago; this repository's contribution is independent
 replication with controls, the exclusion of every key family anyone has named for it on the pages
 long enough for the detector to see a planted solution (§23), and the tooling to test the next one in
@@ -742,4 +744,45 @@ power lane 11 minutes, the consistency test under a minute.
 The reviewer's summary is the right one for the repository as a whole: a reproducible investigation
 with strong foundations, and no support for calling the key families exhausted or the missing
 material unpublished.
+
+## 24. Short-page lane: a secondary pre-registered rule for the pages the z ≥ 6 rule cannot see (`src/shortpage_lane.py`, `results/shortpage.md`)
+
+§23 left nine pages on which the main rule has under 80 % power. The correct key's rank within its
+family did not fall with page length in the power lane, so a second rule was written into the lane's
+docstring before any of the nine pages was scored. A cell counts as a candidate only if all of:
+(1) z_uni ≥ 4 over the page's own null of 2,000 random keystreams through the identical decoder;
+(2) the key leads its family: a hypothesis is one key, its z_uni the best of its six sign × F cells,
+and it must have the largest such z_uni among the family's keys on that page; (3) z_big ≥ 3, the
+bigram log-likelihood ratio of the decoded text against the bigram LLR of the random keystreams'
+decodes, a statistic the unigram decoder does not maximise; (4) for the null lane, the §22 margin of
+20 nats over the base decoder; (5) it reads as English to a human. Lane A is the soft rule with the
+base decoder, lane B the hard rule with 22 % nulls and the free-null decoder at −0.8; key library
+`families.ALLSETS`, 22,863 configurations, about 45,700 tests per page and lane.
+
+**One amendment, made after the controls and before any page result was read.** Rule (2) was first
+worded as rank among cells rather than keys. The controls failed that wording 16 times in 18 because
+the same key decoded under the other F variant, whose null is tighter, scored a slightly higher z
+than the planted cell: a key was outranked by itself. Ranking by key is looser, so the amendment can
+only add candidates; the three pages already scored under the stricter wording had none.
+
+**Controls: one plant per page length per lane** (66, 76, 92, 121, 131, 137, 159, 179, 196 runes;
+families, signs and F cycled). Lane A passes 7 of 9; its two misses (a self-running key at 121 and a
+Fibonacci stream at 137) lost rank (2) to the neighbouring offset of the same stream, which passed
+(1)–(4) in their place and reads as the same English, so the rule would have surfaced them. Lane B
+passes 5 of 9: the plants at 66, 76 and 92 runes fail on z_big or z_uni (22 % nulls on a short page
+leave too little text), and the Fibonacci plant at 137 lost rank to its neighbouring offset as in
+lane A. So this rule extends coverage to all nine pages for lane A and to the six pages of 121–196
+runes for lane B; **LP2-49, LP2-55 and LP2-51 stay inconclusive for the null lane.**
+
+**Result: null.** No page in either lane produces a single candidate meeting (1)–(4), so (5) was never
+reached. The chance load was real: lane B put 50 cells at z_uni ≥ 4 on LP2-14 and 42 on LP2-15,
+lane A at most 2 per page; every one failed rank, bigram or margin. Largest z_uni on a page: lane A
+4.79 (LP2-55, a reversed three-word phrase), lane B 5.35 (LP2-14, the self-running key the §22 sweep
+also ranked first there, gibberish). Per-page counts, null maxima and the full control table are in
+`results/shortpage.md`. Runtime 14 minutes.
+
+**Where the exclusions now stand.** Within this key library and these two mechanisms: the soft-rule
+exclusions of phases 3–9 hold on all 55 pages (z ≥ 6 on 53, the secondary rule on LP2-49 and
+LP2-55); the phase 10 null-lane exclusion holds on 52 pages and is inconclusive on LP2-49, LP2-55
+and LP2-51. Nothing here speaks to keys or mechanisms outside the library.
 
