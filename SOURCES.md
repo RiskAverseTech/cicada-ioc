@@ -88,3 +88,11 @@ Raw files in `data/corpus/raw/` are committed where public domain; Gibson's *Agr
 | rune_poem_wikisource.json | 8d8998cda226badf8c5378039ab54e16dd5afa0f6f2a6cae82f885a6d3707f4e | https://en.wikisource.org/wiki/Runic_and_Heroic_Poems_of_the_Old_Teutonic_Peoples/The_Runic_Poems/The_Anglo-Saxon_Runic_Poem (API action=parse) |
 
 Rune counts per text and both transliteration conventions: `data/corpus/CORPUS.md`.
+
+## Page images (fetched 2026-10-27; `src/image_lane.py`, README §26)
+
+scream314/cicada3301, `assets/2014/liber-primus-complete/00.jpg` … `74.jpg` (75 pages, 2400 × 3600)
+and their thumbnails, fetched from `https://raw.githubusercontent.com/scream314/cicada3301/master/<path>`
+(repository HEAD pushed 2023-06-06). Image NN is master-transcription chunk NN − 1; unsolved LP2-k is
+image 17 + k. The 54 MB of files are gitignored; `data/images/SHA256SUMS.txt` holds every file's
+SHA-256 and `data/images/filelist.tsv` the archive paths and sizes.

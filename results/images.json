@@ -1,0 +1,2197 @@
+{
+ "0": {
+  "image": 0,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 168876,
+  "trailing": 0,
+  "markers": "E0 DB DB C0 C4 C4 C4 C4",
+  "qhash": 36828,
+  "mode": "RGB",
+  "dpi": null,
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 11
+  }
+ },
+ "1": {
+  "image": 1,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 1476614,
+  "trailing": 0,
+  "markers": "E0 DB DB C0 C4 C4 C4 C4",
+  "qhash": 36828,
+  "mode": "RGB",
+  "dpi": null,
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0020631944444444443,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 209,
+   "rows": 13,
+   "gap_sd": 12.790718857393781,
+   "base_sd": 56.492461417566396,
+   "gap_kurt": 5.661863952320122,
+   "gap_bimodal_share": 0.4066666666666667
+  }
+ },
+ "2": {
+  "image": 2,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 175159,
+  "trailing": 0,
+  "markers": "E0 DB DB C0 C4 C4 C4 C4",
+  "qhash": 36828,
+  "mode": "RGB",
+  "dpi": null,
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 13
+  }
+ },
+ "3": {
+  "image": 3,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 892759,
+  "trailing": 0,
+  "markers": "E0 DB DB C0 C4 C4 C4 C4",
+  "qhash": 38403,
+  "mode": "RGB",
+  "dpi": null,
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0018881944444444445,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 269,
+   "rows": 16,
+   "gap_sd": 9.501684749083008,
+   "base_sd": 3.5830324198367665,
+   "gap_kurt": 4.421584872810018,
+   "gap_bimodal_share": 0.423728813559322
+  }
+ },
+ "4": {
+  "image": 4,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 1223337,
+  "trailing": 0,
+  "markers": "E0 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0018261574074074074,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 277,
+   "rows": 17,
+   "gap_sd": 10.09619481245005,
+   "base_sd": 3.543876551879931,
+   "gap_kurt": 5.44129999920486,
+   "gap_bimodal_share": 0.3975409836065574
+  }
+ },
+ "5": {
+  "image": 5,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 673066,
+  "trailing": 72700,
+  "markers": "E0 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.001171875,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 194,
+   "rows": 12,
+   "gap_sd": 22.499543247959103,
+   "base_sd": 7.476693241551029,
+   "gap_kurt": 8.047360029905642,
+   "gap_bimodal_share": 0.3941176470588235
+  }
+ },
+ "6": {
+  "image": 6,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 823807,
+  "trailing": 0,
+  "markers": "E0 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0006039351851851852,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 231,
+   "rows": 17,
+   "gap_sd": 11.14889445449962,
+   "base_sd": 11.885365774945887,
+   "gap_kurt": 11.229752703352164,
+   "gap_bimodal_share": 0.5024630541871922
+  }
+ },
+ "7": {
+  "image": 7,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 823514,
+  "trailing": 0,
+  "markers": "E0 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 241,
+   "rows": 16,
+   "gap_sd": 12.434426771500263,
+   "base_sd": 21.46167450181178,
+   "gap_kurt": 9.813488813847998,
+   "gap_bimodal_share": 0.4675925925925926
+  }
+ },
+ "8": {
+  "image": 8,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 638805,
+  "trailing": 0,
+  "markers": "E0 DB DB C0 C4 C4 C4 C4",
+  "qhash": 38403,
+  "mode": "RGB",
+  "dpi": null,
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 248,
+   "rows": 18,
+   "gap_sd": 11.030012145264458,
+   "base_sd": 13.660676171008102,
+   "gap_kurt": 9.50880054762381,
+   "gap_bimodal_share": 0.46846846846846846
+  }
+ },
+ "9": {
+  "image": 9,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 724577,
+  "trailing": 0,
+  "markers": "E0 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.001161574074074074,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 170,
+   "rows": 15,
+   "gap_sd": 10.300471459673318,
+   "base_sd": 22.334009134266918,
+   "gap_kurt": 4.748039129096954,
+   "gap_bimodal_share": 0.45985401459854014
+  }
+ },
+ "10": {
+  "image": 10,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 4240957,
+  "trailing": 0,
+  "markers": "E0 DB DB C0 C4 C4 C4 C4",
+  "qhash": 38403,
+  "mode": "RGB",
+  "dpi": null,
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0037063657407407405,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 186,
+   "rows": 10,
+   "gap_sd": 9.064266078410865,
+   "base_sd": 0.14625237106167144,
+   "gap_kurt": 13.845046519639602,
+   "gap_bimodal_share": 0.3505747126436782
+  }
+ },
+ "11": {
+  "image": 11,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 712733,
+  "trailing": 0,
+  "markers": "E0 DB DB C0 C4 C4 C4 C4",
+  "qhash": 38403,
+  "mode": "RGB",
+  "dpi": null,
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0018837962962962964,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 208,
+   "rows": 11,
+   "gap_sd": 9.210447083894163,
+   "base_sd": 0.20711063874614513,
+   "gap_kurt": 4.078693240139245,
+   "gap_bimodal_share": 0.39285714285714285
+  }
+ },
+ "12": {
+  "image": 12,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 703428,
+  "trailing": 0,
+  "markers": "E0 DB DB C0 C4 C4 C4 C4",
+  "qhash": 38403,
+  "mode": "RGB",
+  "dpi": null,
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0017943287037037038,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 189,
+   "rows": 10,
+   "gap_sd": 9.26383498445806,
+   "base_sd": 0.19111961939597533,
+   "gap_kurt": 9.885382357513677,
+   "gap_bimodal_share": 0.3463687150837989
+  }
+ },
+ "13": {
+  "image": 13,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 2070134,
+  "trailing": 0,
+  "markers": "E0 DB DB C0 C4 C4 C4 C4",
+  "qhash": 36828,
+  "mode": "RGB",
+  "dpi": null,
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0024572916666666667,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 182,
+   "rows": 10,
+   "gap_sd": 11.216744420964803,
+   "base_sd": 10.091317149000659,
+   "gap_kurt": 5.7858090727030405,
+   "gap_bimodal_share": 0.32075471698113206
+  }
+ },
+ "14": {
+  "image": 14,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 625668,
+  "trailing": 0,
+  "markers": "E0 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0005423611111111111,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 247,
+   "rows": 13,
+   "gap_sd": 10.703708628707853,
+   "base_sd": 11.441133675220048,
+   "gap_kurt": 7.010081443575229,
+   "gap_bimodal_share": 0.5462555066079295
+  }
+ },
+ "15": {
+  "image": 15,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 426945,
+  "trailing": 0,
+  "markers": "E0 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 8.4375e-05,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 124,
+   "rows": 10,
+   "gap_sd": 9.65008754393952,
+   "base_sd": 27.49064242348796,
+   "gap_kurt": 6.863636108804208,
+   "gap_bimodal_share": 0.5257731958762887
+  }
+ },
+ "16": {
+  "image": 16,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 485456,
+  "trailing": 0,
+  "markers": "E0 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.001480324074074074,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 181,
+   "rows": 12,
+   "gap_sd": 25.144530398259807,
+   "base_sd": 10.176096883660732,
+   "gap_kurt": 4.106841285684929,
+   "gap_bimodal_share": 0.5225806451612903
+  }
+ },
+ "17": {
+  "image": 17,
+  "group": "unsolved",
+  "page": "LP2-00",
+  "runes": 262,
+  "size": 695525,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0012346064814814815,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 276,
+   "rows": 14,
+   "gap_sd": 8.728442859212423,
+   "base_sd": 0.30035853333664064,
+   "gap_kurt": 3.5434521391376332,
+   "gap_bimodal_share": 0.41365461847389556
+  }
+ },
+ "18": {
+  "image": 18,
+  "group": "unsolved",
+  "page": "LP2-01",
+  "runes": 266,
+  "size": 667228,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 274,
+   "rows": 14,
+   "gap_sd": 10.451583612065686,
+   "base_sd": 0.22095557648995173,
+   "gap_kurt": 4.492646740356696,
+   "gap_bimodal_share": 0.468
+  }
+ },
+ "19": {
+  "image": 19,
+  "group": "unsolved",
+  "page": "LP2-02",
+  "runes": 201,
+  "size": 595338,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 8.599537037037037e-05,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 213,
+   "rows": 12,
+   "gap_sd": 7.823257707889859,
+   "base_sd": 9.372394706241984,
+   "gap_kurt": 7.680174196674413,
+   "gap_bimodal_share": 0.35233160621761656
+  }
+ },
+ "20": {
+  "image": 20,
+  "group": "unsolved",
+  "page": "LP2-03",
+  "runes": 217,
+  "size": 599916,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0018648148148148148,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 222,
+   "rows": 11,
+   "gap_sd": 8.47606196250906,
+   "base_sd": 0.1747492319033407,
+   "gap_kurt": 4.835415996518494,
+   "gap_bimodal_share": 0.35467980295566504
+  }
+ },
+ "21": {
+  "image": 21,
+  "group": "unsolved",
+  "page": "LP2-04",
+  "runes": 261,
+  "size": 676634,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 268,
+   "rows": 12,
+   "gap_sd": 9.467150785743302,
+   "base_sd": 3.119581513137377,
+   "gap_kurt": 5.379276905146895,
+   "gap_bimodal_share": 0.432
+  }
+ },
+ "22": {
+  "image": 22,
+  "group": "unsolved",
+  "page": "LP2-05",
+  "runes": 263,
+  "size": 667716,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 279,
+   "rows": 12,
+   "gap_sd": 9.356889775345406,
+   "base_sd": 0.3210637372983325,
+   "gap_kurt": 3.9760920390816477,
+   "gap_bimodal_share": 0.42570281124497994
+  }
+ },
+ "23": {
+  "image": 23,
+  "group": "unsolved",
+  "page": "LP2-06",
+  "runes": 196,
+  "size": 556991,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.001032523148148148,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 203,
+   "rows": 10,
+   "gap_sd": 9.516984059354694,
+   "base_sd": 5.075999901497241,
+   "gap_kurt": 7.1935554046455685,
+   "gap_bimodal_share": 0.375
+  }
+ },
+ "24": {
+  "image": 24,
+  "group": "unsolved",
+  "page": "LP2-07",
+  "runes": 208,
+  "size": 580968,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0010895833333333332,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 217,
+   "rows": 13,
+   "gap_sd": 8.921452139368542,
+   "base_sd": 4.930903846633904,
+   "gap_kurt": 4.586746008786705,
+   "gap_bimodal_share": 0.46733668341708545
+  }
+ },
+ "25": {
+  "image": 25,
+  "group": "unsolved",
+  "page": "LP2-08",
+  "runes": 255,
+  "size": 612380,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0009662037037037037,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 262,
+   "rows": 12,
+   "gap_sd": 9.557753304654845,
+   "base_sd": 0.2961645150315472,
+   "gap_kurt": 11.863521822053798,
+   "gap_bimodal_share": 0.3360995850622407
+  }
+ },
+ "26": {
+  "image": 26,
+  "group": "unsolved",
+  "page": "LP2-09",
+  "runes": 268,
+  "size": 639920,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 283,
+   "rows": 12,
+   "gap_sd": 8.791055329628733,
+   "base_sd": 0.30962613982762854,
+   "gap_kurt": 2.7068092500059056,
+   "gap_bimodal_share": 0.375
+  }
+ },
+ "27": {
+  "image": 27,
+  "group": "unsolved",
+  "page": "LP2-10",
+  "runes": 263,
+  "size": 618194,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 272,
+   "rows": 12,
+   "gap_sd": 8.757729731953887,
+   "base_sd": 0.31230530267051915,
+   "gap_kurt": 3.3214789392394195,
+   "gap_bimodal_share": 0.3968253968253968
+  }
+ },
+ "28": {
+  "image": 28,
+  "group": "unsolved",
+  "page": "LP2-11",
+  "runes": 273,
+  "size": 609111,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 272,
+   "rows": 12,
+   "gap_sd": 9.382320546792965,
+   "base_sd": 0.3338713039149287,
+   "gap_kurt": 7.289196290138172,
+   "gap_bimodal_share": 0.296875
+  }
+ },
+ "29": {
+  "image": 29,
+  "group": "unsolved",
+  "page": "LP2-12",
+  "runes": 261,
+  "size": 609412,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 266,
+   "rows": 12,
+   "gap_sd": 9.951731780480717,
+   "base_sd": 0.3692066199045674,
+   "gap_kurt": 4.038656482127969,
+   "gap_bimodal_share": 0.4024390243902439
+  }
+ },
+ "30": {
+  "image": 30,
+  "group": "unsolved",
+  "page": "LP2-13",
+  "runes": 272,
+  "size": 619368,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 281,
+   "rows": 12,
+   "gap_sd": 8.660756227905296,
+   "base_sd": 0.25289449116640383,
+   "gap_kurt": 4.112993536601522,
+   "gap_bimodal_share": 0.3590733590733591
+  }
+ },
+ "31": {
+  "image": 31,
+  "group": "unsolved",
+  "page": "LP2-14",
+  "runes": 137,
+  "size": 436699,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 8.194444444444445e-05,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 145,
+   "rows": 8,
+   "gap_sd": 9.301650931913732,
+   "base_sd": 0.21505364676669475,
+   "gap_kurt": 4.285323424121815,
+   "gap_bimodal_share": 0.4307692307692308
+  }
+ },
+ "32": {
+  "image": 32,
+  "group": "unsolved",
+  "page": "LP2-15",
+  "runes": 159,
+  "size": 512272,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0018447916666666667,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 226,
+   "rows": 12,
+   "gap_sd": 16.759683394306496,
+   "base_sd": 0.3778719611801428,
+   "gap_kurt": 8.21695082594249,
+   "gap_bimodal_share": 0.45933014354066987
+  }
+ },
+ "33": {
+  "image": 33,
+  "group": "unsolved",
+  "page": "LP2-16",
+  "runes": 267,
+  "size": 550563,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 272,
+   "rows": 12,
+   "gap_sd": 8.438410264870887,
+   "base_sd": 0.32484275541243746,
+   "gap_kurt": 4.361839296293432,
+   "gap_bimodal_share": 0.3794466403162055
+  }
+ },
+ "34": {
+  "image": 34,
+  "group": "unsolved",
+  "page": "LP2-17",
+  "runes": 273,
+  "size": 541530,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 279,
+   "rows": 12,
+   "gap_sd": 9.907559230077826,
+   "base_sd": 0.2824954909711546,
+   "gap_kurt": 4.452821561066799,
+   "gap_bimodal_share": 0.4280155642023346
+  }
+ },
+ "35": {
+  "image": 35,
+  "group": "unsolved",
+  "page": "LP2-18",
+  "runes": 260,
+  "size": 541718,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 265,
+   "rows": 12,
+   "gap_sd": 8.795633016218435,
+   "base_sd": 0.33785704582036813,
+   "gap_kurt": 4.877530250574673,
+   "gap_bimodal_share": 0.37398373983739835
+  }
+ },
+ "36": {
+  "image": 36,
+  "group": "unsolved",
+  "page": "LP2-19",
+  "runes": 271,
+  "size": 540260,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 275,
+   "rows": 12,
+   "gap_sd": 8.553400342110448,
+   "base_sd": 0.26161608361607197,
+   "gap_kurt": 4.334783715068671,
+   "gap_bimodal_share": 0.3449612403100775
+  }
+ },
+ "37": {
+  "image": 37,
+  "group": "unsolved",
+  "page": "LP2-20",
+  "runes": 269,
+  "size": 535883,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 275,
+   "rows": 12,
+   "gap_sd": 7.567576885332394,
+   "base_sd": 0.32775721714163636,
+   "gap_kurt": 0.6656859218914537,
+   "gap_bimodal_share": 0.3843137254901961
+  }
+ },
+ "38": {
+  "image": 38,
+  "group": "unsolved",
+  "page": "LP2-21",
+  "runes": 273,
+  "size": 550964,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 282,
+   "rows": 12,
+   "gap_sd": 8.179358671926769,
+   "base_sd": 3.0399834574481273,
+   "gap_kurt": 5.23320381391623,
+   "gap_bimodal_share": 0.36923076923076925
+  }
+ },
+ "39": {
+  "image": 39,
+  "group": "unsolved",
+  "page": "LP2-22",
+  "runes": 131,
+  "size": 512143,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.00012106481481481481,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 143,
+   "rows": 10,
+   "gap_sd": 10.209149286934288,
+   "base_sd": 8.553539821516052,
+   "gap_kurt": 7.688590289708529,
+   "gap_bimodal_share": 0.4108527131782946
+  }
+ },
+ "40": {
+  "image": 40,
+  "group": "unsolved",
+  "page": "LP2-23",
+  "runes": 213,
+  "size": 484095,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0012621527777777778,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 225,
+   "rows": 13,
+   "gap_sd": 8.502153495288434,
+   "base_sd": 0.2901979945365885,
+   "gap_kurt": 10.724185014247023,
+   "gap_bimodal_share": 0.3564356435643564
+  }
+ },
+ "41": {
+  "image": 41,
+  "group": "unsolved",
+  "page": "LP2-24",
+  "runes": 270,
+  "size": 654761,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 278,
+   "rows": 12,
+   "gap_sd": 9.7378785516417,
+   "base_sd": 0.3325928147687428,
+   "gap_kurt": 4.814935737292349,
+   "gap_bimodal_share": 0.3828125
+  }
+ },
+ "42": {
+  "image": 42,
+  "group": "unsolved",
+  "page": "LP2-25",
+  "runes": 273,
+  "size": 643754,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 280,
+   "rows": 12,
+   "gap_sd": 8.886333360196556,
+   "base_sd": 0.28392295591931127,
+   "gap_kurt": 4.943586708612647,
+   "gap_bimodal_share": 0.3745173745173745
+  }
+ },
+ "43": {
+  "image": 43,
+  "group": "unsolved",
+  "page": "LP2-26",
+  "runes": 265,
+  "size": 677224,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 8.136574074074074e-05,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 273,
+   "rows": 12,
+   "gap_sd": 8.733543913501489,
+   "base_sd": 0.29789927635673935,
+   "gap_kurt": 3.8065667058360333,
+   "gap_bimodal_share": 0.43824701195219123
+  }
+ },
+ "44": {
+  "image": 44,
+  "group": "unsolved",
+  "page": "LP2-27",
+  "runes": 234,
+  "size": 580041,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.00156875,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 239,
+   "rows": 11,
+   "gap_sd": 8.805400056849923,
+   "base_sd": 0.3194198273471517,
+   "gap_kurt": 3.9063330568257015,
+   "gap_bimodal_share": 0.365296803652968
+  }
+ },
+ "45": {
+  "image": 45,
+  "group": "unsolved",
+  "page": "LP2-28",
+  "runes": 269,
+  "size": 542267,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 275,
+   "rows": 12,
+   "gap_sd": 8.333281961918482,
+   "base_sd": 0.3019714835203883,
+   "gap_kurt": 4.812769710373169,
+   "gap_bimodal_share": 0.37890625
+  }
+ },
+ "46": {
+  "image": 46,
+  "group": "unsolved",
+  "page": "LP2-29",
+  "runes": 277,
+  "size": 546105,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 281,
+   "rows": 12,
+   "gap_sd": 9.671268446607918,
+   "base_sd": 0.33531366337556523,
+   "gap_kurt": 5.059970219635856,
+   "gap_bimodal_share": 0.3702290076335878
+  }
+ },
+ "47": {
+  "image": 47,
+  "group": "unsolved",
+  "page": "LP2-30",
+  "runes": 263,
+  "size": 539780,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 273,
+   "rows": 12,
+   "gap_sd": 9.734913664524253,
+   "base_sd": 0.3627298509355936,
+   "gap_kurt": 4.7988097919084645,
+   "gap_bimodal_share": 0.39357429718875503
+  }
+ },
+ "48": {
+  "image": 48,
+  "group": "unsolved",
+  "page": "LP2-31",
+  "runes": 269,
+  "size": 531046,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 275,
+   "rows": 12,
+   "gap_sd": 9.840074517648718,
+   "base_sd": 0.3490530282477515,
+   "gap_kurt": 5.1824912329639705,
+   "gap_bimodal_share": 0.40784313725490196
+  }
+ },
+ "49": {
+  "image": 49,
+  "group": "unsolved",
+  "page": "LP2-32",
+  "runes": 121,
+  "size": 362637,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 7.44212962962963e-05,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 124,
+   "rows": 7,
+   "gap_sd": 7.911437964215211,
+   "base_sd": 0.1773774327583043,
+   "gap_kurt": 9.01042837137362,
+   "gap_bimodal_share": 0.2782608695652174
+  }
+ },
+ "50": {
+  "image": 50,
+  "group": "unsolved",
+  "page": "LP2-33",
+  "runes": 214,
+  "size": 525652,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.001895023148148148,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 228,
+   "rows": 14,
+   "gap_sd": 8.6709726156506,
+   "base_sd": 4.776057961181741,
+   "gap_kurt": 2.7617803666240057,
+   "gap_bimodal_share": 0.3712871287128713
+  }
+ },
+ "51": {
+  "image": 51,
+  "group": "unsolved",
+  "page": "LP2-34",
+  "runes": 261,
+  "size": 555050,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 273,
+   "rows": 14,
+   "gap_sd": 9.483489653076024,
+   "base_sd": 4.381935419959009,
+   "gap_kurt": 5.583712234193692,
+   "gap_bimodal_share": 0.436
+  }
+ },
+ "52": {
+  "image": 52,
+  "group": "unsolved",
+  "page": "LP2-35",
+  "runes": 271,
+  "size": 574580,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 287,
+   "rows": 14,
+   "gap_sd": 8.57738443050322,
+   "base_sd": 5.228320737159208,
+   "gap_kurt": 3.582043258961659,
+   "gap_bimodal_share": 0.38461538461538464
+  }
+ },
+ "53": {
+  "image": 53,
+  "group": "unsolved",
+  "page": "LP2-36",
+  "runes": 238,
+  "size": 511099,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 9.837962962962963e-05,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 260,
+   "rows": 13,
+   "gap_sd": 8.29647475640967,
+   "base_sd": 4.48589871223491,
+   "gap_kurt": 1.0302667632909142,
+   "gap_bimodal_share": 0.3652173913043478
+  }
+ },
+ "54": {
+  "image": 54,
+  "group": "unsolved",
+  "page": "LP2-37",
+  "runes": 228,
+  "size": 503830,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.00016331018518518517,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 245,
+   "rows": 13,
+   "gap_sd": 8.196703630925247,
+   "base_sd": 4.625918169687247,
+   "gap_kurt": 2.183452277771802,
+   "gap_bimodal_share": 0.35909090909090907
+  }
+ },
+ "55": {
+  "image": 55,
+  "group": "unsolved",
+  "page": "LP2-38",
+  "runes": 228,
+  "size": 519224,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.00012060185185185185,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 242,
+   "rows": 13,
+   "gap_sd": 8.135006511894957,
+   "base_sd": 4.654369308109693,
+   "gap_kurt": 3.080643678554722,
+   "gap_bimodal_share": 0.3761467889908257
+  }
+ },
+ "56": {
+  "image": 56,
+  "group": "unsolved",
+  "page": "LP2-39",
+  "runes": 240,
+  "size": 541379,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0007379629629629629,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 256,
+   "rows": 14,
+   "gap_sd": 8.38518917917796,
+   "base_sd": 4.926642419269713,
+   "gap_kurt": 4.154527178846408,
+   "gap_bimodal_share": 0.3624454148471616
+  }
+ },
+ "57": {
+  "image": 57,
+  "group": "unsolved",
+  "page": "LP2-40",
+  "runes": 231,
+  "size": 746355,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0007693287037037037,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 244,
+   "rows": 11,
+   "gap_sd": 11.107378039554622,
+   "base_sd": 9.074961603815353,
+   "gap_kurt": 8.828354785118211,
+   "gap_bimodal_share": 0.4666666666666667
+  }
+ },
+ "58": {
+  "image": 58,
+  "group": "unsolved",
+  "page": "LP2-41",
+  "runes": 273,
+  "size": 785555,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 284,
+   "rows": 12,
+   "gap_sd": 9.66567750476364,
+   "base_sd": 3.0926559667035747,
+   "gap_kurt": 4.49215070529085,
+   "gap_bimodal_share": 0.3861003861003861
+  }
+ },
+ "59": {
+  "image": 59,
+  "group": "unsolved",
+  "page": "LP2-42",
+  "runes": 272,
+  "size": 788795,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 286,
+   "rows": 12,
+   "gap_sd": 9.452830162332418,
+   "base_sd": 7.304435986102197,
+   "gap_kurt": 12.045392000313072,
+   "gap_bimodal_share": 0.33458646616541354
+  }
+ },
+ "60": {
+  "image": 60,
+  "group": "unsolved",
+  "page": "LP2-43",
+  "runes": 274,
+  "size": 792166,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 284,
+   "rows": 12,
+   "gap_sd": 9.396739410417375,
+   "base_sd": 4.266472447515353,
+   "gap_kurt": 6.0513913180034,
+   "gap_bimodal_share": 0.3446969696969697
+  }
+ },
+ "61": {
+  "image": 61,
+  "group": "unsolved",
+  "page": "LP2-44",
+  "runes": 273,
+  "size": 796475,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 286,
+   "rows": 12,
+   "gap_sd": 8.829084702639937,
+   "base_sd": 0.286393306010143,
+   "gap_kurt": 4.787371975355306,
+   "gap_bimodal_share": 0.38461538461538464
+  }
+ },
+ "62": {
+  "image": 62,
+  "group": "unsolved",
+  "page": "LP2-45",
+  "runes": 270,
+  "size": 772704,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 278,
+   "rows": 12,
+   "gap_sd": 8.703742227802696,
+   "base_sd": 0.2919879694040386,
+   "gap_kurt": 5.036533908536093,
+   "gap_bimodal_share": 0.36964980544747084
+  }
+ },
+ "63": {
+  "image": 63,
+  "group": "unsolved",
+  "page": "LP2-46",
+  "runes": 270,
+  "size": 782516,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 278,
+   "rows": 12,
+   "gap_sd": 8.686848205106251,
+   "base_sd": 0.39142575202967983,
+   "gap_kurt": 3.59275036812188,
+   "gap_bimodal_share": 0.41245136186770426
+  }
+ },
+ "64": {
+  "image": 64,
+  "group": "unsolved",
+  "page": "LP2-47",
+  "runes": 274,
+  "size": 792027,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 283,
+   "rows": 12,
+   "gap_sd": 8.895850424967819,
+   "base_sd": 0.3467581745681158,
+   "gap_kurt": 5.207382996114884,
+   "gap_bimodal_share": 0.32950191570881227
+  }
+ },
+ "65": {
+  "image": 65,
+  "group": "unsolved",
+  "page": "LP2-48",
+  "runes": 271,
+  "size": 803285,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 277,
+   "rows": 12,
+   "gap_sd": 10.499498015799551,
+   "base_sd": 0.33544880809580746,
+   "gap_kurt": 4.707492383082986,
+   "gap_bimodal_share": 0.3852140077821012
+  }
+ },
+ "66": {
+  "image": 66,
+  "group": "unsolved",
+  "page": "LP2-49",
+  "runes": 66,
+  "size": 651504,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 6.724537037037037e-05,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 228,
+   "rows": 13,
+   "gap_sd": 12.49296612696065,
+   "base_sd": 3.495071938419084,
+   "gap_kurt": -0.5054521694979113,
+   "gap_bimodal_share": 0.7605633802816901
+  }
+ },
+ "67": {
+  "image": 67,
+  "group": "unsolved",
+  "page": "LP2-50",
+  "runes": 0,
+  "size": 581983,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 208,
+   "rows": 13,
+   "gap_sd": 13.406736803412542,
+   "base_sd": 4.739077679097559,
+   "gap_kurt": -1.2717177094336083,
+   "gap_bimodal_share": 0.9128205128205128
+  }
+ },
+ "68": {
+  "image": 68,
+  "group": "unsolved",
+  "page": "LP2-51",
+  "runes": 92,
+  "size": 661727,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 238,
+   "rows": 13,
+   "gap_sd": 12.468907031551739,
+   "base_sd": 3.6900900196065596,
+   "gap_kurt": -0.26978192870075635,
+   "gap_bimodal_share": 0.6621621621621622
+  }
+ },
+ "69": {
+  "image": 69,
+  "group": "unsolved",
+  "page": "LP2-52",
+  "runes": 263,
+  "size": 792979,
+  "trailing": 0,
+  "markers": "E0 E2 DB C0 C4 C4",
+  "qhash": 64268,
+  "mode": "L",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": null,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 274,
+   "rows": 12,
+   "gap_sd": 9.666625788485385,
+   "base_sd": 0.295327420790422,
+   "gap_kurt": 4.095690854793692,
+   "gap_bimodal_share": 0.41767068273092367
+  }
+ },
+ "70": {
+  "image": 70,
+  "group": "unsolved",
+  "page": "LP2-53",
+  "runes": 179,
+  "size": 753790,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.003308564814814815,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 205,
+   "rows": 11,
+   "gap_sd": 9.469380685096192,
+   "base_sd": 12.031724761854592,
+   "gap_kurt": 7.834749497551261,
+   "gap_bimodal_share": 0.38202247191011235
+  }
+ },
+ "71": {
+  "image": 71,
+  "group": "unsolved",
+  "page": "LP2-54",
+  "runes": 232,
+  "size": 774295,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0009336805555555555,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 242,
+   "rows": 11,
+   "gap_sd": 8.542933622359069,
+   "base_sd": 0.26238855977500075,
+   "gap_kurt": 3.3660036800497997,
+   "gap_bimodal_share": 0.42272727272727273
+  }
+ },
+ "72": {
+  "image": 72,
+  "group": "unsolved",
+  "page": "LP2-55",
+  "runes": 76,
+  "size": 614928,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 8.020833333333334e-05,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 92,
+   "rows": 6,
+   "gap_sd": 8.089302039065197,
+   "base_sd": 14.108628648745006,
+   "gap_kurt": 2.4853010924230867,
+   "gap_bimodal_share": 0.42105263157894735
+  }
+ },
+ "73": {
+  "image": 73,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 389813,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.0007402777777777777,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 220,
+   "rows": 14,
+   "gap_sd": 7.527373826888922,
+   "base_sd": 0.3891441983879422,
+   "gap_kurt": 4.496211211734169,
+   "gap_bimodal_share": 0.4405940594059406
+  }
+ },
+ "74": {
+  "image": 74,
+  "group": "control",
+  "page": null,
+  "runes": null,
+  "size": 318076,
+  "trailing": 0,
+  "markers": "E0 E2 DB DB C0 C4 C4 C4 C4",
+  "qhash": 11826,
+  "mode": "RGB",
+  "dpi": [
+   400,
+   400
+  ],
+  "dims": [
+   2400,
+   3600
+  ],
+  "chroma": 0.001004861111111111,
+  "lsb_p": 1e-300,
+  "geom": {
+   "n": 99,
+   "rows": 9,
+   "gap_sd": 10.002060826096082,
+   "base_sd": 0.0,
+   "gap_kurt": 7.011587245546538,
+   "gap_bimodal_share": 0.26436781609195403
+  }
+ },
+ "flags": [],
+ "summary": [
+  [
+   "chroma share",
+   19,
+   0.0011794164230019494,
+   0.0009843210074911418,
+   33,
+   0.0005903794893378228,
+   0.0007937734428676564
+  ],
+  [
+   "LSB log10 p",
+   19,
+   -300.0,
+   0.0,
+   56,
+   -300.0,
+   0.0
+  ],
+  [
+   "gap sd (px)",
+   17,
+   11.857941193496687,
+   4.560756642046656,
+   56,
+   9.371992845481111,
+   1.489644035069292
+  ],
+  [
+   "baseline sd (px)",
+   17,
+   11.798270951283996,
+   13.902755183760101,
+   56,
+   2.4866707678004856,
+   3.2715293216844334
+  ],
+  [
+   "gap kurtosis",
+   17,
+   7.173851678441306,
+   2.749010563302902,
+   56,
+   4.804586802027379,
+   2.6186161122281977
+  ],
+  [
+   "glyph count",
+   19,
+   184.1578947368421,
+   73.3508247418167,
+   56,
+   250.91071428571428,
+   42.39325956602834
+  ]
+ ]
+}
