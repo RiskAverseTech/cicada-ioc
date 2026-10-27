@@ -1,17 +1,20 @@
 # Short-page lane: z >= 4, rank first within family, bigram z >= 3, readable
 
-Pages below the §23 power threshold, scored with a secondary rule fixed before scoring (module docstring). 200 random-keystream nulls per cell; decoder max_skip 4; lane B prior -0.8.
+Pages below the §23 power threshold, scored with a secondary rule fixed before scoring (module docstring; rule (2) was re-worded after the controls and before any page result was read, see docstring). 200 random-keystream nulls per cell; decoder max_skip 4; lane B prior -0.8. A hypothesis is a key; its z_uni is the best of its six sign x F cells.
 
 ## Controls (one plant per page length per lane)
 
 | lane | length | family | sign | F | key | z_uni | z_big | passes (1)-(4) | other cells passing |
 |---|---|---|---|---|---|---|---|---|---|
-| A | 66 | vigenere-word | sub | False | GAIN | 5.2 | 12.4 | no | 1 |
-| B | 66 | vigenere-word | sub | False | MORE | 4.6 | 5.6 | yes | 0 |
+| A | 66 | vigenere-word | sub | False | GAIN | 5.5 | 12.4 | yes | 1 |
+| B | 66 | vigenere-word | sub | False | MORE | 4.6 | 6.0 | yes | 1 |
 
-Lane A: 0 of 1 controls pass (1)-(4).
+### Controls passing (1)-(4), by lane and page length
 
-Lane B: 1 of 1 controls pass (1)-(4).
+| lane | 66 | all |
+|---|---|---|
+| A | 1/1 | 1/1 |
+| B | 1/1 | 1/1 |
 
 ## Pages
 

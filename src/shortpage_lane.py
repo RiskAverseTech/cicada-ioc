@@ -13,6 +13,12 @@ threshold a cell (page x sign x F variant x key) counts as a candidate only if A
       (a tighter null) scored a slightly higher z than the planted cell, i.e. a key was outranked by
       itself.  Three pages had been scored under the stricter wording with no candidate; ranking by
       key is looser, so the amendment can only add candidates, never remove one.
+      SECOND AMENDMENT (after a second external review of commit 2b2456f, before this rerun): the
+      first implementation also required the candidate cell to be the key's highest-z_uni cell, so a
+      key whose best-unigram cell failed the bigram test while another of its cells passed both was
+      discarded.  Now any cell of the family-leading key may satisfy (1), (3) and (4).  Also looser;
+      the whole lane was rerun.  Controls were raised from one to CTRL_REPS (default 5) plants per
+      page length and lane in the same rerun, so the pass rates are estimates, not feasibility.
   (3) z_big >= 3: the bigram log-likelihood ratio of the decoded text is at least 3 sigma above the
       bigram LLR of the decodes the same 2,000 random keystreams produced (a statistic the unigram
       decoder did not maximise);
@@ -35,6 +41,7 @@ from skip_decrypt import encrypt, combine
 import families as F
 
 SMOKE = os.environ.get("SMOKE") == "1"
+CTRL_REPS = 1 if SMOKE else int(os.environ.get("CTRL_REPS", 5))
 rng = np.random.default_rng(4049)
 lu, lb, plain, pages = F.lu, F.lb, F.plain, dict(F.pages)
 PAGE_IDS = ["LP2-49", "LP2-55", "LP2-51", "LP2-32", "LP2-22", "LP2-14", "LP2-15", "LP2-53", "LP2-06"]
@@ -96,8 +103,8 @@ def apply_rule(C, rows, lane):
     out = []
     for r in rows:
         kid = (r["fam"], r["ki"])
-        # (1) z_uni, (3) z_big, (2) the key leads its family and this row is the key's best cell
-        if r["zu"] < Z_UNI or r["zb"] < Z_BIG or key_best[kid] < fam_best[r["fam"]] - 1e-9 or r["zu"] < key_best[kid] - 1e-9: continue
+        # (1) z_uni, (3) z_big, (2) the key leads its family; any cell of that key may be the candidate
+        if r["zu"] < Z_UNI or r["zb"] < Z_BIG or key_best[kid] < fam_best[r["fam"]] - 1e-9: continue
         if lane == "B":
             sign, mode, Ks, labs = SETS[r["set"]]
             base = float(decode(C, Ks[r["ki"]:r["ki"] + 1], lu, r["F"], mode)[0][0]); r["free_minus_base"] = r["sc"] - base
@@ -140,7 +147,9 @@ report = {"rule": dict(z_uni=Z_UNI, z_big=Z_BIG, margin_nats=MARGIN, nulls=NREPS
 
 # ---------- controls ----------
 for lane in ("A", "B"):
-    for ci, n in enumerate(lengths if not SMOKE else lengths[:1]):
+    for li, n in enumerate(lengths if not SMOKE else lengths[:1]):
+      for r_ in range(CTRL_REPS):
+        ci = li * CTRL_REPS + r_
         fam_best, key_best = {}, {}
         C, truth = plant(n, lane, ci)
         rows, nulls = score_page(C, lane, only_family=truth["fam"], record_all=True)
@@ -175,9 +184,11 @@ out = [f"# Short-page lane: z >= {Z_UNI:.0f}, rank first within family, bigram z
        "## Controls (one plant per page length per lane)", "", "| lane | length | family | sign | F | key | z_uni | z_big | passes (1)-(4) | other cells passing |", "|---|---|---|---|---|---|---|---|---|---|"]
 for c in report["controls"]:
     out.append(f"| {c['lane']} | {c['n']} | {c['fam']} | {c['sign']} | {c['F']} | {c['key']} | {c['zu']:.1f} | {c['zb']:.1f} | {'yes' if c['passed'] else 'no'} | {c['other_hits']} |")
+out += ["", "### Controls passing (1)-(4), by lane and page length", "", "| lane | " + " | ".join(str(n) for n in lengths) + " | all |", "|---|" + "---|" * (len(lengths) + 1)]
 for lane in ("A", "B"):
     cs = [c for c in report["controls"] if c["lane"] == lane]
-    out.append(f"\nLane {lane}: {sum(c['passed'] for c in cs)} of {len(cs)} controls pass (1)-(4).")
+    cells = [f"{sum(c['passed'] for c in cs if c['n'] == n)}/{sum(1 for c in cs if c['n'] == n)}" for n in lengths]
+    out.append(f"| {lane} | " + " | ".join(cells) + f" | {sum(c['passed'] for c in cs)}/{len(cs)} |")
 out += ["", "## Pages", "", "| page | runes | lane | cells at z_uni >= 4 | null max | best z_uni (family) | candidates after (1)-(4) |", "|---|---|---|---|---|---|---|"]
 for k, v in report["pages"].items():
     pid, lane = k.split("|"); b = v["best"]

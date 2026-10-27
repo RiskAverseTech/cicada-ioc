@@ -11,8 +11,9 @@ records an external review of 2026-10-27 and what it changed: the z ≥ 6 rule r
 only at 92 runes under the soft rule and at 200 runes in the null lane, so exclusions on the 2 and 9
 pages shorter than that are inconclusive, not negative; the decoder's rejection bound was raised;
 two calibration statements were corrected. §24 runs a pre-registered secondary rule on those nine
-pages (null; it covers the soft-rule lane down to 66 runes and the null lane down to 121, leaving
-three pages inconclusive for the null lane). Nothing here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
+pages over the phase 3–4 key library (null; it sees a planted soft-rule solution about nine times in
+ten at these lengths and a null-lane one about two times in three, under half at 66–76 runes; the
+phase 6–9 mechanisms were not carried to those pages). Nothing here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
 was known to the community a decade ago; this repository's contribution is independent
 replication with controls, the exclusion of every key family anyone has named for it on the pages
 long enough for the detector to see a planted solution (§23), and the tooling to test the next one in
@@ -273,15 +274,18 @@ single-pair detection stays weak; the pooled test is where the power is.
 the observed maximum 4.96 sits inside the null range 4.57–5.47, and the pooled z at offset 0 is
 −2.31 against a null of −1.75 ± 0.81. If every page shared one keystream the pooled z would be
 about 135; if 13 of the 55 pages did, about 7, since shared pairs scale with the square of the
-page fraction (78 of 1,485 pairs; "about 34" stood here until 2026-10-27 and was wrong). A cluster
-of seven or fewer pages sharing a stream falls below two sigma pooled and below five sigma per pair,
-so small clusters are not excluded. **Null for large-scale reuse, with a stronger detector than phase 1.**
+page fraction (78 of 1,485 pairs; "about 34" stood here until 2026-10-27 and was wrong). Those are
+expected values, not detection guarantees: a cluster of 8 pages gives an expected 2.6 sigma pooled
+and 11 pages about 5, so clusters below roughly a dozen pages are not reliably detected, and no
+cluster-size boundary has been established by simulation (planted-cluster runs have not been done).
+**Null for large-scale aligned reuse, with a stronger detector than phase 1.**
 
 ## 7. What the data supports (phase 2 conclusion)
 
-The unsolved pages of the Liber Primus do not share a keystream across any subset of about eight
-pages or more at any alignment within 200 runes (smaller clusters are below the pooled test's
-sensitivity, §6), and no page restarts a short-period generator, now tested with a
+The unsolved pages of the Liber Primus show no detected large-scale aligned keystream reuse at any
+alignment within 200 runes (a cluster of about a dozen pages would be expected to reach five sigma
+pooled; smaller clusters are not reliably detectable and no boundary has been established by
+simulation, §6), and no page restarts a short-period generator, now tested with a
 detector 1.9× stronger than before. Their one departure from randomness, 86 doubled runes
 where 445 are expected, is a property of the cipher: the plaintext, the transcription and the
 book's own known ciphers all sit at the normal rate. Of twenty candidate constructions, the only
@@ -727,8 +731,9 @@ pairs' sigmas carry a small bias; the table now extends to 300 and the scan has 
 "a quarter of the pages sharing a stream gives a quarter of the pooled signal" was wrong, since
 shared pairs scale with the square of the page fraction: 13 of 55 pages is 78 of 1,485 pairs, about
 7 sigma pooled rather than 34, and a cluster of seven or fewer pages is below two sigma pooled and
-below five sigma per pair. Phase 2's conclusion now says no reuse across subsets of about eight pages
-or more; smaller clusters are not excluded by any test here.
+below five sigma per pair, and these are expected values rather than detection guarantees. Phase 2's
+conclusion now says no detected large-scale aligned reuse; a cluster-size boundary would need
+planted-cluster simulations, which have not been run (second review, 2026-10-27).
 
 **5. "Independent key" overstated (medium).** The doublets note said an independent key hits a doublet
 one time in 29 "whatever it does". That needs the key's successive differences to be uniform, not
@@ -756,33 +761,43 @@ and it must have the largest such z_uni among the family's keys on that page; (3
 bigram log-likelihood ratio of the decoded text against the bigram LLR of the random keystreams'
 decodes, a statistic the unigram decoder does not maximise; (4) for the null lane, the §22 margin of
 20 nats over the base decoder; (5) it reads as English to a human. Lane A is the soft rule with the
-base decoder, lane B the hard rule with 22 % nulls and the free-null decoder at −0.8; key library
-`families.ALLSETS`, 22,863 configurations, about 45,700 tests per page and lane.
+base decoder, lane B the hard rule with 22 % nulls and the free-null decoder at −0.8. Key library:
+`families.ALLSETS` only, the phase 3 book streams and phase 4 phrase keys, 22,863 configurations,
+about 45,700 tests per page and lane. The mechanisms of phases 6–9 (word-edge events, skip-by-two,
+LCG and feedback families, cumulative-Gematria offsets) are not in this lane.
 
-**One amendment, made after the controls and before any page result was read.** Rule (2) was first
-worded as rank among cells rather than keys. The controls failed that wording 16 times in 18 because
-the same key decoded under the other F variant, whose null is tighter, scored a slightly higher z
-than the planted cell: a key was outranked by itself. Ranking by key is looser, so the amendment can
-only add candidates; the three pages already scored under the stricter wording had none.
+**Two amendments, both recorded in the docstring, both looser than the wording they replaced.** Rule
+(2) was first written as rank among cells; the controls failed it 16 times in 18 because the same
+key decoded under the other F variant, whose null is tighter, outscored the planted cell, so it was
+changed to rank among keys before any page result was read. A second external review of commit
+2b2456f then found that the implementation still required the candidate to be the key's
+highest-z_uni cell, so a key whose best-unigram cell failed the bigram test while another cell passed
+both was dropped; any cell of the leading key may now pass, and the whole lane was rerun with
+controls raised from one to five plants per page length and lane.
 
-**Controls: one plant per page length per lane** (66, 76, 92, 121, 131, 137, 159, 179, 196 runes;
-families, signs and F cycled). Lane A passes 7 of 9; its two misses (a self-running key at 121 and a
-Fibonacci stream at 137) lost rank (2) to the neighbouring offset of the same stream, which passed
-(1)–(4) in their place and reads as the same English, so the rule would have surfaced them. Lane B
-passes 5 of 9: the plants at 66, 76 and 92 runes fail on z_big or z_uni (22 % nulls on a short page
-leave too little text), and the Fibonacci plant at 137 lost rank to its neighbouring offset as in
-lane A. So this rule extends coverage to all nine pages for lane A and to the six pages of 121–196
-runes for lane B; **LP2-49, LP2-55 and LP2-51 stay inconclusive for the null lane.**
+**Controls, five plants per length per lane** (66, 76, 92, 121, 131, 137, 159, 179, 196 runes;
+nine families, signs and F variants cycled; `results/shortpage.md` has every plant):
 
-**Result: null.** No page in either lane produces a single candidate meeting (1)–(4), so (5) was never
-reached. The chance load was real: lane B put 50 cells at z_uni ≥ 4 on LP2-14 and 42 on LP2-15,
-lane A at most 2 per page; every one failed rank, bigram or margin. Largest z_uni on a page: lane A
-4.79 (LP2-55, a reversed three-word phrase), lane B 5.35 (LP2-14, the self-running key the §22 sweep
-also ranked first there, gibberish). Per-page counts, null maxima and the full control table are in
-`results/shortpage.md`. Runtime 14 minutes.
+| lane | 66 | 76 | 92 | 121 | 131 | 137 | 159 | 179 | 196 | all |
+|---|---|---|---|---|---|---|---|---|---|---|
+| A (soft rule) | 4/5 | 5/5 | 4/5 | 5/5 | 4/5 | 5/5 | 4/5 | 4/5 | 4/5 | 39/45 |
+| B (hard rule + nulls) | 2/5 | 2/5 | 4/5 | 4/5 | 2/5 | 5/5 | 5/5 | 4/5 | 3/5 | 31/45 |
 
-**Where the exclusions now stand.** Within this key library and these two mechanisms: the soft-rule
-exclusions of phases 3–9 hold on all 55 pages (z ≥ 6 on 53, the secondary rule on LP2-49 and
-LP2-55); the phase 10 null-lane exclusion holds on 52 pages and is inconclusive on LP2-49, LP2-55
-and LP2-51. Nothing here speaks to keys or mechanisms outside the library.
+All six lane A misses are self-running-key or primes+1 plants at z_uni 6–12 that lost rank (2) to
+the neighbouring offset of the same stream, which passed (1)–(4) in their place; the rule finds the
+stream and not always the exact offset. In lane B, 6 of the 14 misses are the same neighbour effect
+and 8 are genuine power limits (z_uni or z_big below threshold, all but one at 66–92 runes). So on
+these lengths the rule sees a planted soft-rule solution from this library about nine times in ten,
+and a planted null-lane solution about two times in three, falling to under half at 66–76 runes.
 
+**Result: null.** No page in either lane produces a candidate meeting (1)–(4), so (5) was never
+reached. The chance load was real: 128 cells at z_uni ≥ 4 across the nine pages, 48 of them on LP2-14
+and 42 on LP2-15 in lane B; every one failed rank, bigram or margin. Largest z_uni on a page: lane A
+4.71 (LP2-55, a reversed three-word phrase), lane B 5.41 (LP2-14, the self-running key the §22 sweep
+also ranked first there, gibberish). Runtime 23 minutes.
+
+**What this adds, and no more.** It is a further negative search over the phase 3–4 library on the
+nine short pages under two mechanisms, with the detection rates above. It does not carry the
+phase 6–9 mechanisms to those pages, which remain inconclusive there as §23 states; it does not make
+the null lane conclusive at 66–92 runes, where the rule sees a plant less than half the time; and
+with five plants per cell the rates are estimates with wide intervals, not power curves.
