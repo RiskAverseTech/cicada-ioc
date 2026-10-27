@@ -1,0 +1,70 @@
+92 keys x 6 cells x 55 pages = 30,360 tests
+  control ('N value mod 29', 'A3301 rows') n=262 sub F=False: z_uni 11.9 z_5 54.1 rank 1 -> PASS
+  control ('W phrase', 'row order') n=137 add F=False: z_uni 7.9 z_5 39.0 rank 1 -> PASS
+  control ('N value mod 29', 'B1033 cols') n=92 beaufort F=False: z_uni 7.0 z_5 40.1 rank 1 -> PASS
+  control ('P prime offset', 'p[n+130]') n=262 sub F=True: z_uni 13.3 z_5 48.1 rank 1 -> PASS
+  control ('P prime offset', 'p[n+204]') n=137 add F=True: z_uni 9.3 z_5 37.5 rank 1 -> PASS
+  control ('W word', 'FORM') n=262 beaufort F=True: z_uni 15.5 z_5 38.4 rank 1 -> PASS
+  control ('N value mod 29', 'A3301 cols') n=92 sub F=False: z_uni 6.4 z_5 35.9 rank 1 -> PASS
+  control ('W phrase', 'row order reversed') n=137 add F=False: z_uni 8.3 z_5 42.4 rank 1 -> PASS
+  LP2-00: best z_uni 2.72, best z_5 1.25  [14s]
+  LP2-01: best z_uni 2.94, best z_5 2.06  [19s]
+  LP2-02: best z_uni 3.21, best z_5 2.42  [21s]
+  LP2-03: best z_uni 2.80, best z_5 0.91  [25s]
+  LP2-04: best z_uni 3.21, best z_5 1.30  [28s]
+  LP2-05: best z_uni 2.85, best z_5 1.21  [32s]
+  LP2-06: best z_uni 2.58, best z_5 1.21  [35s]
+  LP2-07: best z_uni 2.60, best z_5 1.26  [37s]
+  LP2-08: best z_uni 3.29, best z_5 1.89  [44s]
+  LP2-09: best z_uni 3.11, best z_5 2.00  [51s]
+  LP2-10: best z_uni 3.04, best z_5 2.13  [57s]
+  LP2-11: best z_uni 2.96, best z_5 1.58  [62s]
+  LP2-12: best z_uni 2.72, best z_5 1.49  [68s]
+  LP2-13: best z_uni 3.60, best z_5 1.30  [73s]
+  LP2-14: best z_uni 2.53, best z_5 2.17  [75s]
+  LP2-15: best z_uni 2.48, best z_5 0.89  [78s]
+  LP2-16: best z_uni 2.36, best z_5 1.89  [85s]
+  LP2-17: best z_uni 2.98, best z_5 2.22  [91s]
+  LP2-18: best z_uni 2.48, best z_5 2.61  [95s]
+  LP2-19: best z_uni 2.52, best z_5 1.01  [100s]
+  LP2-20: best z_uni 3.05, best z_5 0.29  [104s]
+  LP2-21: best z_uni 2.79, best z_5 1.44  [109s]
+  LP2-22: best z_uni 3.08, best z_5 1.21  [111s]
+  LP2-23: best z_uni 3.20, best z_5 1.21  [115s]
+  LP2-24: best z_uni 3.16, best z_5 0.68  [120s]
+  LP2-25: best z_uni 3.37, best z_5 1.32  [125s]
+  LP2-26: best z_uni 2.70, best z_5 1.07  [130s]
+  LP2-27: best z_uni 2.51, best z_5 1.55  [134s]
+  LP2-28: best z_uni 2.92, best z_5 1.63  [139s]
+  LP2-29: best z_uni 3.53, best z_5 2.06  [143s]
+  LP2-30: best z_uni 2.56, best z_5 1.02  [148s]
+  LP2-31: best z_uni 3.30, best z_5 1.71  [154s]
+  LP2-32: best z_uni 2.87, best z_5 0.93  [156s]
+  LP2-33: best z_uni 2.91, best z_5 1.30  [160s]
+  LP2-34: best z_uni 2.60, best z_5 1.80  [164s]
+  LP2-35: best z_uni 2.61, best z_5 0.11  [170s]
+  LP2-36: best z_uni 2.63, best z_5 0.74  [175s]
+  LP2-37: best z_uni 2.93, best z_5 1.41  [181s]
+  LP2-38: best z_uni 2.69, best z_5 1.65  [184s]
+  LP2-39: best z_uni 3.11, best z_5 0.56  [189s]
+  LP2-40: best z_uni 2.44, best z_5 1.24  [193s]
+  LP2-41: best z_uni 2.08, best z_5 0.99  [198s]
+  LP2-42: best z_uni 2.62, best z_5 0.92  [204s]
+  LP2-43: best z_uni 2.88, best z_5 1.53  [210s]
+  LP2-44: best z_uni 2.39, best z_5 1.38  [217s]
+  LP2-45: best z_uni 3.18, best z_5 1.90  [222s]
+  LP2-46: best z_uni 3.14, best z_5 2.20  [229s]
+  LP2-47: best z_uni 2.53, best z_5 0.71  [234s]
+  LP2-48: best z_uni 2.82, best z_5 1.10  [241s]
+  LP2-49: best z_uni 3.11, best z_5 2.17  [242s]
+  LP2-51: best z_uni 3.06, best z_5 1.15  [243s]
+  LP2-52: best z_uni 3.40, best z_5 1.36  [249s]
+  LP2-53: best z_uni 3.55, best z_5 1.62  [251s]
+  LP2-54: best z_uni 2.93, best z_5 1.23  [254s]
+  LP2-55: best z_uni 2.68, best z_5 1.68  [256s]
+## Candidates meeting the rule
+
+None.
+
+Largest z_uni 3.60; largest z_5 2.61. Runtime 4 minutes.
+

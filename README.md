@@ -13,7 +13,10 @@ pages shorter than that are inconclusive, not negative; the decoder's rejection 
 two calibration statements were corrected. §24 runs a pre-registered secondary rule on those nine
 pages over the phase 3–4 key library (null; it sees a planted soft-rule solution about nine times in
 ten at these lengths and a null-lane one about two times in three, under half at 66–76 runes; the
-phase 6–9 mechanisms were not carried to those pages). Nothing here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
+phase 6–9 mechanisms were not carried to those pages). §25 decodes the texts Cicada pointed at exactly at every offset (null,
+153 million tests); §26 tests the page images (null); §27 adds a rune 5-gram that lifts short-page
+detection to 99 % and reruns the short pages (null); §28 records a hand-versus-machine test with no
+power; §29 tries the two "Know This" magic squares as keys (null). Nothing here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
 was known to the community a decade ago; this repository's contribution is independent
 replication with controls, the exclusion of every key family anyone has named for it on the pages
 long enough for the detector to see a planted solution (§23), and the tooling to test the next one in
@@ -801,3 +804,159 @@ nine short pages under two mechanisms, with the detection rates above. It does n
 phase 6–9 mechanisms to those pages, which remain inconclusive there as §23 states; it does not make
 the null lane conclusive at 66–92 runes, where the rule sees a plant less than half the time; and
 with five plants per cell the rates are estimates with wide intervals, not power curves.
+
+## 25. External running-key lane: the texts Cicada pointed at, decoded exactly at every offset (`src/runkey_lane.py`, `src/corpus.py`, `results/runkey.md`, `data/corpus/`)
+
+The ledger check that opened this lane (`results/ledger_diff.md`) showed the community's main
+hypothesis had already been run: wazar's Campaign XVIII swept about 200 texts with a validated
+skip-tolerant beam through a prefilter (recall 7 of 8 per page, signs c ± k, atbash variants), and
+jens-wedin ran eight texts forward and reversed with controls. What neither documents is exact
+scoring at every offset, the Beaufort convention, both F-rule variants and a reversed text on every
+text, a second transliteration, or power by page length. This lane closes those gaps; it does not
+test a new idea, and it was expected to be null.
+
+**Corpus** (`data/corpus/`, SHA-256 and URLs in `SOURCES.md`, built by `src/corpus.py` with the book's
+digraph transliteration V1 and a letter-by-letter V2): the four texts with documented book-cipher use,
+Crowley's *Liber AL*, Guest's and Bulfinch's *Lady of the Fountain*, Emerson's *Self-Reliance* and
+Gibson's *Agrippa* (copyrighted, hashed, not committed), with Blake's *Marriage of Heaven and Hell*,
+the Anglo-Saxon Rune Poem and the Cypherpunk Manifesto; the full *Essays*, the full *Mabinogion*,
+*The King in Yellow* and the *Kybalion* at sentence-start offsets only. A Quorum panel asked the same
+day (quorumsays.com/q/JOkSnnZ5csJf) named the same four book-cipher texts and nothing outside this set.
+
+**Pre-registered rule**, committed before any page was scored (f893b77): z_uni ≥ 7 over the page's own
+2,000-keystream null (the chance maximum over 1.5 × 10⁸ tests is about 6.1), bigram z ≥ 3 as in §24,
+readable. **Controls:** 17 plants of solved English under the soft rule with a corpus text at a random
+offset, signs, F and direction random; 15 pass. The two misses are 92-rune plants whose correct offset
+was found at z 6.4 and 6.6, under the bar, the short-page limit of §23. **Edition sensitivity**, measured
+on *Liber AL*: a one-rune difference inside the page window costs about one sigma, a five-rune
+difference at mid-page drops the correct key to about 6.6, so a key text whose online transcription
+differs from the author's by a few runes near the middle of a page sits at the bar. A second
+transcription of each short text would remove that limit and has not been fetched.
+
+**Result: null.** 153,149,370 tests over 55 pages, 3 signs × 2 F, both directions; largest z_uni
+5.46 (LP2-03, Guest's *Lady of the Fountain* at offset 19,307, gibberish); 15 cells at z ≥ 5, none
+at 6, none meeting the rule. The best cell per page is spread across the texts (Guest 12 pages,
+Self-Reliance 8, Blake 8, the Rune Poem 7), which is what noise looks like. Runtime 383 minutes on
+the longest of seven shards. Not covered: the 29 esoteric texts wazar fetched and never ran, the
+long texts away from sentence starts, transcriptions other than the ones hashed here.
+
+## 26. Page-image lane: is there information in the images that the transcription does not carry? (`src/image_lane.py`, `results/images.md`, `docs/human-vs-machine-key.md`)
+
+The 75 page images of the scream314 archive (2400 × 3600 JPEG; SHA-256 of every file in
+`data/images/SHA256SUMS.txt`, files themselves gitignored) were tested with the 19 solved or
+decorative pages as the control group, the tests and flag margins fixed in the module docstring
+before any unsolved image was measured. Four tests. **Container:** bytes after the JPEG end marker,
+marker segments, quantization tables, embedded profiles. **Chroma:** share of pixels that are
+coloured but are not the book's red ink. **LSB:** the classic least-significant-bit chi-square on
+the paper background. **Glyph geometry:** Otsu binarisation, connected components inside the text
+column, rows by y-clustering, then per page the dispersion of letter gaps and of baselines and the
+kurtosis of the gap residuals (a one-bit channel in the spacing would be bimodal), with the
+component count checked against the transcription's rune count.
+
+**What the first run found, and the one amendment.** Every one of the 58 second-part images carries
+an identical 2,576-byte sRGB ICC profile that none of the 17 first-part images has, and the 23
+second-part pages with no red ink or border art were saved as grayscale. That flagged 26 unsolved
+pages on the container test against a control group that was mostly first-part pages. It is an
+export-batch difference, not a per-page signal: the two solved second-part pages (An End, Parable)
+carry the same profile, and the profile bytes are identical on all 58. The container test was
+restratified to the second-part controls and the lane rerun; the LSB test is kept but recorded as
+uninformative, since JPEG-decoded pixels saturate it on every image, control or not.
+
+**Result: null.** No trailing bytes on any page; no marker set or quantization table that the matching
+controls lack; non-red chroma lower on unsolved pages (0.06 % of pixels) than on controls (0.12 %);
+component counts within 5 % of the rune counts on the text pages (LP2-00: 276 components, 262
+runes, the rest separators). The geometry is the informative part: unsolved pages are *more* regular
+than the decorated solved ones, letter-gap sd 9.4 ± 1.5 px against 11.9 ± 4.6, baseline sd 2.5 against
+11.8 (the controls include pages where art intrudes on the text column), and baseline residuals on
+plain text pages sit at 0.2–0.3 px, which is what a page rendered from a PDF should give and leaves no
+room for a spacing channel. Gap kurtosis is positive everywhere (heavy tails from word separators),
+never bimodal. The only geometry flag in the first run was LP2-50, the page that carries no runes
+but a grid of two-character codes; it is excluded from the geometry tests as a non-text page. Runtime
+64 seconds.
+
+**What this does and does not cover.** It covers the archive's JPEGs as distributed. It does not
+cover the PDF or PostScript source that wazar's finding (a Ghostscript and ImageMagick pipeline)
+implies existed, which is not public; nor the two-character-code page LP2-50 as a cipher in its own
+right; nor steganography robust to JPEG recompression, for which the only test with power would
+need the original files. Leo-Y-Zhang's scan of the raw image bytes as running keys and wazar's
+OutGuess sweep are the other image negatives on record. **The machine-versus-person question** the
+doublet statistic raises is written up separately in `docs/human-vs-machine-key.md`: the lag-2,
+lag-3 and lag-4 repeat counts at chance, the homogeneity across pages and the rune-blindness of the
+suppression all favour a one-lag mechanical rule over a hand, which is the case for finishing the
+generator families rather than the key-text families.
+
+## 27. Rune 5-gram rescoring: the short-page power fix, measured and applied (`src/ngram.py`, `src/rescore_power.py`, `results/rescore_power.md`, `results/shortpage_rescore.md`)
+
+§23 left the main rule underpowered below about 92 runes because the decoder judges English by letter
+frequencies. An interpolated Kneser-Ney 5-gram over runes, trained on the 1.34 million runes of the
+§25 corpus (`results/ngram5.npz`, rebuilt in 30 s), scores held-out solved plaintext at −1.96 nats per
+rune against −3.37 for uniform, roughly three times the per-rune discrimination of the unigram model.
+It cannot run inside the Viterbi, which must stay memoryless, but it can rescore what the Viterbi
+decodes. On the §23 plants (soft rule, four families, 20 per cell, 400 nulls):
+
+| length | share at z_uni ≥ 6 (§23 rule) | share at z_5 ≥ 6 (rescored) | median z_uni → z_5 |
+|---|---|---|---|
+| 66 | 0.21 | **0.99** | 5.6 → 26 |
+| 76 | 0.54 | **1.00** | 6.0 → 27 |
+| 92 | 0.94 | **1.00** | 6.8 → 30 |
+| 121–196 | 1.00 | **1.00** | 8–10 → 35–45 |
+
+**Applied to the nine short pages** with a rule written before the run (`shortpage_lane.py`, `RESCORE=1`:
+z_uni ≥ 3.5, key leads family by z_5, z_5 ≥ 6 against a chance ceiling near 4.6, the §22 margin for
+the null lane, readable; five controls per page length and lane). Lane A, the soft rule: 39 of 45
+controls pass, every miss a neighbouring offset of the same stream passing instead; **zero candidates
+on all nine pages.** Lane B, the hard rule with fillers: 6 of 45 controls pass, because inserted
+filler runes break the n-gram context, so the 5-gram is the wrong second statistic for that lane and
+the §24 bigram rule (31 of 45) stands for it; zero candidates there too. Runtime 60 minutes.
+
+**Where the exclusions stand after this.** Within the phase 3–4 key library: the soft-rule exclusion now
+holds on all 55 pages at measured power of 99 % or better; the filler-lane exclusion holds on 52 pages
+and remains inconclusive on LP2-49, LP2-55 and LP2-51. The phase 6–9 mechanisms were not carried to the
+short pages. The 5-gram is also the readability statistic for §25 and §29.
+
+## 28. Windowed dispersion: a test for a human hand that turned out to have no power (`src/dispersion.py`, `results/dispersion.md`)
+
+`docs/human-vs-machine-key.md` proposed one more discriminator between a hand-made and a
+program-made anti-repeat key: people keep short windows of a "random" sequence more evenly
+populated than chance, so the key's 50-rune windows should be under-dispersed if a hand made it.
+The key is masked by the plaintext, so the note proposed the ciphertext difference stream as the
+observable. Three generators were simulated at the real page lengths with solved-page English and
+the soft re-draw, each producing the observed doublet count: an iid key, a permutation-bag key
+(every 29 symbols a permutation, the strongest balancing) and a recent-avoid key (a draw rejected
+half the time if seen in the last six).
+
+**The proposal was wrong and the test has no power.** A key's local balance does not survive
+differencing: on the difference-stream statistic the three generators give windowed chi² 29.12,
+29.18 and 29.10 with sd 0.45. A statistic on the ciphertext itself, added after that was seen and
+before its observed value was read, separates the bag key from iid by only 1.5 sd through the
+plaintext. The observed pages sit at z −0.1 to −0.5 from the iid generator on all three statistics,
+consistent with a machine and saying nothing against a hand. No verdict; the lag-2 repeat count of
+§21 remains the one measurement that bears on the question. Recorded here so the proposal is not
+made again. Runtime 3 minutes.
+
+## 29. The two "Know This" squares as key material (`src/square_lane.py`, `results/squares.md`)
+
+Page 16 of the book carries a 5 × 5 square of numbers whose rows, columns and diagonals sum to 3301;
+page 5 a 5 × 5 square mixing numbers with eleven rune words (SHADOWS, AETHEREAL, BUFFERS, VOID, CARNAL,
+OBSCURA, FORM, MOBIUS, ANALOG, MOURNFUL, CABAL) whose Gematria values complete a square summing to
+1033, which is 3301 reversed; both are prime, and the 1033 matrix was handed to solvers out of band
+during the 2014 onion stage before the book was reached. The words were chosen for their values. They
+are the only numeric objects in the readable part of the book and the most literal reading of "their
+numbers are the direction".
+
+**Pre-registered lane** (docstring written before scoring): the two value matrices in six reading orders
+and concatenated, as periodic keys mod 29 and as decimal digits; the 50 values as offsets into the
+prime and totient streams; the eleven words and three phrase orders as Vigenère keys; 92 keys
+× 3 signs × 2 F × 55 pages = 30,360 tests, soft-rule decoder, 2,000-keystream nulls, rule z_uni
+≥ 5 and 5-gram z_5 ≥ 6 and readable. Not run, with the reason recorded: the squares' values as LCG
+seeds, because §19 ran those generators at every seed; transposition keyed by the squares, because the
+detection statistic is blind to symbol order, so scrambled English under any key tested in §§9–25 would
+already have scored as a hit. **Controls:** eight plants across the three families at 262, 137 and 92
+runes, all signs and F; 8 of 8 pass at rank 1 (the first run failed every `add` plant at z ≈ 0, a sign
+convention error in the planting code, fixed and rerun; the decoder side was right throughout).
+
+**Result: null, and not close.** Largest z_uni 3.60, largest z_5 2.61, against a chance maximum near 4.6;
+no cell meets the rule. The squares do not key the pages under the anti-repeat rule in any direct
+form. What remains open for them is indirect use: as a seed to a generator not in §19's set, or as an
+index into the page the hash on page 73 names. Runtime 4 minutes.
+
