@@ -140,3 +140,12 @@ and the external hunts. Anything else is on a ledger already.
 **Rule for further work in this repository:** check `pnotisdev/docs/registry.toml` and
 `murphy…/research/EXHAUSTED.md` before any sweep, and prefer contributing a lane to pnotisdev's queue
 format over a sixth parallel ledger.
+
+## Added 2026-10-27: two repositories active since the survey, read as data (`external/survey2/`)
+
+| Short name | Repository | Read | What it is | Overlap with this repository |
+|---|---|---|---|---|
+| **PA** | ToldByNun/Parcae | README at HEAD 2026-10-14 (10 stars) | C++20 toolkit: solved pages frozen as regression oracles, a theory DSL, candidate generation and ranking, optional CUDA; covers Atbash, Vigenère + skips, totient streams as worked examples | Tooling, not a sweep: publishes no ledger of negatives and no planted-control power figures. Nothing here duplicates a lane; its oracle fixtures are a cross-check for our `lp.py` transcription if ever needed. |
+| **AP** | MarcelDuSHAmp/atelier-primus | README at HEAD 2026-10-22 (French, "collaboration IA") | Studies the 75 page images, their runes and geometry; 171 notes in 12 families; the current lead derives two Tor v2 onion identifiers from one page image (G032), which the authors state are reproducible but not authenticated and not a decryption | Overlaps §26 (page images). Their angle is extraction of an address from image structure; ours is steganography and glyph-geometry tests against the solved pages. Their 171 negative notes were not read in detail; worth a pass before any further image work. |
+
+Also seen, not entered: murphyaidanbusiness-ux/liberprimus and aergasrg/liber-primus (already in the survey), mak777uh/cicada3301-import (a mirror of WZ), popsumpercs/Liber-Primus-Attack-Pipeline and VinnyMo/cicadaCrypt (small transliteration toolkits, no claims), HhWolfling/Gematria-Primus-Lattice-Resonance (no testable content), invictustitan2/liber-primus-archive (empty README). No repository found claims a solve as of 2026-10-27.
