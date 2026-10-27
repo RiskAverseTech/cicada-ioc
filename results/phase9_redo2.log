@@ -1,0 +1,17 @@
+family A: 1827 configurations x 3 signs; family B: 6 streams x 13501 offsets x 3 signs; 14 pages x 2 F variants: about 6,957,972 tests
+controls done in 0s
+  LP2-02 redone (1/14), best A/sub z: 4.04  [3s]
+  LP2-06 redone (2/14), best A/sub z: 2.89  [5s]
+  LP2-10 redone (3/14), best A/sub z: 3.52  [9s]
+  LP2-14 redone (4/14), best A/sub z: 2.88  [11s]
+  LP2-18 redone (5/14), best A/sub z: 3.30  [15s]
+  LP2-22 redone (6/14), best A/sub z: 3.18  [18s]
+  LP2-26 redone (7/14), best A/sub z: 3.29  [23s]
+  LP2-30 redone (8/14), best A/sub z: 4.18  [26s]
+  LP2-34 redone (9/14), best A/sub z: 3.71  [31s]
+  LP2-38 redone (10/14), best A/sub z: 3.08  [34s]
+  LP2-42 redone (11/14), best A/sub z: 3.86  [37s]
+  LP2-46 redone (12/14), best A/sub z: 3.13  [41s]
+  LP2-51 redone (13/14), best A/sub z: 3.02  [42s]
+  LP2-55 redone (14/14), best A/sub z: 3.45  [43s]
+shard 2/4 A/sub rows replaced

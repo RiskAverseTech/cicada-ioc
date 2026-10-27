@@ -1,0 +1,21 @@
+family A: 1827 configurations x 3 signs; family B: 6 streams x 13501 offsets x 3 signs; 14 pages x 2 F variants: about 6,957,972 tests
+  redo-00: A prime-sum → p_S mod 29 + totient@0 sub F=False: z=12.0 rank 1, recovered 1.000
+  redo-01: B lucas@13267 sub F=True: z=14.2 rank 1, recovered 0.988
+  redo-02: A totient-sum → sum mod 29 + prime@19 sub F=False: z=10.6 rank 1, recovered 0.983
+  redo-03: B totient@12201 sub F=True: z=12.3 rank 1, recovered 0.983
+controls done in 61s
+  LP2-00 redone (1/14), best A/sub z: 3.32  [2s]
+  LP2-04 redone (2/14), best A/sub z: 3.89  [5s]
+  LP2-08 redone (3/14), best A/sub z: 2.89  [7s]
+  LP2-12 redone (4/14), best A/sub z: 2.90  [10s]
+  LP2-16 redone (5/14), best A/sub z: 3.85  [12s]
+  LP2-20 redone (6/14), best A/sub z: 3.08  [14s]
+  LP2-24 redone (7/14), best A/sub z: 3.19  [17s]
+  LP2-28 redone (8/14), best A/sub z: 3.61  [19s]
+  LP2-32 redone (9/14), best A/sub z: 3.05  [21s]
+  LP2-36 redone (10/14), best A/sub z: 3.50  [23s]
+  LP2-40 redone (11/14), best A/sub z: 2.89  [25s]
+  LP2-44 redone (12/14), best A/sub z: 3.05  [27s]
+  LP2-48 redone (13/14), best A/sub z: 4.10  [30s]
+  LP2-53 redone (14/14), best A/sub z: 3.77  [32s]
+shard 0/4 A/sub rows replaced

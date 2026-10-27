@@ -1,0 +1,5 @@
+# phase9_lane.py --redo-a-sub --smoke: family A x sign sub controls after the offset sign fix (both F variants)
+  redo-00: A prime-sum → p_S mod 29 + totient@0 sub F=False: z=12.0 rank 1, recovered 1.000
+  redo-02: A totient-sum → phi(p_S) mod 29 + prime@70 sub F=True: z=12.3 rank 1, recovered 0.975
+  redo-04: A prime-sum → phi(p_S) mod 29 + totient@3 sub F=False: z=10.2 rank 1, recovered 1.000
+  redo-06: A totient-sum → phi(p_S) mod 29 + totient@25 sub F=True: z=13.5 rank 1, recovered 1.000

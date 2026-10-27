@@ -28,7 +28,7 @@ def english_model():
     return lu, lb, plain
 
 
-def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, penalty=0.0, rejection="one", mult_inv=None):
+def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, penalty=0.0, rejection="one", mult_inv=None, offset=None):
     """C: (n,) ciphertext; Ks: (m, L) keystreams, L >= n + S_MAX.
     mode "sub": P = C - K (additive cipher C = P + K); mode "beaufort": P = K - C (C = K - P).
     For C = P - K pass -K with mode "sub".  The forced-skip condition C_i - C_{i-1} == K_j - K_{j-1}
@@ -47,6 +47,9 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
     mult_inv (phase 8): per-position modular inverses of an affine multiplier, C = m_i * P + K
     (mode "sub"): shape (n,) shared by all rows or (m, n) per row; P = inv_i * (C - K).  The
     forced-skip condition is unchanged (a skipped key symbol would still have reproduced C_{i-1}).
+    offset (phase 9): a per-position key component known from the ciphertext (shape (n,)), e.g. a
+    function of the cumulative Gematria value of the runes before i; the key at i is offset[i] + K_j,
+    so P = C - offset - K (mode "sub") or P = K + offset - C (beaufort).  Skip condition unchanged.
     Returns best LLR (m,), best final state (m,), decoded plaintext along the best path (m, n)."""
     C = np.asarray(C); m, L = Ks.shape; n = len(C)
     T0 = (int((C == 0).sum()) if f_rule else 0) + (int(np.asarray(null_mask).sum()) if null_mask is not None else 0)  # room for j < i
@@ -61,7 +64,8 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
         c = C[i]
         j = np.clip(i + jbase, 0, L - 1)
         Kj = Ks[:, j]
-        P = ((c - Kj) if mode == "sub" else (Kj - c)) % N
+        ce = c if offset is None else (c - offset[i]) % N
+        P = ((ce - Kj) if mode == "sub" else (Kj - ce)) % N
         if mult_inv is not None:
             P = (P * (mult_inv[i] if mult_inv.ndim == 1 else mult_inv[:, i][:, None])) % N
         gain = lu[P] - LOGU
@@ -114,7 +118,8 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
         src = back[i][rows, t]
         j = np.clip(i + (t - T0), 0, L - 1)
         Kj = Ks[rows, j]
-        dec = ((c - Kj) if mode == "sub" else (Kj - c)) % N
+        ce = c if offset is None else (c - offset[i]) % N
+        dec = ((ce - Kj) if mode == "sub" else (Kj - ce)) % N
         if mult_inv is not None:
             dec = (dec * (mult_inv[i] if mult_inv.ndim == 1 else mult_inv[:, i])) % N
         out[:, i] = np.where(src == -1, 0, np.where(src == -3, c, dec))   # a null is written as itself

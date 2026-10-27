@@ -1,0 +1,17 @@
+family A: 1827 configurations x 3 signs; family B: 6 streams x 13501 offsets x 3 signs; 14 pages x 2 F variants: about 6,957,972 tests
+controls done in 0s
+  LP2-01 done (1/14), best z on this page: A 3.98, B 5.26  [422s]
+  LP2-05 done (2/14), best z on this page: A 3.64, B 5.20  [783s]
+  LP2-09 done (3/14), best z on this page: A 3.23, B 4.00  [1201s]
+  LP2-13 done (4/14), best z on this page: A 3.60, B 4.88  [1557s]
+  LP2-17 done (5/14), best z on this page: A 3.75, B 4.38  [1922s]
+  LP2-21 done (6/14), best z on this page: A 3.74, B 4.53  [2270s]
+  LP2-25 done (7/14), best z on this page: A 3.53, B 4.39  [2629s]
+  LP2-29 done (8/14), best z on this page: A 3.46, B 4.69  [2973s]
+  LP2-33 done (9/14), best z on this page: A 3.53, B 4.35  [3220s]
+  LP2-37 done (10/14), best z on this page: A 3.68, B 4.08  [3475s]
+  LP2-41 done (11/14), best z on this page: A 3.61, B 4.53  [3788s]
+  LP2-45 done (12/14), best z on this page: A 4.06, B 4.94  [3977s]
+  LP2-49 done (13/14), best z on this page: A 3.54, B 3.86  [4014s]
+  LP2-54 done (14/14), best z on this page: A 3.65, B 4.08  [4137s]
+shard 1/4 written

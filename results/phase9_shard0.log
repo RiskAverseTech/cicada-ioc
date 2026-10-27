@@ -1,0 +1,35 @@
+family A: 1827 configurations x 3 signs; family B: 6 streams x 13501 offsets x 3 signs; 14 pages x 2 F variants: about 6,957,972 tests
+  control-00: A prime-sum → p_S mod 29 + totient@0 add F=False: z=11.5 rank 1, recovered 1.000
+  control-01: B totient@75 sub F=False: z=11.4 rank 1, recovered 1.000
+  control-02: A prime-sum → p_S mod 29 + totient@99 beaufort F=False: z=12.5 rank 1, recovered 0.967
+  control-03: B prime gap@6574 add F=True: z=12.7 rank 1, recovered 0.967
+  control-04: A index-sum → sum mod 29 + prime@31 sub F=True: z=0.8 rank 545, recovered 0.046
+  control-05: B lucas@12308 beaufort F=True: z=13.7 rank 1, recovered 1.000
+  control-06: A totient-sum → sum mod 29 + prime@96 add F=False: z=11.5 rank 1, recovered 0.983
+  control-07: B totient@11589 sub F=False: z=10.9 rank 1, recovered 0.996
+  control-08: A index-sum → sum mod 29 + prime@86 beaufort F=False: z=11.8 rank 1, recovered 1.000
+  control-09: B prime gap@5226 add F=True: z=13.5 rank 1, recovered 1.000
+  control-10: A index-sum → phi(p_S) mod 29 + totient@24 sub F=True: z=-0.5 rank 1396, recovered 0.037
+  control-11: B lucas@1927 beaufort F=True: z=11.7 rank 1, recovered 0.958
+  control-12: A index-sum → p_S mod 29 + totient@65 add F=False: z=11.6 rank 1, recovered 1.000
+  control-13: B totient@4793 sub F=False: z=11.9 rank 1, recovered 1.000
+  control-14: A prime-sum → p_S mod 29 + totient@92 beaufort F=False: z=12.3 rank 1, recovered 1.000
+  control-15: B prime gap@11659 add F=True: z=13.0 rank 1, recovered 1.000
+  control-16: A totient-sum → phi(p_S) mod 29 + prime@92 sub F=True: z=-0.6 rank 1311, recovered 0.037
+  control-17: B lucas@11761 beaufort F=True: z=14.0 rank 1, recovered 0.992
+controls done in 610s
+  LP2-00 done (1/14), best z on this page: A 3.37, B 4.35  [418s]
+  LP2-04 done (2/14), best z on this page: A 3.99, B 4.27  [786s]
+  LP2-08 done (3/14), best z on this page: A 3.38, B 4.40  [1096s]
+  LP2-12 done (4/14), best z on this page: A 3.64, B 4.25  [1466s]
+  LP2-16 done (5/14), best z on this page: A 4.12, B 4.64  [1776s]
+  LP2-20 done (6/14), best z on this page: A 3.48, B 4.06  [2162s]
+  LP2-24 done (7/14), best z on this page: A 3.71, B 4.40  [2485s]
+  LP2-28 done (8/14), best z on this page: A 3.92, B 5.02  [2793s]
+  LP2-32 done (9/14), best z on this page: A 3.84, B 4.76  [2958s]
+  LP2-36 done (10/14), best z on this page: A 3.66, B 4.17  [3209s]
+  LP2-40 done (11/14), best z on this page: A 3.63, B 5.44  [3365s]
+  LP2-44 done (12/14), best z on this page: A 3.36, B 4.23  [3521s]
+  LP2-48 done (13/14), best z on this page: A 3.60, B 4.82  [3653s]
+  LP2-53 done (14/14), best z on this page: A 3.39, B 3.81  [3733s]
+shard 0/4 written

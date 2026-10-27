@@ -3,7 +3,8 @@
 **Status (2026-10-26).** Eight pre-registered analyses on the 56 unsolved pages, each with planted
 controls, each a negative result reported as one; a three-model hypothesis loop gated on the pages'
 own statistics (§17); and a ledger against the other public 2026 labs (`results/ledger_diff.md`).
-The loop's remaining short-list families are swept in §19 (null). Nothing
+The loop's remaining short-list families are swept in §19 (null); cumulative-Gematria ciphertext
+feedback and the book's streams run globally with no per-page reset in §20 (null). Nothing
 here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
 was known to the community a decade ago; this repository's contribution is independent
 replication with controls, the exclusion of every key family anyone has named for it, and the
@@ -570,3 +571,11 @@ A second, independently written sweep of the hypothesis loop's short list (§17)
 **Controls.** Fourteen plants, two per family, spanning sign, rejection width and F variant: all recovered at z 10.1–14.1, twelve ranked first (one tied at rank 2 with an equivalent seed, one skip-by-two plant at rank 4, the §16 desync).
 
 **Result: null.** Largest z over all tests 5.21 (LP2-33, LCG mod 1033 seed 241 under skip-by-two, gibberish); per family 4.55–5.21. The LCG and word-key families replicate phase 8's null with a separate decoder; the prime-gap stream under every clock multiplier and the prime-value and totient-value feedback over the book's text are excluded for the first time. Still unrun from the loop's list: feedback over an LCG base (86k–96k configurations each). Wall time 69 minutes on three cores.
+
+## 20. Phase 9: cumulative-Gematria ciphertext feedback, and global streams with no per-page reset (`src/phase9_lane.py`, `results/phase9.md`)
+
+Two families nobody's ledger had closed. **Family A** keys each rune by the cumulative Gematria value of the ciphertext before it: three value maps (rune index, rune prime, totient of the prime), three maps from the running sum S to a key component (S mod 29, p_S mod 29, φ(p_S) mod 29, primes sieved to 26 million), with the totient or prime stream added at offsets 0..100 or no base stream at all: 1,827 configurations. The offset is known from the ciphertext, so it rides inside the Viterbi as a per-position correction (`score.decode(..., offset=)`, asserted bit-identical to the plain decoder when absent). **Family B** drops the per-page restart every phase so far assumed: the prime, totient, prime+1, prime-gap, Fibonacci-mod-29 and Lucas-mod-29 streams run continuously through the book, so a page is tried at every global offset 0..13,500 (the unsolved text is 12,956 runes; page 30 sits near offset 7,000). Soft reject-on-repeat, three signs, both F variants, 55 pages: **27,334,890 tests**, chance maximum about 5.9, pre-registered rule z ≥ 6 over 2,000 random keystreams per page, variant and decoder mode, and readable English. Four page shards, about 62 minutes each.
+
+**Controls.** Eighteen plants spanning both families, all signs and F variants. Fifteen recovered at z 10.9–14.0, rank 1. The three family-A `sub` plants failed outright (z ≈ 0, 4 % of runes), and the cause was a bug, not the decoder: for that sign the cumulative offset was passed un-negated, so family A × sub was testing C = P + O − K instead of C = P − O − K. The sign was fixed, family A × sub was rerun for every page and both F variants with fresh nulls (a minute per shard), and six fresh A × sub plants, two of them F = true, all recover at z 10.2–13.5, rank 1 (`results/phase9.md`, `results/phase9_redo_controls.log`). The first-run rows stay in the table, marked. Family B and the other two family-A signs were never affected.
+
+**Result: null.** Largest z over all tests 5.44 (LP2-40, totient stream at global offset 11,571, gibberish); family A 4.38, family B 5.44. Keys driven by the cumulative value of the preceding ciphertext, and the book's six streams with no per-page reset, are excluded at the sensitivity the controls show. Not covered: cumulative sums of the *plaintext* (an autokey the Viterbi state cannot carry; it needs a different decoder), sums that include the current rune, and streams outside these six.
