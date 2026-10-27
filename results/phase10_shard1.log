@@ -1,0 +1,16 @@
+22863 configurations x 55 pages x 2 F variants = 2,514,930 tests; chance max ~ 5.4 sigma; null prior -0.800; shard 1/4
+  LP2-01 done (1/14), best z on this page: 4.04  [250s]
+  LP2-05 done (2/14), best z on this page: 4.77  [497s]
+  LP2-09 done (3/14), best z on this page: 4.53  [748s]
+  LP2-13 done (4/14), best z on this page: 3.82  [1028s]
+  LP2-17 done (5/14), best z on this page: 4.70  [1295s]
+  LP2-21 done (6/14), best z on this page: 4.98  [1574s]
+  LP2-25 done (7/14), best z on this page: 4.26  [1840s]
+  LP2-29 done (8/14), best z on this page: 3.72  [2112s]
+  LP2-33 done (9/14), best z on this page: 3.56  [2259s]
+  LP2-37 done (10/14), best z on this page: 3.99  [2396s]
+  LP2-41 done (11/14), best z on this page: 3.48  [2597s]
+  LP2-45 done (12/14), best z on this page: 4.52  [2747s]
+  LP2-49 done (13/14), best z on this page: 4.03  [2757s]
+  LP2-54 done (14/14), best z on this page: 4.63  [2859s]
+shard 1/4 written

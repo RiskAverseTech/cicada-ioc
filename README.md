@@ -5,7 +5,8 @@ controls, each a negative result reported as one; a three-model hypothesis loop 
 own statistics (§17); and a ledger against the other public 2026 labs (`results/ledger_diff.md`).
 The loop's remaining short-list families are swept in §19 (null); cumulative-Gematria ciphertext
 feedback and the book's streams run globally with no per-page reset in §20 (null); §21 checks a
-Quorum panel's claim that the remaining mechanisms are indistinguishable (they are not). Nothing
+Quorum panel's claim that the remaining mechanisms are indistinguishable (they are not), and §22 sweeps
+the one survivor that was still breakable, a hard rule with nulls at unknown positions (null). Nothing
 here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
 was known to the community a decade ago; this repository's contribution is independent
 replication with controls, the exclusion of every key family anyone has named for it, and the
@@ -603,10 +604,44 @@ to keep the differences flat gives 49 doublets. Lag-2 repeats land within one si
 expectation 458 ± 22, not the panel's 463).
 
 **What survives:** the soft re-draw of §5 and a hard rule with about 22% uniform nulls, which no decoder
-here models (nulls at unknown positions need an insertion state at every position; §14 ran nulls at
-word edges only). The observed difference chi² of 42 sits two sigma above every flat model and two
+here modelled until §22 (nulls at unknown positions need an insertion state at every position; §14 ran
+nulls at word edges only). The observed difference chi² of 42 sits two sigma above every flat model and two
 sigma below the sticky model, the faint excess §5 noted, now bracketed from both sides. The panel's
 useful contributions were negative: the 19%-repeating key of the asker's take collapses into a
 generator constant and is not a nameable family, and its claim scorer flagged two figures stated
 without a source (a "2.8-sigma" doublet excess, really 17 sigma; a solved-page runes-per-page norm,
 which is typesetting). Runtime 6 minutes.
+
+## 22. Phase 10: unknown-position nulls under a hard anti-repeat rule (`src/null_lane.py`, `results/phase10.md`)
+
+§21 left one mechanism that fits every page statistic and could still be breakable: a hard rule (the
+key is skipped until the rune differs from the previous one) with uniform null runes inserted at
+unknown positions at about one in five. If that were the cipher, the key under the nulls could be
+one of the book's own families, so this lane lets the §9 decoder call any rune a null: the null
+transition of `score.decode` (no key consumed, gain 0) is enabled at every position with a fixed log
+prior, and the Viterbi chooses where the nulls sit. Key library: the phase 3 book families and the
+phase 4 phrase keys, 22,863 configurations over three sign conventions, both F variants, 55 pages:
+**2,514,930 tests**, chance maximum about 5.4. Null for z: 2,000 random keystreams per page, F
+variant and decoder mode through the same free-null decoder. Pre-registered rule: z ≥ 6, free-null
+score at least 20 nats above the base decoder for the same key, and readable English.
+
+**The prior was fixed on the controls before any page was scored.** Eighteen plants (hard rule, nulls at
+0.15, 0.22 and 0.30, all signs, both F variants, families cycled) were decoded under five null priors:
+−3.0, −2.0, −1.27 (the Bayesian value ln(0.22/0.78)), −0.8 and −0.4 recovered 8, 11, 14, 15 and 14 of
+18 at z ≥ 6 and rank 1. A stiffer prior hurts because the random keystreams lose less freedom than the
+true key does. The sweep ran at −0.8. Its three misses are honest limits: a prime-stream Beaufort plant
+at 30 % nulls (z 3.1, rank 13), a four-word phrase key at 22 % (z 5.2, rank 1), and a self-running-key
+plant at rank 3 behind two equivalent offsets. Recovered plants read at 60–88 % of real positions.
+The base decoder scored the same plants at z −0.9 to 6.8: without the insertion state it is blind.
+
+**Result: null.** Largest z over all tests 5.64 (LP2-14, the book's own text at offset 366 as a running
+key, gibberish; the decoder spent 21 nulls to get there); per sign 4.98, 5.64, 4.72. No cell meets
+the rule. A hard anti-repeat rule over this repository's key families with uniform nulls at unknown
+positions is excluded at the sensitivity the controls show. Not covered: non-uniform nulls, nulls
+that consume a key value, rates outside 0.15–0.30, key streams outside these families. Runtime 48
+minutes on four shards.
+
+**Where this leaves §21's bracket.** Of the mechanisms that reproduce every ciphertext statistic, the
+breakable branch is now closed for every key the book supplies. What remains is the soft re-draw
+over an independent key, or a hard rule with nulls over a key that is not in the book: both are key
+material that was never published.

@@ -1,0 +1,35 @@
+22863 configurations x 55 pages x 2 F variants = 2,514,930 tests; chance max ~ 5.4 sigma; null prior -0.800; shard 0/4
+  control-00: sub phrase-2 'DOGMA SO' F=False LP2-00 q=0.15 nulls=31: free z=10.7 rank 1, free-base +166.7 nats, base z=3.3, rec 0.861
+  control-01: add phrase-4-rev 'THE MASTER REPLIED THEN ' F=False LP2-03 q=0.22 nulls=46: free z=5.2 rank 1, free-base +180.8 nats, base z=-0.1, rec 0.673
+  control-02: beaufort phrase-3 'THE MASTER SAID' F=False LP2-06 q=0.3 nulls=40: free z=7.3 rank 1, free-base +136.5 nats, base z=1.8, rec 0.801
+  control-03: sub primes+1 'p[n+60]+1' F=False LP2-09 q=0.15 nulls=40: free z=12.7 rank 1, free-base +243.0 nats, base z=0.6, rec 0.842
+  control-04: add vigenere-word 'SHED' F=False LP2-12 q=0.22 nulls=42: free z=11.9 rank 1, free-base +187.7 nats, base z=2.4, rec 0.799
+  control-05: beaufort primes 'p[n+62]' F=False LP2-15 q=0.3 nulls=38: free z=3.1 rank 13, free-base +112.9 nats, base z=0.7, rec 0.669
+  control-06: sub sentence 'THE CIRCUMFERENCE PRACTI' F=False LP2-18 q=0.15 nulls=28: free z=12.0 rank 1, free-base +218.3 nats, base z=0.9, rec 0.875
+  control-07: add phrase-3-rev 'A LESSON THE ʳ' F=False LP2-21 q=0.22 nulls=48: free z=11.2 rank 1, free-base +194.9 nats, base z=2.3, rec 0.809
+  control-08: beaufort phrase-2 'DEEP WITHIN' F=False LP2-24 q=0.3 nulls=63: free z=10.2 rank 1, free-base +198.6 nats, base z=1.9, rec 0.604
+  control-09: sub fibonacci 'F[n+0]' F=True LP2-27 q=0.15 nulls=33: free z=10.9 rank 1, free-base +137.8 nats, base z=2.4, rec 0.801
+  control-10: add self running key 'plaintext@2662' F=True LP2-30 q=0.22 nulls=50: free z=10.9 rank 3, free-base +198.7 nats, base z=-0.9, rec 0.657
+  control-11: beaufort affine position '18·n+1' F=True LP2-33 q=0.3 nulls=44: free z=6.4 rank 1, free-base +134.0 nats, base z=1.4, rec 0.676
+  control-12: sub phrase-4 'DO NOT HAVE ENOUGH' F=True LP2-36 q=0.15 nulls=28: free z=8.3 rank 1, free-base +99.8 nats, base z=4.6, rec 0.795
+  control-13: add phrase-2-rev 'PRESERVE THINGS ʳ' F=True LP2-39 q=0.22 nulls=38: free z=8.6 rank 1, free-base +108.3 nats, base z=3.8, rec 0.673
+  control-14: beaufort sentence 'IT IS THE BEHAVIORS OF C' F=True LP2-42 q=0.3 nulls=70: free z=8.0 rank 1, free-base +209.7 nats, base z=-0.8, rec 0.629
+  control-15: sub vigenere-word 'CAN' F=True LP2-45 q=0.15 nulls=35: free z=13.6 rank 1, free-base +100.2 nats, base z=6.8, rec 0.851
+  control-16: add primes 'p[n+79]' F=True LP2-48 q=0.22 nulls=55: free z=10.6 rank 1, free-base +194.5 nats, base z=1.0, rec 0.745
+  control-17: beaufort square position 'n²+15' F=True LP2-52 q=0.3 nulls=65: free z=8.4 rank 1, free-base +191.2 nats, base z=0.6, rec 0.788
+controls done in 307s
+  LP2-00 done (1/14), best z on this page: 4.53  [254s]
+  LP2-04 done (2/14), best z on this page: 4.82  [478s]
+  LP2-08 done (3/14), best z on this page: 3.72  [709s]
+  LP2-12 done (4/14), best z on this page: 4.01  [934s]
+  LP2-16 done (5/14), best z on this page: 3.55  [1191s]
+  LP2-20 done (6/14), best z on this page: 4.09  [1444s]
+  LP2-24 done (7/14), best z on this page: 4.89  [1691s]
+  LP2-28 done (8/14), best z on this page: 3.93  [1930s]
+  LP2-32 done (9/14), best z on this page: 3.85  [1974s]
+  LP2-36 done (10/14), best z on this page: 3.92  [2115s]
+  LP2-40 done (11/14), best z on this page: 4.50  [2251s]
+  LP2-44 done (12/14), best z on this page: 4.36  [2413s]
+  LP2-48 done (13/14), best z on this page: 3.84  [2558s]
+  LP2-53 done (14/14), best z on this page: 4.06  [2604s]
+shard 0/4 written
