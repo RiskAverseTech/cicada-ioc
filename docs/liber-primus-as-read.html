@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Liber Primus, As Read</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono&display=swap">
+<style>
+/* Layout: one reading column; a page-map strip up top; each read section is a block with a small method label. Ink on paper, red only where the book uses red. */
+:root{
+  --paper:#f7f4ec; --ink:#1f1b16; --ink-soft:#5b544a; --rule:#d9d2c3; --red:#9b2615; --unread:#e2dbcb; --read:#2f2a24;
+  --display:"Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --body:"IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono:"IBM Plex Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --paper:#16140f; --ink:#ece6d8; --ink-soft:#aaa192; --rule:#3a3429; --red:#d8513a; --unread:#2a261e; --read:#d9d1c0; color-scheme:dark } }
+:root[data-theme="dark"]{ --paper:#16140f; --ink:#ece6d8; --ink-soft:#aaa192; --rule:#3a3429; --red:#d8513a; --unread:#2a261e; --read:#d9d1c0; color-scheme:dark }
+body{ background:var(--paper); color:var(--ink); font-family:var(--body); line-height:1.5; padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px)); padding-block:32px 64px }
+.wrap{ max-width:700px; margin:0 auto; min-width:0 }
+h1{ font-family:var(--display); font-weight:400; font-size:clamp(2.2rem, 6vw, 3.4rem); line-height:1.05; margin:0 0 8px; text-wrap:balance }
+.lede{ color:var(--ink-soft); margin:0 0 28px; max-width:60ch }
+.figs{ display:grid; grid-template-columns:repeat(auto-fit, minmax(150px,1fr)); gap:12px 24px; margin:0 0 28px; padding:16px 0; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule) }
+.fig b{ display:block; font-family:var(--display); font-size:1.9rem; font-weight:600; line-height:1; font-variant-numeric:tabular-nums }
+.fig span{ font-size:.82rem; color:var(--ink-soft); letter-spacing:.02em }
+.maplabel{ font-size:.78rem; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-soft); margin:0 0 8px }
+.map{ display:flex; gap:2px; align-items:flex-end; height:64px; margin:0 0 6px }
+.map i{ flex:1 1 0; min-width:0; background:var(--unread); border-radius:1px; display:block }
+.map i.r{ background:var(--read) }
+.map i.x{ background:var(--red) }
+.mapkey{ display:flex; flex-wrap:wrap; gap:6px 18px; font-size:.8rem; color:var(--ink-soft); margin:0 0 36px }
+.mapkey i{ display:inline-block; width:10px; height:10px; border-radius:1px; margin-right:6px; vertical-align:-1px; background:var(--unread) }
+.mapkey i.r{ background:var(--read) } .mapkey i.x{ background:var(--red) }
+.sec{ margin:0 0 40px; padding-top:18px; border-top:1px solid var(--rule) }
+.sec .meta{ display:flex; flex-wrap:wrap; gap:4px 16px; font-size:.78rem; color:var(--ink-soft); margin:0 0 10px }
+.sec .meta code{ font-family:var(--mono); font-size:.76rem }
+h2{ font-family:var(--display); font-weight:600; font-size:1.6rem; margin:0 0 10px; letter-spacing:.01em }
+h2.red{ color:var(--red) }
+h3{ font-family:var(--display); font-weight:600; font-size:1.25rem; margin:22px 0 6px; color:var(--red) }
+p.t{ font-family:var(--display); font-size:1.22rem; line-height:1.45; margin:0 0 .55em; max-width:62ch }
+p.t.q{ padding-left:1.2em; text-indent:-1.2em }
+.gap{ margin:0 0 40px; padding:22px 20px; border:1px dashed var(--rule); border-radius:4px; color:var(--ink-soft); font-size:.92rem }
+.gap b{ color:var(--ink); font-family:var(--display); font-size:1.5rem; font-weight:600; display:block; margin-bottom:6px }
+.note{ font-size:.85rem; color:var(--ink-soft); margin-top:40px; padding-top:14px; border-top:1px solid var(--rule) }
+ol.n{ margin:.2em 0 .6em 1.4em; padding:0 } ol.n li{ font-family:var(--display); font-size:1.22rem; line-height:1.45 }
+@media (prefers-reduced-motion: reduce){ *{ animation:none !important; transition:none !important } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Liber Primus, As Read</h1>
+<p class="lede">Everything of the book that has been decrypted since 2014, in order, with the method that opened each part and the unread span marked where it falls. The register of these pages is the best guide to what the unread pages say.</p>
+
+<div class="figs">
+  <div class="fig"><b>728</b><span>English words read</span></div>
+  <div class="fig"><b>2,977</b><span>runes decrypted</span></div>
+  <div class="fig"><b>12,956</b><span>runes unread, 55 pages</span></div>
+  <div class="fig"><b>19 %</b><span>of the book's runes are read</span></div>
+</div>
+
+<p class="maplabel">The 75 page images in book order; bar height follows each page's rune count</p>
+<div class="map" aria-label="Page map: pages 0 to 16 read, 17 to 72 unread, 73 and 74 read">
+<i class="r" style="height:30%"></i><i class="r" style="height:58%"></i><i class="r" style="height:40%"></i><i class="r" style="height:55%"></i><i class="r" style="height:50%"></i><i class="r" style="height:62%"></i><i class="r" style="height:60%"></i><i class="r" style="height:55%"></i><i class="r" style="height:58%"></i><i class="r" style="height:60%"></i><i class="r" style="height:58%"></i><i class="r" style="height:60%"></i><i class="r" style="height:55%"></i><i class="r" style="height:52%"></i><i class="r" style="height:50%"></i><i class="r" style="height:35%"></i><i class="r" style="height:28%"></i>
+<i style="height:95%"></i><i style="height:96%"></i><i style="height:73%"></i><i style="height:78%"></i><i style="height:94%"></i><i style="height:95%"></i><i style="height:71%"></i><i style="height:75%"></i><i style="height:92%"></i><i style="height:97%"></i><i style="height:95%"></i><i style="height:99%"></i><i style="height:94%"></i><i style="height:98%"></i><i style="height:49%"></i><i style="height:57%"></i><i style="height:96%"></i><i style="height:99%"></i><i style="height:94%"></i><i style="height:98%"></i><i style="height:97%"></i><i style="height:99%"></i><i style="height:47%"></i><i style="height:77%"></i><i style="height:97%"></i><i style="height:99%"></i><i style="height:96%"></i><i style="height:96%"></i><i style="height:84%"></i><i style="height:97%"></i><i style="height:100%"></i><i style="height:95%"></i><i style="height:97%"></i><i style="height:44%"></i><i style="height:77%"></i><i style="height:94%"></i><i style="height:96%"></i><i style="height:86%"></i><i style="height:95%"></i><i style="height:92%"></i><i style="height:96%"></i><i style="height:98%"></i><i style="height:94%"></i><i style="height:95%"></i><i style="height:96%"></i><i style="height:97%"></i><i style="height:95%"></i><i style="height:96%"></i><i style="height:98%"></i><i style="height:97%"></i><i style="height:6%"></i><i style="height:24%"></i><i style="height:33%"></i><i style="height:97%"></i><i style="height:65%"></i><i style="height:27%"></i>
+<i class="x" style="height:30%"></i><i class="x" style="height:33%"></i>
+</div>
+<div class="mapkey"><span><i class="r"></i>read, first part (17 pages)</span><span><i></i>unread (56 pages; one carries a grid of two-letter codes, not runes)</span><span><i class="x"></i>read, the two closing pages</span></div>
+
+<div class="sec">
+  <div class="meta"><span>Page 1</span><span>Method: Atbash, the rune alphabet reversed</span></div>
+  <h2 class="red">A Warning</h2>
+  <p class="t">Believe nothing from this book except what you know to be true.</p>
+  <p class="t">Test the knowledge. Find your truth. Experience your death.</p>
+  <p class="t">Do not edit or change this book, or the message contained within, either the words or their numbers, for all is sacred.</p>
+</div>
+
+<div class="sec">
+  <div class="meta"><span>Pages 3 to 5</span><span>Method: Vigenère with the key <code>DIVINITY</code>; a plaintext F is left unencrypted</span></div>
+  <h2 class="red">Welcome</h2>
+  <p class="t">Welcome, pilgrim, to the great journey toward the end of all things. It is not an easy trip, but for those who find their way here it is a necessary one.</p>
+  <p class="t">Along the way you will find an end to all struggle and suffering, your innocence, your illusions, your certainty, and your reality. Ultimately, you will discover an end to self.</p>
+  <p class="t">It is through this pilgrimage that we shape ourselves and our realities. Journey deep within and you will arrive outside. Like the instar, it is only through going within that we may emerge.</p>
+  <h3>Wisdom</h3>
+  <p class="t">You are a being unto yourself. You are a law unto yourself. Each intelligence is holy. For all that lives is holy.</p>
+  <p class="t">An instruction: command your own self.</p>
+  <h3>Some Wisdom</h3>
+  <p class="t">The primes are sacred. The totient function is sacred. All things should be encrypted.</p>
+  <h3>Know This</h3>
+  <p class="t"><em>A heading with no text beneath it; the book's pages 4 and 5 carry only a figure.</em></p>
+</div>
+
+<div class="sec">
+  <div class="meta"><span>Pages 6 to 9</span><span>Method: Atbash, then a shift of 3</span></div>
+  <h2 class="red">A Koan</h2>
+  <p class="t">A man decided to go and study with a master. He went to the door of the master.</p>
+  <p class="t q">"Who are you who wishes to study here?" asked the master.</p>
+  <p class="t">The student told the master his name.</p>
+  <p class="t q">"That is not who you are, that is only what you are called. Who are you who wishes to study here?" he asked again.</p>
+  <p class="t">The man thought for a moment, and replied, "I am a professor."</p>
+  <p class="t q">"That is what you do, not who you are," replied the master. "Who are you who wishes to study here?"</p>
+  <p class="t">Confused, the man thought some more. Finally, he answered, "I am a human being."</p>
+  <p class="t q">"That is only your species, not who you are. Who are you who wishes to study here?" asked the master again.</p>
+  <p class="t">After a moment of thought, the professor replied, "I am a consciousness inhabiting an arbitrary body."</p>
+  <p class="t q">"That is merely what you are, not who you are. Who are you who wishes to study here?"</p>
+  <p class="t">The man was getting irritated. "I am," he started, but he could not think of anything else to say, so he trailed off.</p>
+  <p class="t">After a long pause the master replied, "Then you are welcome to come study."</p>
+  <h3>An Instruction</h3>
+  <p class="t">Do four unreasonable things each day.</p>
+</div>
+
+<div class="sec">
+  <div class="meta"><span>Pages 10 to 13</span><span>Method: none; the runes read directly</span></div>
+  <h2 class="red">The Loss of Divinity</h2>
+  <p class="t">The circumference practices three behaviors which cause the loss of divinity.</p>
+  <h3>Consumption</h3>
+  <p class="t">We consume too much because we believe the following two errors within the deception:</p>
+  <ol class="n"><li>We do not have enough, or there is not enough.</li><li>We have what we have now by luck; and we will not be strong enough later to obtain what we need.</li></ol>
+  <p class="t">Most things are not worth consuming.</p>
+  <h3>Preservation</h3>
+  <p class="t">We preserve things because we believe we are weak. If we lose them we will not be strong enough to gain them again. This is the deception. Most things are not worth preserving.</p>
+  <h3>Adherence</h3>
+  <p class="t">We follow dogma so that we can belong and be right; or we follow reason so we can belong and be right. There is nothing to be right about; to belong is death.</p>
+  <p class="t">It is the behaviors of consumption, preservation and adherence that have us lose our primality, and thus our divinity.</p>
+  <h3>Some Wisdom</h3>
+  <p class="t">Amass great wealth. Never become attached to what you own. Be prepared to destroy all that you own.</p>
+  <h3>An Instruction</h3>
+  <p class="t">Program your mind. Program reality.</p>
+</div>
+
+<div class="sec">
+  <div class="meta"><span>Pages 14 to 16</span><span>Method: Vigenère with the key <code>FIRFUMFERENFE</code>, "circumference" written through the F rule</span></div>
+  <h2 class="red">A Koan</h2>
+  <p class="t">During a lesson, the master explained the I. "The I is the voice of the circumference," he said.</p>
+  <p class="t">When asked by a student to explain what that meant, the master said, "It is a voice inside your head."</p>
+  <p class="t">"I don't have a voice in my head," thought the student, and he raised his hand to tell the master.</p>
+  <p class="t">The master stopped the student, and said, "The voice that just said you have no voice in your head; is the I."</p>
+  <p class="t">And the students were enlightened.</p>
+  <h3>An Instruction</h3>
+  <p class="t">Question all things. Discover truth inside yourself. Follow your truth. Impose nothing on others.</p>
+  <h3>Know This</h3>
+  <p class="t"><em>Again a heading alone; the next page is the last of the first part and carries a figure.</em></p>
+</div>
+
+<div class="gap">
+  <b>Here the book goes dark for 56 pages.</b>
+  Pages 17 to 72 of the images: 12,956 runes that read as noise in every measurement except one, a rune almost never following itself. Every method above, every key the book names, every published text Cicada pointed at, and the number streams it venerates have been tried against them with planted controls. None opens them. Whatever they say is written in the same alphabet and, by every sign, the same register as what you have just read, four times as much of it.
+</div>
+
+<div class="sec">
+  <div class="meta"><span>Page 73</span><span>Method: a stream of totients of the primes, φ(p) for p = 2, 3, 5, …; a plaintext F left unencrypted</span></div>
+  <h2 class="red">An End</h2>
+  <p class="t">Within the deep web, there exists a page that hashes to</p>
+  <p class="t"><code style="font-family:var(--mono); font-size:.9rem; word-break:break-all">36367763ab73783c7af284446c59466b4cd653239a311cb7116d4618dee09a8425893dc7500b464fdaf1672d7bef5e891c6e2274568926a49fb4f45132c2a8b4</code></p>
+  <p class="t">It is the duty of every pilgrim to seek out this page.</p>
+</div>
+
+<div class="sec">
+  <div class="meta"><span>Page 74</span><span>Method: none; the runes read directly</span></div>
+  <h2 class="red">Parable</h2>
+  <p class="t">Like the instar tunneling to the surface, we must shed our own circumferences. Find the divinity within and emerge.</p>
+</div>
+
+<p class="note">Text follows the community transcription and translation maintained in rtkd's iddqd repository, lightly set with sentence case and punctuation; two spellings in the original ("beleive", "kwestion") are normalised. Page numbers are image numbers in the complete 75-page set. The hash on page 73 identifies a Tor hidden-service page that has never been found. Compiled 27 October 2026 from github.com/RiskAverseTech/cicada-ioc.</p>
+</div>
+
+</body>
+</html>
