@@ -1,4 +1,6 @@
 {
+ "null_prior": -0.8,
+ "decoder_max_skip": 2,
  "ntests": 2514930,
  "nconf": 22863,
  "q": 0.22,

@@ -185,8 +185,8 @@ for name, m, s, z in rows:
     verdict = "**consistent on all four**" if ok else ("matches doublets, fails lag-1 structure" if dbl_ok and abs(z[1]) >= 3 else ("matches doublets, fails elsewhere" if dbl_ok else "ruled out"))
     out.append(f"| {name} | {m[0]:.0f} ± {s[0]:.0f} | {z[0]:+.1f} | {m[1]:.0f} | {z[1]:+.1f} | {m[2]:.0f} | {z[2]:+.1f} | {m[3]:.4f} | {z[3]:+.1f} | {verdict} |")
 out += ["", "## Reading", "",
-        "- Anything additive with a key independent of the text (uniform, running key, hand pad, the book's own Vigenère and totient streams) gives",
-        "  doublets at the uniform rate: a doublet needs P_i − P_{i+1} ≡ K_{i+1} − K_i, and an independent key hits that one time in 29 whatever it does.",
+        "- Anything additive with a key independent of the text and uniform in its successive differences (iid uniform, running key, hand pad, the book's own Vigenère and totient streams) gives",
+        "  doublets at the uniform rate: a doublet needs P_i − P_{i+1} ≡ K_{i+1} − K_i, which a key with uniform differences hits one time in 29. Independence alone is not enough: a constant key is independent of the text and keeps every plaintext doublet.",
         "- Autokeys tie the key to the text and change the doublet rate, but not downward enough (plaintext autokey raises it; ciphertext autokey makes a",
         "  doublet a plaintext F, about 1.6%) and they leave a non-flat lag-1 structure that the pages do not show.",
         "- A ciphertext-feedback rule with a chosen offset can hit any doublet rate, including the observed one, but then the lag-1 difference stream is",

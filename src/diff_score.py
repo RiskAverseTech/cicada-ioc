@@ -61,7 +61,7 @@ def score_all(Dw):
 
 rows = []
 h0_moments = {}
-for n in (60, 100, 150, 250):
+for n in (60, 100, 150, 250, 300):   # 300 added 2026-10-27: overlaps run to 277 and np.interp clamps beyond the table
     H0 = score_all(rng.integers(0, N, size=(200_000, n)))
     X1, Y1 = windows(B1, n, 20_000), windows(B2, n, 20_000)
     H1 = score_all((X1 - Y1) % N)
@@ -119,7 +119,7 @@ if RESCAN and REUSE:
         out.append(f"| {ids[i]}/{ids[j]} | {k:+d} | {sig[pi_, oi]:.2f} | {n} |")
     verdict = "null" if (obs_n5 <= max(null_n5) or np.nanmax(sig) <= max(null_max)) and zp.max() <= max(null_zp_max) else "POSITIVE: inspect"
     out += ["", f"**Rescan verdict: {verdict}.** If every page shared one keystream, the pooled z at offset 0 would be about {sig_best:.1f} sigma per pair × √1485 ≈ {exp_pool:.0f}; "
-            f"if a quarter of the pages did, about {exp_pool/4:.0f}. The observed {zp[offs == 0][0]:+.2f} is indistinguishable from the permutation null.", ""]
+            f"if 13 of the 55 pages did, about {exp_pool*78/1485:.0f} (shared pairs scale with the square of the page fraction: 78 of 1,485), and a cluster of 7 pages about {exp_pool*21/1485:.1f}, below detection. The observed {zp[offs == 0][0]:+.2f} is indistinguishable from the permutation null.", ""]
 elif RESCAN:
     t0 = time.time()
     P = len(pages); pairs = [(i, j) for i in range(P) for j in range(i + 1, P)]
@@ -132,7 +132,7 @@ elif RESCAN:
         s = (LU[Dv] - LOGU).sum() if best == "uni" else (LU[Dv[0]] - LOGU) + (LB[Dv[:-1], Dv[1:]] - LOGU).sum()
         mu0 = n * (np.exp(LOGU) * (LU - LOGU)).sum() * N / N if best == "uni" else n * ((LB - LOGU) / N).sum() / N
         # per-length null moments from the simulation table, interpolated linearly in n
-        ns = np.array([60, 100, 150, 250]); m0s = np.array([h0_moments[(k, best)][0] for k in ns]); s0s = np.array([h0_moments[(k, best)][1] for k in ns])
+        ns = np.array([60, 100, 150, 250, 300]); m0s = np.array([h0_moments[(k, best)][0] for k in ns]); s0s = np.array([h0_moments[(k, best)][1] for k in ns])
         m0 = np.interp(n, ns, m0s); s0 = np.interp(n, ns, s0s)
         return (s - m0) / s0
 
@@ -173,7 +173,7 @@ elif RESCAN:
     verdict = "null" if (obs_n5 <= max(null_n5) or np.nanmax(sig) <= max(null_max)) and zp.max() <= max(null_zp_max) else "POSITIVE: inspect"
     exp_pool = sig_best * np.sqrt(np.isfinite(sig[:, offs == 0]).sum())
     out += ["", f"**Rescan verdict: {verdict}.** If every page shared one keystream, the pooled z at offset 0 would be about {sig_best:.1f} sigma per pair × √1485 ≈ {exp_pool:.0f}; "
-            f"if a quarter of the pages did, about {exp_pool/4:.0f}. The observed {zp[offs == 0][0]:+.2f} is indistinguishable from the permutation null.", ""]
+            f"if 13 of the 55 pages did, about {exp_pool*78/1485:.0f} (shared pairs scale with the square of the page fraction: 78 of 1,485), and a cluster of 7 pages about {exp_pool*21/1485:.1f}, below detection. The observed {zp[offs == 0][0]:+.2f} is indistinguishable from the permutation null.", ""]
     np.savez(RESULTS / "rescan_arrays.npz", sig=sig, offs=offs, pairs=np.array(pairs), ids=np.array(ids), null_zp=nulls)
     json.dump({"null_max": [float(x) for x in null_max], "null_zp_max": [float(x) for x in null_zp_max], "null_n5": null_n5}, open(RESULTS / "rescan_null.json", "w"))
 else:

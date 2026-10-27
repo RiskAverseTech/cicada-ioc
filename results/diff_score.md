@@ -47,5 +47,5 @@ Top per-pair hits:
 | LP2-16/LP2-42 | +126 | 4.31 | 146 |
 | LP2-08/LP2-39 | -85 | 4.25 | 170 |
 
-**Rescan verdict: null.** If every page shared one keystream, the pooled z at offset 0 would be about 3.5 sigma per pair × √1485 ≈ 135; if a quarter of the pages did, about 34. The observed -2.31 is indistinguishable from the permutation null.
+**Rescan verdict: null.** If every page shared one keystream, the pooled z at offset 0 would be about 3.5 sigma per pair × √1485 ≈ 135; if 13 of the 55 pages did, about 7 (shared pairs scale with the square of the page fraction: 78 of 1,485 pairs, not a quarter; the figure 34 stated here until 2026-10-27 was wrong), and a cluster of 7 pages about 1.9, below detection. The observed -2.31 is indistinguishable from the permutation null. Note (2026-10-27): this run interpolated null moments only up to 250 runes, so overlaps of 251-277 runes used the 250-rune moments; the permutation null is computed the same way, so the comparison above is fair, but per-pair sigmas on the longest overlaps carry a small bias. The table now extends to 300; this run has not been repeated.
 

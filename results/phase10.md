@@ -61,3 +61,5 @@ Wall time, longest shard: 48 minutes on 4 shards.
 
 **No page decrypts with free nulls under the hard skip rule.** A hard anti-repeat rule on this repository's key families, all three sign conventions and both F variants, with uniform null runes at unknown positions at the rate the doublet count implies, is excluded at the sensitivity the controls demonstrate. Not covered: non-uniform nulls, null rates far from 0.22 (the controls bracket 0.15 to 0.30), nulls that consume a key value, key streams outside these families.
 
+**Added 2026-10-27 after external review (README §23, results/power.md):** this lane's rule reaches 80 % power only at about 200 runes, so the result is inconclusive, not negative, on the nine pages shorter than that (LP2-49, LP2-55, LP2-51, LP2-32, LP2-22, LP2-14, LP2-15, LP2-53, LP2-06). The earlier closing claim that only unpublished key material remains is withdrawn. Run configuration: null prior −0.8, decoder max_skip 2 (the bound was raised to 4 after this run).
+

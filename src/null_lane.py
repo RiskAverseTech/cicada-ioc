@@ -26,12 +26,12 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import numpy as np
 from lp import *
-from score import decode, null_scores, translit, S_MAX
+from score import decode, null_scores, translit, S_MAX, MAX_SKIP
 from skip_decrypt import combine
 import families as F
 
 Q = 0.22
-PEN = float(os.environ.get("NULLPEN", np.log(Q / (1 - Q))))
+PEN = float(os.environ.get("NULLPEN", -0.8))   # the run value (chosen on controls, see docstring); the Bayesian ln(Q/(1-Q)) = -1.27 recovered fewer controls
 rng = np.random.default_rng(1010)
 lu = F.lu
 pages = F.pages
@@ -121,7 +121,7 @@ if MERGE:
             ("**No page decrypts with free nulls under the hard skip rule.** " if not hits else "**At least one cell meets the rule: inspect it before believing it.** ") +
             "A hard anti-repeat rule on this repository's key families, all three sign conventions and both F variants, with uniform null runes at unknown positions at the rate the doublet count implies, is excluded at the sensitivity the controls demonstrate. Not covered: non-uniform nulls, null rates far from 0.22 (the controls bracket 0.15 to 0.30), nulls that consume a key value, key streams outside these families.", ""]
     (RESULTS / "phase10.md").write_text("\n".join(out) + "\n")
-    json.dump({"ntests": nconf * len(pages_done) * 2, "nconf": nconf, "q": Q, "controls": ctrl_rows, "top": results[:80], "hits": hits, "nulls": nulls}, open(RESULTS / "phase10.json", "w"), indent=1)
+    json.dump({"ntests": nconf * len(pages_done) * 2, "nconf": nconf, "q": Q, "null_prior": PEN, "decoder_max_skip": MAX_SKIP, "controls": ctrl_rows, "top": results[:80], "hits": hits, "nulls": nulls}, open(RESULTS / "phase10.json", "w"), indent=1)
     print("\n".join(out[:4] + out[-6:]))
     sys.exit(0)
 
@@ -178,5 +178,5 @@ for pi_, (pid, C) in enumerate(my_pages):
                 results.append((pid, sign, f_rule, labs[k][0], labs[k][1], float(z[k]), float(sc[k] - base), int(sk[k]), translit(tops[k][:80]) if k in tops else ""))
     print(f"  {pid} done ({pi_+1}/{len(my_pages)}), best z on this page: {max(r[5] for r in results if r[0]==pid):.2f}  [{time.time()-t0:.0f}s]", flush=True)
 
-json.dump({"controls": ctrl_rows, "top": results, "nulls": nulls, "seconds": time.time() - t0}, open(RESULTS / f"phase10_shard{SHARD}.json", "w"), indent=1)
+json.dump({"null_prior": PEN, "decoder_max_skip": MAX_SKIP, "controls": ctrl_rows, "top": results, "nulls": nulls, "seconds": time.time() - t0}, open(RESULTS / f"phase10_shard{SHARD}.json", "w"), indent=1)
 print(f"shard {SHARD}/{NSHARD} written", flush=True)

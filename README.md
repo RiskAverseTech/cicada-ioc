@@ -1,16 +1,21 @@
 # Liber Primus (Cicada 3301): pre-registered cryptanalysis of the unsolved pages
 
-**Status (2026-10-26).** Eight pre-registered analyses on the 56 unsolved pages, each with planted
+**Status (2026-10-27).** Eight pre-registered analyses on the 56 unsolved pages, each with planted
 controls, each a negative result reported as one; a three-model hypothesis loop gated on the pages'
 own statistics (§17); and a ledger against the other public 2026 labs (`results/ledger_diff.md`).
 The loop's remaining short-list families are swept in §19 (null); cumulative-Gematria ciphertext
 feedback and the book's streams run globally with no per-page reset in §20 (null); §21 checks a
 Quorum panel's claim that the remaining mechanisms are indistinguishable (they are not), and §22 sweeps
-the one survivor that was still breakable, a hard rule with nulls at unknown positions (null). Nothing
-here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
+the one survivor that was still breakable, a hard rule with nulls at unknown positions (null). §23
+records an external review of 2026-10-27 and what it changed: the z ≥ 6 rule reaches 80 % power
+only at 92 runes under the soft rule and at 200 runes in the null lane, so exclusions on the 2 and 9
+pages shorter than that are inconclusive, not negative; the decoder's rejection bound was raised;
+two calibration statements were corrected. Nothing here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
 was known to the community a decade ago; this repository's contribution is independent
-replication with controls, the exclusion of every key family anyone has named for it, and the
-tooling to test the next one in minutes. Sources and pinned revisions: `SOURCES.md`. Licence: MIT.
+replication with controls, the exclusion of every key family anyone has named for it on the pages
+long enough for the detector to see a planted solution (§23), and the tooling to test the next one in
+minutes. None of this shows that the key was never published; it shows that no accepted decoding
+exists within the tested configurations, at the stated detection limits. Sources and pinned revisions: `SOURCES.md`. Licence: MIT.
 The transcription in `data/raw/` is rtkd/iddqd's; the Latin and Old English corpora are public domain.
 
 ---
@@ -213,7 +218,7 @@ within-page shuffle that keeps each page's rune frequencies.
 
 **The deficit is cipher structure.** Whatever generates these pages makes each rune avoid the
 previous one about four times out of five more often than an additive cipher with an
-independent key can.
+independent, uniform key can.
 
 ## 5. Which constructions reproduce it? (`results/doublets.md`)
 
@@ -224,7 +229,7 @@ non-uniformity of the other lag-1 difference classes (chi² 42 on 27 dof), unigr
 
 | family | doublets | verdict |
 |---|---|---|
-| independent key: uniform, running key from English, hand pad with no repeated key symbol, the book's own Vigenère and totient streams | 430–506 | ruled out: an independent key hits a doublet one time in 29 whatever it does |
+| independent key with uniform differences: iid uniform, running key from English, hand pad with no repeated key symbol, the book's own Vigenère and totient streams | 430–506 | ruled out: a key with uniform successive differences hits a doublet one time in 29 (independence alone is not enough; a constant key keeps every plaintext doublet) |
 | plaintext autokey, lags 1–5 | 481–698 | ruled out, and leaves heavy lag-1 structure |
 | ciphertext autokey, lags 1–5 | 207–445 | ruled out (lag 1 makes a doublet a plaintext F, 1.6%) |
 | ciphertext feedback with an offset chosen so a doublet means EA | 86 | matches the count, but its lag-1 stream is plaintext-shaped (chi² 9,629 vs 42): ruled out |
@@ -265,19 +270,25 @@ single-pair detection stays weak; the pooled test is where the power is.
 20 within-page permutation replicates: no pair reaches 5 sigma (null gives 0–1 per replicate),
 the observed maximum 4.96 sits inside the null range 4.57–5.47, and the pooled z at offset 0 is
 −2.31 against a null of −1.75 ± 0.81. If every page shared one keystream the pooled z would be
-about 135; if a quarter did, about 34. **Null, with a stronger detector than phase 1.**
+about 135; if 13 of the 55 pages did, about 7, since shared pairs scale with the square of the
+page fraction (78 of 1,485 pairs; "about 34" stood here until 2026-10-27 and was wrong). A cluster
+of seven or fewer pages sharing a stream falls below two sigma pooled and below five sigma per pair,
+so small clusters are not excluded. **Null for large-scale reuse, with a stronger detector than phase 1.**
 
 ## 7. What the data supports (phase 2 conclusion)
 
-The unsolved pages of the Liber Primus do not share a keystream with each other at any
-alignment within 200 runes, and no page restarts a short-period generator, now tested with a
+The unsolved pages of the Liber Primus do not share a keystream across any subset of about eight
+pages or more at any alignment within 200 runes (smaller clusters are below the pooled test's
+sensitivity, §6), and no page restarts a short-period generator, now tested with a
 detector 1.9× stronger than before. Their one departure from randomness, 86 doubled runes
 where 445 are expected, is a property of the cipher: the plaintext, the transcription and the
 book's own known ciphers all sit at the normal rate. Of twenty candidate constructions, the only
 one that reproduces every measured statistic is a keystream that is otherwise random and is
 redrawn about four times in five exactly when it would make a rune repeat its predecessor.
 That rules out a precomputed pad used naively, every autokey tried, and every independent-key
-cipher, and it says the generator looks at its own previous output. It does not identify the
+cipher whose successive key differences are uniform (independence alone is not enough: a constant
+key is independent of the text and keeps its doublets), and it says the generator looks at its own
+previous output. It does not identify the
 generator.
 
 Plain-English version for a debate take: *Measured on the transcriptions, the unsolved pages
@@ -285,7 +296,7 @@ share no keystream with each other (pooled test null at 135-sigma sensitivity fo
 The only non-random feature is a fivefold shortage of doubled runes, which is cipher structure,
 not plaintext or transcription. Of twenty constructions simulated, exactly one reproduces all
 the page statistics: a random key redrawn about 81% of the time when it would repeat the
-previous rune. Independent keys, autokeys, running keys and the book's own methods are all
+previous rune. Independent uniform keys, autokeys, running keys and the book's own methods are all
 ruled out.*
 
 ## 8. Phase 3, proposed
@@ -352,7 +363,7 @@ Three phases, all on the real transcription, with pre-registered rules and plant
 The generator looks at its own previous output and avoids repeats, and it is not one of
 Cicada's published mechanisms with that rule bolted on. The next cheap families are feedback
 through the Gematria prime table and short-phrase keys; beyond those, the remaining mass sits
-on key material that was never published, which no analysis recovers.
+on key material outside anything tested here, published or not (wording qualified 2026-10-27, §23).
 
 ## 11. Prior work (checked 2026-10-23)
 
@@ -641,7 +652,94 @@ positions is excluded at the sensitivity the controls show. Not covered: non-uni
 that consume a key value, rates outside 0.15–0.30, key streams outside these families. Runtime 48
 minutes on four shards.
 
-**Where this leaves §21's bracket.** Of the mechanisms that reproduce every ciphertext statistic, the
-breakable branch is now closed for every key the book supplies. What remains is the soft re-draw
-over an independent key, or a hard rule with nulls over a key that is not in the book: both are key
-material that was never published.
+**Where this leaves §21's bracket (reworded 2026-10-27 after external review, §23).** Of the two
+mechanisms that reproduce every ciphertext statistic, the breakable one has no accepted decoding
+within this key library, at the sensitivity the controls show, on pages long enough for the rule to
+have power (§23: lane B reaches 80 % power only at about 200 runes, so this sweep is inconclusive on
+the shorter pages). The earlier wording, that what remains is "key material that was never
+published", claimed more than a search over one library and one mechanism can show: untested texts,
+encodings, start states and mechanisms remain open, and two planted controls scored below the cutoff.
+
+## 23. External review (2026-10-27): detection power by page length, decoder coverage, calibration (`src/power_lane.py`, `src/test_skip.py`, `results/power.md`, `results/skip_consistency.md`)
+
+An independent reviewer read commit f58489d, reran the preparation, the q estimate and the doublet
+audit (checksums, 12,956 runes, 12,901 pairs, 86 doublets against 444.86, q ≈ 0.0364 all reproduced),
+and raised five objections. Checked against the code, all five hold. The data facts stand; several
+conclusions were stated more strongly than the searches support, and this section records what
+changed. The reviewer's point that the detector's blind spots should be measured before any further
+key search was taken in that order.
+
+**1. Power of the z ≥ 6 rule by page length (high).** The rule was calibrated on 240-rune plants; the
+pages run from 66 to 277 runes. `power_lane.py` plants the correct key at seven lengths in four
+families (Vigenère word, three-word phrase, primes, self-running key), 20 plants per cell with signs
+and F variants cycled, 400 random-keystream nulls per plant, and scores it exactly as the sweeps do.
+Lane A is the soft rule with the base decoder (phases 3–9); lane B is the hard rule with 22 % nulls
+and the free-null decoder at the §22 prior (phase 10).
+
+| length | lane A: share at z ≥ 6 (median z) | lane B: share at z ≥ 6 (median z) | pages at or below this length |
+|---|---|---|---|
+| 66 | 0.23 (5.5) | 0.05 (4.0) | 1 |
+| 92 | 0.91 (6.6) | 0.28 (5.4) | 3 |
+| 120 | 1.00 (7.9) | 0.53 (6.0) | 3 |
+| 160 | 1.00 (9.3) | 0.78 (6.9) | 7 |
+| 200 | 1.00 (10.5) | 0.89 (7.8) | 10 |
+| 240 | 1.00 (12.0) | 0.96 (8.7) | 20 |
+| 277 | 1.00 (13.0) | 1.00 (9.9) | 55 |
+
+Median plaintext recovery of the correct key is 0.99–1.00 at every length in lane A and 0.68–0.80 of
+the real positions in lane B, and the correct key ranks first within its family 90–96 % of the time
+at every length in lane A: the correct plaintext is recovered on short pages and still fails the
+rule, exactly the reviewer's finding (their 1/20, 14/20, 20/20 at 66, 92 and 240 runes with
+DIVINITY matches this table). The weakest family reaches 80 % power at **92 runes in lane A** and
+**200 runes in lane B**. So the phase 3–9 exclusions are **inconclusive on LP2-49 (66) and LP2-55
+(76)**, and the phase 10 exclusion is **inconclusive on nine pages: LP2-49, LP2-55, LP2-51 (92),
+LP2-32 (121), LP2-22 (131), LP2-14 (137), LP2-15 (159), LP2-53 (179), LP2-06 (196)**. The phase 10
+control that missed at z 3.1 sat on LP2-15, the shortest control page. Every "excluded" in §§8–22
+now reads with that qualification; the tables in `results/power.md` give the per-family numbers.
+A secondary rule for short pages (z ≥ 4, rank first within family, readable) would have power there,
+since rank is not length-limited, but it is not pre-registered and has not been run.
+
+**2. The closing claim did not follow (high).** §22 ended by saying that what remains is "key material
+that was never published". A search over one key library and one mechanism cannot show that:
+untested texts, encodings, start states and mechanisms remain open, and two of the lane's own
+planted controls scored below its cutoff. The status header, §7, §11 and §22 are reworded to what the
+evidence supports: no accepted decoding exists within the tested configurations, at the stated
+detection limits, on pages long enough for the rule to have power.
+
+**3. The decoder could take at most two consecutive rejections (medium).** Under a hard rule a run of
+k equal key symbols that all collide forces k rejections at one position; `score.decode` allowed one
+skip plus the doubled-letter double skip. It now takes `max_skip` (default 4). `test_skip.py` confirms
+the reviewer's minimal case (plaintext 5 6, key 2 1 1 1 2: the three-rejection path did not exist; it
+does now, and on a two-rune text the unigram model then prefers rune 7 to rune 6, a tie-break between
+two valid encryptions, not a coverage gap) and on 160-rune English with runs injected at 15 % the old
+bound lost 5 % of plaintext positions (0.938 against 0.988 recovered). A census of the key library
+(`results/skip_consistency.md`) finds runs of three or more equal symbols only in the 29 constant
+"shift" keys and 14 one-letter Vigenère words, which a hard rule cannot use at all (a collision never
+resolves), and in two four-word phrase keys. Every sweep before this date ran with the two-rejection
+bound; given that census, none is materially affected, and they have not been rerun.
+
+**4. Reuse-detector calibration (medium).** Two errors in §6 and `results/diff_score.md`: the null
+moments were interpolated only up to 250 runes, so overlaps of 251–277 runes used the 250-rune
+moments (the permutation null is computed the same way, so the verdict stands, but the longest
+pairs' sigmas carry a small bias; the table now extends to 300 and the scan has not been rerun); and
+"a quarter of the pages sharing a stream gives a quarter of the pooled signal" was wrong, since
+shared pairs scale with the square of the page fraction: 13 of 55 pages is 78 of 1,485 pairs, about
+7 sigma pooled rather than 34, and a cluster of seven or fewer pages is below two sigma pooled and
+below five sigma per pair. Phase 2's conclusion now says no reuse across subsets of about eight pages
+or more; smaller clusters are not excluded by any test here.
+
+**5. "Independent key" overstated (medium).** The doublets note said an independent key hits a doublet
+one time in 29 "whatever it does". That needs the key's successive differences to be uniform, not
+independence alone: a constant key is independent of the text and keeps every plaintext doublet. §4,
+§5, §7 and `results/doublets.md` now say so; what is rejected is the simulated constructions, not
+every independent-key cipher.
+
+**Reproducibility.** Phase 10 ran at a null prior of −0.8 while the code default was the Bayesian
+−1.27. The default is now the run value, and the prior and decoder bound are written into every
+result file (`results/phase10.json` carries the values the run used). Runtime of this section: the
+power lane 11 minutes, the consistency test under a minute.
+
+The reviewer's summary is the right one for the repository as a whole: a reproducible investigation
+with strong foundations, and no support for calling the key families exhausted or the missing
+material unpublished.
+

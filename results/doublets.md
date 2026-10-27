@@ -29,8 +29,8 @@ a construction is consistent with the pages when every |z| is small. Doublets is
 
 ## Reading
 
-- Anything additive with a key independent of the text (uniform, running key, hand pad, the book's own Vigenère and totient streams) gives
-  doublets at the uniform rate: a doublet needs P_i − P_{i+1} ≡ K_{i+1} − K_i, and an independent key hits that one time in 29 whatever it does.
+- Anything additive with a key independent of the text and uniform in its successive differences (iid uniform, running key, hand pad, the book's own Vigenère and totient streams) gives
+  doublets at the uniform rate: a doublet needs P_i − P_{i+1} ≡ K_{i+1} − K_i, which a key with uniform differences hits one time in 29. Independence alone is not enough: a constant key is independent of the text and keeps every plaintext doublet.
 - Autokeys tie the key to the text and change the doublet rate, but not downward enough (plaintext autokey raises it; ciphertext autokey makes a
   doublet a plaintext F, about 1.6%) and they leave a non-flat lag-1 structure that the pages do not show.
 - A ciphertext-feedback rule with a chosen offset can hit any doublet rate, including the observed one, but then the lag-1 difference stream is

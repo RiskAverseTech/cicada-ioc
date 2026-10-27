@@ -15,6 +15,7 @@ from lp import N, PROCESSED, LATIN
 
 LOGU = np.log(1 / N)
 S_MAX = 48               # skips allowed per page (the pages have ~230 runes; ~81% of ~8 would-be doublets)
+MAX_SKIP = 4             # consecutive key rejections the decoder can take at one position (2 before 2026-10-27, see README §23)
 
 
 def english_model():
@@ -28,7 +29,7 @@ def english_model():
     return lu, lb, plain
 
 
-def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, penalty=0.0, rejection="one", mult_inv=None, offset=None):
+def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, penalty=0.0, rejection="one", mult_inv=None, offset=None, max_skip=MAX_SKIP):
     """C: (n,) ciphertext; Ks: (m, L) keystreams, L >= n + S_MAX.
     mode "sub": P = C - K (additive cipher C = P + K); mode "beaufort": P = K - C (C = K - P).
     For C = P - K pass -K with mode "sub".  The forced-skip condition C_i - C_{i-1} == K_j - K_{j-1}
@@ -50,13 +51,17 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
     offset (phase 9): a per-position key component known from the ciphertext (shape (n,)), e.g. a
     function of the cumulative Gematria value of the runes before i; the key at i is offset[i] + K_j,
     so P = C - offset - K (mode "sub") or P = K + offset - C (beaufort).  Skip condition unchanged.
+    max_skip (2026-10-27, after external review): under rejection "one" a hard rule can reject several
+    consecutive key symbols at one position when they are all equal (each would reproduce C_{i-1}); the
+    decoder takes k = 1..max_skip rejections where K_{j-1} = ... = K_{j-k} and the one-skip condition
+    holds.  Results before that date used max_skip = 2 (one skip plus the doubled-letter double skip).
     Returns best LLR (m,), best final state (m,), decoded plaintext along the best path (m, n)."""
     C = np.asarray(C); m, L = Ks.shape; n = len(C)
     T0 = (int((C == 0).sum()) if f_rule else 0) + (int(np.asarray(null_mask).sum()) if null_mask is not None else 0)  # room for j < i
     S = T0 + S_MAX + 1
     NEG = -1e9
     dp = np.full((m, S), NEG); dp[:, T0] = 0.0
-    back = np.zeros((n, m, S), dtype=np.int8)          # 0 stay, 1 skip or extra advance (from t-1), 2 double skip (from t-2), -1 literal F, -3 uniform null (from t+1)
+    back = np.zeros((n, m, S), dtype=np.int8)          # 0 stay, k>0: k rejections or extra advance (from t-k), -1 literal F, -3 uniform null (from t+1)
     rows = np.arange(m)
     jbase = np.arange(S) - T0                            # j = i + jbase[t]
     gF = lu[0] - LOGU
@@ -74,18 +79,16 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
         if i > 0 and rejection == "one":
             Kprev = Ks[:, np.clip(j - 1, 0, L - 1)]
             cond = ((c - C[i - 1]) - (Kj - Kprev)) % N == 0
-            skip = np.full((m, S), NEG)
-            skip[:, 1:] = np.where(cond[:, 1:], dp[:, :-1] + gain[:, 1:], NEG)
-            take = skip > cand
-            cand = np.where(take, skip, cand); src = np.where(take, 1, src)
-            # double skip: two consecutive key symbols both would have reproduced C_{i-1},
-            # which requires K_{j-2} == K_{j-1} (doubled key letters, common in phrase keys)
-            Kprev2 = Ks[:, np.clip(j - 2, 0, L - 1)]
-            cond2 = cond & (Kprev == Kprev2)
-            skip2 = np.full((m, S), NEG)
-            skip2[:, 2:] = np.where(cond2[:, 2:], dp[:, :-2] + gain[:, 2:], NEG)
-            take = skip2 > cand
-            cand = np.where(take, skip2, cand); src = np.where(take, 2, src)
+            # k rejections at this position: K_{j-1} .. K_{j-k} all equal, each would have reproduced
+            # C_{i-1} (k = 2 is the doubled-letter case; k up to max_skip covers longer runs in the key)
+            condk = cond
+            for k in range(1, max_skip + 1):
+                if k > 1:
+                    condk = condk & (Ks[:, np.clip(j - k, 0, L - 1)] == Kprev)
+                skipk = np.full((m, S), NEG)
+                skipk[:, k:] = np.where(condk[:, k:], dp[:, :-k] + gain[:, k:], NEG)
+                take = skipk > cand
+                cand = np.where(take, skipk, cand); src = np.where(take, k, src)
         elif i > 0 and rejection == "two":
             # skip_by_two: the rejected draw K_{j-2} would have reproduced C_{i-1}; K_{j-1} was
             # discarded unread; K_j is the symbol used.  Same condition under both modes.
@@ -123,7 +126,7 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
         if mult_inv is not None:
             dec = (dec * (mult_inv[i] if mult_inv.ndim == 1 else mult_inv[:, i])) % N
         out[:, i] = np.where(src == -1, 0, np.where(src == -3, c, dec))   # a null is written as itself
-        t = t - (src == 1) - 2 * (src == 2) + (src == -1) + (src == -3)
+        t = t - np.where(src > 0, src, 0) + (src == -1) + (src == -3)
     return best, t_best - T0, out
 
 
