@@ -4,7 +4,8 @@
 controls, each a negative result reported as one; a three-model hypothesis loop gated on the pages'
 own statistics (§17); and a ledger against the other public 2026 labs (`results/ledger_diff.md`).
 The loop's remaining short-list families are swept in §19 (null); cumulative-Gematria ciphertext
-feedback and the book's streams run globally with no per-page reset in §20 (null). Nothing
+feedback and the book's streams run globally with no per-page reset in §20 (null); §21 checks a
+Quorum panel's claim that the remaining mechanisms are indistinguishable (they are not). Nothing
 here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
 was known to the community a decade ago; this repository's contribution is independent
 replication with controls, the exclusion of every key family anyone has named for it, and the
@@ -579,3 +580,33 @@ Two families nobody's ledger had closed. **Family A** keys each rune by the cumu
 **Controls.** Eighteen plants spanning both families, all signs and F variants. Fifteen recovered at z 10.9–14.0, rank 1. The three family-A `sub` plants failed outright (z ≈ 0, 4 % of runes), and the cause was a bug, not the decoder: for that sign the cumulative offset was passed un-negated, so family A × sub was testing C = P + O − K instead of C = P − O − K. The sign was fixed, family A × sub was rerun for every page and both F variants with fresh nulls (a minute per shard), and six fresh A × sub plants, two of them F = true, all recover at z 10.2–13.5, rank 1 (`results/phase9.md`, `results/phase9_redo_controls.log`). The first-run rows stay in the table, marked. Family B and the other two family-A signs were never affected.
 
 **Result: null.** Largest z over all tests 5.44 (LP2-40, totient stream at global offset 11,571, gibberish); family A 4.38, family B 5.44. Keys driven by the cumulative value of the preceding ciphertext, and the book's six streams with no per-page reset, are excluded at the sensitivity the controls show. Not covered: cumulative sums of the *plaintext* (an autokey the Viterbi state cannot carry; it needs a different decoder), sums that include the current rune, and streams outside these six.
+
+## 21. Verdict check: a Quorum panel's mechanism question, tested (`src/verdict_check.py`, `results/verdict_check.md`)
+
+After §20 the question was put to a five-model Quorum panel in a different form: not "which key" but
+"what mechanism leaks 19% of repeats in an anti-repeat rule", with four new ciphertext-only premises
+computed first (`results/verdict_check.md`, premises): the deficit is homogeneous across pages
+(dispersion chi² 59 on 55 dof), rune-blind (chi² 28 on 28), position-blind, and the ciphertext
+conditioned on the previous rune has IC 0.0358 against 0.0357 uniform, which excludes any fixed table
+indexed by the previous ciphertext rune, additive or not. The panel (quorumsays.com/q/8gvLyrvHouBK,
+2026-10-26) answered that a soft keep constant, a hard rule plus about 10% uniform nulls, and a hard
+rule over a memoryless sticky key are equivalent on every figure, and named lag-2 repeats as the one
+discriminator.
+
+**Checked by simulation** (200 replicates of solved-page English at the real page lengths, five
+statistics): the three are not equivalent. Hard rule plus 10% nulls gives 40 ± 6 doublets (z +7.8);
+it needs about 22% nulls to reach 86. A sticky key at the rate that gives 86 doublets lifts the lag-1
+difference chi² to 74 ± 16 against the observed 42 (z −2.0), because the key's repeats copy a
+0.17-weighted image of the plaintext difference distribution into the ciphertext; a rate low enough
+to keep the differences flat gives 49 doublets. Lag-2 repeats land within one sigma of the observed
+435 under every construction, including an independent key, so they discriminate nothing (hard-rule
+expectation 458 ± 22, not the panel's 463).
+
+**What survives:** the soft re-draw of §5 and a hard rule with about 22% uniform nulls, which no decoder
+here models (nulls at unknown positions need an insertion state at every position; §14 ran nulls at
+word edges only). The observed difference chi² of 42 sits two sigma above every flat model and two
+sigma below the sticky model, the faint excess §5 noted, now bracketed from both sides. The panel's
+useful contributions were negative: the 19%-repeating key of the asker's take collapses into a
+generator constant and is not a nameable family, and its claim scorer flagged two figures stated
+without a source (a "2.8-sigma" doublet excess, really 17 sigma; a solved-page runes-per-page norm,
+which is typesetting). Runtime 6 minutes.
