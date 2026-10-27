@@ -9,7 +9,7 @@
 | The one structure | 86 doubled runes where 445 are expected; flat in every other statistic |
 | Best current reading | key redrawn ~4 times in 5 when it would repeat; lag-2 at chance points to a program, not a hand |
 | External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
-| Repository | 26 numbered sections, 25 commits, last 9ed37b8 2026-10-27 |
+| Repository | 26 numbered sections, 26 commits, last 4ac7fae 2026-10-27 |
 
 ## Lanes
 
@@ -17,14 +17,14 @@
 |---|---|---|---|---|---|
 | §1–3 | Key reuse between pages (IC, pooled offsets) | — | planted 12/12 | null, large-scale | clusters under ~12 pages not excluded |
 | §4–7 | Doublet deficit and twenty constructions | — | — | 86 vs 445; soft re-draw 0.81 survives | mechanism inference, not a key |
-| §9 | Phase 3: book streams + skip rule | 0.5 M | 12/12 | null |  |
-| §12 | Phase 4: phrase and sentence keys | 2.0 M | 18/18 | null |  |
-| §13 | Phase 5: Latin and Old English registers | 5.0 M | 24/24 | null |  |
-| §14 | Phase 6: word-edge events | 10.1 M | 12/12 | null |  |
-| §16 | Phase 7: skip-by-two rule | 2.5 M | 24/24 | null |  |
-| §18 | Phase 8: LCG seeds, position multipliers | 1.7 M | 14/14 | null |  |
-| §19 | Short-list lane (panel's finite families) | 24.8 M | 14/14 | null |  |
-| §20 | Phase 9: Gematria feedback, global streams | 27.3 M | 12/12 | null |  |
+| §9 | Phase 3: book streams + skip rule | 0.5 M | 20/20 | null |  |
+| §12 | Phase 4: phrase and sentence keys | 2.0 M | 26/26 | null |  |
+| §13 | Phase 5: Latin and Old English registers | 5.0 M | 24 (12 per register) | null |  |
+| §14 | Phase 6: word-edge events | 10.1 M | 24/24 | null |  |
+| §16 | Phase 7: skip-by-two rule | 2.5 M | 24 plants | null |  |
+| §18 | Phase 8: LCG seeds, position multipliers | 1.7 M | 16/16 | null |  |
+| §19 | Short-list lane (panel's finite families) | 24.8 M | 14 (12 rank 1) | null |  |
+| §20 | Phase 9: Gematria feedback, global streams | 27.3 M | 18 (3 exposed a bug, fixed) | null |  |
 | §22 | Phase 10: unknown-position nulls, hard rule | 2.5 M | 15/18 | null | inconclusive on 9 short pages (§23) |
 | §24 | Short-page secondary rule, 9 pages | 2.5 M | A 39/45, B 31/45 | null | phase 3–4 library only |
 | §25 | External running key, exact every offset | — | 15/17 | running | 13 texts; Beaufort, F variants, reversal |
