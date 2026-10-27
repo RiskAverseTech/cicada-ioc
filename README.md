@@ -1,6 +1,6 @@
 # Liber Primus (Cicada 3301): pre-registered cryptanalysis of the unsolved pages
 
-**Status (2026-10-27).** Eight pre-registered analyses on the 56 unsolved pages, each with planted
+**Status (2026-10-27; one-screen box in `STATUS.md`).** Eight pre-registered analyses on the 56 unsolved pages, each with planted
 controls, each a negative result reported as one; a three-model hypothesis loop gated on the pages'
 own statistics (§17); and a ledger against the other public 2026 labs (`results/ledger_diff.md`).
 The loop's remaining short-list families are swept in §19 (null); cumulative-Gematria ciphertext
