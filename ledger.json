@@ -1,7 +1,7 @@
 {
  "generated_by": "src/status.py",
  "repository": "https://github.com/RiskAverseTech/cicada-ioc",
- "head": "2026-10-27",
+ "head": "2026-10-28",
  "breakthroughs": 0,
  "breakthrough_definition": "a page decoding to readable English at a pre-registered bar, reproduced by someone else",
  "lanes": [
@@ -238,12 +238,30 @@
    "verdict": "0 disagreements; 149 unread",
    "coverage_limit": "pre-registered count criterion failed by the segmenter",
    "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a739",
+   "lane": "Phases 6-8 on the nine short pages, 5-gram rule",
+   "tests": null,
+   "controls": "22/24, 24/24, 15/16",
+   "verdict": "null",
+   "coverage_limit": "phase 9 not yet carried there",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a740",
+   "lane": "Pilgrim texts (Bunyan, Chaucer) as running keys",
+   "tests": 40083780,
+   "controls": "3/3",
+   "verdict": "null",
+   "coverage_limit": "The Way of a Pilgrim not run (no free text)",
+   "date": "2026-10-27"
   }
  ],
  "open": [
   "Filler (null) lane on LP2-49, LP2-55, LP2-51: below power at any rule tried",
   "Mixed alphabets under the other labs' key families (external texts, PRNG seeds): the quagmire lane covered the book's own keys only",
-  "Phase 9 mechanisms on the nine short pages (phases 6-8 done 2026-10-28)",
+  "Phase 9 mechanisms on the nine short pages",
   "149 unread positions of the blind re-reading (merged \u16b3 pairs, drop caps): a better splitter or the eye",
   "Red-text key schedule (the red initials and first words), ledger check first",
   "wazar's 29 fetched-but-never-run esoteric texts (R12-C2)",

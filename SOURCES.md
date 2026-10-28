@@ -101,3 +101,7 @@ SHA-256 and `data/images/filelist.tsv` the archive paths and sizes.
 
 Public key `data/raw/pgp/cicada_7A35090F_pubkey.asc` from https://keys.openpgp.org/vks/v1/by-fingerprint/6D854CD7933322A601C3286D181F01E57A35090F.
 Messages from wazar/cicada3301 `corpus/A-primary-artifacts/` (pgp/messages/2012-01-necrome-denial.asc, ibotpeaches/messages/2016/hello-the-path-lies-empty.asc, ibotpeaches/messages/2017/beware-false-paths.asc). SHA-256 in `data/raw/pgp/SHA256SUMS.txt`.
+
+## Pilgrim corpus (fetched 2026-10-28; `CORPUS_SET=pilgrim src/corpus.py`, README §40)
+
+`data/corpus/raw/bunyan_pilgrims_progress_pg131.txt` from https://gutenberg.pglaf.org/1/3/131/131-0.txt (Project Gutenberg #131); `data/corpus/raw/chaucer_canterbury_pg2383.txt` from https://gutenberg.pglaf.org/2/3/8/2383/2383-0.txt (#2383). Rune counts in `data/corpus/CORPUS_pilgrim.md`.

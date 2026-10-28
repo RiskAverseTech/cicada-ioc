@@ -48,7 +48,8 @@ V2LIMIT = 25_000
 Z_UNI, Z_BIG, NREPS, SOFT = 7.0, 3.0, (200 if SMOKE else 2000), 0.81
 LOGU = np.log(1 / N)
 SIGNS = (("sub", "sub"), ("add", "sub"), ("beaufort", "beaufort"))   # (sign, decoder mode)
-corpus = json.loads((Path(__file__).resolve().parent.parent / "data" / "corpus" / "corpus.json").read_text())
+CORPUS_FILE = os.environ.get("CORPUS", "corpus.json"); TAG = os.environ.get("TAG", "runkey")
+corpus = json.loads((Path(__file__).resolve().parent.parent / "data" / "corpus" / CORPUS_FILE).read_text())
 EXACT = {k: v for k, v in corpus.items() if len(v["runes"]) <= LIMIT}
 SENT = {k: v for k, v in corpus.items() if len(v["runes"]) > LIMIT}
 if SMOKE:
@@ -114,7 +115,7 @@ t0 = time.time()
 RES = RESULTS
 
 if MERGE:
-    shards = sorted(RES.glob("runkey_shard*.json"))
+    shards = sorted(RES.glob(f"{TAG}_shard*.json"))
     data = [json.loads(p.read_text()) for p in shards]
     controls = [c for d in data for c in d["controls"]]; cells = [c for d in data for c in d["cells"]]; ntests = sum(d["ntests"] for d in data)
     cands = [c for c in cells if c["z"] >= Z_UNI and c["zb"] >= Z_BIG]
@@ -139,8 +140,8 @@ if MERGE:
     if not cands: out.append("None.")
     zmax = max((c["z"] for c in cells), default=0)
     out += ["", f"Largest z_uni over all tests: {zmax:.2f}. Cells at z_uni >= 5: {sum(1 for c in cells if c['z'] >= 5)}. Runtime, longest shard: {max(d['seconds'] for d in data)/60:.0f} minutes on {len(shards)} shards.", ""]
-    (RES / "runkey.md").write_text("\n".join(out) + "\n")
-    json.dump({"ntests": ntests, "rule": dict(z_uni=Z_UNI, z_big=Z_BIG, nulls=NREPS, max_skip=MAX_SKIP, limit=LIMIT), "controls": controls, "cells": cells}, open(RES / "runkey.json", "w"), indent=1)
+    (RES / f"{TAG}.md").write_text("\n".join(out) + "\n")
+    json.dump({"ntests": ntests, "rule": dict(z_uni=Z_UNI, z_big=Z_BIG, nulls=NREPS, max_skip=MAX_SKIP, limit=LIMIT), "controls": controls, "cells": cells}, open(RES / f"{TAG}.json", "w"), indent=1)
     print("\n".join(out[:6] + out[-4:])); sys.exit(0)
 
 # ---------- controls (shard 0 / smoke) ----------
@@ -190,5 +191,5 @@ for pi_, (pid, C) in enumerate(my_pages):
     bz = max(c["z"] for c in cells if c["page"] == pid)
     print(f"  {pid} ({n} runes) done ({pi_+1}/{len(my_pages)}): best z_uni {bz:.2f}; {ntests:,} tests so far  [{time.time()-t0:.0f}s]", flush=True)
 
-json.dump({"controls": controls, "cells": cells, "ntests": ntests, "seconds": time.time() - t0}, open(RES / (f"runkey_smoke.json" if SMOKE else f"runkey_shard{SHARD}.json"), "w"), indent=1)
+json.dump({"controls": controls, "cells": cells, "ntests": ntests, "seconds": time.time() - t0}, open(RES / (f"{TAG}_smoke.json" if SMOKE else f"{TAG}_shard{SHARD}.json"), "w"), indent=1)
 print(f"shard {SHARD}/{NSHARD} written: {ntests:,} tests, {time.time()-t0:.0f}s", flush=True)

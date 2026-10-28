@@ -43,11 +43,13 @@ LANES = [
     ("§36", "Planted-cluster power of the key-reuse test", None, "30 reps per cell", "measured", "~20 aligned pages for 90 %; blind under key-skip"),
     ("§37", "Repeat spectrum to lag 120, null models, boundary convention", None, "—", "deficit at lag 1 only", ""),
     ("§38", "Blinded glyph re-reading of the unsolved pages", 12807, "99.7 % held-out", "0 disagreements; 149 unread", "pre-registered count criterion failed by the segmenter"),
+    ("§39", "Phases 6-8 on the nine short pages, 5-gram rule", None, "22/24, 24/24, 15/16", "null", "phase 9 not yet carried there"),
+    ("§40", "Pilgrim texts (Bunyan, Chaucer) as running keys", nt("runkey_pilgrim.json"), "3/3", "null", "The Way of a Pilgrim not run (no free text)"),
 ]
 OPEN = [
     "Filler (null) lane on LP2-49, LP2-55, LP2-51: below power at any rule tried",
     "Mixed alphabets under the other labs' key families (external texts, PRNG seeds): the quagmire lane covered the book's own keys only",
-    "Phase 9 mechanisms on the nine short pages (phases 6-8 done 2026-10-28)",
+    "Phase 9 mechanisms on the nine short pages",
     "149 unread positions of the blind re-reading (merged ᚳ pairs, drop caps): a better splitter or the eye",
     "Red-text key schedule (the red initials and first words), ledger check first",
     "wazar's 29 fetched-but-never-run esoteric texts (R12-C2)",

@@ -1,0 +1,13 @@
+  control bunyan_head/runes n=262 add F=False rev=True planted 8511: top 8511 z_uni 11.9 z_big 23.4 -> PASS  [59s]
+  control bunyan_pilgrims_progress/runes n=137 sub F=True rev=False planted 8364: top 8364 z_uni 9.5 z_big 17.6 -> PASS  [66s]
+  control chaucer_canterbury/runes n=92 sub F=True rev=True planted 755913: top 755913 z_uni 8.4 z_big 16.0 -> PASS  [73s]
+controls: 3/3 pass
+  LP2-00 (262 runes) done (1/8): best z_uni 4.73; 728,796 tests so far  [1083s]
+  LP2-07 (208 runes) done (2/8): best z_uni 4.51; 1,457,592 tests so far  [1968s]
+  LP2-14 (137 runes) done (3/8): best z_uni 4.98; 2,186,388 tests so far  [2630s]
+  LP2-21 (273 runes) done (4/8): best z_uni 4.75; 2,915,184 tests so far  [3765s]
+  LP2-28 (269 runes) done (5/8): best z_uni 4.43; 3,643,980 tests so far  [4489s]
+  LP2-35 (271 runes) done (6/8): best z_uni 4.77; 4,372,776 tests so far  [5145s]
+  LP2-42 (272 runes) done (7/8): best z_uni 4.74; 5,101,572 tests so far  [5881s]
+  LP2-49 (66 runes) done (8/8): best z_uni 4.36; 5,830,368 tests so far  [6024s]
+shard 0/7 written: 5,830,368 tests, 6024s

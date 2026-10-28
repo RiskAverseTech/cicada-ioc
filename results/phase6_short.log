@@ -1,0 +1,39 @@
+22863 configurations x 9 pages x 2 F variants x 4 kinds = 1,646,136 tests; chance max ~ 5.4 sigma; event prior -0.323
+  control-00: adv sub phrase-2 'INSTAR TUNNELING' F=False LP2-06 events=20: edge z=10.4 rank 1, edge-base +137.0 nats, base-decoder z=2.5, rec 0.918
+  control-01: advline sub phrase-4-rev 'PILGRIM TO THE GREAT ʳ' F=False LP2-14 events=3: edge z=8.5 rank 1, edge-base +5.5 nats, base-decoder z=7.2, rec 0.949
+  control-02: nulli sub phrase-3 'THAT IS WHAT' F=False LP2-15 events=19: edge z=8.6 rank 1, edge-base +115.7 nats, base-decoder z=2.3, rec nan
+  control-03: nullf sub sentence-rev 'AFTER A MOMENT OF THOUGH' F=False LP2-22 events=10: edge z=10.5 rank 1, edge-base +108.2 nats, base-decoder z=1.7, rec nan
+  control-04: adv add phrase-4 'AND BE RIGHT OR' F=False LP2-32 events=9: edge z=8.9 rank 1, edge-base +63.3 nats, base-decoder z=3.8, rec 0.992
+  control-05: advline add phrase-2-rev 'YOUR INNOCENCE ʳ' F=False LP2-49 events=0: edge z=6.1 rank 1, edge-base +0.0 nats, base-decoder z=5.8, rec 1.000
+  control-06: nulli add sentence 'FOR ALL THAT LIVES IS HO' F=False LP2-51 events=14: edge z=5.7 rank 1, edge-base +84.9 nats, base-decoder z=0.2, rec nan
+  control-07: nullf add phrase-3-rev 'THE WORDS OR ʳ' F=False LP2-53 events=25: edge z=7.0 rank 1, edge-base +120.7 nats, base-decoder z=1.5, rec nan
+  control-08: adv beaufort phrase-2 'ALL IS' F=False LP2-55 events=8: edge z=5.4 rank 1, edge-base +34.4 nats, base-decoder z=2.9, rec 0.987
+  control-09: advline beaufort phrase-4-rev 'HIS HAND TO TELL ʳ' F=False LP2-06 events=3: edge z=11.9 rank 1, edge-base +124.6 nats, base-decoder z=3.9, rec 1.000
+  control-10: nulli beaufort phrase-3 'MASTER HIS NAME' F=False LP2-14 events=10: edge z=8.8 rank 1, edge-base +118.6 nats, base-decoder z=1.0, rec nan
+  control-11: nullf beaufort sentence-rev 'IF WE LOSE THEM WE WILL ' F=False LP2-15 events=24: edge z=9.3 rank 1, edge-base +95.2 nats, base-decoder z=2.9, rec nan
+  control-12: adv sub primes-1 (totient) 'p[n+75]-1' F=True LP2-22 events=15: edge z=7.8 rank 1, edge-base +114.2 nats, base-decoder z=-0.7, rec 0.962
+  control-13: advline sub vigenere-word-rev 'YOUʳ' F=True LP2-32 events=2: edge z=8.5 rank 1, edge-base +12.9 nats, base-decoder z=7.7, rec 0.967
+  control-14: nulli sub primes+1 'p[n+56]+1' F=True LP2-49 events=4: edge z=4.8 rank 2, edge-base +49.4 nats, base-decoder z=0.8, rec nan
+  control-15: nullf sub vigenere-word 'MIND' F=True LP2-51 events=15: edge z=5.6 rank 1, edge-base +35.1 nats, base-decoder z=3.4, rec nan
+  control-16: adv add primes 'p[n+87]' F=True LP2-53 events=20: edge z=9.9 rank 1, edge-base +183.5 nats, base-decoder z=-1.6, rec 0.922
+  control-17: advline add square position 'n²+22' F=True LP2-55 events=0: edge z=6.2 rank 1, edge-base +0.0 nats, base-decoder z=6.3, rec 0.987
+  control-18: nulli add lucas 'L[n+13]' F=True LP2-06 events=18: edge z=8.9 rank 1, edge-base +151.1 nats, base-decoder z=0.2, rec nan
+  control-19: nullf add shift 's=20' F=True LP2-14 events=19: edge z=8.1 rank 1, edge-base +19.9 nats, base-decoder z=6.5, rec nan
+  control-20: adv beaufort fibonacci 'F[n+1]' F=True LP2-15 events=20: edge z=10.6 rank 1, edge-base +118.7 nats, base-decoder z=1.6, rec 0.887
+  control-21: advline beaufort self running key 'plaintext@2698' F=True LP2-22 events=2: edge z=9.5 rank 1, edge-base +16.9 nats, base-decoder z=7.9, rec 0.962
+  control-22: nulli beaufort affine position '2·n+19' F=True LP2-32 events=10: edge z=7.9 rank 1, edge-base +60.6 nats, base-decoder z=3.1, rec nan
+  control-23: nullf beaufort primes-1 (totient) 'p[n+89]-1' F=True LP2-49 events=9: edge z=5.0 rank 3, edge-base +65.5 nats, base-decoder z=-1.3, rec nan
+controls done in 94s
+  LP2-06 done (1/9), best z: adv 3.85, advline 3.68, nulli 3.86, nullf 3.48  [422s]
+  LP2-14 done (2/9), best z: adv 4.28, advline 4.36, nulli 4.75, nullf 4.43  [764s]
+  LP2-15 done (3/9), best z: adv 4.49, advline 4.34, nulli 5.19, nullf 4.70  [1260s]
+  LP2-22 done (4/9), best z: adv 4.23, advline 3.69, nulli 3.66, nullf 3.25  [1600s]
+  LP2-32 done (5/9), best z: adv 3.82, advline 3.82, nulli 3.93, nullf 3.91  [1877s]
+  LP2-49 done (6/9), best z: adv 3.98, advline 3.42, nulli 3.49, nullf 3.42  [2011s]
+  LP2-51 done (7/9), best z: adv 3.68, advline 4.11, nulli 3.96, nullf 4.02  [2220s]
+  LP2-53 done (8/9), best z: adv 4.39, advline 3.46, nulli 3.27, nullf 4.29  [2680s]
+  LP2-55 done (9/9), best z: adv 4.81, advline 5.11, nulli 4.09, nullf 4.14  [2784s]
+None.
+
+Largest z_uni 5.19; largest z_5 2.22.
+

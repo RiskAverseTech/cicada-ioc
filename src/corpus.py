@@ -9,7 +9,7 @@ Gibson's Agrippa is under copyright: its raw file and rune stream stay out of gi
 only its hash is recorded.
 Usage: .venv/bin/python -I src/corpus.py
 """
-import hashlib, html, json, re, sys
+import hashlib, html, json, os, re, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lp import english_to_runes, LATIN, LATIN_ALT
@@ -83,6 +83,17 @@ TEXTS = {
                        "Gibson, Agrippa (A Book of the Dead) (1992), text extracted from the disk image, agrippa.english.ucsb.edu (freek); COPYRIGHTED, raw file and rune stream kept out of git", False),
 }
 
+PILGRIM = {
+    "bunyan_pilgrims_progress": (lambda: gutenberg_body((RAW / "bunyan_pilgrims_progress_pg131.txt").read_text(errors="ignore")),
+                                 "Bunyan, The Pilgrim's Progress (1678), Project Gutenberg #131 (gutenberg.pglaf.org)", True),
+    "bunyan_head": (lambda: gutenberg_body((RAW / "bunyan_pilgrims_progress_pg131.txt").read_text(errors="ignore"))[:72000],
+                    "Bunyan, The Pilgrim's Progress, the first 55,000 runes, for the exact every-offset lane", True),
+    "chaucer_canterbury": (lambda: gutenberg_body((RAW / "chaucer_canterbury_pg2383.txt").read_text(errors="ignore")),
+                           "Chaucer, The Canterbury Tales (Middle English), Project Gutenberg #2383; sentence-start lane only", True),
+}
+if os.environ.get("CORPUS_SET") == "pilgrim":
+    TEXTS = PILGRIM; OUT = RAW.parent / "corpus_pilgrim.json"
+
 if __name__ == "__main__":
     corpus, lines = {}, ["| text | words | runes (V1) | runes (V2) | sha256 of raw file | source |", "|---|---|---|---|---|---|"]
     for name, (loader, source, pd) in TEXTS.items():
@@ -103,6 +114,6 @@ if __name__ == "__main__":
         lines.append(f"| {name} | {len(text.split()):,} | {len(v1):,} | {len(v2):,} | {sha} | {source} |")
         print(f"  {name}: {len(text.split()):,} words -> {len(v1):,} runes (V1), {len(v2):,} (V2); first: {text.strip()[:70]!r}")
     OUT.write_text(json.dumps(corpus))
-    (RAW.parent / "CORPUS.md").write_text("# External running-key corpus\n\nBuilt by `src/corpus.py` from the raw files in `data/corpus/raw/` (hand-fetched 2026-10-27). "
+    (RAW.parent / ("CORPUS_pilgrim.md" if os.environ.get("CORPUS_SET") == "pilgrim" else "CORPUS.md")).write_text("# External running-key corpus\n\nBuilt by `src/corpus.py` from the raw files in `data/corpus/raw/` (hand-fetched 2026-10-27). "
                                           "V1 = book digraph transliteration, V2 = letter by letter.\n\n" + "\n".join(lines) + "\n")
     print("wrote", OUT, "and CORPUS.md")
