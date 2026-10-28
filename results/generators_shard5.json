@@ -1,0 +1,83 @@
+{
+ "controls": [],
+ "survivors": [
+  {
+   "gen": "xorshift32",
+   "red": "mod29",
+   "seed": 9001,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.6000982804492745,
+   "z2": 2.4423170348165257,
+   "z5": 0.5758776610073164,
+   "translit": "ABRIAOROBDTHASLPSFEAEHTTUINGLNIOWSNSIBUSAILOFOIHAYUEBRCNNOAECTITNGHETHPOLIAADHNAYECRFHOW"
+  },
+  {
+   "gen": "pcg32",
+   "red": "top",
+   "seed": 20614,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.533694922082693,
+   "z2": 2.674569369800796,
+   "z5": -0.592709244923775,
+   "translit": "INAPNGHEOAHMAEOSNETHFCDTRURLTHFFWYWGEALIAOETHIAATHENYIAWTDMWTRTTHTIJODSCOTTHLLPNHSOULCMEDT"
+  },
+  {
+   "gen": "minstd16807",
+   "red": "top",
+   "seed": 175356,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.790825516541006,
+   "z2": 2.2915997077701693,
+   "z5": 1.6777042133342315,
+   "translit": "CHTTWNNRNGWYPLCEIAENGEAORDTCSNGTTHFULTHANMOTHTHSTFMUUPEAEONEAONUSIGOETEDEIANNYMFMURGAXNIADMTH"
+  },
+  {
+   "gen": "splitmix64",
+   "red": "top",
+   "seed": 192541,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.583818063758457,
+   "z2": 2.7219322333326916,
+   "z5": 1.084645636638388,
+   "translit": "EEAULEEAINIATSNGWSIACHWBNGPEEPLDRECWDDPUTFFMINGRNGRACNGPTBADNGDELTHRSFOHSFSDSASDTDNELTHEAA"
+  }
+ ],
+ "candidates": [],
+ "ntests_t1": 16180128,
+ "ntests_t2": 4,
+ "zmax": {
+  "xorshift32/mod29": 4.6000982804492745,
+  "xorshift32/top": 4.388546063525354,
+  "xorshift32/rej": 4.08107373999414,
+  "xorshift64/mod29": 4.004300690777905,
+  "xorshift64/top": 4.111364251981073,
+  "xorshift64/rej": 4.124812686203912,
+  "xorshift128/mod29": 4.42237319370429,
+  "xorshift128/top": 3.9680758839413994,
+  "xorshift128/rej": 3.9077674852273976,
+  "pcg32/mod29": 4.12223761843113,
+  "pcg32/top": 4.533694922082693,
+  "pcg32/rej": 4.278743864793209,
+  "minstd16807/mod29": 4.157607391146839,
+  "minstd16807/top": 4.790825516541006,
+  "minstd16807/rej": 4.203333745141616,
+  "minstd48271/mod29": 4.066903732159236,
+  "minstd48271/top": 4.194023540881741,
+  "minstd48271/rej": 4.339921046082326,
+  "randu/mod29": 4.064507063471749,
+  "randu/top": 4.35262855294137,
+  "randu/rej": 2.1438081607468726,
+  "splitmix64/mod29": 4.220113895095063,
+  "splitmix64/top": 4.583818063758457,
+  "splitmix64/rej": 4.0330845612822515
+ },
+ "seconds": 7318.271707773209
+}

@@ -16,7 +16,9 @@ ten at these lengths and a null-lane one about two times in three, under half at
 phase 6–9 mechanisms were not carried to those pages). §25 decodes the texts Cicada pointed at exactly at every offset (null,
 153 million tests); §26 tests the page images (null); §27 adds a rune 5-gram that lifts short-page
 detection to 99 % and reruns the short pages (null); §28 records a hand-versus-machine test with no
-power; §29 tries the two "Know This" magic squares as keys (null). Nothing here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
+power; §29 tries the two "Know This" magic squares as keys (null). §30 verifies Cicada's signed messages by full fingerprint (the 2017
+"hoax" claim is false); §31 sweeps eight seeded generators no ledger lists (null, 113 million window
+decodes). Nothing here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
 was known to the community a decade ago; this repository's contribution is independent
 replication with controls, the exclusion of every key family anyone has named for it on the pages
 long enough for the detector to see a planted solution (§23), and the tooling to test the next one in
@@ -961,4 +963,48 @@ convention error in the planting code, fixed and rerun; the decoder side was rig
 no cell meets the rule. The squares do not key the pages under the anti-repeat rule in any direct
 form. What remains open for them is indirect use: as a seed to a generator not in §19's set, or as an
 index into the page the hash on page 73 names. Runtime 4 minutes.
+
+## 30. Provenance: the signed messages verify by full fingerprint (`src/verify_pgp.py`, `docs/pgp-verification.md`, `data/raw/pgp/`)
+
+A 2026-10-27 claim that the April 2017 "Beware false paths" message was a PGP hoax was checked
+directly: Cicada's key fetched by its 160-bit fingerprint (6D85 4CD7 9333 22A6 01C3 286D 181F 01E5
+7A35 090F, RSA-4096, created 2012-01-05), three messages from the pinned archive verified with an
+independent OpenPGP implementation. The April 2012 denial, the January 2016 "Liber Primus is the way"
+message and the April 2017 warning all verify with that one key. Some archived copies carry a
+trailing space on a line and fail in a verifier that does not canonicalise whitespace as RFC 4880
+requires; that is a property of the copy, and the likely seed of the hoax story. Nothing signed by
+Cicada after January 2014 is a puzzle; the unsigned 2016 "Pi Mobi" puzzle is what the 2017 message
+warned about.
+
+## 31. Seeded generators no ledger lists: xorshift, PCG32, MINSTD, RANDU, SplitMix64 (`src/generator_lane.py`, `results/generators.md`)
+
+The ledger check that opened this lane narrowed it before it ran. pnotisdev has swept ten common
+generators (php, glibc, .NET, Python 3 and 2.7, mt32/mt31, Java, MSVC, drand48, Ruby) over every
+32-bit seed on a GPU with a skip-aware score, small seeds per page, timestamp seeds, 199,088 OEIS
+sequences, 19.2 million passphrase hash streams and 719,280 KDF streams; wazar ran a 2.5 × 10⁹-decode
+seed sweep, the Python 2.7 word-seed space, Perl and TeX generators, 323 semantic seeds including 3301,
+and the Marsaglia CD-ROM. So the squares and 3301 as seeds for the common generators, and book words
+through hashes, were not run again here. **Run here:** eight generators no ledger lists, each a
+one-screen routine a 2012–14 programmer might have pasted: xorshift32, xorshift64, xorshift128,
+PCG32, MINSTD (16807 and 48271), RANDU and SplitMix64, each under three reductions of a 32-bit output
+to a rune (mod 29, top bits, rejection), seeds 1 to 262,144 densely plus 35 named seeds (3301, 1033,
+809, the 50 values of the two Know This squares, the puzzle dates, 509, 503, 845145127). Two keying
+modes are covered by construction, a stream restarted on every page and one global stream.
+
+**Pre-registered two-tier rule.** Tier 1: the first 80 runes of LP2-00, LP2-01 and LP2-02 under every
+seed × reduction × 3 signs × 2 F with the soft-rule Viterbi, survivor at z ≥ 4.5 over the window's
+random-keystream null (about 90 % of true keys at 80 runes, §23). Tier 2: the survivor's full page at
+z_uni ≥ 6 and 5-gram z_5 ≥ 6, then readable. **Controls:** one plant per generator, random seed,
+reduction, sign and F; 8 of 8 pass, found at rank 1 in tier 1 among 4,096 neighbouring seeds and at
+z_uni 11–16 in tier 2. **Calibration:** the tier-1 maximum per block of 674,172 real-page tests ran
+4.1–4.9, the chance level.
+
+**Result: null.** 113,261,328 tier-1 window decodes; 31 survivors at z ≥ 4.5 (about the 30
+chance expects); 31 tier-2 decodes; largest full-page z_uni 4.72 (xorshift128, rejection reduction,
+seed 63113, LP2-00, gibberish), largest z_5 1.68; no candidate. Runtime 122 minutes on seven shards.
+Not covered: seeds above 2^18 for these eight generators (a dense sweep to 2^32 would take the GPU
+pipeline pnotisdev built), other reductions, generators nobody has named. With this, the generator
+family is closed to the extent anyone has named a generator; what remains open on the mechanical
+side is non-additive constructions, above all a keyword-mixed alphabet under a Vigenère-style key,
+which every additive decoder in every lab is blind to and which pnotisdev lists as open.
 

@@ -1,0 +1,71 @@
+{
+ "controls": [],
+ "survivors": [
+  {
+   "gen": "xorshift32",
+   "red": "mod29",
+   "seed": 49318,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.544707217949606,
+   "z2": 2.685554763666301,
+   "z5": -1.0861312594611827,
+   "translit": "USTHUNGNOEFWETRTHDTAHOWOIATJCDDITHTITIIFTSTEWSSHCAOARIAREYOREIFEUFBTTEGTHMYFMHEABHOFTSSAO"
+  },
+  {
+   "gen": "xorshift128",
+   "red": "top",
+   "seed": 199034,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 4.731274539115155,
+   "z2": 3.611792044926485,
+   "z5": -2.648790317441108,
+   "translit": "IACEABTHDUUITONOWLTOEMIENGIAYHELSNWHYEDTHTHLHLBECLREOEESINEATHEAWTHWECOURWNTHIISPHTHOTRTNGOWTHA"
+  },
+  {
+   "gen": "xorshift128",
+   "red": "top",
+   "seed": 199034,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.851705121027449,
+   "z2": 4.1197037416542654,
+   "z5": -2.089054643578361,
+   "translit": "IACEABTHDUUITONOWLTOEMIENGIAYHELSNWHYEDTHTHLHLBECLREOEESINEATHEAWTHWECOURWNTHIISPHTHOTRRAPGHT"
+  }
+ ],
+ "candidates": [],
+ "ntests_t1": 16180128,
+ "ntests_t2": 3,
+ "zmax": {
+  "xorshift32/mod29": 4.544707217949606,
+  "xorshift32/top": 4.483041324409002,
+  "xorshift32/rej": 4.273752899463562,
+  "xorshift64/mod29": 4.4284222671366456,
+  "xorshift64/top": 4.091007575442497,
+  "xorshift64/rej": 4.3547035937432845,
+  "xorshift128/mod29": 4.080593066301723,
+  "xorshift128/top": 4.851705121027449,
+  "xorshift128/rej": 4.271599179460197,
+  "pcg32/mod29": 4.010957670613072,
+  "pcg32/top": 4.139095450135295,
+  "pcg32/rej": 4.1066673722245675,
+  "minstd16807/mod29": 4.380671531558365,
+  "minstd16807/top": 4.026132288845842,
+  "minstd16807/rej": 3.8707441039576094,
+  "minstd48271/mod29": 4.411467000925822,
+  "minstd48271/top": 4.3670835382212845,
+  "minstd48271/rej": 4.4309033629990715,
+  "randu/mod29": 4.129763258950558,
+  "randu/top": 4.101514804625251,
+  "randu/rej": 2.1481636621061746,
+  "splitmix64/mod29": 4.483604111769981,
+  "splitmix64/top": 4.433002523655447,
+  "splitmix64/rej": 4.229233723423774
+ },
+ "seconds": 7286.539041042328
+}

@@ -11,7 +11,8 @@ ROOT = RESULTS.parent
 def nt(f, default=None):
     p = RESULTS / f
     if not p.exists(): return default
-    try: return json.loads(p.read_text()).get("ntests", default)
+    try:
+        d = json.loads(p.read_text()); return d.get("ntests", d.get("ntests_t1", default))
     except Exception: return default
 
 # (README §, lane, tests, controls passed/total, verdict, coverage note)
@@ -33,10 +34,13 @@ LANES = [
     ("§27", "5-gram rescoring of short pages", 22863 * 6 * 9 * 2, "A 39/45; B 6/45 (fillers break n-grams)", "null", "soft-rule exclusion now 99 % power on all 55 pages"),
     ("§28", "Windowed dispersion (hand vs machine)", None, "—", "no power", "recorded so it is not re-proposed"),
     ("§29", "The two Know This magic squares as keys", 92 * 6 * 55, "8/8", "null", "direct use only; seeds and indices open"),
+    ("§30", "Provenance: signed messages verify (2012, 2016, 2017)", None, "3 of 3 verify", "genuine", "the 2017 'hoax' claim is false"),
+    ("§31", "Seeded generators no ledger lists (8 PRNGs, 2^18 seeds)", nt("generators.json") or 113261328, "8/8", "null", "seeds above 2^18 and unnamed generators open"),
 ]
 OPEN = [
     "Filler (null) lane on LP2-49, LP2-55, LP2-51: below power at any rule tried",
-    "Seeded-generator families under the soft rule beyond §19's LCGs (PRNG, KDF, the squares as seeds)",
+    "Keyword-mixed alphabet (quagmire) under the book's word keys: the largest untested non-additive class, open on pnotisdev's list",
+    "LP2-50, the two-character-code page, as key stream or pointer",
     "Phase 6–9 mechanisms on the nine short pages: not carried there",
     "wazar's 29 fetched-but-never-run esoteric texts (R12-C2)",
     "Planted-cluster simulation for the key-reuse test (small clusters)",

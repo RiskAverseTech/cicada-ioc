@@ -1,0 +1,47 @@
+{
+ "controls": [],
+ "survivors": [
+  {
+   "gen": "xorshift64",
+   "red": "top",
+   "seed": 59400,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.661771815293707,
+   "z2": 2.4247040156901183,
+   "z5": 0.05998106321192753,
+   "translit": "STEAACCWFUSUHFUUTRRCRHFASIMNFTHAEDMRALDEILOTTPAAHNTLNMECCTHTHUFNEASLWNFPHTUNGLSTTXCGAM"
+  }
+ ],
+ "candidates": [],
+ "ntests_t1": 16180128,
+ "ntests_t2": 1,
+ "zmax": {
+  "xorshift32/mod29": 4.121907981133808,
+  "xorshift32/top": 4.051520099456285,
+  "xorshift32/rej": 4.225177879709104,
+  "xorshift64/mod29": 3.8151734957809063,
+  "xorshift64/top": 4.661771815293707,
+  "xorshift64/rej": 3.9042456944832873,
+  "xorshift128/mod29": 3.892795969779747,
+  "xorshift128/top": 4.195587785480748,
+  "xorshift128/rej": 3.9432003871452563,
+  "pcg32/mod29": 4.223998729333743,
+  "pcg32/top": 4.067662279462196,
+  "pcg32/rej": 3.9994746127222367,
+  "minstd16807/mod29": 3.91074004050823,
+  "minstd16807/top": 4.074109476211001,
+  "minstd16807/rej": 4.490970394641336,
+  "minstd48271/mod29": 4.1989407931009355,
+  "minstd48271/top": 4.271094366073092,
+  "minstd48271/rej": 4.3832308824916195,
+  "randu/mod29": 4.009868279083996,
+  "randu/top": 4.3851397218107095,
+  "randu/rej": 2.187574218873843,
+  "splitmix64/mod29": 4.007197479053968,
+  "splitmix64/top": 4.37670266273253,
+  "splitmix64/rej": 4.137194315010717
+ },
+ "seconds": 7278.1286561489105
+}

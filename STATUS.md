@@ -3,13 +3,13 @@
 | | |
 |---|---|
 | **Breakthroughs** | **0** (a page decoding to readable English at a pre-registered bar, reproduced by someone else) |
-| Decoder tests run | 235 million, all pre-registered, all with planted controls |
-| Lanes closed null | 15 of 17 (none running) |
+| Decoder tests run | 348 million, all pre-registered, all with planted controls |
+| Lanes closed null | 16 of 19 (none running) |
 | Pages | 55 unsolved with runes (12,956 runes); coverage limits listed per lane |
 | The one structure | 86 doubled runes where 445 are expected; flat in every other statistic |
 | Best current reading | key redrawn ~4 times in 5 when it would repeat; lag-2 at chance points to a program, not a hand |
 | External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
-| Repository | 31 numbered sections, 31 commits, last 94f90a3 2026-10-27 |
+| Repository | 33 numbered sections, 32 commits, last 9f05717 2026-10-27 |
 
 ## Lanes
 
@@ -32,11 +32,14 @@
 | §27 | 5-gram rescoring of short pages | 2.5 M | A 39/45; B 6/45 (fillers break n-grams) | null | soft-rule exclusion now 99 % power on all 55 pages |
 | §28 | Windowed dispersion (hand vs machine) | — | — | no power | recorded so it is not re-proposed |
 | §29 | The two Know This magic squares as keys | 0.0 M | 8/8 | null | direct use only; seeds and indices open |
+| §30 | Provenance: signed messages verify (2012, 2016, 2017) | — | 3 of 3 verify | genuine | the 2017 'hoax' claim is false |
+| §31 | Seeded generators no ledger lists (8 PRNGs, 2^18 seeds) | 113.3 M | 8/8 | null | seeds above 2^18 and unnamed generators open |
 
 ## Open
 
 - Filler (null) lane on LP2-49, LP2-55, LP2-51: below power at any rule tried
-- Seeded-generator families under the soft rule beyond §19's LCGs (PRNG, KDF, the squares as seeds)
+- Keyword-mixed alphabet (quagmire) under the book's word keys: the largest untested non-additive class, open on pnotisdev's list
+- LP2-50, the two-character-code page, as key stream or pointer
 - Phase 6–9 mechanisms on the nine short pages: not carried there
 - wazar's 29 fetched-but-never-run esoteric texts (R12-C2)
 - Planted-cluster simulation for the key-reuse test (small clusters)
