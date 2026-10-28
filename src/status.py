@@ -38,13 +38,17 @@ LANES = [
     ("§31", "Seeded generators no ledger lists (8 PRNGs, 2^18 seeds)", nt("generators.json") or 113261328, "8/8", "null", "seeds above 2^18 and unnamed generators open"),
     ("§32", "Keyword-mixed alphabets (quagmire I-IV) under the book's keys", nt("quagmire.json") or 25574670, "7/8 (8th rank 2, equivalent alphabet)", "null", "book words and streams only; other labs' key families under mixed alphabets open"),
     ("§33", "Where the 86 repeats sit", None, "—", "boundary-blind", "excludes reset-chain ciphers and transcription artefacts"),
-    ("§34", "The 256-byte payload of LP2-49/50/51 as key (direct, pointer readings)", 341 * 6 * 55, "4/4", "null", "replication; PRF expansions are wazar's negatives"),
+    ("§34", "The 256-byte payload of LP2-49/50/51 as key (direct, pointer readings; +all 6 page orderings and base-59, 2026-10-28)", 383 * 6 * 55, "4/4", "null", "replication; PRF expansions are wazar's negatives"),
     ("§35", "Every archived artefact against the page-73 hash", 3977, "—", "no match", "public archives only"),
     ("§36", "Planted-cluster power of the key-reuse test", None, "30 reps per cell", "measured", "~20 aligned pages for 90 %; blind under key-skip"),
     ("§37", "Repeat spectrum to lag 120, null models, boundary convention", None, "—", "deficit at lag 1 only", ""),
     ("§38", "Blinded glyph re-reading of the unsolved pages", 12807, "99.7 % held-out", "0 disagreements; 149 unread", "pre-registered count criterion failed by the segmenter"),
     ("§39", "Phases 6-8 on the nine short pages, 5-gram rule", None, "22/24, 24/24, 15/16", "null", "phase 9 not yet carried there"),
     ("§40", "Pilgrim texts (Bunyan, Chaucer) as running keys", nt("runkey_pilgrim.json"), "3/3", "null", "The Way of a Pilgrim not run (no free text)"),
+    ("§41", "Closure bundle: solved-page repeat rate, parity, repeat context, cross-page n-grams, word-length repeats, ICC", None, "—", "measured: rule specific to the unsolved section; all else at null", "statistics, not decodes"),
+    ("§42", "Within-word echoes: lag-5 equality (S), lag-6 affine 24−2c; word-edge correction", None, "—", "measured: both present (z +3.7 K-fixed; z +5.1, best of 812)", "two further laws of the stream; mechanism open"),
+    ("§43", "Exact reachability of the solved-page rule, every offset; linear complexity", 1_100_000, "plants recovered", "null: continuous section excluded for 5 streams; pages at n/2 complexity", "per-page reachability has no power (literal-F realignment)"),
+    ("§44", "Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000", nt("digits.json"), "4/4", "null", "base-10, digit pairs, base-29; fresh offset per page"),
 ]
 OPEN = [
     "Filler (null) lane on LP2-49, LP2-55, LP2-51: below power at any rule tried",
@@ -52,13 +56,14 @@ OPEN = [
     "Phase 9 mechanisms on the nine short pages",
     "149 unread positions of the blind re-reading (merged ᚳ pairs, drop caps): a better splitter or the eye",
     "Red-text key schedule (the red initials and first words), ledger check first",
-    "wazar's 29 fetched-but-never-run esoteric texts (R12-C2)",
+    "wazar's R12-C2 esoteric texts: Dukotah R26-B ran 33 of them at 4–8 offsets, sign −1 only (pages 20/22/25/27/29, sign +1, reversed texts unrun; Gutenberg ids wrong)",
     "LP2-50, the two-character-code page, as a cipher of its own",
-    "Generator families (PRNG/KDF seeds) under the soft rule, where the machine reading points",
+    "A word-aware mechanism that yields the deficit, the lag-5 S echo and the lag-6 relation together; then decode under it",
+    "Phase 6 (§14) and §39's phase-6 part under the corrected word edges (rerun 2026-10-28, see §42)",
 ]
 
 readme = (ROOT / "README.md").read_text()
-sections = len(re.findall(r"^## \d+\.", readme, flags=re.M))
+sections = max(int(m) for m in re.findall(r"^## (\d+)\.", readme, flags=re.M))
 head = subprocess.run(["git", "log", "-1", "--format=%ad", "--date=short"], cwd=ROOT, capture_output=True, text=True).stdout.strip()   # date only: the hash of the commit that carries this file cannot be known when it is written
 ncommits = subprocess.run(["git", "rev-list", "--count", "HEAD"], cwd=ROOT, capture_output=True, text=True).stdout.strip()
 total = sum(t for _, _, t, _, _, _ in LANES if isinstance(t, (int, float)) and t > 1000)
@@ -73,8 +78,8 @@ box = f"""# Status box
 | Decoder tests run | {total/1e6:.0f} million, all pre-registered, all with planted controls |
 | Lanes closed null | {closed} of {len(LANES)} ({', '.join(running) if running else 'none running'}) |
 | Pages | 55 unsolved with runes (12,956 runes); coverage limits listed per lane |
-| The one structure | 86 doubled runes where 445 are expected; flat in every other statistic |
-| Best current reading | key redrawn ~4 times in 5 when it would repeat; lag-2 at chance points to a program, not a hand |
+| The structures | three: 86 doubled runes where 445 are expected (0.19 of uniform; solved pages sit at 0.86); inside words, a lag-5 equality carried by S (z +3.7, K-fixed null) and a lag-6 relation c = 24 − 2c′ (z +5.1); flat in every other statistic |
+| Best current reading | one word-aware rule that removes repeats and leaves the two echoes (pnotisdev's mech25 fits one); the echoes are the first implementation leaks |
 | External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
 | Repository | {sections} numbered sections, {ncommits} commits as of {head} |
 

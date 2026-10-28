@@ -1,0 +1,90 @@
+{
+ "controls": [
+  {
+   "stream": "pi b10",
+   "offset": 9760,
+   "sign": "sub",
+   "F": false,
+   "z1": 5.821476897149422,
+   "rank1": 1,
+   "z2": 12.059753043728273,
+   "z5": 53.656098626062125,
+   "passed": true
+  },
+  {
+   "stream": "e b10p",
+   "offset": 18110,
+   "sign": "add",
+   "F": true,
+   "z1": 6.413628432013864,
+   "rank1": 1,
+   "z2": 12.472232405849937,
+   "z5": 48.76821765040762,
+   "passed": true
+  },
+  {
+   "stream": "sqrt2 b29",
+   "offset": 12028,
+   "sign": "beaufort",
+   "F": false,
+   "z1": 6.1586733632976545,
+   "rank1": 1,
+   "z2": 12.07839538045405,
+   "z5": 52.64170631635056,
+   "passed": true
+  },
+  {
+   "stream": "phi b10",
+   "offset": 16399,
+   "sign": "sub",
+   "F": true,
+   "z1": 6.691972647397332,
+   "rank1": 1,
+   "z2": 13.192148858313443,
+   "z5": 50.4387289373419,
+   "passed": true
+  }
+ ],
+ "survivors": [
+  {
+   "stream": "sqrt2 b10p",
+   "offset": 8563,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.6813469906844665,
+   "z2": 2.199425389539768,
+   "z5": -2.4161681714694145,
+   "translit": "GRNGUFTUIMAFDIYFCWFSSEASDEDSFIEXWTHRUTNGNTWMRMENLUNDSRTUERASMCAEIAWTUIAOAEDOOEGAENXCYRIAPRL"
+  },
+  {
+   "stream": "phi b29",
+   "offset": 7050,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.655621155637829,
+   "z2": 3.273317210291366,
+   "z5": 0.1813348382559592,
+   "translit": "THSTHCBTHTAEOEOANGCSOTEUTSPITEOMWIABYUMSWLSTRBFNDDLICUWDMYARAEOEJIGPRITHWWSRIPWUWORANMO"
+  }
+ ],
+ "candidates": [],
+ "ntests_t1": 6480000,
+ "ntests_t2": 2,
+ "zmax": {
+  "pi b10": 4.1907986865786375,
+  "pi b10p": 4.143801340550538,
+  "pi b29": 4.465591244207657,
+  "e b10": 3.928413397135867,
+  "e b10p": 3.965169540673599,
+  "e b29": 4.2004658548078195,
+  "sqrt2 b10": 3.938142624799349,
+  "sqrt2 b10p": 4.6813469906844665,
+  "sqrt2 b29": 4.036016260534422,
+  "phi b10": 4.3990232252645995,
+  "phi b10p": 3.9982271254618373,
+  "phi b29": 4.655621155637829
+ },
+ "seconds": 1304.6783621311188
+}

@@ -196,8 +196,8 @@
   },
   {
    "section": "\u00a734",
-   "lane": "The 256-byte payload of LP2-49/50/51 as key (direct, pointer readings)",
-   "tests": 112530,
+   "lane": "The 256-byte payload of LP2-49/50/51 as key (direct, pointer readings; +all 6 page orderings and base-59, 2026-10-28)",
+   "tests": 126390,
    "controls": "4/4",
    "verdict": "null",
    "coverage_limit": "replication; PRF expansions are wazar's negatives",
@@ -256,6 +256,42 @@
    "verdict": "null",
    "coverage_limit": "The Way of a Pilgrim not run (no free text)",
    "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a741",
+   "lane": "Closure bundle: solved-page repeat rate, parity, repeat context, cross-page n-grams, word-length repeats, ICC",
+   "tests": null,
+   "controls": "\u2014",
+   "verdict": "measured: rule specific to the unsolved section; all else at null",
+   "coverage_limit": "statistics, not decodes",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a742",
+   "lane": "Within-word echoes: lag-5 equality (S), lag-6 affine 24\u22122c; word-edge correction",
+   "tests": null,
+   "controls": "\u2014",
+   "verdict": "measured: both present (z +3.7 K-fixed; z +5.1, best of 812)",
+   "coverage_limit": "two further laws of the stream; mechanism open",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a743",
+   "lane": "Exact reachability of the solved-page rule, every offset; linear complexity",
+   "tests": 1100000,
+   "controls": "plants recovered",
+   "verdict": "null: continuous section excluded for 5 streams; pages at n/2 complexity",
+   "coverage_limit": "per-page reachability has no power (literal-F realignment)",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a744",
+   "lane": "Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000",
+   "tests": 6480000,
+   "controls": "4/4",
+   "verdict": "null",
+   "coverage_limit": "base-10, digit pairs, base-29; fresh offset per page",
+   "date": "2026-10-27"
   }
  ],
  "open": [
@@ -264,8 +300,9 @@
   "Phase 9 mechanisms on the nine short pages",
   "149 unread positions of the blind re-reading (merged \u16b3 pairs, drop caps): a better splitter or the eye",
   "Red-text key schedule (the red initials and first words), ledger check first",
-  "wazar's 29 fetched-but-never-run esoteric texts (R12-C2)",
+  "wazar's R12-C2 esoteric texts: Dukotah R26-B ran 33 of them at 4\u20138 offsets, sign \u22121 only (pages 20/22/25/27/29, sign +1, reversed texts unrun; Gutenberg ids wrong)",
   "LP2-50, the two-character-code page, as a cipher of its own",
-  "Generator families (PRNG/KDF seeds) under the soft rule, where the machine reading points"
+  "A word-aware mechanism that yields the deficit, the lag-5 S echo and the lag-6 relation together; then decode under it",
+  "Phase 6 (\u00a714) and \u00a739's phase-6 part under the corrected word edges (rerun 2026-10-28, see \u00a742)"
  ]
 }
