@@ -4,12 +4,12 @@
 |---|---|
 | **Breakthroughs** | **0** (a page decoding to readable English at a pre-registered bar, reproduced by someone else) |
 | Decoder tests run | 421 million, all pre-registered, all with planted controls |
-| Lanes closed null | 22 of 33 (none running) |
+| Lanes closed null | 22 of 34 (none running) |
 | Pages | 55 unsolved with runes (12,956 runes); coverage limits listed per lane |
 | The structures | three: 86 doubled runes where 445 are expected (0.19 of uniform; solved pages sit at 0.86); inside words, a lag-5 equality carried by S (z +3.7, K-fixed null) and a lag-6 relation c = 24 − 2c′ (z +5.1); flat in every other statistic |
 | Best current reading | one word-aware rule that removes repeats and leaves the two echoes (pnotisdev's mech25 fits one); the echoes are the first implementation leaks |
 | External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
-| Repository | 45 numbered sections, 42 commits as of 2026-10-28 |
+| Repository | 46 numbered sections, 43 commits as of 2026-10-28 |
 
 ## Lanes
 
@@ -47,6 +47,7 @@
 | §42 | Within-word echoes: lag-5 equality (S), lag-6 affine 24−2c; word-edge correction | — | — | measured: both present (z +3.7 K-fixed; z +5.1, best of 812) | two further laws of the stream; mechanism open |
 | §43 | Exact reachability of the solved-page rule, every offset; linear complexity | 1.1 M | plants recovered | null: continuous section excluded for 5 streams; pages at n/2 complexity | per-page reachability has no power (literal-F realignment) |
 | §45 | Word-aware mechanism simulation: 8 rules x 9 pre-registered statistics | — | 3 sanity controls | measured: every rule fails; the S carrier breaks all eight; R4+extra rune fits the other eight | English plaintext and iid key only; hold-aware decoding = §22 |
+| §46 | Lag-5 echo runs in pairs (bigrams 9 vs 1.5); multiplier autokey and lag-1 affine closed; per-word period-5 key mixture | — | — | measured: f = 0.5 fits equality and S exactly, fails the difference flatness by 3 sd | first hypothesis producing the S carrier; lag 6 unexplained |
 | §44 | Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000 | 6.5 M | 4/4 | null | base-10, digit pairs, base-29; fresh offset per page |
 
 ## Open
@@ -58,7 +59,7 @@
 - Red-text key schedule (the red initials and first words), ledger check first
 - wazar's R12-C2 esoteric texts: Dukotah R26-B ran 33 of them at 4–8 offsets, sign −1 only (pages 20/22/25/27/29, sign +1, reversed texts unrun; Gutenberg ids wrong)
 - LP2-50, the two-character-code page, as a cipher of its own
-- A word-aware mechanism that yields the deficit, the lag-5 S echo and the lag-6 relation together; then decode under it
+- A word-aware mechanism that yields the deficit, the lag-5 S echo (now: lag-5 runs), the lag-6 relation together; a rule that copies plaintext equality at lag 5 without copying differences is the shape the data ask for (§46)
 - Phase 6 (§14) and §39's phase-6 part under the corrected word edges (rerun 2026-10-28, see §42)
 
 ## Value so far
