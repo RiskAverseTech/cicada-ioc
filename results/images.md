@@ -104,3 +104,7 @@ Pages whose component count is more than 50 % off the rune count (geometry unrel
 ## Addendum 2026-10-28: the embedded ICC profile
 
 All LP2 page images carry one 2,576-byte APP2 profile (SHA-256 942e0f66…79d0): "Artifex Software sRGB ICC Profile, Copyright Artifex Software 2011", version 2.1, zero creation date. Ghostscript's current `iccprofiles/srgb.icc` (ArtifexSoftware/ghostpdl master, 2,576 bytes) differs in exactly two bytes, offsets 71 and 79, the low-order bytes of the header illuminant; all ten tags are identical. Dukotah R30-A3 attributes the pages to Ghostscript 9.06 (toolchain 9.01–9.15); the tagged files could not be fetched from git.ghostscript.com to pin the release here.
+
+## Addendum 2026-10-28: provenance against the archived onion dump
+
+All 58 LP2 page images used here are byte-identical (SHA-1) to the files of the Internet Archive item `ky2khlqdf7qdznac.onion`, the archived 2014 hidden service that released them; see `data/images/PROVENANCE.md`. The stego and geometry results of this lane were therefore run on Cicada's rendered originals, not re-saved copies.
