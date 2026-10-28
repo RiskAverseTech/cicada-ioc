@@ -61,6 +61,8 @@ OPEN = [
     "Red-text key schedule (the red initials and first words), ledger check first",
     "wazar's R12-C2 esoteric texts: Dukotah R26-B ran 33 of them at 4–8 offsets, sign −1 only (pages 20/22/25/27/29, sign +1, reversed texts unrun; Gutenberg ids wrong)",
     "LP2-50, the two-character-code page, as a cipher of its own",
+    "Key source, not key search: the page behind the AN END SHA-512 (the one place a key is said to exist) is unfound; archived onion corpora (Dukotah 2026-07-27), 1,962 documents (ItIsCuthNotCup), raw bytes/IPv4/phones (hashcat), 124,017 onion-capture digests (pnotisdev) and 502 artefacts x 3,977 readings here (§35) do not contain it; Tor v2 is gone, so only an archive nobody has indexed can",
+    "Cross-library decoding: pnotisdev's 1,447 number streams have met only IoC/bigram screens and the R4 engine, the book's phrase library here only the skip Viterbi (+ §22 hold nulls, + §48 echoes); each library under the other lab's decoder is untested",
     "A decoder for the gated echo rule E56w (§47): at a lag-5 / lag-6 plaintext repeat, expect the echoed cipher value; then the book's key families under it",
     "The S carrier (11 of 102 lag-5 pairs): a step acting on the cipher value S, or a fluctuation; no additive mechanism carries it (§47)",
     "Phase 6 (§14) and §39's phase-6 part under the corrected word edges (rerun 2026-10-28, see §42)",
