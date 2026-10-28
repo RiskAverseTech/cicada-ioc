@@ -66,7 +66,7 @@ OPEN = [
     "Cross-library decoding: pnotisdev's 1,447 number streams have met only IoC/bigram screens and the R4 engine, the book's phrase library here only the skip Viterbi (+ §22 hold nulls, + §48 echoes); each library under the other lab's decoder is untested",
 
     "The S carrier (11 of 102 lag-5 pairs): a step acting on the cipher value S, or a fluctuation; no additive mechanism carries it (§47)",
-    "Phase 6 (§14) and §39's phase-6 part under the corrected word edges (rerun 2026-10-28, see §42)",
+    "§39's phase-6 part (the nine short pages) under the corrected word edges: not rerun; §14's full rerun moved maxima by tenths of a sigma",
 ]
 
 readme = (ROOT / "README.md").read_text()

@@ -9,7 +9,7 @@
 | The structures | 86 doubled runes where 445 are expected (0.19 of uniform; solved pages sit at 0.86); inside words, a lag-5 echo that copies equality in runs (102 vs 71 pairs, 9 vs 1.5 bigrams), 11 of the pairs S (3.5 expected, p 0.003), and a lag-6 relation c = 24 − 2c′ (77 vs 44); the two echoes share words; flat in every other statistic |
 | Best current reading | a gated word-internal echo (plaintext repeat at lag 5 → copy the cipher rune; at lag 6 → 24 − 2c) in about half the words reproduces nine of ten statistics; the S weighting is outside every additive mechanism and is the open fact |
 | External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
-| Repository | 48 numbered sections, 48 commits as of 2026-10-28 |
+| Repository | 48 numbered sections, 49 commits as of 2026-10-28 |
 
 ## Lanes
 
@@ -64,7 +64,7 @@
 - Key source, not key search: the page behind the AN END SHA-512 (the one place a key is said to exist) is unfound; archived onion corpora (Dukotah 2026-07-27), 1,962 documents (ItIsCuthNotCup), raw bytes/IPv4/phones (hashcat), 124,017 onion-capture digests (pnotisdev) and 502 artefacts x 3,977 readings here (§35) do not contain it; Tor v2 is gone, so only an archive nobody has indexed can
 - Cross-library decoding: pnotisdev's 1,447 number streams have met only IoC/bigram screens and the R4 engine, the book's phrase library here only the skip Viterbi (+ §22 hold nulls, + §48 echoes); each library under the other lab's decoder is untested
 - The S carrier (11 of 102 lag-5 pairs): a step acting on the cipher value S, or a fluctuation; no additive mechanism carries it (§47)
-- Phase 6 (§14) and §39's phase-6 part under the corrected word edges (rerun 2026-10-28, see §42)
+- §39's phase-6 part (the nine short pages) under the corrected word edges: not rerun; §14's full rerun moved maxima by tenths of a sigma
 
 ## Value so far
 
