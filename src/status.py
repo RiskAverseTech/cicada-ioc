@@ -39,13 +39,18 @@ LANES = [
     ("§32", "Keyword-mixed alphabets (quagmire I-IV) under the book's keys", nt("quagmire.json") or 25574670, "7/8 (8th rank 2, equivalent alphabet)", "null", "book words and streams only; other labs' key families under mixed alphabets open"),
     ("§33", "Where the 86 repeats sit", None, "—", "boundary-blind", "excludes reset-chain ciphers and transcription artefacts"),
     ("§34", "The 256-byte payload of LP2-49/50/51 as key (direct, pointer readings)", 341 * 6 * 55, "4/4", "null", "replication; PRF expansions are wazar's negatives"),
+    ("§35", "Every archived artefact against the page-73 hash", 3977, "—", "no match", "public archives only"),
+    ("§36", "Planted-cluster power of the key-reuse test", None, "30 reps per cell", "measured", "~20 aligned pages for 90 %; blind under key-skip"),
+    ("§37", "Repeat spectrum to lag 120, null models, boundary convention", None, "—", "deficit at lag 1 only", ""),
+    ("§38", "Blinded glyph re-reading of the unsolved pages", 12807, "99.7 % held-out", "0 disagreements; 149 unread", "pre-registered count criterion failed by the segmenter"),
 ]
 OPEN = [
     "Filler (null) lane on LP2-49, LP2-55, LP2-51: below power at any rule tried",
     "Mixed alphabets under the other labs' key families (external texts, PRNG seeds): the quagmire lane covered the book's own keys only",
-    "Phase 6–9 mechanisms on the nine short pages: not carried there",
+    "Phase 9 mechanisms on the nine short pages (phases 6-8 done 2026-10-28)",
+    "149 unread positions of the blind re-reading (merged ᚳ pairs, drop caps): a better splitter or the eye",
+    "Red-text key schedule (the red initials and first words), ledger check first",
     "wazar's 29 fetched-but-never-run esoteric texts (R12-C2)",
-    "Planted-cluster simulation for the key-reuse test (small clusters)",
     "LP2-50, the two-character-code page, as a cipher of its own",
     "Generator families (PRNG/KDF seeds) under the soft rule, where the machine reading points",
 ]

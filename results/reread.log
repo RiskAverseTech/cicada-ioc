@@ -1,0 +1,8 @@
+training glyphs 2763 after bootstrap (iteration, rows kept, glyphs): [(1, 144, 2703), (2, 146, 2763)]; classes present 29/29  [20s]
+held-out accuracy 0.9971; margin threshold T=0.986 resolves 0.995 of glyphs at error 0.0007; confusions [(('S', 'A'), 1), (('AE', 'U'), 1), (('IA', 'I'), 1), (('Y', 'TH'), 1), (('TH', 'M'), 1), (('U', 'EO'), 1), (('M', 'C'), 1), (('C', 'M'), 1)]  [22s]
+blind reading done: 13065 glyphs on 55 pages  [62s]
+Classifier: 3-NN on 32 x 32 glyph crops, trained on 2763 labelled glyphs from solved images [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 73, 74] (images with no exactly matched row: []). Leave-one-page-out accuracy **0.9971**; a component is resolved if its nearest training glyph has cosine similarity at least T = 0.986 (the 0.5th percentile of held-out glyphs), which keeps 99.5% of held-out glyphs at error 0.0728%. Most frequent held-out confusions: S→A 1, AE→U 1, IA→I 1, Y→TH 1, TH→M 1, U→EO 1.
+
+Blind reading of 55 pages: resolved-glyph count within 3 of the transcription on **32 of 55**; at the 12,807 aligned resolved glyphs the reading disagrees with the transcription **0** times (0.0000%, against a held-out classifier error of 0.0728%); 149 glyph positions could not be aligned (insertions, deletions or runs longer than three); adjacent repeats on the resolved blind reading **84** (transcription 86).
+
+**Pre-registered verdict: transcription NOT confirmed** (count match ≥ 50/54: False; disagreement ≤ 2 × classifier error: True; blind doublets within 10 of 86: True).

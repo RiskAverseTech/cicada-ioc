@@ -21,7 +21,11 @@ power; §29 tries the two "Know This" magic squares as keys (null). §30 verifie
 decodes). §32 runs keyword-mixed alphabets (quagmire I–IV) under the book's keys, the
 one named non-additive class every additive decoder is blind to (null, 25.6 million window decodes);
 §33 shows the 86 repeats are boundary-blind, excluding reset-chain ciphers and transcription artefacts. §34 replicates, with controls, the direct and pointer readings of the three-page
-base-60 payload (null). Nothing here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
+base-60 payload (null). §35 hashes every archived artefact against the page-73 hash (no match);
+§36 measures the key-reuse test's power with planted clusters (about 20 aligned pages needed; blind
+under key-skip drift); §37 gives the repeat spectrum to lag 120, the null models and the boundary
+convention; §38 re-reads the unsolved pages blind from the images: 0 disagreements at 12,807 aligned
+glyphs, 149 positions unread. Nothing here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
 was known to the community a decade ago; this repository's contribution is independent
 replication with controls, the exclusion of every key family anyone has named for it on the pages
 long enough for the detector to see a planted solution (§23), and the tooling to test the next one in
@@ -32,7 +36,7 @@ The transcription in `data/raw/` is rtkd/iddqd's; the Latin and Old English corp
 **Use it.** `pip install -r requirements.txt`; `python -m pytest tests/` runs five fast checks (decoder bound, soft-rule round trip under all signs, noise calibration, the squares, the page counts; CI runs them on every push); `python -I src/check_solve.py --page LP2-03 --key DIVINITY --sign sub` adjudicates a claimed key or plaintext against the pre-registered bar; `ledger.json` is the lane table in machine-readable form (regenerated with `STATUS.md` by `src/status.py`); `benchmarks/plants.json` holds 25 planted ciphertexts with their keys for any decoder to recover; `src/verify_pgp.py` verifies Cicada's signed messages by full fingerprint.
 
 <!-- toc:start -->
-**Sections.** [Phase 1: key reuse](#phase-1-is-any-keystream-reused-across-the-unsolved-pages) · [4](#4-is-the-doublet-deficit-cipher-structure) Is the doublet deficit cipher structure? · [5](#5-which-constructions-reproduce-it) Which constructions reproduce it? · [6](#6-a-better-detector-and-the-scan-again) A better detector, and the scan again · [7](#7-what-the-data-supports-phase-2-conclusion) What the data supports (phase 2 conclusion) · [8](#8-phase-3-proposed) Phase 3, proposed · [9](#9-phase-3-the-books-keystream-families-with-the-skip-on-repeat-rule) Phase 3 · [10](#10-where-this-leaves-the-puzzle) Where this leaves the puzzle · [11](#11-prior-work-checked-2026-10-23) Prior work (checked 2026-10-23) · [12](#12-phase-4-phrase-and-sentence-keys-from-the-book-all-key-signs) Phase 4 · [13](#13-phase-5-latin-and-old-english-plaintext-models) Phase 5 · [14](#14-phase-6-word-edge-events-under-the-skip-rule-pnotisdevs-open-lane-run-independently) Phase 6 · [15](#15-within-word-lag-echo-not-replicated) Within-word lag echo · [16](#16-phase-7-the-skip-by-two-rejection-rule) Phase 7 · [17](#17-hypothesis-loop-a-model-panel-proposes-a-statistical-gate-kills) Hypothesis loop · [18](#18-phase-8-the-hypothesis-loops-short-list-swept) Phase 8 · [19](#19-short-list-lane-phase-8-replicated-prime-gap-multiplier-and-feedback-families-added) Short-list lane · [20](#20-phase-9-cumulative-gematria-ciphertext-feedback-and-global-streams-with-no-per-page-reset) Phase 9 · [21](#21-verdict-check-a-quorum-panels-mechanism-question-tested) Verdict check · [22](#22-phase-10-unknown-position-nulls-under-a-hard-anti-repeat-rule) Phase 10 · [23](#23-external-review-2026-10-27-detection-power-by-page-length-decoder-coverage-calibration) External review (2026-10-27) · [24](#24-short-page-lane-a-secondary-pre-registered-rule-for-the-pages-the-z--6-rule-cannot-see) Short-page lane · [25](#25-external-running-key-lane-the-texts-cicada-pointed-at-decoded-exactly-at-every-offset) External running-key lane · [26](#26-page-image-lane-is-there-information-in-the-images-that-the-transcription-does-not-carry) Page-image lane · [27](#27-rune-5-gram-rescoring-the-short-page-power-fix-measured-and-applied) Rune 5-gram rescoring · [28](#28-windowed-dispersion-a-test-for-a-human-hand-that-turned-out-to-have-no-power) Windowed dispersion · [29](#29-the-two-know-this-squares-as-key-material) The two "Know This" squares as key material · [30](#30-provenance-the-signed-messages-verify-by-full-fingerprint) Provenance · [31](#31-seeded-generators-no-ledger-lists-xorshift-pcg32-minstd-randu-splitmix64) Seeded generators no ledger lists · [32](#32-keyword-mixed-alphabets-under-the-books-keys-quagmire-iiv) Keyword-mixed alphabets under the book's key · [33](#33-where-the-86-repeats-sit-boundary-blind) Where the 86 repeats sit · [34](#34-the-three-page-base-60-payload-as-key-material-a-controlled-replication) The three-page base-60 payload as key materi
+**Sections.** [Phase 1: key reuse](#phase-1-is-any-keystream-reused-across-the-unsolved-pages) · [4](#4-is-the-doublet-deficit-cipher-structure) Is the doublet deficit cipher structure? · [5](#5-which-constructions-reproduce-it) Which constructions reproduce it? · [6](#6-a-better-detector-and-the-scan-again) A better detector, and the scan again · [7](#7-what-the-data-supports-phase-2-conclusion) What the data supports (phase 2 conclusion) · [8](#8-phase-3-proposed) Phase 3, proposed · [9](#9-phase-3-the-books-keystream-families-with-the-skip-on-repeat-rule) Phase 3 · [10](#10-where-this-leaves-the-puzzle) Where this leaves the puzzle · [11](#11-prior-work-checked-2026-10-23) Prior work (checked 2026-10-23) · [12](#12-phase-4-phrase-and-sentence-keys-from-the-book-all-key-signs) Phase 4 · [13](#13-phase-5-latin-and-old-english-plaintext-models) Phase 5 · [14](#14-phase-6-word-edge-events-under-the-skip-rule-pnotisdevs-open-lane-run-independently) Phase 6 · [15](#15-within-word-lag-echo-not-replicated) Within-word lag echo · [16](#16-phase-7-the-skip-by-two-rejection-rule) Phase 7 · [17](#17-hypothesis-loop-a-model-panel-proposes-a-statistical-gate-kills) Hypothesis loop · [18](#18-phase-8-the-hypothesis-loops-short-list-swept) Phase 8 · [19](#19-short-list-lane-phase-8-replicated-prime-gap-multiplier-and-feedback-families-added) Short-list lane · [20](#20-phase-9-cumulative-gematria-ciphertext-feedback-and-global-streams-with-no-per-page-reset) Phase 9 · [21](#21-verdict-check-a-quorum-panels-mechanism-question-tested) Verdict check · [22](#22-phase-10-unknown-position-nulls-under-a-hard-anti-repeat-rule) Phase 10 · [23](#23-external-review-2026-10-27-detection-power-by-page-length-decoder-coverage-calibration) External review (2026-10-27) · [24](#24-short-page-lane-a-secondary-pre-registered-rule-for-the-pages-the-z--6-rule-cannot-see) Short-page lane · [25](#25-external-running-key-lane-the-texts-cicada-pointed-at-decoded-exactly-at-every-offset) External running-key lane · [26](#26-page-image-lane-is-there-information-in-the-images-that-the-transcription-does-not-carry) Page-image lane · [27](#27-rune-5-gram-rescoring-the-short-page-power-fix-measured-and-applied) Rune 5-gram rescoring · [28](#28-windowed-dispersion-a-test-for-a-human-hand-that-turned-out-to-have-no-power) Windowed dispersion · [29](#29-the-two-know-this-squares-as-key-material) The two "Know This" squares as key material · [30](#30-provenance-the-signed-messages-verify-by-full-fingerprint) Provenance · [31](#31-seeded-generators-no-ledger-lists-xorshift-pcg32-minstd-randu-splitmix64) Seeded generators no ledger lists · [32](#32-keyword-mixed-alphabets-under-the-books-keys-quagmire-iiv) Keyword-mixed alphabets under the book's key · [33](#33-where-the-86-repeats-sit-boundary-blind) Where the 86 repeats sit · [34](#34-the-three-page-base-60-payload-as-key-material-a-controlled-replication) The three-page base-60 payload as key materi · [35](#35-every-archived-artefact-against-the-page-73-hash) Every archived artefact against the page-73  · [36](#36-planted-cluster-power-of-the-key-reuse-test) Planted-cluster power of the key-reuse test · [37](#37-repeat-spectrum-null-models-and-the-boundary-convention) Repeat spectrum, null models and the boundar · [38](#38-blinded-glyph-level-re-reading-of-the-unsolved-pages) Blinded glyph-level re-reading of the unsolv
 <!-- toc:end -->
 
 ---
@@ -289,17 +293,18 @@ the observed maximum 4.96 sits inside the null range 4.57–5.47, and the pooled
 −2.31 against a null of −1.75 ± 0.81. If every page shared one keystream the pooled z would be
 about 135; if 13 of the 55 pages did, about 7, since shared pairs scale with the square of the
 page fraction (78 of 1,485 pairs; "about 34" stood here until 2026-10-27 and was wrong). Those are
-expected values, not detection guarantees: a cluster of 8 pages gives an expected 2.6 sigma pooled
-and 11 pages about 5, so clusters below roughly a dozen pages are not reliably detected, and no
-cluster-size boundary has been established by simulation (planted-cluster runs have not been done).
+expected values, not detection guarantees; the planted-cluster simulation of §36 measured detection
+directly: under an aligned mechanism the pooled rule reaches 90 % only at about 20 shared pages (63 %
+at 13, 7 % at 11), and under the key-skip mechanism, where shared pages drift apart after the first
+skip, it detects nothing below the whole book.
 **Null for large-scale aligned reuse, with a stronger detector than phase 1.**
 
 ## 7. What the data supports (phase 2 conclusion)
 
 The unsolved pages of the Liber Primus show no detected large-scale aligned keystream reuse at any
-alignment within 200 runes (a cluster of about a dozen pages would be expected to reach five sigma
-pooled; smaller clusters are not reliably detectable and no boundary has been established by
-simulation, §6), and no page restarts a short-period generator, now tested with a
+alignment within 200 runes (by the planted-cluster simulation of §36: about 20 pages sharing an
+aligned key are needed for reliable detection, and a key shared under the key-skip rule is invisible
+to this test at any cluster size below the whole book), and no page restarts a short-period generator, now tested with a
 detector 1.9× stronger than before. Their one departure from randomness, 86 doubled runes
 where 445 are expected, is a property of the cipher: the plaintext, the transcription and the
 book's own known ciphers all sit at the normal rate. Of twenty candidate constructions, the only
@@ -746,8 +751,9 @@ pairs' sigmas carry a small bias; the table now extends to 300 and the scan has 
 shared pairs scale with the square of the page fraction: 13 of 55 pages is 78 of 1,485 pairs, about
 7 sigma pooled rather than 34, and a cluster of seven or fewer pages is below two sigma pooled and
 below five sigma per pair, and these are expected values rather than detection guarantees. Phase 2's
-conclusion now says no detected large-scale aligned reuse; a cluster-size boundary would need
-planted-cluster simulations, which have not been run (second review, 2026-10-27).
+conclusion now says no detected large-scale aligned reuse; the planted-cluster simulation the second
+review asked for was run on 2026-10-28 (§36): about 20 aligned pages for 90 % detection, none under
+key-skip drift.
 
 **5. "Independent key" overstated (medium).** The doublets note said an independent key hits a doublet
 one time in 29 "whatever it does". That needs the key's successive differences to be uniform, not
@@ -1087,4 +1093,87 @@ the reading families at 262 and 137 runes, 4 of 4 at rank 1.
 z_5 1.95; no candidate. Runtime 4 minutes. The direct and pointer readings of the payload do not key the
 pages under the anti-repeat rule; wazar's PRF-expansion negatives stand beside this one. What remains
 for the payload is what remains for the hash on page 73: its meaning, if any, is outside the book.
+
+## 35. Every archived artefact against the page-73 hash (`src/hash_sweep.py`, `results/hash_sweep.md`)
+
+Page 73 gives the SHA-512 of a deep-web page and tells the pilgrim to find it; the page was never found
+and the Tor v2 network that served it is gone. What can still be checked is the archives. 502 distinct
+files from the scream314 archive (every non-image file: onion mirrors, HTML, text, binaries, decoded
+outputs), wazar's primary artefacts (signed messages, payloads, mirrors), the 75 page images, the signed
+messages and the transcription were hashed under 3,977 readings of "the page": raw bytes, hex, base64,
+newline and trailing-whitespace normalisations with and without a final newline, HTML stripped to text
+and collapsed, lower-cased, plus the 256-byte payload in seven forms. **No reading of any held artefact
+hashes to the target.** wazar's whole-file sweep over its own holdings had reached the same result; this
+one enumerates the readings. The page, if it exists anywhere, is not in the public archives.
+
+## 36. Planted-cluster power of the key-reuse test (`src/reuse_power.py`, `results/reuse_power.md`)
+
+The second external review asked for this: §6 had stated expected pooled sigmas for clusters of pages
+sharing one keystream, not detection rates. Here k of the 55 pages are enciphered with one shared stream
+(solved-page English at the real page lengths, the others independent), under two anti-repeat mechanisms
+that differ for this test: in-place REWRITE, where the output rune is resampled and the key stays in step,
+so shared pages stay aligned; and KEY-SKIP, the §5 re-draw, where the key index advances and shared pages
+drift apart after the first skip. The §6 pooled statistic at offset 0, 30 replicates per cell.
+
+| pages sharing one key | rewrite: pooled z | detected (pooled ≥ 5) | key-skip: pooled z | detected |
+|---|---|---|---|---|
+| 2 | 0.5 ± 1.0 | 0.00 | 0.7 ± 0.9 | 0.00 |
+| 3 | 0.6 ± 0.8 | 0.00 | 0.5 ± 1.1 | 0.00 |
+| 4 | 0.7 ± 1.0 | 0.00 | 0.4 ± 1.0 | 0.00 |
+| 6 | 1.6 ± 0.9 | 0.00 | 0.8 ± 1.1 | 0.00 |
+| 8 | 2.3 ± 1.1 | 0.00 | 0.9 ± 1.1 | 0.00 |
+| 11 | 3.7 ± 1.2 | 0.07 | 1.4 ± 1.0 | 0.00 |
+| 13 | 5.4 ± 1.2 | 0.63 | 1.6 ± 1.0 | 0.00 |
+| 20 | 11.5 ± 1.4 | 1.00 | 3.2 ± 0.9 | 0.03 |
+| 55 | 88.4 ± 2.5 | 1.00 | 21.1 ± 2.6 | 1.00 |
+
+**Reading.** Under an aligned mechanism the pooled rule reaches 90 % detection only at about 20 shared
+pages (63 % at 13, 7 % at 11); under key-skip drift it detects nothing short of the whole book. §6, §7
+and §23 now say so. pnotisdev's ledger records the same limit as "pad reuse under skip drift: untestable".
+A shared key under the key-skip rule is a hypothesis no test in any lab has power against; it is also one
+with nothing pointing at it, since the pages' difference streams show no structure at any offset.
+
+## 37. Repeat spectrum, null models and the boundary convention (`src/lag_spectrum.py`, `results/lag_spectrum.md`)
+
+Two Quorum panels (quorumsays.com/q/1CHmMxwoj6rH, OHUxs3Jget6b) asked whether the deficit is uniform in
+lag, what null produced the expectation, and whether it survives the page-boundary conventions.
+Repeats at lags 1–120 within pages: lag 1 at z −17.3; lags 2–120 mean z −0.17, sd 0.98, one lag of 119
+at |z| ≥ 3 (lag 11, −3.1; chance expects 0.3 such lags). The deficit is at lag 1 only, which also answers
+the panel's lag-spectrum check. **Null models:** 12,901 pairs / 29 = 445 under uniform runes; 12,901 ×
+Σ p_i² = 446 under the observed rune frequencies (index of coincidence 0.0346); the "447" seen elsewhere
+is the second with a different pair count. **Boundary convention:** the 54 page joins carry 0 doublets
+(1.9 expected), so counting them changes nothing, and no 55-, 56- or 58-page convention can move the count
+by more than the joins it adds. **Per-page uniformity** was established in §21 and is restated: chi²
+58.5 on 54 degrees of freedom, 14 zero-doublet pages against 13.5 expected.
+
+## 38. Blinded glyph-level re-reading of the unsolved pages (`src/reread_lane.py`, `results/reread.md`)
+
+Every lab's negatives rest on one transcription. Two panels independently put a blinded re-reading
+first (§37's and quorumsays.com/q/Gt7EN7uFnoNk), because a stateful cipher test on a misread string is a
+test of a different object. **Method:** glyphs are connected components of the binarised page inside the
+text column, ordered into rows (§26's pipeline, with a rune drawn as two overlapping strokes merged);
+training labels come from the solved pages, first by rows whose glyph count equals a transcription
+line's, then re-aligned twice by reading each row with a model trained on the other pages and pairing it
+with the line it agrees with best; classifier 3-nearest-neighbour by cosine similarity on 32 × 32 crops,
+2,763 labelled glyphs from 17 solved images, all 29 runes present. **Validation before reading:**
+leave-one-page-out accuracy 99.71%; a component is resolved if its nearest training glyph
+is at least as similar as 99.5 % of held-out glyphs were (T = 0.986), which keeps 99.5 % of held-out
+glyphs at error 0.07%. **Blind reading:** the 55 unsolved pages with runes (the base-60
+grid rows of LP2-49 and LP2-51 excluded by layout). **Reconciliation after reading**, by sequence
+alignment of the resolved reading against the community string.
+
+**Result.** At the **12,807 aligned glyphs the blind reading disagrees with the transcription
+0 times** (held-out classifier error would predict about 9); adjacent repeats on the blind reading **84**
+against the transcription's 86; **149 positions (1.2%) could not be read**, every one a
+transcription rune the segmenter failed to isolate (never a glyph the transcription lacks), 64 of them ᚳ,
+which touches its neighbour in this font and merges into one component the classifier declines. A
+width-based splitter was tried and withdrawn (it cut wide runes such as ᛠ in two). **Pre-registered
+verdict: NOT confirmed**, because criterion (a), resolved-glyph count within 3 of the transcription on at
+least 50 pages, held on only 32 pages; criteria (b) and (c) held. That criterion was
+written to catch a transcription that invents or drops runes, and what it caught instead is the
+segmenter's merges, so the honest statement is narrower than "confirmed" and stronger than "not
+confirmed": at 98.85 % of positions the independent reading reproduces the community transcription
+exactly, and the remaining 1.15 % are unread, not disputed. They are listed by page and position in
+`results/reread.md` for the eye. The first run, before the stroke-merge fix and with position-wise
+comparison, is kept as `results/reread_run1.md`.
 

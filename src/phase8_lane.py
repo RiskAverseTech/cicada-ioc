@@ -20,6 +20,7 @@ z >= 6 and rank first in their set, or the sweep is not trusted.
 import json, sys, time
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import os
 import numpy as np
 from lp import *
 from score import english_model, decode, null_scores, translit, S_MAX
@@ -30,6 +31,10 @@ lu, lb, plain = english_model()
 d = json.loads((PROCESSED / "pages.json").read_text())
 pages = [(u["id"], np.array(u["cipher"])) for u in d["unsolved"] if u["length"] > 0]
 if SMOKE: pages = pages[:2]
+SHORT = os.environ.get("SHORT") == "1"
+if SHORT:
+    import rescore5
+    pages = [p for p in pages if p[0] in rescore5.SHORT_PAGES]; CTRL_N = (92, 137, 159, 196); short_rows = []
 LMAX = max(len(c) for _, c in pages) + S_MAX + 2
 INV = np.array([pow(int(m), -1, N) if m % N else 0 for m in range(N)])
 
@@ -101,7 +106,8 @@ for ci in range(NC):
     name, mode, rej, Ks, labs, mult = SETS[ci % len(SETS)]
     f_rule = bool((ci // len(SETS)) % 2)
     ki = int(rng.integers(0, len(Ks)))
-    o = int(rng.integers(0, len(plain) - 240)); P = plain[o:o + 240]
+    nc = CTRL_N[ci % 4] if SHORT else 240
+    o = int(rng.integers(0, len(plain) - nc)); P = plain[o:o + nc]
     C = encrypt_affine(P, Ks[ki], None if mult is None else mult[ki], f_rule, 0.81, mode, 2 if rej == "two" else 1)
     nul = null_scores(C, lu, f_rule, rng, 500, mode, rejection=rej)
     sc, sk, tops = best_configs(C, Ks, f_rule, mode, rej, mult)
@@ -110,6 +116,9 @@ for ci in range(NC):
     mi = None if mult is None else INV[mult[ki:ki + 1, :len(C)]]
     rec = decode(C, Ks[ki:ki + 1], lu, f_rule, mode, rejection=rej, mult_inv=mi)[2][0]
     ctrl_rows.append((f"control-{ci:02d}", name, labs[ki][1], f_rule, float(z[ki]), rank, float((rec == P).mean())))
+    if SHORT:
+        z5c = float(rescore5.z5(C, lambda Kr: decode(C, Kr, lu, f_rule, mode, rejection=rej, mult_inv=(None if mult is None else INV[mult[ki, :len(C)]]))[2], rec[None, :], rng)[0])
+        short_rows.append(dict(kind="control", n=nc, sign=name, key=labs[ki][1], F=f_rule, zu=float(z[ki]), z5=z5c, rank=rank, passed=bool(z[ki] >= rescore5.Z_UNI_R and z5c >= rescore5.Z_5 and rank == 1)))
     print(f"  control-{ci:02d}: {name} {labs[ki][1]} F={f_rule}: z={z[ki]:.1f} rank {rank}, recovered {(rec == P).mean():.3f}", flush=True)
 print(f"controls done in {time.time()-t0:.0f}s", flush=True)
 if SMOKE: sys.exit(0)
@@ -129,8 +138,14 @@ for pi, (pid, C) in enumerate(pages):
             z = (sc - n_.mean()) / n_.std()
             for k in np.argsort(-z)[:2]:
                 results.append((pid, name, f_rule, labs[k][0], labs[k][1], float(z[k]), int(sk[k]), float(sc[k]), translit(tops[k][:80]) if k in tops else ""))
+                if SHORT and k in tops:
+                    mi_k = None if mult is None else INV[mult[k, :len(C)]]
+                    z5v = float(rescore5.z5(C, lambda Kr: decode(C, Kr, lu, f_rule, mode, rejection=rej, mult_inv=mi_k)[2], tops[k][None, :], rng)[0])
+                    short_rows.append(dict(kind="page", page=pid, sign=name, F=f_rule, fam=labs[k][0], key=labs[k][1], zu=float(z[k]), z5=z5v, translit=translit(tops[k][:80])))
     print(f"  {pid} done ({pi+1}/{len(pages)}), best z on this page: {max(r[5] for r in results if r[0]==pid):.2f}  [{time.time()-t0:.0f}s]", flush=True)
 
+if SHORT:
+    rescore5.write_short("phase8", "Phase 8 (LCG seeds, position multipliers) on the nine short pages", short_rows); sys.exit(0)
 results.sort(key=lambda r: -r[5])
 zmax = results[0][5]
 out = ["# Phase 8 sweep: the hypothesis loop's short list (LCG seeds; word keys with a position-walking multiplier)", "",

@@ -1,0 +1,39 @@
+22863 configurations per page x 9 pages x 2 F variants = 411,534 tests under skip_by_two; chance max ~ 5.1 sigma
+  control-00: sub phrase-2 'A LONG' F=False: skip-by-two decoder z=5.9 rank 1 rec 1.000 | single-advance decoder z=5.8 rank 1 rec 1.000
+  control-01: add phrase-4-rev 'ELSE TO SAY SO ʳ' F=False: skip-by-two decoder z=8.3 rank 1 rec 0.993 | single-advance decoder z=4.8 rank 1 rec 0.438
+  control-02: beaufort phrase-3 'CIRCUMFERENCE PRACTICES THREE' F=False: skip-by-two decoder z=9.0 rank 1 rec 1.000 | single-advance decoder z=1.0 rank 1132 rec 0.157
+  control-03: sub primes+1 'p[n+26]+1' F=False: skip-by-two decoder z=9.3 rank 1 rec 1.000 | single-advance decoder z=3.3 rank 6 rec 0.408
+  control-04: add vigenere-word 'TOLD' F=False: skip-by-two decoder z=6.1 rank 1 rec 1.000 | single-advance decoder z=2.6 rank 9 rec 0.609
+  control-05: beaufort primes 'p[n+22]' F=False: skip-by-two decoder z=7.9 rank 1 rec 0.971 | single-advance decoder z=2.9 rank 9 rec 0.547
+  control-06: sub sentence 'MOST THINGS ARE NOT WORTH PRES' F=True: skip-by-two decoder z=9.7 rank 1 rec 1.000 | single-advance decoder z=5.5 rank 1 rec 0.648
+  control-07: add phrase-3-rev 'WORDS OR THEIR ʳ' F=True: skip-by-two decoder z=12.2 rank 1 rec 1.000 | single-advance decoder z=8.4 rank 1 rec 0.679
+  control-08: beaufort phrase-2 'OF THOUGHT' F=True: skip-by-two decoder z=7.5 rank 1 rec 0.978 | single-advance decoder z=4.1 rank 1 rec 0.500
+  control-09: sub fibonacci 'F[n+2]' F=True: skip-by-two decoder z=9.0 rank 1 rec 1.000 | single-advance decoder z=5.7 rank 1 rec 0.650
+  control-10: add self running key 'plaintext@765' F=True: skip-by-two decoder z=10.2 rank 1 rec 1.000 | single-advance decoder z=3.1 rank 10 rec 0.296
+  control-11: beaufort affine position '12·n+27' F=True: skip-by-two decoder z=12.7 rank 1 rec 0.990 | single-advance decoder z=10.1 rank 1 rec 0.811
+  control-12: sub phrase-4 'BELIEVE NOTHING FROM THIS' F=False: skip-by-two decoder z=6.4 rank 1 rec 0.989 | single-advance decoder z=2.9 rank 47 rec 0.207
+  control-13: add phrase-2-rev 'LUCK AND ʳ' F=False: skip-by-two decoder z=8.5 rank 1 rec 1.000 | single-advance decoder z=2.3 rank 12 rec 0.496
+  control-14: beaufort sentence 'DURING A LESSON THE MASTER EXP' F=False: skip-by-two decoder z=8.3 rank 1 rec 1.000 | single-advance decoder z=0.4 rank 1829 rec 0.082
+  control-15: sub vigenere-word 'PREPARED' F=False: skip-by-two decoder z=10.1 rank 1 rec 1.000 | single-advance decoder z=6.4 rank 2 rec 0.755
+  control-16: add primes 'p[n+31]' F=False: skip-by-two decoder z=6.2 rank 1 rec 1.000 | single-advance decoder z=5.0 rank 1 rec 0.804
+  control-17: beaufort square position 'n²+20' F=False: skip-by-two decoder z=7.4 rank 1 rec 1.000 | single-advance decoder z=6.3 rank 1 rec 0.803
+  control-18: sub phrase-3 'OR THE MESSAGE' F=True: skip-by-two decoder z=10.6 rank 1 rec 0.950 | single-advance decoder z=2.9 rank 89 rec 0.371
+  control-19: add sentence-rev 'THE MAN WAS GETTING IRRITATED ' F=True: skip-by-two decoder z=10.6 rank 1 rec 0.990 | single-advance decoder z=9.4 rank 1 rec 0.857
+  control-20: beaufort phrase-4 'RIGHT ABOUT TO BELONG' F=True: skip-by-two decoder z=7.9 rank 1 rec 0.978 | single-advance decoder z=6.3 rank 1 rec 0.511
+  control-21: sub self running key 'plaintext@2887' F=True: skip-by-two decoder z=9.0 rank 1 rec 0.985 | single-advance decoder z=6.4 rank 4 rec 0.693
+  control-22: add affine position '25·n+1' F=True: skip-by-two decoder z=9.5 rank 1 rec 1.000 | single-advance decoder z=10.3 rank 1 rec 0.981
+  control-23: beaufort primes-1 (totient) 'p[n+71]-1' F=True: skip-by-two decoder z=11.2 rank 1 rec 1.000 | single-advance decoder z=4.3 rank 1 rec 0.357
+controls done in 170s
+  LP2-06 done (1/9), best z on this page: 4.07  [36s]
+  LP2-14 done (2/9), best z on this page: 4.43  [64s]
+  LP2-15 done (3/9), best z on this page: 4.00  [86s]
+  LP2-22 done (4/9), best z on this page: 3.70  [103s]
+  LP2-32 done (5/9), best z on this page: 3.52  [120s]
+  LP2-49 done (6/9), best z on this page: 3.19  [131s]
+  LP2-51 done (7/9), best z on this page: 3.90  [144s]
+  LP2-53 done (8/9), best z on this page: 3.71  [167s]
+  LP2-55 done (9/9), best z on this page: 4.69  [177s]
+None.
+
+Largest z_uni 4.69; largest z_5 2.56.
+

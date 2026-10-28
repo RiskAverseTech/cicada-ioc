@@ -4,12 +4,12 @@
 |---|---|
 | **Breakthroughs** | **0** (a page decoding to readable English at a pre-registered bar, reproduced by someone else) |
 | Decoder tests run | 374 million, all pre-registered, all with planted controls |
-| Lanes closed null | 18 of 22 (none running) |
+| Lanes closed null | 18 of 26 (none running) |
 | Pages | 55 unsolved with runes (12,956 runes); coverage limits listed per lane |
 | The one structure | 86 doubled runes where 445 are expected; flat in every other statistic |
 | Best current reading | key redrawn ~4 times in 5 when it would repeat; lag-2 at chance points to a program, not a hand |
 | External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
-| Repository | 36 numbered sections, 34 commits as of 2026-10-27 |
+| Repository | 40 numbered sections, 35 commits as of 2026-10-27 |
 
 ## Lanes
 
@@ -37,14 +37,19 @@
 | §32 | Keyword-mixed alphabets (quagmire I-IV) under the book's keys | 25.6 M | 7/8 (8th rank 2, equivalent alphabet) | null | book words and streams only; other labs' key families under mixed alphabets open |
 | §33 | Where the 86 repeats sit | — | — | boundary-blind | excludes reset-chain ciphers and transcription artefacts |
 | §34 | The 256-byte payload of LP2-49/50/51 as key (direct, pointer readings) | 0.1 M | 4/4 | null | replication; PRF expansions are wazar's negatives |
+| §35 | Every archived artefact against the page-73 hash | 0.0 M | — | no match | public archives only |
+| §36 | Planted-cluster power of the key-reuse test | — | 30 reps per cell | measured | ~20 aligned pages for 90 %; blind under key-skip |
+| §37 | Repeat spectrum to lag 120, null models, boundary convention | — | — | deficit at lag 1 only |  |
+| §38 | Blinded glyph re-reading of the unsolved pages | 0.0 M | 99.7 % held-out | 0 disagreements; 149 unread | pre-registered count criterion failed by the segmenter |
 
 ## Open
 
 - Filler (null) lane on LP2-49, LP2-55, LP2-51: below power at any rule tried
 - Mixed alphabets under the other labs' key families (external texts, PRNG seeds): the quagmire lane covered the book's own keys only
-- Phase 6–9 mechanisms on the nine short pages: not carried there
+- Phase 9 mechanisms on the nine short pages (phases 6-8 done 2026-10-28)
+- 149 unread positions of the blind re-reading (merged ᚳ pairs, drop caps): a better splitter or the eye
+- Red-text key schedule (the red initials and first words), ledger check first
 - wazar's 29 fetched-but-never-run esoteric texts (R12-C2)
-- Planted-cluster simulation for the key-reuse test (small clusters)
 - LP2-50, the two-character-code page, as a cipher of its own
 - Generator families (PRNG/KDF seeds) under the soft rule, where the machine reading points
 

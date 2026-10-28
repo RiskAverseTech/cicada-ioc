@@ -1,0 +1,31 @@
+15834 configurations per page x 9 pages x 2 F variants = 285,012 tests; chance max ~ 5.0 sigma
+  control-00: lcg(a=1033,c=0,m=3301) add seed=3029 F=False: z=6.0 rank 1, recovered 1.000
+  control-01: lcg(a=3,c=0,m=3301) add seed=370 F=False: z=7.6 rank 1, recovered 1.000
+  control-02: lcg(a=7,c=1,m=3301) add seed=1994 F=False: z=8.5 rank 1, recovered 1.000
+  control-03: lcg(a=7,c=1,m=3301) beaufort seed=301 F=False: z=10.4 rank 1, recovered 1.000
+  control-04: lcg(a=2,c=24,m=29) add seed=1 F=False: z=6.5 rank 1, recovered 1.000
+  control-05: lcg(a=3301,c=29,m=1033) add skip2 seed=269 F=False: z=6.3 rank 1, recovered 0.745
+  control-06: word keys × position multiplier m=(22i+18)%28+1 F=False: z=8.3 rank 1, recovered 0.981
+  control-07: lcg(a=1033,c=0,m=3301) add seed=2475 F=True: z=12.9 rank 1, recovered 0.980
+  control-08: lcg(a=3,c=0,m=3301) add seed=1905 F=True: z=6.1 rank 1, recovered 1.000
+  control-09: lcg(a=7,c=1,m=3301) add seed=1911 F=True: z=8.9 rank 1, recovered 1.000
+  control-10: lcg(a=7,c=1,m=3301) beaufort seed=1960 F=True: z=10.3 rank 1, recovered 0.987
+  control-11: lcg(a=2,c=24,m=29) add seed=0 F=True: z=11.8 rank 1, recovered 1.000
+  control-12: lcg(a=3301,c=29,m=1033) add skip2 seed=111 F=True: z=6.7 rank 1, recovered 1.000
+  control-13: word keys × position multiplier m=(25i+25)%28+1 F=True: z=9.3 rank 1, recovered 0.978
+  control-14: lcg(a=1033,c=0,m=3301) add seed=562 F=False: z=8.2 rank 2, recovered 1.000
+  control-15: lcg(a=3,c=0,m=3301) add seed=412 F=False: z=10.3 rank 1, recovered 1.000
+controls done in 43s
+  LP2-06 done (1/9), best z on this page: 3.82  [45s]
+  LP2-14 done (2/9), best z on this page: 3.46  [78s]
+  LP2-15 done (3/9), best z on this page: 4.45  [128s]
+  LP2-22 done (4/9), best z on this page: 3.81  [167s]
+  LP2-32 done (5/9), best z on this page: 3.37  [206s]
+  LP2-49 done (6/9), best z on this page: 3.53  [222s]
+  LP2-51 done (7/9), best z on this page: 3.68  [248s]
+  LP2-53 done (8/9), best z on this page: 3.48  [293s]
+  LP2-55 done (9/9), best z on this page: 3.42  [314s]
+None.
+
+Largest z_uni 4.45; largest z_5 2.03.
+

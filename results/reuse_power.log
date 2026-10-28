@@ -1,0 +1,22 @@
+pair null -0.296 ± 0.209 over 8910 pairs
+rewrite  k= 2: pooled z   0.54 ± 0.99; detected by pooled rule 0/30, by any pair 0/30  [1s]
+rewrite  k= 3: pooled z   0.55 ± 0.85; detected by pooled rule 0/30, by any pair 1/30  [1s]
+rewrite  k= 4: pooled z   0.70 ± 0.97; detected by pooled rule 0/30, by any pair 0/30  [1s]
+rewrite  k= 6: pooled z   1.60 ± 0.89; detected by pooled rule 0/30, by any pair 6/30  [1s]
+rewrite  k= 8: pooled z   2.27 ± 1.06; detected by pooled rule 0/30, by any pair 6/30  [2s]
+rewrite  k=11: pooled z   3.70 ± 1.17; detected by pooled rule 2/30, by any pair 12/30  [2s]
+rewrite  k=13: pooled z   5.40 ± 1.17; detected by pooled rule 19/30, by any pair 14/30  [2s]
+rewrite  k=20: pooled z  11.49 ± 1.41; detected by pooled rule 30/30, by any pair 25/30  [3s]
+rewrite  k=55: pooled z  88.36 ± 2.46; detected by pooled rule 30/30, by any pair 30/30  [3s]
+keyskip  k= 2: pooled z   0.67 ± 0.85; detected by pooled rule 0/30, by any pair 0/30  [3s]
+keyskip  k= 3: pooled z   0.51 ± 1.05; detected by pooled rule 0/30, by any pair 0/30  [3s]
+keyskip  k= 4: pooled z   0.38 ± 0.99; detected by pooled rule 0/30, by any pair 0/30  [4s]
+keyskip  k= 6: pooled z   0.84 ± 1.06; detected by pooled rule 0/30, by any pair 0/30  [4s]
+keyskip  k= 8: pooled z   0.86 ± 1.07; detected by pooled rule 0/30, by any pair 1/30  [4s]
+keyskip  k=11: pooled z   1.37 ± 0.96; detected by pooled rule 0/30, by any pair 0/30  [5s]
+keyskip  k=13: pooled z   1.64 ± 1.02; detected by pooled rule 0/30, by any pair 1/30  [5s]
+keyskip  k=20: pooled z   3.23 ± 0.93; detected by pooled rule 1/30, by any pair 4/30  [5s]
+keyskip  k=55: pooled z  21.06 ± 2.59; detected by pooled rule 30/30, by any pair 16/30  [5s]
+
+**Reading.** Under the in-place rewrite mechanism (shared pages stay aligned) the pooled rule reaches 90 % detection at 20 shared pages; under the key-skip mechanism (shared pages drift apart after the first skip) it reaches 90 % at 55 shared pages. The §6 and §7 statement 'no detected large-scale aligned reuse' is therefore a statement about aligned reuse; a shared key under the key-skip rule is invisible to this test at any cluster size, which pnotisdev's ledger also records ('pad reuse under skip drift: untestable').
+

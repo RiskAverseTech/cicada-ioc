@@ -4,3 +4,4 @@ __pycache__/
 .DS_Store
 external/
 results/ngram5.npz
+data/archives/

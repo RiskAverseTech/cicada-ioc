@@ -202,14 +202,51 @@
    "verdict": "null",
    "coverage_limit": "replication; PRF expansions are wazar's negatives",
    "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a735",
+   "lane": "Every archived artefact against the page-73 hash",
+   "tests": 3977,
+   "controls": "\u2014",
+   "verdict": "no match",
+   "coverage_limit": "public archives only",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a736",
+   "lane": "Planted-cluster power of the key-reuse test",
+   "tests": null,
+   "controls": "30 reps per cell",
+   "verdict": "measured",
+   "coverage_limit": "~20 aligned pages for 90 %; blind under key-skip",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a737",
+   "lane": "Repeat spectrum to lag 120, null models, boundary convention",
+   "tests": null,
+   "controls": "\u2014",
+   "verdict": "deficit at lag 1 only",
+   "coverage_limit": "",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a738",
+   "lane": "Blinded glyph re-reading of the unsolved pages",
+   "tests": 12807,
+   "controls": "99.7 % held-out",
+   "verdict": "0 disagreements; 149 unread",
+   "coverage_limit": "pre-registered count criterion failed by the segmenter",
+   "date": "2026-10-27"
   }
  ],
  "open": [
   "Filler (null) lane on LP2-49, LP2-55, LP2-51: below power at any rule tried",
   "Mixed alphabets under the other labs' key families (external texts, PRNG seeds): the quagmire lane covered the book's own keys only",
-  "Phase 6\u20139 mechanisms on the nine short pages: not carried there",
+  "Phase 9 mechanisms on the nine short pages (phases 6-8 done 2026-10-28)",
+  "149 unread positions of the blind re-reading (merged \u16b3 pairs, drop caps): a better splitter or the eye",
+  "Red-text key schedule (the red initials and first words), ledger check first",
   "wazar's 29 fetched-but-never-run esoteric texts (R12-C2)",
-  "Planted-cluster simulation for the key-reuse test (small clusters)",
   "LP2-50, the two-character-code page, as a cipher of its own",
   "Generator families (PRNG/KDF seeds) under the soft rule, where the machine reading points"
  ]

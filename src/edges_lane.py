@@ -36,6 +36,10 @@ PEN = float(np.log(NU / (1 - NU)))
 rng = np.random.default_rng(6006)
 lu = F.lu
 pages = F.pages
+SHORT = os.environ.get("SHORT") == "1"
+if SHORT:
+    import rescore5
+    pages = [p for p in pages if p[0] in rescore5.SHORT_PAGES]; short_rows = []
 EDGES = json.load(open(PROCESSED / "edges.json"))
 SETS = F.ALLSETS
 KINDS = ("adv", "advline", "nulli", "nullf")
@@ -117,6 +121,9 @@ for ci in range(24):
     rec = decode(C, Ks[ki:ki + 1], lu, f_rule, mode, adv, nul, PEN)[2][0]
     acc = float(np.mean([rec[i] == P[i] for i in range(min(len(rec), len(P)))])) if kind.startswith("adv") else float("nan")
     ctrl_rows.append((f"control-{ci:02d}", kind, sign, labs[ki][0], labs[ki][1][:30], f_rule, pid, events, float(z[ki]), rank, float(sc[ki] - base), float(zb), acc))
+    if SHORT:
+        z5c = float(rescore5.z5(C, lambda Kr: decode(C, Kr, lu, f_rule, mode, adv, nul, PEN)[2], rec[None, :], rng)[0])
+        short_rows.append(dict(kind="control", n=len(C), sign=f"{kind} {sign}", key=labs[ki][1][:30], F=f_rule, zu=float(z[ki]), z5=z5c, rank=rank, passed=bool(z[ki] >= rescore5.Z_UNI_R and z5c >= rescore5.Z_5 and rank == 1)))
     print(f"  control-{ci:02d}: {kind} {sign} {labs[ki][0]} '{labs[ki][1][:24]}' F={f_rule} {pid} events={events}: edge z={z[ki]:.1f} rank {rank}, edge-base {sc[ki]-base:+.1f} nats, base-decoder z={zb:.1f}, rec {acc:.3f}", flush=True)
 print(f"controls done in {time.time()-t0:.0f}s", flush=True)
 if SMOKE: sys.exit(0)
@@ -138,10 +145,15 @@ for pi_, (pid, C) in enumerate(pages):
                 sc, sk, tops = best_configs(C, Ks, f_rule, mode, adv, nul, PEN)
                 z = (sc - nn.mean()) / nn.std()
                 for k in np.argsort(-z)[:2]:
+                    if SHORT and k in tops:
+                        z5v = float(rescore5.z5(C, lambda Kr: decode(C, Kr, lu, f_rule, mode, adv, nul, PEN)[2], tops[k][None, :], rng)[0])
+                        short_rows.append(dict(kind="page", page=pid, sign=f"{kind} {sign}", F=f_rule, fam=labs[k][0], key=labs[k][1], zu=float(z[k]), z5=z5v, translit=translit(tops[k][:80])))
                     base = float(decode(C, Ks[k:k + 1], lu, f_rule, mode)[0][0])
                     results.append((pid, kind, sign, f_rule, labs[k][0], labs[k][1], float(z[k]), float(sc[k] - base), int(sk[k]), translit(tops[k][:80]) if k in tops else ""))
     print(f"  {pid} done ({pi_+1}/{len(pages)}), best z: " + ", ".join(f"{kd} {max(r[6] for r in results if r[0]==pid and r[1]==kd):.2f}" for kd in KINDS) + f"  [{time.time()-t0:.0f}s]", flush=True)
 
+if SHORT:
+    rescore5.write_short("phase6", "Phase 6 (word-edge events) on the nine short pages", short_rows); sys.exit(0)
 results.sort(key=lambda r: -r[6])
 zmax = results[0][6]
 hits = [r for r in results if r[6] >= 6 and r[7] >= 20]

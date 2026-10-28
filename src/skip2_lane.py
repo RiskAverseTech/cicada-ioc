@@ -19,6 +19,7 @@ with the single-advance rule to measure the blind spot.
 import json, sys, time
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import os
 import numpy as np
 from lp import *
 from score import english_model, decode, null_scores, translit
@@ -29,6 +30,10 @@ REJ = "two"
 rng = np.random.default_rng(7007)
 lu, lb, plain = english_model()
 pages = F.pages
+SHORT = os.environ.get("SHORT") == "1"
+if SHORT:
+    import rescore5
+    pages = [p for p in pages if p[0] in rescore5.SHORT_PAGES]; CTRL_N = (92, 137, 159, 196); short_rows = []
 SETS = F.ALLSETS
 nconf = sum(len(L) for *_, L in SETS)
 ntests = nconf * len(pages) * 2
@@ -56,7 +61,8 @@ for ci in range(24):
     fam = fams_here[(ci * 5) % len(fams_here)]
     cand = [i for i, (f, _) in enumerate(labs) if f == fam]
     ki = int(rng.choice(cand))
-    o = int(rng.integers(0, len(plain) - 240)); P = plain[o:o + 240]
+    nc = CTRL_N[ci % 4] if SHORT else 240
+    o = int(rng.integers(0, len(plain) - nc)); P = plain[o:o + nc]
     Ktrue = Ks[ki] if sign != "add" else (-Ks[ki]) % N
     C = encrypt(P, Ktrue, f_rule=f_rule, rng=rng, soft=0.81, mode=sign, skip_by=2)
     row = [f"control-{ci:02d}", sign, labs[ki][0], labs[ki][1], f_rule]
@@ -67,6 +73,9 @@ for ci in range(24):
         rank = int((z > z[ki]).sum()) + 1
         rec = decode(C, Ks[ki:ki + 1], lu, f_rule, mode, rejection=rej)[2][0]
         row += [float(z[ki]), rank, float((rec == P).mean())]
+        if SHORT and rej == REJ:
+            z5c = float(rescore5.z5(C, lambda Kr: decode(C, Kr, lu, f_rule, mode, rejection=rej)[2], rec[None, :], rng)[0])
+            short_rows.append(dict(kind="control", n=nc, sign=sign, key=labs[ki][1], F=f_rule, zu=float(z[ki]), z5=z5c, rank=rank, passed=bool(z[ki] >= rescore5.Z_UNI_R and z5c >= rescore5.Z_5 and rank == 1)))
     ctrl_rows.append(row)
     print(f"  {row[0]}: {sign} {labs[ki][0]} '{labs[ki][1][:30]}' F={f_rule}: skip-by-two decoder z={row[5]:.1f} rank {row[6]} rec {row[7]:.3f} | single-advance decoder z={row[8]:.1f} rank {row[9]} rec {row[10]:.3f}", flush=True)
 print(f"controls done in {time.time()-t0:.0f}s", flush=True)
@@ -87,8 +96,13 @@ for pi, (pid, C) in enumerate(pages):
             z = (sc - nul.mean()) / nul.std()
             for k in np.argsort(-z)[:2]:
                 results.append((pid, sign, f_rule, labs[k][0], labs[k][1], float(z[k]), int(sk[k]), float(sc[k]), translit(tops[k][:80]) if k in tops else ""))
+                if SHORT and k in tops:
+                    z5v = float(rescore5.z5(C, lambda Kr: decode(C, Kr, lu, f_rule, mode, rejection=REJ)[2], tops[k][None, :], rng)[0])
+                    short_rows.append(dict(kind="page", page=pid, sign=sign, F=f_rule, fam=labs[k][0], key=labs[k][1], zu=float(z[k]), z5=z5v, translit=translit(tops[k][:80])))
     print(f"  {pid} done ({pi+1}/{len(pages)}), best z on this page: {max(r[5] for r in results if r[0]==pid):.2f}  [{time.time()-t0:.0f}s]", flush=True)
 
+if SHORT:
+    rescore5.write_short("phase7", "Phase 7 (skip-by-two) on the nine short pages", short_rows); sys.exit(0)
 results.sort(key=lambda r: -r[5])
 zmax = results[0][5]
 out = ["# Phase 7 sweep: book families and phrase keys under the skip-by-two rejection rule", "",
