@@ -1,0 +1,29 @@
+{
+ "controls": [],
+ "survivors": [
+  {
+   "form": "Q4",
+   "A": "CIRCUMFERENCE",
+   "B": "FORM",
+   "key": "TRAILED\u02b3",
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.636908137594041,
+   "z2": 3.935712209725231,
+   "z5": -2.790721667493797,
+   "translit": "NOIOSITCNNGITTEAWWACIARUETTHIREOCIFOTLDLXNPIPEAEMRCWNGWEAYDAEGRMLLASCSRETEEUNATHLDIPHXSE"
+  }
+ ],
+ "candidates": [],
+ "ntests_t1": 3660228,
+ "ntests_t2": 1,
+ "null_shift": [
+  0.03,
+  0.0,
+  0.01,
+  0.03,
+  0.02
+ ],
+ "seconds": 1172.3863158226013
+}

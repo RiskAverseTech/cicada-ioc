@@ -18,7 +18,9 @@ phase 6–9 mechanisms were not carried to those pages). §25 decodes the texts 
 detection to 99 % and reruns the short pages (null); §28 records a hand-versus-machine test with no
 power; §29 tries the two "Know This" magic squares as keys (null). §30 verifies Cicada's signed messages by full fingerprint (the 2017
 "hoax" claim is false); §31 sweeps eight seeded generators no ledger lists (null, 113 million window
-decodes). Nothing here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
+decodes). §32 runs keyword-mixed alphabets (quagmire I–IV) under the book's keys, the
+one named non-additive class every additive decoder is blind to (null, 25.6 million window decodes);
+§33 shows the 86 repeats are boundary-blind, excluding reset-chain ciphers and transcription artefacts. Nothing here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
 was known to the community a decade ago; this repository's contribution is independent
 replication with controls, the exclusion of every key family anyone has named for it on the pages
 long enough for the detector to see a planted solution (§23), and the tooling to test the next one in
@@ -1007,4 +1009,54 @@ pipeline pnotisdev built), other reductions, generators nobody has named. With t
 family is closed to the extent anyone has named a generator; what remains open on the mechanical
 side is non-additive constructions, above all a keyword-mixed alphabet under a Vigenère-style key,
 which every additive decoder in every lab is blind to and which pnotisdev lists as open.
+
+## 32. Keyword-mixed alphabets under the book's keys: quagmire I–IV (`src/quagmire_lane.py`, `results/quagmire.md`)
+
+Every decoder in every lab, this one included, assumes the key is added to the plaintext in the fixed
+rune order. If the author mixed the alphabet with a keyword on either side, the classical quagmire
+constructions, every additive sweep was blind to the correct key and the anti-repeat fingerprint is
+unchanged, because the rule acts on the output. pnotisdev lists a keyword-mixed outer alphabet as open;
+no ledger records a run. A Quorum panel asked the same day (quorumsays.com/q/EmEfDcbkkmyy) made the one
+sound objection: under a short *periodic* key, positions at the same phase share one substitution
+whether or not the alphabet is mixed, so pnotisdev's drift-aware periodic test already constrains that
+part; the panel's claim that only a running-key quagmire survives was marked overstated by its own
+scorer. What no test touched is a mixed alphabet under the book's *non-periodic* streams.
+
+**Model and library.** A mixed alphabet is a keyword's runes without repeats followed by the rest in
+Gematria order. Q1 mixes the plaintext side, Q2 the ciphertext side, Q3 both with one keyword, Q4 both
+with two. Keywords: the 255 distinct words of three or more runes in the solved pages, the eleven
+Know-This words and a dozen Cicada terms; Q4 pairs from the 30 most salient (870 pairs); 1,635
+alphabet configurations. Keys: the §9 word keys forward and reversed and the prime, totient, prime+1,
+Fibonacci and Lucas streams at every start, 869 keys, 331 of them non-periodic. Decoding is the
+additive decoder on the relabelled ciphertext with the unigram model relabelled by the plaintext
+alphabet; the random-keystream null moves by under 0.1 sigma under a mixed ciphertext alphabet
+(measured on five keywords per shard) and is shared.
+
+**Pre-registered two-tier rule**, as §31: tier 1 on the first 80 runes of LP2-00, LP2-01 and LP2-02 at
+z ≥ 4.5; tier 2 full page at z_uni ≥ 6 and z_5 ≥ 6, then readable. **Controls:** eight plants, two per
+form, random alphabets and keys, signs and F cycled; 7 of 8 pass at rank 1 among all 1,635 × 869
+configurations, and the eighth (Q4, KOAN/MOBIUS, a totient stream) clears both tier-2 bars at rank 2
+behind an equivalent alphabet pair, the same near-duplicate effect as the neighbouring offsets of §24.
+
+**Result: null.** 25,574,670 tier-1 window decodes, 8 survivors at z ≥ 4.5 (chance expects about 85;
+the shortfall reflects the correlation between alphabets sharing most of their order), 8 tier-2
+decodes, largest full-page z_uni 5.15 with z_5 −2.1 (Q4, TOTIENT/FIRFUMFERENFE, the word key SOME on
+LP2-00, gibberish), no candidate. Runtime 42 minutes on seven shards. Not covered: alphabets mixed by
+words outside the book, mixed alphabets with the other labs' key families (external texts, PRNG seeds),
+alphabets built by rules other than keyword-then-remainder. With this the one named non-additive class
+is closed for the book's own keys and words.
+
+## 33. Where the 86 repeats sit: boundary-blind (`src/doublet_boundaries.py`, `results/doublet_boundaries.md`)
+
+The §32 panel's useful residue was a test, not a mechanism: a chain or stepping cipher that resets at
+word, line or page starts cannot emit an adjacent repeat except across a reset, so its 86 repeats would
+sit at boundaries, and a transcription artefact at line ends would cluster there too. Against the master
+transcription's own separators: repeats inside words 60 (64.3 expected if boundary-blind), across word
+boundaries 21 (17.3), across clause boundaries 1 (0.9), across line boundaries 4 (3.6); every class
+within one sigma; positions within pages uniform (Kolmogorov–Smirnov p = 0.63). The reset-chain family
+and the artefact reading are excluded; the anti-repeat mechanism acts uniformly on the stream. The
+panel's own summary stands as the cleanest statement of where this leaves things: a stream whose only
+structure is a uniform, rune-blind one-lag ban carries exactly one law, every mechanism tuned to that
+law yields the same distribution, and only implementation leaks are testable. Sections 21, 28 and this
+one have now tested the leaks anyone has named.
 

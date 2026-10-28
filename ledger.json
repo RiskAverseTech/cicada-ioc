@@ -1,7 +1,7 @@
 {
  "generated_by": "src/status.py",
  "repository": "https://github.com/RiskAverseTech/cicada-ioc",
- "head": "9f05717 2026-10-27",
+ "head": "2c78e29 2026-10-27",
  "breakthroughs": 0,
  "breakthrough_definition": "a page decoding to readable English at a pre-registered bar, reproduced by someone else",
  "lanes": [
@@ -175,11 +175,29 @@
    "verdict": "null",
    "coverage_limit": "seeds above 2^18 and unnamed generators open",
    "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a732",
+   "lane": "Keyword-mixed alphabets (quagmire I-IV) under the book's keys",
+   "tests": 25574670,
+   "controls": "7/8 (8th rank 2, equivalent alphabet)",
+   "verdict": "null",
+   "coverage_limit": "book words and streams only; other labs' key families under mixed alphabets open",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a733",
+   "lane": "Where the 86 repeats sit",
+   "tests": null,
+   "controls": "\u2014",
+   "verdict": "boundary-blind",
+   "coverage_limit": "excludes reset-chain ciphers and transcription artefacts",
+   "date": "2026-10-27"
   }
  ],
  "open": [
   "Filler (null) lane on LP2-49, LP2-55, LP2-51: below power at any rule tried",
-  "Keyword-mixed alphabet (quagmire) under the book's word keys: the largest untested non-additive class, open on pnotisdev's list",
+  "Mixed alphabets under the other labs' key families (external texts, PRNG seeds): the quagmire lane covered the book's own keys only",
   "LP2-50, the two-character-code page, as key stream or pointer",
   "Phase 6\u20139 mechanisms on the nine short pages: not carried there",
   "wazar's 29 fetched-but-never-run esoteric texts (R12-C2)",

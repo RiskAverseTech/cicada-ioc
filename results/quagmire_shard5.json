@@ -1,0 +1,29 @@
+{
+ "controls": [],
+ "survivors": [
+  {
+   "form": "Q1",
+   "A": "ALL",
+   "B": null,
+   "key": "DO",
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.541761759591124,
+   "z2": 1.2869219403791636,
+   "z5": -0.8898821298249641,
+   "translit": "WNIRANGMUWAIDEAOOWBAEOXRUOUMLETTXPTHDDIBWTHOFEULCEUPOOTDESNYCMMASAATCBACTHDEDGLENNTHARC"
+  }
+ ],
+ "candidates": [],
+ "ntests_t1": 3644586,
+ "ntests_t2": 1,
+ "null_shift": [
+  0.0,
+  -0.01,
+  -0.0,
+  0.01,
+  -0.03
+ ],
+ "seconds": 1192.2605912685394
+}

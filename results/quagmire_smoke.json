@@ -1,0 +1,134 @@
+{
+ "controls": [
+  {
+   "form": "Q1",
+   "A": "AFTER",
+   "B": null,
+   "key": "p[n+60]",
+   "sign": "sub",
+   "F": false,
+   "z1": 6.3159306382431435,
+   "rank1": 1,
+   "z2": 13.313130556788442,
+   "z5": 66.90719757818621,
+   "passed": true
+  },
+  {
+   "form": "Q2",
+   "A": null,
+   "B": "ABOUT",
+   "key": "p[n+2]-1",
+   "sign": "add",
+   "F": false,
+   "z1": 5.772768421921188,
+   "rank1": 1,
+   "z2": 11.543234886648559,
+   "z5": 47.13173736498614,
+   "passed": true
+  },
+  {
+   "form": "Q3",
+   "A": "ABOUT",
+   "B": "ABOUT",
+   "key": "p[n+38]-1",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 5.14031170155442,
+   "rank1": 1,
+   "z2": 12.611773956301187,
+   "z5": 58.42233561684285,
+   "passed": true
+  },
+  {
+   "form": "Q4",
+   "A": "DIVINITY",
+   "B": "FIRFUMFERENFE",
+   "key": "BUT",
+   "sign": "sub",
+   "F": false,
+   "z1": 5.86458579522559,
+   "rank1": 1,
+   "z2": 11.898254173598742,
+   "z5": 59.35009044199038,
+   "passed": true
+  },
+  {
+   "form": "Q1",
+   "A": "ALL",
+   "B": null,
+   "key": "MORE\u02b3",
+   "sign": "add",
+   "F": true,
+   "z1": 7.0000754135652725,
+   "rank1": 1,
+   "z2": 11.56720374103609,
+   "z5": 38.24933828449599,
+   "passed": true
+  },
+  {
+   "form": "Q2",
+   "A": null,
+   "B": "AETHEREAL",
+   "key": "FROM\u02b3",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 7.150819728839457,
+   "rank1": 1,
+   "z2": 12.475643045191795,
+   "z5": 46.86939524689411,
+   "passed": true
+  },
+  {
+   "form": "Q3",
+   "A": "AETHEREAL",
+   "B": "AETHEREAL",
+   "key": "SAID",
+   "sign": "sub",
+   "F": true,
+   "z1": 7.433541626124403,
+   "rank1": 1,
+   "z2": 13.536508955382459,
+   "z5": 33.70988796390567,
+   "passed": true
+  },
+  {
+   "form": "Q4",
+   "A": "DIVINITY",
+   "B": "CIRCUMFERENCE",
+   "key": "DESTROY",
+   "sign": "add",
+   "F": true,
+   "z1": 7.345416180293998,
+   "rank1": 1,
+   "z2": 14.612719981473978,
+   "z5": 49.64074133556364,
+   "passed": true
+  }
+ ],
+ "survivors": [
+  {
+   "form": "Q1",
+   "A": "ALL",
+   "B": null,
+   "key": "DO",
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.618069785327661,
+   "z2": 1.2305181701117553,
+   "z5": -0.696219905245342,
+   "translit": "WNIRANGMUWAIDEAOOWBAEOXRUOUMLETTXPTHDDIBWTHOFEULCEUPOOTDESNYCMMASAATCBACTHDEDGLENNTHARC"
+  }
+ ],
+ "candidates": [],
+ "ntests_t1": 234630,
+ "ntests_t2": 1,
+ "null_shift": [
+  -0.04,
+  -0.09,
+  0.05,
+  -0.02,
+  0.02
+ ],
+ "seconds": 49.154701232910156
+}

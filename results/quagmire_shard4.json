@@ -1,0 +1,55 @@
+{
+ "controls": [],
+ "survivors": [
+  {
+   "form": "Q1",
+   "A": "WHEN",
+   "B": null,
+   "key": "HASHES",
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.560751249105693,
+   "z2": 2.996876611352612,
+   "z5": -1.4139202217088176,
+   "translit": "DNFIAUTHAHUOOWTMAIWMTBTLAYENNFRLUOCIAIPUTSTHATHRNTHYGMOUNNERFTHBWPAHNGEAEACGJWCEOUYNCHBNG"
+  },
+  {
+   "form": "Q4",
+   "A": "CICADA",
+   "B": "EMERGE",
+   "key": "REPLIED\u02b3",
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.818883753478173,
+   "z2": 2.3254277782266035,
+   "z5": -1.2005420547334593,
+   "translit": "THRCDSNECTHMCTNOUELTHOEHLSOCIITIHGTHTPALIHNCIAETFOAEOONGNYAEYIACECOPTHDIACCRJTNGMATHYREPWHT"
+  },
+  {
+   "form": "Q4",
+   "A": "TOTIENT",
+   "B": "FIRFUMFERENFE",
+   "key": "SOME",
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.583401788563017,
+   "z2": 5.147232836228454,
+   "z5": -2.1385285313298756,
+   "translit": "ICPMAORWIDPEDNDNGGTGEMLNSMRTUIMAHUTXTHAIASDNERYNEAANGNGIROXNYMATYNGTIHEATYSBTHEOATHDNTLMT"
+  }
+ ],
+ "candidates": [],
+ "ntests_t1": 3644586,
+ "ntests_t2": 3,
+ "null_shift": [
+  0.06,
+  0.02,
+  0.05,
+  0.06,
+  0.04
+ ],
+ "seconds": 1199.0886008739471
+}

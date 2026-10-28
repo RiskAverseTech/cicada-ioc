@@ -1,0 +1,15 @@
+{
+ "controls": [],
+ "survivors": [],
+ "candidates": [],
+ "ntests_t1": 3660228,
+ "ntests_t2": 0,
+ "null_shift": [
+  0.02,
+  0.02,
+  0.05,
+  0.03,
+  0.04
+ ],
+ "seconds": 1190.290195941925
+}

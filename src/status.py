@@ -36,10 +36,12 @@ LANES = [
     ("§29", "The two Know This magic squares as keys", 92 * 6 * 55, "8/8", "null", "direct use only; seeds and indices open"),
     ("§30", "Provenance: signed messages verify (2012, 2016, 2017)", None, "3 of 3 verify", "genuine", "the 2017 'hoax' claim is false"),
     ("§31", "Seeded generators no ledger lists (8 PRNGs, 2^18 seeds)", nt("generators.json") or 113261328, "8/8", "null", "seeds above 2^18 and unnamed generators open"),
+    ("§32", "Keyword-mixed alphabets (quagmire I-IV) under the book's keys", nt("quagmire.json") or 25574670, "7/8 (8th rank 2, equivalent alphabet)", "null", "book words and streams only; other labs' key families under mixed alphabets open"),
+    ("§33", "Where the 86 repeats sit", None, "—", "boundary-blind", "excludes reset-chain ciphers and transcription artefacts"),
 ]
 OPEN = [
     "Filler (null) lane on LP2-49, LP2-55, LP2-51: below power at any rule tried",
-    "Keyword-mixed alphabet (quagmire) under the book's word keys: the largest untested non-additive class, open on pnotisdev's list",
+    "Mixed alphabets under the other labs' key families (external texts, PRNG seeds): the quagmire lane covered the book's own keys only",
     "LP2-50, the two-character-code page, as key stream or pointer",
     "Phase 6–9 mechanisms on the nine short pages: not carried there",
     "wazar's 29 fetched-but-never-run esoteric texts (R12-C2)",

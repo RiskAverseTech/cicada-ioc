@@ -1,0 +1,8 @@
+255 keywords, 1635 alphabet configs, 869 keys -> tier-1 25,574,670 tests
+nulls ready; mixed-alphabet null shift in sd units for five keywords: [0.02, 0.02, 0.05, 0.03, 0.04]  [98s]
+  50/234 configs: 782,100 tier-1 tests, 0 survivors, 0 candidates  [380s]
+  100/234 configs: 1,564,200 tier-1 tests, 0 survivors, 0 candidates  [600s]
+  150/234 configs: 2,346,300 tier-1 tests, 0 survivors, 0 candidates  [822s]
+  200/234 configs: 3,128,400 tier-1 tests, 0 survivors, 0 candidates  [1045s]
+  234/234 configs: 3,660,228 tier-1 tests, 0 survivors, 0 candidates  [1190s]
+shard 3/7 written [1190s]

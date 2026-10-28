@@ -1,0 +1,160 @@
+{
+ "controls": [
+  {
+   "form": "Q1",
+   "A": "ANALOG",
+   "B": null,
+   "key": "FOLLOW\u02b3",
+   "sign": "sub",
+   "F": false,
+   "z1": 6.107597712989133,
+   "rank1": 1,
+   "z2": 11.561340048273527,
+   "z5": 46.97920308107248,
+   "passed": true
+  },
+  {
+   "form": "Q2",
+   "A": null,
+   "B": "ONE",
+   "key": "NOW\u02b3",
+   "sign": "add",
+   "F": false,
+   "z1": 5.926535667477114,
+   "rank1": 1,
+   "z2": 11.051811187434106,
+   "z5": 41.32813390778014,
+   "passed": true
+  },
+  {
+   "form": "Q3",
+   "A": "PILGRIMAGE",
+   "B": "PILGRIMAGE",
+   "key": "p[n+93]-1",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 5.996086861591853,
+   "rank1": 1,
+   "z2": 11.583587240963368,
+   "z5": 55.2960919377659,
+   "passed": true
+  },
+  {
+   "form": "Q4",
+   "A": "FORM",
+   "B": "DIVINITY",
+   "key": "THEN",
+   "sign": "sub",
+   "F": false,
+   "z1": 5.860689346646073,
+   "rank1": 1,
+   "z2": 12.097172943459112,
+   "z5": 54.29852438794044,
+   "passed": true
+  },
+  {
+   "form": "Q1",
+   "A": "BELIEVE",
+   "B": null,
+   "key": "PREPARED\u02b3",
+   "sign": "add",
+   "F": true,
+   "z1": 6.535221872175563,
+   "rank1": 1,
+   "z2": 13.675138713850385,
+   "z5": 41.81946858111848,
+   "passed": true
+  },
+  {
+   "form": "Q2",
+   "A": null,
+   "B": "DOGMA",
+   "key": "TOTIENT",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 6.776085309241235,
+   "rank1": 1,
+   "z2": 13.461442250596571,
+   "z5": 42.30347129320379,
+   "passed": true
+  },
+  {
+   "form": "Q3",
+   "A": "IRRITATED",
+   "B": "IRRITATED",
+   "key": "OUTSIDE\u02b3",
+   "sign": "sub",
+   "F": true,
+   "z1": 6.880711079053734,
+   "rank1": 1,
+   "z2": 13.075564765562538,
+   "z5": 44.61481486483695,
+   "passed": true
+  },
+  {
+   "form": "Q4",
+   "A": "KOAN",
+   "B": "MOBIUS",
+   "key": "p[n+52]-1",
+   "sign": "add",
+   "F": true,
+   "z1": 6.7787600715091205,
+   "rank1": 2,
+   "z2": 12.855854164055886,
+   "z5": 43.52958566638379,
+   "passed": false
+  }
+ ],
+ "survivors": [
+  {
+   "form": "Q3",
+   "A": "ERRORS",
+   "B": "ERRORS",
+   "key": "STRONG",
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.800884173750805,
+   "z2": 1.7754584608024009,
+   "z5": -2.2524945295659338,
+   "translit": "TDEIAUIAITEADEENGMWUFBYBEAMLAEUPSTTHHWEMANGULLDEOGTHEOCNNGLGTDASCNEAIRNGEEDOTNOENUIAUAORUHE"
+  },
+  {
+   "form": "Q4",
+   "A": "ENCRYPTED",
+   "B": "PRESERVATION",
+   "key": "ADHERENCE\u02b3",
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.888746205175031,
+   "z2": 2.8412276764034163,
+   "z5": -0.9307995664118721,
+   "translit": "HTHLLURWHHLLPFMUSCBGILYMEFSCENGTHIAITHWFFDMOCEWEASWFMNPSAADBWRBOSHHENEEISUIAGUTHOIULE"
+  },
+  {
+   "form": "Q4",
+   "A": "VOID",
+   "B": "BUFFERS",
+   "key": "p[n+63]+1",
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.610456471284572,
+   "z2": 2.5308482603031766,
+   "z5": 0.7642604786213757,
+   "translit": "IARIMEAEUGTTUAXERTHUSOERTLROHFNULNGAWOPSRMEOUFAEAUYRCTHUOGNFUYEMYAMEONGDYEHCSELREOIURATHS"
+  }
+ ],
+ "candidates": [],
+ "ntests_t1": 3660228,
+ "ntests_t2": 3,
+ "null_shift": [
+  0.02,
+  -0.02,
+  -0.02,
+  -0.0,
+  0.0
+ ],
+ "seconds": 2541.345059156418
+}

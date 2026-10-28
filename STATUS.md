@@ -3,13 +3,13 @@
 | | |
 |---|---|
 | **Breakthroughs** | **0** (a page decoding to readable English at a pre-registered bar, reproduced by someone else) |
-| Decoder tests run | 348 million, all pre-registered, all with planted controls |
-| Lanes closed null | 16 of 19 (none running) |
+| Decoder tests run | 373 million, all pre-registered, all with planted controls |
+| Lanes closed null | 17 of 21 (none running) |
 | Pages | 55 unsolved with runes (12,956 runes); coverage limits listed per lane |
 | The one structure | 86 doubled runes where 445 are expected; flat in every other statistic |
 | Best current reading | key redrawn ~4 times in 5 when it would repeat; lag-2 at chance points to a program, not a hand |
 | External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
-| Repository | 33 numbered sections, 32 commits, last 9f05717 2026-10-27 |
+| Repository | 35 numbered sections, 33 commits, last 2c78e29 2026-10-27 |
 
 ## Lanes
 
@@ -34,11 +34,13 @@
 | §29 | The two Know This magic squares as keys | 0.0 M | 8/8 | null | direct use only; seeds and indices open |
 | §30 | Provenance: signed messages verify (2012, 2016, 2017) | — | 3 of 3 verify | genuine | the 2017 'hoax' claim is false |
 | §31 | Seeded generators no ledger lists (8 PRNGs, 2^18 seeds) | 113.3 M | 8/8 | null | seeds above 2^18 and unnamed generators open |
+| §32 | Keyword-mixed alphabets (quagmire I-IV) under the book's keys | 25.6 M | 7/8 (8th rank 2, equivalent alphabet) | null | book words and streams only; other labs' key families under mixed alphabets open |
+| §33 | Where the 86 repeats sit | — | — | boundary-blind | excludes reset-chain ciphers and transcription artefacts |
 
 ## Open
 
 - Filler (null) lane on LP2-49, LP2-55, LP2-51: below power at any rule tried
-- Keyword-mixed alphabet (quagmire) under the book's word keys: the largest untested non-additive class, open on pnotisdev's list
+- Mixed alphabets under the other labs' key families (external texts, PRNG seeds): the quagmire lane covered the book's own keys only
 - LP2-50, the two-character-code page, as key stream or pointer
 - Phase 6–9 mechanisms on the nine short pages: not carried there
 - wazar's 29 fetched-but-never-run esoteric texts (R12-C2)
