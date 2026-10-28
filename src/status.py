@@ -38,11 +38,11 @@ LANES = [
     ("§31", "Seeded generators no ledger lists (8 PRNGs, 2^18 seeds)", nt("generators.json") or 113261328, "8/8", "null", "seeds above 2^18 and unnamed generators open"),
     ("§32", "Keyword-mixed alphabets (quagmire I-IV) under the book's keys", nt("quagmire.json") or 25574670, "7/8 (8th rank 2, equivalent alphabet)", "null", "book words and streams only; other labs' key families under mixed alphabets open"),
     ("§33", "Where the 86 repeats sit", None, "—", "boundary-blind", "excludes reset-chain ciphers and transcription artefacts"),
+    ("§34", "The 256-byte payload of LP2-49/50/51 as key (direct, pointer readings)", 341 * 6 * 55, "4/4", "null", "replication; PRF expansions are wazar's negatives"),
 ]
 OPEN = [
     "Filler (null) lane on LP2-49, LP2-55, LP2-51: below power at any rule tried",
     "Mixed alphabets under the other labs' key families (external texts, PRNG seeds): the quagmire lane covered the book's own keys only",
-    "LP2-50, the two-character-code page, as key stream or pointer",
     "Phase 6–9 mechanisms on the nine short pages: not carried there",
     "wazar's 29 fetched-but-never-run esoteric texts (R12-C2)",
     "Planted-cluster simulation for the key-reuse test (small clusters)",
@@ -52,7 +52,7 @@ OPEN = [
 
 readme = (ROOT / "README.md").read_text()
 sections = len(re.findall(r"^## \d+\.", readme, flags=re.M))
-head = subprocess.run(["git", "log", "-1", "--format=%h %ad", "--date=short"], cwd=ROOT, capture_output=True, text=True).stdout.strip()
+head = subprocess.run(["git", "log", "-1", "--format=%ad", "--date=short"], cwd=ROOT, capture_output=True, text=True).stdout.strip()   # date only: the hash of the commit that carries this file cannot be known when it is written
 ncommits = subprocess.run(["git", "rev-list", "--count", "HEAD"], cwd=ROOT, capture_output=True, text=True).stdout.strip()
 total = sum(t for _, _, t, _, _, _ in LANES if isinstance(t, (int, float)) and t > 1000)
 closed = sum(1 for l in LANES if l[4].startswith("null"))
@@ -69,7 +69,7 @@ box = f"""# Status box
 | The one structure | 86 doubled runes where 445 are expected; flat in every other statistic |
 | Best current reading | key redrawn ~4 times in 5 when it would repeat; lag-2 at chance points to a program, not a hand |
 | External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
-| Repository | {sections} numbered sections, {ncommits} commits, last {head} |
+| Repository | {sections} numbered sections, {ncommits} commits as of {head} |
 
 ## Lanes
 

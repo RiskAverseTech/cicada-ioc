@@ -20,7 +20,8 @@ power; §29 tries the two "Know This" magic squares as keys (null). §30 verifie
 "hoax" claim is false); §31 sweeps eight seeded generators no ledger lists (null, 113 million window
 decodes). §32 runs keyword-mixed alphabets (quagmire I–IV) under the book's keys, the
 one named non-additive class every additive decoder is blind to (null, 25.6 million window decodes);
-§33 shows the 86 repeats are boundary-blind, excluding reset-chain ciphers and transcription artefacts. Nothing here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
+§33 shows the 86 repeats are boundary-blind, excluding reset-chain ciphers and transcription artefacts. §34 replicates, with controls, the direct and pointer readings of the three-page
+base-60 payload (null). Nothing here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
 was known to the community a decade ago; this repository's contribution is independent
 replication with controls, the exclusion of every key family anyone has named for it on the pages
 long enough for the detector to see a planted solution (§23), and the tooling to test the next one in
@@ -29,6 +30,10 @@ exists within the tested configurations, at the stated detection limits. Sources
 The transcription in `data/raw/` is rtkd/iddqd's; the Latin and Old English corpora are public domain.
 
 **Use it.** `pip install -r requirements.txt`; `python -m pytest tests/` runs five fast checks (decoder bound, soft-rule round trip under all signs, noise calibration, the squares, the page counts; CI runs them on every push); `python -I src/check_solve.py --page LP2-03 --key DIVINITY --sign sub` adjudicates a claimed key or plaintext against the pre-registered bar; `ledger.json` is the lane table in machine-readable form (regenerated with `STATUS.md` by `src/status.py`); `benchmarks/plants.json` holds 25 planted ciphertexts with their keys for any decoder to recover; `src/verify_pgp.py` verifies Cicada's signed messages by full fingerprint.
+
+<!-- toc:start -->
+**Sections.** [Phase 1: key reuse](#phase-1-is-any-keystream-reused-across-the-unsolved-pages) · [4](#4-is-the-doublet-deficit-cipher-structure) Is the doublet deficit cipher structure? · [5](#5-which-constructions-reproduce-it) Which constructions reproduce it? · [6](#6-a-better-detector-and-the-scan-again) A better detector, and the scan again · [7](#7-what-the-data-supports-phase-2-conclusion) What the data supports (phase 2 conclusion) · [8](#8-phase-3-proposed) Phase 3, proposed · [9](#9-phase-3-the-books-keystream-families-with-the-skip-on-repeat-rule) Phase 3 · [10](#10-where-this-leaves-the-puzzle) Where this leaves the puzzle · [11](#11-prior-work-checked-2026-10-23) Prior work (checked 2026-10-23) · [12](#12-phase-4-phrase-and-sentence-keys-from-the-book-all-key-signs) Phase 4 · [13](#13-phase-5-latin-and-old-english-plaintext-models) Phase 5 · [14](#14-phase-6-word-edge-events-under-the-skip-rule-pnotisdevs-open-lane-run-independently) Phase 6 · [15](#15-within-word-lag-echo-not-replicated) Within-word lag echo · [16](#16-phase-7-the-skip-by-two-rejection-rule) Phase 7 · [17](#17-hypothesis-loop-a-model-panel-proposes-a-statistical-gate-kills) Hypothesis loop · [18](#18-phase-8-the-hypothesis-loops-short-list-swept) Phase 8 · [19](#19-short-list-lane-phase-8-replicated-prime-gap-multiplier-and-feedback-families-added) Short-list lane · [20](#20-phase-9-cumulative-gematria-ciphertext-feedback-and-global-streams-with-no-per-page-reset) Phase 9 · [21](#21-verdict-check-a-quorum-panels-mechanism-question-tested) Verdict check · [22](#22-phase-10-unknown-position-nulls-under-a-hard-anti-repeat-rule) Phase 10 · [23](#23-external-review-2026-10-27-detection-power-by-page-length-decoder-coverage-calibration) External review (2026-10-27) · [24](#24-short-page-lane-a-secondary-pre-registered-rule-for-the-pages-the-z--6-rule-cannot-see) Short-page lane · [25](#25-external-running-key-lane-the-texts-cicada-pointed-at-decoded-exactly-at-every-offset) External running-key lane · [26](#26-page-image-lane-is-there-information-in-the-images-that-the-transcription-does-not-carry) Page-image lane · [27](#27-rune-5-gram-rescoring-the-short-page-power-fix-measured-and-applied) Rune 5-gram rescoring · [28](#28-windowed-dispersion-a-test-for-a-human-hand-that-turned-out-to-have-no-power) Windowed dispersion · [29](#29-the-two-know-this-squares-as-key-material) The two "Know This" squares as key material · [30](#30-provenance-the-signed-messages-verify-by-full-fingerprint) Provenance · [31](#31-seeded-generators-no-ledger-lists-xorshift-pcg32-minstd-randu-splitmix64) Seeded generators no ledger lists · [32](#32-keyword-mixed-alphabets-under-the-books-keys-quagmire-iiv) Keyword-mixed alphabets under the book's key · [33](#33-where-the-86-repeats-sit-boundary-blind) Where the 86 repeats sit · [34](#34-the-three-page-base-60-payload-as-key-material-a-controlled-replication) The three-page base-60 payload as key materi
+<!-- toc:end -->
 
 ---
 
@@ -1059,4 +1064,27 @@ panel's own summary stands as the cleanest statement of where this leaves things
 structure is a uniform, rune-blind one-lag ban carries exactly one law, every mechanism tuned to that
 law yields the same distribution, and only implementation leaks are testable. Sections 21, 28 and this
 one have now tested the leaks anyone has named.
+
+## 34. The three-page base-60 payload as key material: a controlled replication (`src/payload_lane.py`, `data/processed/payload.json`, `results/payload.md`)
+
+Pages LP2-49, LP2-50 and LP2-51 carry, beside or instead of runes, 80 + 104 + 72 = 256 two-character
+tokens, a digit 0–4 and a character from [0-9A-Za-z], read by the community as base 60 (digit × 60 +
+index) and giving 256 values all below 256: a byte string. Six positions are contested where the glyphs
+I/l and O/0 cannot be told apart, and both readings are carried here. **Ledger first:** wazar has
+tested this payload as a PRF seed expanded by RC4, AES-CTR, SHA counters, HMAC-DRBG and ChaCha20, as
+an RSA signature under every known Cicada modulus, as meta-parameters, as a direct numeric key at every
+offset, and in a pointers track. So this lane is a replication under this repository's exact decoder
+with controls of the direct and pointer readings; the PRF expansions are not repeated.
+
+**Readings** (341 keys, all under 3 signs × 2 F on all 55 pages): byte mod 29, rejection (bytes ≥ 232
+dropped), bit-reversed bytes, the base-60 index and digit components, each forward and reversed and for
+both readings of the contested bytes; each distinct byte as an offset into the prime and totient
+streams; the solved plaintext's rune at each byte, and the solved text's word at each byte as a
+256-word phrase key. Rule: z_uni ≥ 5 and 5-gram z_5 ≥ 6 and readable. **Controls:** four plants across
+the reading families at 262 and 137 runes, 4 of 4 at rank 1.
+
+**Result: null.** 112,530 tests; largest z_uni 4.86 (LP2-43, prime offset p[n+112], gibberish), largest
+z_5 1.95; no candidate. Runtime 4 minutes. The direct and pointer readings of the payload do not key the
+pages under the anti-repeat rule; wazar's PRF-expansion negatives stand beside this one. What remains
+for the payload is what remains for the hash on page 73: its meaning, if any, is outside the book.
 
