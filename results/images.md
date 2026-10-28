@@ -100,3 +100,7 @@ Pages whose component count is more than 50 % off the rune count (geometry unrel
 | 72 | LP2-55 | 76 | 92 | 6 | 8.09 | 14.11 | 2.49 | 0.0001 | 1.0e-300 |
 | 73 | control |  | 220 | 14 | 7.53 | 0.39 | 4.5 | 0.0007 | 1.0e-300 |
 | 74 | control |  | 99 | 9 | 10.0 | 0.0 | 7.01 | 0.001 | 1.0e-300 |
+
+## Addendum 2026-10-28: the embedded ICC profile
+
+All LP2 page images carry one 2,576-byte APP2 profile (SHA-256 942e0f66…79d0): "Artifex Software sRGB ICC Profile, Copyright Artifex Software 2011", version 2.1, zero creation date. Ghostscript's current `iccprofiles/srgb.icc` (ArtifexSoftware/ghostpdl master, 2,576 bytes) differs in exactly two bytes, offsets 71 and 79, the low-order bytes of the header illuminant; all ten tags are identical. Dukotah R30-A3 attributes the pages to Ghostscript 9.06 (toolchain 9.01–9.15); the tagged files could not be fetched from git.ghostscript.com to pin the release here.

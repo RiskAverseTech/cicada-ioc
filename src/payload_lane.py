@@ -13,6 +13,9 @@ Readings of the 256 bytes (archive order 49 -> 50 -> 51, and reversed):
   P  each distinct byte b as an offset into the prime stream p[n+b] and the totient stream;
   W  pointers: the solved plaintext's rune at index b (b < 256), and the solved text's word at index b
      mod word count as a 256-word phrase key.
+  Added 2026-10-28 after the field survey (yo-yo-yo-jbo ran these rigidly, Pitchfork-and-Torch every phase
+  under an IoC screen): O  all six page orderings of the three pages, forward and reversed, for R1, R4 and R5;
+  R6 the base-59 value digit*59 + index mod 29 (base 59 drops F), all orderings and directions.
 All under 3 signs x 2 F with the soft-rule decoder on all 55 pages.  Rule: z_uni >= 5 over the page's
 2,000-keystream null AND 5-gram z_5 >= 6 AND readable.  Controls: four plants (R1, R2 reversed, a prime
 offset, the word-pointer phrase) at 262 and 137 runes; pass at z_uni >= 5, z_5 >= 6, rank 1 in the lane.
@@ -52,6 +55,18 @@ for b in sorted(set(B.tolist())):
 keys.append(rep(plain[B])); labels.append(("W rune pointer", "solved plaintext[b]"))
 keys.append(rep(plain[Bt])); labels.append(("W rune pointer", "solved plaintext[b] token reading"))
 keys.append(rep(sum((english_to_runes(words[b % len(words)]) for b in B), []))); labels.append(("W word pointer", "solved words[b mod count]"))
+import itertools
+ALPH = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+for perm in itertools.permutations(pl["order"]):
+    pname = ">".join(p[-2:] for p in perm)
+    seqB = np.array(sum((pl["pages"][p]["bytes_archive"] for p in perm), [])); seqT = sum((pl["pages"][p]["tokens"] for p in perm), [])
+    for oname, sb, st in (("fwd", seqB, seqT), ("rev", seqB[::-1], seqT[::-1])):
+        new_order = list(perm) != pl["order"]
+        if new_order:
+            keys.append(rep(sb)); labels.append(("O R1 byte mod 29", f"{pname} {oname}"))
+            keys.append(rep([ALPH.index(t[1]) for t in st])); labels.append(("O R4 index component", f"{pname} {oname}"))
+            keys.append(rep([int(t[0]) for t in st])); labels.append(("O R5 digit component", f"{pname} {oname}"))
+        keys.append(rep([int(t[0]) * 59 + ALPH.index(t[1]) for t in st])); labels.append(("R6 base-59 value", f"{pname} {oname}"))
 Ks = np.stack(keys); nk = len(Ks)
 SIGNS = (("sub", "sub"), ("add", "sub"), ("beaufort", "beaufort")); Z_UNI, Z_5, NREPS = 5.0, 6.0, 2000
 t0 = time.time(); print(f"{nk} keys x 6 cells x {len(pages)} pages = {nk*6*len(pages):,} tests", flush=True)

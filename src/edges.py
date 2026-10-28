@@ -1,5 +1,5 @@
 """Word-edge and line-edge masks for every unsolved page, aligned to data/processed/pages.json.
-Source: the rtkd master transcription (word '-', clause '.', line '/', page '%').
+Source: the rtkd master transcription (word '-', clause '.', line '/' (inside words too), page '%').
 Writes data/processed/edges.json: per page id, lists of rune positions that are word-initial
 (i >= 1), word-final (i <= n-2) and line-initial (i >= 1), plus counts."""
 import json, re, sys
@@ -26,7 +26,10 @@ def masks(chunk):
         elif ch in "-.&$§":
             pending_word = True
         elif ch == "/":
-            pending_word = True; pending_line = True
+            # A line break is NOT a word boundary: 452 of the 630 line breaks on the unsolved pages fall inside a
+            # word (no '-' before the '/'); until 2026-10-28 this builder counted them as word edges (3,316 words
+            # instead of 2,896), which the field survey's word counts exposed.
+            pending_line = True
         # digits, spaces, newlines: ignored
     return runes, wi, wf, li
 
