@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this repository, cite it as below."
+title: "cicada-ioc: pre-registered cryptanalysis of the unsolved Liber Primus pages"
+authors:
+  - name: "Risk Averse Technology Company"
+repository-code: "https://github.com/RiskAverseTech/cicada-ioc"
+license: MIT
+date-released: "2026-10-27"
+abstract: "Pre-registered, control-validated tests of the 55 unsolved Liber Primus pages: key-reuse scans, the doublet-deficit fingerprint, skip-rule decoders over the book's key families, external running keys, page images and seeded generators, each reported with planted-control power and coverage limits; two external reviews adopted."

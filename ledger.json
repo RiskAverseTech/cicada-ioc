@@ -1,0 +1,171 @@
+{
+ "generated_by": "src/status.py",
+ "repository": "https://github.com/RiskAverseTech/cicada-ioc",
+ "head": "94f90a3 2026-10-27",
+ "breakthroughs": 0,
+ "breakthrough_definition": "a page decoding to readable English at a pre-registered bar, reproduced by someone else",
+ "lanes": [
+  {
+   "section": "\u00a71\u20133",
+   "lane": "Key reuse between pages (IC, pooled offsets)",
+   "tests": null,
+   "controls": "planted 12/12",
+   "verdict": "null, large-scale",
+   "coverage_limit": "clusters under ~12 pages not excluded",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a74\u20137",
+   "lane": "Doublet deficit and twenty constructions",
+   "tests": null,
+   "controls": "\u2014",
+   "verdict": "86 vs 445; soft re-draw 0.81 survives",
+   "coverage_limit": "mechanism inference, not a key",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a79",
+   "lane": "Phase 3: book streams + skip rule",
+   "tests": 519200,
+   "controls": "20/20",
+   "verdict": "null",
+   "coverage_limit": "",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a712",
+   "lane": "Phase 4: phrase and sentence keys",
+   "tests": 1996170,
+   "controls": "26/26",
+   "verdict": "null",
+   "coverage_limit": "",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a713",
+   "lane": "Phase 5: Latin and Old English registers",
+   "tests": 5029860,
+   "controls": "24 (12 per register)",
+   "verdict": "null",
+   "coverage_limit": "",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a714",
+   "lane": "Phase 6: word-edge events",
+   "tests": 10059720,
+   "controls": "24/24",
+   "verdict": "null",
+   "coverage_limit": "",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a716",
+   "lane": "Phase 7: skip-by-two rule",
+   "tests": 2514930,
+   "controls": "24 plants",
+   "verdict": "null",
+   "coverage_limit": "",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a718",
+   "lane": "Phase 8: LCG seeds, position multipliers",
+   "tests": 1741740,
+   "controls": "16/16",
+   "verdict": "null",
+   "coverage_limit": "",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a719",
+   "lane": "Short-list lane (panel's finite families)",
+   "tests": 24770130,
+   "controls": "14 (12 rank 1)",
+   "verdict": "null",
+   "coverage_limit": "",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a720",
+   "lane": "Phase 9: Gematria feedback, global streams",
+   "tests": 27334890,
+   "controls": "18 (3 exposed a bug, fixed)",
+   "verdict": "null",
+   "coverage_limit": "",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a722",
+   "lane": "Phase 10: unknown-position nulls, hard rule",
+   "tests": 2514930,
+   "controls": "15/18",
+   "verdict": "null",
+   "coverage_limit": "inconclusive on 9 short pages (\u00a723)",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a724",
+   "lane": "Short-page secondary rule, 9 pages",
+   "tests": 2469204,
+   "controls": "A 39/45, B 31/45",
+   "verdict": "null",
+   "coverage_limit": "phase 3\u20134 library only",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a725",
+   "lane": "External running key, exact every offset",
+   "tests": 153149370,
+   "controls": "15/17",
+   "verdict": "null",
+   "coverage_limit": "12 texts; edition differences near mid-page cost ~1 sigma per rune",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a726",
+   "lane": "Page images: container, chroma, geometry",
+   "tests": 75,
+   "controls": "19 controls",
+   "verdict": "null",
+   "coverage_limit": "archive JPEGs only",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a727",
+   "lane": "5-gram rescoring of short pages",
+   "tests": 2469204,
+   "controls": "A 39/45; B 6/45 (fillers break n-grams)",
+   "verdict": "null",
+   "coverage_limit": "soft-rule exclusion now 99 % power on all 55 pages",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a728",
+   "lane": "Windowed dispersion (hand vs machine)",
+   "tests": null,
+   "controls": "\u2014",
+   "verdict": "no power",
+   "coverage_limit": "recorded so it is not re-proposed",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a729",
+   "lane": "The two Know This magic squares as keys",
+   "tests": 30360,
+   "controls": "8/8",
+   "verdict": "null",
+   "coverage_limit": "direct use only; seeds and indices open",
+   "date": "2026-10-27"
+  }
+ ],
+ "open": [
+  "Filler (null) lane on LP2-49, LP2-55, LP2-51: below power at any rule tried",
+  "Seeded-generator families under the soft rule beyond \u00a719's LCGs (PRNG, KDF, the squares as seeds)",
+  "Phase 6\u20139 mechanisms on the nine short pages: not carried there",
+  "wazar's 29 fetched-but-never-run esoteric texts (R12-C2)",
+  "Planted-cluster simulation for the key-reuse test (small clusters)",
+  "LP2-50, the two-character-code page, as a cipher of its own",
+  "Generator families (PRNG/KDF seeds) under the soft rule, where the machine reading points"
+ ]
+}

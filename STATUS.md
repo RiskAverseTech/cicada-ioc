@@ -9,7 +9,7 @@
 | The one structure | 86 doubled runes where 445 are expected; flat in every other statistic |
 | Best current reading | key redrawn ~4 times in 5 when it would repeat; lag-2 at chance points to a program, not a hand |
 | External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
-| Repository | 31 numbered sections, 29 commits, last 2a4e217 2026-10-27 |
+| Repository | 31 numbered sections, 31 commits, last 94f90a3 2026-10-27 |
 
 ## Lanes
 
