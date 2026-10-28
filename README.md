@@ -34,7 +34,7 @@ minutes. None of this shows that the key was never published; it shows that no a
 exists within the tested configurations, at the stated detection limits. Sources and pinned revisions: `SOURCES.md`. Licence: MIT.
 The transcription in `data/raw/` is rtkd/iddqd's; the Latin and Old English corpora are public domain.
 
-**Read it.** The companion site [liber-primus-site.vercel.app](https://liber-primus-site.vercel.app) shows the solved pages as text and as runes, the unsolved pages as transcribed, the status box, and an animated explainer of the measurements; it is built from this repository's `main` at each deploy and lives in its own repository.
+**Read it.** The companion site [liber-primus-site.vercel.app](https://liber-primus-site.vercel.app) shows the solved pages as text and as runes, the unsolved pages as transcribed, the status box, and an animated explainer of the measurements; it is built from this repository's `main` at each deploy and lives in its own repository, [RiskAverseTech/liber-primus-site](https://github.com/RiskAverseTech/liber-primus-site).
 
 **Use it.** `pip install -r requirements.txt`; `python -m pytest tests/` runs five fast checks (decoder bound, soft-rule round trip under all signs, noise calibration, the squares, the page counts; CI runs them on every push); `python -I src/check_solve.py --page LP2-03 --key DIVINITY --sign sub` adjudicates a claimed key or plaintext against the pre-registered bar; `ledger.json` is the lane table in machine-readable form (regenerated with `STATUS.md` by `src/status.py`); `benchmarks/plants.json` holds 25 planted ciphertexts with their keys for any decoder to recover; `src/verify_pgp.py` verifies Cicada's signed messages by full fingerprint.
 
