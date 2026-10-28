@@ -79,3 +79,29 @@ Ranked by the chance of producing plaintext or a second structural fact, then by
 - Dukotah's claim bars for the pair cells were fitted against a panel file not in the repository (Inghenius); anyone reusing those bars must refit.
 
 Files read are listed per repository under the survey directory of the session scratchpad; none are committed.
+
+## 7. Cross-reference: this repository's sections against pnotisdev's `docs/registry.toml` (148 rows, read 2026-10-28)
+
+Row ids are theirs; status in brackets is theirs. Read as data, nothing merged.
+
+| Here | Their rows |
+|---|---|
+| §1–§3, §36 key reuse across pages | `key-reuse` [untestable under skip drift], `shared-keys` [partial: same / sign-flipped / reversed key between section pairs, all offsets] |
+| §4–§5, §33, §37 doublet deficit, boundaries, lag spectrum | `obs-doublets` (0.66 %, 0.63 % inside words), `obs-flat`, `segmentation-dependence` [excluded], `keyless-batch`, `insertion-doublets`, `mech25` / `m04-baseline` (their fitted mechanism "R4": collision repair plus one null rune per word) |
+| §9, §12 the book's words and phrases under the skip rule | `solved-phrase-keys` [excluded], `keywords-r4` [partial], `fingerprint-families` [excluded], `periodic` [excluded, drift-aware] |
+| §13 Latin and Old English plaintext | `book-running-key` [partial: any language, any letter table] |
+| §14, §39 word-edge events | `nulledge` [excluded], `advsep` [excluded], `word-jump` [excluded]; `open-unkeyed` [open, priority 1] is the mid-word insertion variant |
+| §15 within-word lag echo | `obs-lag5`, `s-echo-dissect`, `echo-mechanisms` [excluded], `echo-two-tap` [untestable]; **`obs-lag6` (c' = 24 − 2c inside words, 80 "T sites") has no counterpart here** |
+| §16 skip-by-two | `chanscreen-step3` [excluded: hold / spend / skip5 / coin] |
+| §18–§20 feedback, multipliers, global streams | `multipliers`, `chain`, `lag-feedback`, `prime-domain`, `ciphertext-key`, `open-sliding` [all excluded] |
+| §22 unknown-position nulls | `nulledge`, `insertion-doublets`, `open-unkeyed` |
+| §23, §27 power by length and rescoring | `h5-power-map`, `open-letter-spelling-power` |
+| §25, §40 running keys | `book-running-key`, `book-key-decoder` [partial], `open-sources` [open: Liber AL, Rune Poem, RAND digits — the first two are run here] |
+| §26 images | `page-scan-audit`, `outguess-scan` [excluded] |
+| §29 squares | `grids` [explained], `square-06` [excluded] |
+| §31 generators | `prng-bg` [excluded, ten generators × 2^32], `prng-dict`, `prngx`, `prng-time`, `prng-ms`, `open-prng-step` |
+| §32 keyword-mixed alphabets | `open-outer-alphabet` [open; the keyword part they call done, only arbitrary permutations remain], `dsearch` [partial] |
+| §34 payload | `payload` [excluded, corrected bytes], `line-pointers` [partial] |
+| §35 hash sweep | `an-end-archives` [excluded, 124,017 digests of onion captures], `hashscan-kdf` [partial] |
+| §38 re-reading | `obs-transcription` (5 byte errors in the payload, 0 of 2,334 word dots missing) |
+| not here | `recurrences` [excluded, order 1–3 and polynomials ≤ 3], `state-machines`, `per-word-keys`, `step28`, `clock`, `signs` / `open-direction`, `layout27` [excluded: the 27×27 claim], `transposition` [partial], `restart-units`, `typo-restarts`, `zipf-words`, `clause-structure`, `prime-clause-score`, `p60-irrationals` [partial], `p60-xor-keys`, `p60-blobs-r4`, `p60-audio`, `obs-lag6` |
