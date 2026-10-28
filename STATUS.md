@@ -4,12 +4,12 @@
 |---|---|
 | **Breakthroughs** | **0** (a page decoding to readable English at a pre-registered bar, reproduced by someone else) |
 | Decoder tests run | 426 million, all pre-registered, all with planted controls |
-| Lanes closed null | 23 of 36 (none running) |
+| Lanes closed null | 23 of 37 (none running) |
 | Pages | 55 unsolved with runes (12,956 runes); coverage limits listed per lane |
 | The structures | 86 doubled runes where 445 are expected (0.19 of uniform; solved pages sit at 0.86); inside words, a lag-5 echo that copies equality in runs (102 vs 71 pairs, 9 vs 1.5 bigrams), 11 of the pairs S (3.5 expected, p 0.003), and a lag-6 relation c = 24 − 2c′ (77 vs 44); the two echoes share words; flat in every other statistic |
 | Best current reading | a gated word-internal echo (plaintext repeat at lag 5 → copy the cipher rune; at lag 6 → 24 − 2c) in about half the words reproduces nine of ten statistics; the S weighting is outside every additive mechanism and is the open fact |
 | External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
-| Repository | 48 numbered sections, 49 commits as of 2026-10-28 |
+| Repository | 49 numbered sections, 53 commits as of 2026-10-28 |
 
 ## Lanes
 
@@ -50,6 +50,7 @@
 | §46 | Lag-5 echo runs in pairs (bigrams 9 vs 1.5); multiplier autokey and lag-1 affine closed; per-word period-5 key mixture | — | — | measured: f = 0.5 fits equality and S exactly, fails the difference flatness by 3 sd | first hypothesis producing the S carrier; lag 6 unexplained |
 | §47 | Echo rules in the mechanism simulator (14 rules x 10 statistics) | — | 3 sanity controls | measured: gated lag-5/lag-6 echo (E56w) fits 9 of 10; S carrier outside every additive mechanism | English plaintext, iid key; one gate parameter fitted to one count |
 | §48 | Echo-aware decoding (spent and held echoes) of the phase 3-4 library | 5.0 M | 11/12 | null | echoes cost an unaware decoder ~nothing when key-spending; held echoes cost only when several fall on one page |
+| §49 | E56w out-of-sample predictions (8 statistics, 14 cells, committed before the look); echoes on the image-derived stream | — | — | measured: 14/14 cells hold; image stream reproduces 101 / 11 / 75 exactly | consistency, not confirmation; S weighting still outside the rule |
 | §44 | Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000 | 6.5 M | 4/4 | null | base-10, digit pairs, base-29; fresh offset per page |
 
 ## Open

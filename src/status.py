@@ -52,6 +52,7 @@ LANES = [
     ("§46", "Lag-5 echo runs in pairs (bigrams 9 vs 1.5); multiplier autokey and lag-1 affine closed; per-word period-5 key mixture", None, "—", "measured: f = 0.5 fits equality and S exactly, fails the difference flatness by 3 sd", "first hypothesis producing the S carrier; lag 6 unexplained"),
     ("§47", "Echo rules in the mechanism simulator (14 rules x 10 statistics)", None, "3 sanity controls", "measured: gated lag-5/lag-6 echo (E56w) fits 9 of 10; S carrier outside every additive mechanism", "English plaintext, iid key; one gate parameter fitted to one count"),
     ("§48", "Echo-aware decoding (spent and held echoes) of the phase 3-4 library", nt("echo_lane.json"), "11/12", "null", "echoes cost an unaware decoder ~nothing when key-spending; held echoes cost only when several fall on one page"),
+    ("§49", "E56w out-of-sample predictions (8 statistics, 14 cells, committed before the look); echoes on the image-derived stream", None, "—", "measured: 14/14 cells hold; image stream reproduces 101 / 11 / 75 exactly", "consistency, not confirmation; S weighting still outside the rule"),
     ("§44", "Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000", nt("digits.json"), "4/4", "null", "base-10, digit pairs, base-29; fresh offset per page"),
 ]
 OPEN = [

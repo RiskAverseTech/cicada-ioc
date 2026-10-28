@@ -321,6 +321,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a749",
+   "lane": "E56w out-of-sample predictions (8 statistics, 14 cells, committed before the look); echoes on the image-derived stream",
+   "tests": null,
+   "controls": "\u2014",
+   "verdict": "measured: 14/14 cells hold; image stream reproduces 101 / 11 / 75 exactly",
+   "coverage_limit": "consistency, not confirmation; S weighting still outside the rule",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a744",
    "lane": "Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000",
    "tests": 6480000,
