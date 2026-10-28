@@ -24,6 +24,14 @@ laid into the 55 unsolved pages' exact rune counts; iid uniform key per page; si
   RF   R0 plus literal F (the solved pages' own rule), for reference
   Rq0  R0 with q = 0 (no repair), the no-structure reference
   q = 0.81 unless stated.  200 replicates per rule.
+ADDED 2026-10-28 (second run, after §46 found that the lag-5 echo runs in pairs and that a plain period-5 key copies
+plaintext differences LP2 does not show).  Echo rules: in a word selected with probability r = 0.5 (fixed from §46's
+mixture fit to the equality count, so the equality count is spent and the other statistics are the test), a plaintext
+rune equal to the plaintext rune five back is written as the CIPHERTEXT rune five back (identity echo at lag 5), and,
+in the E56 rules, a plaintext rune equal to the one six back is written as 24 - 2 c_(i-6) (the T echo at lag 6);
+an echo that would make an adjacent repeat is not applied.  Variants: E5w (lag-5 echo, key spent at the echo, base
+R0), E5w-hold (key held), E56w (both echoes, key spent, base R0), E56w-hold, E56w+R4n (both echoes on top of R4n),
+E5all (lag-5 echo in every word).  A tenth judged statistic BIG = repeated bigrams at lag 5 inside words (LP2: 9).
 
 STATISTICS (all on within-page pairs; "word" = the simulated plaintext's own words, LP2's transcription
 words for the real stream):  D (adjacent repeats), D_in (inside words), L3, L4, L5 (within-word equal pairs
@@ -85,7 +93,9 @@ def measure(pages):
         x, y = allc[ok - lag], allc[ok]
         if lag < 6:
             eq = x == y; out[f"L{lag}"] = int(eq.sum())
-            if lag == 5: out["L5S"] = int((eq & (x == S_IDX)).sum()); sites[5] = ok[eq]
+            if lag == 5:
+                out["L5S"] = int((eq & (x == S_IDX)).sum()); sites[5] = ok[eq]
+                adj = eq[:-1] & eq[1:] & (ok[1:] == ok[:-1] + 1); out["BIG"] = int(adj.sum())
         else:
             H = np.zeros((N, N)); np.add.at(H, (x, y), 1); xs = np.arange(N)
             tgt = (A[:, :, None] * xs[None, None, :] + B[:, :, None]) % N
@@ -102,20 +112,33 @@ def measure(pages):
     return out
 
 # ---------------- simulator
+R_GATE = 0.5
 def simulate(rule, q=Q, p_null=0.45):
+    echo5 = rule.startswith(("E5", "E56")); echo6 = rule.startswith("E56"); hold_echo = rule.endswith("-hold")
+    base = "R4n" if rule.endswith("+R4n") else ("R4" if rule.endswith("+R4") else "R0")
+    gate_all = rule == "E5all"
     pages = []; wi = int(rng.integers(0, len(EW) - 5000))
     for L in LENS:
         P, W = [], []; w = 0
         while len(P) < L:
             word = list(EW[wi % len(EW)]); wi += 1
-            if rule == "R4n" and len(word) >= 2 and rng.random() < p_null:
+            if base == "R4n" and len(word) >= 2 and rng.random() < p_null:
                 pos = int(rng.integers(0, len(word) + 1)); word.insert(pos, -1)      # -1 = null rune, filled at encryption
             P += word; W += [w] * len(word); w += 1
         P, W = np.array(P[:L]), np.array(W[:L])
-        k = rng.integers(0, N, 2 * L + 16); c = np.empty(L, int); j = 0; prev = -1; wpos = 0
+        k = rng.integers(0, N, 2 * L + 16); c = np.empty(L, int); j = 0; prev = -1; wpos = 0; active = False
         for i in range(L):
-            wpos = 0 if (i == 0 or W[i] != W[i - 1]) else wpos + 1
+            if i == 0 or W[i] != W[i - 1]: wpos = 0; active = gate_all or (rng.random() < R_GATE)
+            else: wpos += 1
             p = P[i]
+            if (echo5 or echo6) and active and p != -1:
+                x = -1
+                if echo5 and wpos >= 5 and P[i - 5] == p: x = c[i - 5]
+                elif echo6 and wpos >= 6 and P[i - 6] == p: x = T(c[i - 6])
+                if x != -1 and x != prev:
+                    c[i] = x; prev = x
+                    if not hold_echo: j += 1
+                    continue
             if p == -1:                                             # extra null rune, checked against its neighbours
                 x = int(rng.integers(0, N))
                 while x == prev: x = int(rng.integers(0, N))
@@ -124,12 +147,12 @@ def simulate(rule, q=Q, p_null=0.45):
             if rule == "RF" and p == 0: c[i] = p; prev = p; continue
             x = (p + k[j]) % N
             if x == prev and rng.random() < q:
-                if rule in ("R0", "RS", "RF"):
+                if rule in ("R0", "RS", "RF") or (echo5 and base == "R0"):
                     for _ in range(4):
                         j += 1; x = (p + k[j]) % N
                         if x != prev: break
                 else:                                               # hold repairs: key position kept
-                    if rule == "R4" or rule == "R4n":
+                    if rule == "R4" or rule == "R4n" or base in ("R4", "R4n"):
                         x = T(c[i - 6]) if wpos >= 6 else -1
                     elif rule == "Rc5":
                         x = c[i - 5] if wpos >= 5 else -1
@@ -142,12 +165,13 @@ def simulate(rule, q=Q, p_null=0.45):
         pages.append((c, W))
     return pages
 
-STATS = ["D", "D_in", "L3", "L4", "L5", "L5S", "L6T", "L6best", "SHARE", "Sfreq", "U"]
-JUDGE = ["D", "D_in", "L3", "L4", "L5", "L5S", "L6T", "SHARE", "Sfreq"]
+STATS = ["D", "D_in", "L3", "L4", "L5", "L5S", "BIG", "L6T", "L6best", "SHARE", "Sfreq", "U"]
+JUDGE = ["D", "D_in", "L3", "L4", "L5", "L5S", "BIG", "L6T", "SHARE", "Sfreq"]
 LENS_CUR = LENS
 ref = measure(LP2); print("LP2:", ref, flush=True)
-assert (ref["D"], ref["D_in"], ref["L5"], ref["L5S"], ref["L6T"]) == (86, 63, 102, 11, 77), ref
-RULES = [("Rq0", dict(q=0.0)), ("R0", {}), ("R0h", {}), ("R4", {}), ("R4n", {}), ("Rc5", {}), ("RS", {}), ("RF", {})]
+assert (ref["D"], ref["D_in"], ref["L5"], ref["L5S"], ref["L6T"], ref["BIG"]) == (86, 63, 102, 11, 77, 9), ref
+RULES = [("Rq0", dict(q=0.0)), ("R0", {}), ("R0h", {}), ("R4", {}), ("R4n", {}), ("Rc5", {}), ("RS", {}), ("RF", {}),
+         ("E5w", {}), ("E5w-hold", {}), ("E5all", {}), ("E56w", {}), ("E56w-hold", {}), ("E56w+R4n", {})]
 t0 = time.time(); table = {}
 for rule, kw in RULES:
     reps = []
@@ -164,7 +188,7 @@ out = ["# Word-aware mechanism lane: which rule reproduces the three structures 
        "| rule | " + " | ".join(JUDGE) + " | verdict |", "|---|" + "---|" * (len(JUDGE) + 1)]
 for rule, _ in RULES:
     d = table[rule]; out.append(f"| {rule} | " + " | ".join(f"{d['mean'][s]:.1f}±{d['sd'][s]:.1f} (z {d['z'][s]:+.1f})" if s != "Sfreq" else f"{d['mean'][s]:.4f} (z {d['z'][s]:+.1f})" for s in JUDGE) + f" | {'survives' if d['survives'] else 'fails: ' + ', '.join(d['fails'])} |")
-out += ["", "Cells are the rule's mean ± sd over replicates and the z of LP2's value against them. L6best (largest hit count over the 812 affine maps at lag 6) is reported in the JSON; LP2's is 77, equal to its L6T, so T is LP2's best map.", ""]
+out += ["", f"Echo rules use a per-word gate r = {R_GATE} fixed before the run from §46's mixture fit to the equality count; that count is therefore spent for them and the other nine statistics are the test.", "", "Cells are the rule's mean ± sd over replicates and the z of LP2's value against them. L6best (largest hit count over the 812 affine maps at lag 6) is reported in the JSON; LP2's is 77, equal to its L6T, so T is LP2's best map.", ""]
 (RESULTS / "mechanism.md").write_text("\n".join(out) + "\n")
 json.dump(dict(ref=ref, rules=table, nrep=NREP, q=Q), open(RESULTS / "mechanism.json", "w"), indent=1, default=float)
 print("\n".join(out))

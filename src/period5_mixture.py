@@ -43,14 +43,15 @@ en = lag5([(Ec, Ew)])
 out = ["# Per-word period-5 key as a mixture: English's own lag-5 statistics against LP2's", "",
        f"LP2: {lp['n']:,} within-word lag-5 pairs; equal {lp['eq']*100:.2f} % (102), S..S {lp['ss']*100:.2f} % (11), repeated bigrams {lp['big']*100:.2f} % ({int(round(lp['big']*lp['nbig']))} of {lp['nbig']:,} adjacent pair-pairs), difference chi-square {lp['chi']:.1f}.",
        f"English (Emerson, {en['n']:,} pairs): equal {en['eq']*100:.2f} %, S..S {en['ss']*100:.2f} %, repeated bigrams {en['big']*100:.2f} %, difference chi-square per 2,073 pairs {en['chi']*2073/en['n']:.1f}.", "",
-       "Under a period-5 key in a fraction f of the long words and a uniform-difference cipher elsewhere, LP2's four statistics are f·English + (1−f)·uniform (the chi-square scales with f² for the deviation part). Predicted values:", "",
+       "Under a period-5 key in a fraction f of the long words and a uniform-difference cipher elsewhere, the equality, bigram and difference statistics are f·English + (1−f)·uniform. The S..S count is NOT English's: an equal cipher pair takes the value p + k, which is uniform over the key, so it is S with probability 1/29 whatever the plaintext; the prediction is (equal pairs)/29. (The first version of this file used English's own S..S rate here, which was wrong; corrected 2026-10-28 after the §47 simulation showed it.) Predicted values:", "",
        "| f | equal pairs | S..S pairs | repeated bigrams | difference chi-square |", "|---|---|---|---|---|"]
 u_eq, u_ss, u_big = 1 / N, (1 / N) * (1 / N), 1 / N ** 2
 hist_u = np.full(N, 1 / N)
 for f in (0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 1.0):
     h = f * en["hist"] + (1 - f) * hist_u; chi = lp["n"] * ((h - 1 / N) ** 2 / (1 / N)).sum() + 28
-    out.append(f"| {f:.1f} | {lp['n']*(f*en['eq']+(1-f)*u_eq):.0f} | {lp['n']*(f*en['ss']+(1-f)*u_ss):.1f} | {lp['nbig']*(f*en['big']+(1-f)*u_big):.1f} | {chi:.0f} |")
-out += ["", "LP2 observed: 102 / 11 / 9 / 38.9. The f that fits the equality excess, the f that fits the S..S count, the f that fits the bigrams and the f that fits the flat difference histogram must agree for the mixture to stand.", "",
+    eqp = lp['n']*(f*en['eq']+(1-f)*u_eq)
+    out.append(f"| {f:.1f} | {eqp:.0f} | {eqp/N:.1f} | {lp['nbig']*(f*en['big']+(1-f)*u_big):.1f} | {chi:.0f} |")
+out += ["", "LP2 observed: 102 / 11 / 9 / 38.9. The f that fits the equality excess (0.5) predicts 3.5 S..S pairs against 11 and a difference chi-square of 61 against 38.9: the mixture fits one number with one parameter and fails two.", "",
         "English within-word lag-5 difference histogram (share per difference, 0 = equal):", "", "| d | " + " | ".join(str(i) for i in range(N)) + " |", "|---|" + "---|" * N,
         "| English | " + " | ".join(f"{v*100:.1f}" for v in en["hist"]) + " |", "| LP2 | " + " | ".join(f"{v*100:.1f}" for v in lp["hist"]) + " |", ""]
 (RESULTS / "period5_mixture.md").write_text("\n".join(out) + "\n"); print("\n".join(out[:18]))

@@ -50,6 +50,7 @@ LANES = [
     ("§43", "Exact reachability of the solved-page rule, every offset; linear complexity", 1_100_000, "plants recovered", "null: continuous section excluded for 5 streams; pages at n/2 complexity", "per-page reachability has no power (literal-F realignment)"),
     ("§45", "Word-aware mechanism simulation: 8 rules x 9 pre-registered statistics", None, "3 sanity controls", "measured: every rule fails; the S carrier breaks all eight; R4+extra rune fits the other eight", "English plaintext and iid key only; hold-aware decoding = §22"),
     ("§46", "Lag-5 echo runs in pairs (bigrams 9 vs 1.5); multiplier autokey and lag-1 affine closed; per-word period-5 key mixture", None, "—", "measured: f = 0.5 fits equality and S exactly, fails the difference flatness by 3 sd", "first hypothesis producing the S carrier; lag 6 unexplained"),
+    ("§47", "Echo rules in the mechanism simulator (14 rules x 10 statistics)", None, "3 sanity controls", "measured: gated lag-5/lag-6 echo (E56w) fits 9 of 10; S carrier outside every additive mechanism", "English plaintext, iid key; one gate parameter fitted to one count"),
     ("§44", "Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000", nt("digits.json"), "4/4", "null", "base-10, digit pairs, base-29; fresh offset per page"),
 ]
 OPEN = [
@@ -60,7 +61,8 @@ OPEN = [
     "Red-text key schedule (the red initials and first words), ledger check first",
     "wazar's R12-C2 esoteric texts: Dukotah R26-B ran 33 of them at 4–8 offsets, sign −1 only (pages 20/22/25/27/29, sign +1, reversed texts unrun; Gutenberg ids wrong)",
     "LP2-50, the two-character-code page, as a cipher of its own",
-    "A word-aware mechanism that yields the deficit, the lag-5 S echo (now: lag-5 runs), the lag-6 relation together; a rule that copies plaintext equality at lag 5 without copying differences is the shape the data ask for (§46)",
+    "A decoder for the gated echo rule E56w (§47): at a lag-5 / lag-6 plaintext repeat, expect the echoed cipher value; then the book's key families under it",
+    "The S carrier (11 of 102 lag-5 pairs): a step acting on the cipher value S, or a fluctuation; no additive mechanism carries it (§47)",
     "Phase 6 (§14) and §39's phase-6 part under the corrected word edges (rerun 2026-10-28, see §42)",
 ]
 
@@ -80,8 +82,8 @@ box = f"""# Status box
 | Decoder tests run | {total/1e6:.0f} million, all pre-registered, all with planted controls |
 | Lanes closed null | {closed} of {len(LANES)} ({', '.join(running) if running else 'none running'}) |
 | Pages | 55 unsolved with runes (12,956 runes); coverage limits listed per lane |
-| The structures | three: 86 doubled runes where 445 are expected (0.19 of uniform; solved pages sit at 0.86); inside words, a lag-5 equality carried by S (z +3.7, K-fixed null) and a lag-6 relation c = 24 − 2c′ (z +5.1); flat in every other statistic |
-| Best current reading | one word-aware rule that removes repeats and leaves the two echoes (pnotisdev's mech25 fits one); the echoes are the first implementation leaks |
+| The structures | 86 doubled runes where 445 are expected (0.19 of uniform; solved pages sit at 0.86); inside words, a lag-5 echo that copies equality in runs (102 vs 71 pairs, 9 vs 1.5 bigrams), 11 of the pairs S (3.5 expected, p 0.003), and a lag-6 relation c = 24 − 2c′ (77 vs 44); the two echoes share words; flat in every other statistic |
+| Best current reading | a gated word-internal echo (plaintext repeat at lag 5 → copy the cipher rune; at lag 6 → 24 − 2c) in about half the words reproduces nine of ten statistics; the S weighting is outside every additive mechanism and is the open fact |
 | External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
 | Repository | {sections} numbered sections, {ncommits} commits as of {head} |
 

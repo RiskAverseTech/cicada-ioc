@@ -303,6 +303,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a747",
+   "lane": "Echo rules in the mechanism simulator (14 rules x 10 statistics)",
+   "tests": null,
+   "controls": "3 sanity controls",
+   "verdict": "measured: gated lag-5/lag-6 echo (E56w) fits 9 of 10; S carrier outside every additive mechanism",
+   "coverage_limit": "English plaintext, iid key; one gate parameter fitted to one count",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a744",
    "lane": "Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000",
    "tests": 6480000,
@@ -320,7 +329,8 @@
   "Red-text key schedule (the red initials and first words), ledger check first",
   "wazar's R12-C2 esoteric texts: Dukotah R26-B ran 33 of them at 4\u20138 offsets, sign \u22121 only (pages 20/22/25/27/29, sign +1, reversed texts unrun; Gutenberg ids wrong)",
   "LP2-50, the two-character-code page, as a cipher of its own",
-  "A word-aware mechanism that yields the deficit, the lag-5 S echo (now: lag-5 runs), the lag-6 relation together; a rule that copies plaintext equality at lag 5 without copying differences is the shape the data ask for (\u00a746)",
+  "A decoder for the gated echo rule E56w (\u00a747): at a lag-5 / lag-6 plaintext repeat, expect the echoed cipher value; then the book's key families under it",
+  "The S carrier (11 of 102 lag-5 pairs): a step acting on the cipher value S, or a fluctuation; no additive mechanism carries it (\u00a747)",
   "Phase 6 (\u00a714) and \u00a739's phase-6 part under the corrected word edges (rerun 2026-10-28, see \u00a742)"
  ]
 }
