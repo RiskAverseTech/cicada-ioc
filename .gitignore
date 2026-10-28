@@ -5,3 +5,4 @@ __pycache__/
 external/
 results/ngram5.npz
 data/archives/
+results/s_carrier_samples.npz

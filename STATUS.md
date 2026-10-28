@@ -4,12 +4,12 @@
 |---|---|
 | **Breakthroughs** | **0** (a page decoding to readable English at a pre-registered bar, reproduced by someone else) |
 | Decoder tests run | 421 million, all pre-registered, all with planted controls |
-| Lanes closed null | 22 of 32 (none running) |
+| Lanes closed null | 22 of 33 (none running) |
 | Pages | 55 unsolved with runes (12,956 runes); coverage limits listed per lane |
 | The structures | three: 86 doubled runes where 445 are expected (0.19 of uniform; solved pages sit at 0.86); inside words, a lag-5 equality carried by S (z +3.7, K-fixed null) and a lag-6 relation c = 24 − 2c′ (z +5.1); flat in every other statistic |
 | Best current reading | one word-aware rule that removes repeats and leaves the two echoes (pnotisdev's mech25 fits one); the echoes are the first implementation leaks |
 | External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
-| Repository | 44 numbered sections, 41 commits as of 2026-10-28 |
+| Repository | 45 numbered sections, 42 commits as of 2026-10-28 |
 
 ## Lanes
 
@@ -46,6 +46,7 @@
 | §41 | Closure bundle: solved-page repeat rate, parity, repeat context, cross-page n-grams, word-length repeats, ICC | — | — | measured: rule specific to the unsolved section; all else at null | statistics, not decodes |
 | §42 | Within-word echoes: lag-5 equality (S), lag-6 affine 24−2c; word-edge correction | — | — | measured: both present (z +3.7 K-fixed; z +5.1, best of 812) | two further laws of the stream; mechanism open |
 | §43 | Exact reachability of the solved-page rule, every offset; linear complexity | 1.1 M | plants recovered | null: continuous section excluded for 5 streams; pages at n/2 complexity | per-page reachability has no power (literal-F realignment) |
+| §45 | Word-aware mechanism simulation: 8 rules x 9 pre-registered statistics | — | 3 sanity controls | measured: every rule fails; the S carrier breaks all eight; R4+extra rune fits the other eight | English plaintext and iid key only; hold-aware decoding = §22 |
 | §44 | Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000 | 6.5 M | 4/4 | null | base-10, digit pairs, base-29; fresh offset per page |
 
 ## Open

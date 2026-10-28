@@ -48,6 +48,7 @@ LANES = [
     ("§41", "Closure bundle: solved-page repeat rate, parity, repeat context, cross-page n-grams, word-length repeats, ICC", None, "—", "measured: rule specific to the unsolved section; all else at null", "statistics, not decodes"),
     ("§42", "Within-word echoes: lag-5 equality (S), lag-6 affine 24−2c; word-edge correction", None, "—", "measured: both present (z +3.7 K-fixed; z +5.1, best of 812)", "two further laws of the stream; mechanism open"),
     ("§43", "Exact reachability of the solved-page rule, every offset; linear complexity", 1_100_000, "plants recovered", "null: continuous section excluded for 5 streams; pages at n/2 complexity", "per-page reachability has no power (literal-F realignment)"),
+    ("§45", "Word-aware mechanism simulation: 8 rules x 9 pre-registered statistics", None, "3 sanity controls", "measured: every rule fails; the S carrier breaks all eight; R4+extra rune fits the other eight", "English plaintext and iid key only; hold-aware decoding = §22"),
     ("§44", "Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000", nt("digits.json"), "4/4", "null", "base-10, digit pairs, base-29; fresh offset per page"),
 ]
 OPEN = [

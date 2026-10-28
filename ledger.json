@@ -285,6 +285,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a745",
+   "lane": "Word-aware mechanism simulation: 8 rules x 9 pre-registered statistics",
+   "tests": null,
+   "controls": "3 sanity controls",
+   "verdict": "measured: every rule fails; the S carrier breaks all eight; R4+extra rune fits the other eight",
+   "coverage_limit": "English plaintext and iid key only; hold-aware decoding = \u00a722",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a744",
    "lane": "Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000",
    "tests": 6480000,
