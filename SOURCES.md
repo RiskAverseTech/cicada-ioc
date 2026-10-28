@@ -96,3 +96,8 @@ and their thumbnails, fetched from `https://raw.githubusercontent.com/scream314/
 (repository HEAD pushed 2023-06-06). Image NN is master-transcription chunk NN − 1; unsolved LP2-k is
 image 17 + k. The 54 MB of files are gitignored; `data/images/SHA256SUMS.txt` holds every file's
 SHA-256 and `data/images/filelist.tsv` the archive paths and sizes.
+
+## PGP key and signed messages (fetched 2026-10-27; `src/verify_pgp.py`, `docs/pgp-verification.md`)
+
+Public key `data/raw/pgp/cicada_7A35090F_pubkey.asc` from https://keys.openpgp.org/vks/v1/by-fingerprint/6D854CD7933322A601C3286D181F01E57A35090F.
+Messages from wazar/cicada3301 `corpus/A-primary-artifacts/` (pgp/messages/2012-01-necrome-denial.asc, ibotpeaches/messages/2016/hello-the-path-lies-empty.asc, ibotpeaches/messages/2017/beware-false-paths.asc). SHA-256 in `data/raw/pgp/SHA256SUMS.txt`.

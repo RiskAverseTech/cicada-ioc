@@ -1,0 +1,4 @@
+key 6D854CD7933322A601C3286D181F01E57A35090F created 2012-01-05 RSAEncryptOrSign 4096; matches expected fingerprint: True
+2012-04-18_necrome-denial.asc                 signer 181F01E57A35090F  signed 2012-04-18 17:41Z  SHA1   verified: as stored True, canonicalised True  sha256 4ee4e1971f7d3edb
+2016-01-01_liber-primus-is-the-way.asc        signer 181F01E57A35090F  signed 2016-01-01 00:01Z  SHA1   verified: as stored True, canonicalised True  sha256 64ecef22f91bea9f
+2017-04-04_beware-false-paths.asc             signer 181F01E57A35090F  signed 2017-04-04 23:23Z  SHA512 verified: as stored True, canonicalised True  sha256 bb36c3c1c570ece6
