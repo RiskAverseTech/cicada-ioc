@@ -151,3 +151,10 @@ format over a sixth parallel ledger.
 Also seen, not entered: murphyaidanbusiness-ux/liberprimus and aergasrg/liber-primus (already in the survey), mak777uh/cicada3301-import (a mirror of WZ), popsumpercs/Liber-Primus-Attack-Pipeline and VinnyMo/cicadaCrypt (small transliteration toolkits, no claims), HhWolfling/Gematria-Primus-Lattice-Resonance (no testable content), invictustitan2/liber-primus-archive (empty README). No repository found claims a solve as of 2026-10-27.
 
 **Note on WZ's never-run R12-C2 corpus (checked 2026-10-27).** Its `fetch.sh` names 23 Project Gutenberg ids and 10 archive.org / globalgrey URLs. Fetched from Gutenberg mirrors, at least five of the ids return other books (71455 "Girart de Nevers", 16929 "Treat 'em Rough", 33443 a Corwin cruise report, 33244 "Maximina", 24459 "The Lost Princess of Oz"), six return nothing, and the archive.org and globalgrey URLs return HTML, not text. The lane was never run and its corpus as scripted could not have been run as described; anyone picking it up must re-source the texts by title.
+
+## Added 2026-10-28: full GitHub survey
+
+213 repositories searched, 45 read; see `results/field_survey_2026-10-28.md` for the lab table, the
+field consensus, the claims dismissed, the ranked list of checks not run here, and three corrections
+to this file (Dukotah R26-B has partly run the R12-C2 corpus; R27 S2's "hit" is a counter reset;
+the pair claim bars were fitted against a gitignored panel).
