@@ -51,6 +51,7 @@ LANES = [
     ("§45", "Word-aware mechanism simulation: 8 rules x 9 pre-registered statistics", None, "3 sanity controls", "measured: every rule fails; the S carrier breaks all eight; R4+extra rune fits the other eight", "English plaintext and iid key only; hold-aware decoding = §22"),
     ("§46", "Lag-5 echo runs in pairs (bigrams 9 vs 1.5); multiplier autokey and lag-1 affine closed; per-word period-5 key mixture", None, "—", "measured: f = 0.5 fits equality and S exactly, fails the difference flatness by 3 sd", "first hypothesis producing the S carrier; lag 6 unexplained"),
     ("§47", "Echo rules in the mechanism simulator (14 rules x 10 statistics)", None, "3 sanity controls", "measured: gated lag-5/lag-6 echo (E56w) fits 9 of 10; S carrier outside every additive mechanism", "English plaintext, iid key; one gate parameter fitted to one count"),
+    ("§48", "Echo-aware decoding (spent and held echoes) of the phase 3-4 library", nt("echo_lane.json"), "11/12", "null", "echoes cost an unaware decoder ~nothing when key-spending; held echoes cost only when several fall on one page"),
     ("§44", "Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000", nt("digits.json"), "4/4", "null", "base-10, digit pairs, base-29; fresh offset per page"),
 ]
 OPEN = [
@@ -63,7 +64,7 @@ OPEN = [
     "LP2-50, the two-character-code page, as a cipher of its own",
     "Key source, not key search: the page behind the AN END SHA-512 (the one place a key is said to exist) is unfound; archived onion corpora (Dukotah 2026-07-27), 1,962 documents (ItIsCuthNotCup), raw bytes/IPv4/phones (hashcat), 124,017 onion-capture digests (pnotisdev) and 502 artefacts x 3,977 readings here (§35) do not contain it; Tor v2 is gone, so only an archive nobody has indexed can",
     "Cross-library decoding: pnotisdev's 1,447 number streams have met only IoC/bigram screens and the R4 engine, the book's phrase library here only the skip Viterbi (+ §22 hold nulls, + §48 echoes); each library under the other lab's decoder is untested",
-    "A decoder for the gated echo rule E56w (§47): at a lag-5 / lag-6 plaintext repeat, expect the echoed cipher value; then the book's key families under it",
+
     "The S carrier (11 of 102 lag-5 pairs): a step acting on the cipher value S, or a fluctuation; no additive mechanism carries it (§47)",
     "Phase 6 (§14) and §39's phase-6 part under the corrected word edges (rerun 2026-10-28, see §42)",
 ]

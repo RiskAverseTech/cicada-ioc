@@ -312,6 +312,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a748",
+   "lane": "Echo-aware decoding (spent and held echoes) of the phase 3-4 library",
+   "tests": 5029860,
+   "controls": "11/12",
+   "verdict": "null",
+   "coverage_limit": "echoes cost an unaware decoder ~nothing when key-spending; held echoes cost only when several fall on one page",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a744",
    "lane": "Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000",
    "tests": 6480000,
@@ -331,7 +340,6 @@
   "LP2-50, the two-character-code page, as a cipher of its own",
   "Key source, not key search: the page behind the AN END SHA-512 (the one place a key is said to exist) is unfound; archived onion corpora (Dukotah 2026-07-27), 1,962 documents (ItIsCuthNotCup), raw bytes/IPv4/phones (hashcat), 124,017 onion-capture digests (pnotisdev) and 502 artefacts x 3,977 readings here (\u00a735) do not contain it; Tor v2 is gone, so only an archive nobody has indexed can",
   "Cross-library decoding: pnotisdev's 1,447 number streams have met only IoC/bigram screens and the R4 engine, the book's phrase library here only the skip Viterbi (+ \u00a722 hold nulls, + \u00a748 echoes); each library under the other lab's decoder is untested",
-  "A decoder for the gated echo rule E56w (\u00a747): at a lag-5 / lag-6 plaintext repeat, expect the echoed cipher value; then the book's key families under it",
   "The S carrier (11 of 102 lag-5 pairs): a step acting on the cipher value S, or a fluctuation; no additive mechanism carries it (\u00a747)",
   "Phase 6 (\u00a714) and \u00a739's phase-6 part under the corrected word edges (rerun 2026-10-28, see \u00a742)"
  ]

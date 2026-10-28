@@ -29,7 +29,7 @@ def english_model():
     return lu, lb, plain
 
 
-def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, penalty=0.0, rejection="one", mult_inv=None, offset=None, max_skip=MAX_SKIP):
+def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, penalty=0.0, rejection="one", mult_inv=None, offset=None, max_skip=MAX_SKIP, echo_mask=None, echo_gain=0.0):
     """C: (n,) ciphertext; Ks: (m, L) keystreams, L >= n + S_MAX.
     mode "sub": P = C - K (additive cipher C = P + K); mode "beaufort": P = K - C (C = K - P).
     For C = P - K pass -K with mode "sub".  The forced-skip condition C_i - C_{i-1} == K_j - K_{j-1}
@@ -55,6 +55,11 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
     consecutive key symbols at one position when they are all equal (each would reproduce C_{i-1}); the
     decoder takes k = 1..max_skip rejections where K_{j-1} = ... = K_{j-k} and the one-skip condition
     holds.  Results before that date used max_skip = 2 (one skip plus the doubled-letter double skip).
+    echo_mask (2026-10-28, §48): (n,) ints, 0 or the lag d at which rune i may be an ECHO (c_i == c_(i-5) or
+    c_i == 24 - 2 c_(i-6) inside a word): the plaintext repeats at lag d and the cipher rune was copied, the key
+    symbol consumed unused.  Option at such i: t unchanged, gain `echo_gain` (log of the echo probability relative
+    to uniform), plaintext = the decoded rune d back.  The held-key form of the same echo is null_mask at the same
+    positions with penalty = echo_gain.
     Returns best LLR (m,), best final state (m,), decoded plaintext along the best path (m, n)."""
     C = np.asarray(C); m, L = Ks.shape; n = len(C)
     T0 = (int((C == 0).sum()) if f_rule else 0) + (int(np.asarray(null_mask).sum()) if null_mask is not None else 0)  # room for j < i
@@ -113,6 +118,10 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
             nul[:, :-1] = dp[:, 1:] + penalty                # uniform null: gain 0, no key consumed
             take = nul > cand
             cand = np.where(take, nul, cand); src = np.where(take, -3, src)
+        if echo_mask is not None and echo_mask[i]:
+            ech = dp + echo_gain                             # echo: key consumed unused, cipher rune copied
+            take = ech > cand
+            cand = np.where(take, ech, cand); src = np.where(take, -2, src)
         dp = cand; back[i] = src
     best = dp.max(1); t_best = dp.argmax(1)
     out = np.zeros((m, n), dtype=np.int16); t = t_best.copy()
@@ -127,6 +136,15 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
             dec = (dec * (mult_inv[i] if mult_inv.ndim == 1 else mult_inv[:, i])) % N
         out[:, i] = np.where(src == -1, 0, np.where(src == -3, c, dec))   # a null is written as itself
         t = t - np.where(src > 0, src, 0) + (src == -1) + (src == -3)
+    if echo_mask is not None:                                 # an echoed rune's plaintext is the plaintext d back
+        # recompute which positions took the echo along the best path
+        t = t_best.copy(); took = np.zeros((m, n), bool)
+        for i in range(n - 1, -1, -1):
+            src = back[i][rows, t]; took[:, i] = src == -2
+            t = t - np.where(src > 0, src, 0) + (src == -1) + (src == -3)
+        for i in range(n):
+            if echo_mask[i]:
+                d = int(echo_mask[i]); out[:, i] = np.where(took[:, i], out[:, i - d], out[:, i])
     return best, t_best - T0, out
 
 
