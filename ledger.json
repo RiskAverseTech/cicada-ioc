@@ -404,10 +404,10 @@
   {
    "section": "\u00a755c",
    "lane": "Filler sweep: 16 external texts (every offset both ways / sentence starts) and pnotisdev offsets 1,000-1,999 under the free-null decoder",
-   "tests": null,
-   "controls": "6 controls (fillers at 0.10)",
-   "verdict": "running",
-   "coverage_limit": "160-rune windows on LP2-00/01/02 (power 0.58 for running keys); one prior; pnotisdev offsets >= 2,000 open",
+   "tests": 19488816,
+   "controls": "5/6 rank 1 (6th found at rank 2, offset alias)",
+   "verdict": "null",
+   "coverage_limit": "160-rune windows on LP2-00/01/02 (power 0.58 for running keys); one prior; the 20-nat margin arm does not filter wrong keys at page length; pnotisdev offsets >= 2,000 and the sacred / hyp libraries open",
    "date": "2026-10-27"
   },
   {

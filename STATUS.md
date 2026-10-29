@@ -3,13 +3,13 @@
 | | |
 |---|---|
 | **Breakthroughs** | **0** (a page decoding to readable English at a pre-registered bar, reproduced by someone else) |
-| Decoder tests run | 864 million, all pre-registered, all with planted controls |
-| Lanes closed null | 28 of 47 (Filler sweep: 16 external texts (every offset both ways / sentence starts) and pnotisdev offsets 1,000-1,999 under the free-null decoder) |
+| Decoder tests run | 883 million, all pre-registered, all with planted controls |
+| Lanes closed null | 29 of 47 (none running) |
 | Pages | 55 unsolved with runes (12,956 runes); coverage limits listed per lane |
 | The structures | 86 doubled runes where 445 are expected (0.19 of uniform; solved pages sit at 0.86); inside words, a lag-5 echo that copies equality in runs (102 vs 71 pairs, 9 vs 1.5 bigrams), 11 of the pairs S (3.5 expected, p 0.005), and a lag-6 relation c = 24 − 2c′ (77 vs 44); the two echoes share words only at the level of description (p 0.11 once word length is held); flat in every other statistic |
 | Best current reading | a gated word-internal echo (plaintext repeat at lag 5 → copy the cipher rune; at lag 6 → 24 − 2c) in about half the words reproduces nine of ten statistics; the S weighting is outside every additive mechanism with a plaintext-independent key and is the open fact |
 | External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
-| Repository | 56 numbered sections, 72 commits as of 2026-10-29 |
+| Repository | 56 numbered sections, 74 commits as of 2026-10-29 |
 
 ## Lanes
 
@@ -59,7 +59,7 @@
 | §54 | Cross-library: pnotisdev's 1,439 streams under the plain, echo and hold decoders | 421.7 M | 14/18 rank 1 (18/18 found; misses are own-offset aliases) | null | tier 1 on the first 80 / 160 runes of LP2-00, LP2-01, LP2-02 only (all pages only for a candidate); every offset for plain / echo; hold at offsets 0–999 of the non-periodic streams; sacred / hyp libraries not rebuilt |
 | §55a | Word-length fingerprint of the unsolved pages; positional IoC; repeated cipher words | — | bootstrap null (2,000 English samples) | measured: not English prose (chi-square 183, p 0.0005; 15.9 % two-rune words vs 24-25 %); best simple fit = fillers at about one per two words; positional IoC flat; no repeated 4-rune cipher words | descriptive; register (verse, list) not excluded; per-word key restart excluded |
 | §55b | Decoder power with fillers at 0.10 (3 families x 3 lengths x 12 plants, with and without fillers) | — | 108 + 108 plants | measured: plain decoder power 0.00 in every filler cell; free-null at prior -2.2 keeps 0.75 (running key, 230 runes), 1.00 (Vigenère), 0.75 (primes) | every plain-decoder lane had no power in a filler world at this rate; §22 and the §54 hold tier did |
-| §55c | Filler sweep: 16 external texts (every offset both ways / sentence starts) and pnotisdev offsets 1,000-1,999 under the free-null decoder | — | 6 controls (fillers at 0.10) | running | 160-rune windows on LP2-00/01/02 (power 0.58 for running keys); one prior; pnotisdev offsets >= 2,000 open |
+| §55c | Filler sweep: 16 external texts (every offset both ways / sentence starts) and pnotisdev offsets 1,000-1,999 under the free-null decoder | 19.5 M | 5/6 rank 1 (6th found at rank 2, offset alias) | null | 160-rune windows on LP2-00/01/02 (power 0.58 for running keys); one prior; the 20-nat margin arm does not filter wrong keys at page length; pnotisdev offsets >= 2,000 and the sacred / hyp libraries open |
 | §56 | Validation release after the second external review: n-gram lower orders, standalone R4n, K-fixed sampler clock fixed; affected statistics rerun; four summaries corrected | — | 3 new tests | measured: no decode negative moved; see the section for the rerun figures | the fixes bear on the mechanism table, two p-values and the wording |
 | §44 | Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000 | 6.5 M | 4/4 | null | base-10, digit pairs, base-29; fresh offset per page |
 
