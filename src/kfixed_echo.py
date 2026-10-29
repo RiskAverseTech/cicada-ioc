@@ -37,33 +37,14 @@ def echo_counts(pages):
             out[j] += int(((c[d:] == c[:-d]) & m).sum())
     return out
 
-def doublets(c): return int((c[1:] == c[:-1]).sum())
-
-def kfixed_step(c, k, nswap):
-    """nswap accepted transpositions that keep the repeat count k (Metropolis, uniform target)."""
-    L = len(c); acc = 0
-    while acc < nswap:
-        i, j = rng.integers(0, L, 2)
-        if i == j or c[i] == c[j]: acc += 1; continue
-        # local repeat count before/after around i and j
-        idx = set()
-        for t in (i, j):
-            if t > 0: idx.add(t - 1)
-            if t < L - 1: idx.add(t)
-        before = sum(c[t] == c[t + 1] for t in idx)
-        c[i], c[j] = c[j], c[i]
-        after = sum(c[t] == c[t + 1] for t in idx)
-        if after != before: c[i], c[j] = c[j], c[i]
-        else: acc += 1
-    return c
-
+from kfixed import kfixed_step, doublets   # attempt-counting clock (2026-10-29, §56)
 obs = echo_counts(U)
-NREP = 999; BURN = 20; THIN = 4   # in units of page length (accepted swaps per rune)
+NREP = 999; BURN = 20; THIN = 4   # in units of page length (attempted transpositions per rune; accepted-only before 2026-10-29)
 cur = [(c.copy(), w) for c, w in U]; ks = [doublets(c) for c, _ in U]
-for (c, _), k in zip(cur, ks): kfixed_step(c, k, BURN * len(c))
+for (c, _), k in zip(cur, ks): kfixed_step(c, BURN * len(c), rng)
 samp = np.zeros((NREP, len(D)), int)
 for r in range(NREP):
-    for (c, _), k in zip(cur, ks): kfixed_step(c, k, THIN * len(c))
+    for (c, _), k in zip(cur, ks): kfixed_step(c, THIN * len(c), rng)
     samp[r] = echo_counts(cur)
 assert all(doublets(c) == k for (c, _), k in zip(cur, ks))
 mu, sd = samp.mean(0), samp.std(0); z = (obs - mu) / sd
@@ -73,6 +54,6 @@ for j, d in enumerate(D):
     p = (np.sum(samp[:, j] >= obs[j]) + 1) / (NREP + 1)
     rows.append(f"| {d} | {obs[j]} | {mu[j]:.1f} ± {sd[j]:.1f} | {z[j]:+.2f} | {p:.3f} |")
 fw = (np.sum(zmax_null >= z.max()) + 1) / (NREP + 1)
-out = ["# Within-word lag echo under a K-fixed null", "", f"{sum(len(c) for c, _ in U):,} runes on the 55 unsolved pages; null = {NREP} arrangements per page with the page's own rune multiplicities, word structure and adjacent-repeat count (K = {sum(ks)}) held fixed, sampled by a Metropolis walk on transpositions ({BURN} burn-in and {THIN} thinning swaps per rune).", ""] + rows + ["",
+out = ["# Within-word lag echo under a K-fixed null", "", f"{sum(len(c) for c, _ in U):,} runes on the 55 unsolved pages; null = {NREP} arrangements per page with the page's own rune multiplicities, word structure and adjacent-repeat count (K = {sum(ks)}) held fixed, sampled by a Metropolis walk on transpositions ({BURN} burn-in and {THIN} thinning attempted transpositions per rune; the clock counts attempts, see src/kfixed.py).", ""] + rows + ["",
        f"Family-wise over d = 2..12: largest z is {z.max():+.2f} at lag {list(D)[int(z.argmax())]}; the null's largest z is {zmax_null.mean():.2f} ± {zmax_null.std():.2f}; p = {fw:.3f}.", ""]
 (RESULTS / "kfixed_echo.md").write_text("\n".join(out) + "\n"); print("\n".join(out))

@@ -27,26 +27,13 @@ def cell_counts(pages):
             if len(c) <= d: continue
             m = (w[d:] == w[:-d]) & (c[d:] == c[:-d]); out[:, j] += np.bincount(c[d:][m], minlength=N)
     return out
-def doublets(c): return int((c[1:] == c[:-1]).sum())
-def kfixed_step(c, nswap):
-    L = len(c); acc = 0
-    while acc < nswap:
-        i, j = rng.integers(0, L, 2)
-        if i == j or c[i] == c[j]: acc += 1; continue
-        idx = set()
-        for t in (i, j):
-            if t > 0: idx.add(t - 1)
-            if t < L - 1: idx.add(t)
-        before = sum(c[t] == c[t + 1] for t in idx); c[i], c[j] = c[j], c[i]
-        after = sum(c[t] == c[t + 1] for t in idx)
-        if after != before: c[i], c[j] = c[j], c[i]
-        else: acc += 1
+from kfixed import kfixed_step, doublets   # attempt-counting clock (2026-10-29, §56)
 obs = cell_counts(U); NREP = 999
 cur = [(c.copy(), w) for c, w in U]
-for c, _ in cur: kfixed_step(c, 20 * len(c))
+for c, _ in cur: kfixed_step(c, 20 * len(c), rng)
 samp = np.zeros((NREP, N, len(D)), int)
 for r in range(NREP):
-    for c, _ in cur: kfixed_step(c, 4 * len(c))
+    for c, _ in cur: kfixed_step(c, 4 * len(c), rng)
     samp[r] = cell_counts(cur)
 mu, sd = samp.mean(0), samp.std(0) + 1e-9; z = (obs - mu) / sd
 zmax = ((samp - mu) / sd).max(axis=(1, 2))

@@ -5,6 +5,8 @@ The decoder keeps its unigram Viterbi (the search needs a memoryless score); thi
 decoded candidates, where it is a far sharper judge of English on 60-160 runes than letter
 frequencies.  Scores are log-probabilities in nats per rune; `score(P)` returns the total.
 Usage: .venv/bin/python -I src/ngram.py   (trains, reports held-out perplexity, caches results/ngram5.npz)
+2026-10-29 (§56): the interpolation levels 2-4 looked up the wrong continuation table and fell through, so the model
+scored as unigram + 5-gram only; fixed, cache invalidated, held-out score -1.963 -> see results/ngram_fix.md.
 """
 import json, sys, time
 from pathlib import Path
@@ -48,7 +50,7 @@ class KN:
         for k in range(2, self.order + 1):
             c = tuple(ctx[-(k - 1):]) if k - 1 <= len(ctx) else None
             if c is None or len(c) < k - 1: break
-            tbl = self.counts[k] if k == self.order else self.cont[k - 1]
+            tbl = self.counts[k] if k == self.order else self.cont[k]    # cont[k] is keyed by the (k-1)-rune context of level k; the earlier `k - 1` missed every lookup below the top order (fixed 2026-10-29, §56)
             a = tbl.get(c)
             if a is None: continue
             tot = a.sum()

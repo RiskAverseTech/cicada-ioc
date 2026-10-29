@@ -115,7 +115,7 @@ def measure(pages):
 R_GATE = 0.5
 def simulate(rule, q=Q, p_null=0.45):
     echo5 = rule.startswith(("E5", "E56")); echo6 = rule.startswith("E56"); hold_echo = rule.endswith("-hold")
-    base = "R4n" if rule.endswith("+R4n") else ("R4" if rule.endswith("+R4") else "R0")
+    base = "R4n" if rule == "R4n" or rule.endswith("+R4n") else ("R4" if rule == "R4" or rule.endswith("+R4") else "R0")   # standalone R4n had base R0 from §47 to 2026-10-29 (§56)
     gate_all = rule == "E5all"
     pages = []; wi = int(rng.integers(0, len(EW) - 5000))
     for L in LENS:
@@ -168,27 +168,28 @@ def simulate(rule, q=Q, p_null=0.45):
 STATS = ["D", "D_in", "L3", "L4", "L5", "L5S", "BIG", "L6T", "L6best", "SHARE", "Sfreq", "U"]
 JUDGE = ["D", "D_in", "L3", "L4", "L5", "L5S", "BIG", "L6T", "SHARE", "Sfreq"]
 LENS_CUR = LENS
-ref = measure(LP2); print("LP2:", ref, flush=True)
-assert (ref["D"], ref["D_in"], ref["L5"], ref["L5S"], ref["L6T"], ref["BIG"]) == (86, 63, 102, 11, 77, 9), ref
-RULES = [("Rq0", dict(q=0.0)), ("R0", {}), ("R0h", {}), ("R4", {}), ("R4n", {}), ("Rc5", {}), ("RS", {}), ("RF", {}),
-         ("E5w", {}), ("E5w-hold", {}), ("E5all", {}), ("E56w", {}), ("E56w-hold", {}), ("E56w+R4n", {})]
-t0 = time.time(); table = {}
-for rule, kw in RULES:
-    reps = []
-    for r in range(NREP):
-        pg = simulate(rule.replace("q0", "0") if rule == "Rq0" else rule, **kw); reps.append(measure(pg))
-    arr = {s: np.array([d[s] for d in reps], float) for s in STATS}
-    z = {s: (ref[s] - arr[s].mean()) / max(arr[s].std(), 1e-9) for s in STATS}
-    table[rule] = dict(mean={s: float(arr[s].mean()) for s in STATS}, sd={s: float(arr[s].std()) for s in STATS}, z=z,
-                       survives=bool(all(abs(z[s]) <= 3 for s in JUDGE)), fails=[s for s in JUDGE if abs(z[s]) > 3])
-    print(f"  {rule}: " + ", ".join(f"{s} {arr[s].mean():.1f}±{arr[s].std():.1f} (z {z[s]:+.1f})" for s in JUDGE) + f"  -> {'survives' if table[rule]['survives'] else 'fails ' + ','.join(table[rule]['fails'])}  [{time.time()-t0:.0f}s]", flush=True)
+if __name__ == "__main__":
+    ref = measure(LP2); print("LP2:", ref, flush=True)
+    assert (ref["D"], ref["D_in"], ref["L5"], ref["L5S"], ref["L6T"], ref["BIG"]) == (86, 63, 102, 11, 77, 9), ref
+    RULES = [("Rq0", dict(q=0.0)), ("R0", {}), ("R0h", {}), ("R4", {}), ("R4n", {}), ("Rc5", {}), ("RS", {}), ("RF", {}),
+             ("E5w", {}), ("E5w-hold", {}), ("E5all", {}), ("E56w", {}), ("E56w-hold", {}), ("E56w+R4n", {})]
+    t0 = time.time(); table = {}
+    for rule, kw in RULES:
+        reps = []
+        for r in range(NREP):
+            pg = simulate(rule.replace("q0", "0") if rule == "Rq0" else rule, **kw); reps.append(measure(pg))
+        arr = {s: np.array([d[s] for d in reps], float) for s in STATS}
+        z = {s: (ref[s] - arr[s].mean()) / max(arr[s].std(), 1e-9) for s in STATS}
+        table[rule] = dict(mean={s: float(arr[s].mean()) for s in STATS}, sd={s: float(arr[s].std()) for s in STATS}, z=z,
+                           survives=bool(all(abs(z[s]) <= 3 for s in JUDGE)), fails=[s for s in JUDGE if abs(z[s]) > 3])
+        print(f"  {rule}: " + ", ".join(f"{s} {arr[s].mean():.1f}±{arr[s].std():.1f} (z {z[s]:+.1f})" for s in JUDGE) + f"  -> {'survives' if table[rule]['survives'] else 'fails ' + ','.join(table[rule]['fails'])}  [{time.time()-t0:.0f}s]", flush=True)
 
-out = ["# Word-aware mechanism lane: which rule reproduces the three structures together?", "",
-       f"English plaintext (Emerson) in the 55 pages' rune counts, iid uniform key, q = {Q}, {NREP} replicates per rule; statistics, rules and the survival criterion are in the module docstring and were fixed before the run. LP2's own values: " + ", ".join(f"{s} {ref[s]:.3g}" for s in STATS) + ".", "",
-       "| rule | " + " | ".join(JUDGE) + " | verdict |", "|---|" + "---|" * (len(JUDGE) + 1)]
-for rule, _ in RULES:
-    d = table[rule]; out.append(f"| {rule} | " + " | ".join(f"{d['mean'][s]:.1f}±{d['sd'][s]:.1f} (z {d['z'][s]:+.1f})" if s != "Sfreq" else f"{d['mean'][s]:.4f} (z {d['z'][s]:+.1f})" for s in JUDGE) + f" | {'survives' if d['survives'] else 'fails: ' + ', '.join(d['fails'])} |")
-out += ["", f"Echo rules use a per-word gate r = {R_GATE} fixed before the run from §46's mixture fit to the equality count; that count is therefore spent for them and the other nine statistics are the test.", "", "Cells are the rule's mean ± sd over replicates and the z of LP2's value against them. L6best (largest hit count over the 812 affine maps at lag 6) is reported in the JSON; LP2's is 77, equal to its L6T, so T is LP2's best map.", ""]
-(RESULTS / "mechanism.md").write_text("\n".join(out) + "\n")
-json.dump(dict(ref=ref, rules=table, nrep=NREP, q=Q), open(RESULTS / "mechanism.json", "w"), indent=1, default=float)
-print("\n".join(out))
+    out = ["# Word-aware mechanism lane: which rule reproduces the three structures together?", "",
+           f"English plaintext (Emerson) in the 55 pages' rune counts, iid uniform key, q = {Q}, {NREP} replicates per rule; statistics, rules and the survival criterion are in the module docstring and were fixed before the run. LP2's own values: " + ", ".join(f"{s} {ref[s]:.3g}" for s in STATS) + ".", "",
+           "| rule | " + " | ".join(JUDGE) + " | verdict |", "|---|" + "---|" * (len(JUDGE) + 1)]
+    for rule, _ in RULES:
+        d = table[rule]; out.append(f"| {rule} | " + " | ".join(f"{d['mean'][s]:.1f}±{d['sd'][s]:.1f} (z {d['z'][s]:+.1f})" if s != "Sfreq" else f"{d['mean'][s]:.4f} (z {d['z'][s]:+.1f})" for s in JUDGE) + f" | {'survives' if d['survives'] else 'fails: ' + ', '.join(d['fails'])} |")
+    out += ["", f"Echo rules use a per-word gate r = {R_GATE} fixed before the run from §46's mixture fit to the equality count; that count is therefore spent for them and the other nine statistics are the test.", "", "Cells are the rule's mean ± sd over replicates and the z of LP2's value against them. L6best (largest hit count over the 812 affine maps at lag 6) is reported in the JSON; LP2's is 77, equal to its L6T, so T is LP2's best map.", ""]
+    (RESULTS / "mechanism.md").write_text("\n".join(out) + "\n")
+    json.dump(dict(ref=ref, rules=table, nrep=NREP, q=Q), open(RESULTS / "mechanism.json", "w"), indent=1, default=float)
+    print("\n".join(out))
