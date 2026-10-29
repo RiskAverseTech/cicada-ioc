@@ -105,3 +105,7 @@ Messages from wazar/cicada3301 `corpus/A-primary-artifacts/` (pgp/messages/2012-
 ## Pilgrim corpus (fetched 2026-10-28; `CORPUS_SET=pilgrim src/corpus.py`, README §40)
 
 `data/corpus/raw/bunyan_pilgrims_progress_pg131.txt` from https://gutenberg.pglaf.org/1/3/131/131-0.txt (Project Gutenberg #131); `data/corpus/raw/chaucer_canterbury_pg2383.txt` from https://gutenberg.pglaf.org/2/3/8/2383/2383-0.txt (#2383). Rune counts in `data/corpus/CORPUS_pilgrim.md`.
+
+## Cicada's own words, 2012–2017 (added 2026-10-29, §53)
+
+`data/corpus/raw/cicada_own_words_2012_2017.txt`: the bodies of every PGP-signed Cicada message from 2012 to 2017 (25 distinct) and four quoted unsigned texts (the 2012 and 2013 opening images, the 2013 parable from the 761.mp3 ID3 tag, the 2016 outguess text), 1,592 words, extracted by script from the year narratives of github.com/scream314/cicada3301 (`2012.md`–`2017.md`, read as data). Each text is labelled with its year and status in square brackets; the labels are stripped before use. SHA-256 of the assembled text: c494a45c025ed15d…. Used as running keys (`CORPUS_SET=cicada`) and as a word and phrase key library (`src/cicada_words_lane.py`).

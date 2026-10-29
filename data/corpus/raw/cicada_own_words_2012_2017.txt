@@ -1,0 +1,485 @@
+[2012 signed]
+From here on out, we will cryptographically sign all messages with this key.
+It is available on the mit keyservers.  Key ID 7A35090F, as posted in a2e7j6ic78h0j.
+Patience is a virtue.
+Good luck.
+3301
+
+[2012 signed]
+The key has always been right in front of your eyes.
+This isn't the quest for the Holy Grail.  Stop making
+it more difficult than it is.
+Good luck.
+3301
+
+[2012 signed]
+You have done well to come this far.
+Patience is a virtue.
+Check back at 17:00 on Monday, 9 January 2012 UTC.
+3301
+
+[2012 signed]
+52.216802, 21.018334
+48.85057059876962, 2.406892329454422
+48.85030144151387,2.407538741827011
+47.664196,  -122.313301
+47.637520, -122.346277
+47.622993, -122.312576
+37.5196666666667, 126.995
+33.966808, -117.650488
+29.909098706850486 -89.99312818050384
+25.684702, -80.441289
+21.584069, -158.104211
+-33.90281, 151.18421
+3301
+
+[2012 signed]
+In twenty-nine volumes, knowledge was once contained.
+How many lines of the code remained when the Mabinogion paused?
+Go that far in from the beginning and find my first name.
+1:29
+6:46
+the product of the first two primes
+2:37
+14:41
+17:3
+27:40
+the first prime
+2:33
+1:1
+7:45
+17:29
+21:31
+12:17
+the product of the first two primes
+22:42
+15:18
+24:33
+27:46
+12:29
+25:66
+7:47
+You've shared too much to this point.  We want the best,
+not the followers.  Thus, the first few there will receive
+the prize.
+Good luck.
+3301
+
+[2012 signed]
+A poem of fading death, named for a king
+Meant to be read only once and vanish
+Alas, it could not remain unseen.
+1:5
+152:24
+the product of the first two primes
+14:13
+7:36
+12:10
+7:16
+24:3
+271:22
+10:7
+13:28
+12:7
+86:17
+93:14
+the product of the first two primes
+16:7
+96:4
+19:13
+47:2
+71:22
+75:9
+77:4
+You've shared too much to this point.  We want the best,
+not the followers.  Thus, the first few there will receive
+the prize.
+Good luck.
+3301
+
+[2012 signed]
+Congratulations!
+Please create a new email address with a public, free, web-based service.
+Once you've never used before, and enter it below.  We recommend you do
+this while still using Tor, for anonymity.
+We will email you a number in the next few days (in the order in which
+you've arrived to this page).  Once you've received it, come back to this
+site and append a slash and then the number you received to this url.
+(For example, if you received "3894894230934209", then you would go to
+"http://sq6wmgv2zcsrix6t.onion/3894894230934209")
+3301
+
+[2012 signed]
+162667212858
+414974253863
+598852142735
+876873892385
+935691396441
+316744223127
+427566844663
+644169769482
+889296759263
+963846244281
+
+[2012 signed]
+Miss round 1?
+Care for a second chance?
+http://i.imgur.com/hkdgl.png
+1:22
+3:33
+3:40
+6:19
+4:7
+4:8
+4:7
+9:23
+12:12
+4:16
+16:7
+11:16
+1:7
+5:14
+3:35
+2:2
+4:26
+1:12
+3:11
+3:28
+4:23
+18:18
+Good luck.
+3301
+
+[2012 signed]
+This message will only be displayed once.
+Here is a message that has been encrypted with RSA (the Crypt::RSA Perl module available in CPAN) :
+-----BEGIN COMPRESSED RSA ENCRYPTED MESSAGE-----
+Version: 1.99
+Scheme: Crypt::RSA::ES::OAEP
+eJwBzQAy/zEwADE4OABDeXBoZXJ0ZXh0B4KeBtKjJ7hGKC7/zqyzxUoFDTzRuU4+TLFUrw9qDGjk
+YI3fjyMn3G/w9WcfkZMGHdGRicbpTsDO3/oqmVtZpmIDY2HPOeWIZChuLfMDwT3FTUkDjQpsq390
+OJ90pArd1JRxdIZtnCvnVy/vg+1MjAFH3ta+CuAwHsIY/3lGOKTin1+5M30BKh7NOQMmBcJ8/RuL
+TfXMGQT01QVMeAGq6vORk3iw39KOLRU3Lcn1804G1/zd2mdFWvEMaTbu/F+7
+=0KfiT9PUe6QkwJXoM36Ukw==
+-----END COMPRESSED RSA ENCRYPTED MESSAGE-----
+Here is the public key used to encrypt it. Note that it has a low bit modulus and is therefore breakable:
+$VAR1 = bless( {
+'e' => 65537,
+'n' => '7467492769579356967270197440403790283193525917787433197231759008957255433116469460882489015469125000179524189783',
+'Version' => '1.99',
+'Identity' =>
+}, 'Crypt::RSA::Key::Public' );
+The encrypted message is a number.  Break the decryption key, then come back to this same URL and enter the
+decrypted message to continue.  Each person who has come this far has received a unique message encrypted
+with a unique key.  You are not to collaborate.  Sharing your message or key will result in not receiving
+the next step.
+There is a second chance to get your own RSA message and key.  Follow the "Numbers dot TK" hint to find it.
+There are many fake messages out there.  Only messages signed with public key ID 7A35090F are valid.
+Good luck.
+3301
+
+[2012 signed]
+Hello.  You have shared your information online.  You are now removed from this altogether.
+Even if you crack the key you've been given it doesn't matter, because you have demonstrated
+that you can't be trusted to follow simple instructions anyway.
+Thank you for your participation to this point.
+Goodbye.
+3301
+
+[2012 signed]
+This song is your own path
+Another stop on the road toward enlightenment
+Follow it, and share not
+Let the Chorus be your guide to the depths :
+Let the Priests of the Raven of dawn,
+no longer in deadly black, with hoarse note
+curse the sons of joy. Nor his accepted
+brethren, whom, tyrant, he calls free lay the
+bound or build the roof. Nor pale religious
+letchery call that virginity, that wishes
+but acts not.
+For every thing that lives is Holy.
+Good luck.
+3301
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+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
+=yk7h
+-----END PGP MESSAGE-----
+
+[2012 signed]
+Hello. - 0
+** - 2
+We have now found the individuals we sought.*** - 3
+Thus our month-long journey ends.***** - 5
+******* - 7
+For now.*********** - 11
+************* - 13
+Thank you for your dedication and effort.**If you* - 2, 1 (?!)
+were unable to complete the test, or did not receive* - 1
+an email, do not despair.** - 2
+*********** - 11
+There will be more opportunities like this one. - 0
+******* - 7
+Thank you all. - 0
+***** - 5
+3301
+*** - 3
+** - 2
+P.S. 1041279065891998535982789873959431895640\
+442510695567564373922695237268242385295908173\
+9834390370374475764863415203423499357108713631
+
+[2012 signed]
+Some news organisations have recently claimed that "Cicada 3301" is
+tied to the illegal activities of an individual going by "Necrome".
+This is not true.
+We do not engage in illegal activities.  We are not associated
+with this individual.
+Anyone involved in illegal activities would be cut off from our
+fellowship immediately.
+3301
+
+[2013 signed]
+Welcome again.
+Here is a book code.  To find the book, break this riddle:
+A book whose study is forbidden
+Once dictated to a beast;
+To be read once and then destroyed
+Or you shall have no peace.
+I:1:6
+I:2:15
+I:3:26
+I:5:4
+I:6:15
+I:10:26
+I:14:136
+I:15:68
+I:16:42
+I:18:17
+I:19:14
+I:20:58
+I:21:10
+I:22:8
+I:23:6
+I:25:17
+I:26:33
+I:27:30
+I:46:32
+I:47:53
+I:49:209
+I:50:10
+I:51:115
+I:52:39
+I:53:4
+I:62:43
+I:63:8
+III:19:84
+III:20:10
+III:21:11
+III:22:3
+III:23:58
+5
+I:1:3
+I:2:15
+I:3:6
+I:14:17
+I:30:68
+I:60:11
+II:49:84
+II:50:50
+II:64:104
+II:76:3
+II:76:3
+0
+I:60:11
+Good luck.
+3301
+
+[2013 signed]
+Very good.
+You have done well to come this far.
+xsxnaksict6egxkq.onion
+Good luck.
+3301
+
+[2013 signed]
+You already have everything you need to continue.
+Sometimes one must "knock on the sky and listen to the sound."
+Good luck.
+3301
+
+[2013 signed]
+Well done.  You have come far.
+pklmx2eeh6fjt7zf.onion
+Good luck.
+3301
+
+[2014 signed]
+The work of a private man
+who wished to transcend,
+He trusted himself,
+to produce from within.
+1:2:3:1
+3:3:13:5
+45:5:2:3
+20:3:20:5
+8:3:8:6
+48:5:14:2
+21:13:4:1
+25:1:7:4
+15:9:3:4
+1:1:16:3
+4:3:3:1
+8:3:26:4
+47:3:3:5
+3
+13:2:5:4
+1:4:16:4
+.
+o
+n
+i
+o
+n
+Good luck.
+3301
+
+[2014 signed]
+Welcome.
+Good luck.
+3301
+e = 65537
+n = 75579125746085351644267182920580212556413102071876330957950694457000592\
+10248050757270234679993673844203148013173091173786572116639
+-----BEGIN COMPRESSED RSA ENCRYPTED MESSAGE-----
+Version: 1.99
+Scheme: Crypt::RSA::ES::OAEP
+eJwBswBM/zEwADE2MgBDeXBoZXJ0ZXh0LE2jxJS1EzMc80kOK+hra1GKnXgQKQgVitIy8NgA7kxn
+2u8jNQDvlu0uymNNiu6XVCCn66axGH0IZ9w4Af3K/yRgjObsfA1Q7QqpXNALJ9FFPgYl5rh07cBP
+M9kbSH6DynU/5cYgQod2KymjWcIvKx3FkjV4UOGakDnBf1eQp1uwvn3KxDVwTyzPqbMnZvOA06Ec
+AfKtyz1hEK/UBXkeMeVrnV5SQQ==
+=yTUshDMKN65aPaKAR0OU8g==
+-----END COMPRESSED RSA ENCRYPTED MESSAGE-----
+
+[2014 signed]
+IDGTK UMLOO ARWOE RTHIS UTETL HUTIA TSLLO
+UIMNI TELNJ 7TFYV OIUAU SNOCO 5JI4M EODZZ
+Good luck.
+3301
+
+[2014 signed]
+Hello.  You have done well to come this far.
+Please paste the magic squares into the appropriate textareas below, then
+provide the URL to your Tor hidden service.
+The path to your CGI script which accepts uploads should be '/cgi-bin/upload'
+and the HTML form input which accepts file uploads should be named 'file'.
+Additionally, please generate a GnuPG key pair, and place the public key
+in the location '/key.asc'.
+We will contact you soon.
+Good luck.
+3301
+
+[2014 signed]
+Hello.  Your enlightenment awaits you.++ <----- 2
++++ <------------------------------------------ 3
++++++ky2khlqdf7qdznac.onion+++++++ <----------- 5, 7
++++++++++++ <---------------------------------- 11
+We look forward to hearing from you.
++++++++++++++ <-------------------------------- 13
++++++++++++++++++ <---------------------------- 17
+Good luck.+++++++++++++++++++++++ <------------ 23
++++++++++++++++++++++++++++++ <---------------- 29
+3301
++++++++++++++++++++++++++++++++ <-------------- 31
++++++++++++++++++++++++++++++++++++++ <-------- 37
+
+[2015 signed]
+***** = 5
+Some news organisations have recently claimed that "3301" is
+tied to the illegal activities of a group that has claimed
+responsibility for attacks against Planned Parenthood.
+*** = 3
+We do not engage in illegal activities.**We are not associated*
+with this group in any way, nor do condone their use of our
+name, number, or symbolism.
+** = 2
+3301
+***** = 5
+******* = 7
+
+[2017 signed]
+Beware false paths.  Always verify PGP signature from 7A35090F.
+3301
+
+[2012 opening image (unsigned)]
+Hello.  We are looking for highly intelligent
+individuals.  To find them we have devised
+a test.
+There is a message hidden in this image.
+Find it and it will lead you on the road to
+finding us. We look forward to meeting the
+few who will make it all the way through.
+
+[2013 opening image (unsigned)]
+Hello again. Our search for intelligent
+individuals now continues.
+The first clue is hidden within this image.
+Find it, and it will lead you on the road to
+finding us. We look forward to meeting the
+few that will make it all the way through.
+
+[2013 parable, 761.mp3 ID3 (unsigned)]
+Like the instar, tunneling to the surface
+We must shed our own circumferences;
+Find the divinity within and emerge.
+
+[2016 outguess text (signed; body as printed)]
+Hello.
+The path lies empty; epiphany seeks the devoted.
+Liber Primus is the way.  Its words are the map, their
+meaning is the road, and their numbers are the direction.
+Seek and you will be found.

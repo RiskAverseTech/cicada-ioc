@@ -91,8 +91,14 @@ PILGRIM = {
     "chaucer_canterbury": (lambda: gutenberg_body((RAW / "chaucer_canterbury_pg2383.txt").read_text(errors="ignore")),
                            "Chaucer, The Canterbury Tales (Middle English), Project Gutenberg #2383; sentence-start lane only", True),
 }
+CICADA = {
+    "cicada_own_words": (lambda: re.sub(r"\[[^\]]*\]\n", "", (RAW / "cicada_own_words_2012_2017.txt").read_text()),
+                         "Cicada 3301's own words 2012-2017: every PGP-signed message body and the quoted unsigned texts (2012 and 2013 opening images, the 2013 parable, the 2016 outguess text), assembled 2026-10-29 from scream314/cicada3301's year narratives", True),
+}
 if os.environ.get("CORPUS_SET") == "pilgrim":
     TEXTS = PILGRIM; OUT = RAW.parent / "corpus_pilgrim.json"
+if os.environ.get("CORPUS_SET") == "cicada":
+    TEXTS = CICADA; OUT = RAW.parent / "corpus_cicada.json"
 
 if __name__ == "__main__":
     corpus, lines = {}, ["| text | words | runes (V1) | runes (V2) | sha256 of raw file | source |", "|---|---|---|---|---|---|"]
@@ -114,6 +120,6 @@ if __name__ == "__main__":
         lines.append(f"| {name} | {len(text.split()):,} | {len(v1):,} | {len(v2):,} | {sha} | {source} |")
         print(f"  {name}: {len(text.split()):,} words -> {len(v1):,} runes (V1), {len(v2):,} (V2); first: {text.strip()[:70]!r}")
     OUT.write_text(json.dumps(corpus))
-    (RAW.parent / ("CORPUS_pilgrim.md" if os.environ.get("CORPUS_SET") == "pilgrim" else "CORPUS.md")).write_text("# External running-key corpus\n\nBuilt by `src/corpus.py` from the raw files in `data/corpus/raw/` (hand-fetched 2026-10-27). "
+    (RAW.parent / ("CORPUS_pilgrim.md" if os.environ.get("CORPUS_SET") == "pilgrim" else "CORPUS_cicada.md" if os.environ.get("CORPUS_SET") == "cicada" else "CORPUS.md")).write_text("# External running-key corpus\n\nBuilt by `src/corpus.py` from the raw files in `data/corpus/raw/` (hand-fetched 2026-10-27). "
                                           "V1 = book digraph transliteration, V2 = letter by letter.\n\n" + "\n".join(lines) + "\n")
     print("wrote", OUT, "and CORPUS.md")
