@@ -4,12 +4,12 @@
 |---|---|
 | **Breakthroughs** | **0** (a page decoding to readable English at a pre-registered bar, reproduced by someone else) |
 | Decoder tests run | 883 million, all pre-registered, all with planted controls |
-| Lanes closed null | 29 of 49 (none running) |
+| Lanes closed null | 29 of 50 (none running) |
 | Pages | 55 unsolved with runes (12,956 runes); coverage limits listed per lane |
 | The structures | 86 doubled runes where 445 are expected (0.19 of uniform; solved pages sit at 0.86); inside words, a lag-5 echo that copies equality in runs (102 vs 71 pairs, 9 vs 1.5 bigrams), 11 of the pairs S (3.5 expected, p 0.005), and a lag-6 relation c = 24 − 2c′ (77 vs 44); the two echoes share words only at the level of description (p 0.11 once word length is held); flat in every other statistic |
-| Best current reading | E56w+n (§58): a gated word-internal echo (plaintext repeat at lag 5 → copy the cipher rune; at lag 6 → 24 − 2c) in about half the words, one filler rune in about half the words, the spend repair at q 0.81, iid key, English plaintext; the first rule inside every pre-registered band (§47's ten statistics, §57's sixteen out-of-sample cells); it predicts five S pairs against eleven and passes that cell on spread, so the S weighting stays the open fact, and a description is not a decryption |
+| Best current reading | E56w+n (§58): a gated word-internal echo (plaintext repeat at lag 5 → copy the cipher rune; at lag 6 → 24 − 2c) in about half the words, one filler rune in about half the words, the spend repair at q 0.81, iid key, English plaintext; the first rule inside every pre-registered band (§47's ten statistics, §57's sixteen out-of-sample cells); it predicts five S pairs against eleven, passing that cell on spread at the borrowed rate 0.45 and failing it (z +3.2) at the rate the word lengths fit, 0.40 (§59), so the S weighting stays the open fact, and a description is not a decryption |
 | External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
-| Repository | 58 numbered sections, 78 commits as of 2026-10-29 |
+| Repository | 59 numbered sections, 80 commits as of 2026-10-29 |
 
 ## Lanes
 
@@ -62,6 +62,7 @@
 | §55c | Filler sweep: 16 external texts (every offset both ways / sentence starts) and pnotisdev offsets 1,000-1,999 under the free-null decoder | 19.5 M | 5/6 rank 1 (6th found at rank 2, offset alias) | null | 160-rune windows on LP2-00/01/02 (power 0.58 for running keys); one prior; the 20-nat margin arm does not filter wrong keys at page length; pnotisdev offsets >= 2,000 and the sacred / hyp libraries open |
 | §57 | E56w+R4n out-of-sample predictions (16 cells + 2 declared, committed before the look) | — | — | measured: 15/16 hold; fails lag-6 hits in words >= 10 runes (30 vs 59 ± 9, z −3.15), the T-writing hold repair's signature; E56w predicted 37 | the filler component stands with the §55 fingerprint; the hold repair does not; E56w with fillers to be registered before it is run |
 | §58 | E56w+n (two echoes + filler in 45 % of words on the spend repair, no T-writing): §47's ten statistics and §57's sixteen cells, committed before the check | — | — | measured: survives §47's band on all ten (S at z +2.7 on spread, 4.8 predicted vs 11) and holds 16/16 of §57's cells; first rule inside every band | generative description, not a decryption; S count still unreproduced; filler rate taken from R4, not fitted |
+| §59 | Three registered follow-ups to E56w+n: filler rate fitted to word lengths (p* 0.40, chi² 25, inside §55's English band); lag-5 / lag-6 profiles per exact length (13 cells); solved-page lag-3..6 equality | — | — | measured: 13/13 profile cells and 4/4 solved-page lags hold; at p* the S cell fails §47's band (11 vs 4.6 ± 2.0, z +3.2) | the one free rate set by the words; the S weighting is outside E56w+n as it was outside every rule; read the filler rate as 0.40 |
 | §56 | Validation release after the second external review: n-gram lower orders, standalone R4n, K-fixed sampler clock fixed; affected statistics rerun; four summaries corrected | — | 3 new tests | measured: no decode negative moved; see the section for the rerun figures | the fixes bear on the mechanism table, two p-values and the wording |
 | §44 | Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000 | 6.5 M | 4/4 | null | base-10, digit pairs, base-29; fresh offset per page |
 

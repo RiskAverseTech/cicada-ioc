@@ -429,6 +429,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a759",
+   "lane": "Three registered follow-ups to E56w+n: filler rate fitted to word lengths (p* 0.40, chi\u00b2 25, inside \u00a755's English band); lag-5 / lag-6 profiles per exact length (13 cells); solved-page lag-3..6 equality",
+   "tests": null,
+   "controls": "\u2014",
+   "verdict": "measured: 13/13 profile cells and 4/4 solved-page lags hold; at p* the S cell fails \u00a747's band (11 vs 4.6 \u00b1 2.0, z +3.2)",
+   "coverage_limit": "the one free rate set by the words; the S weighting is outside E56w+n as it was outside every rule; read the filler rate as 0.40",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a756",
    "lane": "Validation release after the second external review: n-gram lower orders, standalone R4n, K-fixed sampler clock fixed; affected statistics rerun; four summaries corrected",
    "tests": null,
