@@ -1,0 +1,113 @@
+{
+ "controls": [
+  {
+   "variant": "plain",
+   "stream": "sha512-ctr reject :parable",
+   "offset": 198,
+   "periodic": false,
+   "sign": "sub",
+   "F": false,
+   "z1": 5.879778192321402,
+   "rank1": 1,
+   "z2": 11.202646505423498,
+   "z5": 52.03793678428265,
+   "fb": 0.0,
+   "passed": true
+  },
+  {
+   "variant": "plain",
+   "stream": "sha256-ctr mod :Cicada 3301",
+   "offset": 264,
+   "periodic": false,
+   "sign": "add",
+   "F": false,
+   "z1": 6.2798410160868725,
+   "rank1": 1,
+   "z2": 12.034232258390276,
+   "z5": 54.44075520737787,
+   "fb": 0.0,
+   "passed": true
+  },
+  {
+   "variant": "echo",
+   "stream": "md5-ctr reject :31",
+   "offset": 155,
+   "periodic": false,
+   "sign": "sub",
+   "F": false,
+   "z1": 5.462456396982332,
+   "rank1": 1,
+   "z2": 11.765910901662359,
+   "z5": 59.42731214943352,
+   "fb": 0.0,
+   "passed": true
+  },
+  {
+   "variant": "echo",
+   "stream": "sha256-ctr reject :the primes are sacred",
+   "offset": 272,
+   "periodic": false,
+   "sign": "add",
+   "F": false,
+   "z1": 5.927814008888441,
+   "rank1": 1,
+   "z2": 11.143151176566954,
+   "z5": 61.97357936779945,
+   "fb": 0.0,
+   "passed": true
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain mod :firfumferenfe",
+   "offset": 165,
+   "periodic": false,
+   "sign": "sub",
+   "F": false,
+   "z1": 5.376633578539444,
+   "rank1": 1,
+   "z2": 7.553998000775497,
+   "z5": 8.22204398631662,
+   "fb": 186.8738179043333,
+   "passed": true
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :31",
+   "offset": 173,
+   "periodic": false,
+   "sign": "add",
+   "F": false,
+   "z1": 6.089353729691501,
+   "rank1": 1,
+   "z2": 8.864875863144633,
+   "z5": 4.93475884264234,
+   "fb": 243.48087121064776,
+   "passed": true
+  }
+ ],
+ "survivors": [],
+ "candidates": [],
+ "ntests_t1": {
+  "plain": 11322,
+  "echo": 11322,
+  "hold": 11322
+ },
+ "ntests_t2": 0,
+ "rows": {
+  "plain": 629,
+  "echo": 629,
+  "hold": 629
+ },
+ "zmax": {
+  "plain": 3.331701629870672,
+  "echo": 3.3635449089592875,
+  "hold": 4.274728804440634
+ },
+ "nstreams": 3,
+ "streams": [
+  "primes",
+  "sha256-ctr mod :3301",
+  "n"
+ ],
+ "seconds": 39.29785203933716
+}

@@ -1,0 +1,302 @@
+{
+ "controls": [
+  {
+   "variant": "plain",
+   "stream": "sha256-ctr mod :7",
+   "offset": 18399,
+   "periodic": false,
+   "sign": "sub",
+   "F": false,
+   "z1": 6.1360379962359195,
+   "rank1": 2,
+   "z2": 11.874309005460516,
+   "z5": 54.99858097619407,
+   "fb": 0.0,
+   "passed": false,
+   "beaten_by": [
+    [
+     "sha256-ctr mod :7",
+     18400
+    ]
+   ]
+  },
+  {
+   "variant": "plain",
+   "stream": "md5-ctr mod :firfumferenfe",
+   "offset": 8828,
+   "periodic": false,
+   "sign": "add",
+   "F": false,
+   "z1": 5.281582512119175,
+   "rank1": 1,
+   "z2": 11.59910602785261,
+   "z5": 47.63290179438034,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "plain",
+   "stream": "sha256-chain reject :firfumferenfe",
+   "offset": 14862,
+   "periodic": false,
+   "sign": "beaufort",
+   "F": false,
+   "z1": 6.2309723112902216,
+   "rank1": 1,
+   "z2": 13.128326630613111,
+   "z5": 60.17561251544216,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "plain",
+   "stream": "sha256-chain mod :question all things",
+   "offset": 9986,
+   "periodic": false,
+   "sign": "sub",
+   "F": true,
+   "z1": 6.556923474069737,
+   "rank1": 1,
+   "z2": 13.759307373258354,
+   "z5": 39.3556854542993,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "plain",
+   "stream": "kw:LIBERPRIMUS",
+   "offset": 3,
+   "periodic": true,
+   "sign": "add",
+   "F": true,
+   "z1": 5.492499862621769,
+   "rank1": 1,
+   "z2": 14.38379625990512,
+   "z5": 46.0873050949038,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "plain",
+   "stream": "kw:BEHAUIARS",
+   "offset": 3,
+   "periodic": true,
+   "sign": "beaufort",
+   "F": true,
+   "z1": 6.818206698175858,
+   "rank1": 1,
+   "z2": 15.391991513301976,
+   "z5": 47.87420420525659,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "echo",
+   "stream": "sha256-chain reject :emergence",
+   "offset": 14102,
+   "periodic": false,
+   "sign": "sub",
+   "F": false,
+   "z1": 6.745230518357441,
+   "rank1": 1,
+   "z2": 11.488672168311881,
+   "z5": 72.71334536911984,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "echo",
+   "stream": "sha512-ctr mod :some wisdom",
+   "offset": 17761,
+   "periodic": false,
+   "sign": "add",
+   "F": false,
+   "z1": 5.267099439436459,
+   "rank1": 1,
+   "z2": 10.673017965963485,
+   "z5": 59.48503661416836,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "echo",
+   "stream": "sha256-chain reject :3301",
+   "offset": 2177,
+   "periodic": false,
+   "sign": "beaufort",
+   "F": false,
+   "z1": 6.061649245271208,
+   "rank1": 1,
+   "z2": 11.636296754918519,
+   "z5": 61.39220723277,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "echo",
+   "stream": "sha256-chain mod :DIVINITY",
+   "offset": 11201,
+   "periodic": false,
+   "sign": "sub",
+   "F": true,
+   "z1": 6.346453166183127,
+   "rank1": 1,
+   "z2": 14.677749397900845,
+   "z5": 55.09359736675483,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "echo",
+   "stream": "kw:MASTER HE",
+   "offset": 4,
+   "periodic": true,
+   "sign": "add",
+   "F": true,
+   "z1": 6.6002275294836945,
+   "rank1": 1,
+   "z2": 13.827705970516668,
+   "z5": 47.34894538184974,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "echo",
+   "stream": "kw:RIGHT THERE",
+   "offset": 7,
+   "periodic": true,
+   "sign": "beaufort",
+   "F": true,
+   "z1": 6.896691901007845,
+   "rank1": 1,
+   "z2": 15.324445713073644,
+   "z5": 55.066475329535606,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr reject :question all things",
+   "offset": 527,
+   "periodic": false,
+   "sign": "sub",
+   "F": false,
+   "z1": 10.200931422562386,
+   "rank1": 4,
+   "z2": 13.146629790045518,
+   "z5": 14.516170212976437,
+   "fb": 262.69715017706335,
+   "passed": false,
+   "beaten_by": [
+    [
+     "sha256-ctr reject :question all things",
+     523
+    ],
+    [
+     "sha256-ctr reject :question all things",
+     524
+    ],
+    [
+     "sha256-ctr reject :question all things",
+     526
+    ]
+   ]
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain mod :Cicada 3301",
+   "offset": 874,
+   "periodic": false,
+   "sign": "add",
+   "F": false,
+   "z1": 6.932278943439812,
+   "rank1": 1,
+   "z2": 7.7949211960635845,
+   "z5": 5.3906135265395285,
+   "fb": 164.99351138553507,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :FIRFUMFERENFE",
+   "offset": 31,
+   "periodic": false,
+   "sign": "beaufort",
+   "F": false,
+   "z1": 9.880219336863162,
+   "rank1": 2,
+   "z2": 13.473625137227161,
+   "z5": 8.891938128964382,
+   "fb": 231.05030563959286,
+   "passed": false,
+   "beaten_by": [
+    [
+     "sha512-ctr mod :FIRFUMFERENFE",
+     32
+    ]
+   ]
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :the totient function is sacred",
+   "offset": 845,
+   "periodic": false,
+   "sign": "sub",
+   "F": true,
+   "z1": 9.12080079665923,
+   "rank1": 1,
+   "z2": 11.733740328334642,
+   "z5": 13.237212882890981,
+   "fb": 170.74227773356796,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "hold",
+   "stream": "kw:NUMBERS FOR",
+   "offset": 5,
+   "periodic": true,
+   "sign": "add",
+   "F": true,
+   "z1": 6.967810459645581,
+   "rank1": 1,
+   "z2": 9.261029805502247,
+   "z5": 7.288403827719983,
+   "fb": 96.58537220327287,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "hold",
+   "stream": "kw:INNOCENCE",
+   "offset": 8,
+   "periodic": true,
+   "sign": "beaufort",
+   "F": true,
+   "z1": 7.52250023238802,
+   "rank1": 2,
+   "z2": 8.076989598612382,
+   "z5": 6.566959783093928,
+   "fb": 117.21304269549981,
+   "passed": false,
+   "beaten_by": [
+    [
+     "kw:INNOCENCE",
+     6
+    ]
+   ]
+  }
+ ]
+}

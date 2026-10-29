@@ -109,3 +109,31 @@ Messages from wazar/cicada3301 `corpus/A-primary-artifacts/` (pgp/messages/2012-
 ## Cicada's own words, 2012–2017 (added 2026-10-29, §53)
 
 `data/corpus/raw/cicada_own_words_2012_2017.txt`: the bodies of every PGP-signed Cicada message from 2012 to 2017 (25 distinct) and four quoted unsigned texts (the 2012 and 2013 opening images, the 2013 parable from the 761.mp3 ID3 tag, the 2016 outguess text), 1,592 words, extracted by script from the year narratives of github.com/scream314/cicada3301 (`2012.md`–`2017.md`, read as data). Each text is labelled with its year and status in square brackets; the labels are stripped before use. SHA-256 of the assembled text: c494a45c025ed15d…. Used as running keys (`CORPUS_SET=cicada`) and as a word and phrase key library (`src/cicada_words_lane.py`).
+
+## pnotisdev's keystream library and registry (fetched 2026-10-28; `src/pnotisdev_library.py`, `src/cross_library_lane.py`, README §54)
+
+Repository: https://github.com/pnotisdev/cicada3301, commit `15200c67abee106913ba01ff504c5b6e88d16cc7` (2026-10-24). Files fetched with `curl` from
+`https://raw.githubusercontent.com/pnotisdev/cicada3301/15200c67abee106913ba01ff504c5b6e88d16cc7/<path>` into `data/external/pnotisdev/` (gitignored) and read as
+data; nothing of theirs is executed. Their binary library export (`work/kscreen/data/library.ksb`, "KSB1") is not in their repository, so the 1,439 streams were
+rebuilt here from the generator definitions below on this repository's copy of the rtkd/iddqd master transcription with their six errata applied; the rebuild is
+checked against the first runes of the six model-0 decodes in `library_segments_verify.txt` (all six reproduce) and against `data/processed/irrational_digits.json`.
+Per-stream SHA-256 values are in `data/processed/pnotisdev_library_manifest.tsv`.
+
+| file | SHA-256 | what it is |
+|---|---|---|
+| docs/registry.toml | 6a9b4cbe2e5e926f8d53f34aa16fe496a1bd4876040aae6635f4e380aa99b434 | their 148-row experiment registry (rows lib-sections, multipliers, hyp-streams, sacred, sacred2, sacred3, keywords-r4, open-h1 read for the ledger check) |
+| docs/CAMPAIGNS.md | dfbeb46824eac937b63e926ae40f3baee066fe4abb6411121272976fe5007066 | campaign table: windows, decision rule, matched nulls |
+| docs/HYPOTHESES.md | 5631f2ab9d88e42d0f767bac2c81e26417a787c6307f166499e021a46694383b | H1-H6 (the H1 "library x keyword" slice is their open-h1 row) |
+| docs/SOURCES.md, docs/INDEX.md, docs/TRIED.md, docs/FINDINGS.md, docs/RUNNING.md | b4cf7a16…, a92eb3c8…, 0637acfe…, 0c278494…, 4574be96… | context |
+| work/kscreen/export.py | 9dabc9df9b002aeba49809a49bab37cc8a4f95542eeddd02c2e35ee04d604a46 | the library generator: new number families, more constants, hash streams, payload, KSB1 writer |
+| work/keystreams.py | 8984ba70f7c95dc8f7a70869e4a7c2469a2a38177c45b0e695b7fa6b464cee74 | integer sequences, constant digits, Cicada numbers, keywords |
+| work/prng_screen.py | fa5af88c48af4a789e4874ff7e30bb16072b463b90ff0aa4a950b0d8566eea1b | the hash seeds (`seeds()`, `SEEDS_EXTRA`; 65 distinct) |
+| work/grid60.py | 393d06bf47f6a16131b73061ac587bbdd6c1a2ab82f1a616fe59f365a43364bb | the 256-byte payload and the An End hash |
+| work/lp.py, work/stats.py, work/red_runs.py | 23920022…, f90dd35e…, 43471569… | their transcription parsing (segments, word spans, `word_to_key`, the solved-page rules) |
+| work/ref/errata.tsv | 5ffddd76eb22711f3a6854d715496d2d605c648132fb05d7eab236ed316c073b | one rune swap (book page 9, BELEIUE → BELIEUE) and five payload bytes |
+| work/kscreen/export_hyp.py, sacred.py, sacred_selftest.py, export28.py, export_hashwords.py, selftest.py, verify.py | 5bf93b53…, 600e9bc8…, e874c17a…, baf3f6e8…, 2c1a2e98…, 35914613…, 1f08bdb9… | the hyp / sacred libraries (not rebuilt here, see §54's coverage limit) and their self-tests |
+| results/kscreen/library_segments.tsv, .log, _verify.txt | d2382324…, 8e7edc85…, 098b02e6… | their lib-sections screen: 1,447 items, 409,283,232 decodes, best IoC 1.366, 15 hits re-decoded and rejected |
+| results/kscreen/library_hyp.tsv, _verify.txt, hyp_selftest.txt | 96085440…, 6fcbf7f2…, a1593ce0… | their hyp-streams screen |
+| work/log/phase9_chain.md, phase9_hyp.md, phase10_sacred.md | 9d539ec9…, 07a64921…, 4a978d18… | their logs for the chain, hyp and sacred campaigns |
+
+Full digests of every file: `cd data/external/pnotisdev && find . -type f ! -name library_cache.npz | sort | xargs shasum -a 256` (recorded in the commit message of §54).

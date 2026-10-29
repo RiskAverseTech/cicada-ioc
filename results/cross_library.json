@@ -1,0 +1,6778 @@
+{
+ "ntests": 421689623,
+ "ntests_t1": {
+  "plain": 205545150,
+  "echo": 205545150,
+  "hold": 10599030
+ },
+ "ntests_t2": 293,
+ "rows": {
+  "plain": 11419175,
+  "echo": 11419175,
+  "hold": 588835
+ },
+ "nstreams": 1439,
+ "library": 1439,
+ "nonperiodic": 580,
+ "periodic": 859,
+ "controls": [
+  {
+   "variant": "plain",
+   "stream": "sha256-ctr mod :7",
+   "offset": 18399,
+   "periodic": false,
+   "sign": "sub",
+   "F": false,
+   "z1": 6.1360379962359195,
+   "rank1": 2,
+   "z2": 11.874309005460516,
+   "z5": 54.99858097619407,
+   "fb": 0.0,
+   "passed": false,
+   "beaten_by": [
+    [
+     "sha256-ctr mod :7",
+     18400
+    ]
+   ]
+  },
+  {
+   "variant": "plain",
+   "stream": "md5-ctr mod :firfumferenfe",
+   "offset": 8828,
+   "periodic": false,
+   "sign": "add",
+   "F": false,
+   "z1": 5.281582512119175,
+   "rank1": 1,
+   "z2": 11.59910602785261,
+   "z5": 47.63290179438034,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "plain",
+   "stream": "sha256-chain reject :firfumferenfe",
+   "offset": 14862,
+   "periodic": false,
+   "sign": "beaufort",
+   "F": false,
+   "z1": 6.2309723112902216,
+   "rank1": 1,
+   "z2": 13.128326630613111,
+   "z5": 60.17561251544216,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "plain",
+   "stream": "sha256-chain mod :question all things",
+   "offset": 9986,
+   "periodic": false,
+   "sign": "sub",
+   "F": true,
+   "z1": 6.556923474069737,
+   "rank1": 1,
+   "z2": 13.759307373258354,
+   "z5": 39.3556854542993,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "plain",
+   "stream": "kw:LIBERPRIMUS",
+   "offset": 3,
+   "periodic": true,
+   "sign": "add",
+   "F": true,
+   "z1": 5.492499862621769,
+   "rank1": 1,
+   "z2": 14.38379625990512,
+   "z5": 46.0873050949038,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "plain",
+   "stream": "kw:BEHAUIARS",
+   "offset": 3,
+   "periodic": true,
+   "sign": "beaufort",
+   "F": true,
+   "z1": 6.818206698175858,
+   "rank1": 1,
+   "z2": 15.391991513301976,
+   "z5": 47.87420420525659,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "echo",
+   "stream": "sha256-chain reject :emergence",
+   "offset": 14102,
+   "periodic": false,
+   "sign": "sub",
+   "F": false,
+   "z1": 6.745230518357441,
+   "rank1": 1,
+   "z2": 11.488672168311881,
+   "z5": 72.71334536911984,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "echo",
+   "stream": "sha512-ctr mod :some wisdom",
+   "offset": 17761,
+   "periodic": false,
+   "sign": "add",
+   "F": false,
+   "z1": 5.267099439436459,
+   "rank1": 1,
+   "z2": 10.673017965963485,
+   "z5": 59.48503661416836,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "echo",
+   "stream": "sha256-chain reject :3301",
+   "offset": 2177,
+   "periodic": false,
+   "sign": "beaufort",
+   "F": false,
+   "z1": 6.061649245271208,
+   "rank1": 1,
+   "z2": 11.636296754918519,
+   "z5": 61.39220723277,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "echo",
+   "stream": "sha256-chain mod :DIVINITY",
+   "offset": 11201,
+   "periodic": false,
+   "sign": "sub",
+   "F": true,
+   "z1": 6.346453166183127,
+   "rank1": 1,
+   "z2": 14.677749397900845,
+   "z5": 55.09359736675483,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "echo",
+   "stream": "kw:MASTER HE",
+   "offset": 4,
+   "periodic": true,
+   "sign": "add",
+   "F": true,
+   "z1": 6.6002275294836945,
+   "rank1": 1,
+   "z2": 13.827705970516668,
+   "z5": 47.34894538184974,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "echo",
+   "stream": "kw:RIGHT THERE",
+   "offset": 7,
+   "periodic": true,
+   "sign": "beaufort",
+   "F": true,
+   "z1": 6.896691901007845,
+   "rank1": 1,
+   "z2": 15.324445713073644,
+   "z5": 55.066475329535606,
+   "fb": 0.0,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr reject :question all things",
+   "offset": 527,
+   "periodic": false,
+   "sign": "sub",
+   "F": false,
+   "z1": 10.200931422562386,
+   "rank1": 4,
+   "z2": 13.146629790045518,
+   "z5": 14.516170212976437,
+   "fb": 262.69715017706335,
+   "passed": false,
+   "beaten_by": [
+    [
+     "sha256-ctr reject :question all things",
+     523
+    ],
+    [
+     "sha256-ctr reject :question all things",
+     524
+    ],
+    [
+     "sha256-ctr reject :question all things",
+     526
+    ]
+   ]
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain mod :Cicada 3301",
+   "offset": 874,
+   "periodic": false,
+   "sign": "add",
+   "F": false,
+   "z1": 6.932278943439812,
+   "rank1": 1,
+   "z2": 7.7949211960635845,
+   "z5": 5.3906135265395285,
+   "fb": 164.99351138553507,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :FIRFUMFERENFE",
+   "offset": 31,
+   "periodic": false,
+   "sign": "beaufort",
+   "F": false,
+   "z1": 9.880219336863162,
+   "rank1": 2,
+   "z2": 13.473625137227161,
+   "z5": 8.891938128964382,
+   "fb": 231.05030563959286,
+   "passed": false,
+   "beaten_by": [
+    [
+     "sha512-ctr mod :FIRFUMFERENFE",
+     32
+    ]
+   ]
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :the totient function is sacred",
+   "offset": 845,
+   "periodic": false,
+   "sign": "sub",
+   "F": true,
+   "z1": 9.12080079665923,
+   "rank1": 1,
+   "z2": 11.733740328334642,
+   "z5": 13.237212882890981,
+   "fb": 170.74227773356796,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "hold",
+   "stream": "kw:NUMBERS FOR",
+   "offset": 5,
+   "periodic": true,
+   "sign": "add",
+   "F": true,
+   "z1": 6.967810459645581,
+   "rank1": 1,
+   "z2": 9.261029805502247,
+   "z5": 7.288403827719983,
+   "fb": 96.58537220327287,
+   "passed": true,
+   "beaten_by": []
+  },
+  {
+   "variant": "hold",
+   "stream": "kw:INNOCENCE",
+   "offset": 8,
+   "periodic": true,
+   "sign": "beaufort",
+   "F": true,
+   "z1": 7.52250023238802,
+   "rank1": 2,
+   "z2": 8.076989598612382,
+   "z5": 6.566959783093928,
+   "fb": 117.21304269549981,
+   "passed": false,
+   "beaten_by": [
+    [
+     "kw:INNOCENCE",
+     6
+    ]
+   ]
+  }
+ ],
+ "survivors": [
+  {
+   "variant": "hold",
+   "stream": "primes from 3301",
+   "family": "integer",
+   "offset": 711,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.639317709958551,
+   "z2": {
+    "plain": -0.7387838008304378,
+    "echo": -0.824532770067478,
+    "hold": 5.127500398524895
+   },
+   "z5": {
+    "plain": 1.728768995807967,
+    "echo": 1.8226174425057717,
+    "hold": -1.328721350928345
+   },
+   "fb": 179.39875365986367,
+   "translit": "EIASHSYREFEBWUEHRNLRIOTDETRTHOOEEAWNNRRNTHSIDORJPONGEAFNENDALSBSFORORFETHLIRRAEDTNGRSA"
+  },
+  {
+   "variant": "hold",
+   "stream": "primes from 3301",
+   "family": "integer",
+   "offset": 712,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.667699676195139,
+   "z2": {
+    "plain": 0.13451647279063136,
+    "echo": 0.05687120756900026,
+    "hold": 5.15406538804722
+   },
+   "z5": {
+    "plain": -0.10823758128639478,
+    "echo": -0.009533163017522116,
+    "hold": -1.3195235798439267
+   },
+   "fb": 162.27399691018599,
+   "translit": "UMSHSYREFEBWUEHRNLRIOTDETRTHOOEEAWNNRRNTHSIDORJPONGEAFNENDALSBSFORORFETHLIRRAEDTNGRSA"
+  },
+  {
+   "variant": "hold",
+   "stream": "primes from 3301",
+   "family": "integer",
+   "offset": 713,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.723026876526693,
+   "z2": {
+    "plain": -1.1525547530910922,
+    "echo": -1.1095629196750731,
+    "hold": 5.205850612680904
+   },
+   "z5": {
+    "plain": 0.5077588208248176,
+    "echo": 0.6481021599726462,
+    "hold": -1.160940204450231
+   },
+   "fb": 187.94068866021885,
+   "translit": "WEIHHSELDEBWUEHRNLRIOTDETRTHOOEEAWNNRRNTHSIDORJPONGEAFNENDALSBSFORORFETHLIRRAEDTNGRSA"
+  },
+  {
+   "variant": "hold",
+   "stream": "primes from 3301",
+   "family": "integer",
+   "offset": 711,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.728146972660431,
+   "z2": {
+    "plain": -0.3662048483924378,
+    "echo": -0.4185313163414351,
+    "hold": 5.186002217842897
+   },
+   "z5": {
+    "plain": 0.11423075828881737,
+    "echo": 0.09343354780971484,
+    "hold": -1.3526152188806442
+   },
+   "fb": 150.75432735394062,
+   "translit": "EIASHSYREFEBWUEHRNLRIOTDETRTHOOEEAWNNRRNTHSIDORJPONGEAFNENDALSBSFORORFETHLIRRAEDTNGRSA"
+  },
+  {
+   "variant": "hold",
+   "stream": "primes from 3301",
+   "family": "integer",
+   "offset": 712,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.757029468721426,
+   "z2": {
+    "plain": -0.440737295104641,
+    "echo": -0.5054375067212685,
+    "hold": 5.212810591897251
+   },
+   "z5": {
+    "plain": -0.44369715850190194,
+    "echo": -0.38628582799938643,
+    "hold": -1.3440388586887253
+   },
+   "fb": 152.11234181836883,
+   "translit": "UMSHSYREFEBWUEHRNLRIOTDETRTHOOEEAWNNRRNTHSIDORJPONGEAFNENDALSBSFORORFETHLIRRAEDTNGRSA"
+  },
+  {
+   "variant": "hold",
+   "stream": "primes from 3301",
+   "family": "integer",
+   "offset": 713,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.813332391229382,
+   "z2": {
+    "plain": -1.46518592476919,
+    "echo": -1.3751065027866594,
+    "hold": 5.2650702651526045
+   },
+   "z5": {
+    "plain": 0.35339061978848674,
+    "echo": 0.4441933438018101,
+    "hold": -1.1961695395522076
+   },
+   "fb": 169.30275780914553,
+   "translit": "WEIHHSELDEBWUEHRNLRIOTDETRTHOOEEAWNNRRNTHSIDORJPONGEAFNENDALSBSFORORFETHLIRRAEDTNGRSA"
+  },
+  {
+   "variant": "plain",
+   "stream": "phi digits (base 29)",
+   "family": "constant",
+   "offset": 7050,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.757682671517656,
+   "z2": {
+    "plain": 3.21166903105145,
+    "echo": 3.049232912935687,
+    "hold": 2.3085539419258962
+   },
+   "z5": {
+    "plain": 0.17177701590646313,
+    "echo": 0.18850537002211432,
+    "hold": 0.09227988397733357
+   },
+   "fb": 105.3461488869982,
+   "translit": "THSTHCBTHTAEOEOANGCSOTEUTSPITEOMWIABYUMSWLSTRBFNDDLICUWDMYARAEOEJIGPRITHWWSRIPWUWORANMO"
+  },
+  {
+   "variant": "echo",
+   "stream": "phi digits (base 29)",
+   "family": "constant",
+   "offset": 7050,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.6170729892311275,
+   "z2": {
+    "plain": 3.21166903105145,
+    "echo": 3.049232912935687,
+    "hold": 2.3085539419258962
+   },
+   "z5": {
+    "plain": 0.17177701590646313,
+    "echo": 0.18850537002211432,
+    "hold": 0.09227988397733357
+   },
+   "fb": 105.3461488869982,
+   "translit": "THSTHCBTHTAEOEOANGCSOTEUTSPITEOMWIABYUMSWLSTRBFNDDLICUWDMYARAEOEJIGPRITHWWSRIPWUWORANMO"
+  },
+  {
+   "variant": "echo",
+   "stream": "p_n - n",
+   "family": "number2",
+   "offset": 17483,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.503499112140189,
+   "z2": {
+    "plain": 3.6475837170463175,
+    "echo": 3.6882287732011836,
+    "hold": 2.822868658146218
+   },
+   "z5": {
+    "plain": 0.03419777929204751,
+    "echo": 1.3025172169802515,
+    "hold": 0.39210316108731214
+   },
+   "fb": 98.37375687031931,
+   "translit": "WADWUPESDENNSWAGTFENEPOCWXMCEHTXOGLRODSRHDAEACMMATHMUITIEAICDAGHYNTHFDMRTEFDMOPMTHSCR"
+  },
+  {
+   "variant": "hold",
+   "stream": "e^pi digits (base 29)",
+   "family": "constant2",
+   "offset": 523,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.50524158648431,
+   "z2": {
+    "plain": -0.7485003504358085,
+    "echo": -0.8819805991681402,
+    "hold": 4.171208095271136
+   },
+   "z5": {
+    "plain": 0.7504892144245129,
+    "echo": 0.38241731038272225,
+    "hold": -1.3842577478632236
+   },
+   "fb": 221.58011359867913,
+   "translit": "EOYDLSOETWSTHDEFEAHTHREOAHRRACDTHEOWTHTTRILOLOOOOEEHENLTRROOTHOOERNNIARTHYBLEUTBAESNOCEOW"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha256-ctr mod :1033",
+   "family": "hash",
+   "offset": 19573,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.583695416692967,
+   "z2": {
+    "plain": 1.8478996568521233,
+    "echo": 2.0551841098287946,
+    "hold": 1.499799566882513
+   },
+   "z5": {
+    "plain": -0.6030492256939586,
+    "echo": -0.30202790966298226,
+    "hold": 0.09368452286181611
+   },
+   "fb": 120.79018667425521,
+   "translit": "CIASBRNGYFTTCEOPDIEFFDOAOANCNEDTEBROOLYHDWLSBPNOMEAUMYDDIXNDERLFIWYBOESMDDGIADGSUOE"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha256-ctr mod :1033",
+   "family": "hash",
+   "offset": 19573,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.618940797102399,
+   "z2": {
+    "plain": 1.8478996568521233,
+    "echo": 2.0551841098287946,
+    "hold": 1.499799566882513
+   },
+   "z5": {
+    "plain": -0.6030492256939586,
+    "echo": -0.30202790966298226,
+    "hold": 0.09368452286181611
+   },
+   "fb": 120.79018667425521,
+   "translit": "CIASBRNGYFTTCEOPDIEFFDOAOANCNEDTECROOLYHDWLSBPNOMEAUMYDDIXNDERLFIWYBOESMDDOIADGSUOE"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha256-ctr mod :Cicada 3301",
+   "family": "hash",
+   "offset": 18667,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.773350185302189,
+   "z2": {
+    "plain": 2.1412642418967596,
+    "echo": 2.220186050674107,
+    "hold": 2.255196579475513
+   },
+   "z5": {
+    "plain": -0.982478963380781,
+    "echo": -0.6697625040179068,
+    "hold": -1.3722989201601048
+   },
+   "fb": 119.02678794790708,
+   "translit": "ORYCEETHFEAUTNGTWSNRBCTHPIRNHNGSMULCIAGTFOCMRGTCIEHGRESTNHRICCAIFSRFDUPFWTHNLWNGAGNUAETHRT"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha256-ctr mod :Cicada 3301",
+   "family": "hash",
+   "offset": 18667,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 5.063874204783999,
+   "z2": {
+    "plain": 2.1412642418967596,
+    "echo": 2.220186050674107,
+    "hold": 2.255196579475513
+   },
+   "z5": {
+    "plain": -0.982478963380781,
+    "echo": -0.6697625040179068,
+    "hold": -1.3722989201601048
+   },
+   "fb": 119.02678794790708,
+   "translit": "ORYCEETHFEAUTNGTWSNRBCTHPIRNHNGSMULCNGGTFOCMRGTCIEHGRESTNHRICCAIFSRHOIIBWTEADUSWNGRERIAGS"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr mod :LIBER PRIMUS",
+   "family": "hash",
+   "offset": 54,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.596856119306485,
+   "z2": {
+    "plain": 0.393642033406045,
+    "echo": 0.5545364793287372,
+    "hold": 3.4706033094845457
+   },
+   "z5": {
+    "plain": -0.5163801900929627,
+    "echo": -0.4683287162633597,
+    "hold": -0.7250902939069941
+   },
+   "fb": 190.41122233339308,
+   "translit": "EOAOOMCESNRNGCTHJETHTRRSUUHDWGYYIMITHAUEDARRANIPBETIUERYXBEAEIAFXGASRNFPNNGAODIASRTWTCR"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr mod :LIBER PRIMUS",
+   "family": "hash",
+   "offset": 54,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.662106321983413,
+   "z2": {
+    "plain": 0.35433390468651976,
+    "echo": 0.4874908954499594,
+    "hold": 3.4322717781025824
+   },
+   "z5": {
+    "plain": -0.12099866427315094,
+    "echo": -0.02590614894354676,
+    "hold": -0.6221076910808314
+   },
+   "fb": 153.06694218670373,
+   "translit": "EOAOOMCESNRNGCTHJETHTRRSUUHDWGYYIMITHAUEDARRANIPBETIUERYXBEAEIAFXGASRNFPNNGAODIASRTWTCR"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :INTUS",
+   "family": "hash",
+   "offset": 786,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.564999848067739,
+   "z2": {
+    "plain": -0.4454314464377732,
+    "echo": -0.41592717290571796,
+    "hold": 3.5171192617721925
+   },
+   "z5": {
+    "plain": 0.6003268567025514,
+    "echo": -0.8035860894465541,
+    "hold": -1.305821567542215
+   },
+   "fb": 210.88589189459424,
+   "translit": "LETYWGIIPOSLERAINGTATOAOMIWNGSHFEITTWUTAUOOEAEONULRUMNNINOUDAONLAAEOOEODLLNPWUEUOERNGO"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :INTUS",
+   "family": "hash",
+   "offset": 786,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.565010998608488,
+   "z2": {
+    "plain": 0.8758395053779549,
+    "echo": 0.7178280347642948,
+    "hold": 3.433745300402162
+   },
+   "z5": {
+    "plain": -1.170477196504996,
+    "echo": -1.1770191228042732,
+    "hold": -1.2940978588506444
+   },
+   "fb": 150.41221865972707,
+   "translit": "LETYWGIIPOSLERAINGTATOAOMIWNGSHFEITTWUTAUOOEAEONULRUMNNINOUDAONLAAEOOEODLLNPWUEUOERNGO"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr mod :instar",
+   "family": "hash",
+   "offset": 391,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.537332344629084,
+   "z2": {
+    "plain": 0.5063558443432771,
+    "echo": 0.2677572697569361,
+    "hold": 3.8960157444533055
+   },
+   "z5": {
+    "plain": 0.6121901857323916,
+    "echo": 0.6795664885350645,
+    "hold": -1.4394287228194997
+   },
+   "fb": 149.00538279860518,
+   "translit": "MMRITERRDHHMOEENHTEOBDLEOLSFSERWITUHTATHESRBEITNAWFTETHDENGLRMJADDIRTDANGYAUEREOTHULE"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr mod :instar",
+   "family": "hash",
+   "offset": 391,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.617860622665856,
+   "z2": {
+    "plain": -0.14358802330094547,
+    "echo": -0.37541506789837403,
+    "hold": 3.946914207692239
+   },
+   "z5": {
+    "plain": 0.4336688912246297,
+    "echo": 0.48278232927596193,
+    "hold": -1.319349440585644
+   },
+   "fb": 141.29016033909963,
+   "translit": "MMRITERRDHHMOEENHTEOBDLEOLSFSERWITUHTATHESRBEITNAWFTETHDENGLRMJADDIRTDANGYAUEREOTHULE"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :INSTAR",
+   "family": "hash",
+   "offset": 362,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.506183550243818,
+   "z2": {
+    "plain": -0.42997346031598116,
+    "echo": -0.5523809660000938,
+    "hold": 5.074676079085548
+   },
+   "z5": {
+    "plain": 0.46049349094704095,
+    "echo": 0.5488682122008729,
+    "hold": 0.004505633991857279
+   },
+   "fb": 151.28974666258637,
+   "translit": "EOSHUMATAHANOROGCTSINDAWEOTPIYWASWAFNTHCWNSCBOWOOOIRNOEDIANGOROTHEOEDYATXNRPRINEEOEBRD"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha512-ctr mod :divinity",
+   "family": "hash",
+   "offset": 19353,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.501476075169866,
+   "z2": {
+    "plain": 1.5368457980792114,
+    "echo": 1.3852143345065957,
+    "hold": 1.72038029826565
+   },
+   "z5": {
+    "plain": 0.2570375287757378,
+    "echo": 0.8447921705363398,
+    "hold": 1.7857728530971966
+   },
+   "fb": 126.5764536168092,
+   "translit": "EHHNTHGURTOLMOXDTWFRTNINGAUTLSBNREARBUDIRRIAHUAOBPAWNTHUAEWFSTEYFENFTNNSIASETHNCOHGGSOS"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha512-ctr mod :divinity",
+   "family": "hash",
+   "offset": 19353,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.521184612135141,
+   "z2": {
+    "plain": 1.5368457980792114,
+    "echo": 1.3852143345065957,
+    "hold": 1.72038029826565
+   },
+   "z5": {
+    "plain": 0.2570375287757378,
+    "echo": 0.8447921705363398,
+    "hold": 1.7857728530971966
+   },
+   "fb": 126.5764536168092,
+   "translit": "EHHNTHGURTOLMOXDTWFRTNINGAUTLSBNRTRBUDIRRIAHUAOBPAWNTHUAEWFSTEYFENFTNNSIASETHNIOHGGSOS"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr reject :firfumferenfe",
+   "family": "hash",
+   "offset": 63,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": false,
+   "z1": 4.555593054105265,
+   "z2": {
+    "plain": -2.8442662593374815,
+    "echo": -2.7835033880271403,
+    "hold": 4.420238122312643
+   },
+   "z5": {
+    "plain": 0.18288545612810705,
+    "echo": 0.21161766031890294,
+    "hold": -0.21489291288070128
+   },
+   "fb": 265.7056906623551,
+   "translit": "MHSIGOAOBMELAOABEIJOEOYUITDYSEOEMREUNAEEANGPTHTHTPTNSEWAILRRNLEIAFXETHSOTSEUORLSIAESSWNRL"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr reject :firfumferenfe",
+   "family": "hash",
+   "offset": 63,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.62051472759221,
+   "z2": {
+    "plain": -1.5514690899391066,
+    "echo": -1.5362929080258552,
+    "hold": 4.402892843438836
+   },
+   "z5": {
+    "plain": 0.42110871755389756,
+    "echo": 0.43651614009173273,
+    "hold": -0.1303850357948698
+   },
+   "fb": 187.90358266759432,
+   "translit": "MHSIGOAOBMELAOABEIJOEOYUITDYSEOEMREUNAEEANGPTHTHTPTNSEWAILRRNLEIAFXETHSOTSEUORLSIAESSWNRL"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :FIRFUMFERENFE",
+   "family": "hash",
+   "offset": 432,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": false,
+   "z1": 4.7699352124958105,
+   "z2": {
+    "plain": -0.18610889299754405,
+    "echo": -0.2509413471943304,
+    "hold": 3.5831710957896967
+   },
+   "z5": {
+    "plain": -0.9921405015559448,
+    "echo": -1.3242568941185877,
+    "hold": -2.7437991147275973
+   },
+   "fb": 203.59547096671855,
+   "translit": "OMYCUESFAENSWCSTAEFDAOCSEUCEHRIOOFSFSYRECBRNSMLATHDNNYEBRIWTRNXNDEOPACROIRIAWTETTSL"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :FIRFUMFERENFE",
+   "family": "hash",
+   "offset": 433,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": false,
+   "z1": 4.903699394351211,
+   "z2": {
+    "plain": -0.5878469360176747,
+    "echo": -0.24658449207858193,
+    "hold": 3.6975063969848008
+   },
+   "z5": {
+    "plain": -1.353479875371359,
+    "echo": -1.2741797553871432,
+    "hold": -2.5581430830713083
+   },
+   "fb": 212.91945475704176,
+   "translit": "YTLUUESFAENSWCSTAEFDAOCSEUCEHRIOOFSFSYRECBRNSMLATHDNNYEBRIWTRNXNDEOPACROIRIAWTETTSL"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :FIRFUMFERENFE",
+   "family": "hash",
+   "offset": 434,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": false,
+   "z1": 4.839238265791197,
+   "z2": {
+    "plain": -0.8426182523963267,
+    "echo": -0.5059096101320175,
+    "hold": 3.6424080706088153
+   },
+   "z5": {
+    "plain": -1.5258078628842602,
+    "echo": -1.4402607192818793,
+    "hold": -2.545642491931564
+   },
+   "fb": 218.1722777777951,
+   "translit": "DITOUESFAENSWCSTAEFDAOCSEUCEHRIOOFSFSYRECBRNSMLATHDNNYEBRIWTRNXNDEOPACROIRIAWTETTSL"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :FIRFUMFERENFE",
+   "family": "hash",
+   "offset": 432,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.836563440145227,
+   "z2": {
+    "plain": 0.7046131011129847,
+    "echo": 0.5213338844638098,
+    "hold": 3.554035585311917
+   },
+   "z5": {
+    "plain": -1.1108132647069577,
+    "echo": -1.6732475433713978,
+    "hold": -2.5677171719181
+   },
+   "fb": 148.21148862393633,
+   "translit": "OMYCUESFAENSWCSTAEFDAOCSEUCEHRIOOFSFSYRECBRNSMLATHDNNYEBRIWTRNXNDEOPACROIRIAWTETTSL"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :FIRFUMFERENFE",
+   "family": "hash",
+   "offset": 433,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.97139262863791,
+   "z2": {
+    "plain": 0.7424016971967123,
+    "echo": 0.560010505021107,
+    "hold": 3.6687802863314234
+   },
+   "z5": {
+    "plain": -0.858308949007571,
+    "echo": -1.421083549576728,
+    "hold": -2.388783919316436
+   },
+   "fb": 148.21148862393633,
+   "translit": "YTLUUESFAENSWCSTAEFDAOCSEUCEHRIOOFSFSYRECBRNSMLATHDNNYEBRIWTRNXNDEOPACROIRIAWTETTSL"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :FIRFUMFERENFE",
+   "family": "hash",
+   "offset": 434,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.90641827203126,
+   "z2": {
+    "plain": 0.1361378607759035,
+    "echo": -0.0605004106769779,
+    "hold": 3.613484669661822
+   },
+   "z5": {
+    "plain": -0.5797324947414974,
+    "echo": -1.1428825568914143,
+    "hold": -2.376735986307618
+   },
+   "fb": 157.4167093172107,
+   "translit": "DITOUESFAENSWCSTAEFDAOCSEUCEHRIOOFSFSYRECBRNSMLATHDNNYEBRIWTRNXNDEOPACROIRIAWTETTSL"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :FIRFUMFERENFE",
+   "family": "hash",
+   "offset": 954,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 4.618343981926574,
+   "z2": {
+    "plain": 1.0890204658639557,
+    "echo": 1.0483390608141654,
+    "hold": 4.388782906940856
+   },
+   "z5": {
+    "plain": -1.7170237250968594,
+    "echo": -1.6343366858039121,
+    "hold": -0.7565566145872801
+   },
+   "fb": 181.72805810703431,
+   "translit": "DSEEAIRAULELONAHDSUSICPERREEDUACEIRBESUNIWRUTHCYRSPTWLRWADDSPIDAELOETUENLIAEEWDONRO"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :FIRFUMFERENFE",
+   "family": "hash",
+   "offset": 954,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.608185774101304,
+   "z2": {
+    "plain": 1.280895310206441,
+    "echo": 1.1300046395158287,
+    "hold": 4.290915805230454
+   },
+   "z5": {
+    "plain": -0.8749140599074474,
+    "echo": -0.9802949887579844,
+    "hold": -0.7548416881417905
+   },
+   "fb": 147.98180212430137,
+   "translit": "DSEEAIRAULELONAHDSUSICPERREEDUACEIRBESUNIWRUTHCYRSPTWLRWADDSPIDAELOETUENLIAEEWDONRO"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain mod :circumference",
+   "family": "hash",
+   "offset": 606,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": false,
+   "z1": 4.500504301006158,
+   "z2": {
+    "plain": -0.2298155882897369,
+    "echo": 0.043210473903153426,
+    "hold": 4.097287562345569
+   },
+   "z5": {
+    "plain": 1.0384971393073783,
+    "echo": 0.6690751012126877,
+    "hold": -0.7823054398398085
+   },
+   "fb": 207.20537282427514,
+   "translit": "HTILEMESEYENCIODSSLYROTHEOESISOERIAWAIELAMARSRRNEOJEIAHTLFTHCDFILHOTHUIUTUTHTHSIUHHATHMA"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain mod :circumference",
+   "family": "hash",
+   "offset": 606,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.564987367633801,
+   "z2": {
+    "plain": -1.8397866094111786,
+    "echo": -1.6896708132665095,
+    "hold": 4.061199996041707
+   },
+   "z5": {
+    "plain": 0.9729526712272801,
+    "echo": 0.7361947449418187,
+    "hold": -0.6772510229106894
+   },
+   "fb": 190.65532769771727,
+   "translit": "HTILEMESEYENCIODSSLYROTHEOESISOERIAWAIELAMARSRRNEOJEIAHTLFTHCDFILHOTHUIUTUTHTHSIUHHATHMA"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :primes",
+   "family": "hash",
+   "offset": 241,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z1": 5.329937252910804,
+   "z2": {
+    "plain": 0.6859422836801342,
+    "echo": 0.7590433671423396,
+    "hold": 3.213345533112671
+   },
+   "z5": {
+    "plain": -0.9519070795665822,
+    "echo": -0.7332404592758883,
+    "hold": -0.1061272677623902
+   },
+   "fb": 184.57572032908539,
+   "translit": "OECRMOUOEESOAROOTPAPTCCTHRYDRWFOMWTOEEAOYTNEEIRNGODAONNGRBCULAGORRNRTSFOISNNPSIOB"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :primes",
+   "family": "hash",
+   "offset": 242,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.849457027915037,
+   "z2": {
+    "plain": 0.4903539999845127,
+    "echo": 0.5614526280529017,
+    "hold": 2.7992393137428477
+   },
+   "z5": {
+    "plain": -1.01160841616409,
+    "echo": -0.791745163692537,
+    "hold": -0.16097576915012557
+   },
+   "fb": 186.75190679860867,
+   "translit": "OICRMOUOEESOAROOTPAPTCCTHRYDRWFOMWTOEEAOYTNEEIRNGODAONNGRBCULAGORRNRTSFOISNNPSIOB"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :primes",
+   "family": "hash",
+   "offset": 243,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.96799380205048,
+   "z2": {
+    "plain": -0.7199262730676205,
+    "echo": -0.4998528800293786,
+    "hold": 2.901401302602962
+   },
+   "z5": {
+    "plain": -0.7148004099210263,
+    "echo": -0.500886270686217,
+    "hold": -0.1418077927114515
+   },
+   "fb": 213.76438410269103,
+   "translit": "IAMRMOUOEESOAROOTPAPTCCTHRYDRWFOMWTOEEAOYTNEEIRNGODAONNGRBCULAGORRNRTSFOISNNPSIOB"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :primes",
+   "family": "hash",
+   "offset": 244,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.613526174624704,
+   "z2": {
+    "plain": 1.0240138696957848,
+    "echo": 1.0280082346214385,
+    "hold": 2.5959001780071023
+   },
+   "z5": {
+    "plain": 1.5479131419767804,
+    "echo": 1.3769703162619247,
+    "hold": -0.11903074283797486
+   },
+   "fb": 174.03631833369587,
+   "translit": "NIMRMOUOEESOAROOTPAPTCCTHRYDRWFOMWTOEEAOYTNEEIRNGODAONNGRBCULAGORRNRTSFOISNNPSIOB"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :primes",
+   "family": "hash",
+   "offset": 241,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 5.3330819726519785,
+   "z2": {
+    "plain": 1.6066990291102121,
+    "echo": 1.6265864160823233,
+    "hold": 3.1230764275955947
+   },
+   "z5": {
+    "plain": -0.23435489449624777,
+    "echo": -0.09767795356812378,
+    "hold": -0.11626455519621032
+   },
+   "fb": 136.52326626406827,
+   "translit": "OECRMOUOEESOAROOTPAPTCCTHRYDRWFOMWTOEEAOYTNEEIRNGODAONNGRBCULAGORRNRTSFOISNNPSIOB"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :primes",
+   "family": "hash",
+   "offset": 242,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.850633458453816,
+   "z2": {
+    "plain": 1.3522834213232373,
+    "echo": 1.3726527353243214,
+    "hold": 2.7116469799096214
+   },
+   "z5": {
+    "plain": -0.28900579164979134,
+    "echo": -0.1532763178183705,
+    "hold": -0.17011359957515532
+   },
+   "fb": 138.6994527335913,
+   "translit": "OICRMOUOEESOAROOTPAPTCCTHRYDRWFOMWTOEEAOYTNEEIRNGODAONNGRBCULAGORRNRTSFOISNNPSIOB"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :primes",
+   "family": "hash",
+   "offset": 243,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.969655818968219,
+   "z2": {
+    "plain": -0.22201430982481624,
+    "echo": 0.0087162709027668,
+    "hold": 2.8131485963673053
+   },
+   "z5": {
+    "plain": -0.017306282928670508,
+    "echo": 0.12313356819049268,
+    "hold": -0.1512949046648959
+   },
+   "fb": 165.71193003767343,
+   "translit": "IAMRMOUOEESOAROOTPAPTCCTHRYDRWFOMWTOEEAOYTNEEIRNGODAONNGRBCULAGORRNRTSFOISNNPSIOB"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :primes",
+   "family": "hash",
+   "offset": 244,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.6137361134602175,
+   "z2": {
+    "plain": -0.20315912038431275,
+    "echo": -0.30085631897276766,
+    "hold": 2.5096222229861165
+   },
+   "z5": {
+    "plain": 0.4749753982732545,
+    "echo": 0.31812022886024244,
+    "hold": -0.12893290135713462
+   },
+   "fb": 163.84150475969892,
+   "translit": "NIMRMOUOEESOAROOTPAPTCCTHRYDRWFOMWTOEEAOYTNEEIRNGODAONNGRBCULAGORRNRTSFOISNNPSIOB"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain mod :welcome",
+   "family": "hash",
+   "offset": 188,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.762961328307874,
+   "z2": {
+    "plain": 1.4233907131009762,
+    "echo": 1.6115843793346707,
+    "hold": 3.8127698872235984
+   },
+   "z5": {
+    "plain": 0.553115730157371,
+    "echo": 0.4157566777823742,
+    "hold": -1.9257736171039566
+   },
+   "fb": 171.48031418790325,
+   "translit": "NSCRNROERORELNEWONGSRNESRTHIAROETHEFIMMTEENSEEEAORTHYWTWDEAEARETHEIUOGAEYAOHYNFLULNLSEAETI"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain mod :welcome",
+   "family": "hash",
+   "offset": 189,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.78454237109551,
+   "z2": {
+    "plain": 1.4277104182430325,
+    "echo": 1.615948310115901,
+    "hold": 3.831369703769482
+   },
+   "z5": {
+    "plain": 0.6921844241118227,
+    "echo": 0.5520379287076056,
+    "hold": -1.8353032774823959
+   },
+   "fb": 171.48031418790325,
+   "translit": "SSCRNROERORELNEWONGSRNESRTHIAROETHEFIMMTEENSEEEAORTHYWTWDEAEARETHEIUOGAEYAOHYNFLULNLSEAETI"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain mod :welcome",
+   "family": "hash",
+   "offset": 190,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.78454237109551,
+   "z2": {
+    "plain": 1.4277104182430325,
+    "echo": 1.615948310115901,
+    "hold": 3.831369703769482
+   },
+   "z5": {
+    "plain": 0.6921844241118227,
+    "echo": 0.5520379287076056,
+    "hold": -1.8353032774823959
+   },
+   "fb": 171.48031418790325,
+   "translit": "SSCRNROERORELNEWONGSRNESRTHIAROETHEFIMMTEENSEEEAORTHYWTWDEAEARETHEIUOGAEYAOHYNFLULNLSEAETI"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain mod :welcome",
+   "family": "hash",
+   "offset": 188,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.763783428860251,
+   "z2": {
+    "plain": 0.7575333253520972,
+    "echo": 0.8432422619346985,
+    "hold": 3.7286926154569877
+   },
+   "z5": {
+    "plain": -0.9172571145806887,
+    "echo": -1.0102242275885447,
+    "hold": -1.8421724109960353
+   },
+   "fb": 153.91235860888202,
+   "translit": "NSCRNROERORELNEWONGSRNESRTHIAROETHEFIMMTEENSEEEAORTHYWTWDEAEARETHEIUOGAEYAOHYNFLULNLSEAETI"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain mod :welcome",
+   "family": "hash",
+   "offset": 189,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.7854528784777335,
+   "z2": {
+    "plain": 0.7631522734220495,
+    "echo": 0.8488505663064406,
+    "hold": 3.7471722032791135
+   },
+   "z5": {
+    "plain": -0.7899529481459883,
+    "echo": -0.8807130249430338,
+    "hold": -1.753350634466166
+   },
+   "fb": 153.91235860888202,
+   "translit": "SSCRNROERORELNEWONGSRNESRTHIAROETHEFIMMTEENSEEEAORTHYWTWDEAEARETHEIUOGAEYAOHYNFLULNLSEAETI"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain mod :welcome",
+   "family": "hash",
+   "offset": 190,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.7854528784777335,
+   "z2": {
+    "plain": 0.7631522734220495,
+    "echo": 0.8488505663064406,
+    "hold": 3.7471722032791135
+   },
+   "z5": {
+    "plain": -0.7899529481459883,
+    "echo": -0.8807130249430338,
+    "hold": -1.753350634466166
+   },
+   "fb": 153.91235860888202,
+   "translit": "SSCRNROERORELNEWONGSRNESRTHIAROETHEFIMMTEENSEEEAORTHYWTWDEAEARETHEIUOGAEYAOHYNFLULNLSEAETI"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :0x7A35090F",
+   "family": "hash",
+   "offset": 581,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.626633982233718,
+   "z2": {
+    "plain": -0.4065169280697276,
+    "echo": -0.2246657084004861,
+    "hold": 2.9092332342676923
+   },
+   "z5": {
+    "plain": -1.9563480005819351,
+    "echo": -1.8261058935422452,
+    "hold": 1.0207172630564996
+   },
+   "fb": 204.89968548702996,
+   "translit": "HUETGNIAANYMNGCRTHYUWLNALANUEUFEOESATYAAENIRSBEENTTEOUOONGOLORAESTSLRSODEEULIITHOAAHURSP"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :0x7A35090F",
+   "family": "hash",
+   "offset": 581,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.681789235548045,
+   "z2": {
+    "plain": -1.3165272527695262,
+    "echo": -1.4080503284427395,
+    "hold": 2.868891607947284
+   },
+   "z5": {
+    "plain": 0.1887266112749273,
+    "echo": -1.4215072985200452,
+    "hold": 1.0604825366493789
+   },
+   "fb": 176.3177873323191,
+   "translit": "HUETGNIAANYMNGCRTHYUWLNALANUEUFEOESATYAAENIRSBEENTTEOUOONGOLORAESTSLRSODEEULIITHOAAHURSP"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha256-chain mod :the primes are sacred",
+   "family": "hash",
+   "offset": 6641,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.629485505338206,
+   "z2": {
+    "plain": 2.497413599473968,
+    "echo": 2.736418617726633,
+    "hold": -0.15083701553353035
+   },
+   "z5": {
+    "plain": -1.2258179328967673,
+    "echo": -1.2081758199221495,
+    "hold": -0.8639523852943654
+   },
+   "fb": 104.7815029163248,
+   "translit": "EUEYILDLNGTOERMTPWAINSSEUFIEINYEANDDETFTHFWEGEFPNHWIDUOREPYRSTOXMTCYHYEAIAESCORUOLDOY"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha256-chain mod :the primes are sacred",
+   "family": "hash",
+   "offset": 6641,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.847027570583162,
+   "z2": {
+    "plain": 2.358751859568209,
+    "echo": 2.621942452263952,
+    "hold": -0.09970081328902844
+   },
+   "z5": {
+    "plain": -2.991863940894173,
+    "echo": -2.7967012825135704,
+    "hold": -0.8676924442609769
+   },
+   "fb": 131.1148131130404,
+   "translit": "EUEYILDLNGTLRMTPWAINSSEUFIEINYEANDDETFTHFWEGEFPNHWIDUOREPYRSTOXMTCYHYEAIAESCORUOEAJRE"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha256-chain mod :the primes are sacred",
+   "family": "hash",
+   "offset": 6641,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.932003027536025,
+   "z2": {
+    "plain": 2.497413599473968,
+    "echo": 2.736418617726633,
+    "hold": -0.15083701553353035
+   },
+   "z5": {
+    "plain": -1.2258179328967673,
+    "echo": -1.2081758199221495,
+    "hold": -0.8639523852943654
+   },
+   "fb": 104.7815029163248,
+   "translit": "EUEYILDLNGTLRMTPWAINSSEUFIEINYEANDDETFTHFWEGEFPNHWIDUOREPYRSTOXMTCYHYEAIAESCORUOLDOY"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :THE PRIMES ARE SACRED",
+   "family": "hash",
+   "offset": 489,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": false,
+   "z1": 4.750561384786109,
+   "z2": {
+    "plain": 0.7068890748691512,
+    "echo": 0.7139160414221994,
+    "hold": 3.6601134479102444
+   },
+   "z5": {
+    "plain": -0.24594670625357024,
+    "echo": -0.30814109013016583,
+    "hold": -1.1645333301622838
+   },
+   "fb": 184.58273199206025,
+   "translit": "HELOEMRNIUSSCTHJNAESBLDENUESOEFENNGLPBOITTOOSRTHWCLTHTEEXTCLTHSTFGWAIPIAOASTTOEYICNGMOTH"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :THE PRIMES ARE SACRED",
+   "family": "hash",
+   "offset": 489,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.796371290635798,
+   "z2": {
+    "plain": 0.5855567838379232,
+    "echo": 0.42252579096633563,
+    "hold": 3.6224604945053582
+   },
+   "z5": {
+    "plain": 0.6095686454217258,
+    "echo": 0.0817681938947796,
+    "hold": -1.0456380827886642
+   },
+   "fb": 150.4279062397938,
+   "translit": "HELOEMRNIUSSCTHJNAESBLDENUESOEFENNGLPBOITTOOSRTHWCLTHTEEXTCLTHSTFGWAIPIAOASTTOEYICNGMOTH"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :the totient function is sacred",
+   "family": "hash",
+   "offset": 657,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": false,
+   "z1": 4.743068769236606,
+   "z2": {
+    "plain": 1.068757969317476,
+    "echo": 0.9998992647383689,
+    "hold": 4.348344300113847
+   },
+   "z5": {
+    "plain": 1.6027070216343993,
+    "echo": 1.5327829522784358,
+    "hold": 0.3633199679417924
+   },
+   "fb": 180.2775748774463,
+   "translit": "BSAMGOIASARETOAOIWIHOEUILRENEOBNUIUMRSFMSRPCESANOANYORSPGYTHCAXEDOTTNSBRTSIDEHOEUSS"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :the totient function is sacred",
+   "family": "hash",
+   "offset": 657,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.788819020213218,
+   "z2": {
+    "plain": 0.4875621379464141,
+    "echo": 0.3673082405416772,
+    "hold": 4.3043627413672425
+   },
+   "z5": {
+    "plain": 2.6325844405088192,
+    "echo": 2.710505430629341,
+    "hold": 0.42689021424003687
+   },
+   "fb": 155.47722879273752,
+   "translit": "BSAMGOIASARETOAOIWIHOEUILRENEOBNUIUMRSFMSRPCESANOANYORSPGYTHCAXEDOTTNSBRTSIDEHOEUSS"
+  },
+  {
+   "variant": "echo",
+   "stream": "md5-ctr mod :an instruction",
+   "family": "hash",
+   "offset": 2424,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.508276036890985,
+   "z2": {
+    "plain": 2.9966979189395,
+    "echo": 2.862614850299917,
+    "hold": 0.9971863465670964
+   },
+   "z5": {
+    "plain": -0.512965567588157,
+    "echo": -0.5349218363305525,
+    "hold": -0.04692302521605258
+   },
+   "fb": 101.00470519223103,
+   "translit": "OUPOMCOTTAPUARPTHNADENTHBOYLFWEASTLUUWBUAHRNCDGEOEHAOEAPITCXNSRAODEEAMTFAIATREOIMWNGDEG"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha512-ctr mod :program your mind",
+   "family": "hash",
+   "offset": 15497,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.966906707023954,
+   "z2": {
+    "plain": 1.6819048905268257,
+    "echo": 2.0721768503494276,
+    "hold": 0.7246061149273657
+   },
+   "z5": {
+    "plain": -0.10291688271605454,
+    "echo": 0.291638573403283,
+    "hold": -0.345686951950123
+   },
+   "fb": 118.32696799375029,
+   "translit": "EJNMETIFNGUOTHXAEEMAOITHAWYROREEEARCRBCPETNGTYUPROIANGLACOLSATNBMYTSHHANWSUENNOEWOYJH"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :program reality",
+   "family": "hash",
+   "offset": 722,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.506414751287762,
+   "z2": {
+    "plain": 0.7165002081708974,
+    "echo": 0.9254662996096333,
+    "hold": 3.1112140682867095
+   },
+   "z5": {
+    "plain": -1.259039855778152,
+    "echo": -1.6374024448316309,
+    "hold": -2.0439333105569273
+   },
+   "fb": 139.8598874155582,
+   "translit": "OMOATSYTTHGLSRMCWWIANGMACESSSYIOLDISLEELHHTEBIRNOLIAATHRETHOOHGUJNTOUNEEIGETLRLEOORTHRT"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :program reality",
+   "family": "hash",
+   "offset": 722,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.521965787813259,
+   "z2": {
+    "plain": 0.4392118624800328,
+    "echo": 0.551135925888569,
+    "hold": 3.0690255087472815
+   },
+   "z5": {
+    "plain": -0.48890262352075986,
+    "echo": -0.9278060012153565,
+    "hold": -2.074281048951414
+   },
+   "fb": 128.65276899387314,
+   "translit": "OMOATSYTTHGLSRMCWWIANGMACESSSYIOLDISLEELHHTEBIRNOLIAATHRETHOOHGUJNTOUNEEIGETLRLEOORTHRT"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :within",
+   "family": "hash",
+   "offset": 521,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 4.593555914624763,
+   "z2": {
+    "plain": 0.48253727483835673,
+    "echo": 0.586881945448776,
+    "hold": 2.640259772598779
+   },
+   "z5": {
+    "plain": -0.5310777807765606,
+    "echo": -0.4418781689305802,
+    "hold": -0.3929380932100903
+   },
+   "fb": 186.11478801041682,
+   "translit": "OILTESRNAATLWEAWHENTUCTTHWRMSTHRTORIMOESEDIATHOAAOETHHAGTEAETHDWSLEIWOIWEOECLSJEPTEDLWMTOE"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :within",
+   "family": "hash",
+   "offset": 521,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.604071928036746,
+   "z2": {
+    "plain": 0.6006576920178199,
+    "echo": 0.6574838051927975,
+    "hold": 2.571412537367776
+   },
+   "z5": {
+    "plain": -1.2954725762431791,
+    "echo": -1.2764092316590498,
+    "hold": -0.3978490739547956
+   },
+   "fb": 150.63063320589393,
+   "translit": "OILTESRNAATLWEAWHENTUCTTHWRMSTHRTORIMOESEDIATHOAAOETHHAGTEAETHDWSLEIWOIWEOECLSJEPTEDLWMTOE"
+  },
+  {
+   "variant": "plain",
+   "stream": "md5-ctr mod :<128 bytes 33363336>",
+   "family": "hash",
+   "offset": 5019,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.511105027132549,
+   "z2": {
+    "plain": 2.6846616986435596,
+    "echo": 2.6583181647665977,
+    "hold": 2.5405969275967006
+   },
+   "z5": {
+    "plain": 0.5359764292268805,
+    "echo": 0.6722027777066532,
+    "hold": -0.8241331145654722
+   },
+   "fb": 111.99189546750605,
+   "translit": "BTUMRSSTRTHTHTHYSRSCRATIMTHYNGSBAXSROPLHIELEHNFEAYUGBEAYASMSAAHSFORWTOTFTTWIIATNUULYPDG"
+  },
+  {
+   "variant": "echo",
+   "stream": "md5-ctr mod :<128 bytes 33363336>",
+   "family": "hash",
+   "offset": 5019,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.6455571007580785,
+   "z2": {
+    "plain": 2.6846616986435596,
+    "echo": 2.6583181647665977,
+    "hold": 2.5405969275967006
+   },
+   "z5": {
+    "plain": 0.5359764292268805,
+    "echo": 0.6722027777066532,
+    "hold": -0.8241331145654722
+   },
+   "fb": 111.99189546750605,
+   "translit": "BTUMRSSTRTHTHTHYSRSCRATIMTHYNGSBAXSROPLHIELEHNFEAYUGBEAYASMSAAHSFORWTOTFTTWITTNUULYPDG"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha512-ctr mod :<512 bytes 63626537>",
+   "family": "hash",
+   "offset": 13949,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.535858488406559,
+   "z2": {
+    "plain": 1.9157166130639336,
+    "echo": 2.1523692220242325,
+    "hold": -0.1124266403504455
+   },
+   "z5": {
+    "plain": -2.707379800582396,
+    "echo": -2.6656898754254983,
+    "hold": -1.4691197620344725
+   },
+   "fb": 110.35187499555197,
+   "translit": "YRBGALEYXEAUSUTEUEOFBFSTHNCARTHPATWYAULPOALWIANIATITENFBMERAMERFRGDICNWHOTTNOHNNEBSHR"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :29",
+   "family": "hash",
+   "offset": 228,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.579356890812793,
+   "z2": {
+    "plain": 1.9993306299895166,
+    "echo": 2.06099053938002,
+    "hold": 3.4619928221745697
+   },
+   "z5": {
+    "plain": 0.04414068708751735,
+    "echo": 0.03662565422261642,
+    "hold": -0.9387604314309342
+   },
+   "fb": 158.10522071715434,
+   "translit": "EDWFNALAIEELROEACUMEEYRSDIAETFNROYTTHANIETPUTRWABULOIONGFGCRTHONOWAYETEBCHDTNINOOSLAB"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :29",
+   "family": "hash",
+   "offset": 232,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.7064823588447045,
+   "z2": {
+    "plain": 0.36894350511225504,
+    "echo": 0.28325862671321556,
+    "hold": 3.5715742614423744
+   },
+   "z5": {
+    "plain": -2.120119703316091,
+    "echo": -2.38216221317174,
+    "hold": -1.8175078419539639
+   },
+   "fb": 194.17477478407758,
+   "translit": "SENGIATHERCTLSTAFUENPTURUORAHHTWMTCDAIWEWNAROEMNENAROHTOTYUUINTAEETEBCHDTNINOOSLAB"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :29",
+   "family": "hash",
+   "offset": 233,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.852878129180329,
+   "z2": {
+    "plain": 0.23929853408347565,
+    "echo": 0.14159147846033038,
+    "hold": 3.697766593037722
+   },
+   "z5": {
+    "plain": -1.9202287266291826,
+    "echo": -2.186436514101034,
+    "hold": -1.849266060410242
+   },
+   "fb": 197.6440379638277,
+   "translit": "EENGIATHERCTLSTAFUENPTURUORAHHTWMTCDAIWEWNAROEMNENAROHTOTYUUINTAEETEBCHDTNINOOSLAB"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :29",
+   "family": "hash",
+   "offset": 234,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.580133292837112,
+   "z2": {
+    "plain": -1.279281028181325,
+    "echo": -1.1950932411452595,
+    "hold": 3.4626620763577987
+   },
+   "z5": {
+    "plain": -0.7312232783615752,
+    "echo": -1.0032575688573224,
+    "hold": -1.8241817735448727
+   },
+   "fb": 229.51487912021878,
+   "translit": "RUMIATHERCTLSTAFUENPTURUORAHHTWMTCDAIWEWNAROEMNENAROHTOTYUUINTAEETEBCHDTNINOOSLAB"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :29",
+   "family": "hash",
+   "offset": 228,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.525516518654037,
+   "z2": {
+    "plain": 0.46435031049516656,
+    "echo": 0.426155531571341,
+    "hold": 3.4636115224403943
+   },
+   "z5": {
+    "plain": 0.22894457007393834,
+    "echo": 0.2216825218586413,
+    "hold": -0.9568061104986219
+   },
+   "fb": 158.15055013225415,
+   "translit": "EDWFNALAIEELROEACUMEEYRSDIAETFNROYTTHANIETPUTRWABULOIONGFGCRTHONOWAYETEBCHDTNINOOSLAB"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :29",
+   "family": "hash",
+   "offset": 232,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.652538643599031,
+   "z2": {
+    "plain": 0.5827290663442591,
+    "echo": 0.558182264333323,
+    "hold": 3.5732981473627836
+   },
+   "z5": {
+    "plain": -0.3852073616539978,
+    "echo": -0.39008167343936195,
+    "hold": -1.8308874741122823
+   },
+   "fb": 156.71365132549812,
+   "translit": "SENGIATHERCTLSTAFUENPTURUORAHHTWMTCDAIWEWNAROEMNENAROHTOTYUUINTAEETEBCHDTNINOOSLAB"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :29",
+   "family": "hash",
+   "offset": 233,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.798815405595476,
+   "z2": {
+    "plain": 0.44949439998384133,
+    "echo": 0.4107728153490344,
+    "hold": 3.6996116091704296
+   },
+   "z5": {
+    "plain": -0.16146058771016578,
+    "echo": -0.16720479551901984,
+    "hold": -1.8624770601091067
+   },
+   "fb": 159.60758898009033,
+   "translit": "EENGIATHERCTLSTAFUENPTURUORAHHTWMTCDAIWEWNAROEMNENAROHTOTYUUINTAEETEBCHDTNINOOSLAB"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :29",
+   "family": "hash",
+   "offset": 234,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.526292289524086,
+   "z2": {
+    "plain": 0.15223236333414197,
+    "echo": 0.20890596766237143,
+    "hold": 3.4642814190311317
+   },
+   "z5": {
+    "plain": 0.1142427613052644,
+    "echo": 0.10106707765417255,
+    "hold": -1.8375259678999039
+   },
+   "fb": 163.42080247727662,
+   "translit": "RUMIATHERCTLSTAFUENPTURUORAHHTWMTCDAIWEWNAROEMNENAROHTOTYUUINTAEETEBCHDTNINOOSLAB"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :729",
+   "family": "hash",
+   "offset": 845,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.527087144978012,
+   "z2": {
+    "plain": 0.27460358136558516,
+    "echo": 0.7112188662943779,
+    "hold": 3.9618678167198507
+   },
+   "z5": {
+    "plain": 1.48379851077299,
+    "echo": 1.291734983454133,
+    "hold": -1.4290266083639795
+   },
+   "fb": 152.6296284070907,
+   "translit": "SNTHUWTSLTHLIITHSTOEBERSILEEIAWSREUHSTHOYSEECNANAJETHEIFNESDTWSASEEEAIECEYNYEELOOEOLUBED"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :729",
+   "family": "hash",
+   "offset": 845,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.564093022619182,
+   "z2": {
+    "plain": 1.2269275832621998,
+    "echo": 1.844911197641064,
+    "hold": 3.930297372510262
+   },
+   "z5": {
+    "plain": 0.33983067330660177,
+    "echo": 0.43191505012396053,
+    "hold": -1.469155488568583
+   },
+   "fb": 120.23492967023526,
+   "translit": "SNTHUWTSLTHLIITHSTOEBERSILEEIAWSREUHSTHOYSEECNANAJETHEIFNESDTWSASEEEAIECEYNYEELOOEOLUBED"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha256-ctr mod :20140104",
+   "family": "hash",
+   "offset": 18019,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.530585389246309,
+   "z2": {
+    "plain": 3.400812615846945,
+    "echo": 3.61991354870696,
+    "hold": 0.8965461988177466
+   },
+   "z5": {
+    "plain": -3.132389379362113,
+    "echo": -2.907448665602661,
+    "hold": 0.8066504724430192
+   },
+   "fb": 92.30606372309468,
+   "translit": "IBOINRWDLROUGSSWTATHWLPNANTHPTCYITHNMUCCRROFEIAOOUENCFEPASDIRDWMCUALINUOYSRPUSPOFANGEO"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha512-ctr reject :20140104",
+   "family": "hash",
+   "offset": 12401,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.50810067135119,
+   "z2": {
+    "plain": 2.0377791051600544,
+    "echo": 1.9946259676889824,
+    "hold": 1.3293648371504414
+   },
+   "z5": {
+    "plain": -3.033763459695103,
+    "echo": -3.300930861328645,
+    "hold": 0.18162652078100622
+   },
+   "fb": 115.87386695866972,
+   "translit": "GTMWMYNGFIDRTHTTOEHAEATODSAEROCEALURSOTHIANMOEEFDMAEIYWHWNWHNGOIBUFTHETHATFBOEIEAAEIYOENGGCSGLN"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha256-chain mod :20140104",
+   "family": "hash",
+   "offset": 5922,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.594767693056618,
+   "z2": {
+    "plain": 4.391393193110307,
+    "echo": 4.238137930770763,
+    "hold": 1.7184928529696268
+   },
+   "z5": {
+    "plain": -0.55758152247249,
+    "echo": -0.5534978503806772,
+    "hold": 0.5056865438926949
+   },
+   "fb": 82.4738409647498,
+   "translit": "POPWOTWURDUAOOTENIWUSLMLHYUGTHTRARUURCFCNFNGMDEOSSYNRAYWRSFIANGNTLPRTPMTTHAIABIGODNGRI"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha512-ctr mod :434",
+   "family": "hash",
+   "offset": 268,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 4.512810690845025,
+   "z2": {
+    "plain": 4.0642631678360654,
+    "echo": 4.10387483396582,
+    "hold": 1.908463765412452
+   },
+   "z5": {
+    "plain": -0.4771019073725181,
+    "echo": -0.24557319182946094,
+    "hold": -1.97575470946541
+   },
+   "fb": 103.99027424321767,
+   "translit": "DFLDNWUSEUEYHYANEAAEWRPEASOHOCBFIOIYIAGBSLHTHTHODRSSEWUEAOLTHSRWARPWYSIRYFEYNOEIERORYOUR"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha512-ctr mod :434",
+   "family": "hash",
+   "offset": 268,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.645063906996527,
+   "z2": {
+    "plain": 3.973510348719374,
+    "echo": 3.8736729407774817,
+    "hold": 1.8266293812378094
+   },
+   "z5": {
+    "plain": -0.1142646375727945,
+    "echo": 0.06257030424349314,
+    "hold": -1.9518233860318661
+   },
+   "fb": 90.05951698974886,
+   "translit": "DFLDNWUSEUEYHYANEAAEWRPEASOHOCBFIOIYIAGBSLHTHTHODRSSEWUEAOLTHSRWARPWYSIRYFEYNOEIERORYOUR"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha512-ctr mod :434",
+   "family": "hash",
+   "offset": 268,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.5055283438241664,
+   "z2": {
+    "plain": 3.973510348719374,
+    "echo": 3.8736729407774817,
+    "hold": 1.8266293812378094
+   },
+   "z5": {
+    "plain": -0.1142646375727945,
+    "echo": 0.06257030424349314,
+    "hold": -1.9518233860318661
+   },
+   "fb": 90.05951698974886,
+   "translit": "DFLDNWUSEUEYHYANEAAEWRPEASOHOCBFIOIYIAGBSLHTHTHODRSSEWUEAOLTHSRWARPWYSIRYFEYNOEIERORYOUR"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 625,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.668610673365116,
+   "z2": {
+    "plain": 1.447113963399245,
+    "echo": 1.6416397556178073,
+    "hold": 3.2305594847977943
+   },
+   "z5": {
+    "plain": -0.5538822411472054,
+    "echo": -0.8372737127545244,
+    "hold": -0.19844596479971846
+   },
+   "fb": 168.94803006671032,
+   "translit": "RTNHNLSDSIELREAAENGDEPEERTHYNHTHEAFUXRSOEIRCOUBAEOETDORPHAEANRTOEINEGNIOENRTRELRETEABEATHOA"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 626,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.566569820729227,
+   "z2": {
+    "plain": 1.745035413468617,
+    "echo": 2.122270761659674,
+    "hold": 3.1426008430789865
+   },
+   "z5": {
+    "plain": -0.6536145158353555,
+    "echo": -0.8934241910115301,
+    "hold": -0.4099285696278412
+   },
+   "fb": 162.00942948231875,
+   "translit": "THERSNLSDSIELREAAENGDEPEERTHYNHTHEAFUXRSOEIRCOUBAEOETDORPAAEHNRTOEINEGNIOENRTRELRETEABEATHOA"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 625,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.635236472465674,
+   "z2": {
+    "plain": 1.275683359841124,
+    "echo": 1.4634129739598014,
+    "hold": 3.2496917151386295
+   },
+   "z5": {
+    "plain": -0.34639744533878736,
+    "echo": -0.5903842826022647,
+    "hold": -0.22042262788809286
+   },
+   "fb": 143.36624069326317,
+   "translit": "RTNHNLSDSIELREAAENGDEPEERTHYNHTHEAFUXRSOEIRCOUBAEOETDORPHAEANRTOEINEGNIOENRTRELRETEABEATHOA"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 626,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.53327857108154,
+   "z2": {
+    "plain": 1.66020211269619,
+    "echo": 2.083298950615419,
+    "hold": 3.161648643179014
+   },
+   "z5": {
+    "plain": -0.4372302878068023,
+    "echo": -0.6424095367512482,
+    "hold": -0.5247492962681451
+   },
+   "fb": 136.42764010887163,
+   "translit": "THERSNLSDSIELREAAENGDEPEERTHYNHTHEAFUXRSOEIRCOUBAEOETDORPHAEANRTOEINEGNIOENRTRELRETEABEATHOA"
+  },
+  {
+   "variant": "hold",
+   "stream": "composites",
+   "family": "integer",
+   "offset": 70,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.760962330213891,
+   "z2": {
+    "plain": 0.8456819195616772,
+    "echo": 1.0719879454255026,
+    "hold": 5.1636234756939885
+   },
+   "z5": {
+    "plain": 0.4849613641707093,
+    "echo": 0.6111090279598941,
+    "hold": -2.6827133094237907
+   },
+   "fb": 146.66480399112663,
+   "translit": "PHEAUBATHRTDAOGENHTTOHELUEOLPAHNEAIRIATSHNLABSEECAUUNNTDIAEREIOEOENIEOJNASTUAYEHILED"
+  },
+  {
+   "variant": "hold",
+   "stream": "composites",
+   "family": "integer",
+   "offset": 70,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.7573068845289646,
+   "z2": {
+    "plain": 1.4986187546339829,
+    "echo": 1.4968797406131227,
+    "hold": 5.282460400762944
+   },
+   "z5": {
+    "plain": 0.0361786224440211,
+    "echo": 0.14921491025918776,
+    "hold": -2.5341671077746786
+   },
+   "fb": 120.4133716738036,
+   "translit": "PHEAUBATHRTDAOGENHTTOHELUEOLPAHNEAIRIATSHNLABSEECAUUNNTDIAEREIOEOENIEOJNASTUAYEHILED"
+  },
+  {
+   "variant": "plain",
+   "stream": "p_n mod 3301",
+   "family": "number2",
+   "offset": 9721,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.764818255823387,
+   "z2": {
+    "plain": 2.9549201203659274,
+    "echo": 2.8269570736833254,
+    "hold": 1.8242103202060744
+   },
+   "z5": {
+    "plain": -0.15229584777617716,
+    "echo": -0.5969962760967883,
+    "hold": 0.8397798232476948
+   },
+   "fb": 105.26248420794506,
+   "translit": "OAEGWEUBGOIANHNGUEWFIOWCEPYYAIARUPICFIADIIYUIALSDRPLRMCTUHHLHUOOFFUSOFTCTSCASADTNNEI"
+  },
+  {
+   "variant": "echo",
+   "stream": "p_n mod 3301",
+   "family": "number2",
+   "offset": 9721,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.684824718230504,
+   "z2": {
+    "plain": 2.9549201203659274,
+    "echo": 2.8269570736833254,
+    "hold": 1.8242103202060744
+   },
+   "z5": {
+    "plain": -0.15229584777617716,
+    "echo": -0.5969962760967883,
+    "hold": 0.8397798232476948
+   },
+   "fb": 105.26248420794506,
+   "translit": "OAEGWEUBGOIANHNGUEWFIOWCEPYYAIARUPICFIADIIYUIALSDRPLRMCTUHHLHUOOFFUSOFTCTSOASADTNNEI"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain mod :cicada3301",
+   "family": "hash",
+   "offset": 651,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.53622817580991,
+   "z2": {
+    "plain": -1.1454385457719765,
+    "echo": -0.8497311193630562,
+    "hold": 3.921902425768198
+   },
+   "z5": {
+    "plain": 1.7941735499822073,
+    "echo": 1.7262061612265707,
+    "hold": -0.4629228983071371
+   },
+   "fb": 180.3080515955529,
+   "translit": "SRICEAYEOUETHBSROFNHLETEODTTHENIWONYUPETHUUATHYEAUDAPUREAANNREDUSDUISOEDHOEOOHNYEDGIDIAHIO"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain mod :cicada3301",
+   "family": "hash",
+   "offset": 651,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.546319225289347,
+   "z2": {
+    "plain": -0.36382438602516654,
+    "echo": -0.3089046420527652,
+    "hold": 4.035566679439775
+   },
+   "z5": {
+    "plain": 1.449698090875005,
+    "echo": 0.4862005877928241,
+    "hold": -0.3966464363025684
+   },
+   "fb": 144.9776008537931,
+   "translit": "SRICEAYEOUETHBSROFNHLETEODTTHENIWONYUPETHUUATHYEAUDAPUREAANNREDUSDUISOEDHOEOOHNYEDGIDIAHIO"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha512-ctr mod :liber primus",
+   "family": "hash",
+   "offset": 16775,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.62511783922718,
+   "z2": {
+    "plain": 2.687252808730104,
+    "echo": 2.43479862393414,
+    "hold": 0.7626808605204286
+   },
+   "z5": {
+    "plain": -0.8087059583291492,
+    "echo": -0.6063691958374667,
+    "hold": 0.5668769495008572
+   },
+   "fb": 103.00988139847175,
+   "translit": "WADNODOEAOIAPNGESPBCTNMIWWGMALNNUTOJTSTMWUUUEAALWTHEYYLINIUTDFINEUFBNGEEBTREYSHRYTTMM"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha512-ctr reject :liberprimus",
+   "family": "hash",
+   "offset": 2389,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.501041496008292,
+   "z2": {
+    "plain": 3.66507901618326,
+    "echo": 3.604076317836299,
+    "hold": 2.2859315223009404
+   },
+   "z5": {
+    "plain": -2.548443736752399,
+    "echo": -2.2461253231044926,
+    "hold": 0.6378042416208706
+   },
+   "fb": 96.83646110328492,
+   "translit": "ITTHNDEGFMCIACYMMFSNBWIMIBUDEUNENNOMCOSHFYMNCDIADTUIOABEOIIFTHFSWTHLLEAPHBEDFEAOTAEOS"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :LIBER PRIMUS",
+   "family": "hash",
+   "offset": 148,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.568300758762636,
+   "z2": {
+    "plain": 1.1052129300148237,
+    "echo": 1.0791512698751244,
+    "hold": 4.960226511825149
+   },
+   "z5": {
+    "plain": 0.006831260901889838,
+    "echo": -0.3232927852759998,
+    "hold": 0.684735888793656
+   },
+   "fb": 182.09538812459414,
+   "translit": "EHUWDMTHECMATEHTGNGENOEERGNIEESEOENIUTHEAGIEUBIIAPNNNIERNGARSSNHHTHEOIEASYOTHTWNGLAETGSOOI"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :LIBER PRIMUS",
+   "family": "hash",
+   "offset": 148,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.72815370964641,
+   "z2": {
+    "plain": 0.9099540299165573,
+    "echo": 0.8381044304672732,
+    "hold": 4.974565588056166
+   },
+   "z5": {
+    "plain": -0.6136697668129694,
+    "echo": -1.186186033648235,
+    "hold": 0.7229700256157326
+   },
+   "fb": 152.6802402686235,
+   "translit": "EHUWDMTHECMATEHTGNGENOEERGNIEESEOENIUTHEAGIEUBIIAPNNNIERNGARSSNHHTHEOIEASYOTHTWNGLAETGSOOI"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :LIBER PRIMUS",
+   "family": "hash",
+   "offset": 149,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.63190253306768,
+   "z2": {
+    "plain": 0.30269800732164076,
+    "echo": 0.21260784535025537,
+    "hold": 4.892463712444065
+   },
+   "z5": {
+    "plain": -0.6270224640767412,
+    "echo": -1.199151946635259,
+    "hold": 0.63129608472398
+   },
+   "fb": 161.50157712318196,
+   "translit": "RTHEYOIIAECMATEHTGNGENOEERGNIEESEOENIUTHEAGIEUBIIAPNNNIERNGARSSNHHTHEOIEASYOTHTWNGLAETGSOOI"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :LIBER PRIMUS",
+   "family": "hash",
+   "offset": 717,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.622406228239483,
+   "z2": {
+    "plain": 1.1423572167307918,
+    "echo": 0.9590408685057518,
+    "hold": 4.612684550628686
+   },
+   "z5": {
+    "plain": 0.43914639791876914,
+    "echo": 0.44759412775306706,
+    "hold": -1.542282578657431
+   },
+   "fb": 147.2714588607039,
+   "translit": "DLOIHSSAOYULMSIDESNEONNNERBTTOESITHLRDGECGREHPERETLRTHUNGTHDTAIADLTHEUTEPTOYOXUIHTEIET"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :INTUS",
+   "family": "hash",
+   "offset": 581,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": false,
+   "z1": 5.843927073845105,
+   "z2": {
+    "plain": -0.6322585303075493,
+    "echo": -0.7792288682096739,
+    "hold": 4.9529595262785335
+   },
+   "z5": {
+    "plain": -0.24100649680545094,
+    "echo": -0.14351761717147538,
+    "hold": -1.780467494330515
+   },
+   "fb": 174.95634964572855,
+   "translit": "NMRNTIONYILMUERNREETWAIEROTRSESWTHRIHITHTOEXBEFDETUFSPIDIADONOYIOEIOAOJRFNRTROEOTHOBAI"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :INTUS",
+   "family": "hash",
+   "offset": 584,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.9724421012115725,
+   "z2": {
+    "plain": 0.5503784611193485,
+    "echo": 0.513082228574107,
+    "hold": 4.155088121230811
+   },
+   "z5": {
+    "plain": -1.5981698948679106,
+    "echo": -0.9019115862706094,
+    "hold": -1.826520969749058
+   },
+   "fb": 147.80595308678693,
+   "translit": "DMUHTIONYILMUERNREETWAIEROTRSESWTHRIHITHTOEXBEFDETUFSPIDIADONOYIOEIOAOJRFNRTROEOTHOBAI"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :INTUS",
+   "family": "hash",
+   "offset": 581,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": true,
+   "z1": 5.834837452994676,
+   "z2": {
+    "plain": -0.6037515271027438,
+    "echo": -0.8002739139320595,
+    "hold": 5.0774631989474965
+   },
+   "z5": {
+    "plain": 0.8851656917290424,
+    "echo": -0.9320780506627637,
+    "hold": -1.6653602731956771
+   },
+   "fb": 153.64517227264398,
+   "translit": "NMRNTIONYILMUERNREETWAIEROTRSESWTHRIHITHTOEXBEFDETUFSPIDIADONOYIOEIOAOJRFNRTROEOTHOBAI"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :INTUS",
+   "family": "hash",
+   "offset": 584,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.976134984026652,
+   "z2": {
+    "plain": -0.30906451624685455,
+    "echo": -0.4111458922540048,
+    "hold": 4.263538760890616
+   },
+   "z5": {
+    "plain": -1.2592959604177631,
+    "echo": -1.1438231824228304,
+    "hold": -1.709706917458704
+   },
+   "fb": 145.13085303370565,
+   "translit": "DMUHTIONYILMUERNREETWAIEROTRSESWTHRIHITHTOEXBEFDETUFSPIDIADONOYIOEIOAOJRFNRTROEOTHOBAI"
+  },
+  {
+   "variant": "echo",
+   "stream": "md5-ctr reject :INSTAR",
+   "family": "hash",
+   "offset": 19033,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.745701353159086,
+   "z2": {
+    "plain": 3.5047050139799345,
+    "echo": 3.918856173533524,
+    "hold": 2.441429932567002
+   },
+   "z5": {
+    "plain": -0.9821677305991111,
+    "echo": -1.2332358722880457,
+    "hold": -0.6102578359013004
+   },
+   "fb": 101.23495873026286,
+   "translit": "SOTEFCWTTHRCIAPOEEAOHLEASYDDENSNGYAITHRNRHURDFALNDLIBBRRWEOEIPOFWLOYEAROCHAYAUEACYMIBLL"
+  },
+  {
+   "variant": "plain",
+   "stream": "md5-ctr reject :firfumferenfe",
+   "family": "hash",
+   "offset": 18125,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.611991004106141,
+   "z2": {
+    "plain": 1.531668370059254,
+    "echo": 1.3953601139388097,
+    "hold": 1.6670613434808905
+   },
+   "z5": {
+    "plain": -2.2132929995578907,
+    "echo": -2.756336437379812,
+    "hold": -0.6577393916986106
+   },
+   "fb": 125.26168281812139,
+   "translit": "GNMIYTHRFTSTORAETHEPFNIRCILNGEMNAUTIATHUJWOATHRCNUSONNLTHFTTOPANEGCSAFMEEDNWOMCDDITDIATEEO"
+  },
+  {
+   "variant": "plain",
+   "stream": "md5-ctr reject :firfumferenfe",
+   "family": "hash",
+   "offset": 18126,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.681630347674372,
+   "z2": {
+    "plain": 1.5777134819036862,
+    "echo": 1.4407455360201407,
+    "hold": 1.8070875282156398
+   },
+   "z5": {
+    "plain": -2.17682099796031,
+    "echo": -2.720434793744814,
+    "hold": -0.6324331256524303
+   },
+   "fb": 125.26168281812141,
+   "translit": "TMMIYTHRFTSTORAETHEPFNIRCILNGEMNAUTIATHUJWOATHRCNUSONNLTHFTTOPANEGCSAFMEEDNWOMCDDITDIATEEO"
+  },
+  {
+   "variant": "echo",
+   "stream": "md5-ctr reject :firfumferenfe",
+   "family": "hash",
+   "offset": 18126,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.534587416438264,
+   "z2": {
+    "plain": 1.5777134819036862,
+    "echo": 1.4407455360201407,
+    "hold": 1.8070875282156398
+   },
+   "z5": {
+    "plain": -2.17682099796031,
+    "echo": -2.720434793744814,
+    "hold": -0.6324331256524303
+   },
+   "fb": 125.26168281812141,
+   "translit": "TMMIYTHRFTSTORAETHEPFNIRCILNGEMNAUTETHUJWOATHRCNUSONNLTHFTTOPANEGCSAFMEEDNWOMEDDITDIATEEO"
+  },
+  {
+   "variant": "echo",
+   "stream": "md5-ctr reject :firfumferenfe",
+   "family": "hash",
+   "offset": 17333,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.513615985601068,
+   "z2": {
+    "plain": 3.550794750060211,
+    "echo": 3.55685080391424,
+    "hold": 4.07076800438193
+   },
+   "z5": {
+    "plain": -0.17144494644712627,
+    "echo": -0.6242219285533721,
+    "hold": 0.5824385942087172
+   },
+   "fb": 107.80132009499735,
+   "translit": "NGSWOWEAOESOSGETEUFUIAOSUWOEGSIAEEGRODMNTHSNTRIWFTHTHEUAMMSSRUPLWTHMPSULHEOTHBGRRISAEWHAELP"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :CIRCUMFERENCE",
+   "family": "hash",
+   "offset": 525,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.612500165345165,
+   "z2": {
+    "plain": 0.07730373457031343,
+    "echo": -0.06548895547829216,
+    "hold": 4.117198612544101
+   },
+   "z5": {
+    "plain": -0.5129774088993454,
+    "echo": -0.4509984691672966,
+    "hold": -0.590253208328548
+   },
+   "fb": 203.23602348327915,
+   "translit": "DUNUNSOEESPTSSTOUOIDRTCEEEOBAETHFYXNTHETEENFEAURNMRMGLLSTHIWNDCSTLSAEWRCOEJONESJENGTNOB"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :CIRCUMFERENCE",
+   "family": "hash",
+   "offset": 526,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.623155956607605,
+   "z2": {
+    "plain": 0.05940307986414441,
+    "echo": 0.033282585629229464,
+    "hold": 4.1261589773271306
+   },
+   "z5": {
+    "plain": -0.7529284464527048,
+    "echo": -2.0976856293795647,
+    "hold": -0.6451178292603296
+   },
+   "fb": 203.67811522758322,
+   "translit": "TEMUNSOEESPTSSTOUOIDRTCEEEOBAETHFYXNTHETEENFEAURNMRMGLLSTHIWNDCSTLSAEWRCOEJONESJENGTNOB"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :CIRCUMFERENCE",
+   "family": "hash",
+   "offset": 525,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.623750576725699,
+   "z2": {
+    "plain": 0.7290572818445303,
+    "echo": 0.704955738115024,
+    "hold": 4.17871603380709
+   },
+   "z5": {
+    "plain": -0.8159997977282786,
+    "echo": -0.7787515216920659,
+    "hold": -0.5432755837475902
+   },
+   "fb": 156.3989106312872,
+   "translit": "DUNUNSOEESPTSSTOUOIDRTCEEEOBAETHFYXNTHETEENFEAURNMRMGLLSTHIWNDCSTLSAEWRCOEJONESJENGTNOB"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :CIRCUMFERENCE",
+   "family": "hash",
+   "offset": 526,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.63446103379142,
+   "z2": {
+    "plain": 0.24748401893337368,
+    "echo": 0.11764896949196796,
+    "hold": 4.187803645140174
+   },
+   "z5": {
+    "plain": -0.7430260273645088,
+    "echo": -0.731597427079905,
+    "hold": -0.5990787056186169
+   },
+   "fb": 164.46570614289226,
+   "translit": "TEMUNSOEESPTSSTOUOIDRTCEEEOBAETHFYXNTHETEENFEAURNMRMGLLSTHIWNDCSTLSAEWRCOEJONESJENGTNOB"
+  },
+  {
+   "variant": "plain",
+   "stream": "md5-ctr mod :totient",
+   "family": "hash",
+   "offset": 9739,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.801332327241285,
+   "z2": {
+    "plain": 2.1256474188337013,
+    "echo": 1.8697155778368657,
+    "hold": 1.9352879818772157
+   },
+   "z5": {
+    "plain": -1.4869327275746878,
+    "echo": -1.438238981466372,
+    "hold": 0.32472102001427355
+   },
+   "fb": 117.51587180472157,
+   "translit": "CYNRRSDFDEGEAGSSAWFXOEUWAGARSOAACFXROFUGNEASYSBSSOOYIBOSCIMOLNFYOWTERPRTUDLFNNGTHAD"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :totient",
+   "family": "hash",
+   "offset": 433,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.94730292976499,
+   "z2": {
+    "plain": 0.6154786369657577,
+    "echo": 0.5745376564475485,
+    "hold": 4.174848102606931
+   },
+   "z5": {
+    "plain": -1.0043465049984266,
+    "echo": -0.8953562265820022,
+    "hold": 0.2506263233249586
+   },
+   "fb": 146.6086975074737,
+   "translit": "OSURTHYEOTDAUREIEOHAYRLNUTEOTESOUIEREOEARONOBGJPUNGOHADSISIWRDJDINUEUJNMTHSNUITHOTCAA"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :totient",
+   "family": "hash",
+   "offset": 434,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.826548249151086,
+   "z2": {
+    "plain": 0.5298327922097374,
+    "echo": 0.5292215295622896,
+    "hold": 4.064293463441604
+   },
+   "z5": {
+    "plain": -1.0349712988351714,
+    "echo": -0.9145822824447861,
+    "hold": 0.23242176166396714
+   },
+   "fb": 147.78905830636768,
+   "translit": "ESTHTYEOTDAUREIEOHAYRLNUTEOTESOUIEREOEARONOBGJPUNGOHADSISIWRDJDINUEUJNMTHSNUITHOTCAA"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :totient",
+   "family": "hash",
+   "offset": 435,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.598710530038829,
+   "z2": {
+    "plain": 1.2383549587831826,
+    "echo": 1.4582497091555242,
+    "hold": 3.855700995666024
+   },
+   "z5": {
+    "plain": -0.48931452137410814,
+    "echo": -0.2920864445943255,
+    "hold": 0.30746465726714683
+   },
+   "fb": 132.78088517227633,
+   "translit": "ECIROBEORDHBREIEOHAYRLNUTEOTESOUIEREOEARONOBGJPUNGOHADSISIWRDJDINUEUJNMTHSNUITHOTCAA"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :totient",
+   "family": "hash",
+   "offset": 433,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.940914333800262,
+   "z2": {
+    "plain": -0.15642138292318894,
+    "echo": -0.201986136685747,
+    "hold": 4.273791040245845
+   },
+   "z5": {
+    "plain": -0.729255679855651,
+    "echo": -0.6466736464742319,
+    "hold": 0.2904572666926085
+   },
+   "fb": 142.69685409503057,
+   "translit": "OSURTHYEOTDAUREIEOHAYRLNUTEOTESOUIEREOEARONOBGJPUNGOHADSISIWRDJDINUEUJNMTHSNUITHOTCAA"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :totient",
+   "family": "hash",
+   "offset": 434,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.821930822163502,
+   "z2": {
+    "plain": -0.26079997802551536,
+    "echo": -0.25637606252936246,
+    "hold": 4.161012061092134
+   },
+   "z5": {
+    "plain": -0.7578181802490269,
+    "echo": -0.6647372980886944,
+    "hold": 0.272927401408668
+   },
+   "fb": 143.8772148939246,
+   "translit": "ESTHTYEOTDAUREIEOHAYRLNUTEOTESOUIEREOEARONOBGJPUNGOHADSISIWRDJDINUEUJNMTHSNUITHOTCAA"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :totient",
+   "family": "hash",
+   "offset": 435,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.597434912228851,
+   "z2": {
+    "plain": 1.4765321084076277,
+    "echo": 1.6832950434453589,
+    "hold": 3.948222749377192
+   },
+   "z5": {
+    "plain": -1.2913577595993655,
+    "echo": -1.1174842040557134,
+    "hold": 0.34518906169678004
+   },
+   "fb": 114.66648458092305,
+   "translit": "ECIROBEORDHBREIEOHAYRLNUTEOTESOUIEREOEARONOBGJPUNGOHADSISIWRDJDINUEUJNMTHSNUITHOTCAA"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha256-chain reject :totient",
+   "family": "hash",
+   "offset": 5086,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.730012943632563,
+   "z2": {
+    "plain": 2.803697973065239,
+    "echo": 2.792127509592683,
+    "hold": 1.326917363813619
+   },
+   "z5": {
+    "plain": -2.412327814726367,
+    "echo": -1.7372548416583542,
+    "hold": -1.2438285549499621
+   },
+   "fb": 104.06803166311363,
+   "translit": "TMHSSMHFICEHUPOAURSSEMLTHEMLOFERTUBEYDLLTHOCIBGNCNNSSLRXBNEASUHFGLSFEAEANTHEIIBRHNGTWN"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr reject :welcome",
+   "family": "hash",
+   "offset": 993,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.873402895720954,
+   "z2": {
+    "plain": 0.007568493596528361,
+    "echo": 0.09311736975935123,
+    "hold": 2.929963814353929
+   },
+   "z5": {
+    "plain": -1.5744974213319143,
+    "echo": -1.475284615816105,
+    "hold": 1.127023648878521
+   },
+   "fb": 198.56157702483148,
+   "translit": "DEOSOSOEHRIOASHTSSSDAEOEEIATITDEDEPMWFOTOOIEARIOEEORGARRRSIFSNHEWRTHNTTIUGPLPEANGNEHBT"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr reject :welcome",
+   "family": "hash",
+   "offset": 994,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.57934900823931,
+   "z2": {
+    "plain": -0.030482573150790795,
+    "echo": -0.07196346984040118,
+    "hold": 2.6770828786304266
+   },
+   "z5": {
+    "plain": 0.16429047061720567,
+    "echo": 0.040815858044116096,
+    "hold": 1.1333082326213597
+   },
+   "fb": 198.0704257149366,
+   "translit": "OIOSOSOEHRIOASHTSSSDAEOEEIATITDEDEPMWFOTOOIEARIOEEORGARRRSIFSNHEWRTHNTTIUGPLPEANGNEHBT"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr reject :welcome",
+   "family": "hash",
+   "offset": 993,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.895762739124508,
+   "z2": {
+    "plain": -0.14078642496819443,
+    "echo": -0.10352528274785501,
+    "hold": 3.062775277036518
+   },
+   "z5": {
+    "plain": -0.4604587252982478,
+    "echo": -1.281502869088453,
+    "hold": 1.1328300300453413
+   },
+   "fb": 164.92640034710882,
+   "translit": "DEOSOSOEHRIOASHTSSSDAEOEEIATITDEDEPMWFOTOOFNRIOEEORGARRRSIFSNHEWRTHNTTIUGPLPEANGNEHBT"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr reject :welcome",
+   "family": "hash",
+   "offset": 994,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.603919737475028,
+   "z2": {
+    "plain": -0.5326023902740217,
+    "echo": -0.5015362108241196,
+    "hold": 2.8025715396474116
+   },
+   "z5": {
+    "plain": 0.4984075894386581,
+    "echo": -0.33071037455804175,
+    "hold": 1.1392784381557872
+   },
+   "fb": 170.14985670169395,
+   "translit": "OIOSOSOEHRIOASHTSSSDAEOEEIATITDEDEPMWFOTOOFNRIOEEORGARRRSIFSNHEWRTHNTTIUGPLPEANGNEHBT"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :welcome",
+   "family": "hash",
+   "offset": 144,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.695738808746962,
+   "z2": {
+    "plain": 1.419760238388154,
+    "echo": 1.3806327578430293,
+    "hold": 4.1734202631082535
+   },
+   "z5": {
+    "plain": 0.5022689614473981,
+    "echo": 0.32978545175779844,
+    "hold": -0.543478092952116
+   },
+   "fb": 132.03132187907087,
+   "translit": "TEEHMWGETHHYUORBNDBTGADLEREUMILSRCCEATPNOYEENDWLTULRENEDTNGIDRTHETHCIRRFWEEEIBIWTHRTA"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :welcome",
+   "family": "hash",
+   "offset": 144,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.637074518011491,
+   "z2": {
+    "plain": 1.1251047206691627,
+    "echo": 1.0756305446620715,
+    "hold": 4.132928012698008
+   },
+   "z5": {
+    "plain": 0.40946059837095583,
+    "echo": 0.21063140688970367,
+    "hold": -0.5055222071942004
+   },
+   "fb": 121.17021372849675,
+   "translit": "TEEHMWGETHHYUORBNDBTGADLEREUMILSRCCEATPNOYEENDWLTULRENEDTNGIDRTHETHCIRRFWEEEIBIWTHRTA"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :an end",
+   "family": "hash",
+   "offset": 881,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.830622677915342,
+   "z2": {
+    "plain": 0.5458320732975573,
+    "echo": 0.3728357785555093,
+    "hold": 4.091212924379983
+   },
+   "z5": {
+    "plain": -0.36850077220554883,
+    "echo": -0.6867704845933199,
+    "hold": 2.5804331315751106
+   },
+   "fb": 147.59781493156808,
+   "translit": "AETHLEWUAACHMEWTHSIAEAREFEERSRSRWAXTHIHILTERONXOOTEHTHWAMHEISNOOTHSMCAEAGNTHWUAEEHSDSD"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :an end",
+   "family": "hash",
+   "offset": 881,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.834012841350156,
+   "z2": {
+    "plain": 0.037641234896775566,
+    "echo": -0.20726470729747795,
+    "hold": 4.2082836756473085
+   },
+   "z5": {
+    "plain": 0.09253236798905312,
+    "echo": -0.19041166440238247,
+    "hold": 2.5339169141581506
+   },
+   "fb": 139.24296390298082,
+   "translit": "AETHLEWUAACHMEWTHSIAEAREFEERSRSRWAXTHIHILTERONXOOTEHTHWAMHEISNOOTHSMCAEAGNTHWUAEEHSDSD"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :AN END",
+   "family": "hash",
+   "offset": 574,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 5.362977504015322,
+   "z2": {
+    "plain": 0.29283492566101754,
+    "echo": 0.6506014295417452,
+    "hold": 4.989637233959833
+   },
+   "z5": {
+    "plain": 0.9678545170093871,
+    "echo": 0.7072796465221697,
+    "hold": -1.3357195680974758
+   },
+   "fb": 156.8033498294968,
+   "translit": "OLEECLOHDSETHURBEARNSEDLWEIAHEHTHUSROOOCSRYNTRTRIUREFDHEEEEOLBNGULMOMUADEYMTEOEOEENTM"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :AN END",
+   "family": "hash",
+   "offset": 575,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.977358815252924,
+   "z2": {
+    "plain": 0.05805559643649803,
+    "echo": -0.041150207706228174,
+    "hold": 4.636591415985763
+   },
+   "z5": {
+    "plain": 0.18317872593010237,
+    "echo": 0.3322206576445006,
+    "hold": -1.1007357774137918
+   },
+   "fb": 159.80570456837265,
+   "translit": "DMEECLOHDSETHURBEARNSEDLWEIAHEHTHUSROOOCSRYNTRTRIUREFDHEEEEOLBNGULMOMUADEYMTEOEOEENTM"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :AN END",
+   "family": "hash",
+   "offset": 576,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.590361303279462,
+   "z2": {
+    "plain": 1.1251351808393046,
+    "echo": 0.9956414802142065,
+    "hold": 4.282283242782092
+   },
+   "z5": {
+    "plain": -0.14232692591455998,
+    "echo": 0.5291310417648961,
+    "hold": -1.379483168391795
+   },
+   "fb": 137.01498189143584,
+   "translit": "IMUECLOHDSETHURBEARNSEDLWEIAHEHTHUSROOOCSRYNTRTRIUREFDHEEEEOLBNGULMOMUADEYMTEOEOEENTM"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :AN END",
+   "family": "hash",
+   "offset": 574,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 5.360942209782476,
+   "z2": {
+    "plain": -0.0612818767406006,
+    "echo": -0.16935646919516026,
+    "hold": 5.11487885568723
+   },
+   "z5": {
+    "plain": -0.4017373586160296,
+    "echo": -0.1808972215007365,
+    "hold": -1.2370955680430629
+   },
+   "fb": 144.99961130353205,
+   "translit": "OLEECLOHDSETHURBEARNSEDLWEIAHEHTHUSROOOCSRYNTRTRIUREFDHEEEEOLBNGULMOMUADEYMTEOEOEENTM"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :AN END",
+   "family": "hash",
+   "offset": 575,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.980979582177047,
+   "z2": {
+    "plain": -0.6342975330912242,
+    "echo": -0.7393914710675858,
+    "hold": 4.754729817653101
+   },
+   "z5": {
+    "plain": 0.25901278845531656,
+    "echo": 0.4449113848183484,
+    "hold": -1.01082073257579
+   },
+   "fb": 152.6647154960406,
+   "translit": "DMEECLOHDSETHURBEARNSEDLWEIAHEHTHUSROOOCSRYNTRTRIUREFDHEEEEOLBNGULMOMUADEYMTEOEOEENTM"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :AN END",
+   "family": "hash",
+   "offset": 576,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.59965835524657,
+   "z2": {
+    "plain": 0.6661773259008134,
+    "echo": 0.5050004683418038,
+    "hold": 4.393293026023117
+   },
+   "z5": {
+    "plain": -0.04457310206269688,
+    "echo": 0.6299165987533595,
+    "hold": -1.2792372043969618
+   },
+   "fb": 129.8739928191038,
+   "translit": "IMUECLOHDSETHURBEARNSEDLWEIAHEHTHUSROOOCSRYNTRTRIUREFDHEEEEOLBNGULMOMUADEYMTEOEOEENTM"
+  },
+  {
+   "variant": "echo",
+   "stream": "md5-ctr reject :AN END",
+   "family": "hash",
+   "offset": 12980,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.569212558880192,
+   "z2": {
+    "plain": 1.975238068019572,
+    "echo": 1.9233092313038034,
+    "hold": 0.25916383610383337
+   },
+   "z5": {
+    "plain": 1.0698728386322665,
+    "echo": 0.31383846623168626,
+    "hold": 2.4793417198444505
+   },
+   "fb": 112.08960331299457,
+   "translit": "TBTRHMDFUSIUHNGYSWAIPFBSACOMUEALOOFRSULNFALONIILUAMTYEOAOBBDHOYMETCFNAEIAWCXNGTHDEUEEA"
+  },
+  {
+   "variant": "echo",
+   "stream": "md5-ctr reject :INSTAR EMERGENCE",
+   "family": "hash",
+   "offset": 16744,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.561673750161485,
+   "z2": {
+    "plain": 2.95629189432858,
+    "echo": 2.9861627878424986,
+    "hold": 2.7024987093806385
+   },
+   "z5": {
+    "plain": 0.49330592679057506,
+    "echo": -0.08494738312930931,
+    "hold": -0.9695040504439314
+   },
+   "fb": 111.40627923995012,
+   "translit": "EGTDHLHSTIAUGEAEAHIRNCWLTEEADAUIWRFETNGATPUSLETLLSTTBDNGPWUSSRSAIPIANURPSTHHTECNCNLWHFE"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr mod :self-reliance",
+   "family": "hash",
+   "offset": 314,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.567844812427688,
+   "z2": {
+    "plain": 1.240012151420524,
+    "echo": 1.094714284114611,
+    "hold": 3.9322285229664624
+   },
+   "z5": {
+    "plain": -0.8812848713619901,
+    "echo": -0.6727198986053144,
+    "hold": -0.8024268992091473
+   },
+   "fb": 142.2677250292416,
+   "translit": "IOWEGEIAFIEENGDTHJGEFROETTAMSTBAOIEOINGUNAOIEDMETPBNEODODUEXBODHNSXAOAURYBINGASORRAYURET"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha256-chain reject :7A35090F",
+   "family": "hash",
+   "offset": 17006,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.58731774317571,
+   "z2": {
+    "plain": 2.8660026758564863,
+    "echo": 2.9590145498870535,
+    "hold": 2.3237779945219774
+   },
+   "z5": {
+    "plain": 0.5602183574664633,
+    "echo": 0.7890621910986112,
+    "hold": 0.6983593909119868
+   },
+   "fb": 109.19827394496943,
+   "translit": "OOOETTHTHTFONGYTHNGATHHTHDLSTHHFRTHUSRRNGTHUBNGAIWWCDEESTOOEEOEHCRRNMMLEASEFUTRCIATNTNGTUNFUPMY"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :0x7A35090F",
+   "family": "hash",
+   "offset": 988,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.992403675793269,
+   "z2": {
+    "plain": 2.559256401930086,
+    "echo": 2.7256303823255874,
+    "hold": 4.218131087166179
+   },
+   "z5": {
+    "plain": -0.5635363470215645,
+    "echo": -0.6255210061669115,
+    "hold": -1.5214836300810433
+   },
+   "fb": 146.5642140103384,
+   "translit": "DRYUDSTHURMOIPFRNUTHEMMYLIADSNWESDIRNRTPNEFEGIBNDSTHENGERSPWOYNGLDFOORACNEENXUSMDNGEP"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :0x7A35090F",
+   "family": "hash",
+   "offset": 989,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": false,
+   "z1": 5.104448243814369,
+   "z2": {
+    "plain": 2.5815191972941784,
+    "echo": 2.749353180610914,
+    "hold": 4.312138593398824
+   },
+   "z5": {
+    "plain": -0.5980096024320888,
+    "echo": -0.6591818262286213,
+    "hold": -1.5439473705874642
+   },
+   "fb": 146.5642140103384,
+   "translit": "RRYUDSTHURMOIPFRNUTHEMMYLIADSNWESDIRNRTPNEFEGIBNDSTHENGERSPWOYNGLDFOORACNEENXUSMDNGEP"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :0x7A35090F",
+   "family": "hash",
+   "offset": 991,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.600508600427607,
+   "z2": {
+    "plain": 1.3542601843483144,
+    "echo": 1.4149919103365016,
+    "hold": 3.8893237260360722
+   },
+   "z5": {
+    "plain": -0.4942875592527092,
+    "echo": -0.47957910852233915,
+    "hold": -1.647762537872405
+   },
+   "fb": 171.5572878223812,
+   "translit": "DHTODSTHURMOIPFRNUTHEMMYLIADSNWESDIRNRTPNEFEGIBNDSTHENGERSPWOYNGLDFOORACNEENXUSMDNGEP"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :0x7A35090F",
+   "family": "hash",
+   "offset": 988,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 5.116657770516221,
+   "z2": {
+    "plain": 1.9411734175512068,
+    "echo": 1.904492745427093,
+    "hold": 4.357585694810313
+   },
+   "z5": {
+    "plain": -1.186057078869328,
+    "echo": -1.3248519995533605,
+    "hold": -1.4523934029587524
+   },
+   "fb": 132.53960586584066,
+   "translit": "DRYUDSTHURMOIPFRNUTHEMMYLIADSNWESDIRNRTPNEFEGIBNDSTHENGERSPWOYNGLDFOORACNEENXUSMDNGEP"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :0x7A35090F",
+   "family": "hash",
+   "offset": 989,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 5.230486740277297,
+   "z2": {
+    "plain": 1.9734077465980895,
+    "echo": 1.9362652522296413,
+    "hold": 4.45561238935216
+   },
+   "z5": {
+    "plain": -1.218156962809227,
+    "echo": -1.3564498977617079,
+    "hold": -1.4746660550604258
+   },
+   "fb": 132.53960586584066,
+   "translit": "RRYUDSTHURMOIPFRNUTHEMMYLIADSNWESDIRNRTPNEFEGIBNDSTHENGERSPWOYNGLDFOORACNEENXUSMDNGEP"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :0x7A35090F",
+   "family": "hash",
+   "offset": 991,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.718521444309742,
+   "z2": {
+    "plain": 1.1789417036911733,
+    "echo": 1.1531815492637774,
+    "hold": 4.014720533885336
+   },
+   "z5": {
+    "plain": -1.1412690997111268,
+    "echo": -1.2807644256216872,
+    "hold": -1.57759811586987
+   },
+   "fb": 142.48627331148853,
+   "translit": "DHTODSTHURMOIPFRNUTHEMMYLIADSNWESDIRNRTPNEFEGIBNDSTHENGERSPWOYNGLDFOORACNEENXUSMDNGEP"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :0x7A35090F",
+   "family": "hash",
+   "offset": 993,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.5728829906202035,
+   "z2": {
+    "plain": 0.2881443056903628,
+    "echo": 0.23949634551273544,
+    "hold": 3.8893002982165314
+   },
+   "z5": {
+    "plain": -0.6736250026179631,
+    "echo": -0.6319764252144778,
+    "hold": -1.54520537979676
+   },
+   "fb": 155.49692302859023,
+   "translit": "OREOILIAEHYOIPFRNUTHEMMYLIADSNWESDIRNRTPNEFEGIBNDSTHENGERSPWOYNGLDFOORACNEENXUSMDNGEP"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :0x7A35090F",
+   "family": "hash",
+   "offset": 180,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.722305041006585,
+   "z2": {
+    "plain": 2.5909863569542693,
+    "echo": 2.598204494338071,
+    "hold": 4.78838671078419
+   },
+   "z5": {
+    "plain": 0.8544812621286652,
+    "echo": 0.7556299627345578,
+    "hold": -0.73235364221343
+   },
+   "fb": 110.34212039356234,
+   "translit": "NTHIORFEDESAWISUDEAWDCMAADTNMTHSEOHIMRHTEHOTLLOFCFSYNFESEEHHDLJUREBGRSDINRLSRIOONAE"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :0x7A35090F",
+   "family": "hash",
+   "offset": 181,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.616553639553631,
+   "z2": {
+    "plain": 2.5681680121583548,
+    "echo": 2.5752527067647253,
+    "hold": 4.691568037011699
+   },
+   "z5": {
+    "plain": 0.8490648951434465,
+    "echo": 0.7503165478792737,
+    "hold": -0.73570120305134
+   },
+   "fb": 110.34212039356231,
+   "translit": "THTHIORFEDESAWISUDEAWDCMAADTNMTHSEOHIMRHTEHOTLLOFCFSYNFESEEHHDLJUREBGRSDINRLSRIOONAE"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :0x7A35090F",
+   "family": "hash",
+   "offset": 180,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.719216601014821,
+   "z2": {
+    "plain": 2.590933814643657,
+    "echo": 2.5085027117333096,
+    "hold": 4.909579207212435
+   },
+   "z5": {
+    "plain": 0.9909678983908619,
+    "echo": 1.0570246240391936,
+    "hold": -0.6560915540693846
+   },
+   "fb": 100.95350753796991,
+   "translit": "NTHIORFEDESAWISUDEAWDCMAADTNMTHSEOHIMRHTEHOTLLOFCFSYNFESEEHHDLJUREBGRSDINRLSRIOONAE"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :0x7A35090F",
+   "family": "hash",
+   "offset": 181,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.615016307979286,
+   "z2": {
+    "plain": 2.5631245638954976,
+    "echo": 2.480955211320189,
+    "hold": 4.810812558670903
+   },
+   "z5": {
+    "plain": 0.9859162730649681,
+    "echo": 1.0520324573923283,
+    "hold": -0.6593150478074458
+   },
+   "fb": 100.9535075379699,
+   "translit": "THTHIORFEDESAWISUDEAWDCMAADTNMTHSEOHIMRHTEHOTLLOFCFSYNFESEEHHDLJUREBGRSDINRLSRIOONAE"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr reject :the primes are sacred",
+   "family": "hash",
+   "offset": 570,
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.503508028201849,
+   "z2": {
+    "plain": -0.8562757501723928,
+    "echo": -0.8209176919570308,
+    "hold": 3.362239659062736
+   },
+   "z5": {
+    "plain": -0.0070456917805750445,
+    "echo": 0.01723061625078436,
+    "hold": -0.1275182958417401
+   },
+   "fb": 178.5997838042313,
+   "translit": "DATHSTHNURDWESRNRIOMTLNRRTHIAEBANOFOSCOERRREWEAOYOMHUGSHTWEOHSESLEGWRNCALJTAEAEETSITITH"
+  },
+  {
+   "variant": "echo",
+   "stream": "md5-ctr mod :the primes are sacred",
+   "family": "hash",
+   "offset": 10766,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.523473302433529,
+   "z2": {
+    "plain": 2.3449989770646185,
+    "echo": 2.3089765006242855,
+    "hold": 1.0271200139548167
+   },
+   "z5": {
+    "plain": -0.6578762349117366,
+    "echo": -0.8928863144412843,
+    "hold": 0.6400623592154041
+   },
+   "fb": 113.13160311249194,
+   "translit": "IABEATHWUPIATHOSODFIDOCEWNGGSCUSINFLENYTHTFHRHETHSYOCRBRETHRCEEFLFUSRUNAWTSGDLDLSANBRTNG"
+  },
+  {
+   "variant": "echo",
+   "stream": "md5-ctr mod :all things should be encrypted",
+   "family": "hash",
+   "offset": 14743,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.751539659341457,
+   "z2": {
+    "plain": 3.0066327826810544,
+    "echo": 3.1263790278767702,
+    "hold": 2.9078011325697974
+   },
+   "z5": {
+    "plain": -0.5846933450838483,
+    "echo": 0.1719768440011587,
+    "hold": 0.6101267219531429
+   },
+   "fb": 110.07562932483279,
+   "translit": "LOTHADHOFPTCOIAPGCSFTSTHOIULCRMAETOLACOAOECEEAIHTHUBGUWNSTHRTHDSSBEFHERFIRRORSINTHWUBMT"
+  },
+  {
+   "variant": "echo",
+   "stream": "md5-ctr reject :an instruction",
+   "family": "hash",
+   "offset": 8482,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.636640876214804,
+   "z2": {
+    "plain": 4.121949031840619,
+    "echo": 4.488792157158788,
+    "hold": 0.9437005331580717
+   },
+   "z5": {
+    "plain": 0.6037121408352977,
+    "echo": 0.21576767774479091,
+    "hold": 1.1228484587659593
+   },
+   "fb": 82.94320473898742,
+   "translit": "RTROWEGLDUNGYTHTHLAFBTHNYDCNSTHEDYESELTWTTRLYTWAENBCFNRUSGWNTHFOSCFLIOFYSYTODYTCXOEEAXH"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha256-chain mod :know this",
+   "family": "hash",
+   "offset": 7370,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.628960703737787,
+   "z2": {
+    "plain": 3.5376709596419404,
+    "echo": 3.6630534215351362,
+    "hold": 1.8343403295399878
+   },
+   "z5": {
+    "plain": -0.34260598253467717,
+    "echo": -0.18307341080577128,
+    "hold": -0.6745279305422056
+   },
+   "fb": 96.44226380560929,
+   "translit": "EETLDMAETHRIFIAWENCFUCAPCETTHTEADAGDCUESDTHRCXWHTUEAMWDATMWNFCTSYMFOTAADRPOXTHUHONGCAOX"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha256-chain mod :know this",
+   "family": "hash",
+   "offset": 7370,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.904754211463812,
+   "z2": {
+    "plain": 3.5376709596419404,
+    "echo": 3.6630534215351362,
+    "hold": 1.8343403295399878
+   },
+   "z5": {
+    "plain": -0.34260598253467717,
+    "echo": -0.18307341080577128,
+    "hold": -0.6745279305422056
+   },
+   "fb": 96.44226380560929,
+   "translit": "EETLDMAETHRIFIAWENCFUCAPCETTHTEADATHDCUESDTHRCXWHTUEAMWDATMWNFCTSYMFOTAADRPOATHUHONGCAOX"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :command your own self",
+   "family": "hash",
+   "offset": 178,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.956067261943727,
+   "z2": {
+    "plain": -0.8512680852510685,
+    "echo": -1.0013788582984808,
+    "hold": 5.737995970368645
+   },
+   "z5": {
+    "plain": 0.8974096182692091,
+    "echo": 0.908070976594667,
+    "hold": -0.3118633727543134
+   },
+   "fb": 182.95932308036333,
+   "translit": "ECTHSTTHUSDMBRLRUOEUAOEODISEOHWOHUGWTHAOAUSFESEBNALURWYEILIIAMLTHBTHOGEEEJIETHALDNMAGRNU"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :command your own self",
+   "family": "hash",
+   "offset": 178,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.939099907644208,
+   "z2": {
+    "plain": -0.9925215681596177,
+    "echo": -1.1889704115150987,
+    "hold": 5.868389169491577
+   },
+   "z5": {
+    "plain": 0.5074176962836783,
+    "echo": -0.0522588985442344,
+    "hold": -0.2511854698640745
+   },
+   "fb": 163.58337991465996,
+   "translit": "ECTHSTTHUSDMBRLRUOEUAOEODISEOHWOHUGWTHAOAUSFESEBNALURWYEILIIAMLTHBTHOGEEEJIETHALDNMAGRNU"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha256-chain mod :program your mind",
+   "family": "hash",
+   "offset": 11791,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.5970164975915395,
+   "z2": {
+    "plain": 2.178130162367618,
+    "echo": 1.9205824657409516,
+    "hold": 0.4199670494706939
+   },
+   "z5": {
+    "plain": 0.11866233014189637,
+    "echo": 0.14224739326766903,
+    "hold": -1.1918981719083641
+   },
+   "fb": 109.08103148412982,
+   "translit": "GOTEASMWFESPGHTHIPEFHCHNGOMFNADNGSTTHOOMEARAAEENETGSSWLDNRNUTWLFLFIGFNUJFSHYJRMIEARFAALH"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr reject :program reality",
+   "family": "hash",
+   "offset": 946,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.643200051583974,
+   "z2": {
+    "plain": -0.09638727045534806,
+    "echo": 0.0832623892491452,
+    "hold": 4.2063570154914
+   },
+   "z5": {
+    "plain": -1.4111447037550877,
+    "echo": 1.0831591681564199,
+    "hold": -0.40373026739410794
+   },
+   "fb": 205.3889377307493,
+   "translit": "STNYTHDEFSEHLEYSEAEAOEGUTHOTHIBOLSWISLMOIUHSLUEPSELJYLNGYEINETHIASRGFYUODTHIDYTHEIARWPSIUO"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr reject :program reality",
+   "family": "hash",
+   "offset": 946,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.772344972335692,
+   "z2": {
+    "plain": -0.09533876022936112,
+    "echo": 0.15061199525306854,
+    "hold": 4.3633105543521085
+   },
+   "z5": {
+    "plain": 0.3895722140688097,
+    "echo": -1.0181621278494715,
+    "hold": -0.3441482389138103
+   },
+   "fb": 163.75692950219536,
+   "translit": "STNYTHDEFSEHLEYSEAEAOEGUTHOTHIBOLSWISLMOIUHSLUEPSELJYLNGYEINETHIASRGFYUODTHIDYTHEIARWPSIUO"
+  },
+  {
+   "variant": "plain",
+   "stream": "md5-ctr reject :within",
+   "family": "hash",
+   "offset": 13917,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.619601806222439,
+   "z2": {
+    "plain": 3.274903545117201,
+    "echo": 3.0016423417998275,
+    "hold": 0.4918580522076754
+   },
+   "z5": {
+    "plain": 0.2992569312773236,
+    "echo": 0.32001781244857713,
+    "hold": -0.4840166943450389
+   },
+   "fb": 92.64635870005887,
+   "translit": "EYESYASNOAEHTHAGEUGOWRCDEOCWOTHSWOCSPFURWMSNIMHBOEICCWDLPIANSHNGAETSRTAUBIPSSSAIUAEYFN"
+  },
+  {
+   "variant": "plain",
+   "stream": "md5-ctr reject :within",
+   "family": "hash",
+   "offset": 13918,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.70693565367419,
+   "z2": {
+    "plain": 3.3326481556731657,
+    "echo": 3.058559643507315,
+    "hold": 0.6674631746898181
+   },
+   "z5": {
+    "plain": 0.4490292882946881,
+    "echo": 0.4674479932031139,
+    "hold": -0.38009645561330063
+   },
+   "fb": 92.64635870005888,
+   "translit": "REESYASNOAEHTHAGEUGOWRCDEOCWOTHSWOCSPFURWMSNIMHBOEICCWDLPIANSHNGAETSRTAUBIPSSSAIUAEYFN"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr reject :shadows aethereal buffers void carnal ob",
+   "family": "hash",
+   "offset": 116,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.7537872573148645,
+   "z2": {
+    "plain": -0.8074347975720053,
+    "echo": -0.7725586923459019,
+    "hold": 4.776519741017727
+   },
+   "z5": {
+    "plain": 1.0407521959038928,
+    "echo": 1.1327071960460429,
+    "hold": -0.40027851361595446
+   },
+   "fb": 177.60255044654474,
+   "translit": "OETOPNNIDHEOWRRNTBYEDLLSUTEOHWEISRIASTHREENBGOONNAFTORDSPUUMEWEMIITNEEOYOSEEOSBSD"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr reject :shadows aethereal buffers void carnal ob",
+   "family": "hash",
+   "offset": 116,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.750237051993811,
+   "z2": {
+    "plain": 0.14658508590493857,
+    "echo": 0.16903399278909034,
+    "hold": 4.887568206704113
+   },
+   "z5": {
+    "plain": 1.1960420574529784,
+    "echo": 1.2764798039735632,
+    "hold": -0.3363237740555077
+   },
+   "fb": 140.58089917432903,
+   "translit": "OETOPNNIDHEOWRRNTBYEDLLSUTEOHWEISRIASTHREENBGOONNAFTORDSPUUMEWEMIITNEEOYOSEEOSBSD"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :<128 bytes 33363336>",
+   "family": "hash",
+   "offset": 755,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 4.622118860168844,
+   "z2": {
+    "plain": -0.45490184406360024,
+    "echo": -0.291051957991007,
+    "hold": 3.9116588591192496
+   },
+   "z5": {
+    "plain": 0.15762279019972023,
+    "echo": 1.175152640023245,
+    "hold": 0.43759398442684866
+   },
+   "fb": 213.70824763743025,
+   "translit": "MNURUSRAIYOLSDAENGLOTWSGSIATHEWSTHDYOEOEIILAWSOOTHGOEOPTAEIITEYRSOTHIUONEHTDIRIESYNNTHER"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :<128 bytes 33363336>",
+   "family": "hash",
+   "offset": 755,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.6399549793234005,
+   "z2": {
+    "plain": 0.1426057059331764,
+    "echo": 0.020528090647037815,
+    "hold": 4.049265434855987
+   },
+   "z5": {
+    "plain": 0.8105577467232195,
+    "echo": 0.7685470070936867,
+    "hold": 0.4624582930832731
+   },
+   "fb": 165.18823659490374,
+   "translit": "MNURUSRAIYOLSDAENGLOTWSGSIATHEWSTHDYOEOEIILAWSOOTHGOEOPTAEIITEYRSOTHIUONEHTDIRIESYNNTHER"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :7",
+   "family": "hash",
+   "offset": 299,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.596139330177208,
+   "z2": {
+    "plain": -0.09879378879221276,
+    "echo": -0.339420323718891,
+    "hold": 4.250791341118834
+   },
+   "z5": {
+    "plain": -0.45049631078036784,
+    "echo": -0.5603136327902141,
+    "hold": -2.816430724387497
+   },
+   "fb": 162.13322585429546,
+   "translit": "GECHEAEODTHIBMHASISBCTHLACEFWSSEEAWNBAHETHOASWSBTOYTEATEIOEGDRRIIIARONTHEUYTSOLSECOERED"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :7",
+   "family": "hash",
+   "offset": 300,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.652625784011253,
+   "z2": {
+    "plain": -0.013672881985699423,
+    "echo": -0.2511480865698333,
+    "hold": 4.303262118195954
+   },
+   "z5": {
+    "plain": -0.22111468879519988,
+    "echo": -0.3365885229593838,
+    "hold": -2.718378870672655
+   },
+   "fb": 160.70936408341123,
+   "translit": "STUHEAEODTHIBMHASISBCTHLACEFWSSEEAWNBAHETHOASWSBTOYTEATEIOEGDRRIIIARONTHEUYTSOLSECOERED"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :7",
+   "family": "hash",
+   "offset": 299,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.528131349945173,
+   "z2": {
+    "plain": -0.3637486738930216,
+    "echo": -0.5603156743803491,
+    "hold": 4.209893985841373
+   },
+   "z5": {
+    "plain": -0.2919525011209643,
+    "echo": -0.2541152481562644,
+    "hold": -2.8354482410487853
+   },
+   "fb": 146.2564893742652,
+   "translit": "GECHEAEODTHIBMHASISBCTHLACEFWSSEEAWNBAHETHOASWSBTOYTEATEIOEGDRRIIIARONTHEUYTSOLSECOERED"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-chain reject :7",
+   "family": "hash",
+   "offset": 300,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.584013537715087,
+   "z2": {
+    "plain": -0.2633646617187246,
+    "echo": -0.461873825749865,
+    "hold": 4.262090032777373
+   },
+   "z5": {
+    "plain": -0.06986992405321649,
+    "echo": -0.04002011937430468,
+    "hold": -2.7349386380423892
+   },
+   "fb": 144.83262760338098,
+   "translit": "STUHEAEODTHIBMHASISBCTHLACEFWSSEEAWNBAHETHOASWSBTOYTEATEIOEGDRRIIIARONTHEUYTSOLSECOERED"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :2014",
+   "family": "hash",
+   "offset": 620,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 4.5715774070848525,
+   "z2": {
+    "plain": -1.0325341030773316,
+    "echo": -1.1033188019002016,
+    "hold": 3.1381194454652324
+   },
+   "z5": {
+    "plain": -0.3453723438142724,
+    "echo": -0.28834886924096015,
+    "hold": 0.6779627030394276
+   },
+   "fb": 222.2139280723023,
+   "translit": "CEETEONRULSRIAOEISOSDADOYEIARNTLTTHYTHEBERURSUAEOAMIMIEHETHTUNYAFSTWAEOOENBSYLNOEAEAEATEATHOE"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :2014",
+   "family": "hash",
+   "offset": 620,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.589793529318157,
+   "z2": {
+    "plain": 0.39125034358954897,
+    "echo": 0.37884879570563257,
+    "hold": 3.271240787518747
+   },
+   "z5": {
+    "plain": -0.1342547534325859,
+    "echo": -0.8379715973196212,
+    "hold": 0.7090928607851512
+   },
+   "fb": 157.10052939632246,
+   "translit": "CEETEONRULSRIAOEISOSDADOYEIARNTLTTHYTHEBERURSUAEOAMIMIEHETHTUNYAFSTWAEOOENBSYLNOEAEAEATEATHOE"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha512-ctr mod :1311",
+   "family": "hash",
+   "offset": 7062,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.525287310125874,
+   "z2": {
+    "plain": 2.878894602844779,
+    "echo": 2.6212190164870255,
+    "hold": 1.6609799908749157
+   },
+   "z5": {
+    "plain": 1.5185072733621983,
+    "echo": 1.4068775059780918,
+    "hold": -0.22526440765656586
+   },
+   "fb": 104.59874444124912,
+   "translit": "DTTHHTDGFNGTHIAEAYAAATFSHTSRUEASLEAAXERBAADERYPUHIOEUINLCAHHEBIYFNYENCAFWHWOEYNTHYGPAGDR"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 332,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.873165178767964,
+   "z2": {
+    "plain": 1.7214916634679756,
+    "echo": 1.7722825861330513,
+    "hold": 4.508190030875682
+   },
+   "z5": {
+    "plain": -0.31061264821690976,
+    "echo": -0.4445374618086225,
+    "hold": 0.3783567192917452
+   },
+   "fb": 127.67410293884927,
+   "translit": "EOEFIHNTDYSCYRIWLROXHEANGENOOHSESIGWAUSEABOEHCEEEEMTHTEAIIANGSDBEIATHMIIAJETNNRACAORTEN"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 341,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.536194873551619,
+   "z2": {
+    "plain": 1.2629803638011836,
+    "echo": 1.2344718774200607,
+    "hold": 4.195175271291692
+   },
+   "z5": {
+    "plain": -0.7647869015366267,
+    "echo": -1.0641880035660312,
+    "hold": 0.08216055687198848
+   },
+   "fb": 135.20297861432556,
+   "translit": "ICAANGIRNDLRTHEARONHORDUDLWENOOHSESIGWAUSEABOEHCEEEEMTHTEAIIANGSDBEIATHMIIAJETNNRACAORTEN"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 332,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.812602862452755,
+   "z2": {
+    "plain": 3.0298116649168914,
+    "echo": 2.909566473953774,
+    "hold": 4.465944969650259
+   },
+   "z5": {
+    "plain": -1.4345181163469691,
+    "echo": -1.3723905741233295,
+    "hold": 0.4394191427731653
+   },
+   "fb": 91.0887495657417,
+   "translit": "EOEFIHNTDYSCYRIWLROXHEANGENOOHSESIGWAUSEABOEHCEEEEMTHTEAIIANGSDBEIATHMIIAJETNNRACAORTEN"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 141,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.581726991591845,
+   "z2": {
+    "plain": -1.3470228160967912,
+    "echo": -1.3078976264921403,
+    "hold": 3.9707795477243586
+   },
+   "z5": {
+    "plain": 0.21113723447209648,
+    "echo": -0.6068950641874219,
+    "hold": 0.6872377504919301
+   },
+   "fb": 184.52920343443486,
+   "translit": "UMUETHEYEITBIUUOEHOTRLAASIAPOGEYTHERTHLGEHUTHWIDUOEAEOFNINTTHNGADMLNAMIFRDRANRLERNPRHEO"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 141,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.601600894818512,
+   "z2": {
+    "plain": -0.7955692735352327,
+    "echo": -1.0831268457270693,
+    "hold": 4.09533246992155
+   },
+   "z5": {
+    "plain": 0.584113130984995,
+    "echo": 0.6118793501487072,
+    "hold": 0.7108870272216068
+   },
+   "fb": 152.26827757021331,
+   "translit": "UMUETHEYEITBIUUOEHOTRLAASIAPOGEYTHERTHLGEHUTHWIDUOEAEOFNINTTHNGADMLNAMIFRDRANRLERNPRHEO"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 293,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 5.144992882087955,
+   "z2": {
+    "plain": 0.9359602734459243,
+    "echo": 0.7944406610864335,
+    "hold": 3.6088507067250646
+   },
+   "z5": {
+    "plain": -1.2898970457084329,
+    "echo": -1.2628979190261997,
+    "hold": -0.07747525752844471
+   },
+   "fb": 183.37848964471772,
+   "translit": "PNRSTWFAWDOTIATMDCRUATFTHTHORCSDTHEYPNUWRANEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 294,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 5.399570449745023,
+   "z2": {
+    "plain": -0.4027551768841034,
+    "echo": -0.4234974341122746,
+    "hold": 3.8185671440622744
+   },
+   "z5": {
+    "plain": -0.6786949481158867,
+    "echo": -0.7003525849188686,
+    "hold": -0.07425959097028073
+   },
+   "fb": 214.05511638019328,
+   "translit": "DRRSTWFAWDOTIATMDCRUATFTHTHORCSDTHEYPNUWRANEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 295,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 5.482511619162697,
+   "z2": {
+    "plain": 0.6264094059023253,
+    "echo": 0.47772667074025,
+    "hold": 3.8868925928397857
+   },
+   "z5": {
+    "plain": -0.8232106325496523,
+    "echo": -0.8035942280148977,
+    "hold": -0.018882046005950504
+   },
+   "fb": 191.67541160854216,
+   "translit": "EAYWTSOEAWDOTIATMDCRUATFTHTHORCSDTHEYPNUWRANEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 296,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 5.153132255844958,
+   "z2": {
+    "plain": -0.28567323999503214,
+    "echo": -0.4554619085712622,
+    "hold": 3.615555776940733
+   },
+   "z5": {
+    "plain": -1.0069717889894347,
+    "echo": -0.984448384119462,
+    "hold": 1.1390512943280424
+   },
+   "fb": 210.40392572797742,
+   "translit": "NTHYGSTHIFATHPRTOEAOOINGERCTTHTOTODTFYXATTCNNEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 297,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 5.048488021069695,
+   "z2": {
+    "plain": -1.356947779448399,
+    "echo": -1.5142902347332245,
+    "hold": 3.529351731914626
+   },
+   "z5": {
+    "plain": -0.28245454829867184,
+    "echo": -0.26666881293350087,
+    "hold": 1.1618462910731222
+   },
+   "fb": 233.62024989312698,
+   "translit": "THTHYGSTHIFATHPRTOEAOOINGERCTTHTOTODTFYXATTCNNEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 298,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 5.152676807859095,
+   "z2": {
+    "plain": 1.1408893269049478,
+    "echo": 1.445123119235753,
+    "hold": 3.615180587053161
+   },
+   "z5": {
+    "plain": -0.8439303642724,
+    "echo": 0.26781048469942625,
+    "hold": 0.769971943843632
+   },
+   "fb": 178.88405830211258,
+   "translit": "TBISSTHIFATHPRTOEAOOINGERCTTHTOTODTFYXATTCNNEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 299,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 5.063256471860271,
+   "z2": {
+    "plain": -0.24940954203664295,
+    "echo": -0.02473374104768515,
+    "hold": 3.5415177169748713
+   },
+   "z5": {
+    "plain": 2.041293184296627,
+    "echo": 1.83232458789829,
+    "hold": 0.6816687764168016
+   },
+   "fb": 209.21453373395767,
+   "translit": "THIISSTHIFATHPRTOEAOOINGERCTTHTOTODTFYXATTCNNEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 300,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 5.419085242816311,
+   "z2": {
+    "plain": -0.3423857016663839,
+    "echo": 0.12200817912647921,
+    "hold": 3.8346430808227208
+   },
+   "z5": {
+    "plain": 1.7487073534224113,
+    "echo": 1.613427989607212,
+    "hold": 0.890189186710868
+   },
+   "fb": 212.80562681382295,
+   "translit": "STMTHNOERATHPRTOEAOOINGERCTTHTOTODTFYXATTCNNEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 301,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 5.026352818117767,
+   "z2": {
+    "plain": -0.3436733302994582,
+    "echo": -0.11404695036958336,
+    "hold": 3.5111171484611945
+   },
+   "z5": {
+    "plain": 1.8887456475429818,
+    "echo": 1.691812852642733,
+    "hold": 0.8932939458421545
+   },
+   "fb": 211.13776371401826,
+   "translit": "UIMTHNOERATHPRTOEAOOINGERCTTHTOTODTFYXATTCNNEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 293,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 5.078272219478385,
+   "z2": {
+    "plain": 0.2699630200864459,
+    "echo": 0.14027553466934303,
+    "hold": 3.651189934278017
+   },
+   "z5": {
+    "plain": -0.2590188771432862,
+    "echo": -0.22882364513064715,
+    "hold": -0.10905815951616041
+   },
+   "fb": 162.2298345170991,
+   "translit": "PNRSTWFAWDOTIATMDCRUATFTHTHORCSDTHEYPNUWRANEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 294,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 5.329133311204638,
+   "z2": {
+    "plain": -0.4819913501504965,
+    "echo": -0.3892731611345461,
+    "hold": 3.8612196176481053
+   },
+   "z5": {
+    "plain": -0.5819596001178032,
+    "echo": -0.5953767210085267,
+    "hold": -0.10602588993861486
+   },
+   "fb": 175.41247824063572,
+   "translit": "DRRSTWFAWDOTIATMDCRUATFTHTHORCSDTHEYPNUWRANEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 295,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 5.4108636557147936,
+   "z2": {
+    "plain": 0.9330394756258675,
+    "echo": 0.7810029335476372,
+    "hold": 3.929647121734423
+   },
+   "z5": {
+    "plain": -0.7163352371999822,
+    "echo": -0.6947548282299343,
+    "hold": -0.0538066558118107
+   },
+   "fb": 153.03277346898477,
+   "translit": "EAYWTSOEAWDOTIATMDCRUATFTHTHORCSDTHEYPNUWRANEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 296,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 5.096634291676909,
+   "z2": {
+    "plain": -0.5233754813161239,
+    "echo": -0.6263234151005631,
+    "hold": 3.666563303593029
+   },
+   "z5": {
+    "plain": -0.7829867515156286,
+    "echo": -0.7626619088263908,
+    "hold": 1.038087039386862
+   },
+   "fb": 175.0583745744264,
+   "translit": "NTHYGSTHIFATHPRTOEAOOINGERCTTHTOTODTFYXATTCNNEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 297,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.9935177161664415,
+   "z2": {
+    "plain": -1.3976080142680263,
+    "echo": -1.422737518443729,
+    "hold": 3.580230498630573
+   },
+   "z5": {
+    "plain": -0.4629864258901375,
+    "echo": -0.43208646949803065,
+    "hold": 1.0595819841829484
+   },
+   "fb": 188.65431987908576,
+   "translit": "THTHYGSTHIFATHPRTOEAOOINGERCTTHTOTODTFYXATTCNNEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 298,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 5.096185492593746,
+   "z2": {
+    "plain": 1.3185054971825096,
+    "echo": 1.2471761971553919,
+    "hold": 3.6661875532975774
+   },
+   "z5": {
+    "plain": -0.6416090540797882,
+    "echo": -1.2148436744669022,
+    "hold": 0.6900571470048796
+   },
+   "fb": 145.45945820526924,
+   "translit": "TBISSTHIFATHPRTOEAOOINGERCTTHTOTODTFYXATTCNNEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 299,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 5.008070568259912,
+   "z2": {
+    "plain": -0.4433575536252174,
+    "echo": -0.5460664539943357,
+    "hold": 3.59241465559286
+   },
+   "z5": {
+    "plain": 0.10568346309085404,
+    "echo": -0.2164237527473187,
+    "hold": 0.6067901156301563
+   },
+   "fb": 173.38438033848132,
+   "translit": "THIISSTHIFATHPRTOEAOOINGERCTTHTOTODTFYXATTCNNEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 300,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 5.358704737527673,
+   "z2": {
+    "plain": -0.5711934062564653,
+    "echo": -0.3555161121393721,
+    "hold": 3.8859778504401654
+   },
+   "z5": {
+    "plain": -0.16637287168680528,
+    "echo": -0.4271287450645677,
+    "hold": 0.8034181194966475
+   },
+   "fb": 176.97547341834658,
+   "translit": "STMTHNOERATHPRTOEAOOINGERCTTHTOTODTFYXATTCNNEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "hold",
+   "stream": "prime index of primes",
+   "family": "integer",
+   "offset": 301,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.971705656175424,
+   "z2": {
+    "plain": -0.5729638074521785,
+    "echo": -0.6620432828940291,
+    "hold": 3.561968678824089
+   },
+   "z5": {
+    "plain": -0.03616046559344672,
+    "echo": -0.35167722095395115,
+    "hold": 0.806345806957123
+   },
+   "fb": 175.30761031854183,
+   "translit": "UIMTHNOERATHPRTOEAOOINGERCTTHTOTODTFYXATTCNNEOORTAMEEEOTLESNGCNEERRSETOEYDEALPOATHJOEITHNA"
+  },
+  {
+   "variant": "echo",
+   "stream": "catalan G digits (base 29)",
+   "family": "constant2",
+   "offset": 12058,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.594087041102994,
+   "z2": {
+    "plain": 3.3890165225920366,
+    "echo": 3.230380575614451,
+    "hold": 1.1606793405577527
+   },
+   "z5": {
+    "plain": 0.06093613855878695,
+    "echo": 0.07721920767517049,
+    "hold": -0.7011684696430922
+   },
+   "fb": 94.8309469317602,
+   "translit": "MEWPOTHDEWSWOILFATHWYASIITNGGENSIRTUWOCEAASPBELOAEASEISMONYDDAWMRMFIAGABBTJGABYEAEBRETH"
+  },
+  {
+   "variant": "hold",
+   "stream": "catalan G digits (base 29)",
+   "family": "constant2",
+   "offset": 174,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.572792980111555,
+   "z2": {
+    "plain": 2.5672692075213392,
+    "echo": 2.446301972594982,
+    "hold": 4.256178930442166
+   },
+   "z5": {
+    "plain": 1.2397083769152608,
+    "echo": 1.2806137426559494,
+    "hold": -0.46521036035120467
+   },
+   "fb": 109.00129543311867,
+   "translit": "PUUNGIEEORTHSNIEBNEIWNGUDLOUENOAHLOHEERUIMRRTAHSOOUEMTRNDANCOTHDPRERFTEMMTHAWSLIIABEU"
+  },
+  {
+   "variant": "hold",
+   "stream": "catalan G digits (base 29)",
+   "family": "constant2",
+   "offset": 175,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 5.268242583483437,
+   "z2": {
+    "plain": 1.9434107711774318,
+    "echo": 1.7558440664168813,
+    "hold": 4.9108770504940695
+   },
+   "z5": {
+    "plain": 0.03675168086410687,
+    "echo": 0.08384280080221264,
+    "hold": -0.9823822148871354
+   },
+   "fb": 124.37570109985961,
+   "translit": "ROANTUCESHBNIEBNEIWNGUDLOUENOAHLOHEERUIMRRTAHSOOUEMTRNDANCOTHDPRERFTEMMTHAWSLIIABEU"
+  },
+  {
+   "variant": "hold",
+   "stream": "catalan G digits (base 29)",
+   "family": "constant2",
+   "offset": 176,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.503808263194023,
+   "z2": {
+    "plain": 1.5473203815188967,
+    "echo": 1.4841705715414368,
+    "hold": 4.191236533093397
+   },
+   "z5": {
+    "plain": 0.9260665399191417,
+    "echo": 1.3071012064395204,
+    "hold": -0.9791304845400727
+   },
+   "fb": 128.9664346630992,
+   "translit": "GMANTUCESHBNIEBNEIWNGUDLOUENOAHLOHEERUIMRRTAHSOOUEMTRNDANCOTHDPRERFTEMMTHAWSLIIABEU"
+  },
+  {
+   "variant": "hold",
+   "stream": "catalan G digits (base 29)",
+   "family": "constant2",
+   "offset": 177,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.511366099324493,
+   "z2": {
+    "plain": 1.3951232418314385,
+    "echo": 1.3266700730638168,
+    "hold": 4.19835150027763
+   },
+   "z5": {
+    "plain": 1.0198792642340506,
+    "echo": 1.3303838130723287,
+    "hold": -1.017248421029694
+   },
+   "fb": 132.02217819876438,
+   "translit": "TMUNTUCESHBNIEBNEIWNGUDLOUENOAHLOHEERUIMRRTAHSOOUEMTRNDANCOTHDPRERFTEMMTHAWSLIIABEU"
+  },
+  {
+   "variant": "hold",
+   "stream": "catalan G digits (base 29)",
+   "family": "constant2",
+   "offset": 174,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.521564583919259,
+   "z2": {
+    "plain": 1.8323140625064553,
+    "echo": 1.7635344277172704,
+    "hold": 4.066129046136125
+   },
+   "z5": {
+    "plain": 1.26910967365108,
+    "echo": 1.346894814738119,
+    "hold": -0.5116104632193677
+   },
+   "fb": 109.0466248482185,
+   "translit": "PUUNGIEEORTHSNIEBNEIWNGUDLOUENOAHLOHEERUIMRRTAHSOOUEMTRNDANCOTHDPRERFTEMMTHAWSLIIABEU"
+  },
+  {
+   "variant": "hold",
+   "stream": "catalan G digits (base 29)",
+   "family": "constant2",
+   "offset": 175,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 5.218824064424832,
+   "z2": {
+    "plain": 1.3444639516109171,
+    "echo": 1.2008026290187033,
+    "hold": 4.696207152520834
+   },
+   "z5": {
+    "plain": 0.3996116562878094,
+    "echo": 0.4645575533578595,
+    "hold": -1.0443556113664088
+   },
+   "fb": 120.17527638145415,
+   "translit": "ROANTUCESHBNIEBNEIWNGUDLOUENOAHLOHEERUIMRRTAHSOOUEMTRNDANCOTHDPRERFTEMMTHAWSLIIABEU"
+  },
+  {
+   "variant": "plain",
+   "stream": "ln10 digits (base 29)",
+   "family": "constant2",
+   "offset": 17203,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.912340763545065,
+   "z2": {
+    "plain": 3.3817704739056116,
+    "echo": 3.2379625809502244,
+    "hold": 2.6256509853685928
+   },
+   "z5": {
+    "plain": -0.42784115539447515,
+    "echo": -0.3908364869804898,
+    "hold": 0.04069727009479148
+   },
+   "fb": 106.85751262200834,
+   "translit": "UBWONSFIWLUEAGGWMNRWNMTHBTWPGMINBSYETHESFODFNAARAEAEIORFCTHREHTRARORTHUSODSYGOANLADUR"
+  },
+  {
+   "variant": "echo",
+   "stream": "ln10 digits (base 29)",
+   "family": "constant2",
+   "offset": 17203,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.979701762155596,
+   "z2": {
+    "plain": 3.3817704739056116,
+    "echo": 3.2379625809502244,
+    "hold": 2.6256509853685928
+   },
+   "z5": {
+    "plain": -0.42784115539447515,
+    "echo": -0.3908364869804898,
+    "hold": 0.04069727009479148
+   },
+   "fb": 106.85751262200834,
+   "translit": "UBWONSFIWLUEAGGWMNRWNMTHBTWPGMINBSYETHESFODFNAARAEAEIORFCTHREHTRARORTHUSODSYGOANLADUR"
+  },
+  {
+   "variant": "hold",
+   "stream": "ln10 digits (base 29)",
+   "family": "constant2",
+   "offset": 380,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.5166026481781145,
+   "z2": {
+    "plain": 1.0107774824988363,
+    "echo": 0.8576260563240531,
+    "hold": 3.84661498709173
+   },
+   "z5": {
+    "plain": 0.9489416222508656,
+    "echo": 0.5438634971963862,
+    "hold": 0.05222617529429657
+   },
+   "fb": 138.0551525358822,
+   "translit": "OMISIREUIEBEEAIRNLOAUAAENHEPSHEHHTTOHATHRWIOOWJPIHIFTYNUENGOMEJUOEMIFRUEPIOLOASOUBIG"
+  },
+  {
+   "variant": "hold",
+   "stream": "sqrt29 digits (base 29)",
+   "family": "constant2",
+   "offset": 716,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.674008479517523,
+   "z2": {
+    "plain": 1.5692541270069678,
+    "echo": 1.3244864759935642,
+    "hold": 4.374215481083697
+   },
+   "z5": {
+    "plain": -1.2579948017349827,
+    "echo": -1.2264736152049807,
+    "hold": -1.581380419416842
+   },
+   "fb": 130.66085489678963,
+   "translit": "NOADGFTHCYEILRSNNDYECTPSCMRTHHHEEUORCTHUTHSTHTYEGJPONIOSRMIGIRDEEIAORRTTEDSTHLOLOROHMSF"
+  },
+  {
+   "variant": "hold",
+   "stream": "sqrt29 digits (base 29)",
+   "family": "constant2",
+   "offset": 719,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.644146893671493,
+   "z2": {
+    "plain": 1.8058951996110995,
+    "echo": 1.8698605893938824,
+    "hold": 4.347329530735461
+   },
+   "z5": {
+    "plain": -0.036466398335467665,
+    "echo": -0.3758712445483438,
+    "hold": -1.7229598603975311
+   },
+   "fb": 125.80973945529296,
+   "translit": "NOTGNOEOLDEILRSNNDYECTPSCMRTHHHEEUORCTHUTHSTHTYEGJPONIOSRMIGIRDEEIAORRTTEDSTHLOLOROHMSF"
+  },
+  {
+   "variant": "hold",
+   "stream": "sqrt29 digits (base 29)",
+   "family": "constant2",
+   "offset": 721,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.831844578146089,
+   "z2": {
+    "plain": 0.6697036001592406,
+    "echo": 0.8238020358461178,
+    "hold": 4.51632359057149
+   },
+   "z5": {
+    "plain": 2.1270061697715725,
+    "echo": 0.17288282875809896,
+    "hold": -1.389886242379044
+   },
+   "fb": 149.29010463435634,
+   "translit": "AAAHRNSMFATHWOIMNOBIUDELAEORTHHHEEUORCTHUTHSTHTYEGJPONIOSRMIGIRDEEIAORRTTEDSTHLOLOROHMSF"
+  },
+  {
+   "variant": "hold",
+   "stream": "sqrt29 digits (base 29)",
+   "family": "constant2",
+   "offset": 721,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.625378120530835,
+   "z2": {
+    "plain": 0.23059388035827405,
+    "echo": 0.47080472067898416,
+    "hold": 4.662118851630591
+   },
+   "z5": {
+    "plain": -0.1550369559535444,
+    "echo": -0.792682825405026,
+    "hold": -1.3849931442306105
+   },
+   "fb": 137.88796406149666,
+   "translit": "AAAHRNSMFATHWOIMNOBIUDELAEORTHHHEEUORCTHUTHSTHTYEGJPONIOSRMIGIRDEEIAORRTTEDSTHLOLOROHMSF"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr mod :cicada",
+   "family": "hash",
+   "offset": 185,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.658984011832315,
+   "z2": {
+    "plain": 1.5678886442009536,
+    "echo": 1.3743583355601416,
+    "hold": 4.679725639580381
+   },
+   "z5": {
+    "plain": -0.8950676338164478,
+    "echo": -0.8062473177449491,
+    "hold": -2.0753452885083497
+   },
+   "fb": 172.7039362148038,
+   "translit": "YENOEMRNMTRLIAMIDAYERELEPIRUTFAEORTUOAUETHHBNOTHONAJTHAOLXTHTPUEEOUNRMETHRIAAMNIAEWRDION"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr mod :cicada",
+   "family": "hash",
+   "offset": 185,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.711884601538008,
+   "z2": {
+    "plain": 0.886501744943448,
+    "echo": 0.7295775164070183,
+    "hold": 4.569425179765642
+   },
+   "z5": {
+    "plain": -0.218969373950897,
+    "echo": -0.20233910892221715,
+    "hold": -2.133619897787858
+   },
+   "fb": 150.44772869589696,
+   "translit": "YENOEMRNMTRLIAMIDAYERELEPIRUTFAEORTUOAUETHHBNOTHONAJTHAOLXTHTPUEEOUNRMETHRIAAMNIAEWRDION"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr mod :cicada",
+   "family": "hash",
+   "offset": 544,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.5584353715306065,
+   "z2": {
+    "plain": 0.8707884356282615,
+    "echo": 1.103684799085382,
+    "hold": 3.618299534829908
+   },
+   "z5": {
+    "plain": -0.6986809004568407,
+    "echo": -0.9272049679611338,
+    "hold": 0.017623985660383056
+   },
+   "fb": 145.7852261923083,
+   "translit": "ITOOISLNREWEWIOIIBTWEAEOEWEHSEEOINGERAEGTARBOIASENSWNHTYTBDASYFXMETHNTNRASRSGUDHBRGOS"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :Cicada 3301",
+   "family": "hash",
+   "offset": 814,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.568587840886726,
+   "z2": {
+    "plain": 1.1640429724925454,
+    "echo": 1.3187411751952673,
+    "hold": 4.204523207330959
+   },
+   "z5": {
+    "plain": 0.24813485150147382,
+    "echo": -0.23629007644325767,
+    "hold": -0.454794895853649
+   },
+   "fb": 177.91831647933424,
+   "translit": "DETHWRENGFSLODDRUAEWTEENENGYIEMSOESNHUOITITHRITHEOPLEMTHAOEUICONUNSYHRSMAWUEINOTTTBOAOI"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :Cicada 3301",
+   "family": "hash",
+   "offset": 815,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.833906231947689,
+   "z2": {
+    "plain": 1.2171664084849536,
+    "echo": 1.3732858903378737,
+    "hold": 4.430733219959431
+   },
+   "z5": {
+    "plain": -0.04744003404718264,
+    "echo": -0.5282860672262157,
+    "hold": -0.6452395274757559
+   },
+   "fb": 177.9183164793342,
+   "translit": "EETHWRENGFSLODDRUAEWTEENENGYIEMSOESNHUOITITHRITHEOPLEMTHAOEUICONUNSYHRSMAWUEINOTTTBOAOI"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :Cicada 3301",
+   "family": "hash",
+   "offset": 815,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.7453353250070895,
+   "z2": {
+    "plain": 0.17547395861014733,
+    "echo": 0.563554943431288,
+    "hold": 4.407931337097888
+   },
+   "z5": {
+    "plain": -0.42046845963367774,
+    "echo": -0.3066787153014711,
+    "hold": -0.639431374830259
+   },
+   "fb": 160.3402898358253,
+   "translit": "EETHWRENGFSLODDRUAEWTEENENGYIEMSOESNHUOITITHRITHEOPLEMTHAOEUICONUNSYHRSMAWUEINOTTTBOAOI"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :INSTAR",
+   "family": "hash",
+   "offset": 700,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.702589813157015,
+   "z2": {
+    "plain": 0.32630439555407664,
+    "echo": 0.32197982353165516,
+    "hold": 4.964851040536623
+   },
+   "z5": {
+    "plain": 1.3735493767635114,
+    "echo": 1.4706044265949232,
+    "hold": -1.3210853241624878
+   },
+   "fb": 156.74473448501996,
+   "translit": "EJPETHAEADHAWNNHEHCNSEOAWHEOLASYWMWNHTEITHRTEEIANLEANGUIEAUSSITHDEWUSAINTDITERSNEOSBSSG"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :INSTAR",
+   "family": "hash",
+   "offset": 701,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.555720902728612,
+   "z2": {
+    "plain": 0.10539875489199155,
+    "echo": 0.09337665403553562,
+    "hold": 4.826588254728217
+   },
+   "z5": {
+    "plain": 1.634679585719054,
+    "echo": 1.7242994197069066,
+    "hold": -1.613820154609662
+   },
+   "fb": 160.50325374308574,
+   "translit": "XTHUETHAEADHAWNNHEHCNSEOAWHEOLASYWMWNHTEITHRTEEIANLEANGUIEAUSSITHDEWUSAINTDITERSNEOSBSSG"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :INSTAR",
+   "family": "hash",
+   "offset": 702,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.9985401571486605,
+   "z2": {
+    "plain": 1.0527009979641728,
+    "echo": 0.9808948314518433,
+    "hold": 5.243459487360969
+   },
+   "z5": {
+    "plain": -0.787732365334197,
+    "echo": -1.2679349557570974,
+    "hold": -1.5836256326233327
+   },
+   "fb": 143.58399987894322,
+   "translit": "CMUETHAEADHAWNNHEHCNSEOAWHEOLASYWMWNHTEITHRTEEIANLEANGUIEAUSSITHDEWUSAINTDITERSNEOSBSSG"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :INSTAR",
+   "family": "hash",
+   "offset": 703,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.871299837532193,
+   "z2": {
+    "plain": 1.1766489916428697,
+    "echo": 1.109161833248226,
+    "hold": 5.123675109537173
+   },
+   "z5": {
+    "plain": -0.7736798436477136,
+    "echo": -1.2542825545021152,
+    "hold": -1.2159205817134677
+   },
+   "fb": 140.57628540031024,
+   "translit": "OMTHTAEADHAWNNHEHCNSEOAWHEOLASYWMWNHTEITHRTEEIANLEANGUIEAUSSITHDEWUSAINTDITERSNEOSBSSG"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :INSTAR",
+   "family": "hash",
+   "offset": 700,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.651699207537919,
+   "z2": {
+    "plain": 0.8116753686918424,
+    "echo": 0.9832811151304534,
+    "hold": 4.748151443177031
+   },
+   "z5": {
+    "plain": 0.26748444177894526,
+    "echo": 0.35941362556373346,
+    "hold": -1.3932578892962004
+   },
+   "fb": 129.31851292291395,
+   "translit": "EJPETHAEADHAWNNHEHCNSEOAWHEOLASYWMWNHTEITHRTEEIANLEANGUIEAUSSITHDEWUSAINTDITERSNEOSBSSG"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :INSTAR",
+   "family": "hash",
+   "offset": 701,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.504448077202644,
+   "z2": {
+    "plain": 0.5489040528263949,
+    "echo": 0.7091518150381191,
+    "hold": 4.615088048617826
+   },
+   "z5": {
+    "plain": 0.5148573086667473,
+    "echo": 0.6027794892435855,
+    "hold": -1.6948076724999261
+   },
+   "fb": 133.0770321809797,
+   "translit": "XTHUETHAEADHAWNNHEHCNSEOAWHEOLASYWMWNHTEITHRTEEIANLEANGUIEAUSSITHDEWUSAINTDITERSNEOSBSSG"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :INSTAR",
+   "family": "hash",
+   "offset": 702,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.948419749337862,
+   "z2": {
+    "plain": 0.9057748592694244,
+    "echo": 0.8083155629669453,
+    "hold": 5.016282780691718
+   },
+   "z5": {
+    "plain": -0.4565049999259716,
+    "echo": 0.6629718894465736,
+    "hold": -1.6637039205309208
+   },
+   "fb": 129.0159424320206,
+   "translit": "CMUETHAEADHAWNNHEHCNSEOAWHEOLASYWMWNHTEITHRTEEIANLEANGUIEAUSSITHDEWUSAINTDITERSNEOSBSSG"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :INSTAR",
+   "family": "hash",
+   "offset": 703,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.820848292362425,
+   "z2": {
+    "plain": 1.0532132736992972,
+    "echo": 0.8669295047597605,
+    "hold": 4.901002911020327
+   },
+   "z5": {
+    "plain": -0.4431928190392904,
+    "echo": -0.35404699270080464,
+    "hold": -1.2849263824586483
+   },
+   "fb": 126.00822795338766,
+   "translit": "OMTHTAEADHAWNNHEHCNSEOAWHEOLASYWMWNHTEITHRTEEIANLEANGUIEAUSSITHDEWUSAINTDITERSNEOSBSSG"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :FIRFUMFERENFE",
+   "family": "hash",
+   "offset": 962,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 5.470305759387614,
+   "z2": {
+    "plain": 0.48783694334591826,
+    "echo": 0.28672939124982544,
+    "hold": 3.8110159774710795
+   },
+   "z5": {
+    "plain": 0.7862914617059472,
+    "echo": 0.7492716894614482,
+    "hold": -0.7597789669543256
+   },
+   "fb": 149.58795732798984,
+   "translit": "EWOETSTTTWNGSUOOUEYCGEECNCEEPTEEAWETHIACBIWRNAELANGFAYTHUPYRNRFWIIAEMOGTRWISIMERTFIOTO"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :FIRFUMFERENFE",
+   "family": "hash",
+   "offset": 963,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 5.132957430181006,
+   "z2": {
+    "plain": -0.19052404097765474,
+    "echo": -0.1461309130809288,
+    "hold": 3.5072836011708155
+   },
+   "z5": {
+    "plain": 0.8618362114193984,
+    "echo": 0.4009575493437466,
+    "hold": -0.7428834872155371
+   },
+   "fb": 161.69488497183133,
+   "translit": "RMOETSTTTWNGSUOOUEYCGEECNCEEPTEEAWETHIACBIWRNAELANGFAYTHUPYRNRFWIIAEMOGTRWISIMERTFIOTO"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :FIRFUMFERENFE",
+   "family": "hash",
+   "offset": 962,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 5.238447029511746,
+   "z2": {
+    "plain": 0.5245179767170599,
+    "echo": 0.31507125878980136,
+    "hold": 3.936433210603882
+   },
+   "z5": {
+    "plain": 1.6891706347625584,
+    "echo": 1.757209512695202,
+    "hold": -0.7529408910154434
+   },
+   "fb": 129.5786644836873,
+   "translit": "EWOETSTTTWNGSUOOUEYCGEECNCEEPTEEAWETHIACBIWRNAELANGFAYTHUPYRNRFWIIAEMOGTRWISIMERTFIOTO"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :FIRFUMFERENFE",
+   "family": "hash",
+   "offset": 963,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.914515397942447,
+   "z2": {
+    "plain": -0.2753065671102925,
+    "echo": -0.1923678796886986,
+    "hold": 3.6239252777501285
+   },
+   "z5": {
+    "plain": 1.762145187014163,
+    "echo": 1.4030428753172732,
+    "hold": -0.7359932593112158
+   },
+   "fb": 141.68559212752868,
+   "translit": "RMOETSTTTWNGSUOOUEYCGEECNCEEPTEEAWETHIACBIWRNAELANGFAYTHUPYRNRFWIIAEMOGTRWISIMERTFIOTO"
+  },
+  {
+   "variant": "plain",
+   "stream": "md5-ctr reject :circumference",
+   "family": "hash",
+   "offset": 11956,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 5.129516715003598,
+   "z2": {
+    "plain": 2.1097090794090754,
+    "echo": 2.096764213086198,
+    "hold": 1.6065601929395394
+   },
+   "z5": {
+    "plain": 0.33421504917219924,
+    "echo": 0.367611958126696,
+    "hold": -0.24592445545910863
+   },
+   "fb": 115.85474128040809,
+   "translit": "PSTHOSITHFSUOSOEPIUFETHHEAUHOTAEASOUHBFAEOERHOWDUEALAENTOOTHFURRRFHMLXHFTHIAFDWNSEABNTEAESE"
+  },
+  {
+   "variant": "plain",
+   "stream": "md5-ctr reject :circumference",
+   "family": "hash",
+   "offset": 11957,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 5.283863710536793,
+   "z2": {
+    "plain": 2.2107921622100584,
+    "echo": 2.2010087864829386,
+    "hold": 1.9111410827409698
+   },
+   "z5": {
+    "plain": 0.004192376106366508,
+    "echo": 0.04486731525849095,
+    "hold": -0.4782527983262614
+   },
+   "fb": 115.85474128040813,
+   "translit": "SSTHOSITHFSUOSOEPIUFETHHEAUHOTAEASOUHBFAEOERHOWDUEALAENTOOTHFURRRFHMLXHFTHIAFDWNSEABNTEAESE"
+  },
+  {
+   "variant": "echo",
+   "stream": "md5-ctr reject :circumference",
+   "family": "hash",
+   "offset": 11956,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.982612396504437,
+   "z2": {
+    "plain": 2.1097090794090754,
+    "echo": 2.096764213086198,
+    "hold": 1.6065601929395394
+   },
+   "z5": {
+    "plain": 0.33421504917219924,
+    "echo": 0.367611958126696,
+    "hold": -0.24592445545910863
+   },
+   "fb": 115.85474128040809,
+   "translit": "PSTHOSITHFSUOSOEPIUFETHHEAUHOTAEASOUHBFAEOERHOWDUEALAENTOOTHFURRRFHMLXHFTHIAFDWNSIABNTEAESE"
+  },
+  {
+   "variant": "echo",
+   "stream": "md5-ctr reject :circumference",
+   "family": "hash",
+   "offset": 11957,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 5.138950142023074,
+   "z2": {
+    "plain": 2.2107921622100584,
+    "echo": 2.2010087864829386,
+    "hold": 1.9111410827409698
+   },
+   "z5": {
+    "plain": 0.004192376106366508,
+    "echo": 0.04486731525849095,
+    "hold": -0.4782527983262614
+   },
+   "fb": 115.85474128040813,
+   "translit": "SSTHOSITHFSUOSOEPIUFETHHEAUHOTAEASOUHBFAEOERHOWDUEALAENTOOTHFURRRFHMLXHFTHIAFDWNSIABNTEAESE"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :primes",
+   "family": "hash",
+   "offset": 270,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.812747505989024,
+   "z2": {
+    "plain": 2.065245159287236,
+    "echo": 1.9882230805743757,
+    "hold": 3.125564976338044
+   },
+   "z5": {
+    "plain": -0.3659829994379678,
+    "echo": -0.39164626647212303,
+    "hold": 1.7336209388857937
+   },
+   "fb": 155.8945589071889,
+   "translit": "OECRMOUOEEIOAROOTPAPTCCTHRYDRWFOMWTOEEAOYTNEEMDITHOHSHATHOSEGOAGAEYHCALEOAOEAEJSOOISB"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :primes",
+   "family": "hash",
+   "offset": 270,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.771560204330329,
+   "z2": {
+    "plain": 2.7228653640294005,
+    "echo": 2.5105025656660755,
+    "hold": 3.175840621043533
+   },
+   "z5": {
+    "plain": 0.18642932461998643,
+    "echo": 0.2250158099705889,
+    "hold": 1.5987469872745945
+   },
+   "fb": 120.32582665615692,
+   "translit": "OECRMOUOEEIOAROOTPAPTCCTHRYDRWFOMWTOEEAOYTNEEMDITHOHSHATHOSEGOAGAEYHCALEOAOEAEJSOOISB"
+  },
+  {
+   "variant": "plain",
+   "stream": "md5-ctr mod :PILGRIM",
+   "family": "hash",
+   "offset": 7608,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.514390581224082,
+   "z2": {
+    "plain": 3.669964757577925,
+    "echo": 3.483692084034102,
+    "hold": 1.581020584275191
+   },
+   "z5": {
+    "plain": -0.3829005867361419,
+    "echo": 0.30072873537330863,
+    "hold": 1.569921462953408
+   },
+   "fb": 92.72528957331025,
+   "translit": "TDNRTOPFNEDEAATOIWFELYYTHRTENGTTAERFNGEJFWSTHTAFLEIFAEHSECIEDEWRFLGFTHHATBHEOFERRSTBIATY"
+  },
+  {
+   "variant": "echo",
+   "stream": "md5-ctr mod :PILGRIM",
+   "family": "hash",
+   "offset": 7608,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.600382630528211,
+   "z2": {
+    "plain": 3.669964757577925,
+    "echo": 3.483692084034102,
+    "hold": 1.581020584275191
+   },
+   "z5": {
+    "plain": -0.3829005867361419,
+    "echo": 0.30072873537330863,
+    "hold": 1.569921462953408
+   },
+   "fb": 92.72528957331025,
+   "translit": "TDNRTOPFNEDEAATOIWFELYYTHRTENGTTAERENGEJFWSTHTAFLEIFAEHSECIEDEWRFLGFTHHATBHEOAERRSTBIATY"
+  },
+  {
+   "variant": "echo",
+   "stream": "md5-ctr mod :PILGRIM",
+   "family": "hash",
+   "offset": 7668,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.516480053792643,
+   "z2": {
+    "plain": 2.2440211542604453,
+    "echo": 2.404542376562125,
+    "hold": 1.1754648615102998
+   },
+   "z5": {
+    "plain": 0.06531401410231656,
+    "echo": -0.3283377171803903,
+    "hold": -0.6363594024814119
+   },
+   "fb": 111.54617004890619,
+   "translit": "UTMPUWHHENIATHTHWOFBCMTHPNTEFGAFMEPYOMXEWTHONGLWNYSSWLMULEUTTUFAENGFFMFFOEXTHRAOTHSWNDPEA"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :self-reliance",
+   "family": "hash",
+   "offset": 171,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.673600617279274,
+   "z2": {
+    "plain": 1.2191467827869524,
+    "echo": 1.3299043110929696,
+    "hold": 3.9754146703187634
+   },
+   "z5": {
+    "plain": -0.6033723864939138,
+    "echo": -0.5104395192499864,
+    "hold": -0.6881356411448051
+   },
+   "fb": 135.76562332263404,
+   "translit": "UNSWTSSEWHIAEAROUOBLLSWNOEOWOOREUEIRGRAETPAEBRYEIOPHTHRODIAMOSHJAEOIULOMAETIRALOOBDI"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :7A35090F",
+   "family": "hash",
+   "offset": 226,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 5.048904588891401,
+   "z2": {
+    "plain": -1.1317144201930738,
+    "echo": -1.1700662375463635,
+    "hold": 4.675452167001377
+   },
+   "z5": {
+    "plain": 1.4737058586570067,
+    "echo": 1.7087349910130654,
+    "hold": -1.6380284866200674
+   },
+   "fb": 184.38973089929496,
+   "translit": "RLHUNBROAIBOTPSHIBDGRAMRDNSOUEEACIOTHUSTHEIEBAOPOENGUTTASSPEIHCMOUITHEJOORDLAYYREBTD"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :7A35090F",
+   "family": "hash",
+   "offset": 227,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.962888415442432,
+   "z2": {
+    "plain": -3.377788525323601,
+    "echo": -3.7045146726598857,
+    "hold": 4.594476310838606
+   },
+   "z5": {
+    "plain": -0.4703599284155313,
+    "echo": -0.37555174185758694,
+    "hold": -1.4211167267350777
+   },
+   "fb": 228.638374077363,
+   "translit": "DYDNTIROAIBOTPSHIBDGRAMRDNSOUEEACIOTHUSTHEIEBAOPOENGUTTASSPEIHCMOUITHEJOORDLAYYREBTD"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :7A35090F",
+   "family": "hash",
+   "offset": 228,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.630661756999158,
+   "z2": {
+    "plain": -1.1047274052818885,
+    "echo": -1.2485700735544014,
+    "hold": 4.281717244388139
+   },
+   "z5": {
+    "plain": 0.6360322076325943,
+    "echo": 0.680794646984231,
+    "hold": -1.4108800988211427
+   },
+   "fb": 182.0604586892669,
+   "translit": "FMDNTIROAIBOTPSHIBDGRAMRDNSOUEEACIOTHUSTHEIEBAOPOENGUTTASSPEIHCMOUITHEJOORDLAYYREBTD"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :7A35090F",
+   "family": "hash",
+   "offset": 229,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.743560848632813,
+   "z2": {
+    "plain": -1.277061011799936,
+    "echo": -1.5946180961951024,
+    "hold": 4.3880007517619966
+   },
+   "z5": {
+    "plain": 1.100498359351578,
+    "echo": 0.5407110704968411,
+    "hold": -1.6827348089891518
+   },
+   "fb": 185.967848514285,
+   "translit": "SMUNTIROAIBOTPSHIBDGRAMRDNSOUEEACIOTHUSTHEIEBAOPOENGUTTASSPEIHCMOUITHEJOORDLAYYREBTD"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :7A35090F",
+   "family": "hash",
+   "offset": 226,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 5.0095154082426525,
+   "z2": {
+    "plain": 0.3301157958085673,
+    "echo": 0.15387132467336906,
+    "hold": 4.479214278922129
+   },
+   "z5": {
+    "plain": 0.923875313346203,
+    "echo": 0.9803290658165894,
+    "hold": -1.7197449758550145
+   },
+   "fb": 136.0877470282024,
+   "translit": "RLHUNBROAIBOTPSHIBDGRAMRDNSOUEEACIOTHUSTHEIEBAOPOENGUTTASSPEIHCMOUITHEJOORDLAYYREBTD"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :7A35090F",
+   "family": "hash",
+   "offset": 227,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.923275381469592,
+   "z2": {
+    "plain": -1.420923547958781,
+    "echo": -1.5777285435080075,
+    "hold": 4.401283531068637
+   },
+   "z5": {
+    "plain": -0.058248770212848466,
+    "echo": 0.04603672227058517,
+    "hold": -1.4963014789956244
+   },
+   "fb": 164.9608353193213,
+   "translit": "DYDNTIROAIBOTPSHIBDGRAMRDNSOUEEACIOTHUSTHEIEBAOPOENGUTTASSPEIHCMOUITHEJOORDLAYYREBTD"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :7A35090F",
+   "family": "hash",
+   "offset": 228,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.590184117698479,
+   "z2": {
+    "plain": -1.2807280103668384,
+    "echo": -1.1905882926620617,
+    "hold": 4.1002858127184805
+   },
+   "z5": {
+    "plain": -0.722105398646185,
+    "echo": 0.573943443762763,
+    "hold": -1.4857566014917452
+   },
+   "fb": 161.19521116044825,
+   "translit": "FMDNTIROAIBOTPSHIBDGRAMRDNSOUEEACIOTHUSTHEIEBAOPOENGUTTASSPEIHCMOUITHEJOORDLAYYREBTD"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :7A35090F",
+   "family": "hash",
+   "offset": 229,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.703377024273392,
+   "z2": {
+    "plain": -0.31376580492941614,
+    "echo": -0.24320440632295343,
+    "hold": 4.2025725140469286
+   },
+   "z5": {
+    "plain": -0.04779094733157756,
+    "echo": 1.1850816878493604,
+    "hold": -1.7657975135651318
+   },
+   "fb": 145.53125431528184,
+   "translit": "SMUNTIROAIBOTPSHIBDGRAMRDNSOUEEACIOTHUSTHEIEBAOPOENGUTTASSPEIHCMOUITHEJOORDLAYYREBTD"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :0x7A35090F",
+   "family": "hash",
+   "offset": 175,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.604455969122211,
+   "z2": {
+    "plain": -0.3279834748831488,
+    "echo": -0.26337641630025016,
+    "hold": 3.9493237826794263
+   },
+   "z5": {
+    "plain": -2.176119678529833,
+    "echo": -2.538264697524614,
+    "hold": 0.7782610987856692
+   },
+   "fb": 209.59511280571957,
+   "translit": "RWDHMTMASYAOIADUUEUOEAHNGSFRNUIAYONGUNESCTMEASAONIRTHGTYETIOAEEIOEEPNRTULDNGNSERUUDSR"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :0x7A35090F",
+   "family": "hash",
+   "offset": 175,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.528548207651895,
+   "z2": {
+    "plain": 0.1994903469331191,
+    "echo": 0.44612086774032894,
+    "hold": 3.931628353989047
+   },
+   "z5": {
+    "plain": 0.35354953854050336,
+    "echo": -0.09505258375231136,
+    "hold": 0.775201568675659
+   },
+   "fb": 157.5118921567955,
+   "translit": "RWDHMTMASYAOIADUUEUOEAHNGSFRNUIAYONGUNESCTMEASAONIRTHGTYETIOAEEIOEEPNRTULDNGNSERUUDSR"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha256-ctr reject :FULMAEAYOEA",
+   "family": "hash",
+   "offset": 18517,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.558715432826282,
+   "z2": {
+    "plain": 2.804902205301564,
+    "echo": 2.553670740504769,
+    "hold": 2.004293796566259
+   },
+   "z5": {
+    "plain": -0.6169736862128361,
+    "echo": -0.5937036159025767,
+    "hold": 1.551108139102411
+   },
+   "fb": 108.05974554344327,
+   "translit": "DUHNUATSAOFWBRBTHSTDOATEARWOCSSWUTXHIECOIASAHULRHRIGMREBFDUAMFANRNGIRFNUAXSCSNTHPYAOH"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha256-ctr reject :FULMAEAYOEA",
+   "family": "hash",
+   "offset": 18517,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.51734049588033,
+   "z2": {
+    "plain": 2.804902205301564,
+    "echo": 2.553670740504769,
+    "hold": 2.004293796566259
+   },
+   "z5": {
+    "plain": -0.6169736862128361,
+    "echo": -0.5937036159025767,
+    "hold": 1.551108139102411
+   },
+   "fb": 108.05974554344327,
+   "translit": "DUHNUATSAOFWBRBTHSTDOATEARWOCSSWUTXHIECOIASAHULRHRIGMREBFDUAMFANRNGIRFNUAXSCSNTHPYAOH"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr reject :FULMAEAYOEA",
+   "family": "hash",
+   "offset": 784,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.578088548534624,
+   "z2": {
+    "plain": 1.0937793050906488,
+    "echo": 0.8947537350225457,
+    "hold": 4.081507220940065
+   },
+   "z5": {
+    "plain": 0.5337808850499363,
+    "echo": 0.5667199870026268,
+    "hold": 0.5312313287454018
+   },
+   "fb": 137.4761206549602,
+   "translit": "ILGNTAHNUWATHEAEOABIOOEPUSNIEOHERICLUUUDEYTETRJSONGEAFEDGAUERATHDDTFEEHDRITHRASOEEIBED"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr reject :FULMAEAYOEA",
+   "family": "hash",
+   "offset": 786,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.763648598069981,
+   "z2": {
+    "plain": 1.3034661965310406,
+    "echo": 1.3326186681378642,
+    "hold": 4.256193948775573
+   },
+   "z5": {
+    "plain": 0.7094562123865922,
+    "echo": 0.7319954198988315,
+    "hold": 0.1543639827780966
+   },
+   "fb": 134.10634309097588,
+   "translit": "NAUNTAHNUWATHEAEOABIOOEPUSNIEOHERICLUUUDEYTETRJSONGEAFEDGAUERATHDDTFEEHDRITHRASOEEIBED"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr reject :FULMAEAYOEA",
+   "family": "hash",
+   "offset": 784,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.54807424569579,
+   "z2": {
+    "plain": 1.622619023711418,
+    "echo": 1.5644961839624796,
+    "hold": 3.907604714988434
+   },
+   "z5": {
+    "plain": -0.504045381030302,
+    "echo": -0.06676359570617574,
+    "hold": 0.5148364917372238
+   },
+   "fb": 111.79829727409037,
+   "translit": "ILGNTAHNUWATHEAEOABIOOEPUSNIEOHERICLUUUDEYTETRJSONGEAFEDGAUERATHDDTFEEHDRITHRASOEEIBED"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha256-ctr reject :FULMAEAYOEA",
+   "family": "hash",
+   "offset": 786,
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.734117207132963,
+   "z2": {
+    "plain": 1.8423582878854678,
+    "echo": 1.7930469368714657,
+    "hold": 4.0757223241796945
+   },
+   "z5": {
+    "plain": -0.9364495611210799,
+    "echo": -0.49734167364871623,
+    "hold": 0.12662075977459958
+   },
+   "fb": 108.92428685524987,
+   "translit": "NAUNTAHNUWATHEAEOABIOOEPUSNIEOHERICLUUUDEYTETRJSONGEAFEDGAUERATHDDTFEEHDRITHRASOEEIBED"
+  },
+  {
+   "variant": "plain",
+   "stream": "md5-ctr reject :the primes are sacred",
+   "family": "hash",
+   "offset": 19519,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.56426584383967,
+   "z2": {
+    "plain": 3.5830910082789855,
+    "echo": 3.732866324330585,
+    "hold": 1.087818357596657
+   },
+   "z5": {
+    "plain": -2.738838561519149,
+    "echo": -2.8278174090615016,
+    "hold": 1.1654700100613324
+   },
+   "fb": 74.39272122177886,
+   "translit": "TDTHCTHSHMLEAOIHCLJASWYRBPAREONIADITNGEAESPSTSLETEIEALDETWDLFSONOHTHEWMPYNTHNNUEWRBAFNCG"
+  },
+  {
+   "variant": "echo",
+   "stream": "md5-ctr reject :the primes are sacred",
+   "family": "hash",
+   "offset": 19519,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.5306062369925595,
+   "z2": {
+    "plain": 3.3673089981097224,
+    "echo": 3.6470925844920514,
+    "hold": 1.016915112355152
+   },
+   "z5": {
+    "plain": -2.4330470713048986,
+    "echo": -2.528559305766309,
+    "hold": 1.1681736315578606
+   },
+   "fb": 68.98298093572721,
+   "translit": "TDTHCTHSHMLEAOIHCLJASWYRBPAREONIADITNGEAESPSTSLETEIEALDETWDLFSONOHTHEWMPYNTHNNUEWRBAFNCG"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :THE PRIMES ARE SACRED",
+   "family": "hash",
+   "offset": 186,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 4.62095469104547,
+   "z2": {
+    "plain": 0.8799592977518716,
+    "echo": 0.9743777873602311,
+    "hold": 2.7913692037548534
+   },
+   "z5": {
+    "plain": -1.3018566590714737,
+    "echo": -1.1871099080779088,
+    "hold": -0.9167983430823109
+   },
+   "fb": 180.32953297694633,
+   "translit": "YTLIAWNDEUEELIAOEOROOIEICADEFDOTTHFYXNIARTTIRFWNOTNHTITHIINSLSESANOWEHAINNSRERLYCEAOY"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :THE PRIMES ARE SACRED",
+   "family": "hash",
+   "offset": 189,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 4.557567080842672,
+   "z2": {
+    "plain": 1.3688054759446031,
+    "echo": 1.4546432774357874,
+    "hold": 2.739151626592054
+   },
+   "z5": {
+    "plain": -0.692932567406046,
+    "echo": -0.6296346293835794,
+    "hold": -0.7800271631016598
+   },
+   "fb": 169.2553746645485,
+   "translit": "WHMSOTOEEUEELIAOEOROOIEICADEFDOTTHFYXNIARTTIRFWNOTNHTITHIINSLSESANOWEHAINNSRERLYCEAOY"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :THE PRIMES ARE SACRED",
+   "family": "hash",
+   "offset": 186,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.582567295863218,
+   "z2": {
+    "plain": 0.3580253639411506,
+    "echo": 0.31814804620877574,
+    "hold": 2.8498039560152906
+   },
+   "z5": {
+    "plain": 0.3021140967708052,
+    "echo": 0.19039608241248812,
+    "hold": -0.9005126875346926
+   },
+   "fb": 156.61921111393923,
+   "translit": "YTLIAWNDEUEELIAOEOROOIEICADEFDOTTHFYXNIARTTIRFWNOTNHTITHIINSLSESANOWEHAINNSRERLYCEAOY"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :THE PRIMES ARE SACRED",
+   "family": "hash",
+   "offset": 189,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.520105055989782,
+   "z2": {
+    "plain": 1.2836488723765656,
+    "echo": 1.4020213980089409,
+    "hold": 2.7975083833024037
+   },
+   "z5": {
+    "plain": -0.5823981395655631,
+    "echo": -0.48417097689315186,
+    "hold": -0.771541887658872
+   },
+   "fb": 141.47169844682605,
+   "translit": "WHMSOTOEEUEELIAOEOROOIEICADEFDOTTHFYXNIARTTIRFWNOTNHTITHIINSLSESANOWEHAINNSRERLYCEAOY"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :all things should be encrypted",
+   "family": "hash",
+   "offset": 643,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.647235422569479,
+   "z2": {
+    "plain": 1.7055147608931822,
+    "echo": 1.74276273637119,
+    "hold": 5.266437833486852
+   },
+   "z5": {
+    "plain": -0.1697969123999905,
+    "echo": -0.4587328018827269,
+    "hold": -0.5933655713983181
+   },
+   "fb": 130.72074616752724,
+   "translit": "REUTADSIOYSMTRBETBETEOOLUEOIAOAHEEAODTDHSEEUTHXTEONUNGAFNIEETNGADDTIOROLEOTELNUROEOOLEOD"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr mod :all things should be encrypted",
+   "family": "hash",
+   "offset": 643,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.60680091550756,
+   "z2": {
+    "plain": 0.80724132459584,
+    "echo": 0.9198859392093366,
+    "hold": 5.038397022922474
+   },
+   "z5": {
+    "plain": -0.06613746495485544,
+    "echo": -0.3216346617715032,
+    "hold": -0.6436247371909735
+   },
+   "fb": 130.76607558262705,
+   "translit": "REUTADSIOYSMTRBETBETEOOLUEOIAOAHEEAODTDHSEEUTHXTEONUNGAFNIEETNGADDTIOROLEOTELNUROEOOLEOD"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha256-ctr reject :a warning",
+   "family": "hash",
+   "offset": 10078,
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.52774542164543,
+   "z2": {
+    "plain": 3.516969579210244,
+    "echo": 3.7945925246060064,
+    "hold": 0.08764703572912187
+   },
+   "z5": {
+    "plain": -1.1181023341577956,
+    "echo": -1.2181199083816094,
+    "hold": 0.9990623241585068
+   },
+   "fb": 86.16577289601014,
+   "translit": "IIIRTNUEALENGADEAEAWWERIACSOJECPIAOUTHAEUNEOELGEEGWEWUNGIOODNPEMFNFWAFYHOFYLNADEANUIACLNG"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :command your own self",
+   "family": "hash",
+   "offset": 653,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.507655726463946,
+   "z2": {
+    "plain": -0.436776492483686,
+    "echo": -0.4427242020602394,
+    "hold": 2.8429180755708563
+   },
+   "z5": {
+    "plain": -1.0317479457480419,
+    "echo": -0.9412747918009783,
+    "hold": -0.7623505151564881
+   },
+   "fb": 209.69124561575038,
+   "translit": "EODWOATEOSLLFEACOAWTWWNHTHUHBPLIETHSISLRSEOFIFOSHUEWEAWHNNGDYWNNAEEYECTEYNCSHIRATTHIG"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :program reality",
+   "family": "hash",
+   "offset": 145,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.783244980215016,
+   "z2": {
+    "plain": 0.9492668951502043,
+    "echo": 1.0085364236824337,
+    "hold": 3.47385269752138
+   },
+   "z5": {
+    "plain": 0.7061106460453029,
+    "echo": 0.692922969978924,
+    "hold": 0.015085312697957995
+   },
+   "fb": 137.57936802037395,
+   "translit": "OIWEACNERIAWRSRNNNGCRNSEDLECHTOANNGNTOSUUOYDNBORGTLITNLETDNGRTEOAOEMINOITTHRTTSULEABLH"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr reject :program reality",
+   "family": "hash",
+   "offset": 145,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.732564276135678,
+   "z2": {
+    "plain": 0.7337835162885726,
+    "echo": 0.8495062428744184,
+    "hold": 3.3036434753032347
+   },
+   "z5": {
+    "plain": 0.8033088454161086,
+    "echo": 0.8959850469095035,
+    "hold": -0.016851927446841643
+   },
+   "fb": 123.78350917643628,
+   "translit": "OIWEACNERIAWRSRNNNGCRNSEDLECHTOANNGNTOSUUOYDNBORGTLITNLETDNGRTEOAOEMINOITTHRTTSULEABLH"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha512-ctr reject :1729",
+   "family": "hash",
+   "offset": 19042,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.508853250751249,
+   "z2": {
+    "plain": 2.389022756940472,
+    "echo": 2.1852069488671098,
+    "hold": 2.1279918947211844
+   },
+   "z5": {
+    "plain": -0.31004854247003766,
+    "echo": -0.2370963227856493,
+    "hold": -0.654773937217031
+   },
+   "fb": 142.60637754462732,
+   "translit": "MEODOAWBEASNCCNOTHEJDGSDTHEOYTHOEUYFFSATHHIUPUGACAUUEMTHIXFIHEATSNTAJOEUEEOFPIASIUTHXINIXHW"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha512-ctr reject :1729",
+   "family": "hash",
+   "offset": 19042,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.70205652688272,
+   "z2": {
+    "plain": 2.5168949628453254,
+    "echo": 2.3830342168991727,
+    "hold": 2.071644873300048
+   },
+   "z5": {
+    "plain": -1.7543341332688658,
+    "echo": -1.747212599357249,
+    "hold": -0.6738319358044419
+   },
+   "fb": 112.78595239335402,
+   "translit": "MEODOAWBEASNCCNOTHEJDGSDTHEOYTHOEUYFFSATHHIUPUGACAUUEMTHIXFIHEATSNTTELANFLEDNNGUIOYGBILS"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha512-ctr reject :1729",
+   "family": "hash",
+   "offset": 19042,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.733553984575204,
+   "z2": {
+    "plain": 2.5168949628453254,
+    "echo": 2.3830342168991727,
+    "hold": 2.071644873300048
+   },
+   "z5": {
+    "plain": -1.7543341332688658,
+    "echo": -1.747212599357249,
+    "hold": -0.6738319358044419
+   },
+   "fb": 112.78595239335402,
+   "translit": "MEODOAWBEASNCCNOTHEJDGSDTHEOYTHOEUYYFSATHHIUPUGACAUUEMTHIXFIHEATSNTTELANFLEDNNUIOYGBILS"
+  },
+  {
+   "variant": "echo",
+   "stream": "md5-ctr mod :729",
+   "family": "hash",
+   "offset": 2374,
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "z1": 4.651262551937304,
+   "z2": {
+    "plain": 3.2080156744254538,
+    "echo": 3.2340685173021626,
+    "hold": 2.0091458040492824
+   },
+   "z5": {
+    "plain": -1.359404262033079,
+    "echo": -2.029928563360304,
+    "hold": -0.35282043616849784
+   },
+   "fb": 101.95544067087977,
+   "translit": "OAOSRMMLEANWTHRLSBTHCBERNDGETUISIACTRYNGEEEFUWPERTHHTHOTHETITIAWFRASNGIAOWNCNODRICTUCYXEWWH"
+  },
+  {
+   "variant": "plain",
+   "stream": "sha512-ctr mod :7",
+   "family": "hash",
+   "offset": 808,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.672377839480279,
+   "z2": {
+    "plain": 2.9481031833441653,
+    "echo": 2.7872847604484106,
+    "hold": 1.4233539344897521
+   },
+   "z5": {
+    "plain": -0.3742971618014858,
+    "echo": -0.30759293806869265,
+    "hold": -0.9277695474874353
+   },
+   "fb": 102.88863685851553,
+   "translit": "TJATHYLAEAMEODUOTTUFEFUEUAAERLEYENSAESUEIWTHIAWTHOGBDTEROPDAEUUNFROFNGMFLSSTPTFLRTCSANG"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha512-ctr mod :7",
+   "family": "hash",
+   "offset": 808,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.780350790868671,
+   "z2": {
+    "plain": 2.9481031833441653,
+    "echo": 2.7872847604484106,
+    "hold": 1.4233539344897521
+   },
+   "z5": {
+    "plain": -0.3742971618014858,
+    "echo": -0.30759293806869265,
+    "hold": -0.9277695474874353
+   },
+   "fb": 102.88863685851553,
+   "translit": "TJATHYLAEAMEODUOTTUFEFUEUAAERLEYENSAESUEIWTHIAWTHOGBDTEROPDAEUUNFROFNGMFLSSTMTLLRTCSANG"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha512-ctr mod :7",
+   "family": "hash",
+   "offset": 809,
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.590521874671291,
+   "z2": {
+    "plain": 2.8228084898130286,
+    "echo": 2.6646668800963202,
+    "hold": 2.0548977007564595
+   },
+   "z5": {
+    "plain": -0.49983975554549226,
+    "echo": -0.4310411364724394,
+    "hold": -0.9077608379869737
+   },
+   "fb": 108.04825826645357,
+   "translit": "EXBDWTTFAMEODUOTTUFEFUEUAAERLEYENSAESUEIWTHIAWTHOGBDTEROPDAEUUNFROFNGMFLSSTMTLLRTCSANG"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha256-ctr mod :31",
+   "family": "hash",
+   "offset": 10081,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.512193669888989,
+   "z2": {
+    "plain": 4.275695971860019,
+    "echo": 4.022569053530246,
+    "hold": 2.7806425119971796
+   },
+   "z5": {
+    "plain": -1.3478351018802974,
+    "echo": -1.3425409396735597,
+    "hold": -1.0952540019508887
+   },
+   "fb": 93.3045781533531,
+   "translit": "TSSTJUNGERADSWTSRSDEHWSHRPNTWOEAISRDDRNGFIIUFIDEDMIPWLATEOXPESAYMTHESDTTEAJUHUIYLGIAW"
+  },
+  {
+   "variant": "echo",
+   "stream": "sha256-ctr mod :1311",
+   "family": "hash",
+   "offset": 1568,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.550413235945984,
+   "z2": {
+    "plain": 3.7856913353372614,
+    "echo": 3.641322333851838,
+    "hold": 0.1563990066007101
+   },
+   "z5": {
+    "plain": -2.0961036770747445,
+    "echo": -2.06603184035106,
+    "hold": -1.519014870793727
+   },
+   "fb": 87.43948530619507,
+   "translit": "ISGMGTHLMBNRDTIEPGRDYWTHYBCWTHEASLITHOYSIITHWWSADAHCOEADRDAFESOYWATONSERIBERULNINUOYIAIA"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :434",
+   "family": "hash",
+   "offset": 663,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.580685007119373,
+   "z2": {
+    "plain": 0.29299359921436074,
+    "echo": 0.41683053973100903,
+    "hold": 3.451211111249129
+   },
+   "z5": {
+    "plain": 0.29774021822240304,
+    "echo": 0.12273594745059956,
+    "hold": 1.116281706064447
+   },
+   "fb": 196.7574009686836,
+   "translit": "BLRCTTIAUTELEOEDOYSEPREDETHSAODTHMAXADOEETHEONNFAAMONGETAEADHAOOESOIGOTHOENRTTHSSHAEOSONLAW"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :434",
+   "family": "hash",
+   "offset": 664,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.755050328579483,
+   "z2": {
+    "plain": -0.5097227002304451,
+    "echo": -0.31200178441937865,
+    "hold": 3.5948501378464366
+   },
+   "z5": {
+    "plain": -0.4065171600819487,
+    "echo": -0.3117179988805082,
+    "hold": 0.9644907930884982
+   },
+   "fb": 215.24542066540724,
+   "translit": "CANSTTIAUTELEOEDOYSEPREDETHSAODTHMAXADOEETHEONNFAAMONGETAEADHAOOESOIGOTHOENRTTHSSHAEOSONLAW"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :434",
+   "family": "hash",
+   "offset": 665,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z1": 4.557838109082423,
+   "z2": {
+    "plain": 0.6495276915919354,
+    "echo": 0.9851190879986119,
+    "hold": 3.4323902461406606
+   },
+   "z5": {
+    "plain": 1.2720581245514377,
+    "echo": 1.3675275323578837,
+    "hold": 0.8019094359363151
+   },
+   "fb": 188.78159839339773,
+   "translit": "NINSTTIAUTELEOEDOYSEPREDETHSAODTHMAXADOEETHEONNFAAMONGETAEADHAOOESOIGOTHOENRTTHSSHAEOSONLAW"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :434",
+   "family": "hash",
+   "offset": 663,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.522202449124409,
+   "z2": {
+    "plain": 0.10408980561146279,
+    "echo": 0.029812199691757402,
+    "hold": 3.484105239233681
+   },
+   "z5": {
+    "plain": 0.27300849674649236,
+    "echo": 0.10012370721630846,
+    "hold": 1.0167206360842376
+   },
+   "fb": 164.02047789088704,
+   "translit": "BLRCTTIAUTELEOEDOYSEPREDETHSAODTHMAXADOEETHEONNFAAMONGETAEADHAOOESOIGOTHOENRTTHSSHAEOSONLAW"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :434",
+   "family": "hash",
+   "offset": 664,
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z1": 4.6940222811042815,
+   "z2": {
+    "plain": -1.9925821126451937,
+    "echo": -1.8493538725547138,
+    "hold": 3.6279588143700514
+   },
+   "z5": {
+    "plain": -0.9716311629701003,
+    "echo": 0.5907619928074216,
+    "hold": 0.8735867136953346
+   },
+   "fb": 198.46475826034427,
+   "translit": "CANSTTIAUTELEOEDOYSEPREDETHSAODTHMAXADOEETHEONNFAAMONGETAEADHAOOESOIGOTHOENRTTHSSHAEOSONLAW"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :434",
+   "family": "hash",
+   "offset": 339,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "z1": 4.8677223913440795,
+   "z2": {
+    "plain": 0.5666611329934476,
+    "echo": 0.46722108796478323,
+    "hold": 3.1746122648344213
+   },
+   "z5": {
+    "plain": -2.483377533519715,
+    "echo": -2.6667664252396435,
+    "hold": 0.3216413992294883
+   },
+   "fb": 189.2608371118896,
+   "translit": "OEAOMEOEEUETLGHNGUNGTNGLIWMSTHTEOAUIWGSOOEEOEAIASEOOEATNGWRMDOAOETHBLIYTUOETBLMULHCAINNADL"
+  },
+  {
+   "variant": "hold",
+   "stream": "md5-ctr mod :434",
+   "family": "hash",
+   "offset": 339,
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "z1": 4.815391011457579,
+   "z2": {
+    "plain": 0.39298807320038576,
+    "echo": 0.3240858113484911,
+    "hold": 3.1989863178232514
+   },
+   "z5": {
+    "plain": -0.38652701200206835,
+    "echo": -0.3541867303163195,
+    "hold": 0.26729594134862705
+   },
+   "fb": 157.8855025140239,
+   "translit": "OEAOMEOEEUETLGHNGUNGTNGLIWMSTHTEOAUIWGSOOEEOEAIASEOOEATNGWRMDOAOETHBLIYTUOETBLMULHCAINNADL"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 563,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.855715840483671,
+   "z2": {
+    "plain": -0.8848376812111399,
+    "echo": -1.015295662955329,
+    "hold": 4.022583207105614
+   },
+   "z5": {
+    "plain": 2.574093315148287,
+    "echo": 2.6901607284832982,
+    "hold": 0.46481978373595345
+   },
+   "fb": 176.51225771911285,
+   "translit": "WLOBYBUOTHAODSOBNTITCEODLNGEPOTISWTAAETTHHANUTRAPUROEEIIEIAGINGEURUIIOIURIORRAEUOEIRE"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 564,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.9242558278560145,
+   "z2": {
+    "plain": -0.29612992727676735,
+    "echo": -0.5054834381191883,
+    "hold": 4.087106934868902
+   },
+   "z5": {
+    "plain": 1.3134510458373834,
+    "echo": 1.4165395227536255,
+    "hold": 0.3679075280127203
+   },
+   "fb": 165.11165609993628,
+   "translit": "DNGIETBUOTHAODSOBNTITCEODLNGEPOTISWTAAETTHHANUTRAPUROEEIIEIAGINGEURUIIOIURIORRAEUOEIRE"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 565,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 5.1558095479775625,
+   "z2": {
+    "plain": -2.664893633887988,
+    "echo": -2.7577709238755657,
+    "hold": 4.305092227432995
+   },
+   "z5": {
+    "plain": 1.7131397728036943,
+    "echo": 0.11744924379177382,
+    "hold": 0.3746085520240928
+   },
+   "fb": 213.15904020286095,
+   "translit": "AMIETBUOTHAODSOBNTITCEODLNGEPOTISWTAAETTHHANUTRAPUROEEIIEIAGINGEURUIIOIURIORRAEUOEIRE"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 566,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z1": 4.6881383823642055,
+   "z2": {
+    "plain": -1.0884971502412537,
+    "echo": -0.6830625893220307,
+    "hold": 3.8648253390128717
+   },
+   "z5": {
+    "plain": 0.41483501304369397,
+    "echo": 0.8093077033912833,
+    "hold": 0.4053596376398775
+   },
+   "fb": 179.83940179468834,
+   "translit": "THMUETBUOTHAODSOBNTITCEODLNGEPOTISWTAAETTHHANUTRAPUROEEIIEIAGINGEURUIIOIURIORRAEUOEIRE"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 563,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.815823894578413,
+   "z2": {
+    "plain": -0.31909062964513957,
+    "echo": -0.12967065256463972,
+    "hold": 3.850896546872027
+   },
+   "z5": {
+    "plain": 0.9799452832782451,
+    "echo": 1.1166438865134336,
+    "hold": 0.44642513471068945
+   },
+   "fb": 143.95595798701663,
+   "translit": "WLOBYBUOTHAODSOBNTITCEODLNGEPOTISWTAAETTHHANUTRAPUROEEIIEIAGINGEURUIIOIURIORRAEUOEIRE"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 564,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.884542254266001,
+   "z2": {
+    "plain": 0.8549604148409002,
+    "echo": 0.9759208718003494,
+    "hold": 3.912993850897816
+   },
+   "z5": {
+    "plain": -0.5501640421173605,
+    "echo": -0.435563972131631,
+    "hold": 0.346594616905605
+   },
+   "fb": 124.6434880181852,
+   "translit": "DNGIETBUOTHAODSOBNTITCEODLNGEPOTISWTAAETTHHANUTRAPUROEEIIEIAGINGEURUIIOIURIORRAEUOEIRE"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 565,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 5.116698582802647,
+   "z2": {
+    "plain": -1.6057262250527047,
+    "echo": -1.4832785939960638,
+    "hold": 4.122781776281826
+   },
+   "z5": {
+    "plain": -0.0014847944783124023,
+    "echo": 0.05926421363099943,
+    "hold": 0.3534974249342417
+   },
+   "fb": 166.72904868873619,
+   "translit": "AMIETBUOTHAODSOBNTITCEODLNGEPOTISWTAAETTHHANUTRAPUROEEIIEIAGINGEURUIIOIURIORRAEUOEIRE"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 566,
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "z1": 4.647810323463697,
+   "z2": {
+    "plain": -1.417484551009989,
+    "echo": -0.8427434176634152,
+    "hold": 3.6990711853034264
+   },
+   "z5": {
+    "plain": 0.12364729821006752,
+    "echo": 0.26742315839927977,
+    "hold": 0.38517450000779513
+   },
+   "fb": 161.58035895736072,
+   "translit": "THMUETBUOTHAODSOBNTITCEODLNGEPOTISWTAAETTHHANUTRAPUROEEIIEIAGINGEURUIIOIURIORRAEUOEIRE"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 285,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.982338458764687,
+   "z2": {
+    "plain": 1.0064286588786164,
+    "echo": 1.1335080963797808,
+    "hold": 4.2213925906684
+   },
+   "z5": {
+    "plain": 0.5397398514390785,
+    "echo": 0.540926212723795,
+    "hold": 0.8049980455222691
+   },
+   "fb": 141.17442914383622,
+   "translit": "EOEFIHNTDYSCYRIWLRTHGHDNGENOOHSESIGWAUSHBOEHCEEEEMTHTEAIIANGSDBEIATHMIIAJETNNRAEEOLGTEN"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 287,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": false,
+   "z1": 4.57132604416991,
+   "z2": {
+    "plain": -1.0138994612394698,
+    "echo": -1.3162333071091943,
+    "hold": 3.8513365786306943
+   },
+   "z5": {
+    "plain": 1.274980000333617,
+    "echo": 1.2211864971841757,
+    "hold": 0.32247548001303133
+   },
+   "fb": 179.7576893711333,
+   "translit": "YEUENRALDYSCYRIWLRTHGHDNGENOOHSESIGWAUSGYOEHCEEEEMTHTEAIIANGSDBEIATHMIIAJETNNRAEEOLGTEN"
+  },
+  {
+   "variant": "hold",
+   "stream": "sha512-ctr reject :<256 bytes cbe7a7ba>",
+   "family": "hash",
+   "offset": 285,
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": true,
+   "z1": 4.780117684254083,
+   "z2": {
+    "plain": 0.8152945425103034,
+    "echo": 0.8157286952444264,
+    "hold": 4.368536767459552
+   },
+   "z5": {
+    "plain": 0.5130893464773727,
+    "echo": -0.6338927141916919,
+    "hold": 0.8166661823967594
+   },
+   "fb": 126.63987613016117,
+   "translit": "EOEFIHNTDYSCYRIWLRTHGHDNGENOOHSESIGWAUSHBOEHCEEEEMTHTEAIIANGSDBEIATHMIIAJETNNRAEEOLGTEN"
+  }
+ ],
+ "candidates": [],
+ "zmax": {
+  "plain": 5.283863710536793,
+  "echo": 5.138950142023074,
+  "hold": 5.843927073845105
+ },
+ "hold_offsets": 1000,
+ "z_t1": 4.5,
+ "z_uni": 6.0,
+ "z_5": 6.0,
+ "pen": -0.8,
+ "gain": -0.10647224451051684
+}

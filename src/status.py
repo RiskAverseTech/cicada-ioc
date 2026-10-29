@@ -58,6 +58,7 @@ LANES = [
     ("§52", "Hint reading: word edges and page rings written in clear (the parable as an operation)", nt("shed_lane.json"), "7/12 (WORD kind halves the encrypted material; 3 alias ranks)", "null", "WORD kind weak for keys under three words"),
     ("§53a", "Cicada's own words 2012-2017 as running keys (every offset, both directions, both spellings)", nt("runkey_cicada.json"), "2/2", "null", "one 7,792-rune stream"),
     ("§53b", "Cicada's own words 2012-2017 as word, phrase and line keys (8,916 keys, forwards and reversed)", nt("cicada_words.json"), "6/6 (rerun)", "null", "keys up to 400 runes; the group's prose and embedded strings"),
+    ("§54", "Cross-library: pnotisdev's 1,439 streams under the plain, echo and hold decoders", nt("cross_library.json"), "14/18 rank 1 (18/18 found; misses are own-offset aliases)", "null", "every offset for plain / echo; hold at offsets 0–999 of the non-periodic streams; sacred / hyp libraries not rebuilt"),
     ("§44", "Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000", nt("digits.json"), "4/4", "null", "base-10, digit pairs, base-29; fresh offset per page"),
 ]
 OPEN = [
@@ -69,7 +70,7 @@ OPEN = [
     "wazar's R12-C2 esoteric texts: Dukotah R26-B ran 33 of them at 4–8 offsets, sign −1 only (pages 20/22/25/27/29, sign +1, reversed texts unrun; Gutenberg ids wrong)",
     "LP2-50, the two-character-code page, as a cipher of its own",
     "Key source, not key search: the page behind the AN END SHA-512 (the one place a key is said to exist) is unfound; archived onion corpora (Dukotah 2026-07-27), 1,962 documents (ItIsCuthNotCup), raw bytes/IPv4/phones (hashcat), 124,017 onion-capture digests (pnotisdev) and 502 artefacts x 3,977 readings here (§35) do not contain it; Tor v2 is gone, so only an archive nobody has indexed can",
-    "Cross-library decoding: pnotisdev's 1,447 number streams have met only IoC/bigram screens and the R4 engine, the book's phrase library here only the skip Viterbi (+ §22 hold nulls, + §48 echoes); each library under the other lab's decoder is untested",
+    "Cross-library decoding, second half: this repository's 7,621 keys (data/processed/book_library.tsv) have not been run under pnotisdev's flat-IoC engine; their sacred / sacred2 / sacred3 / hyp-streams libraries and the 12,944 hash-word streams have not met the decoders here (§54 covers the 1,439-stream main library)",
 
     "The S carrier (11 of 102 lag-5 pairs): a step acting on the written rune S, or a fluctuation; no additive mechanism carries it (§47); the lag-5 echo prefers line-wrapping words (§50) but shows no layout signature (§51): a fluctuation or an unnamed property of those words",
     "§39's phase-6 part (the nine short pages) under the corrected word edges: not rerun; §14's full rerun moved maxima by tenths of a sigma",
