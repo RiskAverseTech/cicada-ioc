@@ -1,0 +1,2805 @@
+{
+ "rows": [
+  {
+   "n": 100,
+   "fam": "vigenere-word",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.0,
+   "sign": "sub",
+   "F": false,
+   "key": "PILGRIMAGE",
+   "fillers": 0,
+   "first": -1,
+   "res": {
+    "plain": {
+     "z": 6.087452032057498,
+     "rank": 1,
+     "acc": 1.0
+    },
+    "free-null -2.2": {
+     "z": 10.22811788724643,
+     "rank": 1,
+     "acc": 1.0,
+     "nats": 0.0
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "vigenere-word",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.01,
+   "sign": "sub",
+   "F": false,
+   "key": "PILGRIMAGE",
+   "fillers": 1,
+   "first": 69,
+   "res": {
+    "plain": {
+     "z": 4.986966395456142,
+     "rank": 1,
+     "acc": 0.7575757575757576
+    },
+    "free-null -2.2": {
+     "z": 9.576967267915004,
+     "rank": 1,
+     "acc": 0.9696969696969697,
+     "nats": 22.8671572840381
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "vigenere-word",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.02,
+   "sign": "sub",
+   "F": false,
+   "key": "PILGRIMAGE",
+   "fillers": 2,
+   "first": 7,
+   "res": {
+    "plain": {
+     "z": 2.3518886777444625,
+     "rank": 10,
+     "acc": 0.3877551020408163
+    },
+    "free-null -2.2": {
+     "z": 9.161539619485792,
+     "rank": 1,
+     "acc": 0.9183673469387755,
+     "nats": 59.88198009906621
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "vigenere-word",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.05,
+   "sign": "sub",
+   "F": false,
+   "key": "PILGRIMAGE",
+   "fillers": 1,
+   "first": 31,
+   "res": {
+    "plain": {
+     "z": 4.3804100858194275,
+     "rank": 1,
+     "acc": 0.696969696969697
+    },
+    "free-null -2.2": {
+     "z": 10.045071462918743,
+     "rank": 1,
+     "acc": 0.98989898989899,
+     "nats": 31.900129154694575
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "vigenere-word",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.1,
+   "sign": "sub",
+   "F": false,
+   "key": "PILGRIMAGE",
+   "fillers": 14,
+   "first": 4,
+   "res": {
+    "plain": {
+     "z": 2.8386169043103204,
+     "rank": 5,
+     "acc": 0.11627906976744186
+    },
+    "free-null -2.2": {
+     "z": 5.852193395519104,
+     "rank": 1,
+     "acc": 0.686046511627907,
+     "nats": 34.94695124263018
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "vigenere-word",
+   "rep": 0,
+   "form": "word",
+   "x": 0.2,
+   "sign": "sub",
+   "F": false,
+   "key": "PILGRIMAGE",
+   "fillers": 7,
+   "first": 0,
+   "res": {
+    "plain": {
+     "z": 0.993407135187802,
+     "rank": 101,
+     "acc": 0.15053763440860216
+    },
+    "free-null -2.2": {
+     "z": 7.545545287187345,
+     "rank": 1,
+     "acc": 0.9354838709677419,
+     "nats": 73.79454437210464
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "vigenere-word",
+   "rep": 0,
+   "form": "word",
+   "x": 0.4,
+   "sign": "sub",
+   "F": false,
+   "key": "PILGRIMAGE",
+   "fillers": 9,
+   "first": 2,
+   "res": {
+    "plain": {
+     "z": 2.055497397477842,
+     "rank": 6,
+     "acc": 0.37362637362637363
+    },
+    "free-null -2.2": {
+     "z": 5.996684897745353,
+     "rank": 1,
+     "acc": 0.9120879120879121,
+     "nats": 48.071993006159445
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "vigenere-word",
+   "rep": 0,
+   "form": "word",
+   "x": 0.6,
+   "sign": "sub",
+   "F": false,
+   "key": "PILGRIMAGE",
+   "fillers": 11,
+   "first": 5,
+   "res": {
+    "plain": {
+     "z": 2.3043123283764033,
+     "rank": 5,
+     "acc": 0.12359550561797752
+    },
+    "free-null -2.2": {
+     "z": 5.522584949044896,
+     "rank": 1,
+     "acc": 0.8426966292134831,
+     "nats": 43.54168447904975
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "vigenere-word",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.0,
+   "sign": "beaufort",
+   "F": false,
+   "key": "CONFUSED",
+   "fillers": 0,
+   "first": -1,
+   "res": {
+    "plain": {
+     "z": 6.880338276630131,
+     "rank": 1,
+     "acc": 1.0
+    },
+    "free-null -2.2": {
+     "z": 11.738616853133918,
+     "rank": 1,
+     "acc": 1.0,
+     "nats": 0.0
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "vigenere-word",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.01,
+   "sign": "beaufort",
+   "F": false,
+   "key": "CONFUSED",
+   "fillers": 0,
+   "first": -1,
+   "res": {
+    "plain": {
+     "z": 6.9099796123938955,
+     "rank": 1,
+     "acc": 1.0
+    },
+    "free-null -2.2": {
+     "z": 11.15401899486174,
+     "rank": 1,
+     "acc": 0.96,
+     "nats": 0.3439785466490335
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "vigenere-word",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.02,
+   "sign": "beaufort",
+   "F": false,
+   "key": "CONFUSED",
+   "fillers": 3,
+   "first": 13,
+   "res": {
+    "plain": {
+     "z": 6.426430831738245,
+     "rank": 1,
+     "acc": 0.8762886597938144
+    },
+    "free-null -2.2": {
+     "z": 10.349061293504441,
+     "rank": 1,
+     "acc": 0.9381443298969072,
+     "nats": 6.7585667136418905
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "vigenere-word",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.05,
+   "sign": "beaufort",
+   "F": false,
+   "key": "CONFUSED",
+   "fillers": 2,
+   "first": 63,
+   "res": {
+    "plain": {
+     "z": 6.570580034855047,
+     "rank": 1,
+     "acc": 0.9387755102040817
+    },
+    "free-null -2.2": {
+     "z": 11.411806453202466,
+     "rank": 1,
+     "acc": 0.9795918367346939,
+     "nats": 5.32649796921487
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "vigenere-word",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.1,
+   "sign": "beaufort",
+   "F": false,
+   "key": "CONFUSED",
+   "fillers": 7,
+   "first": 6,
+   "res": {
+    "plain": {
+     "z": 3.4405395497361715,
+     "rank": 1,
+     "acc": 0.24731182795698925
+    },
+    "free-null -2.2": {
+     "z": 9.778169105174259,
+     "rank": 1,
+     "acc": 0.7096774193548387,
+     "nats": 44.16120512476414
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "vigenere-word",
+   "rep": 8,
+   "form": "word",
+   "x": 0.2,
+   "sign": "beaufort",
+   "F": false,
+   "key": "CONFUSED",
+   "fillers": 7,
+   "first": 0,
+   "res": {
+    "plain": {
+     "z": 0.10919716536489335,
+     "rank": 265,
+     "acc": 0.0
+    },
+    "free-null -2.2": {
+     "z": 9.208352612553519,
+     "rank": 1,
+     "acc": 0.8817204301075269,
+     "nats": 95.7428600431017
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "vigenere-word",
+   "rep": 8,
+   "form": "word",
+   "x": 0.4,
+   "sign": "beaufort",
+   "F": false,
+   "key": "CONFUSED",
+   "fillers": 7,
+   "first": 13,
+   "res": {
+    "plain": {
+     "z": 5.452510375593171,
+     "rank": 1,
+     "acc": 0.7526881720430108
+    },
+    "free-null -2.2": {
+     "z": 9.860592296500682,
+     "rank": 1,
+     "acc": 0.8279569892473119,
+     "nats": 15.111217588619041
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "vigenere-word",
+   "rep": 8,
+   "form": "word",
+   "x": 0.6,
+   "sign": "beaufort",
+   "F": false,
+   "key": "CONFUSED",
+   "fillers": 14,
+   "first": 9,
+   "res": {
+    "plain": {
+     "z": 3.5262923336175733,
+     "rank": 1,
+     "acc": 0.2441860465116279
+    },
+    "free-null -2.2": {
+     "z": 6.237100307914905,
+     "rank": 1,
+     "acc": 0.8953488372093024,
+     "nats": 29.114348101555272
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "primes",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.0,
+   "sign": "add",
+   "F": true,
+   "key": "p[n+13]",
+   "fillers": 0,
+   "first": -1,
+   "res": {
+    "plain": {
+     "z": 7.195981004126934,
+     "rank": 1,
+     "acc": 1.0
+    },
+    "free-null -2.2": {
+     "z": 7.7631896168999965,
+     "rank": 1,
+     "acc": 1.0,
+     "nats": 0.0
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "primes",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.01,
+   "sign": "add",
+   "F": true,
+   "key": "p[n+13]",
+   "fillers": 2,
+   "first": 18,
+   "res": {
+    "plain": {
+     "z": 6.663754021100935,
+     "rank": 1,
+     "acc": 0.9489795918367347
+    },
+    "free-null -2.2": {
+     "z": 7.772591053983047,
+     "rank": 1,
+     "acc": 0.9489795918367347,
+     "nats": 0.0
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "primes",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.02,
+   "sign": "add",
+   "F": true,
+   "key": "p[n+13]",
+   "fillers": 2,
+   "first": 7,
+   "res": {
+    "plain": {
+     "z": 6.995521096427854,
+     "rank": 1,
+     "acc": 0.9489795918367347
+    },
+    "free-null -2.2": {
+     "z": 6.481308886050763,
+     "rank": 1,
+     "acc": 1.0,
+     "nats": 0.5719617926678566
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "primes",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.05,
+   "sign": "add",
+   "F": true,
+   "key": "p[n+13]",
+   "fillers": 4,
+   "first": 56,
+   "res": {
+    "plain": {
+     "z": 4.910691731909349,
+     "rank": 1,
+     "acc": 0.4895833333333333
+    },
+    "free-null -2.2": {
+     "z": 6.38190090422909,
+     "rank": 1,
+     "acc": 0.9479166666666666,
+     "nats": 16.894925583404408
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "primes",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.1,
+   "sign": "add",
+   "F": true,
+   "key": "p[n+13]",
+   "fillers": 10,
+   "first": 20,
+   "res": {
+    "plain": {
+     "z": 2.124682824211065,
+     "rank": 11,
+     "acc": 0.32222222222222224
+    },
+    "free-null -2.2": {
+     "z": 5.059753183652438,
+     "rank": 1,
+     "acc": 0.8222222222222222,
+     "nats": 33.58330818341508
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "primes",
+   "rep": 4,
+   "form": "word",
+   "x": 0.2,
+   "sign": "add",
+   "F": true,
+   "key": "p[n+13]",
+   "fillers": 3,
+   "first": 1,
+   "res": {
+    "plain": {
+     "z": 5.142064364820403,
+     "rank": 1,
+     "acc": 0.7731958762886598
+    },
+    "free-null -2.2": {
+     "z": 7.093126567321008,
+     "rank": 1,
+     "acc": 0.9896907216494846,
+     "nats": 12.328398363988102
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "primes",
+   "rep": 4,
+   "form": "word",
+   "x": 0.4,
+   "sign": "add",
+   "F": true,
+   "key": "p[n+13]",
+   "fillers": 8,
+   "first": 0,
+   "res": {
+    "plain": {
+     "z": 3.83770737054173,
+     "rank": 5,
+     "acc": 0.5434782608695652
+    },
+    "free-null -2.2": {
+     "z": 6.646980166844984,
+     "rank": 2,
+     "acc": 0.8913043478260869,
+     "nats": 28.426443022172556
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "primes",
+   "rep": 4,
+   "form": "word",
+   "x": 0.6,
+   "sign": "add",
+   "F": true,
+   "key": "p[n+13]",
+   "fillers": 11,
+   "first": 2,
+   "res": {
+    "plain": {
+     "z": 2.8086374904787346,
+     "rank": 6,
+     "acc": 0.3258426966292135
+    },
+    "free-null -2.2": {
+     "z": 5.597937421226421,
+     "rank": 1,
+     "acc": 0.8426966292134831,
+     "nats": 30.963011997962138
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "running key",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.0,
+   "sign": "sub",
+   "F": false,
+   "key": "lady_fountain_bulfinch @4752",
+   "fillers": 0,
+   "first": -1,
+   "res": {
+    "plain": {
+     "z": 6.945584387699029,
+     "rank": 1,
+     "acc": 1.0
+    },
+    "free-null -2.2": {
+     "z": 10.651108836220923,
+     "rank": 1,
+     "acc": 0.97,
+     "nats": 1.8791000795978618
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "running key",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.01,
+   "sign": "sub",
+   "F": false,
+   "key": "lady_fountain_bulfinch @4752",
+   "fillers": 2,
+   "first": 29,
+   "res": {
+    "plain": {
+     "z": 5.917262780826683,
+     "rank": 2,
+     "acc": 0.8673469387755102
+    },
+    "free-null -2.2": {
+     "z": 9.402535502338466,
+     "rank": 2,
+     "acc": 0.9795918367346939,
+     "nats": 13.974919105498461
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "running key",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.02,
+   "sign": "sub",
+   "F": false,
+   "key": "lady_fountain_bulfinch @4752",
+   "fillers": 1,
+   "first": 43,
+   "res": {
+    "plain": {
+     "z": 7.071301674855911,
+     "rank": 2,
+     "acc": 0.9191919191919192
+    },
+    "free-null -2.2": {
+     "z": 10.541883747205096,
+     "rank": 2,
+     "acc": 0.9292929292929293,
+     "nats": 0.6688852422662492
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "running key",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.05,
+   "sign": "sub",
+   "F": false,
+   "key": "lady_fountain_bulfinch @4752",
+   "fillers": 8,
+   "first": 38,
+   "res": {
+    "plain": {
+     "z": 2.977812041020832,
+     "rank": 3,
+     "acc": 0.3804347826086957
+    },
+    "free-null -2.2": {
+     "z": 7.8863229230311065,
+     "rank": 2,
+     "acc": 0.8695652173913043,
+     "nats": 37.27346983138736
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "running key",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.1,
+   "sign": "sub",
+   "F": false,
+   "key": "lady_fountain_bulfinch @4752",
+   "fillers": 13,
+   "first": 6,
+   "res": {
+    "plain": {
+     "z": -0.3592581644943245,
+     "rank": 3361,
+     "acc": 0.10344827586206896
+    },
+    "free-null -2.2": {
+     "z": 6.821058521540054,
+     "rank": 2,
+     "acc": 0.7816091954022989,
+     "nats": 89.26408114595358
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "running key",
+   "rep": 0,
+   "form": "word",
+   "x": 0.2,
+   "sign": "sub",
+   "F": false,
+   "key": "lady_fountain_bulfinch @4752",
+   "fillers": 5,
+   "first": 8,
+   "res": {
+    "plain": {
+     "z": 3.9767732257117485,
+     "rank": 2,
+     "acc": 0.6421052631578947
+    },
+    "free-null -2.2": {
+     "z": 8.82053240177336,
+     "rank": 2,
+     "acc": 0.9263157894736842,
+     "nats": 35.12906801381306
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "running key",
+   "rep": 0,
+   "form": "word",
+   "x": 0.4,
+   "sign": "sub",
+   "F": false,
+   "key": "lady_fountain_bulfinch @4752",
+   "fillers": 9,
+   "first": 7,
+   "res": {
+    "plain": {
+     "z": 0.42449720779129296,
+     "rank": 2232,
+     "acc": 0.13186813186813187
+    },
+    "free-null -2.2": {
+     "z": 7.781540076872166,
+     "rank": 1,
+     "acc": 0.8571428571428571,
+     "nats": 83.21399760313516
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "running key",
+   "rep": 0,
+   "form": "word",
+   "x": 0.6,
+   "sign": "sub",
+   "F": false,
+   "key": "lady_fountain_bulfinch @4752",
+   "fillers": 12,
+   "first": 2,
+   "res": {
+    "plain": {
+     "z": -0.12522481046737072,
+     "rank": 3153,
+     "acc": 0.056818181818181816
+    },
+    "free-null -2.2": {
+     "z": 5.203096888661226,
+     "rank": 4,
+     "acc": 0.875,
+     "nats": 80.20391773724148
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "running key",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.0,
+   "sign": "beaufort",
+   "F": false,
+   "key": "lady_fountain_bulfinch rev @5824",
+   "fillers": 0,
+   "first": -1,
+   "res": {
+    "plain": {
+     "z": 5.8833821783409785,
+     "rank": 1,
+     "acc": 1.0
+    },
+    "free-null -2.2": {
+     "z": 7.645599525217514,
+     "rank": 1,
+     "acc": 0.96,
+     "nats": 0.05783577428339726
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "running key",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.01,
+   "sign": "beaufort",
+   "F": false,
+   "key": "lady_fountain_bulfinch rev @5824",
+   "fillers": 1,
+   "first": 86,
+   "res": {
+    "plain": {
+     "z": 4.996487951298919,
+     "rank": 1,
+     "acc": 0.8686868686868687
+    },
+    "free-null -2.2": {
+     "z": 7.37051563520601,
+     "rank": 1,
+     "acc": 0.898989898989899,
+     "nats": 10.509933972566937
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "running key",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.02,
+   "sign": "beaufort",
+   "F": false,
+   "key": "lady_fountain_bulfinch rev @5824",
+   "fillers": 1,
+   "first": 16,
+   "res": {
+    "plain": {
+     "z": 4.0787691502395065,
+     "rank": 1,
+     "acc": 0.8686868686868687
+    },
+    "free-null -2.2": {
+     "z": 7.13141556273186,
+     "rank": 1,
+     "acc": 0.9595959595959596,
+     "nats": 27.70738521514166
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "running key",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.05,
+   "sign": "beaufort",
+   "F": false,
+   "key": "lady_fountain_bulfinch rev @5824",
+   "fillers": 5,
+   "first": 2,
+   "res": {
+    "plain": {
+     "z": 3.6015294279520114,
+     "rank": 1,
+     "acc": 0.5157894736842106
+    },
+    "free-null -2.2": {
+     "z": 6.170463997101473,
+     "rank": 2,
+     "acc": 0.8631578947368421,
+     "nats": 28.030551883598974
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "running key",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.1,
+   "sign": "beaufort",
+   "F": false,
+   "key": "lady_fountain_bulfinch rev @5824",
+   "fillers": 7,
+   "first": 35,
+   "res": {
+    "plain": {
+     "z": 3.131203110387086,
+     "rank": 1,
+     "acc": 0.43010752688172044
+    },
+    "free-null -2.2": {
+     "z": 5.790130705759169,
+     "rank": 1,
+     "acc": 0.8494623655913979,
+     "nats": 30.38367444868299
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "running key",
+   "rep": 8,
+   "form": "word",
+   "x": 0.2,
+   "sign": "beaufort",
+   "F": false,
+   "key": "lady_fountain_bulfinch rev @5824",
+   "fillers": 4,
+   "first": 4,
+   "res": {
+    "plain": {
+     "z": 2.3801929217424136,
+     "rank": 23,
+     "acc": 0.3229166666666667
+    },
+    "free-null -2.2": {
+     "z": 6.939643046829942,
+     "rank": 1,
+     "acc": 0.7395833333333334,
+     "nats": 47.79667958529427
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "running key",
+   "rep": 8,
+   "form": "word",
+   "x": 0.4,
+   "sign": "beaufort",
+   "F": false,
+   "key": "lady_fountain_bulfinch rev @5824",
+   "fillers": 8,
+   "first": 10,
+   "res": {
+    "plain": {
+     "z": 1.4693551663065783,
+     "rank": 282,
+     "acc": 0.2391304347826087
+    },
+    "free-null -2.2": {
+     "z": 6.093478940889484,
+     "rank": 1,
+     "acc": 0.5652173913043478,
+     "nats": 58.03899219514199
+    }
+   }
+  },
+  {
+   "n": 100,
+   "fam": "running key",
+   "rep": 8,
+   "form": "word",
+   "x": 0.6,
+   "sign": "beaufort",
+   "F": false,
+   "key": "lady_fountain_bulfinch rev @5824",
+   "fillers": 14,
+   "first": 5,
+   "res": {
+    "plain": {
+     "z": 1.7546834229756119,
+     "rank": 191,
+     "acc": 0.3023255813953488
+    },
+    "free-null -2.2": {
+     "z": 4.1477285768755685,
+     "rank": 3,
+     "acc": 0.7558139534883721,
+     "nats": 41.14013563691551
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "vigenere-word",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.0,
+   "sign": "add",
+   "F": true,
+   "key": "PRIMALITY",
+   "fillers": 0,
+   "first": -1,
+   "res": {
+    "plain": {
+     "z": 11.119775888129015,
+     "rank": 1,
+     "acc": 1.0
+    },
+    "free-null -2.2": {
+     "z": 13.820091834154388,
+     "rank": 1,
+     "acc": 1.0,
+     "nats": 0.0
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "vigenere-word",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.01,
+   "sign": "add",
+   "F": true,
+   "key": "PRIMALITY",
+   "fillers": 0,
+   "first": -1,
+   "res": {
+    "plain": {
+     "z": 10.501552290982582,
+     "rank": 1,
+     "acc": 0.9875
+    },
+    "free-null -2.2": {
+     "z": 13.031534780717255,
+     "rank": 1,
+     "acc": 0.975,
+     "nats": 0.07379349693205484
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "vigenere-word",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.02,
+   "sign": "add",
+   "F": true,
+   "key": "PRIMALITY",
+   "fillers": 2,
+   "first": 8,
+   "res": {
+    "plain": {
+     "z": 8.669208628111267,
+     "rank": 1,
+     "acc": 0.9493670886075949
+    },
+    "free-null -2.2": {
+     "z": 12.778374214248784,
+     "rank": 1,
+     "acc": 0.9810126582278481,
+     "nats": 18.682096500380034
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "vigenere-word",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.05,
+   "sign": "add",
+   "F": true,
+   "key": "PRIMALITY",
+   "fillers": 6,
+   "first": 20,
+   "res": {
+    "plain": {
+     "z": 6.724887740094927,
+     "rank": 1,
+     "acc": 0.8506493506493507
+    },
+    "free-null -2.2": {
+     "z": 11.766745038046606,
+     "rank": 1,
+     "acc": 0.8961038961038961,
+     "nats": 31.72195863400723
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "vigenere-word",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.1,
+   "sign": "add",
+   "F": true,
+   "key": "PRIMALITY",
+   "fillers": 14,
+   "first": 11,
+   "res": {
+    "plain": {
+     "z": 3.860142942697551,
+     "rank": 1,
+     "acc": 0.5
+    },
+    "free-null -2.2": {
+     "z": 10.50955087816503,
+     "rank": 1,
+     "acc": 0.8561643835616438,
+     "nats": 70.45751957873034
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "vigenere-word",
+   "rep": 4,
+   "form": "word",
+   "x": 0.2,
+   "sign": "add",
+   "F": true,
+   "key": "PRIMALITY",
+   "fillers": 10,
+   "first": 0,
+   "res": {
+    "plain": {
+     "z": 5.881647772246843,
+     "rank": 1,
+     "acc": 0.6133333333333333
+    },
+    "free-null -2.2": {
+     "z": 11.750384144844903,
+     "rank": 1,
+     "acc": 0.8733333333333333,
+     "nats": 47.069340518162406
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "vigenere-word",
+   "rep": 4,
+   "form": "word",
+   "x": 0.4,
+   "sign": "add",
+   "F": true,
+   "key": "PRIMALITY",
+   "fillers": 9,
+   "first": 2,
+   "res": {
+    "plain": {
+     "z": 6.073879932059973,
+     "rank": 1,
+     "acc": 0.695364238410596
+    },
+    "free-null -2.2": {
+     "z": 11.576708690022677,
+     "rank": 1,
+     "acc": 0.8675496688741722,
+     "nats": 39.491665561787144
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "vigenere-word",
+   "rep": 4,
+   "form": "word",
+   "x": 0.6,
+   "sign": "add",
+   "F": true,
+   "key": "PRIMALITY",
+   "fillers": 19,
+   "first": 2,
+   "res": {
+    "plain": {
+     "z": 0.5178202306611338,
+     "rank": 116,
+     "acc": 0.24113475177304963
+    },
+    "free-null -2.2": {
+     "z": 8.875979125304248,
+     "rank": 1,
+     "acc": 0.7730496453900709,
+     "nats": 100.57626838097943
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "primes",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.0,
+   "sign": "sub",
+   "F": false,
+   "key": "p[n+19]",
+   "fillers": 0,
+   "first": -1,
+   "res": {
+    "plain": {
+     "z": 7.955709290183584,
+     "rank": 1,
+     "acc": 1.0
+    },
+    "free-null -2.2": {
+     "z": 13.220241572076729,
+     "rank": 1,
+     "acc": 0.9875,
+     "nats": 0.3132600607612446
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "primes",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.01,
+   "sign": "sub",
+   "F": false,
+   "key": "p[n+19]",
+   "fillers": 2,
+   "first": 76,
+   "res": {
+    "plain": {
+     "z": 3.3929243510578777,
+     "rank": 1,
+     "acc": 0.4810126582278481
+    },
+    "free-null -2.2": {
+     "z": 13.118829075842017,
+     "rank": 1,
+     "acc": 0.9620253164556962,
+     "nats": 93.69444700353273
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "primes",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.02,
+   "sign": "sub",
+   "F": false,
+   "key": "p[n+19]",
+   "fillers": 6,
+   "first": 63,
+   "res": {
+    "plain": {
+     "z": 2.164246884761164,
+     "rank": 2,
+     "acc": 0.44805194805194803
+    },
+    "free-null -2.2": {
+     "z": 11.212485116542608,
+     "rank": 1,
+     "acc": 0.9415584415584416,
+     "nats": 101.97133861662965
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "primes",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.05,
+   "sign": "sub",
+   "F": false,
+   "key": "p[n+19]",
+   "fillers": 6,
+   "first": 4,
+   "res": {
+    "plain": {
+     "z": -0.13887407531473187,
+     "rank": 170,
+     "acc": 0.025974025974025976
+    },
+    "free-null -2.2": {
+     "z": 11.37636756494105,
+     "rank": 1,
+     "acc": 0.9545454545454546,
+     "nats": 152.0280694264295
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "primes",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.1,
+   "sign": "sub",
+   "F": false,
+   "key": "p[n+19]",
+   "fillers": 11,
+   "first": 14,
+   "res": {
+    "plain": {
+     "z": -0.5597889233177172,
+     "rank": 205,
+     "acc": 0.14093959731543623
+    },
+    "free-null -2.2": {
+     "z": 9.692096543621057,
+     "rank": 1,
+     "acc": 0.8859060402684564,
+     "nats": 147.98546729281549
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "primes",
+   "rep": 0,
+   "form": "word",
+   "x": 0.2,
+   "sign": "sub",
+   "F": false,
+   "key": "p[n+19]",
+   "fillers": 12,
+   "first": 12,
+   "res": {
+    "plain": {
+     "z": -0.6952521206262291,
+     "rank": 218,
+     "acc": 0.14864864864864866
+    },
+    "free-null -2.2": {
+     "z": 9.97437670191781,
+     "rank": 1,
+     "acc": 0.8716216216216216,
+     "nats": 152.98057137482567
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "primes",
+   "rep": 0,
+   "form": "word",
+   "x": 0.4,
+   "sign": "sub",
+   "F": false,
+   "key": "p[n+19]",
+   "fillers": 15,
+   "first": 2,
+   "res": {
+    "plain": {
+     "z": 0.444185053341978,
+     "rank": 83,
+     "acc": 0.1310344827586207
+    },
+    "free-null -2.2": {
+     "z": 8.896707436945325,
+     "rank": 1,
+     "acc": 0.8482758620689655,
+     "nats": 125.02267210084828
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "primes",
+   "rep": 0,
+   "form": "word",
+   "x": 0.6,
+   "sign": "sub",
+   "F": false,
+   "key": "p[n+19]",
+   "fillers": 21,
+   "first": 0,
+   "res": {
+    "plain": {
+     "z": -0.21088498309004675,
+     "rank": 170,
+     "acc": 0.03597122302158273
+    },
+    "free-null -2.2": {
+     "z": 7.321976533468239,
+     "rank": 3,
+     "acc": 0.841726618705036,
+     "nats": 123.9378407760155
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "primes",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.0,
+   "sign": "beaufort",
+   "F": false,
+   "key": "p[n+45]",
+   "fillers": 0,
+   "first": -1,
+   "res": {
+    "plain": {
+     "z": 8.899946679995901,
+     "rank": 1,
+     "acc": 1.0
+    },
+    "free-null -2.2": {
+     "z": 14.275898608075659,
+     "rank": 1,
+     "acc": 1.0,
+     "nats": 0.0
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "primes",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.01,
+   "sign": "beaufort",
+   "F": false,
+   "key": "p[n+45]",
+   "fillers": 2,
+   "first": 23,
+   "res": {
+    "plain": {
+     "z": 3.298080796172025,
+     "rank": 5,
+     "acc": 0.14556962025316456
+    },
+    "free-null -2.2": {
+     "z": 13.681951123900518,
+     "rank": 1,
+     "acc": 0.9936708860759493,
+     "nats": 97.33514831091428
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "primes",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.02,
+   "sign": "beaufort",
+   "F": false,
+   "key": "p[n+45]",
+   "fillers": 5,
+   "first": 68,
+   "res": {
+    "plain": {
+     "z": 3.8753552625268846,
+     "rank": 1,
+     "acc": 0.43870967741935485
+    },
+    "free-null -2.2": {
+     "z": 12.473640805413778,
+     "rank": 1,
+     "acc": 0.9870967741935484,
+     "nats": 82.26812878195665
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "primes",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.05,
+   "sign": "beaufort",
+   "F": false,
+   "key": "p[n+45]",
+   "fillers": 6,
+   "first": 33,
+   "res": {
+    "plain": {
+     "z": 1.4118137113941904,
+     "rank": 20,
+     "acc": 0.22727272727272727
+    },
+    "free-null -2.2": {
+     "z": 11.948552141952574,
+     "rank": 1,
+     "acc": 1.0,
+     "nats": 120.77761844475637
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "primes",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.1,
+   "sign": "beaufort",
+   "F": false,
+   "key": "p[n+45]",
+   "fillers": 13,
+   "first": 2,
+   "res": {
+    "plain": {
+     "z": -2.0310651691048163,
+     "rank": 297,
+     "acc": 0.06802721088435375
+    },
+    "free-null -2.2": {
+     "z": 9.899383665642764,
+     "rank": 1,
+     "acc": 0.8503401360544217,
+     "nats": 175.66862307757242
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "primes",
+   "rep": 8,
+   "form": "word",
+   "x": 0.2,
+   "sign": "beaufort",
+   "F": false,
+   "key": "p[n+45]",
+   "fillers": 10,
+   "first": 3,
+   "res": {
+    "plain": {
+     "z": 0.3162843753237395,
+     "rank": 133,
+     "acc": 0.14
+    },
+    "free-null -2.2": {
+     "z": 11.550051910778913,
+     "rank": 1,
+     "acc": 0.9533333333333334,
+     "nats": 140.12292637107447
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "primes",
+   "rep": 8,
+   "form": "word",
+   "x": 0.4,
+   "sign": "beaufort",
+   "F": false,
+   "key": "p[n+45]",
+   "fillers": 18,
+   "first": 1,
+   "res": {
+    "plain": {
+     "z": 0.04517948923088659,
+     "rank": 131,
+     "acc": 0.028169014084507043
+    },
+    "free-null -2.2": {
+     "z": 8.772897803044419,
+     "rank": 2,
+     "acc": 0.823943661971831,
+     "nats": 126.51020164026724
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "primes",
+   "rep": 8,
+   "form": "word",
+   "x": 0.6,
+   "sign": "beaufort",
+   "F": false,
+   "key": "p[n+45]",
+   "fillers": 26,
+   "first": 0,
+   "res": {
+    "plain": {
+     "z": -0.4893903086474382,
+     "rank": 192,
+     "acc": 0.014925373134328358
+    },
+    "free-null -2.2": {
+     "z": 6.443612935656875,
+     "rank": 2,
+     "acc": 0.5970149253731343,
+     "nats": 121.54453656154848
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "running key",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.0,
+   "sign": "add",
+   "F": true,
+   "key": "rune_poem rev @3924",
+   "fillers": 0,
+   "first": -1,
+   "res": {
+    "plain": {
+     "z": 9.828388712676773,
+     "rank": 1,
+     "acc": 1.0
+    },
+    "free-null -2.2": {
+     "z": 12.925986606028953,
+     "rank": 1,
+     "acc": 1.0,
+     "nats": 0.0
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "running key",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.01,
+   "sign": "add",
+   "F": true,
+   "key": "rune_poem rev @3924",
+   "fillers": 2,
+   "first": 138,
+   "res": {
+    "plain": {
+     "z": 10.318549255793041,
+     "rank": 1,
+     "acc": 0.9556962025316456
+    },
+    "free-null -2.2": {
+     "z": 13.611824990798741,
+     "rank": 1,
+     "acc": 0.9556962025316456,
+     "nats": 0.0
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "running key",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.02,
+   "sign": "add",
+   "F": true,
+   "key": "rune_poem rev @3924",
+   "fillers": 1,
+   "first": 10,
+   "res": {
+    "plain": {
+     "z": 10.829975779203885,
+     "rank": 1,
+     "acc": 0.9748427672955975
+    },
+    "free-null -2.2": {
+     "z": 13.556568392464584,
+     "rank": 1,
+     "acc": 0.9748427672955975,
+     "nats": 0.0
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "running key",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.05,
+   "sign": "add",
+   "F": true,
+   "key": "rune_poem rev @3924",
+   "fillers": 9,
+   "first": 8,
+   "res": {
+    "plain": {
+     "z": 7.0022454988076035,
+     "rank": 2,
+     "acc": 0.7152317880794702
+    },
+    "free-null -2.2": {
+     "z": 10.807094745084795,
+     "rank": 1,
+     "acc": 0.9271523178807947,
+     "nats": 28.306406238223502
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "running key",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.1,
+   "sign": "add",
+   "F": true,
+   "key": "rune_poem rev @3924",
+   "fillers": 17,
+   "first": 18,
+   "res": {
+    "plain": {
+     "z": 4.3043170507215915,
+     "rank": 1,
+     "acc": 0.43356643356643354
+    },
+    "free-null -2.2": {
+     "z": 10.058341815075485,
+     "rank": 1,
+     "acc": 0.8391608391608392,
+     "nats": 51.558484421176665
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "running key",
+   "rep": 4,
+   "form": "word",
+   "x": 0.2,
+   "sign": "add",
+   "F": true,
+   "key": "rune_poem rev @3924",
+   "fillers": 10,
+   "first": 2,
+   "res": {
+    "plain": {
+     "z": 3.969234103488447,
+     "rank": 12,
+     "acc": 0.5666666666666667
+    },
+    "free-null -2.2": {
+     "z": 9.077561647857884,
+     "rank": 3,
+     "acc": 0.9266666666666666,
+     "nats": 54.07602407101642
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "running key",
+   "rep": 4,
+   "form": "word",
+   "x": 0.4,
+   "sign": "add",
+   "F": true,
+   "key": "rune_poem rev @3924",
+   "fillers": 14,
+   "first": 4,
+   "res": {
+    "plain": {
+     "z": 5.749941715185427,
+     "rank": 1,
+     "acc": 0.6301369863013698
+    },
+    "free-null -2.2": {
+     "z": 9.813070478224907,
+     "rank": 1,
+     "acc": 0.8767123287671232,
+     "nats": 32.922088843214674
+    }
+   }
+  },
+  {
+   "n": 160,
+   "fam": "running key",
+   "rep": 4,
+   "form": "word",
+   "x": 0.6,
+   "sign": "add",
+   "F": true,
+   "key": "rune_poem rev @3924",
+   "fillers": 19,
+   "first": 2,
+   "res": {
+    "plain": {
+     "z": 0.4371039880438474,
+     "rank": 1821,
+     "acc": 0.12056737588652482
+    },
+    "free-null -2.2": {
+     "z": 8.491258220592956,
+     "rank": 2,
+     "acc": 0.851063829787234,
+     "nats": 89.30826142645975
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "vigenere-word",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.0,
+   "sign": "sub",
+   "F": false,
+   "key": "CONSUMPTIAN",
+   "fillers": 0,
+   "first": -1,
+   "res": {
+    "plain": {
+     "z": 10.87096964454625,
+     "rank": 1,
+     "acc": 1.0
+    },
+    "free-null -2.2": {
+     "z": 15.894967621604357,
+     "rank": 1,
+     "acc": 1.0,
+     "nats": 0.0
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "vigenere-word",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.01,
+   "sign": "sub",
+   "F": false,
+   "key": "CONSUMPTIAN",
+   "fillers": 3,
+   "first": 3,
+   "res": {
+    "plain": {
+     "z": 6.027125636137945,
+     "rank": 1,
+     "acc": 0.7577092511013216
+    },
+    "free-null -2.2": {
+     "z": 16.138614089994604,
+     "rank": 1,
+     "acc": 0.9911894273127754,
+     "nats": 89.43993494082527
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "vigenere-word",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.02,
+   "sign": "sub",
+   "F": false,
+   "key": "CONSUMPTIAN",
+   "fillers": 7,
+   "first": 18,
+   "res": {
+    "plain": {
+     "z": 2.723699642191719,
+     "rank": 10,
+     "acc": 0.31390134529147984
+    },
+    "free-null -2.2": {
+     "z": 14.733010957948137,
+     "rank": 1,
+     "acc": 0.9596412556053812,
+     "nats": 150.380489774122
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "vigenere-word",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.05,
+   "sign": "sub",
+   "F": false,
+   "key": "CONSUMPTIAN",
+   "fillers": 8,
+   "first": 37,
+   "res": {
+    "plain": {
+     "z": 4.332819055658909,
+     "rank": 1,
+     "acc": 0.5765765765765766
+    },
+    "free-null -2.2": {
+     "z": 14.007245962120836,
+     "rank": 1,
+     "acc": 0.9414414414414415,
+     "nats": 116.530943253864
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "vigenere-word",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.1,
+   "sign": "sub",
+   "F": false,
+   "key": "CONSUMPTIAN",
+   "fillers": 23,
+   "first": 2,
+   "res": {
+    "plain": {
+     "z": 0.11422411081629993,
+     "rank": 202,
+     "acc": 0.14492753623188406
+    },
+    "free-null -2.2": {
+     "z": 10.914009815605803,
+     "rank": 1,
+     "acc": 0.8695652173913043,
+     "nats": 176.45291689502204
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "vigenere-word",
+   "rep": 0,
+   "form": "word",
+   "x": 0.2,
+   "sign": "sub",
+   "F": false,
+   "key": "CONSUMPTIAN",
+   "fillers": 12,
+   "first": 24,
+   "res": {
+    "plain": {
+     "z": 1.0298406289002278,
+     "rank": 120,
+     "acc": 0.24770642201834864
+    },
+    "free-null -2.2": {
+     "z": 14.621684443694374,
+     "rank": 1,
+     "acc": 0.9541284403669725,
+     "nats": 182.5767215623522
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "vigenere-word",
+   "rep": 0,
+   "form": "word",
+   "x": 0.4,
+   "sign": "sub",
+   "F": false,
+   "key": "CONSUMPTIAN",
+   "fillers": 24,
+   "first": 2,
+   "res": {
+    "plain": {
+     "z": 1.2451822720810213,
+     "rank": 158,
+     "acc": 0.24271844660194175
+    },
+    "free-null -2.2": {
+     "z": 10.300206970318404,
+     "rank": 1,
+     "acc": 0.8155339805825242,
+     "nats": 153.2381215207806
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "vigenere-word",
+   "rep": 0,
+   "form": "word",
+   "x": 0.6,
+   "sign": "sub",
+   "F": false,
+   "key": "CONSUMPTIAN",
+   "fillers": 32,
+   "first": 1,
+   "res": {
+    "plain": {
+     "z": 1.259261468898461,
+     "rank": 101,
+     "acc": 0.20202020202020202
+    },
+    "free-null -2.2": {
+     "z": 8.592893965602315,
+     "rank": 1,
+     "acc": 0.7121212121212122,
+     "nats": 139.52710531410952
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "vigenere-word",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.0,
+   "sign": "beaufort",
+   "F": false,
+   "key": "INSTRUCTIAN",
+   "fillers": 0,
+   "first": -1,
+   "res": {
+    "plain": {
+     "z": 11.689045060323089,
+     "rank": 1,
+     "acc": 0.991304347826087
+    },
+    "free-null -2.2": {
+     "z": 18.294911644441175,
+     "rank": 1,
+     "acc": 0.991304347826087,
+     "nats": 0.0
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "vigenere-word",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.01,
+   "sign": "beaufort",
+   "F": false,
+   "key": "INSTRUCTIAN",
+   "fillers": 5,
+   "first": 62,
+   "res": {
+    "plain": {
+     "z": 8.032035573733022,
+     "rank": 1,
+     "acc": 0.7555555555555555
+    },
+    "free-null -2.2": {
+     "z": 17.033689305929187,
+     "rank": 1,
+     "acc": 0.96,
+     "nats": 61.93740456937817
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "vigenere-word",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.02,
+   "sign": "beaufort",
+   "F": false,
+   "key": "INSTRUCTIAN",
+   "fillers": 4,
+   "first": 1,
+   "res": {
+    "plain": {
+     "z": 8.418320275996056,
+     "rank": 1,
+     "acc": 0.7743362831858407
+    },
+    "free-null -2.2": {
+     "z": 18.098303265842173,
+     "rank": 1,
+     "acc": 0.995575221238938,
+     "nats": 68.92984399355606
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "vigenere-word",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.05,
+   "sign": "beaufort",
+   "F": false,
+   "key": "INSTRUCTIAN",
+   "fillers": 12,
+   "first": 10,
+   "res": {
+    "plain": {
+     "z": 5.667271057095625,
+     "rank": 1,
+     "acc": 0.5412844036697247
+    },
+    "free-null -2.2": {
+     "z": 14.772998291951405,
+     "rank": 1,
+     "acc": 0.9403669724770642,
+     "nats": 95.90082467135744
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "vigenere-word",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.1,
+   "sign": "beaufort",
+   "F": false,
+   "key": "INSTRUCTIAN",
+   "fillers": 17,
+   "first": 3,
+   "res": {
+    "plain": {
+     "z": -1.3573025191021049,
+     "rank": 458,
+     "acc": 0.09859154929577464
+    },
+    "free-null -2.2": {
+     "z": 12.706963327183027,
+     "rank": 1,
+     "acc": 0.9577464788732394,
+     "nats": 227.79521645455685
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "vigenere-word",
+   "rep": 8,
+   "form": "word",
+   "x": 0.2,
+   "sign": "beaufort",
+   "F": false,
+   "key": "INSTRUCTIAN",
+   "fillers": 9,
+   "first": 13,
+   "res": {
+    "plain": {
+     "z": 4.856510960798558,
+     "rank": 1,
+     "acc": 0.497737556561086
+    },
+    "free-null -2.2": {
+     "z": 17.13804194217186,
+     "rank": 1,
+     "acc": 0.9366515837104072,
+     "nats": 123.04761748351284
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "vigenere-word",
+   "rep": 8,
+   "form": "word",
+   "x": 0.4,
+   "sign": "beaufort",
+   "F": false,
+   "key": "INSTRUCTIAN",
+   "fillers": 22,
+   "first": 2,
+   "res": {
+    "plain": {
+     "z": 2.6723472995859123,
+     "rank": 11,
+     "acc": 0.23076923076923078
+    },
+    "free-null -2.2": {
+     "z": 11.14611640181506,
+     "rank": 1,
+     "acc": 0.8605769230769231,
+     "nats": 134.39516573958596
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "vigenere-word",
+   "rep": 8,
+   "form": "word",
+   "x": 0.6,
+   "sign": "beaufort",
+   "F": false,
+   "key": "INSTRUCTIAN",
+   "fillers": 27,
+   "first": 0,
+   "res": {
+    "plain": {
+     "z": 2.5050203132344633,
+     "rank": 23,
+     "acc": 0.2512315270935961
+    },
+    "free-null -2.2": {
+     "z": 10.40138505013091,
+     "rank": 1,
+     "acc": 0.7783251231527094,
+     "nats": 128.53798166949088
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "primes",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.0,
+   "sign": "add",
+   "F": true,
+   "key": "p[n+83]",
+   "fillers": 0,
+   "first": -1,
+   "res": {
+    "plain": {
+     "z": 10.336590027824178,
+     "rank": 1,
+     "acc": 0.9043478260869565
+    },
+    "free-null -2.2": {
+     "z": 13.130871596371746,
+     "rank": 1,
+     "acc": 0.8478260869565217,
+     "nats": 1.9932211084179272
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "primes",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.01,
+   "sign": "add",
+   "F": true,
+   "key": "p[n+83]",
+   "fillers": 0,
+   "first": -1,
+   "res": {
+    "plain": {
+     "z": 11.464472360618501,
+     "rank": 1,
+     "acc": 0.9478260869565217
+    },
+    "free-null -2.2": {
+     "z": 12.17448775326994,
+     "rank": 1,
+     "acc": 0.8913043478260869,
+     "nats": 1.4892272789436447
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "primes",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.02,
+   "sign": "add",
+   "F": true,
+   "key": "p[n+83]",
+   "fillers": 4,
+   "first": 22,
+   "res": {
+    "plain": {
+     "z": 8.62356539415636,
+     "rank": 1,
+     "acc": 0.8716814159292036
+    },
+    "free-null -2.2": {
+     "z": 11.974208327046112,
+     "rank": 1,
+     "acc": 0.8761061946902655,
+     "nats": 27.947971537795716
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "primes",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.05,
+   "sign": "add",
+   "F": true,
+   "key": "p[n+83]",
+   "fillers": 5,
+   "first": 73,
+   "res": {
+    "plain": {
+     "z": 7.597341073390957,
+     "rank": 1,
+     "acc": 0.7422222222222222
+    },
+    "free-null -2.2": {
+     "z": 11.008574570938329,
+     "rank": 1,
+     "acc": 0.9066666666666666,
+     "nats": 41.79250051972723
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "primes",
+   "rep": 4,
+   "form": "rune",
+   "x": 0.1,
+   "sign": "add",
+   "F": true,
+   "key": "p[n+83]",
+   "fillers": 21,
+   "first": 20,
+   "res": {
+    "plain": {
+     "z": 2.0019585736518763,
+     "rank": 7,
+     "acc": 0.20095693779904306
+    },
+    "free-null -2.2": {
+     "z": 7.922817415665623,
+     "rank": 1,
+     "acc": 0.6363636363636364,
+     "nats": 89.3100756052939
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "primes",
+   "rep": 4,
+   "form": "word",
+   "x": 0.2,
+   "sign": "add",
+   "F": true,
+   "key": "p[n+83]",
+   "fillers": 9,
+   "first": 24,
+   "res": {
+    "plain": {
+     "z": 4.266557062868218,
+     "rank": 1,
+     "acc": 0.6425339366515838
+    },
+    "free-null -2.2": {
+     "z": 11.09907038103643,
+     "rank": 1,
+     "acc": 0.7918552036199095,
+     "nats": 81.30079269401367
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "primes",
+   "rep": 4,
+   "form": "word",
+   "x": 0.4,
+   "sign": "add",
+   "F": true,
+   "key": "p[n+83]",
+   "fillers": 15,
+   "first": 12,
+   "res": {
+    "plain": {
+     "z": 2.0027231335491753,
+     "rank": 11,
+     "acc": 0.29767441860465116
+    },
+    "free-null -2.2": {
+     "z": 9.135425419465777,
+     "rank": 1,
+     "acc": 0.8186046511627907,
+     "nats": 97.3337178651964
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "primes",
+   "rep": 4,
+   "form": "word",
+   "x": 0.6,
+   "sign": "add",
+   "F": true,
+   "key": "p[n+83]",
+   "fillers": 24,
+   "first": 5,
+   "res": {
+    "plain": {
+     "z": 1.2549758809559166,
+     "rank": 57,
+     "acc": 0.06310679611650485
+    },
+    "free-null -2.2": {
+     "z": 8.947800818699049,
+     "rank": 2,
+     "acc": 0.7184466019417476,
+     "nats": 106.29566508764987
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "running key",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.0,
+   "sign": "sub",
+   "F": false,
+   "key": "cypherpunk_manifesto @899",
+   "fillers": 0,
+   "first": -1,
+   "res": {
+    "plain": {
+     "z": 9.787247173313022,
+     "rank": 1,
+     "acc": 0.9869565217391304
+    },
+    "free-null -2.2": {
+     "z": 13.656191473252624,
+     "rank": 1,
+     "acc": 0.9652173913043478,
+     "nats": 2.669994941252341
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "running key",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.01,
+   "sign": "sub",
+   "F": false,
+   "key": "cypherpunk_manifesto @899",
+   "fillers": 2,
+   "first": 92,
+   "res": {
+    "plain": {
+     "z": 9.831435182595616,
+     "rank": 1,
+     "acc": 0.8947368421052632
+    },
+    "free-null -2.2": {
+     "z": 14.550479829387832,
+     "rank": 1,
+     "acc": 0.9166666666666666,
+     "nats": 5.222051254077286
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "running key",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.02,
+   "sign": "sub",
+   "F": false,
+   "key": "cypherpunk_manifesto @899",
+   "fillers": 5,
+   "first": 61,
+   "res": {
+    "plain": {
+     "z": 7.219792039522816,
+     "rank": 1,
+     "acc": 0.5555555555555556
+    },
+    "free-null -2.2": {
+     "z": 14.501096492402782,
+     "rank": 1,
+     "acc": 0.9288888888888889,
+     "nats": 58.024348487564396
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "running key",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.05,
+   "sign": "sub",
+   "F": false,
+   "key": "cypherpunk_manifesto @899",
+   "fillers": 10,
+   "first": 33,
+   "res": {
+    "plain": {
+     "z": 3.5766497529924877,
+     "rank": 7,
+     "acc": 0.3409090909090909
+    },
+    "free-null -2.2": {
+     "z": 13.90690103152315,
+     "rank": 1,
+     "acc": 0.8954545454545455,
+     "nats": 117.56589135722304
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "running key",
+   "rep": 0,
+   "form": "rune",
+   "x": 0.1,
+   "sign": "sub",
+   "F": false,
+   "key": "cypherpunk_manifesto @899",
+   "fillers": 19,
+   "first": 1,
+   "res": {
+    "plain": {
+     "z": 1.0546685789148522,
+     "rank": 1361,
+     "acc": 0.061611374407582936
+    },
+    "free-null -2.2": {
+     "z": 11.076510353735403,
+     "rank": 1,
+     "acc": 0.8483412322274881,
+     "nats": 156.15401292270954
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "running key",
+   "rep": 0,
+   "form": "word",
+   "x": 0.2,
+   "sign": "sub",
+   "F": false,
+   "key": "cypherpunk_manifesto @899",
+   "fillers": 11,
+   "first": 9,
+   "res": {
+    "plain": {
+     "z": 3.5615617774172152,
+     "rank": 10,
+     "acc": 0.547945205479452
+    },
+    "free-null -2.2": {
+     "z": 11.694913239520309,
+     "rank": 1,
+     "acc": 0.91324200913242,
+     "nats": 115.63524113254635
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "running key",
+   "rep": 0,
+   "form": "word",
+   "x": 0.4,
+   "sign": "sub",
+   "F": false,
+   "key": "cypherpunk_manifesto @899",
+   "fillers": 21,
+   "first": 2,
+   "res": {
+    "plain": {
+     "z": 1.328182324379292,
+     "rank": 1344,
+     "acc": 0.07655502392344497
+    },
+    "free-null -2.2": {
+     "z": 10.055516219830873,
+     "rank": 4,
+     "acc": 0.8277511961722488,
+     "nats": 147.63262120838024
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "running key",
+   "rep": 0,
+   "form": "word",
+   "x": 0.6,
+   "sign": "sub",
+   "F": false,
+   "key": "cypherpunk_manifesto @899",
+   "fillers": 31,
+   "first": 7,
+   "res": {
+    "plain": {
+     "z": -2.3294445597823668,
+     "rank": 4072,
+     "acc": 0.08542713567839195
+    },
+    "free-null -2.2": {
+     "z": 7.001024614667516,
+     "rank": 1,
+     "acc": 0.7688442211055276,
+     "nats": 199.63484997165247
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "running key",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.0,
+   "sign": "beaufort",
+   "F": false,
+   "key": "cypherpunk_manifesto @3932",
+   "fillers": 0,
+   "first": -1,
+   "res": {
+    "plain": {
+     "z": 11.488291623606361,
+     "rank": 1,
+     "acc": 1.0
+    },
+    "free-null -2.2": {
+     "z": 18.311551015594908,
+     "rank": 1,
+     "acc": 1.0,
+     "nats": 0.0
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "running key",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.01,
+   "sign": "beaufort",
+   "F": false,
+   "key": "cypherpunk_manifesto @3932",
+   "fillers": 1,
+   "first": 131,
+   "res": {
+    "plain": {
+     "z": 9.469237752143021,
+     "rank": 1,
+     "acc": 0.8908296943231441
+    },
+    "free-null -2.2": {
+     "z": 17.267163215663633,
+     "rank": 1,
+     "acc": 0.9956331877729258,
+     "nats": 30.711447182167845
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "running key",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.02,
+   "sign": "beaufort",
+   "F": false,
+   "key": "cypherpunk_manifesto @3932",
+   "fillers": 4,
+   "first": 36,
+   "res": {
+    "plain": {
+     "z": 2.636007877902745,
+     "rank": 25,
+     "acc": 0.37610619469026546
+    },
+    "free-null -2.2": {
+     "z": 16.41832162909063,
+     "rank": 1,
+     "acc": 0.9734513274336283,
+     "nats": 168.7637790734525
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "running key",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.05,
+   "sign": "beaufort",
+   "F": false,
+   "key": "cypherpunk_manifesto @3932",
+   "fillers": 17,
+   "first": 5,
+   "res": {
+    "plain": {
+     "z": 2.26803243380339,
+     "rank": 21,
+     "acc": 0.10328638497652583
+    },
+    "free-null -2.2": {
+     "z": 11.94649608488235,
+     "rank": 1,
+     "acc": 0.9342723004694836,
+     "nats": 148.81077628592016
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "running key",
+   "rep": 8,
+   "form": "rune",
+   "x": 0.1,
+   "sign": "beaufort",
+   "F": false,
+   "key": "cypherpunk_manifesto @3932",
+   "fillers": 22,
+   "first": 6,
+   "res": {
+    "plain": {
+     "z": 1.5487886902000598,
+     "rank": 412,
+     "acc": 0.07692307692307693
+    },
+    "free-null -2.2": {
+     "z": 10.605403820911683,
+     "rank": 1,
+     "acc": 0.8653846153846154,
+     "nats": 153.138802497784
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "running key",
+   "rep": 8,
+   "form": "word",
+   "x": 0.2,
+   "sign": "beaufort",
+   "F": false,
+   "key": "cypherpunk_manifesto @3932",
+   "fillers": 13,
+   "first": 30,
+   "res": {
+    "plain": {
+     "z": 0.8137173399557917,
+     "rank": 787,
+     "acc": 0.19815668202764977
+    },
+    "free-null -2.2": {
+     "z": 13.616290916415933,
+     "rank": 1,
+     "acc": 0.9216589861751152,
+     "nats": 185.2469235480204
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "running key",
+   "rep": 8,
+   "form": "word",
+   "x": 0.4,
+   "sign": "beaufort",
+   "F": false,
+   "key": "cypherpunk_manifesto @3932",
+   "fillers": 22,
+   "first": 10,
+   "res": {
+    "plain": {
+     "z": 0.8174608978321535,
+     "rank": 1047,
+     "acc": 0.10576923076923077
+    },
+    "free-null -2.2": {
+     "z": 11.458941357314918,
+     "rank": 1,
+     "acc": 0.8653846153846154,
+     "nats": 168.19606305821227
+    }
+   }
+  },
+  {
+   "n": 230,
+   "fam": "running key",
+   "rep": 8,
+   "form": "word",
+   "x": 0.6,
+   "sign": "beaufort",
+   "F": false,
+   "key": "cypherpunk_manifesto @3932",
+   "fillers": 28,
+   "first": 3,
+   "res": {
+    "plain": {
+     "z": 0.5024904476714591,
+     "rank": 1890,
+     "acc": 0.06930693069306931
+    },
+    "free-null -2.2": {
+     "z": 9.448421309516913,
+     "rank": 2,
+     "acc": 0.7178217821782178,
+     "nats": 163.52573393844114
+    }
+   }
+  }
+ ],
+ "seconds": 2299.7091958522797
+}

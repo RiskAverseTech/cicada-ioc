@@ -438,6 +438,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a760",
+   "lane": "Filler power curve: per-rune r 0.01-0.10 and the \u00a759 per-word form p 0.2-0.6, 3 families x 3 lengths x 12 paired plants, plain and free-null decoders; seven claims registered before the run",
+   "tests": null,
+   "controls": "864 plant-cells",
+   "verdict": "measured: C7 holds, C1-C6 fail toward a more robust plain decoder; plain power 0.02 at the fitted rate p 0.40, half at two fillers per hundred runes (a filler is absorbed when a natural key skip precedes it); free-null 0.75 at p 0.40, flat to r 0.05",
+   "coverage_limit": "the \u00a755 paragraph on the field's negatives weakened by its rule: zero power at the fitted rate, half in a sparse-filler world; no sweep",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a756",
    "lane": "Validation release after the second external review: n-gram lower orders, standalone R4n, K-fixed sampler clock fixed; affected statistics rerun; four summaries corrected",
    "tests": null,
@@ -468,6 +477,7 @@
   "Cross-library decoding, second half: this repository's 7,621 keys (data/processed/book_library.tsv) have not been run under pnotisdev's flat-IoC engine; their sacred / sacred2 / sacred3 / hyp-streams libraries and the 12,944 hash-word streams have not met the decoders here (\u00a754 covers the 1,439-stream main library)",
   "The S carrier (11 of 102 lag-5 pairs): a step acting on the written rune S (a plaintext-reading key is additive and NOT excluded by \u00a747, as the second review noted), or a fluctuation; no additive mechanism with a plaintext-independent key carries it (\u00a747); the lag-5 echo prefers line-wrapping words (\u00a750) but shows no layout signature (\u00a751): a fluctuation or an unnamed property of those words",
   "\u00a739's phase-6 part (the nine short pages) under the corrected word edges: not rerun; \u00a714's full rerun moved maxima by tenths of a sigma",
+  "A word-constrained filler decoder (at most one filler per word) with its margin calibrated on wrong keys at page length: \u00a760 finds the free-null decoder recovers 0.75 of per-word plants against 0.68 per-rune at the same filler count, so the constraint is worth building before any filler-aware rerun of the small libraries (the book's keys, the two solved words, the prime streams with literal F, the sixteen external texts)",
   "The filler world beyond \u00a755: the six long texts at every offset (sentence starts only there), pnotisdev's non-periodic streams at offsets >= 2,000, pnotisdev's sacred / hyp libraries, and every phase 5-9 family (registers, word-edge events, skip-by-two, LCG seeds, feedback streams) under a filler-aware decoder; and the register question the fingerprint leaves open (verse or list instead of prose)"
  ]
 }

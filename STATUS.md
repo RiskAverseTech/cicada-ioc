@@ -4,12 +4,12 @@
 |---|---|
 | **Breakthroughs** | **0** (a page decoding to readable English at a pre-registered bar, reproduced by someone else) |
 | Decoder tests run | 883 million, all pre-registered, all with planted controls |
-| Lanes closed null | 29 of 50 (none running) |
+| Lanes closed null | 29 of 51 (none running) |
 | Pages | 55 unsolved with runes (12,956 runes); coverage limits listed per lane |
 | The structures | 86 doubled runes where 445 are expected (0.19 of uniform; solved pages sit at 0.86); inside words, a lag-5 echo that copies equality in runs (102 vs 71 pairs, 9 vs 1.5 bigrams), 11 of the pairs S (3.5 expected, p 0.005), and a lag-6 relation c = 24 − 2c′ (77 vs 44); the two echoes share words only at the level of description (p 0.11 once word length is held); flat in every other statistic |
 | Best current reading | E56w+n (§58): a gated word-internal echo (plaintext repeat at lag 5 → copy the cipher rune; at lag 6 → 24 − 2c) in about half the words, one filler rune in about half the words, the spend repair at q 0.81, iid key, English plaintext; the first rule inside every pre-registered band (§47's ten statistics, §57's sixteen out-of-sample cells); it predicts five S pairs against eleven, passing that cell on spread at the borrowed rate 0.45 and failing it (z +3.2) at the rate the word lengths fit, 0.40 (§59), so the S weighting stays the open fact, and a description is not a decryption |
 | External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
-| Repository | 59 numbered sections, 80 commits as of 2026-10-29 |
+| Repository | 60 numbered sections, 84 commits as of 2026-10-29 |
 
 ## Lanes
 
@@ -63,6 +63,7 @@
 | §57 | E56w+R4n out-of-sample predictions (16 cells + 2 declared, committed before the look) | — | — | measured: 15/16 hold; fails lag-6 hits in words >= 10 runes (30 vs 59 ± 9, z −3.15), the T-writing hold repair's signature; E56w predicted 37 | the filler component stands with the §55 fingerprint; the hold repair does not; E56w with fillers to be registered before it is run |
 | §58 | E56w+n (two echoes + filler in 45 % of words on the spend repair, no T-writing): §47's ten statistics and §57's sixteen cells, committed before the check | — | — | measured: survives §47's band on all ten (S at z +2.7 on spread, 4.8 predicted vs 11) and holds 16/16 of §57's cells; first rule inside every band | generative description, not a decryption; S count still unreproduced; filler rate taken from R4, not fitted |
 | §59 | Three registered follow-ups to E56w+n: filler rate fitted to word lengths (p* 0.40, chi² 25, inside §55's English band); lag-5 / lag-6 profiles per exact length (13 cells); solved-page lag-3..6 equality | — | — | measured: 13/13 profile cells and 4/4 solved-page lags hold; at p* the S cell fails §47's band (11 vs 4.6 ± 2.0, z +3.2) | the one free rate set by the words; the S weighting is outside E56w+n as it was outside every rule; read the filler rate as 0.40 |
+| §60 | Filler power curve: per-rune r 0.01-0.10 and the §59 per-word form p 0.2-0.6, 3 families x 3 lengths x 12 paired plants, plain and free-null decoders; seven claims registered before the run | — | 864 plant-cells | measured: C7 holds, C1-C6 fail toward a more robust plain decoder; plain power 0.02 at the fitted rate p 0.40, half at two fillers per hundred runes (a filler is absorbed when a natural key skip precedes it); free-null 0.75 at p 0.40, flat to r 0.05 | the §55 paragraph on the field's negatives weakened by its rule: zero power at the fitted rate, half in a sparse-filler world; no sweep |
 | §56 | Validation release after the second external review: n-gram lower orders, standalone R4n, K-fixed sampler clock fixed; affected statistics rerun; four summaries corrected | — | 3 new tests | measured: no decode negative moved; see the section for the rerun figures | the fixes bear on the mechanism table, two p-values and the wording |
 | §44 | Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000 | 6.5 M | 4/4 | null | base-10, digit pairs, base-29; fresh offset per page |
 
@@ -79,6 +80,7 @@
 - Cross-library decoding, second half: this repository's 7,621 keys (data/processed/book_library.tsv) have not been run under pnotisdev's flat-IoC engine; their sacred / sacred2 / sacred3 / hyp-streams libraries and the 12,944 hash-word streams have not met the decoders here (§54 covers the 1,439-stream main library)
 - The S carrier (11 of 102 lag-5 pairs): a step acting on the written rune S (a plaintext-reading key is additive and NOT excluded by §47, as the second review noted), or a fluctuation; no additive mechanism with a plaintext-independent key carries it (§47); the lag-5 echo prefers line-wrapping words (§50) but shows no layout signature (§51): a fluctuation or an unnamed property of those words
 - §39's phase-6 part (the nine short pages) under the corrected word edges: not rerun; §14's full rerun moved maxima by tenths of a sigma
+- A word-constrained filler decoder (at most one filler per word) with its margin calibrated on wrong keys at page length: §60 finds the free-null decoder recovers 0.75 of per-word plants against 0.68 per-rune at the same filler count, so the constraint is worth building before any filler-aware rerun of the small libraries (the book's keys, the two solved words, the prime streams with literal F, the sixteen external texts)
 - The filler world beyond §55: the six long texts at every offset (sentence starts only there), pnotisdev's non-periodic streams at offsets >= 2,000, pnotisdev's sacred / hyp libraries, and every phase 5-9 family (registers, word-edge events, skip-by-two, LCG seeds, feedback streams) under a filler-aware decoder; and the register question the fingerprint leaves open (verse or list instead of prose)
 
 ## Value so far
