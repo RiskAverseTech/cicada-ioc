@@ -1,6 +1,6 @@
 # Liber Primus (Cicada 3301): pre-registered cryptanalysis of the unsolved pages
 
-**Status (2026-10-27; one-screen box in `STATUS.md`; everything of the book that has been read, set as a page, in `docs/liber-primus-as-read.html`).** Eight pre-registered analyses on the 56 unsolved pages, each with planted
+**Status (2026-10-29; one-screen box in `STATUS.md`; everything of the book that has been read, set as a page, in `docs/liber-primus-as-read.html`).** Eight pre-registered analyses on the 56 unsolved pages, each with planted
 controls, each a negative result reported as one; a three-model hypothesis loop gated on the pages'
 own statistics (§17); and a ledger against the other public 2026 labs (`results/ledger_diff.md`).
 The loop's remaining short-list families are swept in §19 (null); cumulative-Gematria ciphertext
@@ -26,21 +26,22 @@ base-60 payload (null). §35 hashes every archived artefact against the page-73 
 under key-skip drift); §37 gives the repeat spectrum to lag 120, the null models and the boundary
 convention; §38 re-reads the unsolved pages blind from the images: 0 disagreements at 12,807 aligned
 glyphs, 149 positions unread. §39 carries phases 6–8 to the nine short pages with the 5-gram rule (null);
-§40 runs the pilgrim texts, Bunyan and Chaucer, as running keys (null). Nothing here is a solve. The one real structure in the ciphertext, a fivefold deficit of doubled runes,
-was known to the community a decade ago; this repository's contribution is independent
+§40 runs the pilgrim texts, Bunyan and Chaucer, as running keys (null). §41–§54 (2026-10-28/29) are the field survey and what it prompted: the word-edge correction that exposed two within-word echoes and the S carrier (§42, §45–§47, §50), the gated echo rule and its out-of-sample predictions (§47, §49), echo-aware decoding (§48, null), the layout, hint-reading and Cicada's-own-words lanes (§51–§53, null), and pnotisdev's 1,439 keystreams under this repository's three decoders (§54, null, 421.7 million window decodes, 18/18 controls). Totals as of 2026-10-29: 864 million decoder tests, 28 of 43 lanes closed null, none running. Nothing here is a solve. The oldest real structure in the ciphertext, a fivefold deficit of doubled runes,
+was known to the community a decade ago, and the three within-word structures (§42–§50) were first reported by other labs in 2026; this repository's contribution is independent
 replication with controls, the exclusion of every key family anyone has named for it on the pages
 long enough for the detector to see a planted solution (§23), and the tooling to test the next one in
 minutes. None of this shows that the key was never published; it shows that no accepted decoding
 exists within the tested configurations, at the stated detection limits. Sources and pinned revisions: `SOURCES.md`. Licence: MIT.
 The transcription in `data/raw/` is rtkd/iddqd's; the Latin and Old English corpora are public domain.
 
-**What is new here.** Most of this repository is replication and exclusion, and each section says so where it applies. Six things are not in any other public lab's record, as of 2026-10-28:
+**What is new here.** Most of this repository is replication and exclusion, and each section says so where it applies. Seven things are not in any other public lab's record, as of 2026-10-29:
 1. *The S carrier is outside every additive mechanism.* In any additive cipher with a near-uniform key, an equal cipher pair takes a value uniform over the key, so no key structure, periodic key, autokey or copy rule can weight the lag-5 echo to one rune; a weak or absent key inside some words is capped by the book's share of S at 8 % of words, which yields at most 3.8 of the 11 S pairs (§47).
 2. *A gated echo rule that reproduces the stream's geometry and survived prediction.* In about half the words, a plaintext repeat at lag 5 copies the cipher rune and at lag 6 writes 24 − 2c; nine of ten pre-registered statistics within 3 sd, then fourteen of fourteen cells of eight predictions written and committed before the check (§47, §49). It does not produce the S weighting.
 3. *The two echoes share words* (18 against 10.8 among words that can host both, p 0.012), which ties them to one word-level process (§42).
 4. *A blinded machine re-reading of the page images* that agrees with the transcription at 12,807 positions with zero disagreements, and reproduces the three structures to the digit (§38, §49).
 5. *Detection power by page length*, and a rune 5-gram that lifts short-page detection from 21 % to 99 % at 66 runes; every exclusion here carries its page-length limit because of it (§23, §27).
 6. *Line breaks fall inside words 452 times of 630*; any lab that read the transcription's `/` as a word boundary over-split by 12 %. Correcting it turned "one structure" into four in this repository (§42).
+7. *The first cross-lab decode.* pnotisdev's 1,439 keystreams had met only their own flat-IoC engine, and this repository's English Viterbi, free-null and echo-aware decoders had met only this repository's keys; §54 runs their library under all three at every offset (null, 421.7 million window decodes, 18 of 18 planted controls found) and exports this repository's 7,621 keys as a table for their engine.
 
 Not ours, and credited in place: the repeat deficit (community, 2014), the two within-word echoes and the S carrier's existence (pnotisdev, ZzNible), the lag-5 bigram runs (pnotisdev), the soft re-draw model (found independently at least twice in 2026), the OTP-class framing (Dukotah), the ledger discipline (pnotisdev, Dukotah).
 
