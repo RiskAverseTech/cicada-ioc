@@ -18,7 +18,7 @@ from lp import *
 from score import decode, translit, S_MAX
 from skip_decrypt import encrypt
 import families as F, ngram
-SMOKE = os.environ.get("SMOKE") == "1"; rng = np.random.default_rng(3301)
+SMOKE = os.environ.get("SMOKE") == "1"; CONTROLS_ONLY = os.environ.get("CONTROLS_ONLY") == "1"; rng = np.random.default_rng(3301)
 lu, plain = F.lu, F.plain; pages = [(p, C) for p, C in F.pages if len(C) > 0]; LMAX = F.LMAX
 Z_UNI, Z_5, NREPS = 6.0, 6.0, (200 if SMOKE else 2000); T5 = ngram.load_dense()
 if SMOKE: pages = pages[:2]
@@ -53,11 +53,17 @@ def score_all(C, f_rule, sign, mode, nul, batch=1500):
 controls = []
 for ci in range(2 if SMOKE else 6):
     sign, mode = SIGNS[ci % 3]; f_rule = bool(ci % 2); ki = int(rng.integers(0, len(Ks))); n = 262
-    Kt = Ks[ki] if sign != "add" else (-Ks[ki]) % N; o = int(rng.integers(0, len(plain) - n - 1)); P = plain[o:o + n]
+    Kt = Ks[ki]; o = int(rng.integers(0, len(plain) - n - 1)); P = plain[o:o + n]   # encrypt(mode=sign) applies the sign itself; the decoder negates for 'add'
     C = encrypt(P, Kt, f_rule=f_rule, rng=rng, soft=0.81, mode=sign); nul = null_cell(C, f_rule, mode); zu, z5, decs = score_all(C, f_rule, sign, mode, nul)
     rank = int((zu > zu[ki]).sum()) + 1; passed = zu[ki] >= Z_UNI and rank == 1
     controls.append(dict(key=labels[ki], sign=sign, F=f_rule, zu=float(zu[ki]), z5=float(z5[ki]) if not np.isnan(z5[ki]) else None, rank=rank, passed=bool(passed)))
     print(f"  control {ci}: {labels[ki]} {sign} F={f_rule}: z_uni {zu[ki]:.1f} rank {rank} -> {'PASS' if passed else 'miss'}  [{time.time()-t0:.0f}s]", flush=True)
+if CONTROLS_ONLY:
+    d = json.load(open(RESULTS / "cicada_words.json")); d["controls"] = controls; d["controls_note"] = "controls rerun 2026-10-29 after a sign bug in the plant construction (the first run double-negated the 'add' plants)"
+    json.dump(d, open(RESULTS / "cicada_words.json", "w"), indent=1)
+    md = (RESULTS / "cicada_words.md").read_text(); i = md.index("## Controls"); j = md.index("## Top 10 cells")
+    block = "## Controls\n\n| key | sign | F | z_uni | z_5 | rank | pass |\n|---|---|---|---|---|---|---|\n" + "\n".join(f"| {c['key'][1][:30]} ({c['key'][0]}) | {c['sign']} | {c['F']} | {c['zu']:.1f} | {c['z5'] if c['z5'] is None else round(c['z5'],1)} | {c['rank']} | {'yes' if c['passed'] else 'no'} |" for c in controls) + f"\n\nControls passing: {sum(c['passed'] for c in controls)} of {len(controls)} (rerun after a sign bug in the first run's plant construction; the sweep itself was unaffected).\n\n"
+    (RESULTS / "cicada_words.md").write_text(md[:i] + block + md[j:]); print("controls patched"); sys.exit(0)
 cells, cands = [], []
 for pid, C in pages:
     for f_rule in (False, True):

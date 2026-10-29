@@ -348,6 +348,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a752",
+   "lane": "Hint reading: word edges and page rings written in clear (the parable as an operation)",
+   "tests": 5029860,
+   "controls": "7/12 (WORD kind halves the encrypted material; 3 alias ranks)",
+   "verdict": "null",
+   "coverage_limit": "WORD kind weak for keys under three words",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a744",
    "lane": "Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000",
    "tests": 6480000,
