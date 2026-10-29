@@ -33,6 +33,10 @@ an echo that would make an adjacent repeat is not applied.  Variants: E5w (lag-5
 R0), E5w-hold (key held), E56w (both echoes, key spent, base R0), E56w-hold, E56w+R4n (both echoes on top of R4n),
 E5all (lag-5 echo in every word).  A tenth judged statistic BIG = repeated bigrams at lag 5 inside words (LP2: 9).
 
+ADDED 2026-10-29 (§58, after §57 showed E56w+R4n fails the lag-6 length profile where its hold repair acts): E56w+n =
+the two echoes on the spend-repair base R0 with R4n's filler (one extra neighbour-checked rune in 45 % of words) and
+no T-writing repair.  Run by src/e56w_n_lane.py, not by this file's main block, so the §47 table is unchanged.
+
 STATISTICS (all on within-page pairs; "word" = the simulated plaintext's own words, LP2's transcription
 words for the real stream):  D (adjacent repeats), D_in (inside words), L3, L4, L5 (within-word equal pairs
 at lags 3, 4, 5), L5S (lag-5 equal pairs whose rune is S), L6T (within-word hits of 24 - 2c at lag 6),
@@ -116,13 +120,14 @@ R_GATE = 0.5
 def simulate(rule, q=Q, p_null=0.45):
     echo5 = rule.startswith(("E5", "E56")); echo6 = rule.startswith("E56"); hold_echo = rule.endswith("-hold")
     base = "R4n" if rule == "R4n" or rule.endswith("+R4n") else ("R4" if rule == "R4" or rule.endswith("+R4") else "R0")   # standalone R4n had base R0 from §47 to 2026-10-29 (§56)
+    fill = base == "R4n" or rule.endswith("+n")                     # "+n" (§58, 2026-10-29): R4n's filler on the spend-repair base, no T-writing repair
     gate_all = rule == "E5all"
     pages = []; wi = int(rng.integers(0, len(EW) - 5000))
     for L in LENS:
         P, W = [], []; w = 0
         while len(P) < L:
             word = list(EW[wi % len(EW)]); wi += 1
-            if base == "R4n" and len(word) >= 2 and rng.random() < p_null:
+            if fill and len(word) >= 2 and rng.random() < p_null:
                 pos = int(rng.integers(0, len(word) + 1)); word.insert(pos, -1)      # -1 = null rune, filled at encryption
             P += word; W += [w] * len(word); w += 1
         P, W = np.array(P[:L]), np.array(W[:L])

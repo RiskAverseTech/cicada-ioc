@@ -45,3 +45,12 @@ def test_kfixed_sampler_is_uniform_on_a_small_case():
     # the accepted-only clock weights arrangements by their acceptance rate and lands near 100
     assert chi_new < 2.5 * nstates, (chi_new, nstates)
     assert chi_old > 2.5 * chi_new, (chi_old, chi_new)
+
+
+def test_e56w_n_has_fillers_and_spend_repair():
+    import mechanism_lane as ML
+    ML.rng = np.random.default_rng(11); a = ML.simulate("E56w")
+    ML.rng = np.random.default_rng(11); b = ML.simulate("E56w+n")
+    assert any(not np.array_equal(x[0], y[0]) for x, y in zip(a, b)), "E56w+n produced the same ciphertext as E56w"
+    ML.rng = np.random.default_rng(11); c = ML.simulate("E56w+R4n")
+    assert any(not np.array_equal(x[0], y[0]) for x, y in zip(b, c)), "E56w+n produced the same ciphertext as E56w+R4n"
