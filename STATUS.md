@@ -3,13 +3,13 @@
 | | |
 |---|---|
 | **Breakthroughs** | **0** (a page decoding to readable English at a pre-registered bar, reproduced by someone else) |
-| Decoder tests run | 431 million, all pre-registered, all with planted controls |
-| Lanes closed null | 25 of 40 (none running) |
+| Decoder tests run | 442 million, all pre-registered, all with planted controls |
+| Lanes closed null | 27 of 42 (none running) |
 | Pages | 55 unsolved with runes (12,956 runes); coverage limits listed per lane |
 | The structures | 86 doubled runes where 445 are expected (0.19 of uniform; solved pages sit at 0.86); inside words, a lag-5 echo that copies equality in runs (102 vs 71 pairs, 9 vs 1.5 bigrams), 11 of the pairs S (3.5 expected, p 0.003), and a lag-6 relation c = 24 − 2c′ (77 vs 44); the two echoes share words; flat in every other statistic |
 | Best current reading | a gated word-internal echo (plaintext repeat at lag 5 → copy the cipher rune; at lag 6 → 24 − 2c) in about half the words reproduces nine of ten statistics; the S weighting is outside every additive mechanism and is the open fact |
 | External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
-| Repository | 52 numbered sections, 62 commits as of 2026-10-28 |
+| Repository | 53 numbered sections, 63 commits as of 2026-10-28 |
 
 ## Lanes
 
@@ -54,6 +54,8 @@
 | §50 | S carrier: the eleven sites in the images; line-break dependence of the lag-5 echo; RS5 second traces | — | controls at lags 4, 6 | measured: nothing in ink; lag-5 echo 2x on line-wrapping pairs (z +2.2), lag 6 not; RS5 7/7 but near-unfalsifiable | post-hoc cut found by eye; eleven events |
 | §51 | Layout follow-up to the line-wrap lead (split position, distance to line edge; registered before the check) | — | lag-4, lag-6 controls | null: no layout signature; wrap excess stands at z +2.2 and is not word length | a layout step is not supported |
 | §52 | Hint reading: word edges and page rings written in clear (the parable as an operation) | 5.0 M | 7/12 (WORD kind halves the encrypted material; 3 alias ranks) | null | WORD kind weak for keys under three words |
+| §53a | Cicada's own words 2012-2017 as running keys (every offset, both directions, both spellings) | 7.8 M | 2/2 | null | one 7,792-rune stream |
+| §53b | Cicada's own words 2012-2017 as word, phrase and line keys (8,916 keys, forwards and reversed) | 2.9 M | 6/6 (rerun) | null | keys up to 400 runes; the group's prose and embedded strings |
 | §44 | Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000 | 6.5 M | 4/4 | null | base-10, digit pairs, base-29; fresh offset per page |
 
 ## Open

@@ -1,0 +1,3052 @@
+{
+ "controls": [
+  {
+   "key": [
+    "phrase-3-rev",
+    "you would go\u02b3"
+   ],
+   "sign": "sub",
+   "F": false,
+   "zu": 12.404860871598824,
+   "z5": 55.708171754867855,
+   "rank": 1,
+   "passed": true
+  },
+  {
+   "key": [
+    "word",
+    "TK"
+   ],
+   "sign": "add",
+   "F": true,
+   "zu": 16.436207238400574,
+   "z5": 55.11435496236653,
+   "rank": 1,
+   "passed": true
+  },
+  {
+   "key": [
+    "line-rev",
+    "4KZdGG/Qah829eEXXmzqxc+2QSjnSHPuVV94qShe7Mpr6RJpHm\u02b3"
+   ],
+   "sign": "beaufort",
+   "F": false,
+   "zu": 12.03045676789186,
+   "z5": 54.87071108248476,
+   "rank": 1,
+   "passed": true
+  },
+  {
+   "key": [
+    "word-rev",
+    "KxDVwTyzPqbMnZvOA\u02b3"
+   ],
+   "sign": "sub",
+   "F": true,
+   "zu": 13.114171480904169,
+   "z5": 43.80899269194489,
+   "rank": 1,
+   "passed": true
+  },
+  {
+   "key": [
+    "phrase-2",
+    "be your"
+   ],
+   "sign": "add",
+   "F": false,
+   "zu": 12.526008661467925,
+   "z5": 55.77245666823059,
+   "rank": 1,
+   "passed": true
+  },
+  {
+   "key": [
+    "phrase-2-rev",
+    "a rcc\u02b3"
+   ],
+   "sign": "beaufort",
+   "F": true,
+   "zu": 13.758405097791686,
+   "z5": 38.29792032787264,
+   "rank": 1,
+   "passed": true
+  }
+ ],
+ "cells": [
+  {
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "pVlrk OSFwx XxRta rMkb",
+   "zu": 3.2024333262587508,
+   "z5": null
+  },
+  {
+   "page": "LP2-00",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-4-rev",
+   "key": "brethren whom tyrant he\u02b3",
+   "zu": 4.167580686100978,
+   "z5": null
+  },
+  {
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "UqIrzNRkUSRgCjEAjYhKy UEIAI sDVpjB z",
+   "zu": 3.704295171892471,
+   "z5": null
+  },
+  {
+   "page": "LP2-00",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "Qah eEXXmzqxc\u02b3",
+   "zu": 4.162444138194891,
+   "z5": null
+  },
+  {
+   "page": "LP2-00",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "brethren whom tyrant he\u02b3",
+   "zu": 4.076015025852208,
+   "z5": null
+  },
+  {
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "enter it\u02b3",
+   "zu": 3.5201851240859923,
+   "z5": null
+  },
+  {
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "key then come\u02b3",
+   "zu": 3.4154418387113994,
+   "z5": null
+  },
+  {
+   "page": "LP2-01",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "UiKx t EBirHa\u02b3",
+   "zu": 3.5978923451549076,
+   "z5": null
+  },
+  {
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "fNjUtLjUv ZvnSs\u02b3",
+   "zu": 3.5630964544297634,
+   "z5": null
+  },
+  {
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "the number you received\u02b3",
+   "zu": 3.631457125274313,
+   "z5": null
+  },
+  {
+   "page": "LP2-01",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "are the direction\u02b3",
+   "zu": 3.7577481624017284,
+   "z5": null
+  },
+  {
+   "page": "LP2-01",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "uwvn KxDVwTyzPqbMnZvOA",
+   "zu": 3.363815699662577,
+   "z5": null
+  },
+  {
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "were unable to complete",
+   "zu": 3.3574926392182545,
+   "z5": null
+  },
+  {
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "our month long",
+   "zu": 4.032518405440452,
+   "z5": null
+  },
+  {
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "word-rev",
+   "key": "Yb\u02b3",
+   "zu": 3.2502741923671534,
+   "z5": null
+  },
+  {
+   "page": "LP2-02",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "is your",
+   "zu": 3.4521935133508803,
+   "z5": null
+  },
+  {
+   "page": "LP2-02",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-3",
+   "key": "our month long",
+   "zu": 3.679087745945488,
+   "z5": null
+  },
+  {
+   "page": "LP2-02",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "There is a message\u02b3",
+   "zu": 3.8321019965281105,
+   "z5": null
+  },
+  {
+   "page": "LP2-03",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-4-rev",
+   "key": "Qah eEXXmzqxc QSjnSHPuVV qShe\u02b3",
+   "zu": 3.7789360845932385,
+   "z5": null
+  },
+  {
+   "page": "LP2-03",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "t EBirHa\u02b3",
+   "zu": 3.24329918966453,
+   "z5": null
+  },
+  {
+   "page": "LP2-03",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "of fading",
+   "zu": 3.0538250984581343,
+   "z5": null
+  },
+  {
+   "page": "LP2-03",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "Qah eEXXmzqxc QSjnSHPuVV qShe\u02b3",
+   "zu": 3.9629892834093874,
+   "z5": null
+  },
+  {
+   "page": "LP2-03",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "KeBtKjJ hGKC\u02b3",
+   "zu": 3.092282606253552,
+   "z5": null
+  },
+  {
+   "page": "LP2-03",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "sXToTPb hFLHlRbKiTj SmEg\u02b3",
+   "zu": 3.998838113879864,
+   "z5": null
+  },
+  {
+   "page": "LP2-04",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "rXrSwKSNhyuYe vi r",
+   "zu": 4.261364409237806,
+   "z5": null
+  },
+  {
+   "page": "LP2-04",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "bE Nrpi URzQkNJ",
+   "zu": 3.3942105112252667,
+   "z5": null
+  },
+  {
+   "page": "LP2-04",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "line",
+   "key": "\"http://sq6wmgv2zcsrix6t.onion/389489423",
+   "zu": 3.521645300703321,
+   "z5": null
+  },
+  {
+   "page": "LP2-04",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-3",
+   "key": "rXrSwKSNhyuYe vi r",
+   "zu": 4.248166348800632,
+   "z5": null
+  },
+  {
+   "page": "LP2-04",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "ij j JnRJrIQAJzTQEAaFOYLgm Q",
+   "zu": 4.241615639777572,
+   "z5": null
+  },
+  {
+   "page": "LP2-04",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "line",
+   "key": "\"http://sq6wmgv2zcsrix6t.onion/389489423",
+   "zu": 3.8385398725816797,
+   "z5": null
+  },
+  {
+   "page": "LP2-05",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "Good luck",
+   "zu": 3.5383318686060665,
+   "z5": null
+  },
+  {
+   "page": "LP2-05",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "magic squares",
+   "zu": 3.8042023624596144,
+   "z5": null
+  },
+  {
+   "page": "LP2-05",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "word",
+   "key": "flfE",
+   "zu": 3.5795315482151775,
+   "z5": null
+  },
+  {
+   "page": "LP2-05",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "the way",
+   "zu": 4.208300540290636,
+   "z5": null
+  },
+  {
+   "page": "LP2-05",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-3",
+   "key": "a new email",
+   "zu": 3.7182350761694933,
+   "z5": null
+  },
+  {
+   "page": "LP2-05",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "word-rev",
+   "key": "FkjV\u02b3",
+   "zu": 4.008811194077924,
+   "z5": null
+  },
+  {
+   "page": "LP2-06",
+   "sign": "sub",
+   "F": false,
+   "fam": "word-rev",
+   "key": "CLvSBp\u02b3",
+   "zu": 3.2558246753165503,
+   "z5": null
+  },
+  {
+   "page": "LP2-06",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "URL and",
+   "zu": 2.9872720792131777,
+   "z5": null
+  },
+  {
+   "page": "LP2-06",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "Qah eEXXmzqxc QSjnSHPuVV",
+   "zu": 3.3113365657981966,
+   "z5": null
+  },
+  {
+   "page": "LP2-06",
+   "sign": "sub",
+   "F": true,
+   "fam": "word-rev",
+   "key": "uymNNiu\u02b3",
+   "zu": 3.5060116976195896,
+   "z5": null
+  },
+  {
+   "page": "LP2-06",
+   "sign": "add",
+   "F": true,
+   "fam": "word-rev",
+   "key": "ylIXZGn\u02b3",
+   "zu": 3.2063218746141895,
+   "z5": null
+  },
+  {
+   "page": "LP2-06",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "input which accepts file\u02b3",
+   "zu": 3.6378457397640616,
+   "z5": null
+  },
+  {
+   "page": "LP2-07",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "their use of our",
+   "zu": 3.499313322653182,
+   "z5": null
+  },
+  {
+   "page": "LP2-07",
+   "sign": "add",
+   "F": false,
+   "fam": "word-rev",
+   "key": "pzrDjjs\u02b3",
+   "zu": 3.019519533536151,
+   "z5": null
+  },
+  {
+   "page": "LP2-07",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "message hidden in\u02b3",
+   "zu": 2.8910972767731047,
+   "z5": null
+  },
+  {
+   "page": "LP2-07",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "because you have demonstrated\u02b3",
+   "zu": 3.960576219659856,
+   "z5": null
+  },
+  {
+   "page": "LP2-07",
+   "sign": "add",
+   "F": true,
+   "fam": "word-rev",
+   "key": "pzrDjjs\u02b3",
+   "zu": 3.028118497248565,
+   "z5": null
+  },
+  {
+   "page": "LP2-07",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "word-rev",
+   "key": "Fzp\u02b3",
+   "zu": 3.1873929933496163,
+   "z5": null
+  },
+  {
+   "page": "LP2-08",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "px gd\u02b3",
+   "zu": 3.627131318917071,
+   "z5": null
+  },
+  {
+   "page": "LP2-08",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "RB IC\u02b3",
+   "zu": 3.637569531365958,
+   "z5": null
+  },
+  {
+   "page": "LP2-08",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "word",
+   "key": "tied",
+   "zu": 3.243450325579917,
+   "z5": null
+  },
+  {
+   "page": "LP2-08",
+   "sign": "sub",
+   "F": true,
+   "fam": "word-rev",
+   "key": "DvGFwCNPfOIGoyPC\u02b3",
+   "zu": 3.3718598175602574,
+   "z5": null
+  },
+  {
+   "page": "LP2-08",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "RB IC\u02b3",
+   "zu": 3.804211641047146,
+   "z5": null
+  },
+  {
+   "page": "LP2-08",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "BuoKspdXaBxbF MBA",
+   "zu": 3.0370427476776944,
+   "z5": null
+  },
+  {
+   "page": "LP2-09",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "The work of\u02b3",
+   "zu": 3.284440152520603,
+   "z5": null
+  },
+  {
+   "page": "LP2-09",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "longer in deadly black",
+   "zu": 3.401388728449439,
+   "z5": null
+  },
+  {
+   "page": "LP2-09",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "o enFouaXozeMCJ a",
+   "zu": 3.6460771566154486,
+   "z5": null
+  },
+  {
+   "page": "LP2-09",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "bound or build the\u02b3",
+   "zu": 3.6497526888668776,
+   "z5": null
+  },
+  {
+   "page": "LP2-09",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "To find them we\u02b3",
+   "zu": 3.3213050075393875,
+   "z5": null
+  },
+  {
+   "page": "LP2-09",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "word-rev",
+   "key": "right\u02b3",
+   "zu": 3.717606522540956,
+   "z5": null
+  },
+  {
+   "page": "LP2-10",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "a GnuPG key pair",
+   "zu": 2.8478170068639517,
+   "z5": null
+  },
+  {
+   "page": "LP2-10",
+   "sign": "add",
+   "F": false,
+   "fam": "word-rev",
+   "key": "wBkWmofUCmdkLCFHhsJYCZoDdGNhVdiCaIFtECvl",
+   "zu": 3.5938922442162773,
+   "z5": null
+  },
+  {
+   "page": "LP2-10",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "on the mit",
+   "zu": 3.7031062966596497,
+   "z5": null
+  },
+  {
+   "page": "LP2-10",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "RG z\u02b3",
+   "zu": 3.9212464724067404,
+   "z5": null
+  },
+  {
+   "page": "LP2-10",
+   "sign": "add",
+   "F": true,
+   "fam": "word-rev",
+   "key": "wBkWmofUCmdkLCFHhsJYCZoDdGNhVdiCaIFtECvl",
+   "zu": 4.409350290780208,
+   "z5": null
+  },
+  {
+   "page": "LP2-10",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-3",
+   "key": "JRxdIZtnCvnVy vg MjAFH",
+   "zu": 4.005975875391018,
+   "z5": null
+  },
+  {
+   "page": "LP2-11",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "lead you on the",
+   "zu": 3.1354186878529764,
+   "z5": null
+  },
+  {
+   "page": "LP2-11",
+   "sign": "add",
+   "F": false,
+   "fam": "word",
+   "key": "bless",
+   "zu": 3.7112194805128547,
+   "z5": null
+  },
+  {
+   "page": "LP2-11",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "joy Nor his\u02b3",
+   "zu": 3.8299818406985904,
+   "z5": null
+  },
+  {
+   "page": "LP2-11",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "xWvHZrrzfjsxPqyx o Pqgs KinJ",
+   "zu": 3.7590870646933032,
+   "z5": null
+  },
+  {
+   "page": "LP2-11",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-3",
+   "key": "message that has",
+   "zu": 3.7553560402519723,
+   "z5": null
+  },
+  {
+   "page": "LP2-11",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-3",
+   "key": "encrypt it Note",
+   "zu": 3.498772479580467,
+   "z5": null
+  },
+  {
+   "page": "LP2-12",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "LE jxJS\u02b3",
+   "zu": 3.6073455986556486,
+   "z5": null
+  },
+  {
+   "page": "LP2-12",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "if you\u02b3",
+   "zu": 3.8081584249115643,
+   "z5": null
+  },
+  {
+   "page": "LP2-12",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "order in which\u02b3",
+   "zu": 3.6306957104420774,
+   "z5": null
+  },
+  {
+   "page": "LP2-12",
+   "sign": "sub",
+   "F": true,
+   "fam": "word",
+   "key": "unseen",
+   "zu": 3.153720156425297,
+   "z5": null
+  },
+  {
+   "page": "LP2-12",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "month long journey ends\u02b3",
+   "zu": 4.295275000964607,
+   "z5": null
+  },
+  {
+   "page": "LP2-12",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "XxRta rMkb",
+   "zu": 3.7095887120417155,
+   "z5": null
+  },
+  {
+   "page": "LP2-13",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "hjH aVE w tmS",
+   "zu": 3.213536377354594,
+   "z5": null
+  },
+  {
+   "page": "LP2-13",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "Additionally please generate\u02b3",
+   "zu": 3.1792308519709462,
+   "z5": null
+  },
+  {
+   "page": "LP2-13",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "word-rev",
+   "key": "vORk\u02b3",
+   "zu": 4.183242236241717,
+   "z5": null
+  },
+  {
+   "page": "LP2-13",
+   "sign": "sub",
+   "F": true,
+   "fam": "word-rev",
+   "key": "vxUlfdpO\u02b3",
+   "zu": 3.469501776319871,
+   "z5": null
+  },
+  {
+   "page": "LP2-13",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "number in the next",
+   "zu": 3.517353657770006,
+   "z5": null
+  },
+  {
+   "page": "LP2-13",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "tuKhhpTcVpwABLBwEXlm locgCoyMmkuOjdXx Fd",
+   "zu": 3.754357884771259,
+   "z5": null
+  },
+  {
+   "page": "LP2-14",
+   "sign": "sub",
+   "F": false,
+   "fam": "word",
+   "key": "JnRJrIQAJzTQEAaFOYLgm",
+   "zu": 3.5196904044917696,
+   "z5": null
+  },
+  {
+   "page": "LP2-14",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "tADK kVhWEz",
+   "zu": 3.7104589675621082,
+   "z5": null
+  },
+  {
+   "page": "LP2-14",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-4-rev",
+   "key": "There is a message\u02b3",
+   "zu": 3.488657261464205,
+   "z5": null
+  },
+  {
+   "page": "LP2-14",
+   "sign": "sub",
+   "F": true,
+   "fam": "word",
+   "key": "JnRJrIQAJzTQEAaFOYLgm",
+   "zu": 4.08553144197199,
+   "z5": null
+  },
+  {
+   "page": "LP2-14",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "tADK kVhWEz",
+   "zu": 4.019455138592737,
+   "z5": null
+  },
+  {
+   "page": "LP2-14",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "There is a message\u02b3",
+   "zu": 3.7996546134356803,
+   "z5": null
+  },
+  {
+   "page": "LP2-15",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "buyg vjkwp\u02b3",
+   "zu": 3.1787153995242274,
+   "z5": null
+  },
+  {
+   "page": "LP2-15",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "BEGIN PGP\u02b3",
+   "zu": 3.773907242284516,
+   "z5": null
+  },
+  {
+   "page": "LP2-15",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "done You have",
+   "zu": 3.929095498432551,
+   "z5": null
+  },
+  {
+   "page": "LP2-15",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "Beware false paths\u02b3",
+   "zu": 3.3461928710418958,
+   "z5": null
+  },
+  {
+   "page": "LP2-15",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "the first",
+   "zu": 3.8275564693927002,
+   "z5": null
+  },
+  {
+   "page": "LP2-15",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-3",
+   "key": "done You have",
+   "zu": 4.042273325054743,
+   "z5": null
+  },
+  {
+   "page": "LP2-16",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "QgBiAIH FSxtMoRpE aAzQ\u02b3",
+   "zu": 3.3009053547463,
+   "z5": null
+  },
+  {
+   "page": "LP2-16",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "then come back\u02b3",
+   "zu": 3.6089581564128235,
+   "z5": null
+  },
+  {
+   "page": "LP2-16",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "the HTML form input",
+   "zu": 3.4690171117749697,
+   "z5": null
+  },
+  {
+   "page": "LP2-16",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "a number Break\u02b3",
+   "zu": 3.374363559246194,
+   "z5": null
+  },
+  {
+   "page": "LP2-16",
+   "sign": "add",
+   "F": true,
+   "fam": "word-rev",
+   "key": "paste\u02b3",
+   "zu": 3.245804694324885,
+   "z5": null
+  },
+  {
+   "page": "LP2-16",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "poem of fading\u02b3",
+   "zu": 3.641334713159625,
+   "z5": null
+  },
+  {
+   "page": "LP2-17",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "used before and\u02b3",
+   "zu": 3.3183425456689792,
+   "z5": null
+  },
+  {
+   "page": "LP2-17",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "mCOEwC SwgubEEldQiyYC",
+   "zu": 3.605640751622364,
+   "z5": null
+  },
+  {
+   "page": "LP2-17",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "j JnRJrIQAJzTQEAaFOYLgm",
+   "zu": 3.491443936525638,
+   "z5": null
+  },
+  {
+   "page": "LP2-17",
+   "sign": "sub",
+   "F": true,
+   "fam": "word",
+   "key": "own",
+   "zu": 4.090654278187885,
+   "z5": null
+  },
+  {
+   "page": "LP2-17",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "uqTScWCD L nOyapCMb LwiyTKhVv",
+   "zu": 3.5686588549795353,
+   "z5": null
+  },
+  {
+   "page": "LP2-17",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "cYgQod KymjWcIvKx\u02b3",
+   "zu": 3.8709695612205963,
+   "z5": null
+  },
+  {
+   "page": "LP2-18",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-4-rev",
+   "key": "stop on the road\u02b3",
+   "zu": 3.709339815255924,
+   "z5": null
+  },
+  {
+   "page": "LP2-18",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "nine volumes knowledge was",
+   "zu": 3.720643318232911,
+   "z5": null
+  },
+  {
+   "page": "LP2-18",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "TFYV OIUAU",
+   "zu": 3.6158880815425296,
+   "z5": null
+  },
+  {
+   "page": "LP2-18",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-3",
+   "key": "number or symbolism",
+   "zu": 3.215401348108849,
+   "z5": null
+  },
+  {
+   "page": "LP2-18",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "MIRYIrwUaSvBZTZ n ylIXZGn\u02b3",
+   "zu": 3.324047105058909,
+   "z5": null
+  },
+  {
+   "page": "LP2-18",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "line-rev",
+   "key": "We will email you a number in the next f",
+   "zu": 3.195656067521498,
+   "z5": null
+  },
+  {
+   "page": "LP2-19",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "RkiGjkhUjCkACHBEELDewiQhMUJf CrQ\u02b3",
+   "zu": 3.3574043191339733,
+   "z5": null
+  },
+  {
+   "page": "LP2-19",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "jWq td",
+   "zu": 3.2837998171146867,
+   "z5": null
+  },
+  {
+   "page": "LP2-19",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "word-rev",
+   "key": "anonymity\u02b3",
+   "zu": 3.416355132405592,
+   "z5": null
+  },
+  {
+   "page": "LP2-19",
+   "sign": "sub",
+   "F": true,
+   "fam": "line-rev",
+   "key": "brethren, whom, tyrant, he calls free la",
+   "zu": 4.590255951980342,
+   "z5": null
+  },
+  {
+   "page": "LP2-19",
+   "sign": "add",
+   "F": true,
+   "fam": "word",
+   "key": "OAEnILUhjgCMwSQIGGkz",
+   "zu": 3.2699973246155367,
+   "z5": null
+  },
+  {
+   "page": "LP2-19",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "poem of",
+   "zu": 3.3620845999100695,
+   "z5": null
+  },
+  {
+   "page": "LP2-20",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-4-rev",
+   "key": "will contact you soon\u02b3",
+   "zu": 3.5639048836669542,
+   "z5": null
+  },
+  {
+   "page": "LP2-20",
+   "sign": "add",
+   "F": false,
+   "fam": "line-rev",
+   "key": "decrypted message to continue.  Each per",
+   "zu": 3.368460093548388,
+   "z5": null
+  },
+  {
+   "page": "LP2-20",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "uymNNiu XVCCn axGH IZ",
+   "zu": 3.462228638843092,
+   "z5": null
+  },
+  {
+   "page": "LP2-20",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "a group that\u02b3",
+   "zu": 3.7332331584771667,
+   "z5": null
+  },
+  {
+   "page": "LP2-20",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-3",
+   "key": "hEK UBXkeMeVrnV SQQ",
+   "zu": 3.622276510640542,
+   "z5": null
+  },
+  {
+   "page": "LP2-20",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "vxUlfdpO GiC B\u02b3",
+   "zu": 3.721657972645269,
+   "z5": null
+  },
+  {
+   "page": "LP2-21",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "IX KirtdSdm",
+   "zu": 3.3047224330019507,
+   "z5": null
+  },
+  {
+   "page": "LP2-21",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "Zdc Soz yH RApOI",
+   "zu": 3.297029001314173,
+   "z5": null
+  },
+  {
+   "page": "LP2-21",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "tuKhhpTcVpwABLBwEXlm locgCoyMmkuOjdXx Fd",
+   "zu": 3.534970827492976,
+   "z5": null
+  },
+  {
+   "page": "LP2-21",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "Q WZv rtA\u02b3",
+   "zu": 3.743085415957814,
+   "z5": null
+  },
+  {
+   "page": "LP2-21",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "will cryptographically\u02b3",
+   "zu": 3.1442409014143076,
+   "z5": null
+  },
+  {
+   "page": "LP2-21",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "script which",
+   "zu": 3.8583182036777433,
+   "z5": null
+  },
+  {
+   "page": "LP2-22",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "have shared your\u02b3",
+   "zu": 3.235181639872433,
+   "z5": null
+  },
+  {
+   "page": "LP2-22",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "QSjnSHPuVV qShe",
+   "zu": 3.0604820228580496,
+   "z5": null
+  },
+  {
+   "page": "LP2-22",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "line-rev",
+   "key": "U/XdwkNjmmc6c1tOF2/4tvHg3oY59z+e9uyeLxom",
+   "zu": 3.124141247420802,
+   "z5": null
+  },
+  {
+   "page": "LP2-22",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-3",
+   "key": "provide the URL",
+   "zu": 3.515039080038591,
+   "z5": null
+  },
+  {
+   "page": "LP2-22",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-3",
+   "key": "dedication and effort",
+   "zu": 2.898868969083873,
+   "z5": null
+  },
+  {
+   "page": "LP2-22",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "Pqgs KinJ vzh PMz\u02b3",
+   "zu": 3.599223409712788,
+   "z5": null
+  },
+  {
+   "page": "LP2-23",
+   "sign": "sub",
+   "F": false,
+   "fam": "word-rev",
+   "key": "round\u02b3",
+   "zu": 3.130152862529306,
+   "z5": null
+  },
+  {
+   "page": "LP2-23",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "YOnXWo cjexaXnTp",
+   "zu": 3.2702938079619086,
+   "z5": null
+  },
+  {
+   "page": "LP2-23",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-4-rev",
+   "key": "to produce from within\u02b3",
+   "zu": 2.8404514596932904,
+   "z5": null
+  },
+  {
+   "page": "LP2-23",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "that you\u02b3",
+   "zu": 3.4355302402418917,
+   "z5": null
+  },
+  {
+   "page": "LP2-23",
+   "sign": "add",
+   "F": true,
+   "fam": "word",
+   "key": "second",
+   "zu": 3.2075502604404873,
+   "z5": null
+  },
+  {
+   "page": "LP2-23",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "G ITCYSFbF QgBiAIH FSxtMoRpE\u02b3",
+   "zu": 2.9941780511122005,
+   "z5": null
+  },
+  {
+   "page": "LP2-24",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "x cuDG Ye",
+   "zu": 2.866271816991909,
+   "z5": null
+  },
+  {
+   "page": "LP2-24",
+   "sign": "add",
+   "F": false,
+   "fam": "word-rev",
+   "key": "Stop\u02b3",
+   "zu": 3.5486195659959594,
+   "z5": null
+  },
+  {
+   "page": "LP2-24",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "way Its words",
+   "zu": 3.4898871654336627,
+   "z5": null
+  },
+  {
+   "page": "LP2-24",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "a gIv kpdnNjIF\u02b3",
+   "zu": 3.2782090845164884,
+   "z5": null
+  },
+  {
+   "page": "LP2-24",
+   "sign": "add",
+   "F": true,
+   "fam": "line-rev",
+   "key": "bbJ+NQ2pzrDjjs9XnFq8a+gIv1kpdnNjIF99Yb0r",
+   "zu": 3.822215265404627,
+   "z5": null
+  },
+  {
+   "page": "LP2-24",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "END COMPRESSED",
+   "zu": 3.5623644727649766,
+   "z5": null
+  },
+  {
+   "page": "LP2-25",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "psSF HaXqNiXJ ujKzq",
+   "zu": 3.782933541804852,
+   "z5": null
+  },
+  {
+   "page": "LP2-25",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "psSF HaXqNiXJ\u02b3",
+   "zu": 3.3200714367726754,
+   "z5": null
+  },
+  {
+   "page": "LP2-25",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "NQ pzrDjjs XnFq",
+   "zu": 3.7166208919456203,
+   "z5": null
+  },
+  {
+   "page": "LP2-25",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-3",
+   "key": "psSF HaXqNiXJ ujKzq",
+   "zu": 3.4452755239226147,
+   "z5": null
+  },
+  {
+   "page": "LP2-25",
+   "sign": "add",
+   "F": true,
+   "fam": "word-rev",
+   "key": "BuoKspdXaBxbF\u02b3",
+   "zu": 3.74247858586878,
+   "z5": null
+  },
+  {
+   "page": "LP2-25",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "SRDdqwmAmuzZ DNLIhKYjZlUL BuoKspdXaBxbF\u02b3",
+   "zu": 3.8505689543118504,
+   "z5": null
+  },
+  {
+   "page": "LP2-26",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "Af K yRgjObsfA",
+   "zu": 3.4330161064832776,
+   "z5": null
+  },
+  {
+   "page": "LP2-26",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "effort If",
+   "zu": 3.826900651403636,
+   "z5": null
+  },
+  {
+   "page": "LP2-26",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "Key ID A F",
+   "zu": 3.7795306967158155,
+   "z5": null
+  },
+  {
+   "page": "LP2-26",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "Your enlightenment\u02b3",
+   "zu": 3.720465882402045,
+   "z5": null
+  },
+  {
+   "page": "LP2-26",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-3",
+   "key": "CwZnlZ YWls p",
+   "zu": 3.5450473655964143,
+   "z5": null
+  },
+  {
+   "page": "LP2-26",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "Key ID A F",
+   "zu": 3.6292554539982813,
+   "z5": null
+  },
+  {
+   "page": "LP2-27",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "it and\u02b3",
+   "zu": 4.4758886188718705,
+   "z5": null
+  },
+  {
+   "page": "LP2-27",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "gikoUw S psSF",
+   "zu": 3.524500191504102,
+   "z5": null
+  },
+  {
+   "page": "LP2-27",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "hra GKnXgQKQgVitIy\u02b3",
+   "zu": 3.3225069459522865,
+   "z5": null
+  },
+  {
+   "page": "LP2-27",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "it and\u02b3",
+   "zu": 3.9302360515360566,
+   "z5": null
+  },
+  {
+   "page": "LP2-27",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "H zuXX xWvHZrrzfjsxPqyx\u02b3",
+   "zu": 3.79537543048461,
+   "z5": null
+  },
+  {
+   "page": "LP2-27",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "Perl module available\u02b3",
+   "zu": 3.080072043010702,
+   "z5": null
+  },
+  {
+   "page": "LP2-28",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "do not despair",
+   "zu": 3.3371462980171875,
+   "z5": null
+  },
+  {
+   "page": "LP2-28",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "my first name\u02b3",
+   "zu": 3.3939321152203283,
+   "z5": null
+  },
+  {
+   "page": "LP2-28",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "received to this\u02b3",
+   "zu": 3.4457703109077196,
+   "z5": null
+  },
+  {
+   "page": "LP2-28",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "enlightenment awaits\u02b3",
+   "zu": 3.5874674994013196,
+   "z5": null
+  },
+  {
+   "page": "LP2-28",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "z vrO MtIphTlQrONCpS l",
+   "zu": 3.338196548170319,
+   "z5": null
+  },
+  {
+   "page": "LP2-28",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "OSFwx XxRta",
+   "zu": 3.222327364604893,
+   "z5": null
+  },
+  {
+   "page": "LP2-29",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "pVlrk OSFwx XxRta\u02b3",
+   "zu": 3.5814947804289377,
+   "z5": null
+  },
+  {
+   "page": "LP2-29",
+   "sign": "add",
+   "F": false,
+   "fam": "word-rev",
+   "key": "ywXoE\u02b3",
+   "zu": 3.1244047054325716,
+   "z5": null
+  },
+  {
+   "page": "LP2-29",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "will only",
+   "zu": 3.0625066736245112,
+   "z5": null
+  },
+  {
+   "page": "LP2-29",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "to this same URL",
+   "zu": 4.29394700905671,
+   "z5": null
+  },
+  {
+   "page": "LP2-29",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "XVCCn axGH\u02b3",
+   "zu": 3.2441349001710664,
+   "z5": null
+  },
+  {
+   "page": "LP2-29",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "YWls p lsnxFh a\u02b3",
+   "zu": 3.2211175992840344,
+   "z5": null
+  },
+  {
+   "page": "LP2-30",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-4-rev",
+   "key": "recently claimed that is\u02b3",
+   "zu": 3.210361179547711,
+   "z5": null
+  },
+  {
+   "page": "LP2-30",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "We look\u02b3",
+   "zu": 3.5881582475232467,
+   "z5": null
+  },
+  {
+   "page": "LP2-30",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-4-rev",
+   "key": "bound or build the\u02b3",
+   "zu": 3.565905863416845,
+   "z5": null
+  },
+  {
+   "page": "LP2-30",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "email do not despair\u02b3",
+   "zu": 3.1272867690268633,
+   "z5": null
+  },
+  {
+   "page": "LP2-30",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "RTHIS UTETL\u02b3",
+   "zu": 3.467112085205084,
+   "z5": null
+  },
+  {
+   "page": "LP2-30",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "this page Once you've",
+   "zu": 3.2519054960919322,
+   "z5": null
+  },
+  {
+   "page": "LP2-31",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "this point We want",
+   "zu": 3.9030949712291747,
+   "z5": null
+  },
+  {
+   "page": "LP2-31",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-4-rev",
+   "key": "will make it all\u02b3",
+   "zu": 4.405509562100233,
+   "z5": null
+  },
+  {
+   "page": "LP2-31",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "you've never used before",
+   "zu": 3.6538819611983597,
+   "z5": null
+  },
+  {
+   "page": "LP2-31",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "ZjLrUWTJrSl p Zt\u02b3",
+   "zu": 4.014045376686753,
+   "z5": null
+  },
+  {
+   "page": "LP2-31",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "will make it all\u02b3",
+   "zu": 3.935257453197518,
+   "z5": null
+  },
+  {
+   "page": "LP2-31",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "you've never used before",
+   "zu": 3.1107087745903597,
+   "z5": null
+  },
+  {
+   "page": "LP2-32",
+   "sign": "sub",
+   "F": false,
+   "fam": "word",
+   "key": "CLvSBp",
+   "zu": 3.2134248202298163,
+   "z5": null
+  },
+  {
+   "page": "LP2-32",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "bound or\u02b3",
+   "zu": 3.8025715474052837,
+   "z5": null
+  },
+  {
+   "page": "LP2-32",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "available on\u02b3",
+   "zu": 3.4582226358404733,
+   "z5": null
+  },
+  {
+   "page": "LP2-32",
+   "sign": "sub",
+   "F": true,
+   "fam": "word",
+   "key": "CLvSBp",
+   "zu": 3.151671201155093,
+   "z5": null
+  },
+  {
+   "page": "LP2-32",
+   "sign": "add",
+   "F": true,
+   "fam": "word",
+   "key": "bBu",
+   "zu": 3.8161267180096825,
+   "z5": null
+  },
+  {
+   "page": "LP2-32",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "to be\u02b3",
+   "zu": 3.5423831744755803,
+   "z5": null
+  },
+  {
+   "page": "LP2-33",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-4-rev",
+   "key": "vxUlfdpO GiC B zdHaiH\u02b3",
+   "zu": 3.7137625185456473,
+   "z5": null
+  },
+  {
+   "page": "LP2-33",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "jH Yd VVrrj\u02b3",
+   "zu": 3.0964168851121134,
+   "z5": null
+  },
+  {
+   "page": "LP2-33",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "lsnxFh a JyUOrh",
+   "zu": 3.366521425375225,
+   "z5": null
+  },
+  {
+   "page": "LP2-33",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "vxUlfdpO GiC B zdHaiH\u02b3",
+   "zu": 3.215546553588066,
+   "z5": null
+  },
+  {
+   "page": "LP2-33",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "will lead you\u02b3",
+   "zu": 3.26429448867403,
+   "z5": null
+  },
+  {
+   "page": "LP2-33",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "This song is your\u02b3",
+   "zu": 4.095299636228527,
+   "z5": null
+  },
+  {
+   "page": "LP2-34",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-4-rev",
+   "key": "CLvSBp GQnRKvzhB yWEmyhL HZE\u02b3",
+   "zu": 3.450083692253405,
+   "z5": null
+  },
+  {
+   "page": "LP2-34",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "ta CuAwHsIY\u02b3",
+   "zu": 3.9141354214232744,
+   "z5": null
+  },
+  {
+   "page": "LP2-34",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "word",
+   "key": "Its",
+   "zu": 3.3151152987944714,
+   "z5": null
+  },
+  {
+   "page": "LP2-34",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "L kqz\u02b3",
+   "zu": 3.5111705171802075,
+   "z5": null
+  },
+  {
+   "page": "LP2-34",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-3",
+   "key": "shall have no",
+   "zu": 3.720997396541792,
+   "z5": null
+  },
+  {
+   "page": "LP2-34",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "be displayed once\u02b3",
+   "zu": 3.9327847558085525,
+   "z5": null
+  },
+  {
+   "page": "LP2-35",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "this group in any",
+   "zu": 3.6799477072231777,
+   "z5": null
+  },
+  {
+   "page": "LP2-35",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-4-rev",
+   "key": "will result in not\u02b3",
+   "zu": 3.48782243421644,
+   "z5": null
+  },
+  {
+   "page": "LP2-35",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "TLFUrw qDGjk",
+   "zu": 3.657922360629846,
+   "z5": null
+  },
+  {
+   "page": "LP2-35",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "you received to this",
+   "zu": 4.046382528573422,
+   "z5": null
+  },
+  {
+   "page": "LP2-35",
+   "sign": "add",
+   "F": true,
+   "fam": "word-rev",
+   "key": "continues\u02b3",
+   "zu": 3.4393929178280533,
+   "z5": null
+  },
+  {
+   "page": "LP2-35",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "TLFUrw qDGjk",
+   "zu": 3.4449746108928587,
+   "z5": null
+  },
+  {
+   "page": "LP2-36",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "G w",
+   "zu": 3.358849118664454,
+   "z5": null
+  },
+  {
+   "page": "LP2-36",
+   "sign": "add",
+   "F": false,
+   "fam": "line",
+   "key": "few who will make it all the way through",
+   "zu": 3.271308726538107,
+   "z5": null
+  },
+  {
+   "page": "LP2-36",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "OUV rn",
+   "zu": 3.9006844008718535,
+   "z5": null
+  },
+  {
+   "page": "LP2-36",
+   "sign": "sub",
+   "F": true,
+   "fam": "word-rev",
+   "key": "cuDG\u02b3",
+   "zu": 3.942229151842623,
+   "z5": null
+  },
+  {
+   "page": "LP2-36",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "px gd\u02b3",
+   "zu": 3.683875020266924,
+   "z5": null
+  },
+  {
+   "page": "LP2-36",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "OUV rn",
+   "zu": 3.534962707952231,
+   "z5": null
+  },
+  {
+   "page": "LP2-37",
+   "sign": "sub",
+   "F": false,
+   "fam": "word",
+   "key": "activities",
+   "zu": 3.3677326242679633,
+   "z5": null
+  },
+  {
+   "page": "LP2-37",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "difficult than",
+   "zu": 3.560207711311688,
+   "z5": null
+  },
+  {
+   "page": "LP2-37",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "place the public key",
+   "zu": 3.5292583173152554,
+   "z5": null
+  },
+  {
+   "page": "LP2-37",
+   "sign": "sub",
+   "F": true,
+   "fam": "word-rev",
+   "key": "associated\u02b3",
+   "zu": 4.034131890509697,
+   "z5": null
+  },
+  {
+   "page": "LP2-37",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "YxhosCDaJ BNRoAvpnYkOXzVfpO HniAANA ruog",
+   "zu": 3.440860331039909,
+   "z5": null
+  },
+  {
+   "page": "LP2-37",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "place the public key",
+   "zu": 3.363698410211901,
+   "z5": null
+  },
+  {
+   "page": "LP2-38",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "XfhrYb Vu gikoUw\u02b3",
+   "zu": 3.5494757277060267,
+   "z5": null
+  },
+  {
+   "page": "LP2-38",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "read only",
+   "zu": 2.9318355072372313,
+   "z5": null
+  },
+  {
+   "page": "LP2-38",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "qdznac onion",
+   "zu": 3.4151100790896627,
+   "z5": null
+  },
+  {
+   "page": "LP2-38",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "and their numbers are",
+   "zu": 3.761548977792865,
+   "z5": null
+  },
+  {
+   "page": "LP2-38",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "eMUT MIRYIrwUaSvBZTZ n ylIXZGn\u02b3",
+   "zu": 3.0094061583707097,
+   "z5": null
+  },
+  {
+   "page": "LP2-38",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "qdznac onion",
+   "zu": 3.220745385762644,
+   "z5": null
+  },
+  {
+   "page": "LP2-39",
+   "sign": "sub",
+   "F": false,
+   "fam": "word-rev",
+   "key": "SyRJ\u02b3",
+   "zu": 3.7266447017520505,
+   "z5": null
+  },
+  {
+   "page": "LP2-39",
+   "sign": "add",
+   "F": false,
+   "fam": "word-rev",
+   "key": "YOnXWo\u02b3",
+   "zu": 3.1614612911295383,
+   "z5": null
+  },
+  {
+   "page": "LP2-39",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "i imgur\u02b3",
+   "zu": 3.337345011715832,
+   "z5": null
+  },
+  {
+   "page": "LP2-39",
+   "sign": "sub",
+   "F": true,
+   "fam": "word-rev",
+   "key": "SyRJ\u02b3",
+   "zu": 3.9011404302197032,
+   "z5": null
+  },
+  {
+   "page": "LP2-39",
+   "sign": "add",
+   "F": true,
+   "fam": "word-rev",
+   "key": "YOnXWo\u02b3",
+   "zu": 3.089177244638114,
+   "z5": null
+  },
+  {
+   "page": "LP2-39",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "oU RG z\u02b3",
+   "zu": 3.2642409573118614,
+   "z5": null
+  },
+  {
+   "page": "LP2-40",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "RiozDyBsT FKfLZ\u02b3",
+   "zu": 3.4610040298682083,
+   "z5": null
+  },
+  {
+   "page": "LP2-40",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "Primus is",
+   "zu": 3.230756505198974,
+   "z5": null
+  },
+  {
+   "page": "LP2-40",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "word-rev",
+   "key": "few\u02b3",
+   "zu": 3.273319665442914,
+   "z5": null
+  },
+  {
+   "page": "LP2-40",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "RiozDyBsT FKfLZ\u02b3",
+   "zu": 3.370284753941562,
+   "z5": null
+  },
+  {
+   "page": "LP2-40",
+   "sign": "add",
+   "F": true,
+   "fam": "word-rev",
+   "key": "pArd\u02b3",
+   "zu": 4.569445265054389,
+   "z5": null
+  },
+  {
+   "page": "LP2-40",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "qTnVwhSgUsHAmstYXQ jJD Q gRNw\u02b3",
+   "zu": 3.826234085806386,
+   "z5": null
+  },
+  {
+   "page": "LP2-41",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "MtIphTlQrONCpS l",
+   "zu": 3.41586840940108,
+   "z5": null
+  },
+  {
+   "page": "LP2-41",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "CwZnlZ YWls p lsnxFh",
+   "zu": 3.612467231774617,
+   "z5": null
+  },
+  {
+   "page": "LP2-41",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-4-rev",
+   "key": "you've arrived to this\u02b3",
+   "zu": 3.1090840497535384,
+   "z5": null
+  },
+  {
+   "page": "LP2-41",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "MtIphTlQrONCpS l",
+   "zu": 3.959399737116586,
+   "z5": null
+  },
+  {
+   "page": "LP2-41",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "file uploads\u02b3",
+   "zu": 3.4482496031168504,
+   "z5": null
+  },
+  {
+   "page": "LP2-41",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-3",
+   "key": "UEIAI sDVpjB z",
+   "zu": 3.629283212372254,
+   "z5": null
+  },
+  {
+   "page": "LP2-42",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "kbSH DynU cYgQod",
+   "zu": 3.401793965558107,
+   "z5": null
+  },
+  {
+   "page": "LP2-42",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "have now found the",
+   "zu": 3.9449226619751565,
+   "z5": null
+  },
+  {
+   "page": "LP2-42",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "lies empty\u02b3",
+   "zu": 3.5869789965204415,
+   "z5": null
+  },
+  {
+   "page": "LP2-42",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "UiKx t EBirHa YclHWK\u02b3",
+   "zu": 4.356775288725466,
+   "z5": null
+  },
+  {
+   "page": "LP2-42",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "have now found the",
+   "zu": 3.170473587241776,
+   "z5": null
+  },
+  {
+   "page": "LP2-42",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "A y OAEnILUhjgCMwSQIGGkz\u02b3",
+   "zu": 3.6755246135141766,
+   "z5": null
+  },
+  {
+   "page": "LP2-43",
+   "sign": "sub",
+   "F": false,
+   "fam": "word",
+   "key": "meaning",
+   "zu": 3.2906558907467063,
+   "z5": null
+  },
+  {
+   "page": "LP2-43",
+   "sign": "add",
+   "F": false,
+   "fam": "word",
+   "key": "will",
+   "zu": 3.672206233205285,
+   "z5": null
+  },
+  {
+   "page": "LP2-43",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "GnuPG key pair and",
+   "zu": 3.5597248779287307,
+   "z5": null
+  },
+  {
+   "page": "LP2-43",
+   "sign": "sub",
+   "F": true,
+   "fam": "word",
+   "key": "meaning",
+   "zu": 3.390031364767418,
+   "z5": null
+  },
+  {
+   "page": "LP2-43",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "key will result\u02b3",
+   "zu": 3.9657579912676346,
+   "z5": null
+  },
+  {
+   "page": "LP2-43",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "gi JFmALJs\u02b3",
+   "zu": 3.1210458901433786,
+   "z5": null
+  },
+  {
+   "page": "LP2-44",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "a new",
+   "zu": 3.212265615152104,
+   "z5": null
+  },
+  {
+   "page": "LP2-44",
+   "sign": "add",
+   "F": false,
+   "fam": "line-rev",
+   "key": "hjH1aVE914w9tmS9//fY6MIBDe7R37911Le896bE",
+   "zu": 3.610743638163909,
+   "z5": null
+  },
+  {
+   "page": "LP2-44",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "word-rev",
+   "key": "Holy\u02b3",
+   "zu": 3.5051191159860053,
+   "z5": null
+  },
+  {
+   "page": "LP2-44",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "want the",
+   "zu": 3.650599034161893,
+   "z5": null
+  },
+  {
+   "page": "LP2-44",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "the decryption key then",
+   "zu": 3.9903489252525595,
+   "z5": null
+  },
+  {
+   "page": "LP2-44",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "word-rev",
+   "key": "Holy\u02b3",
+   "zu": 4.362944912374568,
+   "z5": null
+  },
+  {
+   "page": "LP2-45",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "jH Yd VVrrj oLlkVDB",
+   "zu": 3.2739704512740775,
+   "z5": null
+  },
+  {
+   "page": "LP2-45",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "WZv rtA\u02b3",
+   "zu": 4.372979532617849,
+   "z5": null
+  },
+  {
+   "page": "LP2-45",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-4-rev",
+   "key": "YI fjyMn G w\u02b3",
+   "zu": 3.4644667682070263,
+   "z5": null
+  },
+  {
+   "page": "LP2-45",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "jH Yd VVrrj oLlkVDB",
+   "zu": 3.691314564424359,
+   "z5": null
+  },
+  {
+   "page": "LP2-45",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "WZv rtA\u02b3",
+   "zu": 4.257744171455108,
+   "z5": null
+  },
+  {
+   "page": "LP2-45",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "YI fjyMn G\u02b3",
+   "zu": 4.42981168634121,
+   "z5": null
+  },
+  {
+   "page": "LP2-46",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "whom tyrant",
+   "zu": 3.1624057351490293,
+   "z5": null
+  },
+  {
+   "page": "LP2-46",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-4-rev",
+   "key": "u aRgEbmDw PSas U\u02b3",
+   "zu": 3.5528174593842876,
+   "z5": null
+  },
+  {
+   "page": "LP2-46",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "word-rev",
+   "key": "RkiGjkhUjCkACHBEELDewiQhMUJf\u02b3",
+   "zu": 3.419604666146885,
+   "z5": null
+  },
+  {
+   "page": "LP2-46",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "WZv rtA F TzWzLIHHYsqGAO\u02b3",
+   "zu": 3.9035887161889007,
+   "z5": null
+  },
+  {
+   "page": "LP2-46",
+   "sign": "add",
+   "F": true,
+   "fam": "line",
+   "key": "In twenty-nine volumes, knowledge was on",
+   "zu": 3.493515363692366,
+   "z5": null
+  },
+  {
+   "page": "LP2-46",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-3",
+   "key": "everything you need",
+   "zu": 3.3778954172022337,
+   "z5": null
+  },
+  {
+   "page": "LP2-47",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "and then the\u02b3",
+   "zu": 3.5675089960104254,
+   "z5": null
+  },
+  {
+   "page": "LP2-47",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "group in\u02b3",
+   "zu": 3.747087592923061,
+   "z5": null
+  },
+  {
+   "page": "LP2-47",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "aIKSKnBSQJu zKkC ywXoE\u02b3",
+   "zu": 3.8720473965689086,
+   "z5": null
+  },
+  {
+   "page": "LP2-47",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "public free web based",
+   "zu": 3.830144074633963,
+   "z5": null
+  },
+  {
+   "page": "LP2-47",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "group in\u02b3",
+   "zu": 4.017399142938627,
+   "z5": null
+  },
+  {
+   "page": "LP2-47",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "aIKSKnBSQJu zKkC ywXoE\u02b3",
+   "zu": 4.041774010259901,
+   "z5": null
+  },
+  {
+   "page": "LP2-48",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "p ooxzu vxUlfdpO GiC",
+   "zu": 3.551985831999526,
+   "z5": null
+  },
+  {
+   "page": "LP2-48",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "on the sky\u02b3",
+   "zu": 3.4400849714629422,
+   "z5": null
+  },
+  {
+   "page": "LP2-48",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "word-rev",
+   "key": "yWEmyhL\u02b3",
+   "zu": 3.268501898576345,
+   "z5": null
+  },
+  {
+   "page": "LP2-48",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "forward to\u02b3",
+   "zu": 3.8489484410877037,
+   "z5": null
+  },
+  {
+   "page": "LP2-48",
+   "sign": "add",
+   "F": true,
+   "fam": "line-rev",
+   "key": "tied to the illegal activities of an ind",
+   "zu": 4.285833532876451,
+   "z5": null
+  },
+  {
+   "page": "LP2-48",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "locgCoyMmkuOjdXx FdQY\u02b3",
+   "zu": 3.3031390954311943,
+   "z5": null
+  },
+  {
+   "page": "LP2-49",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "followers Thus",
+   "zu": 2.9695476291679435,
+   "z5": null
+  },
+  {
+   "page": "LP2-49",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "public free web\u02b3",
+   "zu": 2.821302178642489,
+   "z5": null
+  },
+  {
+   "page": "LP2-49",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "x cuDG Ye",
+   "zu": 3.5324840503327186,
+   "z5": null
+  },
+  {
+   "page": "LP2-49",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-4",
+   "key": "eeh fjt zf onion",
+   "zu": 3.6976648179288683,
+   "z5": null
+  },
+  {
+   "page": "LP2-49",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "QqpXNALJ FFPgYl\u02b3",
+   "zu": 3.17651877148709,
+   "z5": null
+  },
+  {
+   "page": "LP2-49",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-3",
+   "key": "x cuDG Ye",
+   "zu": 3.6075623843490923,
+   "z5": null
+  },
+  {
+   "page": "LP2-51",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "no longer\u02b3",
+   "zu": 3.424351326089186,
+   "z5": null
+  },
+  {
+   "page": "LP2-51",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "BNYQ ij j\u02b3",
+   "zu": 2.9562133382698197,
+   "z5": null
+  },
+  {
+   "page": "LP2-51",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "a beast",
+   "zu": 2.9554680982025765,
+   "z5": null
+  },
+  {
+   "page": "LP2-51",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "been right",
+   "zu": 3.755093973016429,
+   "z5": null
+  },
+  {
+   "page": "LP2-51",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "M kbSH DynU cYgQod\u02b3",
+   "zu": 3.3361813631969395,
+   "z5": null
+  },
+  {
+   "page": "LP2-51",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "word",
+   "key": "HRxFEvREzInPFN",
+   "zu": 2.8669910336354696,
+   "z5": null
+  },
+  {
+   "page": "LP2-52",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "create a",
+   "zu": 2.8270997572357333,
+   "z5": null
+  },
+  {
+   "page": "LP2-52",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "to the illegal activities",
+   "zu": 3.4704895779962985,
+   "z5": null
+  },
+  {
+   "page": "LP2-52",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "mCOEwC SwgubEEldQiyYC YxhosCDaJ",
+   "zu": 3.179784126755223,
+   "z5": null
+  },
+  {
+   "page": "LP2-52",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "You have",
+   "zu": 3.429574072489064,
+   "z5": null
+  },
+  {
+   "page": "LP2-52",
+   "sign": "add",
+   "F": true,
+   "fam": "word",
+   "key": "aIKSKnBSQJu",
+   "zu": 3.724286052955231,
+   "z5": null
+  },
+  {
+   "page": "LP2-52",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "Each person\u02b3",
+   "zu": 3.3615462097237754,
+   "z5": null
+  },
+  {
+   "page": "LP2-53",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-4-rev",
+   "key": "RApOI L kqz yJbQqH\u02b3",
+   "zu": 3.0825130492325226,
+   "z5": null
+  },
+  {
+   "page": "LP2-53",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "yRgjObsfA Q QqpXNALJ\u02b3",
+   "zu": 3.2922221598486985,
+   "z5": null
+  },
+  {
+   "page": "LP2-53",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "QVMeAGq vORk iw\u02b3",
+   "zu": 3.608443208998293,
+   "z5": null
+  },
+  {
+   "page": "LP2-53",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "well to\u02b3",
+   "zu": 3.2948207173386037,
+   "z5": null
+  },
+  {
+   "page": "LP2-53",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "yRgjObsfA Q QqpXNALJ\u02b3",
+   "zu": 3.205291951092985,
+   "z5": null
+  },
+  {
+   "page": "LP2-53",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "QVMeAGq vORk iw\u02b3",
+   "zu": 3.2222974872178134,
+   "z5": null
+  },
+  {
+   "page": "LP2-54",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-3",
+   "key": "ooxzu vxUlfdpO GiC",
+   "zu": 3.7257709517980815,
+   "z5": null
+  },
+  {
+   "page": "LP2-54",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-2-rev",
+   "key": "key used\u02b3",
+   "zu": 3.0048667221241145,
+   "z5": null
+  },
+  {
+   "page": "LP2-54",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "his accepted",
+   "zu": 3.1121641590227154,
+   "z5": null
+  },
+  {
+   "page": "LP2-54",
+   "sign": "sub",
+   "F": true,
+   "fam": "word-rev",
+   "key": "Another\u02b3",
+   "zu": 4.244575745871283,
+   "z5": null
+  },
+  {
+   "page": "LP2-54",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-2",
+   "key": "SRpoKfQCCcywyYGXlx iaisEf",
+   "zu": 3.1944938132819765,
+   "z5": null
+  },
+  {
+   "page": "LP2-54",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "displayed once\u02b3",
+   "zu": 3.00638860691352,
+   "z5": null
+  },
+  {
+   "page": "LP2-55",
+   "sign": "sub",
+   "F": false,
+   "fam": "phrase-2",
+   "key": "this key",
+   "zu": 3.0828776598415724,
+   "z5": null
+  },
+  {
+   "page": "LP2-55",
+   "sign": "add",
+   "F": false,
+   "fam": "phrase-3-rev",
+   "key": "your message or\u02b3",
+   "zu": 3.599397825680693,
+   "z5": null
+  },
+  {
+   "page": "LP2-55",
+   "sign": "beaufort",
+   "F": false,
+   "fam": "phrase-4",
+   "key": "deadly black with hoarse",
+   "zu": 3.1877792206512585,
+   "z5": null
+  },
+  {
+   "page": "LP2-55",
+   "sign": "sub",
+   "F": true,
+   "fam": "phrase-3-rev",
+   "key": "Qah eEXXmzqxc QSjnSHPuVV\u02b3",
+   "zu": 3.2943053985627904,
+   "z5": null
+  },
+  {
+   "page": "LP2-55",
+   "sign": "add",
+   "F": true,
+   "fam": "phrase-4-rev",
+   "key": "ZjLrUWTJrSl p Zt bYPVP\u02b3",
+   "zu": 3.663180113944836,
+   "z5": null
+  },
+  {
+   "page": "LP2-55",
+   "sign": "beaufort",
+   "F": true,
+   "fam": "phrase-2-rev",
+   "key": "whom tyrant\u02b3",
+   "zu": 3.7625173952213,
+   "z5": null
+  }
+ ],
+ "candidates": [],
+ "ntests": 2942280,
+ "nkeys": 8916,
+ "controls_note": "controls rerun 2026-10-29 after a sign bug in the plant construction (the first run double-negated the 'add' plants)"
+}

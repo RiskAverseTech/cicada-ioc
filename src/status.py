@@ -56,6 +56,8 @@ LANES = [
     ("§50", "S carrier: the eleven sites in the images; line-break dependence of the lag-5 echo; RS5 second traces", None, "controls at lags 4, 6", "measured: nothing in ink; lag-5 echo 2x on line-wrapping pairs (z +2.2), lag 6 not; RS5 7/7 but near-unfalsifiable", "post-hoc cut found by eye; eleven events"),
     ("§51", "Layout follow-up to the line-wrap lead (split position, distance to line edge; registered before the check)", None, "lag-4, lag-6 controls", "null: no layout signature; wrap excess stands at z +2.2 and is not word length", "a layout step is not supported"),
     ("§52", "Hint reading: word edges and page rings written in clear (the parable as an operation)", nt("shed_lane.json"), "7/12 (WORD kind halves the encrypted material; 3 alias ranks)", "null", "WORD kind weak for keys under three words"),
+    ("§53a", "Cicada's own words 2012-2017 as running keys (every offset, both directions, both spellings)", nt("runkey_cicada.json"), "2/2", "null", "one 7,792-rune stream"),
+    ("§53b", "Cicada's own words 2012-2017 as word, phrase and line keys (8,916 keys, forwards and reversed)", nt("cicada_words.json"), "6/6 (rerun)", "null", "keys up to 400 runes; the group's prose and embedded strings"),
     ("§44", "Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000", nt("digits.json"), "4/4", "null", "base-10, digit pairs, base-29; fresh offset per page"),
 ]
 OPEN = [
