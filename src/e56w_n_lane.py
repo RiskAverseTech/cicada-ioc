@@ -41,7 +41,7 @@ if "--predict" in sys.argv:
     for s in E57.STATS: lines.append(f"| B | {s} | {predB[s]['mean']:.3f} ± {predB[s]['sd']:.3f} |")
     MD.write_text("\n".join(lines) + "\n"); print("\n".join(lines))
 elif "--check" in sys.argv:
-    d = json.load(open(OUT)); refA = ML.measure(ML.LP2); refB = E57.measure(E57.LP2)
+    d = json.load(open(OUT)); refA = ML.measure(ML.LP2); refB = E57.measure(E57.E49.LP2)
     mech = json.load(open(RESULTS / "mechanism.json"))["rules"]; e57 = json.load(open(RESULTS / "e56w_r4n_predictions.json"))["predictions"]
     def cell(rule, s):
         r = mech.get(rule)

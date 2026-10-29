@@ -1,36 +1,49 @@
-# E56w+n: predictions written before the check
+# E56w+n: §47's ten statistics and §57's sixteen cells against LP2
 
-Written 2026-10-29 15:37 (19 s). Set A: 200 replicates, §47's statistics. Set B: 300 replicates, §57's cells. LP2 columns empty until `--check`.
+Predictions written 2026-10-29 15:37:16 (commit recorded in README §58); checked afterwards.
 
-| set | statistic | predicted mean ± sd |
-|---|---|---|
-| A | D | 76.200 ± 8.323 |
-| A | D_in | 59.320 ± 7.030 |
-| A | L3 | 172.915 ± 12.247 |
-| A | L4 | 113.195 ± 10.904 |
-| A | L5 | 132.140 ± 13.362 |
-| A | L5S | 4.840 ± 2.246 |
-| A | BIG | 7.235 ± 3.122 |
-| A | L6T | 85.145 ± 9.820 |
-| A | L6best | 85.340 ± 9.503 |
-| A | SHARE | 4.366 ± 3.234 |
-| A | Sfreq | 0.035 ± 0.002 |
-| A | U | 27.327 ± 6.937 |
-| B | P1_len7 | 10.117 ± 3.268 |
-| B | P1_len89 | 31.243 ± 6.300 |
-| B | P1_len10p | 43.880 ± 7.635 |
-| B | P2_len6 | 12.750 ± 3.569 |
-| B | P2_len78 | 43.533 ± 7.474 |
-| B | P2_len9p | 75.133 ± 11.079 |
-| B | P3_multi2 | 34.410 ± 5.774 |
-| B | P3_multi3 | 6.740 ± 2.425 |
-| B | P4_lag10 | 5.073 ± 2.374 |
-| B | P5_pos0_share | 0.365 ± 0.057 |
-| B | P6_rep_echo_words | 0.571 ± 0.210 |
-| B | P6_rep_other_words | 0.618 ± 0.139 |
-| B | P7_lag5_across | 360.763 ± 19.511 |
-| B | P8_lag6_across | 386.517 ± 20.764 |
-| B | P9_lag12_TT | 0.977 ± 1.008 |
-| B | P10_lag11_T | 2.317 ± 1.535 |
-| B | P11_two_rune_share | 0.152 ± 0.007 |
-| B | P11_mean_wordlen | 4.531 ± 0.066 |
+## Set A: §47's statistics (200 replicates; rule |z| ≤ 3 on the ten judged)
+
+| statistic | LP2 | E56w+n predicted | z | holds | E56w (§47) | E56w+R4n (§47) |
+|---|---|---|---|---|---|---|
+| D | 86 | 76.2 ± 8.3 | +1.18 | yes | 83.9 ± 8.5 (z +0.2) | 75.01 ± 7.4 (z +1.5) |
+| D_in | 63 | 59.32 ± 7 | +0.52 | yes | 63.52 ± 7.2 (z -0.1) | 58.8 ± 7.2 (z +0.6) |
+| L3 | 179 | 172.9 ± 12 | +0.50 | yes | 156.2 ± 14 (z +1.7) | 172 ± 14 (z +0.5) |
+| L4 | 131 | 113.2 ± 11 | +1.63 | yes | 103.5 ± 10 (z +2.6) | 113.4 ± 11 (z +1.6) |
+| L5 | 102 | 132.1 ± 13 | -2.26 | yes | 126 ± 12 (z -2.0) | 130.9 ± 14 (z -2.0) |
+| L5S | 11 | 4.84 ± 2.2 | +2.74 | yes | 4.075 ± 1.9 (z +3.6) | 4.485 ± 2.3 (z +2.9) |
+| BIG | 9 | 7.235 ± 3.1 | +0.57 | yes | 8.085 ± 3.1 (z +0.3) | 7.3 ± 3.2 (z +0.5) |
+| L6T | 77 | 85.14 ± 9.8 | -0.83 | yes | 80.53 ± 11 (z -0.3) | 117.5 ± 14 (z -2.9) |
+| L6best | 77 | 85.34 ± 9.5 | -0.88 | not judged | 80.81 ± 10 (z -0.4) | 117.5 ± 14 (z -2.9) |
+| SHARE | 7.213 | 4.366 ± 3.2 | +0.88 | yes | 3.635 ± 3.6 (z +1.0) | 4.462 ± 3.5 (z +0.8) |
+| Sfreq | 0.0335 | 0.03453 ± 0.0016 | -0.63 | yes | 0.03456 ± 0.0016 (z -0.7) | 0.03462 ± 0.0015 (z -0.7) |
+| U | 26.36 | 27.33 ± 6.9 | -0.14 | not judged | 26.89 ± 7.5 (z -0.1) | 26.48 ± 7.2 (z -0.0) |
+
+Set A verdict: survives.
+
+## Set B: §57's cells (300 replicates; rule |z| ≤ 2.5 per cell, P1–P10 judged as a set)
+
+| statistic | LP2 | E56w+n predicted | z | holds | E56w+R4n (§57) z |
+|---|---|---|---|---|---|
+| P1_len7 | 8.000 | 10.117 ± 3.268 | -0.65 | yes | -1.69 |
+| P1_len89 | 39.000 | 31.243 ± 6.300 | +1.23 | yes | -0.55 |
+| P1_len10p | 30.000 | 43.880 ± 7.635 | -1.82 | yes | -3.15 |
+| P2_len6 | 8.000 | 12.750 ± 3.569 | -1.33 | yes | -1.21 |
+| P2_len78 | 41.000 | 43.533 ± 7.474 | -0.34 | yes | -0.26 |
+| P2_len9p | 53.000 | 75.133 ± 11.079 | -2.00 | yes | -2.17 |
+| P3_multi2 | 28.000 | 34.410 ± 5.774 | -1.11 | yes | -2.21 |
+| P3_multi3 | 5.000 | 6.740 ± 2.425 | -0.72 | yes | -1.32 |
+| P4_lag10 | 2.000 | 5.073 ± 2.374 | -1.29 | yes | -1.29 |
+| P5_pos0_share | 0.416 | 0.365 ± 0.057 | +0.89 | yes | +0.90 |
+| P6_rep_echo_words | 0.451 | 0.571 ± 0.210 | -0.57 | yes | -0.62 |
+| P6_rep_other_words | 0.717 | 0.618 ± 0.139 | +0.71 | yes | +0.80 |
+| P7_lag5_across | 361.000 | 360.763 ± 19.511 | +0.01 | yes | -0.03 |
+| P8_lag6_across | 389.000 | 386.517 ± 20.764 | +0.12 | yes | +0.22 |
+| P9_lag12_TT | 0.000 | 0.977 ± 1.008 | -0.97 | yes | -1.07 |
+| P10_lag11_T | 2.000 | 2.317 ± 1.535 | -0.21 | yes | -0.23 |
+| P11_two_rune_share | 0.159 | 0.152 ± 0.007 | +0.89 | yes (declared) | +0.85 |
+| P11_mean_wordlen | 4.425 | 4.531 ± 0.066 | -1.60 | yes (declared) | -1.50 |
+
+Set B: 16 of 16 out-of-sample cells hold.
+
+Reproduce: `.venv/bin/python -I src/e56w_n_lane.py --predict` then `--check`.
