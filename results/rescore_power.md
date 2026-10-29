@@ -1,16 +1,16 @@
 # Rescoring power: rune 5-gram on the decoder's output, by page length
 
-20 plants per cell, 400 nulls, soft rule 0.81, base decoder, max_skip 4; 5-gram trained on the running-key corpus (results/ngram5.npz, held-out solved plaintext −1.96 nats/rune against −3.37 uniform).
+20 plants per cell, 400 nulls, soft rule 0.81, base decoder, max_skip 4; 5-gram trained on the running-key corpus (results/ngram5.npz, held-out solved plaintext −1.87 nats/rune against −3.37 uniform).
 
 | length | share z_uni ≥ 6 (median) | share z_5 ≥ 6 (median) | share z_5 ≥ 7 | median recovery |
 |---|---|---|---|---|
-| 66 | 0.21 (5.6) | **0.99** (25.9) | 0.99 | 1.00 |
-| 76 | 0.54 (6.0) | **1.00** (26.9) | 0.99 | 1.00 |
-| 92 | 0.94 (6.8) | **1.00** (30.1) | 1.00 | 1.00 |
-| 121 | 1.00 (7.9) | **1.00** (35.2) | 1.00 | 1.00 |
-| 137 | 1.00 (8.4) | **1.00** (36.6) | 1.00 | 1.00 |
-| 159 | 1.00 (9.2) | **1.00** (39.3) | 1.00 | 1.00 |
-| 196 | 1.00 (10.4) | **1.00** (44.7) | 1.00 | 1.00 |
+| 66 | 0.21 (5.6) | **1.00** (21.1) | 1.00 | 1.00 |
+| 76 | 0.54 (6.0) | **1.00** (22.7) | 1.00 | 1.00 |
+| 92 | 0.94 (6.8) | **1.00** (25.2) | 1.00 | 1.00 |
+| 121 | 1.00 (7.9) | **1.00** (29.5) | 1.00 | 1.00 |
+| 137 | 1.00 (8.4) | **1.00** (31.1) | 1.00 | 1.00 |
+| 159 | 1.00 (9.2) | **1.00** (33.4) | 1.00 | 1.00 |
+| 196 | 1.00 (10.4) | **1.00** (38.2) | 1.00 | 1.00 |
 
 Per family at the two shortest lengths:
 
@@ -18,7 +18,7 @@ Per family at the two shortest lengths:
 |---|---|---|---|
 | 66 | vigenere-word | 0.30 | 1.00 |
 | 66 | phrase-3 | 0.15 | 1.00 |
-| 66 | primes | 0.25 | 0.95 |
+| 66 | primes | 0.25 | 1.00 |
 | 66 | self running key | 0.15 | 1.00 |
 | 76 | vigenere-word | 0.35 | 1.00 |
 | 76 | phrase-3 | 0.40 | 1.00 |

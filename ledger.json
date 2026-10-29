@@ -271,7 +271,7 @@
    "lane": "Within-word echoes: lag-5 equality (S), lag-6 affine 24\u22122c; word-edge correction",
    "tests": null,
    "controls": "\u2014",
-   "verdict": "measured: both present (z +3.7 K-fixed; z +5.1, best of 812)",
+   "verdict": "measured: both present (z +3.66 K-fixed, p 0.011; z +5.1, best of 812)",
    "coverage_limit": "two further laws of the stream; mechanism open",
    "date": "2026-10-27"
   },
@@ -289,7 +289,7 @@
    "lane": "Word-aware mechanism simulation: 8 rules x 9 pre-registered statistics",
    "tests": null,
    "controls": "3 sanity controls",
-   "verdict": "measured: every rule fails; the S carrier breaks all eight; R4+extra rune fits the other eight",
+   "verdict": "measured: every rule fails; the S carrier breaks all eight; R4+extra rune (R4n) fits 8 of 10 in the corrected 2026-10-29 rerun",
    "coverage_limit": "English plaintext and iid key only; hold-aware decoding = \u00a722",
    "date": "2026-10-27"
   },
@@ -307,7 +307,7 @@
    "lane": "Echo rules in the mechanism simulator (14 rules x 10 statistics)",
    "tests": null,
    "controls": "3 sanity controls",
-   "verdict": "measured: gated lag-5/lag-6 echo (E56w) fits 9 of 10; S carrier outside every additive mechanism with a plaintext-independent key",
+   "verdict": "measured: gated lag-5/lag-6 echo (E56w) fits 9 of 10; E56w+R4n inside the band on all 10 after the R4n fix (S at z +2.9, lag 6 at \u22122.9, the band's edge); S carrier outside every additive mechanism with a plaintext-independent key",
    "coverage_limit": "English plaintext, iid key; one gate parameter fitted to one count",
    "date": "2026-10-27"
   },

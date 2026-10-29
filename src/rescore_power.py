@@ -42,7 +42,7 @@ for n in LENGTHS:
         print(f"n={n:3d} {fam:17s} z_uni>=6 {np.mean(zu>=6):.2f} (median {np.median(zu):.1f}) | z_5>=6 {np.mean(z5>=6):.2f} (median {np.median(z5):.1f})  [{time.time()-t0:.0f}s]", flush=True)
 
 out = ["# Rescoring power: rune 5-gram on the decoder's output, by page length", "",
-       f"{REPS} plants per cell, {NULL_REPS} nulls, soft rule {SOFT}, base decoder, max_skip {MAX_SKIP}; 5-gram trained on the running-key corpus (results/ngram5.npz, held-out solved plaintext −1.96 nats/rune against −3.37 uniform).", "",
+       f"{REPS} plants per cell, {NULL_REPS} nulls, soft rule {SOFT}, base decoder, max_skip {MAX_SKIP}; 5-gram trained on the running-key corpus (results/ngram5.npz, held-out solved plaintext −1.87 nats/rune against −3.37 uniform).", "",
        "| length | share z_uni ≥ 6 (median) | share z_5 ≥ 6 (median) | share z_5 ≥ 7 | median recovery |", "|---|---|---|---|---|"]
 for n in LENGTHS:
     zu = np.array([x["zu"] for x in rows if x["n"] == n]); z5 = np.array([x["z5"] for x in rows if x["n"] == n]); ac = np.array([x["acc"] for x in rows if x["n"] == n])

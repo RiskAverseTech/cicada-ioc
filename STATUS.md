@@ -6,10 +6,10 @@
 | Decoder tests run | 864 million, all pre-registered, all with planted controls |
 | Lanes closed null | 28 of 47 (Filler sweep: 16 external texts (every offset both ways / sentence starts) and pnotisdev offsets 1,000-1,999 under the free-null decoder) |
 | Pages | 55 unsolved with runes (12,956 runes); coverage limits listed per lane |
-| The structures | 86 doubled runes where 445 are expected (0.19 of uniform; solved pages sit at 0.86); inside words, a lag-5 echo that copies equality in runs (102 vs 71 pairs, 9 vs 1.5 bigrams), 11 of the pairs S (3.5 expected, p 0.003), and a lag-6 relation c = 24 − 2c′ (77 vs 44); the two echoes share words only at the level of description (p 0.11 once word length is held); flat in every other statistic |
+| The structures | 86 doubled runes where 445 are expected (0.19 of uniform; solved pages sit at 0.86); inside words, a lag-5 echo that copies equality in runs (102 vs 71 pairs, 9 vs 1.5 bigrams), 11 of the pairs S (3.5 expected, p 0.005), and a lag-6 relation c = 24 − 2c′ (77 vs 44); the two echoes share words only at the level of description (p 0.11 once word length is held); flat in every other statistic |
 | Best current reading | a gated word-internal echo (plaintext repeat at lag 5 → copy the cipher rune; at lag 6 → 24 − 2c) in about half the words reproduces nine of ten statistics; the S weighting is outside every additive mechanism with a plaintext-independent key and is the open fact |
 | External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
-| Repository | 56 numbered sections, 71 commits as of 2026-10-29 |
+| Repository | 56 numbered sections, 72 commits as of 2026-10-29 |
 
 ## Lanes
 
@@ -44,11 +44,11 @@
 | §39 | Phases 6-8 on the nine short pages, 5-gram rule | — | 22/24, 24/24, 15/16 | null | phase 9 not yet carried there |
 | §40 | Pilgrim texts (Bunyan, Chaucer) as running keys | 40.1 M | 3/3 | null | The Way of a Pilgrim not run (no free text) |
 | §41 | Closure bundle: solved-page repeat rate, parity, repeat context, cross-page n-grams, word-length repeats, ICC | — | — | measured: rule specific to the unsolved section; all else at null | statistics, not decodes |
-| §42 | Within-word echoes: lag-5 equality (S), lag-6 affine 24−2c; word-edge correction | — | — | measured: both present (z +3.7 K-fixed; z +5.1, best of 812) | two further laws of the stream; mechanism open |
+| §42 | Within-word echoes: lag-5 equality (S), lag-6 affine 24−2c; word-edge correction | — | — | measured: both present (z +3.66 K-fixed, p 0.011; z +5.1, best of 812) | two further laws of the stream; mechanism open |
 | §43 | Exact reachability of the solved-page rule, every offset; linear complexity | 1.1 M | plants recovered | null: continuous section excluded for 5 streams; pages at n/2 complexity | per-page reachability has no power (literal-F realignment) |
-| §45 | Word-aware mechanism simulation: 8 rules x 9 pre-registered statistics | — | 3 sanity controls | measured: every rule fails; the S carrier breaks all eight; R4+extra rune fits the other eight | English plaintext and iid key only; hold-aware decoding = §22 |
+| §45 | Word-aware mechanism simulation: 8 rules x 9 pre-registered statistics | — | 3 sanity controls | measured: every rule fails; the S carrier breaks all eight; R4+extra rune (R4n) fits 8 of 10 in the corrected 2026-10-29 rerun | English plaintext and iid key only; hold-aware decoding = §22 |
 | §46 | Lag-5 echo runs in pairs (bigrams 9 vs 1.5); multiplier autokey and lag-1 affine closed; per-word period-5 key mixture | — | — | measured: f = 0.5 fits the equality count (101 vs 102), predicts 3.5 S pairs not 11, fails the difference flatness by 3 sd | the S..S fit claimed on 2026-10-28 was an error, corrected the same day; row fixed 2026-10-29 |
-| §47 | Echo rules in the mechanism simulator (14 rules x 10 statistics) | — | 3 sanity controls | measured: gated lag-5/lag-6 echo (E56w) fits 9 of 10; S carrier outside every additive mechanism with a plaintext-independent key | English plaintext, iid key; one gate parameter fitted to one count |
+| §47 | Echo rules in the mechanism simulator (14 rules x 10 statistics) | — | 3 sanity controls | measured: gated lag-5/lag-6 echo (E56w) fits 9 of 10; E56w+R4n inside the band on all 10 after the R4n fix (S at z +2.9, lag 6 at −2.9, the band's edge); S carrier outside every additive mechanism with a plaintext-independent key | English plaintext, iid key; one gate parameter fitted to one count |
 | §48 | Echo-aware decoding (spent and held echoes) of the phase 3-4 library | 5.0 M | 11/12 | null | echoes cost an unaware decoder ~nothing when key-spending; held echoes cost only when several fall on one page |
 | §49 | E56w out-of-sample predictions (8 statistics, 14 cells, committed before the look); echoes on the image-derived stream | — | — | measured: 14/14 cells hold; image stream reproduces 101 / 11 / 75 exactly | consistency, not confirmation; S weighting still outside the rule |
 | §50 | S carrier: the eleven sites in the images; line-break dependence of the lag-5 echo; RS5 second traces | — | controls at lags 4, 6 | measured: nothing in ink; lag-5 echo 2x on line-wrapping pairs (z +2.2), lag 6 not; RS5 7/7 but near-unfalsifiable | post-hoc cut found by eye; eleven events |
@@ -81,7 +81,7 @@
 ## Value so far
 
 - Every exclusion above is reproducible from `src/` with a planted control that shows the test can see a solution; that is what the other 2026 ledgers mostly lack.
-- Instrument gains this week: bounded multi-rejection decoder, power curves by page length, a rune 5-gram that lifts short-page detection from 21 % to 99 %, an exact every-offset running-key scanner, an image lane.
+- Instrument gains this week: bounded multi-rejection decoder, power curves by page length, a rune 5-gram that lifts short-page detection at 66 runes from 21 % to 100 %, an exact every-offset running-key scanner, an image lane.
 - `results/ledger_diff.md` lets a new idea be checked against five labs' prior work in minutes.
 
 *Generated by `src/status.py`; the lane table is maintained by hand in that file, the counts are read from `results/`.*
