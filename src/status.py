@@ -53,6 +53,7 @@ LANES = [
     ("§47", "Echo rules in the mechanism simulator (14 rules x 10 statistics)", None, "3 sanity controls", "measured: gated lag-5/lag-6 echo (E56w) fits 9 of 10; S carrier outside every additive mechanism", "English plaintext, iid key; one gate parameter fitted to one count"),
     ("§48", "Echo-aware decoding (spent and held echoes) of the phase 3-4 library", nt("echo_lane.json"), "11/12", "null", "echoes cost an unaware decoder ~nothing when key-spending; held echoes cost only when several fall on one page"),
     ("§49", "E56w out-of-sample predictions (8 statistics, 14 cells, committed before the look); echoes on the image-derived stream", None, "—", "measured: 14/14 cells hold; image stream reproduces 101 / 11 / 75 exactly", "consistency, not confirmation; S weighting still outside the rule"),
+    ("§50", "S carrier: the eleven sites in the images; line-break dependence of the lag-5 echo; RS5 second traces", None, "controls at lags 4, 6", "measured: nothing in ink; lag-5 echo 2x on line-wrapping pairs (z +2.2), lag 6 not; RS5 7/7 but near-unfalsifiable", "post-hoc cut found by eye; eleven events"),
     ("§44", "Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000", nt("digits.json"), "4/4", "null", "base-10, digit pairs, base-29; fresh offset per page"),
 ]
 OPEN = [
@@ -66,7 +67,7 @@ OPEN = [
     "Key source, not key search: the page behind the AN END SHA-512 (the one place a key is said to exist) is unfound; archived onion corpora (Dukotah 2026-07-27), 1,962 documents (ItIsCuthNotCup), raw bytes/IPv4/phones (hashcat), 124,017 onion-capture digests (pnotisdev) and 502 artefacts x 3,977 readings here (§35) do not contain it; Tor v2 is gone, so only an archive nobody has indexed can",
     "Cross-library decoding: pnotisdev's 1,447 number streams have met only IoC/bigram screens and the R4 engine, the book's phrase library here only the skip Viterbi (+ §22 hold nulls, + §48 echoes); each library under the other lab's decoder is untested",
 
-    "The S carrier (11 of 102 lag-5 pairs): a step acting on the cipher value S, or a fluctuation; no additive mechanism carries it (§47)",
+    "The S carrier (11 of 102 lag-5 pairs): a step acting on the written rune S, or a fluctuation; no additive mechanism carries it (§47); the lag-5 echo prefers line-wrapping words (§50), which points at the typesetting step",
     "§39's phase-6 part (the nine short pages) under the corrected word edges: not rerun; §14's full rerun moved maxima by tenths of a sigma",
 ]
 

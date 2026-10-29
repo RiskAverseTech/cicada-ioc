@@ -330,6 +330,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a750",
+   "lane": "S carrier: the eleven sites in the images; line-break dependence of the lag-5 echo; RS5 second traces",
+   "tests": null,
+   "controls": "controls at lags 4, 6",
+   "verdict": "measured: nothing in ink; lag-5 echo 2x on line-wrapping pairs (z +2.2), lag 6 not; RS5 7/7 but near-unfalsifiable",
+   "coverage_limit": "post-hoc cut found by eye; eleven events",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a744",
    "lane": "Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000",
    "tests": 6480000,
@@ -349,7 +358,7 @@
   "LP2-50, the two-character-code page, as a cipher of its own",
   "Key source, not key search: the page behind the AN END SHA-512 (the one place a key is said to exist) is unfound; archived onion corpora (Dukotah 2026-07-27), 1,962 documents (ItIsCuthNotCup), raw bytes/IPv4/phones (hashcat), 124,017 onion-capture digests (pnotisdev) and 502 artefacts x 3,977 readings here (\u00a735) do not contain it; Tor v2 is gone, so only an archive nobody has indexed can",
   "Cross-library decoding: pnotisdev's 1,447 number streams have met only IoC/bigram screens and the R4 engine, the book's phrase library here only the skip Viterbi (+ \u00a722 hold nulls, + \u00a748 echoes); each library under the other lab's decoder is untested",
-  "The S carrier (11 of 102 lag-5 pairs): a step acting on the cipher value S, or a fluctuation; no additive mechanism carries it (\u00a747)",
+  "The S carrier (11 of 102 lag-5 pairs): a step acting on the written rune S, or a fluctuation; no additive mechanism carries it (\u00a747); the lag-5 echo prefers line-wrapping words (\u00a750), which points at the typesetting step",
   "\u00a739's phase-6 part (the nine short pages) under the corrected word edges: not rerun; \u00a714's full rerun moved maxima by tenths of a sigma"
  ]
 }
