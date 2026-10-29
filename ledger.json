@@ -137,7 +137,7 @@
    "tests": 2469204,
    "controls": "A 39/45; B 6/45 (fillers break n-grams)",
    "verdict": "null",
-   "coverage_limit": "soft-rule exclusion now 99 % power on all 55 pages",
+   "coverage_limit": "5-gram power 99 % on planted soft-rule solutions at 66 runes; the short-page lane's own controls pass 39/45 (4/5 at 66 runes), a separate measurement",
    "date": "2026-10-27"
   },
   {
@@ -298,8 +298,8 @@
    "lane": "Lag-5 echo runs in pairs (bigrams 9 vs 1.5); multiplier autokey and lag-1 affine closed; per-word period-5 key mixture",
    "tests": null,
    "controls": "\u2014",
-   "verdict": "measured: f = 0.5 fits equality and S exactly, fails the difference flatness by 3 sd",
-   "coverage_limit": "first hypothesis producing the S carrier; lag 6 unexplained",
+   "verdict": "measured: f = 0.5 fits the equality count (101 vs 102), predicts 3.5 S pairs not 11, fails the difference flatness by 3 sd",
+   "coverage_limit": "the S..S fit claimed on 2026-10-28 was an error, corrected the same day; row fixed 2026-10-29",
    "date": "2026-10-27"
   },
   {
@@ -307,7 +307,7 @@
    "lane": "Echo rules in the mechanism simulator (14 rules x 10 statistics)",
    "tests": null,
    "controls": "3 sanity controls",
-   "verdict": "measured: gated lag-5/lag-6 echo (E56w) fits 9 of 10; S carrier outside every additive mechanism",
+   "verdict": "measured: gated lag-5/lag-6 echo (E56w) fits 9 of 10; S carrier outside every additive mechanism with a plaintext-independent key",
    "coverage_limit": "English plaintext, iid key; one gate parameter fitted to one count",
    "date": "2026-10-27"
   },
@@ -380,7 +380,43 @@
    "tests": 421689623,
    "controls": "14/18 rank 1 (18/18 found; misses are own-offset aliases)",
    "verdict": "null",
-   "coverage_limit": "every offset for plain / echo; hold at offsets 0\u2013999 of the non-periodic streams; sacred / hyp libraries not rebuilt",
+   "coverage_limit": "tier 1 on the first 80 / 160 runes of LP2-00, LP2-01, LP2-02 only (all pages only for a candidate); every offset for plain / echo; hold at offsets 0\u2013999 of the non-periodic streams; sacred / hyp libraries not rebuilt",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a755a",
+   "lane": "Word-length fingerprint of the unsolved pages; positional IoC; repeated cipher words",
+   "tests": null,
+   "controls": "bootstrap null (2,000 English samples)",
+   "verdict": "measured: not English prose (chi-square 183, p 0.0005; 15.9 % two-rune words vs 24-25 %); best simple fit = fillers at about one per two words; positional IoC flat; no repeated 4-rune cipher words",
+   "coverage_limit": "descriptive; register (verse, list) not excluded; per-word key restart excluded",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a755b",
+   "lane": "Decoder power with fillers at 0.10 (3 families x 3 lengths x 12 plants, with and without fillers)",
+   "tests": null,
+   "controls": "108 + 108 plants",
+   "verdict": "measured: plain decoder power 0.00 in every filler cell; free-null at prior -2.2 keeps 0.75 (running key, 230 runes), 1.00 (Vigen\u00e8re), 0.75 (primes)",
+   "coverage_limit": "every plain-decoder lane had no power in a filler world at this rate; \u00a722 and the \u00a754 hold tier did",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a755c",
+   "lane": "Filler sweep: 16 external texts (every offset both ways / sentence starts) and pnotisdev offsets 1,000-1,999 under the free-null decoder",
+   "tests": null,
+   "controls": "6 controls (fillers at 0.10)",
+   "verdict": "running",
+   "coverage_limit": "160-rune windows on LP2-00/01/02 (power 0.58 for running keys); one prior; pnotisdev offsets >= 2,000 open",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a756",
+   "lane": "Validation release after the second external review: n-gram lower orders, standalone R4n, K-fixed sampler clock fixed; affected statistics rerun; four summaries corrected",
+   "tests": null,
+   "controls": "3 new tests",
+   "verdict": "measured: no decode negative moved; see the section for the rerun figures",
+   "coverage_limit": "the fixes bear on the mechanism table, two p-values and the wording",
    "date": "2026-10-27"
   },
   {
@@ -403,7 +439,8 @@
   "LP2-50, the two-character-code page, as a cipher of its own",
   "Key source, not key search: the page behind the AN END SHA-512 (the one place a key is said to exist) is unfound; archived onion corpora (Dukotah 2026-07-27), 1,962 documents (ItIsCuthNotCup), raw bytes/IPv4/phones (hashcat), 124,017 onion-capture digests (pnotisdev) and 502 artefacts x 3,977 readings here (\u00a735) do not contain it; Tor v2 is gone, so only an archive nobody has indexed can",
   "Cross-library decoding, second half: this repository's 7,621 keys (data/processed/book_library.tsv) have not been run under pnotisdev's flat-IoC engine; their sacred / sacred2 / sacred3 / hyp-streams libraries and the 12,944 hash-word streams have not met the decoders here (\u00a754 covers the 1,439-stream main library)",
-  "The S carrier (11 of 102 lag-5 pairs): a step acting on the written rune S, or a fluctuation; no additive mechanism carries it (\u00a747); the lag-5 echo prefers line-wrapping words (\u00a750) but shows no layout signature (\u00a751): a fluctuation or an unnamed property of those words",
-  "\u00a739's phase-6 part (the nine short pages) under the corrected word edges: not rerun; \u00a714's full rerun moved maxima by tenths of a sigma"
+  "The S carrier (11 of 102 lag-5 pairs): a step acting on the written rune S (a plaintext-reading key is additive and NOT excluded by \u00a747, as the second review noted), or a fluctuation; no additive mechanism with a plaintext-independent key carries it (\u00a747); the lag-5 echo prefers line-wrapping words (\u00a750) but shows no layout signature (\u00a751): a fluctuation or an unnamed property of those words",
+  "\u00a739's phase-6 part (the nine short pages) under the corrected word edges: not rerun; \u00a714's full rerun moved maxima by tenths of a sigma",
+  "The filler world beyond \u00a755: the six long texts at every offset (sentence starts only there), pnotisdev's non-periodic streams at offsets >= 2,000, pnotisdev's sacred / hyp libraries, and every phase 5-9 family (registers, word-edge events, skip-by-two, LCG seeds, feedback streams) under a filler-aware decoder; and the register question the fingerprint leaves open (verse or list instead of prose)"
  ]
 }

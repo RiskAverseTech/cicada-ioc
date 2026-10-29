@@ -1,4 +1,4 @@
 numpy>=1.26,<3
 scipy>=1.11
 pillow>=10
-# optional: pgpy (src/verify_pgp.py), pytest (tests/)
+# optional: pgpy (src/verify_pgp.py), pytest (tests/), mpmath (src/pnotisdev_library.py, base-29 digits of constants when rebuilding the cross-library streams)
