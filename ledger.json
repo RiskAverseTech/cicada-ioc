@@ -411,6 +411,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a757",
+   "lane": "E56w+R4n out-of-sample predictions (16 cells + 2 declared, committed before the look)",
+   "tests": null,
+   "controls": "\u2014",
+   "verdict": "measured: 15/16 hold; fails lag-6 hits in words >= 10 runes (30 vs 59 \u00b1 9, z \u22123.15), the T-writing hold repair's signature; E56w predicted 37",
+   "coverage_limit": "the filler component stands with the \u00a755 fingerprint; the hold repair does not; E56w with fillers to be registered before it is run",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a756",
    "lane": "Validation release after the second external review: n-gram lower orders, standalone R4n, K-fixed sampler clock fixed; affected statistics rerun; four summaries corrected",
    "tests": null,
