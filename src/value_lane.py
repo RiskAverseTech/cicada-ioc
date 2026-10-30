@@ -1,6 +1,7 @@
 """Value arithmetic as the cipher (2026-10-31; registration results/value_lane_registration.md): 24 rules combining the
 Gematria prime (or totient) of plaintext and key by +, -, reverse -, x modulo 29 / 110 / 113, decoded with the general-rule
-table hook of score.decode over the book's 7,621 keys and 3,000 prime-stream variants, literal F on and off.
+table hook of score.decode over the book's 7,621 keys and 3,000 prime-stream variants, literal F on and off.  Scores are corrected by
+each key's analytic baseline before z (registration amendment of 2026-10-31); the raw z is kept beside it.
 SHARD=k NSHARD=8 for the sweep (pages), CONTROLS=1 for the six plants, MERGE=1 to write results/value_lane.md.
 Reproduce: for k in 0..7: SHARD=k NSHARD=8 .venv/bin/python -I src/value_lane.py; then MERGE=1 ...
 """
@@ -63,19 +64,24 @@ def encrypt_rule(P, K, enc, f_rule, rng):
     return np.array(C)
 
 
+def baseline(Ks, tgain, n):
+    """expected gain of a key under uniform ciphertext, skips ignored (amendment of 2026-10-31): sum_i mean_c tgain[c, K_i]"""
+    return tgain.mean(0)[Ks[:, :n]].sum(1)
+
+
 def sweep_page(C, rules, Ks, rng, keep=4.5):
     rows, nt, zmax, nullmax = [], 0, -9.0, -9.0; L = len(C) + S_MAX + 2
     for r in rules:
-        enc, table, tgain = TABLES[r]
+        enc, table, tgain = TABLES[r]; bK = baseline(Ks, tgain, len(C))
         for f_rule in (False, True):
-            nul = decode(C, rng.integers(0, N, size=(NULLK, L)), lu, f_rule, table=table, tgain=tgain, enc=enc)[0]; m0, s0 = nul.mean(), nul.std()
-            nullmax = max(nullmax, float(((nul - m0) / s0).max()))
-            sc = np.empty(len(Ks))
-            for b in range(0, len(Ks), 1000): sc[b:b + 1000] = decode(C, Ks[b:b + 1000, :L], lu, f_rule, table=table, tgain=tgain, enc=enc)[0]
-            z = (sc - m0) / s0; nt += len(Ks); zmax = max(zmax, float(z.max()))
+            Kr = rng.integers(0, N, size=(NULLK, L)); nul_raw = decode(C, Kr, lu, f_rule, table=table, tgain=tgain, enc=enc)[0]; nul = nul_raw - baseline(Kr, tgain, len(C))
+            m0, s0 = nul.mean(), nul.std(); nullmax = max(nullmax, float(((nul - m0) / s0).max()))
+            sc_raw = np.empty(len(Ks))
+            for b in range(0, len(Ks), 1000): sc_raw[b:b + 1000] = decode(C, Ks[b:b + 1000, :L], lu, f_rule, table=table, tgain=tgain, enc=enc)[0]
+            sc = sc_raw - bK; z = (sc - m0) / s0; zraw = (sc_raw - nul_raw.mean()) / nul_raw.std(); nt += len(Ks); zmax = max(zmax, float(z.max()))
             for j in np.flatnonzero(z >= keep):
                 d = decode(C, Ks[j:j + 1, :L], lu, f_rule, table=table, tgain=tgain, enc=enc)[2][0]
-                rows.append(dict(rule="%s %s mod %d" % r, F=f_rule, key=LALL[j] if len(Ks) == len(KALL) else str(j), z=float(z[j]), rank=int((nul > sc[j]).sum()) + 1, tr=translit(d[:70])))
+                rows.append(dict(rule="%s %s mod %d" % r, F=f_rule, key=LALL[j] if len(Ks) == len(KALL) else str(j), z=float(z[j]), zraw=float(zraw[j]), rank=int((nul > sc[j]).sum()) + 1, tr=translit(d[:70])))
     return rows, nt, zmax, nullmax
 
 
@@ -104,8 +110,8 @@ if MERGE:
     out = ["# Value arithmetic as the cipher", "", f"Registration: `results/value_lane_registration.md`. {len(RULES)} rules × {len(KALL):,} keys × 2 F × {len(pages)} pages = **{nt:,} decodes**; z against {NULLK} random keys per (page, rule, F). Largest z {zmax:.2f}; largest null z over every null draw {nullmax:.2f}.", "",
            "## Controls (English at page length under the rule, soft 0.81, a random book key; decoded over the 7,621 book keys)", "", "| rule | F | planted key | z | rank | top is planted | rune accuracy | pass |", "|---|---|---|---|---|---|---|---|"]
     for c in ctrl: out.append(f"| {c['rule']} | {c['F']} | {c['planted']} | {c['z']:.1f} | {c['rank']} | {c['top_is_planted']} | {c['acc']:.2f} | {'yes' if c['ok'] else 'no'} |")
-    out += ["", f"Controls passing: {sum(c['ok'] for c in ctrl)} of {len(ctrl)}.", "", "## Rows at z ≥ 4.5 (top 25)", "", "| page | rule | F | key | z | rank | transliteration |", "|---|---|---|---|---|---|---|"]
-    for r in rows[:25]: out.append(f"| {r['page']} | {r['rule']} | {r['F']} | {r['key']} | {r['z']:.2f} | {r['rank']} | {r['tr'][:60]} |")
+    out += ["", f"Controls passing: {sum(c['ok'] for c in ctrl)} of {len(ctrl)}.", "", "## Rows at z ≥ 4.5 (top 25)", "", "| page | rule | F | key | z (corrected) | raw z | rank | transliteration |", "|---|---|---|---|---|---|---|---|"]
+    for r in rows[:25]: out.append(f"| {r['page']} | {r['rule']} | {r['F']} | {r['key']} | {r['z']:.2f} | {r['zraw']:.2f} | {r['rank']} | {r['tr'][:60]} |")
     out += ["", "## Candidates", ""] + ([f"- {r}" for r in cands] or ["None. No accepted decoding within the tested configurations at the stated detection limits."])
     out += ["", f"- V1 controls 6/6: **{'holds' if sum(c['ok'] for c in ctrl) == 6 else 'fails'}**.", f"- V2 no candidate: **{'holds' if not cands else 'fails'}**.", "", "Reading: written after the run. [stated — the tables]", "", f"Runtime, longest shard: {max(d['seconds'] for d in shards)/3600:.1f} h on {len(shards)} shards.", ""]
     (RESULTS / "value_lane.md").write_text("\n".join(out)); json.dump(dict(ntests=nt, zmax=zmax, nullmax=nullmax, rows=rows, controls=ctrl, candidates=cands), open(RESULTS / "value_lane.json", "w"), indent=1)
