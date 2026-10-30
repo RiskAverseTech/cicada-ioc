@@ -40,7 +40,8 @@ PB = json.loads((RES / "filler_power.json").read_text()) if (RES / "filler_power
 PEN = float(os.environ.get("PRIOR", PB.get("prior", -0.8)))
 T1_PAGES = [0, 1, 2]; WIN = 160; Z_T1, Z_UNI, FREE_BASE = 4.5, 6.0, 20.0
 NREPS = 200 if SMOKE else 2000; NEIGH = 512 if SMOKE else 4096; CHUNK = 300 if SMOKE else 5000
-LIMIT, PN_OFFS = 60_000, (1000, 2000)
+LIMIT, PN_OFFS = 60_000, tuple(int(x) for x in os.environ.get("PN_OFFS", "1000,2000").split(","))
+PN_ALL, TEXTS, OUT = os.environ.get("PN_ALL") == "1", os.environ.get("TEXTS", "1") == "1", os.environ.get("OUT", "filler_lane")   # B2 (2026-10-30): all 1,439 streams, offsets 0-999 (periodic ones below their period), no texts, own output prefix
 R_FILL, Q_SOFT, CTRL_N = 0.10, 0.81, 262
 SIGNS = (("sub", "sub"), ("add", "sub"), ("beaufort", "beaufort"))
 MARGIN = max(len(C) for _, C in pages) + S_MAX + 2
@@ -65,12 +66,14 @@ def windows(s, offs, L):
 
 
 units = []                                      # (kind, name, rev, offsets)
-for k in EXACT:
+for k in (EXACT if TEXTS else []):
     n = len(texts[k][0])
     for rev in (False, True):
         for a in range(0, n, CHUNK): units.append(("text", k, rev, np.arange(a, min(a + CHUNK, n))))
-for k in SENT: units.append(("text", k, False, texts[k][1]))
-for i in NONPER: units.append(("pn", i, False, np.arange(*PN_OFFS)))
+for k in (SENT if TEXTS else []): units.append(("text", k, False, texts[k][1]))
+for i in (range(len(names)) if PN_ALL else NONPER):
+    hi = min(PN_OFFS[1], periods[i]) if periods[i] else PN_OFFS[1]
+    if hi > PN_OFFS[0]: units.append(("pn", i, False, np.arange(PN_OFFS[0], hi)))
 if SMOKE: units = units[:2] + [u for u in units if u[0] == "pn"][:2]; units = [(k, n, r, o[:300]) for k, n, r, o in units]
 mine = [u for j, u in enumerate(units) if j % NSHARD == SHARD]
 
@@ -106,7 +109,7 @@ def encrypt_fill(P, K, f_rule, sign, r, n):
 
 # ---------- merge
 if MERGE:
-    shards = [json.loads(p.read_text()) for p in sorted(RES.glob("filler_lane_shard*.json"))] or [json.loads((RES / "filler_lane_smoke.json").read_text())]
+    shards = [json.loads(p.read_text()) for p in sorted(RES.glob(f"{OUT}_shard*.json"))] or [json.loads((RES / "filler_lane_smoke.json").read_text())]
     ctr = [c for d in shards for c in d["controls"]]; surv = sorted([s for d in shards for s in d["survivors"]], key=lambda r: -r["z2"])
     cands = [c for d in shards for c in d["candidates"]]; nt = sum(d["ntests"] for d in shards); zmax1 = max(d["zmax1"] for d in shards)
     nunits = sum(d["nunits"] for d in shards); noffs = sum(d["noffs"] for d in shards); secs = max(d["seconds"] for d in shards)
@@ -121,7 +124,7 @@ if MERGE:
     out += ["", f"Survivors: {len(surv)}; largest tier-1 z {zmax1:.2f}; largest tier-2 z_uni {max((s['z2'] for s in surv), default=0):.2f}.", "", "## Candidates", ""]
     out += [f"- **{c['name']}** page {c['page']} {c['sign']} F={c['F']} offset {c['offset']}: z_uni {c['z2']:.2f}, free − plain {c['fb']:+.0f}: `{c['tr']}`" for c in cands] or ["None. No accepted decoding within the tested configurations at the stated detection limits."]
     out += ["", f"Coverage limits: window power at 160 runes from part B; the longer texts at sentence starts only; pnotisdev offsets ≥ {PN_OFFS[1]:,}; the free-null decoder at one prior. Runtime, longest shard: {secs/3600:.1f} h on {len(shards)} shards.", ""]
-    (RES / "filler_lane.md").write_text("\n".join(out)); json.dump(dict(ntests=nt, prior=PEN, controls=ctr, survivors=surv, candidates=cands, zmax1=zmax1), open(RES / "filler_lane.json", "w"), indent=1)
+    (RES / f"{OUT}.md").write_text("\n".join(out)); json.dump(dict(ntests=nt, prior=PEN, controls=ctr, survivors=surv, candidates=cands, zmax1=zmax1), open(RES / f"{OUT}.json", "w"), indent=1)
     print("\n".join(out[:3] + out[-6:])); sys.exit(0)
 
 t0 = time.time()
@@ -179,5 +182,5 @@ for ui, (kind, name, rev, offs) in enumerate(mine):
     if ui % 5 == 0 or ui == len(mine) - 1: print(f"  unit {ui+1}/{len(mine)} {label}{' rev' if rev else ''} ({len(offs)} offsets): {ntests:,} tests, zmax1 {zmax1:.2f}, survivors {len(survivors)} [{time.time()-t0:.0f}s]", flush=True)
 
 json.dump(dict(controls=controls, survivors=survivors, candidates=candidates, ntests=ntests, zmax1=zmax1, nunits=len(mine), noffs=noffs, seconds=time.time() - t0, prior=PEN),
-          open(RES / ("filler_lane_smoke.json" if SMOKE else f"filler_lane_shard{SHARD}.json"), "w"), indent=1)
+          open(RES / (f"{OUT}_smoke.json" if SMOKE else f"{OUT}_shard{SHARD}.json"), "w"), indent=1)
 print(f"shard {SHARD}/{NSHARD}: {ntests:,} tests, {len(survivors)} survivors, {len(candidates)} candidates, {time.time()-t0:.0f}s", flush=True)
