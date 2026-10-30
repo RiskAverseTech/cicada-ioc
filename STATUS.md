@@ -6,10 +6,10 @@
 | Decoder tests run | 915 million, all pre-registered, all with planted controls |
 | Lanes closed null | 30 of 52 (none running) |
 | Pages | 55 unsolved with runes (12,956 runes); coverage limits listed per lane |
-| The structures | 86 doubled runes where 445 are expected (0.19 of uniform; solved pages sit at 0.86); inside words, a lag-5 echo that copies equality in runs (102 vs 71 pairs, 9 vs 1.5 bigrams), 11 of the pairs S (3.5 expected, p 0.005), and a lag-6 relation c = 24 − 2c′ (77 vs 44); the two echoes share words only at the level of description (p 0.11 once word length is held); flat in every other statistic |
-| Best current reading | E56w+n (§58): a gated word-internal echo (plaintext repeat at lag 5 → copy the cipher rune; at lag 6 → 24 − 2c) in about half the words, one filler rune in about half the words, the spend repair at q 0.81, iid key, English plaintext; the first rule inside every pre-registered band (§47's ten statistics, §57's sixteen out-of-sample cells); it predicts five S pairs against eleven, passing that cell on spread at the borrowed rate 0.45 and failing it (z +3.2) at the rate the word lengths fit, 0.40 (§59), so the S weighting stays the open fact, and a description is not a decryption |
-| External reviews adopted | 2 (2026-10-27), 8 corrections, no fact overturned |
-| Repository | 61 numbered sections, 92 commits as of 2026-10-30 |
+| The structures | 86 doubled runes where 445 are expected (0.19 of uniform; solved pages sit at 0.86); inside words, a lag-5 echo that copies equality in runs (102 vs 71 pairs, 9 vs 1.5 bigrams), 11 of the pairs S (3.5 expected under a uniform key, p 0.005; about 6.5 expected under an English running key, §47 corrected), and a lag-6 relation c = 24 − 2c′ (77 vs 44); the two echoes share words only at the level of description (p 0.11 once word length is held); flat in every other statistic |
+| Best current reading | E56w+n (§58): a gated word-internal echo (plaintext repeat at lag 5 → copy the cipher rune; at lag 6 → 24 − 2c) in about half the words, one filler rune in about half the words, the spend repair at q 0.81, iid key, English plaintext; the first rule inside every pre-registered band (§47's ten statistics, §57's sixteen cells, consistency cells whose values were public); it predicts five S pairs against eleven, passing that cell on spread at the borrowed rate 0.45 and failing it (z +3.2) at the rate the word lengths fit, 0.40 (§59), so the S weighting stays the open fact, and a description is not a decryption |
+| External reviews adopted | 3 (2026-10-27, two on 2026-10-29), 12 corrections, one claim withdrawn (§47's exclusion of every plaintext-independent key) |
+| Repository | 61 numbered sections, 93 commits as of 2026-10-30 |
 
 ## Lanes
 
