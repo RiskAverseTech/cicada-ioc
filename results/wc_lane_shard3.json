@@ -1,0 +1,136 @@
+{
+ "controls": [],
+ "survivors": [
+  {
+   "lib": "text",
+   "key": "self_reliance rev @7006",
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": false,
+   "z": 4.09630851514661,
+   "gain": 165.89711550196463,
+   "M": 183.0953706806592,
+   "nulls": 21,
+   "tr": "ETYSRRCBERXNGRTYUAEMTHUWPXLOTHNSIOCYHNMNHEHIANGTHTNRRUCBUXEAUPTODRDOROEAYTHONGTHAYYUSTEOJ",
+   "z1": 4.785268963492097
+  },
+  {
+   "lib": "text",
+   "key": "self_reliance rev @9713",
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": false,
+   "z": 2.87731151450389,
+   "gain": 85.11701122453013,
+   "M": 183.0953706806592,
+   "nulls": 22,
+   "tr": "HUNGTEEAOOETIAEAHIANGLADBWGPSTHIAMDDTHOFTHHUDUHWETNOCGDDRTHDIYETDTHSLTHEIABFABOTHOYYIEMETHLEAYDW",
+   "z1": 4.555275262225966
+  },
+  {
+   "lib": "text",
+   "key": "self_reliance rev @7006",
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z": 3.9793699780995704,
+   "gain": 80.774957090099,
+   "M": 116.00060532467919,
+   "nulls": 22,
+   "tr": "ETYSRRCBERXNGRTYUAEMTHUWPXLOTHNSIOCYHNMNHEHIANGTHTNRRUCBUXEAUPTODRDOROEAYTHONGTHAYYUSTEOJ",
+   "z1": 4.507597300103673
+  },
+  {
+   "lib": "text",
+   "key": "self_reliance rev @7755",
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z": 4.082154043524191,
+   "gain": 132.28619198818046,
+   "M": 185.81131790666726,
+   "nulls": 23,
+   "tr": "NOTILWPNEAOYREAEENYWTAYTHEIRAWODTHYHUWHRIFEUMNGIHMSLAOPTHNCFBSOESBSBNTHBAUCJOUMTHAPOETHBW",
+   "z1": 5.06886319920137
+  },
+  {
+   "lib": "text",
+   "key": "self_reliance rev @7755",
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": true,
+   "z": 4.730595378093772,
+   "gain": 93.53219045407775,
+   "M": 134.8817226454577,
+   "nulls": 19,
+   "tr": "NOTILWPNEAOYREAEENYWTAYTHEIRAWODEAFHUWHRIFEUMNGIHMSLAOPTHNCFBSOESBSBNTHBAUCJOUMTHAPOETHBW",
+   "z1": 5.3349805347576265
+  },
+  {
+   "lib": "text",
+   "key": "lady_fountain_guest @2267",
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": false,
+   "z": 3.4176303957753804,
+   "gain": 102.72914770552545,
+   "M": 183.0953706806592,
+   "nulls": 32,
+   "tr": "NSELETHEEEEEYSNEIAERIOLRDTHTWADUAFIWUAICUNGXNMMNGNLETHWYIXLUPTHIAEIODTCIWCOYETEEADUURUI",
+   "z1": 4.685288641006432
+  },
+  {
+   "lib": "text",
+   "key": "bunyan_head rev @9070",
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z": 3.293289338737186,
+   "gain": 101.05877979524793,
+   "M": 116.00060532467919,
+   "nulls": 27,
+   "tr": "ODMTHRENTNEEEYTHROOMCTHCNCFNNIASESEOATHNSMOHFHTMITHBUAEDYNNGLNOWMELHSRSNITHFACEENGRIYUWOGSE",
+   "z1": 4.541619459630515
+  },
+  {
+   "lib": "text",
+   "key": "bunyan_head rev @5066",
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z": 3.875129588886572,
+   "gain": 92.08362422344274,
+   "M": 159.75516759983265,
+   "nulls": 17,
+   "tr": "NHCNGLGEAFRYMPNEAOEYBLOUOAHSIAAEEYTHDIAIYTNGECAXOASWATTHTOMPNWTHRYHYHUOIUISRTCLFIAULSRTHR",
+   "z1": 4.521770998829323
+  },
+  {
+   "lib": "text",
+   "key": "bunyan_head rev @5068",
+   "page": "LP2-02",
+   "sign": "add",
+   "F": false,
+   "z": 3.8757758414401646,
+   "gain": 124.54821149053339,
+   "M": 159.75516759983265,
+   "nulls": 19,
+   "tr": "YOCHCREOFRYMPNEAOEYBLOUOAHSIAAEEYTHDIAIYTNGECAXOASWATTHTOMPNWTHRYHYHUOIUISRTCLFIAULSRTHR",
+   "z1": 4.522476480953966
+  }
+ ],
+ "candidates": [],
+ "ntests": {
+  "book": 310650,
+  "prime": 2520000,
+  "text": 1154484
+ },
+ "zmax": {
+  "book": 4.407381126549701,
+  "prime": 5.647657686136712,
+  "text": 5.3349805347576265
+ },
+ "seconds": 23336.832435131073,
+ "chosen": "wc -2.2",
+ "arm": false
+}

@@ -1,0 +1,97 @@
+{
+ "controls": [],
+ "survivors": [
+  {
+   "lib": "text",
+   "key": "cicada_own_words @728",
+   "page": "LP2-00",
+   "sign": "add",
+   "F": false,
+   "z": 3.878651894002896,
+   "gain": 128.919523360583,
+   "M": 185.88223196268225,
+   "nulls": 28,
+   "tr": "EHECAMHRUPCEAHSSTSEYMGNOIWWOOIYURHREOSWSIALMPYLMEOLETHIRNYISWSEFGTATOTHTHUABNGCURYNGOWES",
+   "z1": 4.511731898164285
+  },
+  {
+   "lib": "text",
+   "key": "cicada_own_words @729",
+   "page": "LP2-00",
+   "sign": "add",
+   "F": false,
+   "z": 4.0421702937883275,
+   "gain": 139.94937480178342,
+   "M": 185.88223196268225,
+   "nulls": 29,
+   "tr": "SIWOTDPTTHREAETHSTSEYMGNOIWWOOIYURHREOSWSIALMPYLMEOLETHIRNYISWSEFGTATOTHTHUABNGCURYNGOWES",
+   "z1": 4.701566150674395
+  },
+  {
+   "lib": "text",
+   "key": "cicada_own_words @2673",
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": false,
+   "z": 3.525353850806724,
+   "gain": 92.90137050050492,
+   "M": 183.0953706806592,
+   "nulls": 32,
+   "tr": "OUECYFEYEIALAOTDEALRWOATNTHBNWOALLBTHANGAFESXNGMSLYNGTHEODRTAWNGHIATNLOOEHCOCHOGIADHBUEOO",
+   "z1": 4.734358425114032
+  },
+  {
+   "lib": "text",
+   "key": "cicada_own_words @2673",
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": true,
+   "z": 3.7229764234316707,
+   "gain": 61.41797015188438,
+   "M": 116.00060532467919,
+   "nulls": 26,
+   "tr": "OUECYFEYEIALAOTDEALRWOATNTHBNWOALLBTHANGAFESXNGMSLYNGTHEODRTAYBFFTNLOOEFAUYWCLYDHOUEOO",
+   "z1": 4.624608505201946
+  },
+  {
+   "lib": "text",
+   "key": "cicada_own_words @4605",
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z": 3.127568182315012,
+   "gain": 111.15781686765908,
+   "M": 185.81131790666726,
+   "nulls": 27,
+   "tr": "NUJEHEROLOELAPIEESETHIALNBEBRTHESAEPASBAOEUEAIAIYAERASGEUEBRBETOSNNSISTHUTLRCNEILSWPSSL",
+   "z1": 4.515357010338085
+  },
+  {
+   "lib": "text",
+   "key": "cicada_own_words @4606",
+   "page": "LP2-01",
+   "sign": "sub",
+   "F": false,
+   "z": 3.235706409269533,
+   "gain": 151.7105582878442,
+   "M": 185.81131790666726,
+   "nulls": 28,
+   "tr": "STHMEHEROLOELAPIEESETHIALNBEBRTHESAEPASBAOEUEAIAIYAERASGEUEBRBETOSNNSISTHUTLRCNEILSWPSSL",
+   "z1": 4.643144495685865
+  }
+ ],
+ "candidates": [],
+ "ntests": {
+  "book": 314272,
+  "prime": 2520000,
+  "text": 1225314
+ },
+ "zmax": {
+  "book": 4.692787413227743,
+  "prime": 5.567725490122712,
+  "text": 4.734358425114032
+ },
+ "seconds": 22674.708936929703,
+ "chosen": "wc -2.2",
+ "arm": false
+}

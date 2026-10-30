@@ -1,0 +1,71 @@
+{
+ "controls": [],
+ "survivors": [
+  {
+   "lib": "text",
+   "key": "blake_mhh @7504",
+   "page": "LP2-00",
+   "sign": "add",
+   "F": false,
+   "z": 3.919180238263594,
+   "gain": 150.81709972333843,
+   "M": 185.88223196268225,
+   "nulls": 24,
+   "tr": "ATHLNGNNGTRUTEINLTHOMESORREMEHGTHDOBEEATNIAASYNOIAUPLITCLINGIAOSSTHTHIONGTUYAIRTACIEPFHLOAWE",
+   "z1": 4.721846609910355
+  },
+  {
+   "lib": "text",
+   "key": "rune_poem @8103",
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": false,
+   "z": 3.62888086274108,
+   "gain": 148.05951497295231,
+   "M": 183.0953706806592,
+   "nulls": 16,
+   "tr": "NANGJNSRENEMEITOGNEWUENEBMOEPNTUDYRECNGUJUFNYXURRTHLARMGOOSONLRTBTPELXOEATMLATHIASTH",
+   "z1": 4.6059184706228375
+  },
+  {
+   "lib": "text",
+   "key": "self_reliance rev @4658",
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": false,
+   "z": 4.108324855564146,
+   "gain": 134.48804429519154,
+   "M": 183.0953706806592,
+   "nulls": 24,
+   "tr": "EHYDGUORUEENSEWIHENOEBNTNGEBTNGONBFILNHICETNGUHYTDCPPSTMUSYTHGINIPEUALEESOYIRLEHOMECTH",
+   "z1": 4.511113803151916
+  },
+  {
+   "lib": "text",
+   "key": "lady_fountain_guest rev @35537",
+   "page": "LP2-00",
+   "sign": "beaufort",
+   "F": false,
+   "z": 3.344668074515329,
+   "gain": 126.19455057247148,
+   "M": 183.0953706806592,
+   "nulls": 20,
+   "tr": "UGESOYYSAYLOPEGELELIPFCDCNWLDTHEONYUNARIACIONEOBUHPWAEYABUIFISIUIDPHEONTIYCCESNGDOSC",
+   "z1": 4.567246680738352
+  }
+ ],
+ "candidates": [],
+ "ntests": {
+  "book": 310650,
+  "prime": 2520000,
+  "text": 1132020
+ },
+ "zmax": {
+  "book": 4.727557353437836,
+  "prime": 5.588523055525568,
+  "text": 4.721846609910355
+ },
+ "seconds": 23269.29759287834,
+ "chosen": "wc -2.2",
+ "arm": false
+}

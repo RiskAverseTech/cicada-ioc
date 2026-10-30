@@ -1,7 +1,7 @@
 {
  "generated_by": "src/status.py",
  "repository": "https://github.com/RiskAverseTech/cicada-ioc",
- "head": "2026-10-29",
+ "head": "2026-10-30",
  "breakthroughs": 0,
  "breakthrough_definition": "a page decoding to readable English at a pre-registered bar, reproduced by someone else",
  "lanes": [
@@ -447,6 +447,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a761",
+   "lane": "Word-constrained filler decoder (at most one filler per word): power on \u00a760's plants, false gain on wrong keys at page length, then the book's 22,863 key-sign configurations, 60,000 prime-stream variants and sixteen external texts at full page length; prior, claims and acceptance rule registered first",
+   "tests": 31363746,
+   "controls": "6/6 planted (z 10.8-14.0)",
+   "verdict": "null (largest z 6.04 in 19.8 M prime tests, unreadable; book 5.01; texts 5.52 at full page); A1 fails, B1-B2 fail, margin arm dropped",
+   "coverage_limit": "the constraint buys nothing over free-null (power 0.73 vs 0.75, false gain -5 %); a gain margin cannot separate true from wrong keys at page length; part A's first run replayed 8/864 of \u00a760 and was redone",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a756",
    "lane": "Validation release after the second external review: n-gram lower orders, standalone R4n, K-fixed sampler clock fixed; affected statistics rerun; four summaries corrected",
    "tests": null,
@@ -478,7 +487,7 @@
   "The S carrier (11 of 102 lag-5 pairs): a step acting on the written rune S (a plaintext-reading key is additive and NOT excluded by \u00a747, as the second review noted), or a fluctuation; no additive mechanism with a key uniform given its own difference carries it, but an English running key gives about 6 % at coincidences and the eleven are then at p 0.03-0.09 (\u00a747, corrected 2026-10-29); the lag-5 echo prefers line-wrapping words (\u00a750) but shows no layout signature (\u00a751): a fluctuation or an unnamed property of those words",
   "\u00a739's phase-6 part (the nine short pages) under the corrected word edges: not rerun; \u00a714's full rerun moved maxima by tenths of a sigma",
   "The designers'-side blind spots (docs/blind-spots.md, 2026-10-29): every scorer assumes natural-language plaintext (a non-prose token scorer is unrun in every lab); the combine operation is index arithmetic where the Gematria Primus is a table of primes (value arithmetic as the cipher is unrun); the sparse-message world (a rule-selected subsequence of the whole section, never read); one process for all four footprints rather than a fifth component",
-  "A word-constrained filler decoder (at most one filler per word) with its margin calibrated on wrong keys at page length: \u00a760 finds the free-null decoder recovers 0.75 of per-word plants against 0.68 per-rune at the same filler count, so the constraint is worth building before any filler-aware rerun of the small libraries (the book's keys, the two solved words, the prime streams with literal F, the sixteen external texts)",
+  "A decoder that is echo-aware (\u00a748) and filler-aware (\u00a755, \u00a761) at once, which E56w+n's own generative story requires; \u00a761 shows the one-filler-per-word constraint adds nothing on its own, so the next instrument is the combined one, and pnotisdev's 1,439 streams at full length have not been run under any filler-aware decoder",
   "The filler world beyond \u00a755: the six long texts at every offset (sentence starts only there), pnotisdev's non-periodic streams at offsets >= 2,000, pnotisdev's sacred / hyp libraries, and every phase 5-9 family (registers, word-edge events, skip-by-two, LCG seeds, feedback streams) under a filler-aware decoder; and the register question the fingerprint leaves open (verse or list instead of prose)"
  ]
 }
