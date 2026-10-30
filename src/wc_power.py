@@ -106,7 +106,13 @@ if PART == "A":
     def score_plant(C, placed, W, Kfam_dec, pos, f_rule, mode):
         out = {}; raw = {}; ws = word_starts(W)
         for dec in DECS:
-            Kr = rng.integers(0, N, size=(NULL_REPS, len(C) + S_MAX + 2)); nul = run(C, Kr, f_rule, mode, dec, ws)[0]
+            # §60 drew one block of null keystreams per decoder from the plant generator, so to replay its plants this loop
+            # must consume that generator exactly as §60 did: one draw for plain, one for free-null.  The two added decoders
+            # reuse free-null's keystreams (the same 400 random keys through a different decoder) and draw nothing, so the
+            # generator's state after each plant-cell is §60's.  The first run drew a fresh block for every decoder and so
+            # replayed only the first plant-cell of each shard (8 of 864); found by the third external review, 2026-10-29.
+            if dec in DECS[:2]: Kr = rng.integers(0, N, size=(NULL_REPS, len(C) + S_MAX + 2))
+            nul = run(C, Kr, f_rule, mode, dec, ws)[0]
             sc = np.empty(len(Kfam_dec)); dtrue = None
             for b in range(0, len(Kfam_dec), 1000):
                 s, d = run(C, Kfam_dec[b:b + 1000], f_rule, mode, dec, ws); sc[b:b + 1000] = s

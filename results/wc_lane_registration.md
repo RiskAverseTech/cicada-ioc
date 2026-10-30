@@ -87,3 +87,7 @@ form) and part B (the margin). Budget: about four hours on eight cores.
 
 The phase 5–9 families, pnotisdev's libraries and the longer texts away from sentence starts under this decoder; a
 filler decoder for the per-rune form; the register question (verse or a list). Each is its own registration.
+
+## Amendment, 2026-10-29 (before any part A result was read into the record)
+
+The first part A run was not a replay of §60's plants. `score_plant` drew a fresh block of 400 null keystreams from the plant generator for each of the four decoders, where §60 drew two, so from the second plant-cell of each shard onward the plants, filler placements and baseline scores differed from §60's. The merge's replication check read 8 of 864 plant-cells reproduced; the third external review found the cause in the code the same day, before the merge was read. Fix: plain and free-null draw their null blocks from the plant generator exactly as §60 did, and the two word-constrained decoders reuse free-null's block (the same 400 random keys through a different decoder) and draw nothing. The first run's outputs are discarded and part A is rerun under the same seeds; the prior decision and claims A1–A5 stand as registered. Part B (seed 6100 + shard, no plants) is unaffected.
