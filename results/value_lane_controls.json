@@ -1,0 +1,62 @@
+[
+ {
+  "rule": "prime p+k mod 29",
+  "F": false,
+  "planted": "('phrase-4-rev', 'ALL THAT YOU OWN \u02b3')",
+  "z": 14.493555560097992,
+  "rank": 1,
+  "top_is_planted": true,
+  "acc": 0.9083969465648855,
+  "ok": true
+ },
+ {
+  "rule": "totient p-k mod 110",
+  "F": true,
+  "planted": "('phrase-4-rev', 'IT IS THE DUTY \u02b3')",
+  "z": 14.688957264095768,
+  "rank": 1,
+  "top_is_planted": true,
+  "acc": 0.8282442748091603,
+  "ok": true
+ },
+ {
+  "rule": "prime k-p mod 113",
+  "F": false,
+  "planted": "('phrase-4', 'EVERY PILGRIM TO SEEK')",
+  "z": 14.617324406323204,
+  "rank": 1,
+  "top_is_planted": true,
+  "acc": 0.851145038167939,
+  "ok": true
+ },
+ {
+  "rule": "totient p*k mod 29",
+  "F": true,
+  "planted": "('phrase-2', 'BELIEVE WE')",
+  "z": 14.58749188466914,
+  "rank": 1,
+  "top_is_planted": true,
+  "acc": 0.8854961832061069,
+  "ok": true
+ },
+ {
+  "rule": "prime p*k mod 110",
+  "F": false,
+  "planted": "('phrase-3', 'AFTER A LONG')",
+  "z": 16.25461988962814,
+  "rank": 1,
+  "top_is_planted": true,
+  "acc": 0.8396946564885496,
+  "ok": true
+ },
+ {
+  "rule": "totient p+k mod 113",
+  "F": true,
+  "planted": "('phrase-4-rev', 'WE FOLLOW DOGMA SO \u02b3')",
+  "z": 16.137202566827245,
+  "rank": 1,
+  "top_is_planted": true,
+  "acc": 0.8282442748091603,
+  "ok": true
+ }
+]

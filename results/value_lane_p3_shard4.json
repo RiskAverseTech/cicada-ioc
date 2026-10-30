@@ -1,0 +1,58 @@
+{
+ "rows": [
+  {
+   "rule": "prime k-p mod 29",
+   "F": true,
+   "key": "('vigenere-word', 'STRONG')",
+   "z": 4.64798843515207,
+   "zraw": 4.64798843515207,
+   "rank": 1,
+   "tr": "FUPHOPHNGIRFSFIEYAGJUHYWNGPOUNNGSEAXEWNYFEAEAAFINTHJIAYNTHYLGFUEAOACNSTOLWTHWOE",
+   "page": "LP2-04"
+  },
+  {
+   "rule": "totient p+k mod 113",
+   "F": true,
+   "key": "('self running key', 'plaintext@978')",
+   "z": 4.639639579043079,
+   "zraw": 4.815629378031102,
+   "rank": 1,
+   "tr": "FFGNGPGERHUGSFEDNFEARFAUARCOXWFWHJJOWAEFCEAXCHSFBFGOUEEPAMOUUEFWXFFAALOEE",
+   "page": "LP2-04"
+  },
+  {
+   "rule": "totient p+k mod 113",
+   "F": true,
+   "key": "('self running key', 'plaintext@979')",
+   "z": 4.806939243129294,
+   "zraw": 4.988341409144308,
+   "rank": 1,
+   "tr": "AXTHAFEOOEJSOEONMNNFEARFAUARCOXWFWHJJOWAEFCEAXCHSFBFGOUEEPAMOUUEFWXFFAALOEE",
+   "page": "LP2-04"
+  },
+  {
+   "rule": "totient k-p mod 29",
+   "F": true,
+   "key": "('vigenere-word', 'STRONG')",
+   "z": 4.881843841990963,
+   "zraw": 4.881843841990965,
+   "rank": 1,
+   "tr": "FUPHOPHNGIRFSFIEYAGJUHYWNGPOUNNGSEAXEWNYFEAEAAFINTHJIAYNTHYLGFUEAOACNSTOLWTHWOE",
+   "page": "LP2-04"
+  },
+  {
+   "rule": "prime p*k mod 110",
+   "F": true,
+   "key": "('vigenere-word-rev', 'IRRITATED\u02b3')",
+   "z": 5.528316636009153,
+   "zraw": -0.22455597443803926,
+   "rank": 1,
+   "tr": "CHJHFFFFFXFHIAFJTHFHFPEALCXFFEMFCYFEFDRFFLYDOEFEABFTAXNHLEFOSTFAFIATHFEFRXOEFAE",
+   "page": "LP2-44"
+  }
+ ],
+ "ntests": 1584576,
+ "zmax": 5.528316636009153,
+ "nullmax": 4.508596595737198,
+ "seconds": 1954.3486821651459
+}

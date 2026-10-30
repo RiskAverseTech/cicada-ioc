@@ -1,0 +1,148 @@
+{
+ "rows": [
+  {
+   "rule": "prime p+k mod 113",
+   "F": true,
+   "key": "prime p+1 s=434",
+   "z": 4.819832951440348,
+   "zraw": 4.777944451450082,
+   "rank": 1,
+   "tr": "FOEIMWLJTLLNGUEGBASNNGRIFRWXOOEFNYYUEABFBFNGHHFRFHUSSWUNDLITCEDNGOFCTEOHCDLTEA",
+   "page": "LP2-11"
+  },
+  {
+   "rule": "prime p+k mod 113",
+   "F": true,
+   "key": "prime p+1 s=435",
+   "z": 4.920611286122385,
+   "zraw": 4.876335321707111,
+   "rank": 1,
+   "tr": "JIIMWLJTLLNGUEGBASNNGRIFRWXOOEFNYYUEABFBFNGHHFRFHUSSWUNDLITCEDNGOFCTEOHCDLTEA",
+   "page": "LP2-11"
+  },
+  {
+   "rule": "totient p*k mod 110",
+   "F": true,
+   "key": "prime p s=283",
+   "z": 4.534643890367017,
+   "zraw": 3.111212392406122,
+   "rank": 1,
+   "tr": "NGCOFNFFFRFFWFSWFENGIFFFNEWFTHAPOEIPUTFUPLLPTFAEFLTHLTHFIFEBTHOGFFFFRJOEFFRRFE",
+   "page": "LP2-11"
+  },
+  {
+   "rule": "totient p*k mod 110",
+   "F": true,
+   "key": "prime p s=284",
+   "z": 4.521962952079337,
+   "zraw": 3.0494968118555748,
+   "rank": 1,
+   "tr": "FHFIAFFFMICFWFSWFENGIFFFNEWFTHAPOEIPUTFUPLLPTFAEFLTHLTHFIFEBTHOGFFFFRJOEFFRRFE",
+   "page": "LP2-11"
+  },
+  {
+   "rule": "totient p*k mod 110",
+   "F": true,
+   "key": "prime p s=285",
+   "z": 5.251867656757537,
+   "zraw": 3.5036918553596967,
+   "rank": 1,
+   "tr": "WFTHFFSNGRTHOFFWWFENGIFFFNEWFTHAPOEIPUTFUPLLPTFAEFLTHLTHFIFEBTHOGFFFFRJOEFFRRFE",
+   "page": "LP2-11"
+  },
+  {
+   "rule": "totient p*k mod 110",
+   "F": true,
+   "key": "prime p s=286",
+   "z": 5.140252549323728,
+   "zraw": 3.42275829372204,
+   "rank": 1,
+   "tr": "FDFFCWJTHWAEFBLTCFFNGIFFFNEWFTHAPOEIPUTFUPLLPTFAEFLTHLTHFIFEBTHOGFFFFRJOEFFRRFE",
+   "page": "LP2-11"
+  },
+  {
+   "rule": "prime k-p mod 113",
+   "F": false,
+   "key": "('phrase-4-rev', 'THE MASTER EXPLAINED THE \u02b3')",
+   "z": 4.770000586518286,
+   "zraw": 3.7042060760131403,
+   "rank": 1,
+   "tr": "NFENNOENLAUNPIIEFEFFFPOWRFTEAFPJEAUOEGYIANGEAEOAFDDOEWBSFPFWFTPWNRPHFGWTRFUEASF",
+   "page": "LP2-19"
+  },
+  {
+   "rule": "totient p+k mod 113",
+   "F": true,
+   "key": "('phrase-3', 'OR THE MESSAGE')",
+   "z": 4.775118759503725,
+   "zraw": 5.162732295067034,
+   "rank": 1,
+   "tr": "YOIGGWAEIAUIEATEAUWFPFHFBXIIEBEILNGEMTHHTFFOWNGTOUJGGGMSHFOUFYYWLERTFYCGCFG",
+   "page": "LP2-35"
+  },
+  {
+   "rule": "prime p+k mod 110",
+   "F": true,
+   "key": "('phrase-3-rev', 'ALL IS SACRED \u02b3')",
+   "z": 4.913456945990027,
+   "zraw": 4.848179825062584,
+   "rank": 1,
+   "tr": "NIEATHNURDGHXEAAJNTHNUFTHRIAPFLUAEEAFUEHYTHHFOFNAEIAFAEPTHFUOEAYNGEAEXUAEEXYBHTESEADRLD",
+   "page": "LP2-43"
+  },
+  {
+   "rule": "prime k-p mod 113",
+   "F": true,
+   "key": "('phrase-3', 'WHAT WE HAVE')",
+   "z": 4.7114759096273655,
+   "zraw": 3.244097817221294,
+   "rank": 1,
+   "tr": "RENENRPNFNFFPRBHOEEOHLFMGTLSHPFEXETFTOHHNFEOMATNMFRFLXOLIAEAEAGFOEMEOLHFFOYIEA",
+   "page": "LP2-43"
+  },
+  {
+   "rule": "totient p-k mod 113",
+   "F": true,
+   "key": "('phrase-2-rev', 'A MOMENT \u02b3')",
+   "z": 4.606097191671984,
+   "zraw": 2.217240661074886,
+   "rank": 1,
+   "tr": "EFFDHPWPBFFJEOUGLOPCOFREAFATOEOOTFHEALILTWEFRHFFAFHDSGLOEOJNFEPPBHWWESFBEAHT",
+   "page": "LP2-43"
+  },
+  {
+   "rule": "totient p-k mod 113",
+   "F": true,
+   "key": "prime p-1 s=771",
+   "z": 4.570126728809165,
+   "zraw": 4.264988346838369,
+   "rank": 1,
+   "tr": "IMOEGWEAHEOIFEAMBETFNWSOFAYIBAUORDBUFSUCFXFUULSEIASFGTIAOTHNGITEOTJFTHFMTGOELYIAR",
+   "page": "LP2-43"
+  },
+  {
+   "rule": "totient k-p mod 113",
+   "F": true,
+   "key": "('phrase-3', 'WHAT WE HAVE')",
+   "z": 5.157909717537293,
+   "zraw": 3.57600101992688,
+   "rank": 1,
+   "tr": "RENENRPNFNFFPRBHOEEOHLFMGTLSHPFEXETFTOHHNFEOMATNMFRFLXOLIAEAEAGFOEMEOLHFFOYIEA",
+   "page": "LP2-43"
+  },
+  {
+   "rule": "totient p*k mod 113",
+   "F": true,
+   "key": "('phrase-2-rev', 'SHOULD BE \u02b3')",
+   "z": 7.054138420035456,
+   "zraw": 5.936619161489563,
+   "rank": 1,
+   "tr": "SFHFWOTNFTTHNGYNGMNIAEGNGWNGFINIARRMIPFRBRCWEFFDFWSIAUYDFURAOLTHFGIAFLUWOEOSPD",
+   "page": "LP2-52"
+  }
+ ],
+ "ntests": 1984080,
+ "zmax": 7.054138420035456,
+ "nullmax": 4.726323626050771,
+ "seconds": 2803.199837207794
+}

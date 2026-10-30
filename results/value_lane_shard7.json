@@ -1,0 +1,298 @@
+{
+ "rows": [
+  {
+   "rule": "prime p+k mod 113",
+   "F": false,
+   "key": "('phrase-3', 'PROFESSOR REPLIED I')",
+   "z": 4.613023008851036,
+   "zraw": 4.485162484948516,
+   "rank": 1,
+   "tr": "HACNJFFHHNGLFWEDFOFUNGGTBSFEGEUOEJRFIPFUUHWHYFTHBTFIRFJFXNSALTHCSTHAURFRALI",
+   "page": "LP2-07"
+  },
+  {
+   "rule": "prime p+k mod 113",
+   "F": true,
+   "key": "('phrase-3', 'PROFESSOR REPLIED I')",
+   "z": 5.003139519540735,
+   "zraw": 4.87833653479442,
+   "rank": 1,
+   "tr": "HACNJFFHHHADUIEFSTOFFLBEOFEGEUOEJRFIPFUUHWHYFTHBTFIRFJFXNSALTHCSTHAURFRALI",
+   "page": "LP2-07"
+  },
+  {
+   "rule": "totient p*k mod 110",
+   "F": false,
+   "key": "('phrase-2', 'A MAN')",
+   "z": 5.104938971465667,
+   "zraw": 4.820022406958298,
+   "rank": 1,
+   "tr": "EWIRJFLELOIAXLRPFFCPFNTDAFGAFFPFITHOEFIAALMPFCUXFNARSFRFTHRFFSIUFSHAFIFSFOOE",
+   "page": "LP2-07"
+  },
+  {
+   "rule": "totient p*k mod 110",
+   "F": true,
+   "key": "('phrase-2', 'A MAN')",
+   "z": 4.9946875400169635,
+   "zraw": 4.957745423947826,
+   "rank": 1,
+   "tr": "EWIRJFLELOIAXLRPFFCPFNTDAFGAFFPFITHOEFIAALMPFCUXFNARSFRFTHRFFSIUFSHAFIFSFOOE",
+   "page": "LP2-07"
+  },
+  {
+   "rule": "prime p+k mod 29",
+   "F": true,
+   "key": "prime p+1 s=487",
+   "z": 4.523323500538182,
+   "zraw": 4.52332350053818,
+   "rank": 1,
+   "tr": "GLCWROEOGCXTHJPIATHNIAOIOEGEANGOLRYTHOTHXWNGHSFAITIANAYNGEGAHTHWINXPFTWNSIREATHUWFWWR",
+   "page": "LP2-15"
+  },
+  {
+   "rule": "prime p+k mod 29",
+   "F": true,
+   "key": "prime p+1 s=488",
+   "z": 4.530830743568294,
+   "zraw": 4.53083074356829,
+   "rank": 1,
+   "tr": "FLCWROEOGCXTHJPIATHNIAOIOEGEANGOLRYTHOTHXWNGHSFAITIANAYNGEGAHTHWINXPFTWNSIREATHUWFWWR",
+   "page": "LP2-15"
+  },
+  {
+   "rule": "prime k-p mod 29",
+   "F": true,
+   "key": "('phrase-4', 'WITHIN AND YOU WILL')",
+   "z": 4.559676082369954,
+   "zraw": 4.559676082369953,
+   "rank": 1,
+   "tr": "WTPEOTHRUENGYIFEAAPIEAXFAWEWTHRNGWFPETHWNGGUREOIPXNGNOYAONTHTYCOTHNXNGGRLSPGTHNOECTH",
+   "page": "LP2-15"
+  },
+  {
+   "rule": "prime k-p mod 113",
+   "F": true,
+   "key": "('phrase-2', 'PAGE THAT')",
+   "z": 4.5176774231017855,
+   "zraw": 4.493985759553903,
+   "rank": 1,
+   "tr": "FAWSPBCJWWMGEATHNFTFEANNTENGAIAFPNJEAIEAGCIHWSEEAUEILNOTHNJTTFEAJFANYDLNAITHEOEOOE",
+   "page": "LP2-15"
+  },
+  {
+   "rule": "prime p*k mod 110",
+   "F": true,
+   "key": "('phrase-2-rev', 'THEM WE \u02b3')",
+   "z": 4.606029782060832,
+   "zraw": 2.936380964469227,
+   "rank": 1,
+   "tr": "ONDRFAEFNGFFHTATHFBLUFPFHIILTHXYTHHOCRLCRAEHYCFCCEWAELYTHHFANGPAWFHFMEAUITFEWOOEW",
+   "page": "LP2-15"
+  },
+  {
+   "rule": "totient k-p mod 29",
+   "F": true,
+   "key": "('phrase-4', 'WITHIN AND YOU WILL')",
+   "z": 5.073013573728433,
+   "zraw": 5.073013573728433,
+   "rank": 1,
+   "tr": "WTPEOTHRUENGYIFEAAPIEAXFAWEWTHRNGWFPETHWNGGUREOIPXNGNOYAONTHTYCOTHNXNGGRLSPGTHNOECTH",
+   "page": "LP2-15"
+  },
+  {
+   "rule": "totient p*k mod 110",
+   "F": true,
+   "key": "prime p+1 s=17",
+   "z": 4.648055018072785,
+   "zraw": 4.2289280897962,
+   "rank": 1,
+   "tr": "ECRLFTAHYTHEFWFEWFSXIAERDEFFFTHRWTTHIWFFEOSCFUFBSFFFLECFPFOWMRFSPOERFTHGFSFR",
+   "page": "LP2-15"
+  },
+  {
+   "rule": "totient p*k mod 110",
+   "F": true,
+   "key": "prime p+1 s=18",
+   "z": 4.6322834118858065,
+   "zraw": 4.164461842784863,
+   "rank": 1,
+   "tr": "FCRLFTAHYTHEFWFEWFSXIAERDEFFFTHRWTTHIWFFEOSCFUFBSFFFLECFPFOWMRFSPOERFTHGFSFR",
+   "page": "LP2-15"
+  },
+  {
+   "rule": "prime p-k mod 113",
+   "F": true,
+   "key": "('phrase-4', 'IS WHAT YOU DO')",
+   "z": 4.740140137912751,
+   "zraw": 4.901228409652813,
+   "rank": 1,
+   "tr": "OUFLNLGTXUAFLMMEHSNLEOFRARISEFALGFIAEOGOFSNFTXNGFUEAEUSCYYTHRRLOESHOLFAGRBSF",
+   "page": "LP2-31"
+  },
+  {
+   "rule": "totient p+k mod 29",
+   "F": false,
+   "key": "prime p-1 s=176",
+   "z": 4.743927464572776,
+   "zraw": 4.743927464572775,
+   "rank": 1,
+   "tr": "YFAELUFHNRWXAXATTHPAWNNGHTOEOFLOONNFTGNNNCSHSPTHUNGIUWGIOEJJXHIEALGJRLCJTOEOHP",
+   "page": "LP2-31"
+  },
+  {
+   "rule": "totient p+k mod 29",
+   "F": false,
+   "key": "prime p-1 s=177",
+   "z": 4.778276163633309,
+   "zraw": 4.778276163633307,
+   "rank": 1,
+   "tr": "UFEELUFHNRWXAXATTHPAWNNGHTOEOFLOONNFTGNNNCSHSPTHUNGIUWGIOEJJXHIEALGJRLCJTOEOHP",
+   "page": "LP2-31"
+  },
+  {
+   "rule": "totient p+k mod 29",
+   "F": false,
+   "key": "prime p-1 s=179",
+   "z": 4.9915251268676695,
+   "zraw": 4.991525126867668,
+   "rank": 1,
+   "tr": "HEAYAYPEOOICNGAAXATTHPAWNNGHTOEOFLOONNFTGNNNCSHSPTHUNGIUWGIOEJJXHIEALGJRLCJTOEOHP",
+   "page": "LP2-31"
+  },
+  {
+   "rule": "totient p+k mod 29",
+   "F": false,
+   "key": "prime p-1 s=181",
+   "z": 4.551219439945892,
+   "zraw": 4.55121943994589,
+   "rank": 1,
+   "tr": "THGNGTFPEFJNNNFXEAITJFPUICELLOONNFTGNNNCSHSPTHUNGIUWGIOEJJXHIEALGJRLCJTOEOHP",
+   "page": "LP2-31"
+  },
+  {
+   "rule": "totient p+k mod 29",
+   "F": false,
+   "key": "prime p+1 s=198",
+   "z": 5.550421175860841,
+   "zraw": 5.550421175860839,
+   "rank": 1,
+   "tr": "IWOTHUELIAFFYTWFUAGWAGFLEAYFOCFREWROECYPUOTHUWPYJULILYTHOIJJFCICCIUFIAONOTPP",
+   "page": "LP2-31"
+  },
+  {
+   "rule": "totient p+k mod 29",
+   "F": true,
+   "key": "prime p+1 s=198",
+   "z": 4.572613636233855,
+   "zraw": 4.572613636233854,
+   "rank": 1,
+   "tr": "IWOTHUELIAFFYTWFUAGWAGFLEAYFOCFREWROECYPUOTHUWPYJULILYTHOIJJFCICCIUFIAONOTPP",
+   "page": "LP2-31"
+  },
+  {
+   "rule": "totient p+k mod 29",
+   "F": true,
+   "key": "prime p+1 s=199",
+   "z": 4.7188416093837935,
+   "zraw": 4.718841609383793,
+   "rank": 1,
+   "tr": "YSTJRISPHRFFWFUAGWAGFLEAYFOCFREWROECYPUOTHUWPYJULILYTHOIJJFCICCIUFIAONOTPP",
+   "page": "LP2-31"
+  },
+  {
+   "rule": "totient p-k mod 113",
+   "F": true,
+   "key": "('phrase-4', 'IS WHAT YOU DO')",
+   "z": 4.9477741116655425,
+   "zraw": 5.119831039407715,
+   "rank": 1,
+   "tr": "OUFLNLGTXUAFLMMEHSNLEOFRARISEFALGFIAEOGOFSNFTXNGFUEAEUSCYYTHRRLOESHOLFAGRBSF",
+   "page": "LP2-31"
+  },
+  {
+   "rule": "totient k-p mod 113",
+   "F": true,
+   "key": "prime p s=321",
+   "z": 4.586823379918531,
+   "zraw": 4.309336611120656,
+   "rank": 1,
+   "tr": "ATHFSJHSAFDFPLFYTSFFHFGRBNJTSIIOEOEURRXPEAXPOEJYOXFGFREAFTOBEAYBENEWFITXPOAER",
+   "page": "LP2-31"
+  },
+  {
+   "rule": "totient k-p mod 113",
+   "F": true,
+   "key": "prime p s=322",
+   "z": 4.5929537782250796,
+   "zraw": 4.330030878408675,
+   "rank": 1,
+   "tr": "JRFUNGJFBGAFIEANGEAFUHNGFNHFDJJTSIIOEOEURRXPEAXPOEJYOXFGFREAFTOBEAYBENEWFITXPOAER",
+   "page": "LP2-31"
+  },
+  {
+   "rule": "prime k-p mod 29",
+   "F": true,
+   "key": "prime p s=647",
+   "z": 4.865310812987226,
+   "zraw": 4.865310812987228,
+   "rank": 1,
+   "tr": "ONTNOUSGEARWXHFWEAGIAAXNEOJLTHNYWWIAIAEOFTGLTHYJNGRNFRREAWUSFFNGRLUTHEOITAUYEFTTHRT",
+   "page": "LP2-39"
+  },
+  {
+   "rule": "totient k-p mod 29",
+   "F": true,
+   "key": "prime p s=647",
+   "z": 4.958272902762152,
+   "zraw": 4.958272902762152,
+   "rank": 1,
+   "tr": "ONTNOUSGEARWXHFWEAGIAAXNEOJLTHNYWWIAIAEOFTGLTHYJNGRNFRREAWUSFFNGRLUTHEOITAUYEFTTHRT",
+   "page": "LP2-39"
+  },
+  {
+   "rule": "prime p-k mod 110",
+   "F": true,
+   "key": "('phrase-4', 'HAVE NO VOICE IN')",
+   "z": 4.719143612492062,
+   "zraw": 4.887659696964778,
+   "rank": 1,
+   "tr": "EAIATHUTHFTHEOFHNGFBPETCGFEAEAEEUUHYFOEOFIWTREAFYBBEAEARHPTFSSCTHXUTHTLFOEOPSNRIGOLTHF",
+   "page": "LP2-47"
+  },
+  {
+   "rule": "prime p-k mod 113",
+   "F": false,
+   "key": "('phrase-4', 'BEHAVIORS OF CONSUMPTION PRESERVATION')",
+   "z": 4.628678139096489,
+   "zraw": 4.851472807675848,
+   "rank": 1,
+   "tr": "DFOETIPCUTEOOEOTEXTSBWLOCWRNFWNUOMPFROPEDJTHFRFHFNGIEOEAOEEFMFNTWNHEADAEUTHXFEOE",
+   "page": "LP2-47"
+  },
+  {
+   "rule": "prime p*k mod 110",
+   "F": true,
+   "key": "('phrase-3-rev', 'NOTHING TO BE \u02b3')",
+   "z": 4.551939361633657,
+   "zraw": 3.70665730814133,
+   "rank": 1,
+   "tr": "AEOIATHHFIAADOSFFDUFOEEHDAEBCLYNFTUNFIARMBOYSFYEUXTTHSGAEDXTHFSOPFOFAGPMATUXXMFG",
+   "page": "LP2-47"
+  },
+  {
+   "rule": "totient p*k mod 113",
+   "F": true,
+   "key": "('phrase-4-rev', 'YOUR INNOCENCE YOUR ILLUSIONS \u02b3')",
+   "z": 4.810630375520023,
+   "zraw": 3.9236422246255813,
+   "rank": 1,
+   "tr": "OFAEFPNODMHTFIAOELCMAFTEREETLEAYFSSIUJEMUYEFFDTHNSOJSHFDPFIABAFLWHOEFWEAFETHFIM",
+   "page": "LP2-47"
+  }
+ ],
+ "ntests": 1700640,
+ "zmax": 5.550421175860841,
+ "nullmax": 4.7559193631925085,
+ "seconds": 2362.495901823044
+}

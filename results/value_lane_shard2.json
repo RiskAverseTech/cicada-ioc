@@ -1,0 +1,108 @@
+{
+ "rows": [
+  {
+   "rule": "prime p+k mod 29",
+   "F": true,
+   "key": "prime p-1 s=56",
+   "z": 4.514431946050945,
+   "zraw": 4.514431946050944,
+   "rank": 1,
+   "tr": "LPFNSANUALWGFCGWTHURTENGGTHIAFPUEAFIOERNGGFFPXNECTHCAUXPNGUPOURNEEAIFTHSOHTOEYTEOOEI",
+   "page": "LP2-10"
+  },
+  {
+   "rule": "prime p+k mod 113",
+   "F": false,
+   "key": "('phrase-4', 'END TO ALL STRUGGLE')",
+   "z": 4.535485508379026,
+   "zraw": 4.373191221861685,
+   "rank": 1,
+   "tr": "PPOLSFEALLAWEAPNFIISHPFXXIWTFENGLFTEIWIBDEOFUANGFJSIRTNDCBEAXEPYUFDFOHSEUYWM",
+   "page": "LP2-42"
+  },
+  {
+   "rule": "prime k-p mod 29",
+   "F": true,
+   "key": "prime p-1 s=474",
+   "z": 4.701462142565426,
+   "zraw": 4.701462142565429,
+   "rank": 1,
+   "tr": "HETFEOUIAEONLHONNGUJTCOAYYIXYIHGEAFIAUFTEOIPXSIARWIEAITHEACLGTHNOEPXLWTHOEEAHLRFINUIG",
+   "page": "LP2-42"
+  },
+  {
+   "rule": "prime k-p mod 29",
+   "F": true,
+   "key": "prime p-1 s=475",
+   "z": 5.1891378873719045,
+   "zraw": 5.189137887371909,
+   "rank": 1,
+   "tr": "NOEOSRNGTHEYHHONNGUJTCOAYYIXYIHGEAFIAUFTEOIPXSIARWIEAITHEACLGTHNOEPXLWTHOEEAHLRFINUIG",
+   "page": "LP2-42"
+  },
+  {
+   "rule": "prime k-p mod 29",
+   "F": true,
+   "key": "prime p-1 s=476",
+   "z": 4.756272017126173,
+   "zraw": 4.756272017126176,
+   "rank": 1,
+   "tr": "YITHHNFIOESAIFOLWNGRFOAYYIXYIHGEAFIAUFTEOIPXSIARWIEAITHEACLGTHNOEPXLWTHOEEAHLRFINUIG",
+   "page": "LP2-42"
+  },
+  {
+   "rule": "totient k-p mod 29",
+   "F": true,
+   "key": "prime p-1 s=474",
+   "z": 4.916539955378979,
+   "zraw": 4.916539955378981,
+   "rank": 1,
+   "tr": "HETFEOUIAEONLHONNGUJTCOAYYIXYIHGEAFIAUFTEOIPXSIARWIEAITHEACLGTHNOEPXLWTHOEEAHLRFINUIG",
+   "page": "LP2-42"
+  },
+  {
+   "rule": "totient k-p mod 29",
+   "F": true,
+   "key": "prime p-1 s=475",
+   "z": 5.426887948098335,
+   "zraw": 5.426887948098338,
+   "rank": 1,
+   "tr": "NOEOSRNGTHEYHHONNGUJTCOAYYIXYIHGEAFIAUFTEOIPXSIARWIEAITHEACLGTHNOEPXLWTHOEEAHLRFINUIG",
+   "page": "LP2-42"
+  },
+  {
+   "rule": "totient k-p mod 29",
+   "F": true,
+   "key": "prime p-1 s=476",
+   "z": 4.973897963771168,
+   "zraw": 4.9738979637711696,
+   "rank": 1,
+   "tr": "YITHHNFIOESAIFOLWNGRFOAYYIXYIHGEAFIAUFTEOIPXSIARWIEAITHEACLGTHNOEPXLWTHOEEAHLRFINUIG",
+   "page": "LP2-42"
+  },
+  {
+   "rule": "totient k-p mod 29",
+   "F": true,
+   "key": "prime p-1 s=477",
+   "z": 4.625890637442672,
+   "zraw": 4.625890637442674,
+   "rank": 1,
+   "tr": "EANFEOPUXFRXTCTIFNGRFOAYYIXYIHGEAFIAUFTEOIPXSIARWIEAITHEACLGTHNOEPXLWTHOEEAHLRFINUIG",
+   "page": "LP2-42"
+  },
+  {
+   "rule": "totient p*k mod 113",
+   "F": true,
+   "key": "prime p-1 s=341",
+   "z": 4.58592989027924,
+   "zraw": 4.397752214457183,
+   "rank": 1,
+   "tr": "NTHFFPMTUIASSNOPFAAFMEAGTHNPPFTHEARIAFWEINGEPEAAOAHNMEFFAFIYBMDNSFFFWIDFWOEWFP",
+   "page": "LP2-42"
+  }
+ ],
+ "ntests": 1984080,
+ "zmax": 5.426887948098335,
+ "nullmax": 4.37000323543969,
+ "seconds": 2633.837641954422
+}

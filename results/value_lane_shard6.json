@@ -1,0 +1,108 @@
+{
+ "rows": [
+  {
+   "rule": "prime p-k mod 113",
+   "F": true,
+   "key": "('phrase-2-rev', 'WAS GETTING \u02b3')",
+   "z": 4.622479346554753,
+   "zraw": 3.3722465202706244,
+   "rank": 1,
+   "tr": "XOEGTFEEFOMFNGFYOEUGAYNGIPUOLRXBREOTNONIHGMFOJLYENGNTFFRLUSXEMEFSWROEAIFRIATGNG",
+   "page": "LP2-30"
+  },
+  {
+   "rule": "totient p-k mod 113",
+   "F": true,
+   "key": "('phrase-2-rev', 'WAS GETTING \u02b3')",
+   "z": 4.608620940997435,
+   "zraw": 3.3151656226008197,
+   "rank": 1,
+   "tr": "XOEGTFEEFOMFNGFYOEUGAYNGIPUOLRXBREOTNONIHGMFOJLYENGNTFFRLUSXEMEFSWROEAIFRIATGNG",
+   "page": "LP2-30"
+  },
+  {
+   "rule": "prime k-p mod 110",
+   "F": true,
+   "key": "('phrase-2', 'ALL THAT')",
+   "z": 4.584351845398136,
+   "zraw": 5.248029151500822,
+   "rank": 1,
+   "tr": "EWFYTHFEOWEAATHTSONSEEANNHEFTHEAPFLXHNGGUTPPPLIAFIAFFUSTSYRPYXFTHXAEOWPJCGEAYNGEATHRF",
+   "page": "LP2-38"
+  },
+  {
+   "rule": "prime k-p mod 113",
+   "F": true,
+   "key": "prime p s=335",
+   "z": 4.720616847841345,
+   "zraw": 4.53849782045522,
+   "rank": 1,
+   "tr": "EIAUTEFYAOEEAJNGTHHFNGNGINFUIPBNTEOEAFORFHTLJPRLOPEORSNSRFPTIFXEWEFDRIEAILFDPPFNG",
+   "page": "LP2-38"
+  },
+  {
+   "rule": "prime k-p mod 113",
+   "F": true,
+   "key": "prime p s=336",
+   "z": 4.52231769982171,
+   "zraw": 4.338411382270301,
+   "rank": 1,
+   "tr": "LEJIFFRWSSFFTHHFNGNGINFUIPBNTEOEAFORFHTLJPRLOPEORSNSRFPTIFXEWEFDRIEAILFDPPFNG",
+   "page": "LP2-38"
+  },
+  {
+   "rule": "totient p+k mod 113",
+   "F": true,
+   "key": "prime p s=678",
+   "z": 4.536541742091891,
+   "zraw": 4.229996133840908,
+   "rank": 1,
+   "tr": "LLHSNFDEUOOFPYNFAEAFPRREAIAWMFEANGLEWWCULUEAHNGLFFEEAFEATTEARSFIEODROPIFNFHUNGWEAWU",
+   "page": "LP2-38"
+  },
+  {
+   "rule": "totient k-p mod 110",
+   "F": true,
+   "key": "('phrase-2', 'ALL THAT')",
+   "z": 4.571904790454533,
+   "zraw": 5.201755195705541,
+   "rank": 1,
+   "tr": "EWFYTHFEOWEAATHTSONSEEANNHEFTHEAPFLXHNGGUTPPPLIAFIAFFUSTSYRPYXFTHXAEOWPJCGEAYNGEATHRF",
+   "page": "LP2-38"
+  },
+  {
+   "rule": "totient k-p mod 113",
+   "F": false,
+   "key": "prime p s=335",
+   "z": 4.6299988641772405,
+   "zraw": 4.355536506586776,
+   "rank": 1,
+   "tr": "EIAUTEFYAOEEAJNGTHHFNGNGINFUIPBNTEOEAFORFHTLJPRLOPEORSNSRFPTIFXEWEFDRIEAILFDPPFNG",
+   "page": "LP2-38"
+  },
+  {
+   "rule": "totient k-p mod 113",
+   "F": true,
+   "key": "prime p s=335",
+   "z": 4.54984982545146,
+   "zraw": 4.272527608104936,
+   "rank": 1,
+   "tr": "EIAUTEFYAOEEAJNGTHHFNGNGINFUIPBNTEOEAFORFHTLJPRLOPEORSNSRFPTIFXEWEFDRIEAILFDPPFNG",
+   "page": "LP2-38"
+  },
+  {
+   "rule": "prime p+k mod 113",
+   "F": true,
+   "key": "('phrase-3-rev', 'TUNNELING TO THE \u02b3')",
+   "z": 4.551498825748219,
+   "zraw": 4.973213019496773,
+   "rank": 1,
+   "tr": "OEROSLEAXHNSSBTHNFXTDRAIALEOCFDFPHNGUJUTRWOEGEAFLALYPANGFFFHBHYRMUTOSFPELGGANI",
+   "page": "LP2-46"
+  }
+ ],
+ "ntests": 1984080,
+ "zmax": 4.720616847841345,
+ "nullmax": 4.434023913813899,
+ "seconds": 2233.2644362449646
+}

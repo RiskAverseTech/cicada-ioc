@@ -1,0 +1,48 @@
+{
+ "rows": [
+  {
+   "rule": "totient k-p mod 113",
+   "F": true,
+   "key": "('self running key', 'plaintext@1151')",
+   "z": 4.511537041922374,
+   "zraw": 4.107363430840703,
+   "rank": 1,
+   "tr": "TFJNRMAFBSFFEFGBWTMFNFFEAWHIWFTRFFOGSEAWLLBFNGEAWHTHEOFHXIALNNNGRRTOEEEONHNOGFTF",
+   "page": "LP2-19"
+  },
+  {
+   "rule": "totient p+k mod 29",
+   "F": true,
+   "key": "('fibonacci', 'F[n+4]')",
+   "z": 4.637739217873525,
+   "zraw": 4.637739217873524,
+   "rank": 1,
+   "tr": "YTHCEOELNGIRGENEEATHWFSTHHAUATHXYPCWIATHEOOENCNGFXOENGOORXTOEASPLFPGPYPTCFOEHOFSGTG",
+   "page": "LP2-35"
+  },
+  {
+   "rule": "prime p+k mod 110",
+   "F": true,
+   "key": "('vigenere-word', 'HAUE')",
+   "z": 5.711698393790044,
+   "zraw": 5.344975401517596,
+   "rank": 1,
+   "tr": "PSOBYFUSEEAILIBAFTFURUIAWPOFIAANCSILNGEOYFYFSTNGCEONCSLDOLNUIUSCOHNIEFWINYANGN",
+   "page": "LP2-43"
+  },
+  {
+   "rule": "prime p+k mod 113",
+   "F": true,
+   "key": "('affine position', '14\u00b7n+12')",
+   "z": 4.552802744567208,
+   "zraw": 4.443113595597582,
+   "rank": 1,
+   "tr": "EANGITPPFFEALAEOBIBGNGTWHEIARTHNFIRAWHOSLFFFTNGEWFNEAEAIRPEAFNGHSIJOFCULFERXEPGI",
+   "page": "LP2-43"
+  }
+ ],
+ "ntests": 1584576,
+ "zmax": 5.711698393790044,
+ "nullmax": 4.726323626050771,
+ "seconds": 2000.6138610839844
+}

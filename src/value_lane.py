@@ -45,12 +45,14 @@ def sieve(n):
         if s[i]: s[i * i::i] = False
     return np.flatnonzero(s)
 PRIMES = sieve(20000); LKEY = max(len(C) for _, C in F.pages) + S_MAX + 2
+KEYSET = os.environ.get("KEYSET", "book")          # "book": the 2,905 phrase keys + 3,000 prime streams (pass 1); "phase3": the 4,716 word and text keys (pass 2, 2026-10-31)
 _, _, Kbook, Lbook = F.ALLSETS[0]; Kbook = Kbook[:, :LKEY]
+_, _, Kp3, Lp3 = F.ALLSETS[3]; Kp3 = Kp3[:, :LKEY]; OUTP = "" if KEYSET == "book" else "_p3"
 ps = []; pl = []
 for s in range(1000):
     seg = PRIMES[s:s + LKEY]
     for name, arr in (("p", seg), ("p-1", seg - 1), ("p+1", seg + 1)): ps.append(arr % N); pl.append((f"prime {name}", f"s={s}"))
-KALL = np.vstack([Kbook, np.array(ps)]); LALL = [str(l) for l in Lbook] + [f"{a} {b}" for a, b in pl]
+KALL = np.vstack([Kbook, np.array(ps)]) if KEYSET == "book" else Kp3; LALL = ([str(l) for l in Lbook] + [f"{a} {b}" for a, b in pl]) if KEYSET == "book" else [str(l) for l in Lp3]
 pages = [(pid, np.asarray(C)) for pid, C in F.pages if len(C)]
 
 
@@ -103,11 +105,11 @@ if CONTROLS:
     json.dump(ctrl, open(RESULTS / "value_lane_controls.json", "w"), indent=1); sys.exit(0)
 
 if MERGE:
-    shards = [json.loads(p.read_text()) for p in sorted(RESULTS.glob("value_lane_shard*.json"))]
+    shards = [json.loads(p.read_text()) for p in sorted(RESULTS.glob("value_lane_shard*.json")) + sorted(RESULTS.glob("value_lane_p3_shard*.json"))]
     ctrl = json.load(open(RESULTS / "value_lane_controls.json")); rows = sorted([r for d in shards for r in d["rows"]], key=lambda r: -r["z"])
     nt = sum(d["ntests"] for d in shards); zmax = max(d["zmax"] for d in shards); nullmax = max(d["nullmax"] for d in shards)
     cands = [r for r in rows if r["z"] >= Z_HIT and r["rank"] == 1 and r["z"] > nullmax]
-    out = ["# Value arithmetic as the cipher", "", f"Registration: `results/value_lane_registration.md`. {len(RULES)} rules × {len(KALL):,} keys × 2 F × {len(pages)} pages = **{nt:,} decodes**; z against {NULLK} random keys per (page, rule, F). Largest z {zmax:.2f}; largest null z over every null draw {nullmax:.2f}.", "",
+    out = ["# Value arithmetic as the cipher", "", f"Registration: `results/value_lane_registration.md`. {len(RULES)} rules × {len(Kbook) + len(Kp3) + len(ps):,} keys ({len(Kbook):,} phrase keys and {len(ps):,} prime-stream variants in pass 1, {len(Kp3):,} word and text keys in pass 2) × 2 F × {len(pages)} pages = **{nt:,} decodes**; z against {NULLK} random keys per (page, rule, F). Largest z {zmax:.2f}; largest null z over every null draw {nullmax:.2f}.", "",
            "## Controls (English at page length under the rule, soft 0.81, a random book key; decoded over the 7,621 book keys)", "", "| rule | F | planted key | z | rank | top is planted | rune accuracy | pass |", "|---|---|---|---|---|---|---|---|"]
     for c in ctrl: out.append(f"| {c['rule']} | {c['F']} | {c['planted']} | {c['z']:.1f} | {c['rank']} | {c['top_is_planted']} | {c['acc']:.2f} | {'yes' if c['ok'] else 'no'} |")
     out += ["", f"Controls passing: {sum(c['ok'] for c in ctrl)} of {len(ctrl)}.", "", "## Rows at z ≥ 4.5 (top 25)", "", "| page | rule | F | key | z (corrected) | raw z | rank | transliteration |", "|---|---|---|---|---|---|---|---|"]
@@ -124,5 +126,5 @@ for pid, C in mine:
     for r in rows: r["page"] = pid
     allrows += rows; NT += nt; ZMAX = max(ZMAX, zmax); NMAX = max(NMAX, nullmax)
     print(f"  {pid}: {NT:,} tests, zmax {ZMAX:.2f}, null max {NMAX:.2f}, rows {len(allrows)} [{time.time()-t0:.0f}s]", flush=True)
-json.dump(dict(rows=allrows, ntests=NT, zmax=ZMAX, nullmax=NMAX, seconds=time.time() - t0), open(RESULTS / f"value_lane_shard{SHARD}.json", "w"), indent=1)
+json.dump(dict(rows=allrows, ntests=NT, zmax=ZMAX, nullmax=NMAX, seconds=time.time() - t0), open(RESULTS / f"value_lane{OUTP}_shard{SHARD}.json", "w"), indent=1)
 print(f"shard {SHARD}/{NSHARD} done: {NT:,} tests [{time.time()-t0:.0f}s]")

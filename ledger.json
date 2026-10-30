@@ -501,6 +501,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a767",
+   "lane": "Value arithmetic as the cipher: 24 rules ({prime, totient} x {p+k, p-k, k-p, p*k} x mod {29, 110, 113}) through a general-rule table hook, the book's 7,621 keys and 3,000 prime-stream variants, F on and off; registered first, null amended once before any row was read",
+   "tests": 28039440,
+   "controls": "6/6 planted (z 14.5-16.3, rune accuracy 0.83-0.91)",
+   "verdict": "null (182 rows at z >= 4.5; two meet the mechanical bar at z 7.05 and 6.10 and are unreadable, 5-gram z +4.2 / +1.7 against +51 for English)",
+   "coverage_limit": "a non-bijective rule gives every key its own baseline: subtracted analytically after the first sweep was stopped unread; rules outside the family (other moduli, mixed forms, external running keys) not run",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a756",
    "lane": "Validation release after the second external review: n-gram lower orders, standalone R4n, K-fixed sampler clock fixed; affected statistics rerun; four summaries corrected",
    "tests": null,

@@ -1,0 +1,118 @@
+{
+ "rows": [
+  {
+   "rule": "prime p+k mod 29",
+   "F": true,
+   "key": "prime p-1 s=587",
+   "z": 4.686461295848932,
+   "zraw": 4.686461295848934,
+   "rank": 1,
+   "tr": "OCLNWOYIEAPEOUFOLYOCXWEOSRWEAWAHIENGWFXWIAOAEGFIANANGWEACRAGEOIAUIAPXWIGWTHOFLHSXNG",
+   "page": "LP2-04"
+  },
+  {
+   "rule": "prime p+k mod 29",
+   "F": true,
+   "key": "prime p-1 s=589",
+   "z": 5.225953586680193,
+   "zraw": 5.225953586680196,
+   "rank": 1,
+   "tr": "EPIAHEASRIJJGEAECNGNSIGWTHWGIXRRTHATHGFNGEAPLFFCLFEAESUERRTHLPRXNEFGUHGCTHOFYIHYH",
+   "page": "LP2-04"
+  },
+  {
+   "rule": "prime p+k mod 29",
+   "F": true,
+   "key": "prime p-1 s=590",
+   "z": 4.671011060831314,
+   "zraw": 4.671011060831317,
+   "rank": 1,
+   "tr": "OUHEAFFRRIJJGEAECNGNSIGWTHWGIXRRTHATHGFNGEAPLFFCLFEAESUERRTHLPRXNEFGUHGCTHOFYIHYH",
+   "page": "LP2-04"
+  },
+  {
+   "rule": "prime p+k mod 113",
+   "F": true,
+   "key": "('sentence', 'THAT IS WHAT YOU DO NOT WHO YOU ARE REPLIED THE MASTER')",
+   "z": 4.508876824520489,
+   "zraw": 4.864652103062043,
+   "rank": 1,
+   "tr": "LPEARWFAFTIACUFOFDOEAFFXFYEUEWFFAFEWIEAORBAIFRGDFSSTHWROEAPYNGTUOPGYUFUNGPEN",
+   "page": "LP2-04"
+  },
+  {
+   "rule": "prime p*k mod 110",
+   "F": true,
+   "key": "('phrase-2-rev', 'BUT FOR \u02b3')",
+   "z": 4.508152662737872,
+   "zraw": -0.4652893501012882,
+   "rank": 1,
+   "tr": "FFATIAOFAGFSPFGYFSFYIYFRERIAOWESPJOTFFFWJSRERFIJEFEPSWFTSDOIASFTFIOFNGOOR",
+   "page": "LP2-04"
+  },
+  {
+   "rule": "totient p+k mod 113",
+   "F": true,
+   "key": "('phrase-3', 'BELONG AND BE')",
+   "z": 4.571594446041973,
+   "zraw": 4.120099642420591,
+   "rank": 1,
+   "tr": "WFAJNGFEWTUWOEMFYOFEEAFFUXRSFFHLDFTIAEIWPNOSSUWJOELOHNOEANGPNGHFFUWNGWMFIBTSPS",
+   "page": "LP2-04"
+  },
+  {
+   "rule": "totient p+k mod 113",
+   "F": true,
+   "key": "('phrase-3-rev', 'PAGE THAT HASHES \u02b3')",
+   "z": 4.583510361778755,
+   "zraw": 3.732195395997828,
+   "rank": 1,
+   "tr": "FFTHFBXJRISEHOIFEBNGTEASFEARFFPEFTOOAXNWEEJOWFNWPNRRGNGEJOFFEONFEAHFESFOOEAUAW",
+   "page": "LP2-04"
+  },
+  {
+   "rule": "totient p*k mod 113",
+   "F": true,
+   "key": "prime p s=780",
+   "z": 5.138363486480416,
+   "zraw": 4.3971767892654485,
+   "rank": 1,
+   "tr": "ATORSHRLFEFLFENIFWEOWFTHBAUFIHYICAESIUTYCTHOEOAEFCFNGOFGNTIATHFUFFSWFEHBTFFRREAS",
+   "page": "LP2-04"
+  },
+  {
+   "rule": "totient p*k mod 113",
+   "F": true,
+   "key": "prime p s=781",
+   "z": 4.533193485600562,
+   "zraw": 3.8177298774504163,
+   "rank": 1,
+   "tr": "PFFMFDFYEEFLFENIFWEOWFTHBAUFIHYICAESIUTYCTHOEOAEFCFNGOFGNTIATHFUFFSWFEHBTFFRREAS",
+   "page": "LP2-04"
+  },
+  {
+   "rule": "prime p*k mod 29",
+   "F": false,
+   "key": "('phrase-3', 'FOR ALL THAT')",
+   "z": 4.726750448971517,
+   "zraw": 5.471575695082878,
+   "rank": 1,
+   "tr": "NGPJEAEOIAPAPCFIFGJHPFOEJIAIYFTHCEAFIAECAFNGTCNGYNCNEOORWOXGXGRSFEOEEOROROJPGJLJYGJ",
+   "page": "LP2-20"
+  },
+  {
+   "rule": "totient p+k mod 29",
+   "F": true,
+   "key": "('phrase-2-rev', 'MUCH BECAUSE \u02b3')",
+   "z": 4.616817587589191,
+   "zraw": 4.61681758758919,
+   "rank": 1,
+   "tr": "NGJTHHLSJTLIOTGPOWTUYIARTHWWTHPEFFUFGEFYAFNHTEAOLNGAOWOSFTRSFEUTSIEIFFUWWYYLEO",
+   "page": "LP2-44"
+  }
+ ],
+ "ntests": 1984080,
+ "zmax": 5.225953586680193,
+ "nullmax": 4.508596595737198,
+ "seconds": 2756.0677042007446
+}

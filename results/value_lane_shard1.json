@@ -1,0 +1,98 @@
+{
+ "rows": [
+  {
+   "rule": "prime p-k mod 113",
+   "F": true,
+   "key": "('phrase-2', 'FIND THE')",
+   "z": 4.760586512205402,
+   "zraw": 4.512461608285401,
+   "rank": 1,
+   "tr": "FEOERYHNGSEOXOUFMUSTOESAWBIILBOWFTHOELXWFJSRDOFCSLOIPXALICRJEAOEENGAGSIFDIDNPFI",
+   "page": "LP2-09"
+  },
+  {
+   "rule": "totient p-k mod 113",
+   "F": true,
+   "key": "('phrase-2', 'FIND THE')",
+   "z": 5.139310152261116,
+   "zraw": 4.854995077797805,
+   "rank": 1,
+   "tr": "FEOERYHNGSEOXOUFMUSTOESAWBIILBOWFTHOELXWFJSRDOFCSLOIPXALICRJEAOEENGAGSIFDIDNPFI",
+   "page": "LP2-09"
+  },
+  {
+   "rule": "totient k-p mod 113",
+   "F": true,
+   "key": "('phrase-3-rev', 'ANYTHING ELSE TO \u02b3')",
+   "z": 4.524548015304454,
+   "zraw": 3.741992642413431,
+   "rank": 1,
+   "tr": "FHALFGIOEMLBNRGWUJHWEAFREREOOOJCBSIAMRLFTFWGTHOSIFOJOHSHGHWJDJPHOENYNCRUFWX",
+   "page": "LP2-09"
+  },
+  {
+   "rule": "totient p*k mod 29",
+   "F": true,
+   "key": "('phrase-3-rev', 'LIVES IS HOLY \u02b3')",
+   "z": 4.607814512516538,
+   "zraw": 5.383744779707819,
+   "rank": 1,
+   "tr": "SOPNEOEOOOEYFRTHPPROASLNGIIAWTPLHJSSXNJFROOIFILJYNRXIAGWNGPEUCWAGJICRIFTOYTHUNGY",
+   "page": "LP2-09"
+  },
+  {
+   "rule": "totient p*k mod 29",
+   "F": true,
+   "key": "prime p s=167",
+   "z": 4.5636487554561995,
+   "zraw": 3.7455972548753635,
+   "rank": 1,
+   "tr": "CJCWXFOHUEAUAEAFTHYAITHNICEFOIASPRRESOROEGUTHFRTHCOEWAYWFFAOENERNHOENGYITTEAEFNIAL",
+   "page": "LP2-09"
+  },
+  {
+   "rule": "prime p*k mod 110",
+   "F": true,
+   "key": "('phrase-2-rev', 'ARBITRARY BODY \u02b3')",
+   "z": 4.657062902297136,
+   "zraw": -0.1009175412542089,
+   "rank": 1,
+   "tr": "ERSAEFFDFHUMFFTHFNMLTFFTHOEDNGFYOFAXGEFFTHSBFJDGHTHIAFIFFYONGFIALEAOEHFAEECCNGFAESAFH",
+   "page": "LP2-33"
+  },
+  {
+   "rule": "prime k-p mod 110",
+   "F": true,
+   "key": "prime p+1 s=302",
+   "z": 5.024692455400578,
+   "zraw": 4.928946220096132,
+   "rank": 1,
+   "tr": "HIACGHFDCNGPJUIFUHOEBNNAPESFXFASIAMUEOIOFATUFNPEAHNGLEOLGWUFNUDCSRBYFBCBTHTHHTHNGF",
+   "page": "LP2-41"
+  },
+  {
+   "rule": "prime p*k mod 29",
+   "F": true,
+   "key": "('phrase-2-rev', 'AND SUFFERING \u02b3')",
+   "z": 4.653414565946981,
+   "zraw": 1.1322038319005134,
+   "rank": 1,
+   "tr": "REAEAEACYOCFYAFFYUIAAFPTUIAFUHYNPXEEJSHFOEFCIRSPRJPTHFYCWGEAFEPNFTHLXNYCETWFEAOI",
+   "page": "LP2-41"
+  },
+  {
+   "rule": "totient k-p mod 110",
+   "F": true,
+   "key": "prime p+1 s=302",
+   "z": 5.174705660452906,
+   "zraw": 5.080141188254141,
+   "rank": 1,
+   "tr": "HIACGHFDCNGPJUIFUHOEBNNAPESFXFASIAMUEOIOFATUFNPEAHNGLEOLGWUFNUDCSRBYFBCBTHTHHTHNGF",
+   "page": "LP2-41"
+  }
+ ],
+ "ntests": 1984080,
+ "zmax": 5.174705660452906,
+ "nullmax": 4.428522348580314,
+ "seconds": 2688.6006820201874
+}

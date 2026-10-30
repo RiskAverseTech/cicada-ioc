@@ -1,0 +1,108 @@
+{
+ "rows": [
+  {
+   "rule": "prime p+k mod 113",
+   "F": false,
+   "key": "('phrase-4', 'CAUSE THE LOSS OF')",
+   "z": 4.560677498170448,
+   "zraw": 5.561583632123708,
+   "rank": 1,
+   "tr": "ISLHTFEFFIRWNGXJRMSIOEAPOIYHONGFAOFBHPTFJXSPPLJJHTHMOGWCTPOETCLFORDJRUYAXYG",
+   "page": "LP2-00"
+  },
+  {
+   "rule": "prime k-p mod 113",
+   "F": true,
+   "key": "('phrase-2-rev', 'OR CHANGE \u02b3')",
+   "z": 4.8186830019675035,
+   "zraw": 4.660004900730967,
+   "rank": 1,
+   "tr": "HAIFIPRFFCIXBIFLPFEGFSOEONGMEACXMENFEFJURJEOEAFFEAFTRFFEGSEABYSLRNGEAPFSSGEJEFM",
+   "page": "LP2-00"
+  },
+  {
+   "rule": "prime p*k mod 110",
+   "F": true,
+   "key": "('phrase-3-rev', 'FOR THOSE WHO \u02b3')",
+   "z": 4.7493496744414605,
+   "zraw": 0.05827300466179371,
+   "rank": 1,
+   "tr": "DTPOEFAGFDAAECEEYNTHFFRYSWATFTFDRSOETHHTOFIATFSCNGWGFRIAEUFJBALPFFFUFDAEGFNGSUR",
+   "page": "LP2-00"
+  },
+  {
+   "rule": "totient k-p mod 113",
+   "F": true,
+   "key": "('phrase-2-rev', 'OR CHANGE \u02b3')",
+   "z": 5.193642270284947,
+   "zraw": 4.971591669527197,
+   "rank": 1,
+   "tr": "HAIFIPRFFCIXBIFLPFEGFSOEONGMEACXMENFEFJURJEOEAFFEAFTRFFEGSEABYSLRNGEAPFSSGEJEFM",
+   "page": "LP2-00"
+  },
+  {
+   "rule": "totient p*k mod 113",
+   "F": true,
+   "key": "prime p s=423",
+   "z": 4.660497944055575,
+   "zraw": 4.224280706856011,
+   "rank": 1,
+   "tr": "FEINGSABFFIDOESTHTHSIAEFUOPHEOFFWFEOFNFHOEAJMTHLAFNIAIFIBLAUEATHPLOFFIARTHFFWIIAEHNGF",
+   "page": "LP2-00"
+  },
+  {
+   "rule": "prime p-k mod 110",
+   "F": true,
+   "key": "('phrase-3', 'BELEIVE THE FOLLWING')",
+   "z": 4.575160229324932,
+   "zraw": 5.173739998628325,
+   "rank": 1,
+   "tr": "GAEIGWEOHANHIEOEAIYEAEAFOUUFGCLTBNGIADHFOFCNGSOEPNBANRPENGTOUHECAEWFEADSPLCCEYEN",
+   "page": "LP2-48"
+  },
+  {
+   "rule": "prime p*k mod 110",
+   "F": true,
+   "key": "('phrase-2', 'THE MASTER')",
+   "z": 5.402351217691501,
+   "zraw": 0.7458258850928701,
+   "rank": 1,
+   "tr": "WTHEAHYJPFFMUIANAUFFFNGSYWWIFOOAUCTHLFIODFEAFENGIXSEOFFFREOEWWEFFOBLEAOEFFIEYNGPL",
+   "page": "LP2-48"
+  },
+  {
+   "rule": "prime p*k mod 113",
+   "F": false,
+   "key": "('phrase-4', 'IS THE BEHAVIORS OF')",
+   "z": 4.513875410504218,
+   "zraw": 2.102905960003221,
+   "rank": 1,
+   "tr": "FMSFSEOEACEHWFFSFIAPEAGTHSEJFTHYFIALNSXWEAHWFTRFWEAHFFEONFHIAEERIAFAASYFWOJACDFF",
+   "page": "LP2-48"
+  },
+  {
+   "rule": "totient p+k mod 110",
+   "F": true,
+   "key": "prime p+1 s=931",
+   "z": 4.58477929039498,
+   "zraw": 4.57581333676163,
+   "rank": 1,
+   "tr": "THXFREACEONGNNGACELLCFENGACNEEAIAUDENFHRFGBXEOASYSFSEACUURAEWRSREASPNGHEOEJTHFIPEGHIA",
+   "page": "LP2-48"
+  },
+  {
+   "rule": "totient k-p mod 113",
+   "F": true,
+   "key": "('phrase-4', 'OBTAIN WHAT WE NEED')",
+   "z": 4.719963318204072,
+   "zraw": 2.9224834799852926,
+   "rank": 1,
+   "tr": "OEFFNLAFNGNXFWLFFIAFJGFSESASSWNMEFEIFILTAFLJJREARLAEOAUXFFPFRTOWOFFXHDFUNGO",
+   "page": "LP2-48"
+  }
+ ],
+ "ntests": 1984080,
+ "zmax": 5.402351217691501,
+ "nullmax": 4.326779540282174,
+ "seconds": 2737.5629732608795
+}
