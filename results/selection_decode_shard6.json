@@ -1,0 +1,19 @@
+{
+ "rows": [
+  {
+   "rule": "not fibonacci",
+   "page": "LP2-33",
+   "selected": 203,
+   "sign": "add",
+   "F": true,
+   "fam": "square position",
+   "key": "n\u00b2+21",
+   "z": 5.123540957859539,
+   "rank": 1,
+   "tr": "SFBOWLIEAULXFAGOEPDETUHPBMPWIAPNAEDWNRIYRCDLYEWTUYIAFGACTHMOIFORTRNGWXEMNGEAOSTHDOSAIAESUDE"
+  }
+ ],
+ "ntests": 12528924,
+ "zmax": 5.123540957859539,
+ "seconds": 16752.194283008575
+}

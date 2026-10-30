@@ -465,6 +465,24 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a763",
+   "lane": "Sparse-message lane: 75 position rules x 55 pages; S1 IoC / repeats vs per-page shuffles, S2 5-gram in the clear, S3 selected streams >= 40 runes under the book's 7,621 keys x 3 signs x 2 F; four claims registered first",
+   "tests": 111479988,
+   "controls": "6/6 (3 clear, 3 keyed; z 7.2-28.9)",
+   "verdict": "null (no stream in the clear, largest pooled 5-gram z +2.0; no decode, largest z 5.12 in 111.5 M tests, unreadable); Q3 fails: line-first runes IoC 1.090, z +7.1, pooled distribution differs from the page (chi2 78.7, 28 df) on the unsolved pages and not the solved",
+   "coverage_limit": "value-dependent and cross-page rules and streams under 40 runes outside the lane; the line-first effect registered as \u00a764 before any further look",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a764",
+   "lane": "The line-first rune: in-line columns 0-15 and from-end 0-5, pooled IoC and within-page coincidences vs 2,000 within-page shuffles, with and without the page-initial runes; four claims registered first",
+   "tests": null,
+   "controls": "\u2014",
+   "verdict": "measured: column 0 only (pooled z +7.2; +5.6 without page-initial runes), columns 1-15 and line ends flat; R1-R4 hold; a per-line key restart excluded in both registered forms",
+   "coverage_limit": "a line-initial glyph effect shared across pages, simplest glyphs under and widest over; transcription or design, for the page images",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a756",
    "lane": "Validation release after the second external review: n-gram lower orders, standalone R4n, K-fixed sampler clock fixed; affected statistics rerun; four summaries corrected",
    "tests": null,
