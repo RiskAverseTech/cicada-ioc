@@ -492,6 +492,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a766",
+   "lane": "The red runs (19 runs, 213 runes, 13 colour pages) as own-page and cross-page repeating keys, as a 213-rune running key at every offset, as ciphertext under the book's keys, and in the clear / self-keyed; registered first",
+   "tests": 833202,
+   "controls": "C1 z 12.3 rank 1, C2 z 14.8 rank 1; C3 at 50 runes rank 1 but z 3.7 (below the bar); C4 at 12 runes not found",
+   "verdict": "null as key, keystream and plaintext (largest z 3.54 / 4.69 / 1.7); below power as ciphertext on their own",
+   "coverage_limit": "K1 fails as written: the script's C1 flag demanded the F setting the registration did not ask for, and C3 shows z >= 6 unreachable at 8-24 runes; 23 grayscale scans blind to colour",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a756",
    "lane": "Validation release after the second external review: n-gram lower orders, standalone R4n, K-fixed sampler clock fixed; affected statistics rerun; four summaries corrected",
    "tests": null,
