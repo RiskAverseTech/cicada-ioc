@@ -483,6 +483,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a765",
+   "lane": "The line-first rune on the page scans: glyph segmentation of the 55 pages (75 scans, SHA-256 recorded, image NN = chunk NN-1), first glyphs vs their line and rune type, the greedy-fill rule G1 and the width-weighted prediction G2, registered first",
+   "tests": null,
+   "controls": "\u2014",
+   "verdict": "measured: digital font, fixed widths; first glyphs identical to their rune type (439 lines); G1 95.6 % of line pairs, G2 chi2 34.5 (p 0.18) from 78.7; both hold",
+   "coverage_limit": "the \u00a763/\u00a764 effect is the line fill selecting wide glyphs: typesetting, closed; red text inventoried on 32 colour scans (23 grayscale blind); one measurement fix (ornament piece at the page edge) recorded",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a756",
    "lane": "Validation release after the second external review: n-gram lower orders, standalone R4n, K-fixed sampler clock fixed; affected statistics rerun; four summaries corrected",
    "tests": null,
