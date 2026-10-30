@@ -111,3 +111,21 @@ def test_wc_decoder_recovers_word_fillers_and_never_places_two_in_a_word():
     planted = {k for k in range(W.max() + 1) if (~real[W == k]).any()}; found = {k for k in range(W.max() + 1) if nulls[0][W == k].any()}
     assert len(planted & found) >= 0.75 * len(planted), "filler words not recovered"     # a unigram scorer places a filler at a word edge in the neighbouring word now and then
     for k in range(W.max() + 1): assert nulls[:, W == k].sum(1).max() <= 1, "two fillers placed in one word"
+
+
+def test_table_hook_equals_plain_decoder_on_additive_tables():
+    """§67's general-rule hook: with the additive table it must reproduce the plain decoder exactly, skips and literal F included."""
+    import numpy as np
+    from score import decode, S_MAX, LOGU
+    from skip_decrypt import encrypt
+    rng, words, P, wid, lu = _wc_fixture(9); N = 29
+    for mode, enc in (("sub", (np.arange(N)[:, None] + np.arange(N)[None, :]) % N), ("beaufort", (np.arange(N)[None, :] - np.arange(N)[:, None]) % N)):
+        table = np.zeros((N, N), int); tgain = np.zeros((N, N))
+        for k in range(N):
+            for p in range(N): table[enc[p, k], k] = p; tgain[enc[p, k], k] = lu[p] - LOGU
+        for f_rule in (False, True):
+            K = rng.integers(0, N, size=len(P) + S_MAX + 2); C = encrypt(P, K, f_rule, rng, 0.81, mode)
+            Ks = np.vstack([K[None, :], rng.integers(0, N, size=(30, len(K)))])
+            a, ta, da = decode(C, Ks, lu, f_rule, mode); b, tb, db = decode(C, Ks, lu, f_rule, mode, table=table, tgain=tgain, enc=enc)
+            assert np.allclose(a, b) and np.array_equal(ta, tb) and np.array_equal(da, db), (mode, f_rule)
+            assert a.argmax() == 0 and (da[0] == P).mean() > 0.95

@@ -29,7 +29,7 @@ def english_model():
     return lu, lb, plain
 
 
-def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, penalty=0.0, rejection="one", mult_inv=None, offset=None, max_skip=MAX_SKIP, echo_mask=None, echo_gain=0.0):
+def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, penalty=0.0, rejection="one", mult_inv=None, offset=None, max_skip=MAX_SKIP, echo_mask=None, echo_gain=0.0, table=None, tgain=None, enc=None):
     """C: (n,) ciphertext; Ks: (m, L) keystreams, L >= n + S_MAX.
     mode "sub": P = C - K (additive cipher C = P + K); mode "beaufort": P = K - C (C = K - P).
     For C = P - K pass -K with mode "sub".  The forced-skip condition C_i - C_{i-1} == K_j - K_{j-1}
@@ -60,6 +60,11 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
     symbol consumed unused.  Option at such i: t unchanged, gain `echo_gain` (log of the echo probability relative
     to uniform), plaintext = the decoded rune d back.  The held-key form of the same echo is null_mask at the same
     positions with penalty = echo_gain.
+    table / tgain / enc (2026-10-31, §67): a general two-argument rule.  enc[p, k] = c is the rule's encryption table,
+    table[c, k] the plaintext the decoder takes for cipher c under key k (the best candidate when the rule is not a
+    bijection, any fixed value when c is unreachable under k) and tgain[c, k] its gain (lu[p] - LOGU, or a finite penalty
+    when unreachable).  The forced-skip condition becomes enc[P, K_(j-1)] == C_(i-1) with P the plaintext taken at
+    (C_i, K_j).  mode, mult_inv and offset are ignored when table is given.
     Returns best LLR (m,), best final state (m,), decoded plaintext along the best path (m, n)."""
     C = np.asarray(C); m, L = Ks.shape; n = len(C)
     T0 = (int((C == 0).sum()) if f_rule else 0) + (int(np.asarray(null_mask).sum()) if null_mask is not None else 0)  # room for j < i
@@ -74,16 +79,19 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
         c = C[i]
         j = np.clip(i + jbase, 0, L - 1)
         Kj = Ks[:, j]
-        ce = c if offset is None else (c - offset[i]) % N
-        P = ((ce - Kj) if mode == "sub" else (Kj - ce)) % N
-        if mult_inv is not None:
-            P = (P * (mult_inv[i] if mult_inv.ndim == 1 else mult_inv[:, i][:, None])) % N
-        gain = lu[P] - LOGU
+        if table is not None:
+            P = table[c, Kj]; gain = tgain[c, Kj]
+        else:
+            ce = c if offset is None else (c - offset[i]) % N
+            P = ((ce - Kj) if mode == "sub" else (Kj - ce)) % N
+            if mult_inv is not None:
+                P = (P * (mult_inv[i] if mult_inv.ndim == 1 else mult_inv[:, i][:, None])) % N
+            gain = lu[P] - LOGU
         stay = dp + gain
         cand = stay; src = np.zeros((m, S), dtype=np.int8)
         if i > 0 and rejection == "one":
             Kprev = Ks[:, np.clip(j - 1, 0, L - 1)]
-            cond = ((c - C[i - 1]) - (Kj - Kprev)) % N == 0
+            cond = (enc[P, Kprev] == C[i - 1]) if table is not None else (((c - C[i - 1]) - (Kj - Kprev)) % N == 0)
             # k rejections at this position: K_{j-1} .. K_{j-k} all equal, each would have reproduced
             # C_{i-1} (k = 2 is the doubled-letter case; k up to max_skip covers longer runs in the key)
             condk = cond
@@ -130,10 +138,12 @@ def decode(C, Ks, lu, f_rule=False, mode="sub", adv_mask=None, null_mask=None, p
         src = back[i][rows, t]
         j = np.clip(i + (t - T0), 0, L - 1)
         Kj = Ks[rows, j]
-        ce = c if offset is None else (c - offset[i]) % N
-        dec = ((ce - Kj) if mode == "sub" else (Kj - ce)) % N
-        if mult_inv is not None:
-            dec = (dec * (mult_inv[i] if mult_inv.ndim == 1 else mult_inv[:, i])) % N
+        if table is not None: dec = table[c, Kj]
+        else:
+            ce = c if offset is None else (c - offset[i]) % N
+            dec = ((ce - Kj) if mode == "sub" else (Kj - ce)) % N
+            if mult_inv is not None:
+                dec = (dec * (mult_inv[i] if mult_inv.ndim == 1 else mult_inv[:, i])) % N
         out[:, i] = np.where(src == -1, 0, np.where(src == -3, c, dec))   # a null is written as itself
         t = t - np.where(src > 0, src, 0) + (src == -1) + (src == -3)
     if echo_mask is not None:                                 # an echoed rune's plaintext is the plaintext d back
