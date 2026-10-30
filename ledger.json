@@ -456,6 +456,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a762",
+   "lane": "pnotisdev's full library (1,439 streams, periodic ones below their period) at offsets 0-999 under the free-null decoder: 160-rune windows on LP2-00/01/02 x 3 signs x 2 F, full-page tier 2; claims registered first",
+   "tests": 10599030,
+   "controls": "5/6 rank 1 (the same six plants as \u00a755c; the rank-2 alias passes tier 2)",
+   "verdict": "null (377 tier-1 survivors, no candidate; largest tier-1 z 7.06 against 6.5 registered, page z 5.55, unreadable; largest page z 5.75)",
+   "coverage_limit": "P1 and P3 fail as written: the control claim was copied without re-reading \u00a755c and the chance maximum assumed Gaussian tails; non-periodic offsets >= 2,000 and tier 1 beyond the first three pages open",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a756",
    "lane": "Validation release after the second external review: n-gram lower orders, standalone R4n, K-fixed sampler clock fixed; affected statistics rerun; four summaries corrected",
    "tests": null,

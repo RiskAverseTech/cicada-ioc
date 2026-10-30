@@ -3,13 +3,13 @@
 | | |
 |---|---|
 | **Breakthroughs** | **0** (a page decoding to readable English at a pre-registered bar, reproduced by someone else) |
-| Decoder tests run | 915 million, all pre-registered, all with planted controls |
-| Lanes closed null | 30 of 52 (none running) |
+| Decoder tests run | 925 million, all pre-registered, all with planted controls |
+| Lanes closed null | 31 of 53 (none running) |
 | Pages | 55 unsolved with runes (12,956 runes); coverage limits listed per lane |
 | The structures | 86 doubled runes where 445 are expected (0.19 of uniform; solved pages sit at 0.86); inside words, a lag-5 echo that copies equality in runs (102 vs 71 pairs, 9 vs 1.5 bigrams), 11 of the pairs S (3.5 expected under a uniform key, p 0.005; about 6.5 expected under an English running key, §47 corrected), and a lag-6 relation c = 24 − 2c′ (77 vs 44); the two echoes share words only at the level of description (p 0.11 once word length is held); flat in every other statistic |
 | Best current reading | E56w+n (§58): a gated word-internal echo (plaintext repeat at lag 5 → copy the cipher rune; at lag 6 → 24 − 2c) in about half the words, one filler rune in about half the words, the spend repair at q 0.81, iid key, English plaintext; the first rule inside every pre-registered band (§47's ten statistics, §57's sixteen cells, consistency cells whose values were public); it predicts five S pairs against eleven, passing that cell on spread at the borrowed rate 0.45 and failing it (z +3.2) at the rate the word lengths fit, 0.40 (§59), so the S weighting stays the open fact, and a description is not a decryption |
 | External reviews adopted | 3 (2026-10-27, two on 2026-10-29), 12 corrections, one claim withdrawn (§47's exclusion of every plaintext-independent key) |
-| Repository | 61 numbered sections, 93 commits as of 2026-10-30 |
+| Repository | 62 numbered sections, 97 commits as of 2026-10-30 |
 
 ## Lanes
 
@@ -65,6 +65,7 @@
 | §59 | Three registered follow-ups to E56w+n: filler rate fitted to word lengths (p* 0.40, chi² 25, inside §55's English band); lag-5 / lag-6 profiles per exact length (13 cells); solved-page lag-3..6 equality | — | — | measured: 13/13 profile cells and 4/4 solved-page lags hold; at p* the S cell fails §47's band (11 vs 4.6 ± 2.0, z +3.2) | the one free rate set by the words; the S weighting is outside E56w+n as it was outside every rule; read the filler rate as 0.40 |
 | §60 | Filler power curve: per-rune r 0.01-0.10 and the §59 per-word form p 0.2-0.6, 3 families x 3 lengths x 12 paired plants, plain and free-null decoders; seven claims registered before the run | — | 864 plant-cells | measured: C7 holds, C1-C6 fail toward a more robust plain decoder; plain power 0.02 at the fitted rate p 0.40, half at two fillers per hundred runes (a filler is absorbed when a natural key skip precedes it); free-null 0.75 at p 0.40, flat to r 0.05 | the §55 paragraph on the field's negatives weakened by its rule: zero power at the fitted rate, half in a sparse-filler world; no sweep |
 | §61 | Word-constrained filler decoder (at most one filler per word): power on §60's plants, false gain on wrong keys at page length, then the book's 22,863 key-sign configurations, 60,000 prime-stream variants and sixteen external texts at full page length; prior, claims and acceptance rule registered first | 31.4 M | 6/6 planted (z 10.8-14.0) | null (largest z 6.04 in 19.8 M prime tests, unreadable; book 5.01; texts 5.52 at full page); A1 fails, B1-B2 fail, margin arm dropped | the constraint buys nothing over free-null (power 0.73 vs 0.75, false gain -5 %); a gain margin cannot separate true from wrong keys at page length; part A's first run replayed 8/864 of §60 and was redone |
+| §62 | pnotisdev's full library (1,439 streams, periodic ones below their period) at offsets 0-999 under the free-null decoder: 160-rune windows on LP2-00/01/02 x 3 signs x 2 F, full-page tier 2; claims registered first | 10.6 M | 5/6 rank 1 (the same six plants as §55c; the rank-2 alias passes tier 2) | null (377 tier-1 survivors, no candidate; largest tier-1 z 7.06 against 6.5 registered, page z 5.55, unreadable; largest page z 5.75) | P1 and P3 fail as written: the control claim was copied without re-reading §55c and the chance maximum assumed Gaussian tails; non-periodic offsets >= 2,000 and tier 1 beyond the first three pages open |
 | §56 | Validation release after the second external review: n-gram lower orders, standalone R4n, K-fixed sampler clock fixed; affected statistics rerun; four summaries corrected | — | 3 new tests | measured: no decode negative moved; see the section for the rerun figures | the fixes bear on the mechanism table, two p-values and the wording |
 | §44 | Irrational digits (pi, e, sqrt 2, phi; three readings) under the soft rule, offsets to 30,000 | 6.5 M | 4/4 | null | base-10, digit pairs, base-29; fresh offset per page |
 

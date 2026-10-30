@@ -76,6 +76,8 @@ for i in (range(len(names)) if PN_ALL else NONPER):
     if hi > PN_OFFS[0]: units.append(("pn", i, False, np.arange(PN_OFFS[0], hi)))
 if SMOKE: units = units[:2] + [u for u in units if u[0] == "pn"][:2]; units = [(k, n, r, o[:300]) for k, n, r, o in units]
 mine = [u for j, u in enumerate(units) if j % NSHARD == SHARD]
+UNITS = os.environ.get("UNITS")                 # "a:b" reruns a slice of this shard's units (no controls); used to inspect a tier-1 event before the shard finishes
+if UNITS: a_, b_ = (int(x) for x in UNITS.split(":")); mine = mine[a_:b_]
 
 
 def dec(C, Ks, f_rule, mode, free=True):
@@ -113,8 +115,13 @@ if MERGE:
     ctr = [c for d in shards for c in d["controls"]]; surv = sorted([s for d in shards for s in d["survivors"]], key=lambda r: -r["z2"])
     cands = [c for d in shards for c in d["candidates"]]; nt = sum(d["ntests"] for d in shards); zmax1 = max(d["zmax1"] for d in shards)
     nunits = sum(d["nunits"] for d in shards); noffs = sum(d["noffs"] for d in shards); secs = max(d["seconds"] for d in shards)
-    out = [f"# The filler sweep (§55 part C): external running-key texts and pnotisdev's remaining offsets under the free-null decoder", "",
-           f"Decoder: free-null at prior {PEN:.1f} (part B: power {PB.get('power_230', float('nan')):.2f} at 230 runes for running keys with fillers at 0.10). Key material: {len(EXACT)} texts at every offset in both directions ({sum(len(texts[k][0]) for k in EXACT):,} runes), {len(SENT)} longer texts at {sum(len(texts[k][1]) for k in SENT):,} sentence starts (forward), and {len(NONPER)} non-periodic pnotisdev streams at offsets {PN_OFFS[0]:,}–{PN_OFFS[1]-1:,}: {noffs:,} offsets in {nunits} work units. Tier 1: first {WIN} runes of LP2-00/01/02 × 3 signs × 2 F = 18 cells per offset, **{nt:,} window decodes**; survive at z ≥ {Z_T1}. Tier 2: full page, candidate at z_uni ≥ {Z_UNI:.0f} and free − plain ≥ {FREE_BASE:.0f} nats and readable. Chance maximum of z over {nt:,} tests about {np.sqrt(2*np.log(max(nt,2))):.1f}.", "",
+    npn = len({u[1] for u in units if u[0] == "pn"}); nper = sum(1 for i in {u[1] for u in units if u[0] == "pn"} if periods[i])
+    km = ([f"{len(EXACT)} texts at every offset in both directions ({sum(len(texts[k][0]) for k in EXACT):,} runes)", f"{len(SENT)} longer texts at {sum(len(texts[k][1]) for k in SENT):,} sentence starts (forward)"] if TEXTS else []) + \
+         [f"{npn} pnotisdev streams ({nper} periodic, below their period only) at offsets {PN_OFFS[0]:,}–{PN_OFFS[1]-1:,}"]
+    title = ("# The filler sweep (§55 part C): external running-key texts and pnotisdev's remaining offsets under the free-null decoder" if OUT == "filler_lane"
+             else f"# pnotisdev's full keystream library at offsets {PN_OFFS[0]:,}–{PN_OFFS[1]-1:,} under the free-null decoder (`{OUT}`)")
+    out = [title, "",
+           f"Decoder: free-null at prior {PEN:.1f} (part B: power {PB.get('power_230', float('nan')):.2f} at 230 runes for running keys with fillers at 0.10). Key material: {'; '.join(km)}: {noffs:,} offsets in {nunits} work units. Tier 1: first {WIN} runes of LP2-00/01/02 × 3 signs × 2 F = 18 cells per offset, **{nt:,} window decodes**; survive at z ≥ {Z_T1}. Tier 2: full page, candidate at z_uni ≥ {Z_UNI:.0f} and free − plain ≥ {FREE_BASE:.0f} nats and readable. Chance maximum of z over {nt:,} tests about {np.sqrt(2*np.log(max(nt,2))):.1f}.", "",
            "## Controls (soft rule 0.81, fillers at 0.10, corpus text at a random offset)", "",
            "| control | text | reversed | sign | F | planted offset | tier-1 top offset | tier-1 z | rank | tier-2 z_uni | free − plain | pass |", "|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for c in ctr: out.append(f"| {c['id']} | {c['text']} | {c['rev']} | {c['sign']} | {c['F']} | {c['offset']} | {c['top']} | {c['z1']:.1f} | {c['rank']} | {c['z2']:.1f} | {c['fb']:+.0f} | {'yes' if c['pass'] else 'no'} |")
@@ -123,7 +130,7 @@ if MERGE:
     for s in surv[:25]: out.append(f"| {s['name']} | {s['rev']} | {s['page']} | {s['sign']} | {s['F']} | {s['offset']} | {s['z1']:.2f} | {s['z2']:.2f} | {s['fb']:+.0f} | {s['tr'][:60]} |")
     out += ["", f"Survivors: {len(surv)}; largest tier-1 z {zmax1:.2f}; largest tier-2 z_uni {max((s['z2'] for s in surv), default=0):.2f}.", "", "## Candidates", ""]
     out += [f"- **{c['name']}** page {c['page']} {c['sign']} F={c['F']} offset {c['offset']}: z_uni {c['z2']:.2f}, free − plain {c['fb']:+.0f}: `{c['tr']}`" for c in cands] or ["None. No accepted decoding within the tested configurations at the stated detection limits."]
-    out += ["", f"Coverage limits: window power at 160 runes from part B; the longer texts at sentence starts only; pnotisdev offsets ≥ {PN_OFFS[1]:,}; the free-null decoder at one prior. Runtime, longest shard: {secs/3600:.1f} h on {len(shards)} shards.", ""]
+    out += ["", f"Coverage limits: window power at 160 runes from part B; {'the longer texts at sentence starts only; ' if TEXTS else ''}pnotisdev offsets outside {PN_OFFS[0]:,}–{PN_OFFS[1]-1:,}; the free-null decoder at one prior. Runtime, longest shard: {secs/3600:.1f} h on {len(shards)} shards.", ""]
     (RES / f"{OUT}.md").write_text("\n".join(out)); json.dump(dict(ntests=nt, prior=PEN, controls=ctr, survivors=surv, candidates=cands, zmax1=zmax1), open(RES / f"{OUT}.json", "w"), indent=1)
     print("\n".join(out[:3] + out[-6:])); sys.exit(0)
 
@@ -143,7 +150,7 @@ def tier2(C, Kfull, f_rule, mode, key):
 
 # ---------- controls
 controls = []
-if SHARD == 0 or SMOKE or CONTROLS_ONLY:
+if (SHARD == 0 and not UNITS) or SMOKE or CONTROLS_ONLY:
     for ci in range(6 if not SMOKE else 2):
         sign, mode = SIGNS[ci % 3]; f_rule = bool((ci // 3) % 2); tname = EXACT[ci % len(EXACT)]; rev = bool(ci % 2)
         s = stream_of("text", tname, rev); o = int(rng.integers(0, len(s))); L = CTRL_N + S_MAX + 2
