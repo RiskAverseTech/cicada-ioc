@@ -478,7 +478,7 @@
    "lane": "The line-first rune: in-line columns 0-15 and from-end 0-5, pooled IoC and within-page coincidences vs 2,000 within-page shuffles, with and without the page-initial runes; four claims registered first",
    "tests": null,
    "controls": "\u2014",
-   "verdict": "measured: column 0 only (pooled z +7.2; +5.6 without page-initial runes), columns 1-15 and line ends flat; R1-R4 hold; a per-line key restart excluded in both registered forms",
+   "verdict": "measured: column 0 only (pooled z +7.2; +5.6 without page-initial runes), columns 1-15 and line ends flat; R1-R4 hold; a per-line key restart excluded in both registered forms; one fixed key value at line starts rejected (best shifted English profile 159-639 nats worse than the page distribution; the registration's null was mis-specified and two claims fail as written)",
    "coverage_limit": "a line-initial glyph effect shared across pages, simplest glyphs under and widest over; transcription or design, for the page images",
    "date": "2026-10-27"
   },
