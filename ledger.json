@@ -555,6 +555,24 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a774",
+   "lane": "Hand procedures, second family (D1 instrument 1): 56,952 procedures = 348 value-built tables (prime values, totients, nearest-prime map; add/sub/rev/mul x 29 shifts) x \u00a773's states, resets, rules, fillers, literal F; 6 marker rules on S or I (reset, reverse, copy-5); two-state grid walks (step 5 or 6 per word position); the three behaviours (spend / hold / copy chosen by the plaintext rune's class, 6 permutations); each a generator against 13 bands and a keyless decoder of all 55 pages; registered first",
+   "tests": 1566180,
+   "controls": "H1'-H3' hold; D 349 vs 86 on the plain chain; chance decode level recorded first (median page z5 0.97); the model-free z* chance level re-recorded per decoder post hoc",
+   "verdict": "null (1 of 56,952 inside every band at 20 replicates, the three-behaviours procedure on the lag-6 cipher state with fillers, which at 200 replicates fails the lag-6 count 45.7 vs 77 and the S count 4.2 vs 11; nothing reads: largest median page z5 1.15 vs chance 0.97)",
+   "coverage_limit": "the only procedures that make eleven S pairs make S common everywhere (Sfreq fails); the model-free z* column is a decoder artefact for many-to-one tables (per-decoder null median 10.6 on uniform pages, lesson eleven); two-state walks furthest from the pages; English plaintext in the generator",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a775",
+   "lane": "Numbers as directions (D1 instrument 2): Part A keyless, the word's own number (or the previous word's) as shift, step, prime-stream offset or solved-text offset, 6 functions x 3 signs x 2 F = 432 configurations x 55 pages; Part B the solved words as the map, 7 schemes (number stream, word shift, word prime p/p-1/p+1, word solved offset, cumulative direction) x 726 alignments x 55 pages x 3 signs x 2 F under the \u00a762 free-null decoder; registered first",
+   "tests": 1700820,
+   "controls": "4/6 plants (two located at rank 1 at the planted alignment but below the bar: word-prime p at tier-1 z 3.7, cumulative at full-page z 5.5), so D1 fails as written; D2, D3 hold",
+   "verdict": "null (Part A largest median page z5 0.60 vs chance 0.94; Part B 48 tier-1 survivors, 0 candidates, largest full-page z 5.54 unreadable)",
+   "coverage_limit": "word-aligned keys defeat the free - plain clause by construction (amendment before the run); detection partial on the prime-offset and cumulative schemes; the solved text parsed into 726 words, so alignments 0-725 are every start (the registration's 2,900 was an estimate)",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a771",
    "lane": "Two Quorum asks: lag-5 equality given the lag-6 relation under the K-fixed null; words across the 54 page joins",
    "tests": null,

@@ -1,0 +1,93 @@
+{
+ "controls": [],
+ "survivors": [
+  {
+   "scheme": "stream",
+   "page": "LP2-16",
+   "sign": "sub",
+   "F": false,
+   "align": 541,
+   "z1": 5.124188600576066,
+   "z2": 4.073264142841063,
+   "fb": 145.35198464177773,
+   "tr": "IOPNGNCETEOCFTEEODEAIODNTHTHIOEIHHSNDWRAOTHNGOTHTWMIWEIAARDFRIAMSANGJRSERNGGRFSNBOUTUNNTDTHIA",
+   "above_max": false
+  },
+  {
+   "scheme": "stream",
+   "page": "LP2-16",
+   "sign": "sub",
+   "F": true,
+   "align": 541,
+   "z1": 5.002958012806064,
+   "z2": 3.886400806809818,
+   "fb": 124.97197705352306,
+   "tr": "IOPNGNCETEOCFTEEODEAIODNTHTHIOEIHHSNDWRAOTHNGOTHTWMIWEIAARDFRIAMSANGJRSERNGGRFSNBOUTUNNTDTHIA",
+   "above_max": true
+  },
+  {
+   "scheme": "word-prime p",
+   "page": "LP2-13",
+   "sign": "add",
+   "F": false,
+   "align": 33,
+   "z1": 4.609599695372458,
+   "z2": 3.7943122350934777,
+   "fb": 149.91518774074478,
+   "tr": "ELUTGTMERNNEAITATBEHSMACORGDDWSDHOEBTAERTNOAUAOONTHODTURAENPMRTHITHAPNIAEWIHILRTHCSNGOSR",
+   "above_max": false
+  },
+  {
+   "scheme": "word-prime p-1",
+   "page": "LP2-15",
+   "sign": "beaufort",
+   "F": true,
+   "align": 437,
+   "z1": 4.517638615295702,
+   "z2": 4.3301460330067485,
+   "fb": 55.53344165700851,
+   "tr": "HJDUEYUNAOUHCSLXWRFUOLSYOTHYIEMTEOPWUTUTHETTNSDNNSNCROMERTHEABRIEINGOERGHSOLDHSFEATHI",
+   "above_max": true
+  },
+  {
+   "scheme": "word-solved",
+   "page": "LP2-15",
+   "sign": "beaufort",
+   "F": false,
+   "align": 709,
+   "z1": 4.783642204944969,
+   "z2": 4.878680625176098,
+   "fb": 106.24088874327738,
+   "tr": "CUEMHHFIGXHADISMNIONDNHHULDEHSEEEOUPAOHAITHMTPTHFNGNGTHANUADWOMTIARSDSEUTHGSRNEOOONGNTHFL",
+   "above_max": true
+  },
+  {
+   "scheme": "word-solved",
+   "page": "LP2-15",
+   "sign": "beaufort",
+   "F": true,
+   "align": 709,
+   "z1": 5.192767916210147,
+   "z2": 4.981202220500276,
+   "fb": 91.05823249172069,
+   "tr": "FREMHHFIGXHADISMNIONDNHHULDEHSEEEOUPAOHAITHMTPTHFNGNGTHANUADWOMTIARSDSEUTHGSRNEOOONGNTHFL",
+   "above_max": true
+  },
+  {
+   "scheme": "word-solved",
+   "page": "LP2-32",
+   "sign": "beaufort",
+   "F": false,
+   "align": 293,
+   "z1": 4.618757782594151,
+   "z2": 4.535650724172138,
+   "fb": 77.0597399543382,
+   "tr": "MAWDXSYBMHATWTYOUEWODUTHIBSTDAOUUHIGRHEDIEHLTANENMWOSSPEFIEYAWEOCOOSTIRRADIAHMYIUI",
+   "above_max": true
+  }
+ ],
+ "candidates": [],
+ "ntests": 420420,
+ "zmax1": 5.192767916210147,
+ "seconds": 1592.8538110256195
+}

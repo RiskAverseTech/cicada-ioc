@@ -89,3 +89,7 @@ after C11, a day of writing.
 
 `FAMILY=2 STAGE=chance|screen|confirm|decode|merge .venv/bin/python -I src/hand_procedure_lane.py`;
 `STAGE=chance|keyless|map|merge .venv/bin/python -I src/direction_lane.py` (SHARD/NSHARD on the map stage).
+
+## Outcome (2026-10-31 evening, written after both runs; README §74 and §75)
+
+Instrument 1: H1′ holds (1 candidate of 56,952, the three-behaviours procedure on the lag-6 cipher state with fillers); H2′ holds (it fails the lag-6 count, 45.7 against 77, and the S count, 4.2 against 11, at 200 replicates); H3′ holds (largest median page z5 1.15 against chance 0.97); H4′: 104 procedures hold D, L5, L5S, L6T and BIG at 20 replicates, every one passing the S cell on the width of its spread (predicted 4–7 S pairs); the 1,454 procedures that predict eleven or more are totient-multiplied tables at k = 15 that make S common everywhere and fail Sfreq, L5, L6T and U. The model-free z\* column was not calibrated for this family's many-to-one tables; a per-decoder chance was recorded post hoc (`results/hand_procedure2_zstar_chance.json`) and shows the column measures the decoder. Instrument 2: D1 fails as written (4 of 6; the two misses are the schemes the amendment flagged, found at rank 1 at the planted alignment at tier-1 z 3.7 and full-page z 5.5); D2 and D3 hold. The solved text parsed into 726 words, not the 2,900 estimated above; alignments 0–725 are every start.
