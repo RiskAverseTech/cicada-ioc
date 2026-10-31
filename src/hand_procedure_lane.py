@@ -1,4 +1,4 @@
-"""One hand procedure as the cipher: the generator search of blind spot 4 (2026-11-01; private-table row A5).
+"""One hand procedure as the cipher: the generator search of blind spot 4 (2026-10-31; private-table row A5).
 
 Registration: results/hand_procedure_registration.md (commit 1c49a54, before any run).  A procedure writes c_i = T(s_i, p_i)
 from a table T on the 29 runes and a state s_i taken from what was written before (the previous cipher rune, the rune five or

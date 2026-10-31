@@ -1,6 +1,6 @@
 # Registration: one hand procedure as the cipher (the generator search of blind spot 4), written before any run
 
-Date 2026-11-01 (morning). Private-table row A5; `docs/blind-spots.md` §4; Quorum panel of §71, third recommendation.
+Date 2026-10-31 (morning, EDT; first written 11-01, a clock slip). Private-table row A5; `docs/blind-spots.md` §4; Quorum panel of §71, third recommendation.
 Nothing below has been run.
 
 ## Question
