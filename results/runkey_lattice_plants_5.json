@@ -1,0 +1,110 @@
+[
+ {
+  "cell": 5,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 263,
+  "score": -955.777306877785,
+  "wacc": 0.7285714285714285,
+  "racc": 0.7490494296577946,
+  "zp": 44.134468183444405,
+  "zk": 44.54515250416813,
+  "tr": "HISWAYYETWITHHETROUBLEDTOTHINCTHATMENINTHATHAPPYSERUEDWECNIUESES"
+ },
+ {
+  "cell": 13,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 262,
+  "score": -925.8266948544532,
+  "wacc": 0.5915492957746479,
+  "racc": 0.7061068702290076,
+  "zp": 43.35397282484129,
+  "zk": 46.699012571409,
+  "tr": "THATTHEWILLSOONBESICCOFYOURCOMPANYBUTEFFECTGODSHALLTACENHISHEAR"
+ },
+ {
+  "cell": 21,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 263,
+  "score": -963.4658771378315,
+  "wacc": 0.6621621621621622,
+  "racc": 0.7490494296577946,
+  "zp": 42.4126142707438,
+  "zk": 45.87214443692588,
+  "tr": "NOTOFTHEFAIRTHEYOUERTOOCONETHATYOURUEBEFORETHEMWHOSEDARCAREBEWAL"
+ },
+ {
+  "cell": 29,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 263,
+  "score": -930.5865474839719,
+  "wacc": 0.7538461538461538,
+  "racc": 0.8060836501901141,
+  "zp": 43.84177183793653,
+  "zk": 48.02674995563006,
+  "tr": "THERIUETSCAMEBOTHTOGETHEROWAINOFPICCOFTHESHOUEDINDESTROYINTOTHEWH"
+ },
+ {
+  "cell": 37,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 294,
+  "score": -1086.6281503870312,
+  "wacc": 0.47692307692307695,
+  "racc": NaN,
+  "zp": 40.47758847533488,
+  "zk": 47.55098823284898,
+  "tr": "MANNEROFFURNITUREWHICHTHEIRLORDHADPROUIDEDFORPILGRIMSASSWORDG"
+ },
+ {
+  "cell": 45,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 288,
+  "score": -1063.2957973147288,
+  "wacc": 0.39705882352941174,
+  "racc": NaN,
+  "zp": 41.7315040686317,
+  "zk": 46.86960492860364,
+  "tr": "THEBROTHERSANDGORGEOUSASCONCERNNGTHEFAIRITSHEDESTRUCTIANOFTHEASCSOU"
+ },
+ {
+  "cell": 53,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 296,
+  "score": -1099.181755565513,
+  "wacc": 0.4027777777777778,
+  "racc": NaN,
+  "zp": 43.4522864299667,
+  "zk": 46.924822783106514,
+  "tr": "ALITTLEMOSTDISCOURSEWITHHIMHADMENFORONEAPPLYANDLASTTHENOTDWELL"
+ },
+ {
+  "cell": 61,
+  "sign": "add",
+  "p_fill": 0.0,
+  "n": 269,
+  "score": -982.0417608194422,
+  "wacc": 0.7,
+  "racc": 0.724907063197026,
+  "zp": 45.1934713568134,
+  "zk": 43.91911107215689,
+  "tr": "INACHARGENOTTOBEGWALSTAWDTOENTERTAINSTRANGERSTHEREFORETHEGOODOF"
+ },
+ {
+  "cell": 69,
+  "sign": "beaufort",
+  "p_fill": 0.0,
+  "n": 265,
+  "score": -973.156960249927,
+  "wacc": 0.71875,
+  "racc": 0.7773584905660378,
+  "zp": 46.70121257537389,
+  "zk": 44.543993556920675,
+  "tr": "SAMEINTHEDAYSINCHICCENBEGREATSERUANTTOOURPRINCETHANLESTTHOSEOFAC"
+ }
+]

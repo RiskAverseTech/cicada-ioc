@@ -1,0 +1,110 @@
+[
+ {
+  "cell": 4,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 262,
+  "score": -920.7288300957791,
+  "wacc": 0.7945205479452054,
+  "racc": 0.8816793893129771,
+  "zp": 45.12907008004811,
+  "zk": 48.06868126564094,
+  "tr": "ANDTHEREOFAWRITNGINATUNUSUALHANDBUTTHEBENGNOSCHOLARCALLEDTOCHRIST"
+ },
+ {
+  "cell": 12,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 263,
+  "score": -965.7565544942009,
+  "wacc": 0.7323943661971831,
+  "racc": 0.7946768060836502,
+  "zp": 41.96294756625606,
+  "zk": 45.89495549855511,
+  "tr": "OFAWORLDLYWINDOWSMELORDSAYSSTRIUETOENTERINATTHESTRAITGATELICE"
+ },
+ {
+  "cell": 20,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 266,
+  "score": -959.4299950975245,
+  "wacc": 0.7631578947368421,
+  "racc": 0.8082706766917294,
+  "zp": 44.53930082844548,
+  "zk": 47.60616985421245,
+  "tr": "BUTHIMNOWWALCSNONIRONHASDOORSCONCORDISGATEBEHOLDACOMPANYOFTHE"
+ },
+ {
+  "cell": 28,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 266,
+  "score": -970.3907991151372,
+  "wacc": 0.696969696969697,
+  "racc": 0.7857142857142857,
+  "zp": 40.57026974671089,
+  "zk": 45.5505431033361,
+  "tr": "FOURSAYSHOULDGOATNOTSNACETOWINNERSSAMETHATSHOULDCOMEAFTERFROM"
+ },
+ {
+  "cell": 36,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 291,
+  "score": -1049.202246974785,
+  "wacc": 0.39705882352941174,
+  "racc": NaN,
+  "zp": 40.44199930577041,
+  "zk": 48.301769962317884,
+  "tr": "HANDWHATBYANOTHERTHENANDTHATTHANUANCEBETHISMANNERALONEOTHERHEFAWNU"
+ },
+ {
+  "cell": 44,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 287,
+  "score": -1021.5915980115603,
+  "wacc": 0.5846153846153846,
+  "racc": NaN,
+  "zp": 43.51780268999795,
+  "zk": 47.83931689577992,
+  "tr": "DOWNWARDSANDGARDENSANDTHEIRGATESLICELYFORMBYHIGHWAYDULLDOTOCA"
+ },
+ {
+  "cell": 52,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 300,
+  "score": -1115.587586678535,
+  "wacc": 0.6144578313253012,
+  "racc": NaN,
+  "zp": 43.307151034963034,
+  "zk": 48.90420536528796,
+  "tr": "WHICHIFTHEPLACEOFALLAREANDITMORETOTHECILEHEWEALTHMOREBYTHISIPERCE"
+ },
+ {
+  "cell": 60,
+  "sign": "add",
+  "p_fill": 0.0,
+  "n": 264,
+  "score": -993.5198855830629,
+  "wacc": 0.691358024691358,
+  "racc": 0.7765151515151515,
+  "zp": 40.72113310086854,
+  "zk": 46.278834329654735,
+  "tr": "THEMYBACCWHICHWASASUEFINDGIUENTHNGSTHEFORMBETHYNEIGHBOURSDOHIDETHE"
+ },
+ {
+  "cell": 68,
+  "sign": "beaufort",
+  "p_fill": 0.0,
+  "n": 269,
+  "score": -967.7779441528807,
+  "wacc": 0.7230769230769231,
+  "racc": 0.79182156133829,
+  "zp": 47.68448692527936,
+  "zk": 46.79240164178539,
+  "tr": "ACTUALLYINSUCHSUITMANTHEYWERENOTALLTTOHELPTHEMSELUESORTODOORTHE"
+ }
+]

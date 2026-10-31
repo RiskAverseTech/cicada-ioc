@@ -187,14 +187,14 @@ elif STAGE == "pages":
     json.dump(out, open(RESULTS / ("runkey_lattice_pages_smoke.json" if SMOKE else f"runkey_lattice_pages_{k}.json"), "w"), indent=1)
 elif STAGE == "merge":
     pl = []; nul = []; pg = []
-    for f in sorted(RESULTS.glob("runkey_lattice_plants_*.json")): pl += json.load(open(f))
-    for f in sorted(RESULTS.glob("runkey_lattice_null_*.json")): nul += json.load(open(f))
-    for f in sorted(RESULTS.glob("runkey_lattice_pages_*.json")): pg += json.load(open(f))
+    for f in sorted(RESULTS.glob("runkey_lattice_plants_[0-9]*.json")): pl += json.load(open(f))
+    for f in sorted(RESULTS.glob("runkey_lattice_null_[0-9]*.json")): nul += json.load(open(f))
+    for f in sorted(RESULTS.glob("runkey_lattice_pages_[0-9]*.json")): pg += json.load(open(f))
     def null_stats(F_, arm):
         S = [r for r in nul if r["F"] == F_ and r["arm"] == arm]; x = np.array([r["n"] for r in S]); y = np.array([r["score"] for r in S])
         a, b = np.polyfit(x, y, 1); res = y - (a * x + b); return a, b, float(res.std()), float(res.max())
     for r in pg:
-        a, b, sd, mx = null_stats(r["F"], r["arm"]); r["z"] = (r["score"] - (a * r["n"] + b)) / sd; r["above_max"] = (r["score"] - (a * r["n"] + b)) > mx
+        a, b, sd, mx = null_stats(r["F"], r["arm"]); r["z"] = (r["score"] - (a * r["n"] + b)) / sd; r["above_max"] = bool((r["score"] - (a * r["n"] + b)) > mx)
     for r in pl:
         a, b, sd, mx = null_stats(False, r["p_fill"] > 0); r["z"] = (r["score"] - (a * r["n"] + b)) / sd
     exact = [r for r in pl if r["p_fill"] == 0 and r["sign"] == "sub"]; fill = [r for r in pl if r["p_fill"] > 0]; other = [r for r in pl if r["p_fill"] == 0 and r["sign"] != "sub"]

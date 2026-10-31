@@ -129,3 +129,25 @@ def test_table_hook_equals_plain_decoder_on_additive_tables():
             a, ta, da = decode(C, Ks, lu, f_rule, mode); b, tb, db = decode(C, Ks, lu, f_rule, mode, table=table, tgain=tgain, enc=enc)
             assert np.allclose(a, b) and np.array_equal(ta, tb) and np.array_equal(da, db), (mode, f_rule)
             assert a.argmax() == 0 and (da[0] == P).mean() > 0.95
+
+
+def test_lattice_decoder_reads_a_short_running_key_plant_and_beats_a_random_page():
+    """§69's word-lattice joint decoder: on a 15-word English plant under an English running key (sub, soft 0.81) it reads at
+    least half the words and scores well above a random page with the same word structure; the recomputed key matches."""
+    import os; os.environ["STAGE"] = "none"
+    import numpy as np, runkey_lattice as RL
+    from lp import english_to_runes
+    rng = np.random.default_rng(4)
+    text = "the man set out at dawn with nothing but a staff and the memory of a voice that had told him the road would be long and the gate narrow"
+    pw = [np.array(english_to_runes(w)) for w in text.split()]; pw = [w for w in pw if " ".join(map(str, w)) in RL.raw][:15]
+    assert len(pw) == 15
+    key = "he walked until the hills were behind him and the river lay ahead like a question he could not yet answer and still he walked because stopping"
+    K = np.concatenate([english_to_runes(w) for w in key.split()])
+    C = RL.encrypt_words(pw, K, "sub", rng, soft=0.81)
+    s, P, Kd = RL.decode_lattice(C, "sub", False, False, beam=100)
+    i = 0; hits = 0
+    for c, w in zip(C, pw): hits += np.array_equal(P[i:i + len(c)], w); i += len(c)
+    assert hits >= 8, hits
+    assert np.array_equal(Kd, RL.key_of(np.concatenate(C), P, RL.SIGNS["sub"], False))
+    rw = [rng.integers(0, 29, size=len(c)) for c in C]; s0, _, _ = RL.decode_lattice(rw, "sub", False, False, beam=100)
+    assert s - s0 > 15, (s, s0)                                  # measured 28 nats at 60 runes

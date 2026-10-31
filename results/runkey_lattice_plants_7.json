@@ -1,0 +1,110 @@
+[
+ {
+  "cell": 7,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 264,
+  "score": -989.0333428792001,
+  "wacc": 0.6081081081081081,
+  "racc": 0.7007575757575758,
+  "zp": 41.29744363451841,
+  "zk": 44.960550014422466,
+  "tr": "GOODBROWSHESLEPTTILLBREACOFDAYYOUCANOFPRONEANDSANGWHERETOAOURTH"
+ },
+ {
+  "cell": 15,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 263,
+  "score": -970.8443025451385,
+  "wacc": 0.6027397260273972,
+  "racc": 0.6768060836501901,
+  "zp": 42.13196192165394,
+  "zk": 47.47139496360751,
+  "tr": "SPACEOFREADYTOFALLINTOTHEPREACHTHUSHEWENTONANDIHEARDHIMHERESIGHBI"
+ },
+ {
+  "cell": 23,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 263,
+  "score": -970.9115174487173,
+  "wacc": 0.5857142857142857,
+  "racc": 0.7110266159695817,
+  "zp": 42.71600869585553,
+  "zk": 45.98953266946971,
+  "tr": "AWASALSOINMYDREAMDAYSLAYHESTANDARDSPERCEIUEDTHATHOWMADEWANDERNG"
+ },
+ {
+  "cell": 31,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 296,
+  "score": -1107.3773068276307,
+  "wacc": 0.5,
+  "racc": NaN,
+  "zp": 43.18941039795045,
+  "zk": 48.33184724969951,
+  "tr": "INSODAUIDANDLOUESOMUCHTHEIROLDCORNICEANDTHEALLSETHOLIDAYPERFOR"
+ },
+ {
+  "cell": 39,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 289,
+  "score": -1074.3803142541356,
+  "wacc": 0.3880597014925373,
+  "racc": NaN,
+  "zp": 41.31983621030335,
+  "zk": 46.719505538431896,
+  "tr": "ITWASUPONTHEPUBERTYASHEAUENINTHISRANFORTHEREJOICEBETWEENTHEHAUEAN"
+ },
+ {
+  "cell": 47,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 292,
+  "score": -1026.4266899168467,
+  "wacc": 0.5245901639344263,
+  "racc": NaN,
+  "zp": 42.666382847646084,
+  "zk": 49.86046146994405,
+  "tr": "MYAREAGAINBUTNONENAMEDHEBOYBORDERSTHEMALSOTHOUGHTTOSATINHILLME"
+ },
+ {
+  "cell": 55,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 282,
+  "score": -994.3214545543487,
+  "wacc": 0.5970149253731343,
+  "racc": NaN,
+  "zp": 44.115212582650464,
+  "zk": 48.336112233684744,
+  "tr": "INTOSOMESERIAUSDISCOURSEABOUTTHEPOWERWEHELMETSANDOHHISMARUELNE"
+ },
+ {
+  "cell": 63,
+  "sign": "add",
+  "p_fill": 0.0,
+  "n": 264,
+  "score": -878.7504731156656,
+  "wacc": 0.7272727272727273,
+  "racc": 0.8409090909090909,
+  "zp": 45.4667794452716,
+  "zk": 46.945034954245486,
+  "tr": "EYESAHFACEJUDGMENTUPONOURSELUESWHICHTHEWORDPASSESTOEXPLAINMYS"
+ },
+ {
+  "cell": 71,
+  "sign": "beaufort",
+  "p_fill": 0.0,
+  "n": 267,
+  "score": -1003.1507701598881,
+  "wacc": 0.6,
+  "racc": 0.6891385767790262,
+  "zp": 43.24556207247026,
+  "zk": 43.04207015408858,
+  "tr": "LORDAPPEARSANDRELIESANDTHATOFEUERYCINDHEREARETOBESEENTOOANDTHAT"
+ }
+]

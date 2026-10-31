@@ -1,0 +1,110 @@
+[
+ {
+  "cell": 3,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 265,
+  "score": -950.0548204058524,
+  "wacc": 0.8095238095238095,
+  "racc": 0.8528301886792453,
+  "zp": 43.8341453591394,
+  "zk": 44.90057524982668,
+  "tr": "THANTHECLOUDSTHEYTHEREFOREWENTHETHROUGHTHEREGIANSOFTHEAIRSWEETLYTALC"
+ },
+ {
+  "cell": 11,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 264,
+  "score": -1003.842210865832,
+  "wacc": 0.5522388059701493,
+  "racc": 0.6439393939393939,
+  "zp": 41.295589084976854,
+  "zk": 45.74292544210791,
+  "tr": "ITFIRSTSAILNGOUTWHENTHOUWASTALMOSTTWELFTHTHEDEHALFINRESPONDTHOUDI"
+ },
+ {
+  "cell": 19,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 265,
+  "score": -939.024797898025,
+  "wacc": 0.609375,
+  "racc": 0.7471698113207547,
+  "zp": 43.360104432779316,
+  "zk": 46.006442798166646,
+  "tr": "WHYLASTBOLDLYCONUERSATIANTHATSOMEHAUEALREADYSTUMBLEDATYOURWICCE"
+ },
+ {
+  "cell": 27,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 264,
+  "score": -958.5287703255284,
+  "wacc": 0.7575757575757576,
+  "racc": 0.821969696969697,
+  "zp": 43.38719166451704,
+  "zk": 45.4719414067632,
+  "tr": "SUBSTANTIALSTEPSPLACEDTEACHTHROUGHTHEUERYMISSNGOFTHUSSLOUGHBUTATSU"
+ },
+ {
+  "cell": 35,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 284,
+  "score": -1058.9641453443387,
+  "wacc": 0.4507042253521127,
+  "racc": NaN,
+  "zp": 43.14943651221394,
+  "zk": 45.10017998244728,
+  "tr": "WHENANDOFOWAINTOHISCOMFORTSEEGIANTNOTBEGANWHICHTHEINTOASTRAWIS"
+ },
+ {
+  "cell": 43,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 295,
+  "score": -1080.069704869645,
+  "wacc": 0.6805555555555556,
+  "racc": NaN,
+  "zp": 43.67664601418896,
+  "zk": 49.98159308412066,
+  "tr": "CHEECSLAYNGOUTSOMUCHASONEFADNGUPONTHESEUANITIESTHISFAIRTHEREFOREI"
+ },
+ {
+  "cell": 51,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 291,
+  "score": -1069.8779069748016,
+  "wacc": 0.5522388059701493,
+  "racc": NaN,
+  "zp": 41.60633655402872,
+  "zk": 48.0092770451731,
+  "tr": "BARRENMOREREMOTEFROMTHECNGDOMTOWHICHTHEYWERERATEJOINDRAWNGMAWRSE"
+ },
+ {
+  "cell": 59,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 285,
+  "score": -1074.447538247343,
+  "wacc": 0.3230769230769231,
+  "racc": NaN,
+  "zp": 37.29977146007753,
+  "zk": 47.4092888559903,
+  "tr": "SAIDTHEHIMIBUTTHEMSIGNIFIESCANINANFALLNGCHEWUSSELLTHEIRBEFALLENW"
+ },
+ {
+  "cell": 67,
+  "sign": "beaufort",
+  "p_fill": 0.0,
+  "n": 262,
+  "score": -918.0384549532125,
+  "wacc": 0.9041095890410958,
+  "racc": 0.9312977099236641,
+  "zp": 43.35269352845835,
+  "zk": 49.934741383235725,
+  "tr": "THECAUEHECOULDNOTTELLWHATTOTHINCESPECIALLYBECAUSEHESPACETOHIMTHO"
+ }
+]

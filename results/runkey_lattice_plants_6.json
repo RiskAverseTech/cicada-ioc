@@ -1,0 +1,110 @@
+[
+ {
+  "cell": 6,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 262,
+  "score": -982.0973115614971,
+  "wacc": 0.52,
+  "racc": 0.6412213740458015,
+  "zp": 41.41116645496523,
+  "zk": 45.00467769809568,
+  "tr": "THEFATEATISLESSDECCANDWENOTNOWTOWALCBYFOODWITHTOTHEANSENTSERUIC"
+ },
+ {
+  "cell": 14,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 264,
+  "score": -951.6648681027374,
+  "wacc": 0.7384615384615385,
+  "racc": 0.7954545454545454,
+  "zp": 43.96066183604102,
+  "zk": 44.34316782298679,
+  "tr": "THEEHAUEELUENSIGHTOFTHECITYTHEYWILLTHENBEALSOHEREMETTHEMSOMEOFTHEI"
+ },
+ {
+  "cell": 22,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 262,
+  "score": -967.8569276915047,
+  "wacc": 0.8125,
+  "racc": 0.8664122137404581,
+  "zp": 42.87425939904946,
+  "zk": 45.98383233109544,
+  "tr": "MOUEDANDPUTTNGTOALLHISHORNEDHECWICCLYANDUPWITHFAITHFULANDDIDALS"
+ },
+ {
+  "cell": 30,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 291,
+  "score": -1082.1872495758653,
+  "wacc": 0.4492753623188406,
+  "racc": NaN,
+  "zp": 43.01361277845352,
+  "zk": 47.55825963096571,
+  "tr": "ASEEHIMATOMSMEEUENWEDDEDRULESAWNOTDAYHISSIGHTANDLIFEOFMYPLAC"
+ },
+ {
+  "cell": 38,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 281,
+  "score": -981.2293748949817,
+  "wacc": 0.6417910447761194,
+  "racc": NaN,
+  "zp": 42.8638041010637,
+  "zk": 50.911173606593664,
+  "tr": "SALUTEDEACHOTHERFORMONEYLOUESAIDTOMRBYHASANDNOWTHEYUPONOUTBENDB"
+ },
+ {
+  "cell": 46,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 287,
+  "score": -1042.1721663404924,
+  "wacc": 0.46153846153846156,
+  "racc": NaN,
+  "zp": 42.233658797094385,
+  "zk": 47.89314184053512,
+  "tr": "THELOOCFLEETNGSDAUGHTERTHEREFOREYOUCAMEOFAUERYHONOURABLEFAMILYA"
+ },
+ {
+  "cell": 54,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 285,
+  "score": -1014.3649872682661,
+  "wacc": 0.6060606060606061,
+  "racc": NaN,
+  "zp": 42.006037373449004,
+  "zk": 50.0376376956884,
+  "tr": "THOUFAITHWHATHEEPTHEINJECTEDAGAINSTRELIGIANITSELFHESAIDITWASAPIT"
+ },
+ {
+  "cell": 62,
+  "sign": "add",
+  "p_fill": 0.0,
+  "n": 266,
+  "score": -1016.4264725942239,
+  "wacc": 0.4583333333333333,
+  "racc": 0.631578947368421,
+  "zp": 41.300647057618534,
+  "zk": 45.30883715398328,
+  "tr": "WOMANSTAGBYYETWENTNEIGHBOURFAITHFULSAIDCHRISTIANANDTOWEREOURWH"
+ },
+ {
+  "cell": 70,
+  "sign": "beaufort",
+  "p_fill": 0.0,
+  "n": 263,
+  "score": -965.3761681328386,
+  "wacc": 0.5540540540540541,
+  "racc": 0.6768060836501901,
+  "zp": 38.684401690409956,
+  "zk": 47.954910632464426,
+  "tr": "ANDHEARHOWTHESETWOPILGRIMSTALCTOGETHEROHHADHADLEARNOFTHEMHEANYWIL"
+ }
+]

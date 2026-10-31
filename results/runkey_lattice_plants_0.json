@@ -1,0 +1,110 @@
+[
+ {
+  "cell": 0,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 270,
+  "score": -977.6556602670412,
+  "wacc": 0.8205128205128205,
+  "racc": 0.8703703703703703,
+  "zp": 44.68407399112745,
+  "zk": 47.68490569453975,
+  "tr": "MUSCLESBUSICOMFORTMYSELFASIGOSURELYTHINCIWHENICOMETOTHEGATEOFTH"
+ },
+ {
+  "cell": 8,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 263,
+  "score": -988.5591662119031,
+  "wacc": 0.6666666666666666,
+  "racc": 0.7642585551330798,
+  "zp": 43.95385243057638,
+  "zk": 45.18772065160053,
+  "tr": "AFLATTERYABOUESHEHADSHELAYATMEFIUETHETURNWHILEWITHHERPROMISEWE"
+ },
+ {
+  "cell": 16,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 263,
+  "score": -936.8716488782275,
+  "wacc": 0.7464788732394366,
+  "racc": 0.8136882129277566,
+  "zp": 44.06029537200649,
+  "zk": 47.25013823893104,
+  "tr": "ROWDENCNEELHEFEAREDTHEMMOREBEFOREYETHESAWTHEMMORECLEARLYNOWBECAU"
+ },
+ {
+  "cell": 24,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 262,
+  "score": -948.9676529230926,
+  "wacc": 0.6176470588235294,
+  "racc": 0.6603053435114504,
+  "zp": 45.07734575281096,
+  "zk": 45.51473992573257,
+  "tr": "OTHERUANCWISHEDBANIANISWILDPILESAREYOURPHILOSOPHYCHRISTIANSORGA"
+ },
+ {
+  "cell": 32,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 296,
+  "score": -1109.5707401636669,
+  "wacc": 0.4788732394366197,
+  "racc": NaN,
+  "zp": 40.669903651560155,
+  "zk": 48.31039474858324,
+  "tr": "FINDTHEWORDSOFGODSOHESTOODTREMBLNGTHENSHOTSUSPENDEDSEETHOUAREWRI"
+ },
+ {
+  "cell": 40,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 290,
+  "score": -1050.20227820947,
+  "wacc": 0.5277777777777778,
+  "racc": NaN,
+  "zp": 42.077706378072676,
+  "zk": 49.19711192086758,
+  "tr": "BREATHHISASCEDTHATSHETHEOUERMARCSRECEIUERSMYGOODTHNGSANDLICEWISEMA"
+ },
+ {
+  "cell": 48,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 291,
+  "score": -1049.887190865174,
+  "wacc": 0.5588235294117647,
+  "racc": 0.27547169811320754,
+  "zp": 43.23284236007251,
+  "zk": 48.15567636682222,
+  "tr": "TOTHESECONDTOWITHTHESUPERSTITIANANDMANENGLANDAGAINSTMEISAIDONLYHI"
+ },
+ {
+  "cell": 56,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 288,
+  "score": -1031.9986892653376,
+  "wacc": 0.515625,
+  "racc": NaN,
+  "zp": 46.20106367302331,
+  "zk": 48.63700053556113,
+  "tr": "DAWNEDTHEBOYBLADESHEINEUERYTHEMSELUESALLTHEWHILEUERYWISELYANDSU"
+ },
+ {
+  "cell": 64,
+  "sign": "add",
+  "p_fill": 0.0,
+  "n": 263,
+  "score": -955.9804776053937,
+  "wacc": 0.7777777777777778,
+  "racc": 0.8403041825095057,
+  "zp": 43.002085871590076,
+  "zk": 46.865091252881335,
+  "tr": "DOUBTLESSTHOUHASTSAIDTHEWENTBUTWHATAMERCYISITTHATNEITHERTHOUBUTES"
+ }
+]

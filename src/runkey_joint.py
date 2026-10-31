@@ -104,14 +104,15 @@ if STAGE == "plants":
         print(f"plant {ci} {sign} fill {pf}: n {len(C)} acc {acc:.2f} joint {s:.0f} zp {out[-1]['zp']:+.1f} zk {out[-1]['zk']:+.1f} | {out[-1]['tr'][:40]} [{time.time()-t0:.0f}s]", flush=True)
     json.dump(out, open(RESULTS / ("runkey_joint_plants_smoke.json" if SMOKE else "runkey_joint_plants.json"), "w"), indent=1)
 elif STAGE == "null":                                            # SHARD=k (0-9) runs one (F, length) cell; the merge gathers runkey_joint_null_*.json
-    lengths = (120, 180, 230, 260, 277); NN = 5 if SMOKE else 200; cells = [(f, n) for f in (False, True) for n in lengths]
+    # LENGTHS / NNULL / TAG were added after the pages were read: the registered null (120-277) did not cover the three pages of 66, 76 and 92 runes (addendum in the registration)
+    lengths = tuple(int(x) for x in os.environ.get("LENGTHS", "120,180,230,260,277").split(",")); NN = 5 if SMOKE else int(os.environ.get("NNULL", 200)); TAG = os.environ.get("TAG", ""); cells = [(f, n) for f in (False, True) for n in lengths]
     k = int(os.environ.get("SHARD", -1)); todo = cells if k < 0 else [cells[k]]; res = {}
     for f_rule, n in todo:
-        rng = np.random.default_rng(100 + cells.index((f_rule, n)))
+        rng = np.random.default_rng(100 + cells.index((f_rule, n)) + (1000 if TAG else 0))
         sc = [decode_joint(rng.integers(0, N, size=n), "sub", f_rule)[0] for _ in range(NN)]
         res[f"{int(f_rule)}_{n}"] = dict(mean=float(np.mean(sc)), sd=float(np.std(sc)), max=float(np.max(sc)), scores=[float(x) for x in sc])
         print(f"null F={int(f_rule)} n={n}: mean {np.mean(sc):.1f} sd {np.std(sc):.1f} max {np.max(sc):.1f} [{time.time()-t0:.0f}s]", flush=True)
-    json.dump(res, open(RESULTS / ("runkey_joint_null_smoke.json" if SMOKE else f"runkey_joint_null_{max(k,0)}.json"), "w"), indent=1)
+    json.dump(res, open(RESULTS / ("runkey_joint_null_smoke.json" if SMOKE else f"runkey_joint_null_{TAG}{max(k,0)}.json"), "w"), indent=1)
 elif STAGE == "pages":                                           # SHARD=k NSHARD=m over pages; the merge gathers runkey_joint_pages_*.json
     out = []; k, m = int(os.environ.get("SHARD", 0)), int(os.environ.get("NSHARD", 1))
     for pid, C in (pages[:2] if SMOKE else [p for j, p in enumerate(pages) if j % m == k]):
@@ -133,7 +134,7 @@ elif STAGE == "merge":
     clean = [r for r in pl if r["p_fill"] == 0 and r["sign"] == "sub"]; fill = [r for r in pl if r["p_fill"] > 0]; other = [r for r in pl if r["p_fill"] == 0 and r["sign"] != "sub"]
     J1 = sum(r["acc"] >= 0.8 for r in clean) >= 15; zp_med = float(np.median([r["zp"] for r in clean if r["acc"] >= 0.8] or [r["zp"] for r in clean]))
     cands = [r for r in pg if r["z"] >= 6 and r["above_max"] and r["zp"] >= 0.5 * zp_med]; J2 = not cands
-    out = ["# English running keys as a class: the library-free joint decoder", "", f"Registration: `results/runkey_joint_registration.md`. Beam {BEAM}; null from {len(nul['0_260']['scores'])} random pages at each of five lengths per F setting.", "",
+    out = ["# English running keys as a class: the library-free joint decoder", "", f"Registration: `results/runkey_joint_registration.md`. Beam {BEAM}; null per F setting: " + ", ".join(f"{len(nul[k]['scores'])} random pages at {k.split('_')[1]} runes" for k in sorted((k for k in nul if k.startswith("0_")), key=lambda k: int(k.split("_")[1]))) + " (the lengths below 120 were added after the pages were read; registration addendum).", "",
            "## Power (Bunyan plaintext and key, 262 runes, soft rule 0.81)", "", "| cell | n | rune accuracy | joint z | plaintext 5-gram z | key 5-gram z | decode (first 40) |", "|---|---|---|---|---|---|---|"]
     for lab, S in (("sub, no fillers", clean), ("add / beaufort, no fillers", other), ("sub, §59 fillers p = 0.40", fill)):
         acc = np.array([r["acc"] for r in S]); out.append(f"| **{lab}** ({len(S)} plants) | | accuracy ≥ 0.8 on {int((acc >= 0.8).sum())}; median {np.median(acc):.2f} | median {np.median([r['z'] for r in S]):.1f} | median {np.median([r['zp'] for r in S]):+.1f} | median {np.median([r['zk'] for r in S]):+.1f} | |")

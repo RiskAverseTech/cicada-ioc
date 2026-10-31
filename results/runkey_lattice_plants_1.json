@@ -1,0 +1,110 @@
+[
+ {
+  "cell": 1,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 262,
+  "score": -961.9857216534383,
+  "wacc": 0.7012987012987013,
+  "racc": 0.767175572519084,
+  "zp": 44.80170741018893,
+  "zk": 46.148744830161355,
+  "tr": "NEXTBEMINDANDANDFELLINHELPTHENSAIDHEGIUETOBYHANDSOHEGAUEHIMHI"
+ },
+ {
+  "cell": 9,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 263,
+  "score": -970.1970431227771,
+  "wacc": 0.5333333333333333,
+  "racc": 0.6463878326996197,
+  "zp": 38.5245412373317,
+  "zk": 46.973699135577284,
+  "tr": "FALSEAPOSTLETHISHISTRANSFORMEDHIMSELFELSEASANGELOFLIGHTLESTBENG"
+ },
+ {
+  "cell": 17,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 262,
+  "score": -941.0792035710598,
+  "wacc": 0.7931034482758621,
+  "racc": 0.8549618320610687,
+  "zp": 43.282894944065276,
+  "zk": 46.58431174013561,
+  "tr": "MINDSOFLISTLESSMENAFFECTITSEEMSACLAMOURRANTHISCONTAINSNOTHNGBUT"
+ },
+ {
+  "cell": 25,
+  "sign": "sub",
+  "p_fill": 0.0,
+  "n": 266,
+  "score": -1018.2012633143374,
+  "wacc": 0.6301369863013698,
+  "racc": 0.7706766917293233,
+  "zp": 37.47776540921917,
+  "zk": 47.93694196134794,
+  "tr": "SEETHEWAYSTHEFISHERMANDONNECCTHEPERCHTHEFISHWHATENGINESWNGSTHEMACEB"
+ },
+ {
+  "cell": 33,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 286,
+  "score": -1060.853443794765,
+  "wacc": 0.5138888888888888,
+  "racc": NaN,
+  "zp": 40.99070196559337,
+  "zk": 46.35913153620079,
+  "tr": "SAIDHETOTHEMFOLLOWMETHEIYETMENFOROFEUENHIMBROWNANDISTHEMANDUTYT"
+ },
+ {
+  "cell": 41,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 295,
+  "score": -1094.7106472986472,
+  "wacc": 0.4722222222222222,
+  "racc": NaN,
+  "zp": 43.16577454244246,
+  "zk": 49.82667676503577,
+  "tr": "ISHASEUILLENTLASTTOASHISLAUGHBYHALFNESSIFCEEPMYDESIRESTOCNOW"
+ },
+ {
+  "cell": 49,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 294,
+  "score": -1086.6695162338056,
+  "wacc": 0.4714285714285714,
+  "racc": NaN,
+  "zp": 44.78862654847763,
+  "zk": 48.69301738515684,
+  "tr": "BECAUSEOFINHAPPINESSOFTHEPLACENOWABOUEBESPIRITSTOTHETOPOFTHEHIL"
+ },
+ {
+  "cell": 57,
+  "sign": "sub",
+  "p_fill": 0.4,
+  "n": 280,
+  "score": -1045.4008780995198,
+  "wacc": 0.5882352941176471,
+  "racc": NaN,
+  "zp": 41.48611180881593,
+  "zk": 46.42459153291134,
+  "tr": "OFWARMERINWILLASFROMTHECITYOFDESTRUCTIANWHOIAWOCEANDBEHOLDITWA"
+ },
+ {
+  "cell": 65,
+  "sign": "add",
+  "p_fill": 0.0,
+  "n": 262,
+  "score": -971.1449700890538,
+  "wacc": 0.5714285714285714,
+  "racc": 0.6908396946564885,
+  "zp": 42.2577990767533,
+  "zk": 45.26454384002926,
+  "tr": "THATMAINIFWITHTHATSAIDTHEMWHIPSOENOUGHORYOUCANNOTCOMEATTHEGATETHEP"
+ }
+]
