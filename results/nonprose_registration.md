@@ -27,6 +27,14 @@ Each statistic is turned into a z against N0 = 2,000 uniform iid keystreams deco
 convention (the null does not depend on the sign). The row's score is **z\* = max(z_U, z_W, z_G)**. The null of z\* is the null
 of the maximum of three correlated statistics and is measured, never assumed Gaussian (lesson eight, §70).
 
+**Amendment (2026-10-31, after the instrument's smoke test on a 924-row toy library and before any run on the libraries).**
+W and G are counts of rare discrete events on a short page (on 66 runes a repeated word pair has a null mean near 0.05), so
+their plain z explodes on a single chance pair: the smoke test's 3,000-draw calibration on the shortest page reached z\* 10.8
+and would have set the bar at 12, which no plant on a medium page could reach. W and G therefore enter as **Anscombe-transformed
+pair counts**, z = 2(√(x/2 + 3/8) − √(λ + 3/8)) with λ the null mean of x/2 from the N0 draws, which is near N(0, 1) for a
+Poisson count and conservative where λ is small; U stays a plain z. The score is still z\* = max of the three, and everything
+else below is unchanged. The smoke run's own figures are in `results/nonprose_smoke_*.json` and are not results.
+
 ## Decoder, libraries, rows
 
 The plain decoder: every rune keyed, P = C − K (sub), P = C + K (add, as −K under sub), P = K − C (beaufort); F rule off
@@ -79,6 +87,24 @@ replicates per (class, sign); class P1 also 10 replicates with the F rule on. Re
 
 Expected: all four hold. **Falsifier**: a hit whose decode shows a describable structure (the output lists the repeated
 words and 3-grams of every listed row); it is then checked on the adjacent pages under the same key before anything is claimed.
+
+**Amendment 2 (2026-10-31, after the first run of every stage above; recorded before the amended stage is run).** The positive
+control could not be run as registered: the matcher found no solved page, because the book's ᚠ convention is not the one the
+plain decoder forces. On the WELCOME page (chunk 2, DIVINITY) a plaintext ᚠ is written unkeyed and consumes no key symbol, *and*
+a keyed rune may still encipher to ᚠ (14 cipher ᚠ, 7 of them literal); the key continues into chunk 3 without restarting.
+Under that convention a cipher ᚠ is ambiguous, so the plain decoder's F-off cells are right only up to the first literal ᚠ and
+its F-on cells only up to the first keyed ᚠ. Measured before this amendment, with the registered scorer: DIVINITY roll 0 on
+chunk 2 ranks 827 (F off, z\* 4.5) and 17,054 (F on, z\* 1.0); the chunks' top rows are the solved plaintext used as a running
+key (`self running key plaintext@184`, z\* 165; `@435`, z\* 178), which is the scorer finding the period-8 key itself as
+structure. **N2 fails as registered**, by instrument, and the first run's page results (0 hits in 330 cells, 143 listed) stand.
+
+The amended stage (`STAGE=xrule`): a third convention, the book's, with a **greedy branch decoder**: at every cipher ᚠ the
+two branches (literal ᚠ, key not consumed | keyed rune) are decoded up to the next ᚠ and the branch whose segment is likelier
+under the adaptive unigram of that row's own decoded prefix (KT estimator, prior 0.5) is kept; no language model, no beam.
+Nulls, bar and the three statistics as above. Registered: **N1′** P1 and P4 plants enciphered under the book's convention
+are recovered (z\* ≥ bar, rank 1) in ≥ 90 % of replicates per class (P4 because a digit 0 is a rune ᚠ, the worst case);
+**N2′** WELCOME chunk 2 under the sub library puts DIVINITY roll 0 at rank 1 with z\* ≥ bar (chunk 3 is reported at its best
+roll, since the key does not restart there); **N3′** no hit in the 55 × 3 cells. Expected: all three hold.
 
 ## What a null means and does not mean
 

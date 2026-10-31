@@ -1,0 +1,46 @@
+[
+ {
+  "chunk": 2,
+  "L": 251,
+  "F": false,
+  "z_roll0": 4.537071265579177,
+  "rank_roll0": 827,
+  "best_roll_z": 5.490854781157194,
+  "top": "self running key plaintext@184 @0",
+  "ztop": 164.92653793358568,
+  "nF": 14
+ },
+ {
+  "chunk": 2,
+  "L": 251,
+  "F": true,
+  "z_roll0": 0.9552438516001907,
+  "rank_roll0": 17054,
+  "best_roll_z": 3.6597884408695145,
+  "top": "shift s=19 @0",
+  "ztop": 8.60999828270078,
+  "nF": 14
+ },
+ {
+  "chunk": 3,
+  "L": 264,
+  "F": false,
+  "z_roll0": 2.3523161952600717,
+  "rank_roll0": 6357,
+  "best_roll_z": 12.743552839147748,
+  "top": "self running key plaintext@435 @0",
+  "ztop": 178.29484573381276,
+  "nF": 11
+ },
+ {
+  "chunk": 3,
+  "L": 264,
+  "F": true,
+  "z_roll0": 2.6883428861288086,
+  "rank_roll0": 2325,
+  "best_roll_z": 2.6883428861288086,
+  "top": "self running key plaintext@435 @0",
+  "ztop": 12.888023674001925,
+  "nF": 11
+ }
+]
