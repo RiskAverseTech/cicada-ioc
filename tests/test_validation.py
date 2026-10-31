@@ -134,7 +134,8 @@ def test_table_hook_equals_plain_decoder_on_additive_tables():
 def test_lattice_decoder_reads_a_short_running_key_plant_and_beats_a_random_page():
     """§69's word-lattice joint decoder: on a 15-word English plant under an English running key (sub, soft 0.81) it reads at
     least half the words and scores well above a random page with the same word structure; the recomputed key matches."""
-    import os; os.environ["STAGE"] = "none"
+    import os, pytest; os.environ["STAGE"] = "none"
+    if not (Path(__file__).resolve().parents[1] / "data" / "corpus" / "corpus.json").exists(): pytest.skip("the rune corpus (data/corpus/corpus.json) is not in the repository; the 5-gram tables need it")
     import numpy as np, runkey_lattice as RL
     from lp import english_to_runes
     rng = np.random.default_rng(4)
@@ -151,3 +152,27 @@ def test_lattice_decoder_reads_a_short_running_key_plant_and_beats_a_random_page
     assert np.array_equal(Kd, RL.key_of(np.concatenate(C), P, RL.SIGNS["sub"], False))
     rw = [rng.integers(0, 29, size=len(c)) for c in C]; s0, _, _ = RL.decode_lattice(rw, "sub", False, False, beam=100)
     assert s - s0 > 15, (s, s0)                                  # measured 28 nats at 60 runes
+
+
+def test_e56_lattice_decoder_reads_plants_and_places_fillers():
+    """§70's E56w+n decoder on a word lattice with a known key: on a clean plant it reads the dictionary words exactly and
+    beats random keys by far; with the §58 fillers and echoes it places the fillers and keeps the reading."""
+    import os, pytest; os.environ["STAGE"] = "none"
+    import numpy as np, e56_lattice as E
+    from lp import english_to_runes
+    text = ("the man set out at dawn with nothing but a staff and the memory of a voice that had told him the road would be long and the gate narrow "
+            "and he walked until the hills were behind him and the river lay ahead like a question he could not yet answer and still he walked because stopping was the one thing he had promised never to do")
+    pw = [np.array(english_to_runes(w)) for w in text.split()]; pw = [w for w in pw if tuple(int(x) for x in w) in E.DICT]
+    assert len(pw) >= 40
+    rng = np.random.default_rng(2); Klib, Llib, mode = E.library("sub"); K = Klib[77]
+    cw, P0, FM, EM = E.encrypt_e56(pw, K, mode, False, rng, p_fill=0.0, r=0.0)
+    s, P, nf, ne = E.decode_e56(cw, K, mode, False)
+    assert np.array_equal(P, P0) and nf == 0, "clean plant not read exactly"
+    sr = max(E.decode_e56(cw, k, mode, False)[0] for k in rng.integers(0, 29, size=(5, E.LKEY)))
+    assert s - sr > 100, (s, sr)
+    for f_rule in (False, True):
+        cw, P0, FM, EM = E.encrypt_e56(pw, K, mode, f_rule, rng)
+        s, P, nf, ne = E.decode_e56(cw, K, mode, f_rule); real = ~FM
+        assert (P[real] == P0[real]).mean() > 0.9, f_rule
+        assert abs(nf - int(FM.sum())) <= 2 and ((P == -1) & FM).sum() >= 0.8 * FM.sum(), (nf, int(FM.sum()))
+        assert s > max(E.decode_e56(cw, k, mode, f_rule)[0] for k in rng.integers(0, 29, size=(3, E.LKEY))) + 100
