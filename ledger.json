@@ -546,6 +546,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a773",
+   "lane": "One hand procedure as the cipher (blind spot 4): 24,840 procedures = 207 Gematria-order tables (additive, subtractive, reversed, multiplied, 5x6 grid) x 5 feedback states x reset x 3 repeat rules x \u00a759 fillers x literal F, no key; each run as a generator against 13 bands (\u00a747's ten + U + two word-length bands, 20 replicates on shared layouts, |z| < 3 on all) and, since a feedback state needs no key, as a decoder of all 55 pages (12,420 distinct decoders; 5-gram z and the \u00a772 z*); registered first, counts corrected before the run",
+   "tests": 683100,
+   "controls": "H1-H5 all hold: the plain chain doubles on plaintext F (349 vs 86); chance decode level recorded first (median page z5 0.58)",
+   "verdict": "null (0 of 24,840 inside every band; 12 fail one band, 11 of them lag-6 cipher feedback with fillers, which does not make the lag-6 relation, 47 vs 77; largest median page z5 0.83 vs chance 0.58, best page 5.46, nothing reads)",
+   "coverage_limit": "one table, one state, enumerated k; Gematria-order tables only; English plaintext in the generator; two-state procedures and keyword tables (a key again) outside",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a771",
    "lane": "Two Quorum asks: lag-5 equality given the lag-6 relation under the K-fixed null; words across the 54 page joins",
    "tests": null,

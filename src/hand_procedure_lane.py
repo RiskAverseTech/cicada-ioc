@@ -206,7 +206,7 @@ def decode_page(C, W, T, Tinv, R28, st, rs, ru, lf, p0=0):
         elif st == "c6w": s_use = int(C[i - 6]) if wpos >= 6 else s
         else: s_use = csum
         p = int(Rinv[s_use, x]) if R28 is not None else int(Tinv[s_use, x])
-        if p < 0: p = 0
+        if p < 0: p = (7 * i + 11 * x + 13 * s_use) % N        # a cell the procedure could not have written (e.g. c equal to the state under the exclude rule): a position-hashed rune, not F, so the §72 scorer sees no fake alphabet (first run used F; results/hand_procedure_firstrun/)
         P[i] = p
         if st == "p1": s = p
         else: s = x
