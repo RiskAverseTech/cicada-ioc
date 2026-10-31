@@ -1,0 +1,2354 @@
+[
+ {
+  "page": "LP2-03",
+  "n": 217,
+  "null": {
+   "0": {
+    "mean": -883.9029360538467,
+    "sd": 4.3230739986556275,
+    "max": -863.6765080387427
+   },
+   "1": {
+    "mean": -884.2221018328011,
+    "sd": 4.295276881758163,
+    "max": -864.0979898151419
+   }
+  },
+  "cells": [
+   {
+    "sign": "sub",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p s=845",
+      "score": -864.5798528167486,
+      "z": 4.469755373862932,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "TEACHNGOFHEOFOFTO"
+     },
+     {
+      "key": "prime p s=123",
+      "score": -864.7153201022314,
+      "z": 4.438419503710128,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ASOANDTROOPITBRNGANTHEM"
+     },
+     {
+      "key": "prime p s=122",
+      "score": -865.5614049748239,
+      "z": 4.242705788688007,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "SOANDTROOPITBRNGANTHEM"
+     },
+     {
+      "key": "prime p s=844",
+      "score": -865.7599744052523,
+      "z": 4.196773327090047,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "TEACHNGOFHEOFOFTO"
+     },
+     {
+      "key": "prime p-1 s=311",
+      "score": -865.9120437995476,
+      "z": 4.1615971088845125,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "ITAFOGALLUIEONTHEMETUPOFTHE"
+     }
+    ]
+   },
+   {
+    "sign": "sub",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 2,
+    "top": [
+     {
+      "key": "prime p s=845",
+      "score": -864.5798528167486,
+      "z": 4.5729878554447,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "TEACHNGOFHEOFOFTO"
+     },
+     {
+      "key": "prime p s=123",
+      "score": -864.7153201022314,
+      "z": 4.5414491935116,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ASOANDTROOPITBRNGANTHEM"
+     },
+     {
+      "key": "prime p s=122",
+      "score": -865.5614049748239,
+      "z": 4.344468906586277,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "SOANDTROOPITBRNGANTHEM"
+     },
+     {
+      "key": "prime p s=844",
+      "score": -865.7599744052523,
+      "z": 4.298239190576186,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "TEACHNGOFHEOFOFTO"
+     },
+     {
+      "key": "prime p-1 s=311",
+      "score": -865.9120437995476,
+      "z": 4.262835327570005,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "ITAFOGALLUIEONTHEMETUPOFTHE"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p+1 s=879",
+      "score": -867.1257557564127,
+      "z": 3.880845042821689,
+      "above_max": false,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "INTONAUFORWHYTHESHEWBUT"
+     },
+     {
+      "key": "prime p-1 s=126",
+      "score": -867.541729183207,
+      "z": 3.784623366550652,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ORTHISTOHASTHEITMENOF"
+     },
+     {
+      "key": "prime p-1 s=128",
+      "score": -867.5491891881301,
+      "z": 3.7828977414687452,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "THISTOHASTHEITMENOF"
+     },
+     {
+      "key": "prime p s=5",
+      "score": -868.2848804286325,
+      "z": 3.6127199372647887,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "AIHADANNOTFEWINASANGO"
+     },
+     {
+      "key": "prime p s=461",
+      "score": -868.5411587310911,
+      "z": 3.5534384392987,
+      "above_max": false,
+      "fillers": 3,
+      "echoes": 0,
+      "tr": "DIEMEBOTHLONGAOFTHE"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p+1 s=879",
+      "score": -867.1257557564127,
+      "z": 3.9802663593110275,
+      "above_max": false,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "INTONAUFORWHYTHESHEWBUT"
+     },
+     {
+      "key": "prime p-1 s=126",
+      "score": -867.541729183207,
+      "z": 3.8834219792523172,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ORTHISTOHASTHEITMENOF"
+     },
+     {
+      "key": "prime p-1 s=128",
+      "score": -867.5491891881301,
+      "z": 3.881685186694263,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "THISTOHASTHEITMENOF"
+     },
+     {
+      "key": "prime p s=5",
+      "score": -868.2848804286325,
+      "z": 3.7104060676165433,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "AIHADANNOTFEWINASANGO"
+     },
+     {
+      "key": "prime p s=461",
+      "score": -868.5411587310911,
+      "z": 3.650740926226717,
+      "above_max": false,
+      "fillers": 3,
+      "echoes": 0,
+      "tr": "DIEMEBOTHLONGAOFTHE"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 1,
+    "top": [
+     {
+      "key": "prime p+1 s=636",
+      "score": -863.9159097335464,
+      "z": 4.623336617998159,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "THESCYINSETSODOFACTSAINBE"
+     },
+     {
+      "key": "prime p+1 s=635",
+      "score": -865.0960313220501,
+      "z": 4.3503545712252745,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "THESCYINSETSODOFACTSAINBE"
+     },
+     {
+      "key": "prime p+1 s=631",
+      "score": -866.4577002712117,
+      "z": 4.035377554966685,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "SHEELMSOFFOFACTSAINBE"
+     },
+     {
+      "key": "prime p+1 s=632",
+      "score": -867.5035672310333,
+      "z": 3.7934508703559477,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "EATSHEELMSOFFOFACTSAINBE"
+     },
+     {
+      "key": "prime p+1 s=630",
+      "score": -867.5508104827259,
+      "z": 3.782522708657302,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "SHEELMSOFFOFACTSAINBE"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 1,
+    "top": [
+     {
+      "key": "prime p+1 s=636",
+      "score": -863.9159097335464,
+      "z": 4.7275630089166265,
+      "above_max": true,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "THESCYINSETSODOFACTSAINBE"
+     },
+     {
+      "key": "prime p+1 s=635",
+      "score": -865.0960313220501,
+      "z": 4.452814344048112,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "THESCYINSETSODOFACTSAINBE"
+     },
+     {
+      "key": "prime p+1 s=631",
+      "score": -866.4577002712117,
+      "z": 4.135798936975151,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "SHEELMSOFFOFACTSAINBE"
+     },
+     {
+      "key": "prime p+1 s=632",
+      "score": -867.5035672310333,
+      "z": 3.8923066107264326,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "EATSHEELMSOFFOFACTSAINBE"
+     },
+     {
+      "key": "prime p+1 s=630",
+      "score": -867.5508104827259,
+      "z": 3.8813077268376754,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "SHEELMSOFFOFACTSAINBE"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "LP2-11",
+  "n": 273,
+  "null": {
+   "0": {
+    "mean": -1108.772855795959,
+    "sd": 5.05059623138515,
+    "max": -1085.2663090093636
+   },
+   "1": {
+    "mean": -1107.8282291139187,
+    "sd": 5.149573369098836,
+    "max": -1085.6600341601786
+   }
+  },
+  "cells": [
+   {
+    "sign": "sub",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p+1 s=153",
+      "score": -1089.0643142055947,
+      "z": 3.9022207849228896,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "LAWITMACEMEOFTHROWISOFORTWO"
+     },
+     {
+      "key": "prime p+1 s=154",
+      "score": -1089.678731235085,
+      "z": 3.7805684093731893,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ITMACEMEOFTHROWISOFORTWO"
+     },
+     {
+      "key": "prime p+1 s=152",
+      "score": -1091.2560367057768,
+      "z": 3.4682675643976757,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "LAWITMACEMEOFTHROWISOFORTWO"
+     },
+     {
+      "key": "prime p+1 s=155",
+      "score": -1091.638013061539,
+      "z": 3.392637611365892,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "MATHEITMACEMEOFTHROWISOFORTWO"
+     },
+     {
+      "key": "prime p+1 s=647",
+      "score": -1091.7356921526991,
+      "z": 3.3732975004789387,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "THEFLYMEOFASAMGETTHOUITONECAST"
+     }
+    ]
+   },
+   {
+    "sign": "sub",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p+1 s=153",
+      "score": -1088.2990242612914,
+      "z": 3.792392777587498,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "LAWITMACEMEOFTHROWISOFFOFORTWO"
+     },
+     {
+      "key": "prime p+1 s=154",
+      "score": -1088.9134412907817,
+      "z": 3.673078615917851,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "ITMACEMEOFTHROWISOFFOFORTWO"
+     },
+     {
+      "key": "prime p+1 s=651",
+      "score": -1089.1056615189875,
+      "z": 3.6357512075233553,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "GEFERAASTOFASAMGETTHOUITONECAST"
+     },
+     {
+      "key": "prime p+1 s=152",
+      "score": -1090.4907467614735,
+      "z": 3.366780334946324,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "LAWITMACEMEOFTHROWISOFFOFORTWO"
+     },
+     {
+      "key": "prime p+1 s=155",
+      "score": -1090.8727231172356,
+      "z": 3.292604023942718,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "MATHEITMACEMEOFTHROWISOFFOFORTWO"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p s=707",
+      "score": -1090.8817893635708,
+      "z": 3.542367200373397,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "ISSISNOTTOATECHOUSTHYITHE"
+     },
+     {
+      "key": "prime p s=331",
+      "score": -1092.0822288359648,
+      "z": 3.304684475919143,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "THNGSTOIINALSOBYSEAUPTHENMEOF"
+     },
+     {
+      "key": "prime p-1 s=706",
+      "score": -1092.1217800931424,
+      "z": 3.2968534683775212,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "CNGHEARDOISISRUEINRYEYOUASITHE"
+     },
+     {
+      "key": "prime p s=218",
+      "score": -1092.3377577993049,
+      "z": 3.254090654589254,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "AMASTHEUSTOUPUPOFTOMEALTO"
+     },
+     {
+      "key": "prime p s=870",
+      "score": -1092.5085355193178,
+      "z": 3.220277276487149,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "AYEARIOFITTHEDOTOOFBETHE"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p s=707",
+      "score": -1090.8817893635708,
+      "z": 3.2908434419128496,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "ISSISNOTTOATECHOUSTHYITHE"
+     },
+     {
+      "key": "prime p s=426",
+      "score": -1091.3839161885494,
+      "z": 3.1933350098567583,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "ANFEELSORHISFLYTHEAEAGLEMEHE"
+     },
+     {
+      "key": "prime p s=331",
+      "score": -1092.0822288359648,
+      "z": 3.057729087314561,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "THNGSTOIINALSOBYSEAUPTHENMEOF"
+     },
+     {
+      "key": "prime p-1 s=706",
+      "score": -1092.1217800931424,
+      "z": 3.0500485952926395,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "CNGHEARDOISISRUEINRYEYOUASITHE"
+     },
+     {
+      "key": "prime p s=218",
+      "score": -1092.3377577993049,
+      "z": 3.008107702196821,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "AMASTHEUSTOUPUPOFTOMEALTO"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p-1 s=580",
+      "score": -1089.2357655634908,
+      "z": 3.8682740289278885,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "FEARTHATSOAAOFTHECUTDOSOALL"
+     },
+     {
+      "key": "prime p+1 s=95",
+      "score": -1089.3132037932755,
+      "z": 3.852941536240478,
+      "above_max": false,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "MENREADHEACAIDONGSOUETHETHETHEOFMY"
+     },
+     {
+      "key": "prime p-1 s=970",
+      "score": -1090.262197744607,
+      "z": 3.665044126141797,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "GOTANIFDAYTHEMTHEITUPASOF"
+     },
+     {
+      "key": "prime p+1 s=463",
+      "score": -1090.6341582840216,
+      "z": 3.591397268944375,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "BENGIIAMAINORLONGTHEBEENMEMYNON"
+     },
+     {
+      "key": "prime p-1 s=579",
+      "score": -1091.4274880636729,
+      "z": 3.4343208084026746,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "FEARTHATSOAAOFTHECUTDOSOALL"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 2,
+    "top": [
+     {
+      "key": "prime p+1 s=463",
+      "score": -1081.5919459720847,
+      "z": 5.094845972924813,
+      "above_max": true,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "BENGIIAMAINFORTHEPAYONBEENMEMYNON"
+     },
+     {
+      "key": "prime p+1 s=462",
+      "score": -1083.7836684722668,
+      "z": 4.6692335302836385,
+      "above_max": true,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "BENGIIAMAINFORTHEPAYONBEENMEMYNON"
+     },
+     {
+      "key": "prime p+1 s=461",
+      "score": -1085.31497551415,
+      "z": 4.371867723035938,
+      "above_max": true,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "NEWMAINFORTHEPAYONBEENMEMYNON"
+     },
+     {
+      "key": "prime p+1 s=464",
+      "score": -1086.022762770928,
+      "z": 4.234421918102823,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "BENGIIAMAINFORTHEPAYONBEENMEMYNON"
+     },
+     {
+      "key": "prime p+1 s=317",
+      "score": -1087.6290236903642,
+      "z": 3.922500754094382,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "OLDHUNTTHYFOXITWILLIFGOTHEHECAWTHE"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "LP2-19",
+  "n": 271,
+  "null": {
+   "0": {
+    "mean": -1140.822148305961,
+    "sd": 5.12272380002727,
+    "max": -1118.2870572535548
+   },
+   "1": {
+    "mean": -1139.7215581533649,
+    "sd": 5.387390234573349,
+    "max": -1113.3954659761716
+   }
+  },
+  "cells": [
+   {
+    "sign": "sub",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p s=817",
+      "score": -1118.7216311704326,
+      "z": 4.314212125863742,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "IDEAAMHOAXIBETHEUPMYNEARABYHEISTHE"
+     },
+     {
+      "key": "prime p s=813",
+      "score": -1119.9416010340628,
+      "z": 4.076063455107035,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "BIRDIBEBETHEUPMYNEARABYHEISTHE"
+     },
+     {
+      "key": "prime p s=816",
+      "score": -1120.3537378826795,
+      "z": 3.9956107770582032,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "IDEAAMHOAXIBETHEUPMYNEARABYHEISTHE"
+     },
+     {
+      "key": "prime p+1 s=799",
+      "score": -1120.929052656043,
+      "z": 3.8833043565245697,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "SODOTHWEINTHEGODMEONONEIFSTWOTHEAT"
+     },
+     {
+      "key": "prime p s=812",
+      "score": -1121.7278584261367,
+      "z": 3.7273705601154465,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "BIRDIBEBETHEUPMYNEARABYHEISTHE"
+     }
+    ]
+   },
+   {
+    "sign": "sub",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p s=817",
+      "score": -1118.7216311704326,
+      "z": 3.897977697655188,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "IDEAAMHOAXIBETHEUPMYNEARABYHEISTHE"
+     },
+     {
+      "key": "prime p+1 s=674",
+      "score": -1118.9189432856476,
+      "z": 3.8613528929494167,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "STAYBRNGTHEMEHEBYTHEWITAAOFTHE"
+     },
+     {
+      "key": "prime p s=813",
+      "score": -1119.9416010340628,
+      "z": 3.671528561707854,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "BIRDIBEBETHEUPMYNEARABYHEISTHE"
+     },
+     {
+      "key": "prime p s=816",
+      "score": -1120.3537378826795,
+      "z": 3.595028284083298,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "IDEAAMHOAXIBETHEUPMYNEARABYHEISTHE"
+     },
+     {
+      "key": "prime p+1 s=799",
+      "score": -1120.929052656043,
+      "z": 3.488239143457943,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "SODOTHWEINTHEGODMEONONEIFSTWOTHEAT"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p s=834",
+      "score": -1123.1284353689032,
+      "z": 3.4539658251658354,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "THEBONDIBYINORAHEROFHEBEOF"
+     },
+     {
+      "key": "prime p-1 s=14",
+      "score": -1124.357915642159,
+      "z": 3.213960640180206,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "DEATHWILYMYIITOHEORMELAIISAEACHOF"
+     },
+     {
+      "key": "prime p-1 s=813",
+      "score": -1124.786776975239,
+      "z": 3.1302431980886105,
+      "above_max": false,
+      "fillers": 3,
+      "echoes": 0,
+      "tr": "MANONDARTIHEITSOANDBE"
+     },
+     {
+      "key": "prime p s=833",
+      "score": -1124.9146927609772,
+      "z": 3.1052729301742024,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "THEBONDIBYINORAHEROFHEBEOF"
+     },
+     {
+      "key": "prime p+1 s=152",
+      "score": -1125.2233539210854,
+      "z": 3.045019601640949,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "ITHATBYITHEWITHHEBYASITATHE"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p s=834",
+      "score": -1123.1284353689032,
+      "z": 3.0799927352535224,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "THEBONDIBYINORAHEROFHEBEOF"
+     },
+     {
+      "key": "prime p+1 s=209",
+      "score": -1123.8575966961862,
+      "z": 2.9446468079056856,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "THEAOROFHEITSOBEISOFIFMROH"
+     },
+     {
+      "key": "prime p-1 s=78",
+      "score": -1124.251183665104,
+      "z": 2.8715897335560334,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "AEYEWENUITEUILANWEFIFEOFAMRIONSEATHEIN"
+     },
+     {
+      "key": "prime p-1 s=14",
+      "score": -1124.357915642159,
+      "z": 2.8517782900912443,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "DEATHWILYMYIITOHEORMELAIISAEACHOF"
+     },
+     {
+      "key": "prime p+1 s=211",
+      "score": -1124.5947194559449,
+      "z": 2.8078230903609227,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "BATHNGUSOROFHEITSOBEISOFIFMROH"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 4,
+    "top": [
+     {
+      "key": "prime p+1 s=251",
+      "score": -1114.3210468588625,
+      "z": 5.173244250833412,
+      "above_max": true,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "WILLPARCTOTHINCALSONOHISBYINCAIBYMYON"
+     },
+     {
+      "key": "prime p+1 s=885",
+      "score": -1114.4738577140272,
+      "z": 5.1434142500116025,
+      "above_max": true,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "THESAWISETHYRANNOWOFTHINCOFATWEOFNOWRNGLOT"
+     },
+     {
+      "key": "prime p+1 s=250",
+      "score": -1116.1073042509365,
+      "z": 4.824551355841779,
+      "above_max": true,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "WILLPARCTOTHINCALSONOHISBYINCAIBYMYON"
+     },
+     {
+      "key": "prime p+1 s=884",
+      "score": -1116.2601151061012,
+      "z": 4.794721355019969,
+      "above_max": true,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "THESAWISETHYRANNOWOFTHINCOFATWEOFNOWRNGLOT"
+     },
+     {
+      "key": "prime p+1 s=249",
+      "score": -1118.0758831998044,
+      "z": 4.440267715787368,
+      "above_max": true,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "WILLPARCTOTHINCALSONOHISBYINCAIBYMYON"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 2,
+    "top": [
+     {
+      "key": "prime p+1 s=885",
+      "score": -1114.0522817856465,
+      "z": 4.764695938116167,
+      "above_max": false,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "THESAWISETHYRANNOWOFTHINCOFATWEOFFNOWRNGLOT"
+     },
+     {
+      "key": "prime p+1 s=251",
+      "score": -1114.3210468588625,
+      "z": 4.7148081331654215,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "WILLPARCTOTHINCALSONOHISBYINCAIBYMYON"
+     },
+     {
+      "key": "prime p+1 s=884",
+      "score": -1115.8385391777203,
+      "z": 4.433133286387211,
+      "above_max": false,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "THESAWISETHYRANNOWOFTHINCOFATWEOFFNOWRNGLOT"
+     },
+     {
+      "key": "prime p+1 s=250",
+      "score": -1116.1073042509365,
+      "z": 4.383245481436424,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "WILLPARCTOTHINCALSONOHISBYINCAIBYMYON"
+     },
+     {
+      "key": "prime p+1 s=883",
+      "score": -1117.8071181265884,
+      "z": 4.067728356884462,
+      "above_max": false,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "THESAWISETHYRANNOWOFTHINCOFATWEOFFNOWRNGLOT"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "LP2-27",
+  "n": 234,
+  "null": {
+   "0": {
+    "mean": -965.5354628450922,
+    "sd": 5.171403427677294,
+    "max": -942.8897585624377
+   },
+   "1": {
+    "mean": -963.1877369417874,
+    "sd": 5.454046398781802,
+    "max": -940.5164827514028
+   }
+  },
+  "cells": [
+   {
+    "sign": "sub",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p-1 s=566",
+      "score": -945.3254453557615,
+      "z": 3.908033432697759,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "BEITHEWITHATOUSEITADEADCAWNOW"
+     },
+     {
+      "key": "prime p-1 s=565",
+      "score": -946.4185555672756,
+      "z": 3.6966575021981716,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "BEITHEWITHATOUSEITADEADCAWNOW"
+     },
+     {
+      "key": "prime p-1 s=567",
+      "score": -946.5557177457955,
+      "z": 3.670134300046539,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "SITHEWITHATOUSEITADEADCAWNOW"
+     },
+     {
+      "key": "prime p+1 s=369",
+      "score": -946.6180599838523,
+      "z": 3.6580791125275924,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "INBAGMYOFBYPACEOWNTOTHEITSBYHE"
+     },
+     {
+      "key": "prime p+1 s=370",
+      "score": -947.5455994553149,
+      "z": 3.478719779140749,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "BAGMYOFBYPACEOWNTOTHEITSBYHE"
+     }
+    ]
+   },
+   {
+    "sign": "sub",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p-1 s=566",
+      "score": -942.0775162230826,
+      "z": 3.8705612631788218,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "BEITHEWITHATOUSEITADEADCAWOFOF"
+     },
+     {
+      "key": "prime p-1 s=565",
+      "score": -943.1706264345967,
+      "z": 3.670139387090969,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "BEITHEWITHATOUSEITADEADCAWOFOF"
+     },
+     {
+      "key": "prime p-1 s=567",
+      "score": -943.3077886131166,
+      "z": 3.644990686751609,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "SITHEWITHATOUSEITADEADCAWOFOF"
+     },
+     {
+      "key": "prime p-1 s=571",
+      "score": -944.3309937873896,
+      "z": 3.45738590683966,
+      "above_max": false,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "ISAWHOWITHATOUSEITADEADCAWOFOF"
+     },
+     {
+      "key": "prime p-1 s=564",
+      "score": -944.8027331468435,
+      "z": 3.370892444011909,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "BEITHEWITHATOUSEITADEADCAWOFOF"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p s=701",
+      "score": -947.1061305829949,
+      "z": 3.5637003610013744,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "UPISTHOUIISISDOBITWEATBENEARTHY"
+     },
+     {
+      "key": "prime p s=702",
+      "score": -947.555181471195,
+      "z": 3.4768668941330048,
+      "above_max": false,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "SEAUPISTHOUIISISDOBITWEATBENEARTHY"
+     },
+     {
+      "key": "prime p s=700",
+      "score": -948.199240794509,
+      "z": 3.3523244305017648,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "UPISTHOUIISISDOBITWEATBENEARTHY"
+     },
+     {
+      "key": "prime p+1 s=330",
+      "score": -948.7109274127051,
+      "z": 3.2533790232535957,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "HERIAIASCYBEUSATIBETHATGONG"
+     },
+     {
+      "key": "prime p-1 s=314",
+      "score": -949.1515606222416,
+      "z": 3.168173292217757,
+      "above_max": false,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "BYAATCFHEASSBYSAYTINOURDOTHEABOTHIT"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p s=117",
+      "score": -940.0418344980635,
+      "z": 4.243803728712998,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "OFOFAOFHEWEDOFORNOSJHEMATAREME"
+     },
+     {
+      "key": "prime p s=116",
+      "score": -941.1349447095777,
+      "z": 4.043381852625125,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "OFOFAOFHEWEDOFORNOSJHEMATAREME"
+     },
+     {
+      "key": "prime p s=115",
+      "score": -942.7670514218244,
+      "z": 3.744134909546086,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "OFOFAOFHEWEDOFORNOSJHEMATAREME"
+     },
+     {
+      "key": "prime p s=118",
+      "score": -944.2863745754358,
+      "z": 3.465566844200908,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "CEOFOFAOFHEWEDOFORNOSJHEMATAREME"
+     },
+     {
+      "key": "prime p s=114",
+      "score": -944.9587739220067,
+      "z": 3.3422823509261486,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "OFOFAOFHEWEDOFORNOSJHEMATAREME"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 12,
+    "top": [
+     {
+      "key": "prime p-1 s=423",
+      "score": -936.7205602935377,
+      "z": 5.5719695735469905,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "MYTHEEUETHNGTHEIFORISISTOITHATUS"
+     },
+     {
+      "key": "prime p s=340",
+      "score": -937.1021620979011,
+      "z": 5.49817881061384,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ANHEGONGTOGODMANISLEFTAASCTODOORIS"
+     },
+     {
+      "key": "prime p s=338",
+      "score": -937.2473799974679,
+      "z": 5.470097864774347,
+      "above_max": true,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "ABLEGONGTOGODMANISLEFTAASCTODOORIS"
+     },
+     {
+      "key": "prime p s=342",
+      "score": -937.2865918592192,
+      "z": 5.462515423702064,
+      "above_max": true,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "IHEGONGTOGODMANISLEFTAASCTODOORIS"
+     },
+     {
+      "key": "prime p-1 s=421",
+      "score": -937.3363923115409,
+      "z": 5.452885455161012,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "OFTHEEUETHNGTHEIFORISISTOITHATUS"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 15,
+    "top": [
+     {
+      "key": "prime p s=340",
+      "score": -928.3247362528823,
+      "z": 6.392134965461974,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ANOHOFABLEGONGTOGODMANISLEFTAASCTODOORIS"
+     },
+     {
+      "key": "prime p s=339",
+      "score": -928.8261046348173,
+      "z": 6.300209018142024,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "GENANOHOFABLEGONGTOGODMANISLEFTAASCTODOORIS"
+     },
+     {
+      "key": "prime p s=342",
+      "score": -930.9373093047606,
+      "z": 5.913119412447648,
+      "above_max": true,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "IFYSOHOFABLEGONGTOGODMANISLEFTAASCTODOORIS"
+     },
+     {
+      "key": "prime p s=338",
+      "score": -931.0499531766433,
+      "z": 5.892466146295041,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ANOHOFABLEGONGTOGODMANISLEFTAASCTODOORIS"
+     },
+     {
+      "key": "prime p s=345",
+      "score": -931.1803461159636,
+      "z": 5.868558586698649,
+      "above_max": true,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "OFOFSNGTOIGONGTOGODMANISLEFTAASCTODOORIS"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "LP2-35",
+  "n": 271,
+  "null": {
+   "0": {
+    "mean": -1122.2771958622498,
+    "sd": 5.119413723894205,
+    "max": -1100.8235239541839
+   },
+   "1": {
+    "mean": -1121.9963413445785,
+    "sd": 5.46619336283968,
+    "max": -1101.0801781871426
+   }
+  },
+  "cells": [
+   {
+    "sign": "sub",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p-1 s=823",
+      "score": -1102.4316917992164,
+      "z": 3.876518901062244,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "MYHETHATOUTIANYUSISIHEWEHUNGSON"
+     },
+     {
+      "key": "prime p s=508",
+      "score": -1104.1153097302024,
+      "z": 3.547649616064256,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "NOINUSBEIONOFDUNGIHECSOPEACEOF"
+     },
+     {
+      "key": "prime p-1 s=959",
+      "score": -1104.3900572765583,
+      "z": 3.493981840577863,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "DOORINOFWEMEASBYEARSSYOUDOOR"
+     },
+     {
+      "key": "prime p-1 s=822",
+      "score": -1104.6234142993987,
+      "z": 3.4483990775065227,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "MYHETHATOUTIANYUSISIHEWEHUNGSON"
+     },
+     {
+      "key": "prime p s=218",
+      "score": -1105.469324126406,
+      "z": 3.2831633937681457,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "BAGMEHETHEYINORBADBENGISDOTHE"
+     }
+    ]
+   },
+   {
+    "sign": "sub",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p-1 s=823",
+      "score": -1102.4316917992164,
+      "z": 3.5792091948972398,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "MYHETHATOUTIANYUSISIHEWEHUNGSON"
+     },
+     {
+      "key": "prime p s=508",
+      "score": -1104.1153097302024,
+      "z": 3.2712036379713614,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "NOINUSBEIONOFDUNGIHECSOPEACEOF"
+     },
+     {
+      "key": "prime p-1 s=959",
+      "score": -1104.3900572765583,
+      "z": 3.2209405886940154,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "DOORINOFWEMEASBYEARSSYOUDOOR"
+     },
+     {
+      "key": "prime p-1 s=822",
+      "score": -1104.6234142993987,
+      "z": 3.178249632236667,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "MYHETHATOUTIANYUSISIHEWEHUNGSON"
+     },
+     {
+      "key": "prime p s=218",
+      "score": -1105.469324126406,
+      "z": 3.0234966312254037,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "BAGMEHETHEYINORBADBENGISDOTHE"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p-1 s=829",
+      "score": -1105.832102937877,
+      "z": 3.21230004279933,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "WHOTOTTOAAIFORETHEWOETHEEGONGITIF"
+     },
+     {
+      "key": "prime p s=546",
+      "score": -1106.2389078700826,
+      "z": 3.132836855382585,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "SHETHENEWISTOOFASTHESHEWARM"
+     },
+     {
+      "key": "prime p+1 s=579",
+      "score": -1106.8733923111538,
+      "z": 3.0088999213329233,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "MASSTHEITHEIANOTHEDOANBEOR"
+     },
+     {
+      "key": "prime p-1 s=555",
+      "score": -1106.9878385626344,
+      "z": 2.986544577996167,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "ANOFASIAENBYANAGESCYHEITANOF"
+     },
+     {
+      "key": "prime p+1 s=989",
+      "score": -1107.1049857061143,
+      "z": 2.963661656279325,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "ITTOITSAYATITICOMETOI"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p-1 s=829",
+      "score": -1105.832102937877,
+      "z": 2.957128907401886,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "WHOTOTTOAAIFORETHEWOETHEEGONGITIF"
+     },
+     {
+      "key": "prime p s=546",
+      "score": -1106.2389078700826,
+      "z": 2.8827069275701436,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "SHETHENEWISTOOFASTHESHEWARM"
+     },
+     {
+      "key": "prime p+1 s=579",
+      "score": -1106.8733923111538,
+      "z": 2.7666326508377166,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "MASSTHEITHEIANOTHEDOANBEOR"
+     },
+     {
+      "key": "prime p-1 s=555",
+      "score": -1106.9878385626344,
+      "z": 2.7456955481990524,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "ANOFASIAENBYANAGESCYHEITANOF"
+     },
+     {
+      "key": "prime p+1 s=989",
+      "score": -1107.1049857061143,
+      "z": 2.724264337170846,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "ITTOITSAYATITICOMETOI"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p s=294",
+      "score": -1100.4753275163555,
+      "z": 4.258665058488406,
+      "above_max": true,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "INYMBBEANORITINORWHOTHEASYETOF"
+     },
+     {
+      "key": "prime p-1 s=206",
+      "score": -1100.6161991028007,
+      "z": 4.231147925855093,
+      "above_max": true,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "SUBORTHEYFLOURORITTHNGSINORPITOFFORMRANI"
+     },
+     {
+      "key": "prime p-1 s=889",
+      "score": -1101.0023377481175,
+      "z": 4.155721584843708,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "OFBETHEWEACSAIDBUDIFTHEIEARSOF"
+     },
+     {
+      "key": "prime p-1 s=933",
+      "score": -1101.132251927132,
+      "z": 4.1303448159359295,
+      "above_max": false,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "OFORTHETOMRGIRLISOFMASDIREHEINWASAS"
+     },
+     {
+      "key": "prime p s=293",
+      "score": -1101.1849668248365,
+      "z": 4.120047758392338,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "THINYMBBEANORITINORWHOTHEASYETOF"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p s=294",
+      "score": -1100.4753275163555,
+      "z": 3.937111697242053,
+      "above_max": true,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "INYMBBEANORITINORWHOTHEASYETOF"
+     },
+     {
+      "key": "prime p-1 s=206",
+      "score": -1100.6161991028007,
+      "z": 3.9113402733105698,
+      "above_max": true,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "SUBORTHEYFLOURORITTHNGSINORPITOFFORMRANI"
+     },
+     {
+      "key": "prime p-1 s=889",
+      "score": -1101.0023377481175,
+      "z": 3.840699039148995,
+      "above_max": true,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "OFBETHEWEACSAIDBUDIFTHEIEARSOF"
+     },
+     {
+      "key": "prime p-1 s=933",
+      "score": -1101.132251927132,
+      "z": 3.8169321925720405,
+      "above_max": false,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "OFORTHETOMRGIRLISOFMASDIREHEINWASAS"
+     },
+     {
+      "key": "prime p s=293",
+      "score": -1101.1849668248365,
+      "z": 3.8072883885195243,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "THINYMBBEANORITINORWHOTHEASYETOF"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "LP2-43",
+  "n": 274,
+  "null": {
+   "0": {
+    "mean": -1125.9339717360815,
+    "sd": 5.237513817623321,
+    "max": -1105.5559095550525
+   },
+   "1": {
+    "mean": -1124.1214586704164,
+    "sd": 5.435554287356313,
+    "max": -1101.2294393345117
+   }
+  },
+  "cells": [
+   {
+    "sign": "sub",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 1,
+    "top": [
+     {
+      "key": "prime p s=807",
+      "score": -1101.4891577397575,
+      "z": 4.66725527559879,
+      "above_max": true,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "OFARCTOIHUNGWETOFGOASIAMYWITHTHEME"
+     },
+     {
+      "key": "prime p-1 s=790",
+      "score": -1104.088418069061,
+      "z": 4.170977763058894,
+      "above_max": true,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "OFTHYBYFORGODYEIFIAITORANCANME"
+     },
+     {
+      "key": "prime p+1 s=782",
+      "score": -1104.8980968349613,
+      "z": 4.016385566437681,
+      "above_max": true,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "GOASTOTHENMAYEARDIDWEHETHEONTHE"
+     },
+     {
+      "key": "prime p+1 s=785",
+      "score": -1105.2848704728256,
+      "z": 3.942538765964744,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "IAASTOTHENMAYEARDIDWEHETHEONTHE"
+     },
+     {
+      "key": "prime p+1 s=784",
+      "score": -1105.8243679033674,
+      "z": 3.839532368401362,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "AASTOTHENMAYEARDIDWEHETHEONTHE"
+     }
+    ]
+   },
+   {
+    "sign": "sub",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p s=807",
+      "score": -1101.355800545495,
+      "z": 4.1882864049167505,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "OFARCTOIHUNGWETOFGOASIAMYWITHFUITTHEME"
+     },
+     {
+      "key": "prime p-1 s=790",
+      "score": -1104.088418069061,
+      "z": 3.685556162681411,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "OFTHYBYFORGODYEIFIAITORANCANME"
+     },
+     {
+      "key": "prime p-1 s=309",
+      "score": -1104.5286488760398,
+      "z": 3.604565194013705,
+      "above_max": false,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "HEELCNGATHOWDOGWETISROWOFSONTOBEINTHEEOFTO"
+     },
+     {
+      "key": "prime p-1 s=310",
+      "score": -1104.7772844640035,
+      "z": 3.5588227407477993,
+      "above_max": false,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "FIXHEELCNGATHOWDOGWETISROWOFSONTOBEINTHEEOFTO"
+     },
+     {
+      "key": "prime p+1 s=782",
+      "score": -1104.8980968349613,
+      "z": 3.536596420381763,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "GOASTOTHENMAYEARDIDWEHETHEONTHE"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p-1 s=352",
+      "score": -1104.8716075397656,
+      "z": 4.021443175089052,
+      "above_max": true,
+      "fillers": 3,
+      "echoes": 0,
+      "tr": "ISMENINITTWOWONTHELONGIFANMY"
+     },
+     {
+      "key": "prime p+1 s=442",
+      "score": -1105.574877739608,
+      "z": 3.887167596192066,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "SEASAWTONGUEOFHISCORLOTHNGBYMEIOFDO"
+     },
+     {
+      "key": "prime p+1 s=578",
+      "score": -1108.2000417429322,
+      "z": 3.385944287817962,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "EYEONEORHIMUEOROFONATOXIIMEI"
+     },
+     {
+      "key": "prime p+1 s=441",
+      "score": -1108.7865354285552,
+      "z": 3.27396488193084,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "SAWTONGUEOFHISCORLOTHNGBYMEIOFDO"
+     },
+     {
+      "key": "prime p s=930",
+      "score": -1108.855458910103,
+      "z": 3.2608053020332584,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "DIDAEDDINONMYRGOFOFAMYITAUP"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p-1 s=119",
+      "score": -1104.2864421039164,
+      "z": 3.649124913100088,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "EARISAONOUTTOOFTHEIFATNOOFTHY"
+     },
+     {
+      "key": "prime p-1 s=352",
+      "score": -1104.7944271977833,
+      "z": 3.5556689255389866,
+      "above_max": false,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "ISMENINITTWOWONOFTHELONGIFANMY"
+     },
+     {
+      "key": "prime p-1 s=118",
+      "score": -1105.8426767671879,
+      "z": 3.3628183873992237,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ISAONOUTTOOFTHEIFATNOOFTHY"
+     },
+     {
+      "key": "prime p s=133",
+      "score": -1106.211343363244,
+      "z": 3.2949933641235605,
+      "above_max": false,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "ONEOFYETIFTHEYESWEOFBERNG"
+     },
+     {
+      "key": "prime p+1 s=442",
+      "score": -1106.4083180953623,
+      "z": 3.258755158835722,
+      "above_max": false,
+      "fillers": 3,
+      "echoes": 0,
+      "tr": "SEASAWTONGUEOFHISSOTHE"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 1,
+    "top": [
+     {
+      "key": "prime p s=335",
+      "score": -1101.0429335609185,
+      "z": 4.7524529847365695,
+      "above_max": true,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "ISGODDOBYTHISEASYBYIONIINOFDAIMY"
+     },
+     {
+      "key": "prime p s=334",
+      "score": -1102.5415088805405,
+      "z": 4.46632957355252,
+      "above_max": true,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "ISGODDOBYTHISEASYBYIONIINOFDAIMY"
+     },
+     {
+      "key": "prime p s=337",
+      "score": -1102.6299604977694,
+      "z": 4.449441481165773,
+      "above_max": true,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "OHIIIGODDOBYTHISEASYBYIONIINOFDAIMY"
+     },
+     {
+      "key": "prime p s=333",
+      "score": -1104.5100878294086,
+      "z": 4.090468236014059,
+      "above_max": true,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "ISGODDOBYTHISEASYBYIONIINOFDAIMY"
+     },
+     {
+      "key": "prime p s=336",
+      "score": -1104.9750126142833,
+      "z": 4.001700014857235,
+      "above_max": true,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "GODDOBYTHISEASYBYIONIINOFDAIMY"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 4,
+    "top": [
+     {
+      "key": "prime p s=335",
+      "score": -1096.8504297773275,
+      "z": 5.017156935866552,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ISGODDOBYTHISEASYBYIONIINOFOF"
+     },
+     {
+      "key": "prime p s=334",
+      "score": -1098.3490050969497,
+      "z": 4.741458223205719,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ISGODDOBYTHISEASYBYIONIINOFOF"
+     },
+     {
+      "key": "prime p s=337",
+      "score": -1098.4374567141783,
+      "z": 4.725185436190344,
+      "above_max": true,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "OHIIIGODDOBYTHISEASYBYIONIINOFOF"
+     },
+     {
+      "key": "prime p s=339",
+      "score": -1099.6161782507604,
+      "z": 4.508331464310435,
+      "above_max": true,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "ICAFGODDOBYTHISEASYBYIONIINOFOF"
+     },
+     {
+      "key": "prime p s=338",
+      "score": -1100.155675681302,
+      "z": 4.409078029974121,
+      "above_max": true,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "CAFGODDOBYTHISEASYBYIONIINOFOF"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "LP2-52",
+  "n": 263,
+  "null": {
+   "0": {
+    "mean": -1093.2206902049809,
+    "sd": 5.344474031311198,
+    "max": -1067.931220661524
+   },
+   "1": {
+    "mean": -1091.2282966608875,
+    "sd": 5.545860915533899,
+    "max": -1065.367891652479
+   }
+  },
+  "cells": [
+   {
+    "sign": "sub",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p s=727",
+      "score": -1070.160948745344,
+      "z": 4.3146886530907915,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "ITHEATHEUSMANBYSONIAGODSAWTOCAB"
+     },
+     {
+      "key": "prime p s=726",
+      "score": -1070.7004461758856,
+      "z": 4.213743746748113,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "THEATHEUSMANBYSONIAGODSAWTOCAB"
+     },
+     {
+      "key": "prime p+1 s=738",
+      "score": -1071.8698301327997,
+      "z": 3.994941307057486,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "SOMANTOIIUSGIANTATAIRUTHIFIBACCOF"
+     },
+     {
+      "key": "prime p+1 s=737",
+      "score": -1072.0805511641154,
+      "z": 3.9555134737326143,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "SOMANTOIIUSGIANTATAIRUTHIFIBACCOF"
+     },
+     {
+      "key": "prime p s=725",
+      "score": -1072.1990214955078,
+      "z": 3.9333465905747205,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "THEATHEUSMANBYSONIAGODSAWTOCAB"
+     }
+    ]
+   },
+   {
+    "sign": "sub",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p s=727",
+      "score": -1070.160948745344,
+      "z": 3.7987515800358476,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "ITHEATHEUSMANBYSONIAGODSAWTOCAB"
+     },
+     {
+      "key": "prime p s=726",
+      "score": -1070.7004461758856,
+      "z": 3.7014722867469625,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "THEATHEUSMANBYSONIAGODSAWTOCAB"
+     },
+     {
+      "key": "prime p-1 s=847",
+      "score": -1071.1604765993172,
+      "z": 3.6185220594624936,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "SOHEATTOCANMEGODFILLSTHEOFWASFOLC"
+     },
+     {
+      "key": "prime p-1 s=281",
+      "score": -1071.4819905906927,
+      "z": 3.5605483748944384,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "IISMIXSTHEBEIBYOFATONTHE"
+     },
+     {
+      "key": "prime p+1 s=738",
+      "score": -1071.8698301327997,
+      "z": 3.490615221500581,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "SOMANTOIIUSGIANTATAIRUTHIFIBACCOF"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p s=715",
+      "score": -1074.8654661717326,
+      "z": 3.434430390289517,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ATOOFIFINAYWHOTHEPITASITOIN"
+     },
+     {
+      "key": "prime p+1 s=863",
+      "score": -1075.2488754947965,
+      "z": 3.3626909972608168,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "AUPHITWEAISISALLUSTOONORWANGABE"
+     },
+     {
+      "key": "prime p+1 s=864",
+      "score": -1075.3600118562201,
+      "z": 3.341896366999255,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "AMITWEAISISALLUSTOONORWANGABE"
+     },
+     {
+      "key": "prime p s=716",
+      "score": -1075.5956727878208,
+      "z": 3.2978020500992087,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "MANIACTIFINAYWHOTHEPITASITOIN"
+     },
+     {
+      "key": "prime p s=718",
+      "score": -1075.9685109244763,
+      "z": 3.2280406227873475,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "IAHMANIACTIFINAYWHOTHEPITASITOIN"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p+1 s=863",
+      "score": -1073.5124530181745,
+      "z": 3.194426241936781,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "AUPHITWEAISISALLOFTOONORWANGABE"
+     },
+     {
+      "key": "prime p+1 s=864",
+      "score": -1073.6235893795981,
+      "z": 3.17438672722188,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "AMITWEAISISALLOFTOONORWANGABE"
+     },
+     {
+      "key": "prime p+1 s=862",
+      "score": -1074.3585378907667,
+      "z": 3.041864739677983,
+      "above_max": false,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "UPHITWEAISISALLOFTOONORWANGABE"
+     },
+     {
+      "key": "prime p s=715",
+      "score": -1074.8654661717326,
+      "z": 2.95045814137221,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ATOOFIFINAYWHOTHEPITASITOIN"
+     },
+     {
+      "key": "prime p-1 s=930",
+      "score": -1075.1635936359182,
+      "z": 2.8967013903958914,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "INMEAMNANTORTHEOFTHEETOISOF"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": false,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p+1 s=962",
+      "score": -1075.875259713479,
+      "z": 3.2454887777322496,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "EARSAAABENGFIRACUPMEONBUTTOMELT"
+     },
+     {
+      "key": "prime p s=28",
+      "score": -1076.224778942207,
+      "z": 3.180090531491307,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "ITATHEEATERCIDSEANOTHNGBEIMEANONFOXTHE"
+     },
+     {
+      "key": "prime p+1 s=963",
+      "score": -1076.823962924847,
+      "z": 3.0679777250430846,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "UEEARSAAABENGFIRACUPMEONBUTTOMELT"
+     },
+     {
+      "key": "prime p+1 s=961",
+      "score": -1077.3738350331012,
+      "z": 2.9650916215588574,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "EARSAAABENGFIRACUPMEONBUTTOMELT"
+     },
+     {
+      "key": "prime p-1 s=848",
+      "score": -1077.3873538024677,
+      "z": 2.962562136096424,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "TOSELLEARHEBUTGOODHEMESAISWYR"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": true,
+    "nkeys": 3000,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "prime p s=28",
+      "score": -1070.0158479467707,
+      "z": 3.824915380531987,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "ITATHEEATERCIDSEANOTHNGBEOFMEANONFOXOF"
+     },
+     {
+      "key": "prime p s=27",
+      "score": -1071.5144232663931,
+      "z": 3.5547002881511203,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "ITATHEEATERCIDSEANOTHNGBEOFMEANONFOXOF"
+     },
+     {
+      "key": "prime p-1 s=848",
+      "score": -1072.736347686595,
+      "z": 3.3343694073713013,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "TOSELLEARHEBUTGOODHESINFILTHYAISWYR"
+     },
+     {
+      "key": "prime p s=26",
+      "score": -1073.031712221151,
+      "z": 3.281110853099102,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "LOITATHEEATERCIDSEANOTHNGBEOFMEANONFOXOF"
+     },
+     {
+      "key": "prime p+1 s=892",
+      "score": -1073.4316236884458,
+      "z": 3.2090009546747535,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "THEOFTHETHYHEONBENGOFSONIT"
+     }
+    ]
+   }
+  ]
+ }
+]

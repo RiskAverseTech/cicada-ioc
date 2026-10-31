@@ -1,0 +1,118 @@
+[
+ {
+  "cell": 3,
+  "sign": "sub",
+  "F": true,
+  "key": "affine position 13\u00b7n+4",
+  "n": 296,
+  "words": 66,
+  "fillers": 31,
+  "echoes": 3,
+  "plain": {
+   "rank": 1,
+   "z": 4.70701494522555,
+   "acc": 0.19622641509433963
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 11.28555929354469,
+   "acc": 0.769811320754717
+  },
+  "e56": {
+   "rank": 1,
+   "z": 81.9438636531916,
+   "acc": 0.9018867924528302,
+   "fillers_placed": 31,
+   "fillers_found": 0.8709677419354839,
+   "echoes_placed": 3,
+   "tr": "INTOGODBOOCANDTHATMYNOWOFFFTHATSCORETHEREFOREISHOULDTHINCSTILLUN"
+  }
+ },
+ {
+  "cell": 11,
+  "sign": "beaufort",
+  "F": true,
+  "key": "self running key plaintext@1359",
+  "n": 287,
+  "words": 67,
+  "fillers": 25,
+  "echoes": 1,
+  "plain": {
+   "rank": 8,
+   "z": 5.178529125483587,
+   "acc": 0.3435114503816794
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 14.88610601889319,
+   "acc": 0.8587786259541985
+  },
+  "e56": {
+   "rank": 1,
+   "z": 78.40063747409287,
+   "acc": 0.9427480916030534,
+   "fillers_placed": 26,
+   "fillers_found": 0.92,
+   "echoes_placed": 1,
+   "tr": "ANDFROMTHEWAYTHERETOHATHTHISWICCEDMANTURNEDTHEETOTHEBRNGNGOFTHEEALMOS"
+  }
+ },
+ {
+  "cell": 19,
+  "sign": "add",
+  "F": false,
+  "key": "phrase-4 IS NOTHING TO BE",
+  "n": 293,
+  "words": 74,
+  "fillers": 31,
+  "echoes": 0,
+  "plain": {
+   "rank": 438,
+   "z": 2.353457661358246,
+   "acc": 0.183206106870229
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 11.922990053297472,
+   "acc": 0.8206106870229007
+  },
+  "e56": {
+   "rank": 1,
+   "z": 85.70822954209594,
+   "acc": 0.9961832061068703,
+   "fillers_placed": 31,
+   "fillers_found": 0.967741935483871,
+   "echoes_placed": 0,
+   "tr": "ROUGHINTHATPLACETHEYCHOSETOGOOUTOFITINTOTHATMEADOWANDTHERETHERETAC"
+  }
+ },
+ {
+  "cell": 27,
+  "sign": "sub",
+  "F": true,
+  "key": "self running key plaintext@1580",
+  "n": 294,
+  "words": 79,
+  "fillers": 31,
+  "echoes": 1,
+  "plain": {
+   "rank": 58,
+   "z": 2.8209567640971063,
+   "acc": 0.19011406844106463
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 11.920236137318462,
+   "acc": 0.8288973384030418
+  },
+  "e56": {
+   "rank": 1,
+   "z": 76.72191722165583,
+   "acc": 0.9771863117870723,
+   "fillers_placed": 31,
+   "fillers_found": 0.9354838709677419,
+   "echoes_placed": 1,
+   "tr": "THITHERIFELLINHEREHELPBUTWHYDIDNOTYOULOOCFORTHESTEPSFEARFOLLOWED"
+  }
+ }
+]

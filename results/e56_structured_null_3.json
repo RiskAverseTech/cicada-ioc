@@ -1,0 +1,38 @@
+{
+ "cell": 3,
+ "page": "LP2-49",
+ "sign": "beaufort",
+ "F": false,
+ "library": "book",
+ "top_key": "self running key plaintext@314",
+ "top_score": -263.5128397186839,
+ "n_lib": 7621,
+ "nulls": {
+  "uniform": {
+   "mean": -284.75853385809916,
+   "sd": 3.1636928284627492,
+   "max": -268.6112428096349,
+   "z_top": 6.715473116819192,
+   "n_above_top": 0,
+   "n_above_uniform_max": 0
+  },
+  "permuted library": {
+   "mean": -285.618396943554,
+   "sd": 3.0028283894351233,
+   "max": -270.73962433121574,
+   "z_top": 7.3615786045730305,
+   "n_above_top": 0,
+   "n_above_uniform_max": 0
+  },
+  "english windows": {
+   "mean": -285.6487345219919,
+   "sd": 2.8518010135403884,
+   "max": -272.1702190595446,
+   "z_top": 7.762075508847392,
+   "n_above_top": 0,
+   "n_above_uniform_max": 0
+  }
+ },
+ "lib_above_uniform_max": 3,
+ "lib_z45_uniform": 6
+}

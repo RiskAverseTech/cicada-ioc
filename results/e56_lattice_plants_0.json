@@ -1,0 +1,118 @@
+[
+ {
+  "cell": 0,
+  "sign": "sub",
+  "F": false,
+  "key": "phrase-3 MASTER STOPPED THE",
+  "n": 294,
+  "words": 67,
+  "fillers": 32,
+  "echoes": 1,
+  "plain": {
+   "rank": 423,
+   "z": 2.7035050631137016,
+   "acc": 0.1946564885496183
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 11.835187393017966,
+   "acc": 0.851145038167939
+  },
+  "e56": {
+   "rank": 1,
+   "z": 86.69483546198832,
+   "acc": 0.9351145038167938,
+   "fillers_placed": 31,
+   "fillers_found": 0.9375,
+   "echoes_placed": 1,
+   "tr": "THESLOUGHWHICHWASNEXTTOHISOWNHOUSESOAWAYHEWENTANDCHRISTIANSAWH"
+  }
+ },
+ {
+  "cell": 8,
+  "sign": "beaufort",
+  "F": false,
+  "key": "vigenere-word-rev SACRED\u02b3",
+  "n": 297,
+  "words": 65,
+  "fillers": 33,
+  "echoes": 3,
+  "plain": {
+   "rank": 194,
+   "z": 2.615118901004327,
+   "acc": 0.32575757575757575
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 10.707263918331673,
+   "acc": 0.7840909090909091
+  },
+  "e56": {
+   "rank": 1,
+   "z": 93.58794144291397,
+   "acc": 0.9545454545454546,
+   "fillers_placed": 33,
+   "fillers_found": 0.9696969696969697,
+   "echoes_placed": 3,
+   "tr": "NOTTELLHOWTOPARTWITHMINEOLDCOMPANIANSTHEIRPRESENCEANDACTIANSWERE"
+  }
+ },
+ {
+  "cell": 16,
+  "sign": "add",
+  "F": true,
+  "key": "self running key plaintext@773",
+  "n": 294,
+  "words": 72,
+  "fillers": 25,
+  "echoes": 3,
+  "plain": {
+   "rank": 6,
+   "z": 6.114957237970686,
+   "acc": 0.6022304832713755
+  },
+  "free-null": {
+   "rank": 3,
+   "z": 13.987729143600594,
+   "acc": 0.8736059479553904
+  },
+  "e56": {
+   "rank": 1,
+   "z": 68.82612513067998,
+   "acc": 0.8698884758364313,
+   "fillers_placed": 24,
+   "fillers_found": 0.92,
+   "echoes_placed": 3,
+   "tr": "THNGSALSOBITEMEANDLICEABURNNGWORCCANSTTHOUNOTNOWREPENTANDTURNMAN"
+  }
+ },
+ {
+  "cell": 24,
+  "sign": "sub",
+  "F": false,
+  "key": "self running key plaintext@679",
+  "n": 290,
+  "words": 71,
+  "fillers": 25,
+  "echoes": 1,
+  "plain": {
+   "rank": 2,
+   "z": 5.222564431371814,
+   "acc": 0.4037735849056604
+  },
+  "free-null": {
+   "rank": 3,
+   "z": 13.936043518567008,
+   "acc": 0.8641509433962264
+  },
+  "e56": {
+   "rank": 1,
+   "z": 82.77222561039281,
+   "acc": 0.8754716981132076,
+   "fillers_placed": 25,
+   "fillers_found": 0.88,
+   "echoes_placed": 1,
+   "tr": "COULDNOTTELLWHATTODOUNTILIBRACEMYMINDTOFAITHFULFORHEANDIWEREW"
+  }
+ }
+]

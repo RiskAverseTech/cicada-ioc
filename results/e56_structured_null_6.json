@@ -1,0 +1,38 @@
+{
+ "cell": 6,
+ "page": "LP2-11",
+ "sign": "sub",
+ "F": false,
+ "library": "book",
+ "top_key": "vigenere-word-rev WITHIN\u02b3",
+ "top_score": -1081.9619983187572,
+ "n_lib": 7621,
+ "nulls": {
+  "uniform": {
+   "mean": -1108.6500893016596,
+   "sd": 5.059767911276836,
+   "max": -1078.422719811375,
+   "z_top": 5.274568211601554,
+   "n_above_top": 1,
+   "n_above_uniform_max": 0
+  },
+  "permuted library": {
+   "mean": -1109.720138272697,
+   "sd": 5.025812442941144,
+   "max": -1089.4115802274925,
+   "z_top": 5.5231149727695845,
+   "n_above_top": 0,
+   "n_above_uniform_max": 0
+  },
+  "english windows": {
+   "mean": -1110.1629267067142,
+   "sd": 4.728716870426435,
+   "max": -1089.5800781198168,
+   "z_top": 5.96375912550963,
+   "n_above_top": 0,
+   "n_above_uniform_max": 0
+  }
+ },
+ "lib_above_uniform_max": 0,
+ "lib_z45_uniform": 1
+}

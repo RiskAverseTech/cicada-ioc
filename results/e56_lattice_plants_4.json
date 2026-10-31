@@ -1,0 +1,118 @@
+[
+ {
+  "cell": 4,
+  "sign": "add",
+  "F": true,
+  "key": "self running key plaintext@1788",
+  "n": 296,
+  "words": 77,
+  "fillers": 33,
+  "echoes": 0,
+  "plain": {
+   "rank": 652,
+   "z": 1.8990893118030634,
+   "acc": 0.11406844106463879
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 10.61497650889105,
+   "acc": 0.8174904942965779
+  },
+  "e56": {
+   "rank": 1,
+   "z": 81.54219213080792,
+   "acc": 0.9657794676806084,
+   "fillers_placed": 33,
+   "fillers_found": 0.9393939393939394,
+   "echoes_placed": 0,
+   "tr": "SOSOONASTHEMANOUERTOOCMEHEWASBUTAWORDANDABLOWFORDOWNHECNOCCED"
+  }
+ },
+ {
+  "cell": 12,
+  "sign": "sub",
+  "F": false,
+  "key": "affine position 22\u00b7n+16",
+  "n": 288,
+  "words": 68,
+  "fillers": 23,
+  "echoes": 2,
+  "plain": {
+   "rank": 330,
+   "z": 1.7242472930946262,
+   "acc": 0.12830188679245283
+  },
+  "free-null": {
+   "rank": 3,
+   "z": 13.374550580465971,
+   "acc": 0.9018867924528302
+  },
+  "e56": {
+   "rank": 1,
+   "z": 96.24127735816309,
+   "acc": 0.9962264150943396,
+   "fillers_placed": 24,
+   "fillers_found": 1.0,
+   "echoes_placed": 2,
+   "tr": "BIDTHEMBEWAREOFTHEFLATTERERTHETHIRDBIDTHEMTACEHEEDTHATTHEYSLEEPNOTU"
+  }
+ },
+ {
+  "cell": 20,
+  "sign": "beaufort",
+  "F": false,
+  "key": "self running key plaintext@1517",
+  "n": 295,
+  "words": 68,
+  "fillers": 28,
+  "echoes": 1,
+  "plain": {
+   "rank": 5848,
+   "z": -0.0673457988653202,
+   "acc": 0.10112359550561797
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 11.7952387686918,
+   "acc": 0.8389513108614233
+  },
+  "e56": {
+   "rank": 1,
+   "z": 78.10626890858465,
+   "acc": 0.846441947565543,
+   "fillers_placed": 28,
+   "fillers_found": 0.9285714285714286,
+   "echoes_placed": 2,
+   "tr": "BACCWITHACOUETOUSHEARTWHENSHEWASGONGFROMSODOMFORSAFETYGENWHICHS"
+  }
+ },
+ {
+  "cell": 28,
+  "sign": "add",
+  "F": true,
+  "key": "phrase-2 YOUR CERTAINTY",
+  "n": 293,
+  "words": 77,
+  "fillers": 28,
+  "echoes": 0,
+  "plain": {
+   "rank": 47,
+   "z": 3.3935945769398894,
+   "acc": 0.44150943396226416
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 11.621235725878428,
+   "acc": 0.8452830188679246
+  },
+  "e56": {
+   "rank": 1,
+   "z": 69.99717054655086,
+   "acc": 0.909433962264151,
+   "fillers_placed": 27,
+   "fillers_found": 0.9285714285714286,
+   "echoes_placed": 0,
+   "tr": "PASSIANWILLHAUEALLNOWTHISYEARTHATISTOSAYINTHISWORLDSOARETHEMENOFTHI"
+  }
+ }
+]

@@ -1,0 +1,89 @@
+[
+ {
+  "cell": 6,
+  "sign": "sub",
+  "F": false,
+  "key": "primes p[n+4]",
+  "n": 292,
+  "words": 73,
+  "fillers": 30,
+  "echoes": 2,
+  "plain": {
+   "rank": 5451,
+   "z": -0.30429410919571104,
+   "acc": 0.015267175572519083
+  },
+  "free-null": {
+   "rank": 2,
+   "z": 10.021644120920309,
+   "acc": 0.8625954198473282
+  },
+  "e56": {
+   "rank": 1,
+   "z": 82.1965071264166,
+   "acc": 0.9656488549618321,
+   "fillers_placed": 30,
+   "fillers_found": 0.9333333333333333,
+   "echoes_placed": 2,
+   "tr": "SOSWEETLYHEINTHEHOLYSCRIPTUREFAITHTHATISTRUEBUTTOBEPROFITEDBYSU"
+  }
+ },
+ {
+  "cell": 14,
+  "sign": "beaufort",
+  "F": false,
+  "key": "affine position 5\u00b7n+0",
+  "n": 289,
+  "words": 72,
+  "fillers": 27,
+  "echoes": 0,
+  "plain": {
+   "rank": 1892,
+   "z": 0.522121276360544,
+   "acc": 0.003816793893129771
+  },
+  "free-null": {
+   "rank": 2,
+   "z": 12.861576412935518,
+   "acc": 0.7480916030534351
+  },
+  "e56": {
+   "rank": 1,
+   "z": 87.69650645419605,
+   "acc": 0.9694656488549618,
+   "fillers_placed": 28,
+   "fillers_found": 1.0,
+   "echoes_placed": 1,
+   "tr": "RIGHTUPTHEHILLANDTHENAMEOFTHEGONGUPTHESIDEOFTHEHILLISCALLEDDIFFICU"
+  }
+ },
+ {
+  "cell": 22,
+  "sign": "add",
+  "F": true,
+  "key": "primes+1 p[n+95]+1",
+  "n": 296,
+  "words": 67,
+  "fillers": 29,
+  "echoes": 2,
+  "plain": {
+   "rank": 2548,
+   "z": 0.41403405515517683,
+   "acc": 0.04868913857677903
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 13.218913977259636,
+   "acc": 0.8576779026217228
+  },
+  "e56": {
+   "rank": 1,
+   "z": 87.8773013006703,
+   "acc": 1.0,
+   "fillers_placed": 29,
+   "fillers_found": 1.0,
+   "echoes_placed": 2,
+   "tr": "AGAINANDWITHTHATHEBEATTHEMALLTHEWAYTHITHERTHEYLAYTHEREFOREALLDAYONSAT"
+  }
+ }
+]

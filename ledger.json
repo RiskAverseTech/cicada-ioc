@@ -1,7 +1,7 @@
 {
  "generated_by": "src/status.py",
  "repository": "https://github.com/RiskAverseTech/cicada-ioc",
- "head": "2026-10-30",
+ "head": "2026-10-31",
  "breakthroughs": 0,
  "breakthrough_definition": "a page decoding to readable English at a pre-registered bar, reproduced by someone else",
  "lanes": [
@@ -525,6 +525,24 @@
    "controls": "72/72 plants detected (joint z >= 7.8 with fillers, >= 11.0 without); L1 (word accuracy >= 0.8 on 15/30) fails at median 0.67",
    "verdict": "null (largest page joint z 3.22 against a plants' floor of 7.8; 17 cells above the uniform null's maximum are a unigram artefact by a shuffled-rune null)",
    "coverage_limit": "the class is closed for a key consumed rune by rune with corpus-like English on both sides; a key consumed by word or line, plaintext far from the dictionary (coverage 96 %), or a fourth sign remain; the registered plaintext-5-gram clause was blind by construction",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a770",
+   "lane": "E56w+n echo-plus-filler decoder on the \u00a769 word lattice (beam 8; fillers, lag-5/lag-6 echoes, skips, literal F, out-of-dictionary words), 30 plants x 3 decoders, 6 controls, 7,621 book keys and 3,000 prime streams x 3 signs x 2 F x 55 pages; registered first",
+   "tests": 4870000,
+   "controls": "30/30 plants (median z 82.7, rune accuracy 0.94; plain 0/30, free-null 22/30); 6/6 controls at z 67-106",
+   "verdict": "null (29 rows at z 6.0-7.3 pass the 2,000-draw clauses and none reads; a 46,000-draw null reaches z 6.1-6.9 by itself and the library tail is lighter than the null tail; plants floor z 52)",
+   "coverage_limit": "the book keys and the prime streams only; dictionary coverage 96 %; a key continuous across pages (lane C11) and keys from outside the book are untouched",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a771",
+   "lane": "Two Quorum asks: lag-5 equality given the lag-6 relation under the K-fixed null; words across the 54 page joins",
+   "tests": null,
+   "controls": "C9: 3/3 registered predictions hold; C10: P1 failed as registered (selection), corrected post hoc",
+   "verdict": "measured: each echo stands without the other (free strata z +3.09 and +4.55); 32/54 joins fall inside a word, the page is a typographic unit like the line",
+   "coverage_limit": "statistics only; the decode consequence (stream keys at cumulative page offsets, lane C11) is registered and not run",
    "date": "2026-10-27"
   },
   {

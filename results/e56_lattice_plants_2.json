@@ -1,0 +1,118 @@
+[
+ {
+  "cell": 2,
+  "sign": "beaufort",
+  "F": false,
+  "key": "self running key plaintext@2957",
+  "n": 294,
+  "words": 73,
+  "fillers": 30,
+  "echoes": 2,
+  "plain": {
+   "rank": 593,
+   "z": 2.0005287464193455,
+   "acc": 0.07575757575757576
+  },
+  "free-null": {
+   "rank": 6,
+   "z": 13.341656733158906,
+   "acc": 0.8977272727272727
+  },
+  "e56": {
+   "rank": 1,
+   "z": 78.15407394111946,
+   "acc": 0.8939393939393939,
+   "fillers_placed": 30,
+   "fillers_found": 0.9333333333333333,
+   "echoes_placed": 1,
+   "tr": "DANGEROUSYETTHISSECONDPARTWHICHHEWASYETTOGOWASIFPOSSIBLEFARMOR"
+  }
+ },
+ {
+  "cell": 10,
+  "sign": "add",
+  "F": true,
+  "key": "vigenere-word CIRCUMFERENCES",
+  "n": 296,
+  "words": 68,
+  "fillers": 29,
+  "echoes": 1,
+  "plain": {
+   "rank": 6,
+   "z": 5.134151068997709,
+   "acc": 0.38202247191011235
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 12.942557030277277,
+   "acc": 0.8876404494382022
+  },
+  "e56": {
+   "rank": 1,
+   "z": 83.53231883189211,
+   "acc": 0.9138576779026217,
+   "fillers_placed": 29,
+   "fillers_found": 0.9655172413793104,
+   "echoes_placed": 1,
+   "tr": "ANDCHILDRENANDBRETHRENANDSISTERSANDHISOWNLIFEALSOHECANNOTHEMY"
+  }
+ },
+ {
+  "cell": 18,
+  "sign": "sub",
+  "F": false,
+  "key": "phrase-2 IS NOT",
+  "n": 284,
+  "words": 59,
+  "fillers": 22,
+  "echoes": 3,
+  "plain": {
+   "rank": 7,
+   "z": 4.08931344879841,
+   "acc": 0.35877862595419846
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 12.258344722957498,
+   "acc": 0.8740458015267175
+  },
+  "e56": {
+   "rank": 1,
+   "z": 98.22296887986623,
+   "acc": 0.8893129770992366,
+   "fillers_placed": 21,
+   "fillers_found": 0.9090909090909091,
+   "echoes_placed": 1,
+   "tr": "RELIGIANFORTHEWORLDWILLTHROWAWAYRELIGIANFORTHEWORLDFORSOSURELYASJ"
+  }
+ },
+ {
+  "cell": 26,
+  "sign": "beaufort",
+  "F": false,
+  "key": "vigenere-word-rev CONSUME\u02b3",
+  "n": 295,
+  "words": 71,
+  "fillers": 30,
+  "echoes": 4,
+  "plain": {
+   "rank": 462,
+   "z": 2.2716158533199846,
+   "acc": 0.13584905660377358
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 13.177253392406127,
+   "acc": 0.8150943396226416
+  },
+  "e56": {
+   "rank": 1,
+   "z": 93.51965801768574,
+   "acc": 1.0,
+   "fillers_placed": 30,
+   "fillers_found": 1.0,
+   "echoes_placed": 5,
+   "tr": "IHAUESAIDCONCERNNGOURSELUESWHENOURTHOUGHTSOFGODDOAGREEWITHWHATTH"
+  }
+ }
+]

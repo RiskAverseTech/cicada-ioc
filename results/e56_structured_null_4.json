@@ -1,0 +1,38 @@
+{
+ "cell": 4,
+ "page": "LP2-14",
+ "sign": "add",
+ "F": true,
+ "library": "primes",
+ "top_key": "prime p-1 s=84",
+ "top_score": -544.1023205152604,
+ "n_lib": 3000,
+ "nulls": {
+  "uniform": {
+   "mean": -569.1253025108176,
+   "sd": 3.9725454914234937,
+   "max": -551.2211310875283,
+   "z_top": 6.298979344498489,
+   "n_above_top": 0,
+   "n_above_uniform_max": 0
+  },
+  "permuted library": {
+   "mean": -569.0832905116621,
+   "sd": 4.037534629938528,
+   "max": -550.5886897090029,
+   "z_top": 6.187184082872372,
+   "n_above_top": 0,
+   "n_above_uniform_max": 2
+  },
+  "english windows": {
+   "mean": -568.5751403278879,
+   "sd": 3.8608586476543163,
+   "max": -553.5955923307274,
+   "z_top": 6.338698731562221,
+   "n_above_top": 0,
+   "n_above_uniform_max": 0
+  }
+ },
+ "lib_above_uniform_max": 6,
+ "lib_z45_uniform": 6
+}

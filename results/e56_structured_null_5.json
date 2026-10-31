@@ -1,0 +1,38 @@
+{
+ "cell": 5,
+ "page": "LP2-42",
+ "sign": "sub",
+ "F": false,
+ "library": "book",
+ "top_key": "phrase-4 BY A STUDENT TO",
+ "top_score": -1094.8234702192306,
+ "n_lib": 7621,
+ "nulls": {
+  "uniform": {
+   "mean": -1116.772361089011,
+   "sd": 4.943694769395179,
+   "max": -1097.6301573918788,
+   "z_top": 4.439774681410122,
+   "n_above_top": 0,
+   "n_above_uniform_max": 0
+  },
+  "permuted library": {
+   "mean": -1116.8133606759059,
+   "sd": 5.20818721888711,
+   "max": -1094.7106472292983,
+   "z_top": 4.222177416535754,
+   "n_above_top": 1,
+   "n_above_uniform_max": 3
+  },
+  "english windows": {
+   "mean": -1116.466246466365,
+   "sd": 5.075503586789966,
+   "max": -1093.8398486818353,
+   "z_top": 4.264163324298331,
+   "n_above_top": 1,
+   "n_above_uniform_max": 4
+  }
+ },
+ "lib_above_uniform_max": 5,
+ "lib_z45_uniform": 0
+}

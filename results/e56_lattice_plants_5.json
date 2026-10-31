@@ -1,0 +1,118 @@
+[
+ {
+  "cell": 5,
+  "sign": "beaufort",
+  "F": true,
+  "key": "phrase-3-rev OR THE MESSAGE \u02b3",
+  "n": 296,
+  "words": 71,
+  "fillers": 32,
+  "echoes": 1,
+  "plain": {
+   "rank": 183,
+   "z": 3.4777077430405483,
+   "acc": 0.30303030303030304
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 11.376430135894989,
+   "acc": 0.875
+  },
+  "e56": {
+   "rank": 1,
+   "z": 80.59121856905332,
+   "acc": 0.9431818181818182,
+   "fillers_placed": 31,
+   "fillers_found": 0.9375,
+   "echoes_placed": 1,
+   "tr": "THELORDOFTHEHILLFORTHERELIEFANDSECURITYOFPILGRIMSSOSHESMILEDBUT"
+  }
+ },
+ {
+  "cell": 13,
+  "sign": "add",
+  "F": false,
+  "key": "phrase-4-rev BE RIGHT ABOUT TO \u02b3",
+  "n": 285,
+  "words": 68,
+  "fillers": 20,
+  "echoes": 0,
+  "plain": {
+   "rank": 15,
+   "z": 3.671042370208745,
+   "acc": 0.3433962264150943
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 13.603470663345988,
+   "acc": 0.8641509433962264
+  },
+  "e56": {
+   "rank": 1,
+   "z": 92.25807861584653,
+   "acc": 0.9433962264150944,
+   "fillers_placed": 20,
+   "fillers_found": 0.95,
+   "echoes_placed": 0,
+   "tr": "LOWSNEACNGBUSINESSFORAMANTOMINDRELIGIANHESAIDTHATATENDERCONSCIEN"
+  }
+ },
+ {
+  "cell": 21,
+  "sign": "sub",
+  "F": true,
+  "key": "self running key plaintext@2225",
+  "n": 288,
+  "words": 69,
+  "fillers": 26,
+  "echoes": 2,
+  "plain": {
+   "rank": 280,
+   "z": 3.3917467822519,
+   "acc": 0.2366412213740458
+  },
+  "free-null": {
+   "rank": 3,
+   "z": 14.836801295890726,
+   "acc": 0.8396946564885496
+  },
+  "e56": {
+   "rank": 1,
+   "z": 90.68851936678966,
+   "acc": 0.9847328244274809,
+   "fillers_placed": 26,
+   "fillers_found": 0.9230769230769231,
+   "echoes_placed": 2,
+   "tr": "BEFOUNDTRUEMENATTHEENDOFTHEWAYYOUCOMEISISYOURSELUESWITHOUTHISDI"
+  }
+ },
+ {
+  "cell": 29,
+  "sign": "beaufort",
+  "F": true,
+  "key": "affine position 7\u00b7n+19",
+  "n": 294,
+  "words": 69,
+  "fillers": 32,
+  "echoes": 1,
+  "plain": {
+   "rank": 572,
+   "z": 0.9228128951796775,
+   "acc": 0.13740458015267176
+  },
+  "free-null": {
+   "rank": 3,
+   "z": 12.162108833873702,
+   "acc": 0.851145038167939
+  },
+  "e56": {
+   "rank": 1,
+   "z": 82.54508445061533,
+   "acc": 0.9580152671755725,
+   "fillers_placed": 31,
+   "fillers_found": 0.96875,
+   "echoes_placed": 1,
+   "tr": "THEMWHENBYTHESEASSAULTEDANDYETNOTWITHSTANDNGTHEYHADTHEIRCOATSSOUND"
+  }
+ }
+]

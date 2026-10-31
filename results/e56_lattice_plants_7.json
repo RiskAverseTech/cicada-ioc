@@ -1,0 +1,89 @@
+[
+ {
+  "cell": 7,
+  "sign": "add",
+  "F": false,
+  "key": "self running key plaintext@688",
+  "n": 292,
+  "words": 71,
+  "fillers": 27,
+  "echoes": 1,
+  "plain": {
+   "rank": 6,
+   "z": 4.178425330514376,
+   "acc": 0.3622641509433962
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 13.165667032300451,
+   "acc": 0.8566037735849057
+  },
+  "e56": {
+   "rank": 1,
+   "z": 87.14798496087023,
+   "acc": 0.9320754716981132,
+   "fillers_placed": 26,
+   "fillers_found": 0.9259259259259259,
+   "echoes_placed": 1,
+   "tr": "THEIRLORDTHECNGAGAINSTHIMTHENSTOODFORTHENUYANDSAIDTOTHISEFFECTMYLO"
+  }
+ },
+ {
+  "cell": 15,
+  "sign": "sub",
+  "F": true,
+  "key": "self running key plaintext@231",
+  "n": 291,
+  "words": 66,
+  "fillers": 24,
+  "echoes": 2,
+  "plain": {
+   "rank": 3891,
+   "z": 0.6863331500141109,
+   "acc": 0.12734082397003746
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 15.302674965658584,
+   "acc": 0.8726591760299626
+  },
+  "e56": {
+   "rank": 1,
+   "z": 82.25640364081448,
+   "acc": 0.8838951310861424,
+   "fillers_placed": 24,
+   "fillers_found": 0.9166666666666666,
+   "echoes_placed": 2,
+   "tr": "GOODLYANDGARDENSARETHESEHEANSWEREDTHEYARETHECNGANDAREPLANTEDHERE"
+  }
+ },
+ {
+  "cell": 23,
+  "sign": "beaufort",
+  "F": true,
+  "key": "affine position 8\u00b7n+26",
+  "n": 287,
+  "words": 70,
+  "fillers": 25,
+  "echoes": 0,
+  "plain": {
+   "rank": 366,
+   "z": 1.6712112664874081,
+   "acc": 0.19083969465648856
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 14.727715656189357,
+   "acc": 0.8969465648854962
+  },
+  "e56": {
+   "rank": 1,
+   "z": 62.20959103806184,
+   "acc": 0.8854961832061069,
+   "fillers_placed": 25,
+   "fillers_found": 0.88,
+   "echoes_placed": 0,
+   "tr": "BUTIFSHEBEFULLSHEOUTBOTHANDMACESTHEIRBLESSNGYOUSEETHEWAYSTHEFISHE"
+  }
+ }
+]

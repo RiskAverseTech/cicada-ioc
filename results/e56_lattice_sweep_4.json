@@ -1,0 +1,2354 @@
+[
+ {
+  "page": "LP2-04",
+  "n": 261,
+  "null": {
+   "0": {
+    "mean": -1090.278263107785,
+    "sd": 5.005003510585026,
+    "max": -1072.5179685624412
+   },
+   "1": {
+    "mean": -1088.9000076456307,
+    "sd": 5.099079673261768,
+    "max": -1067.8552872144608
+   }
+  },
+  "cells": [
+   {
+    "sign": "sub",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "self running key plaintext@141",
+      "score": -1069.245380200488,
+      "z": 4.202371259643455,
+      "above_max": true,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "THEORISMRBEITHEUEBEDEATHBRIARDTHISATIT"
+     },
+     {
+      "key": "phrase-2 BE RIGHT",
+      "score": -1070.2329720587618,
+      "z": 4.0050503474432535,
+      "above_max": true,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "ONTHETHISDOAGESFORTHUSTOASHIR"
+     },
+     {
+      "key": "vigenere-word EXPERIENCE",
+      "score": -1070.6246635828409,
+      "z": 3.9267903575649856,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ABYTHEINIDOITSHIHERLOTHMYSOMAN"
+     },
+     {
+      "key": "self running key plaintext@140",
+      "score": -1070.7439555201101,
+      "z": 3.9029558213819455,
+      "above_max": true,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "THEORISMRBEITHEUEBEDEATHBRIARDTHISATIT"
+     },
+     {
+      "key": "self running key plaintext@1246",
+      "score": -1071.0635307625437,
+      "z": 3.839104668878723,
+      "above_max": true,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "BEHEOURTHYARTHERNEWITBE"
+     }
+    ]
+   },
+   {
+    "sign": "sub",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "square position n\u00b2+5",
+      "score": -1068.5471482137693,
+      "z": 3.9914770382166025,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "ARTTHEUSDRAGOFOFREARHETOOFWEST"
+     },
+     {
+      "key": "self running key plaintext@141",
+      "score": -1069.245380200488,
+      "z": 3.8545440951249392,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "THEORISMRBEITHEUEBEDEATHBRIARDTHISATIT"
+     },
+     {
+      "key": "phrase-2-rev BE TRUE \u02b3",
+      "score": -1069.2785010249606,
+      "z": 3.8480486436719317,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "THYOFCIHEINIFTHEMASOFNOUNTO"
+     },
+     {
+      "key": "phrase-3 END TO SELF",
+      "score": -1069.4428420386187,
+      "z": 3.8158190994818706,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "THEATLONGLAYSOFSINALLILLSUBNOOF"
+     },
+     {
+      "key": "self running key plaintext@1246",
+      "score": -1069.508563719017,
+      "z": 3.802930169594579,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "BEHEOUROFMYARTHERNEWITBE"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 4,
+    "top": [
+     {
+      "key": "phrase-3-rev TO STUDY HERE \u02b3",
+      "score": -1059.049198456019,
+      "z": 6.239568980465261,
+      "above_max": true,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "FEWAOFINHUNTHEORTHYAISTHNGDOTHENHERTHESHED"
+     },
+     {
+      "key": "phrase-3-rev THEIR WAY HERE \u02b3",
+      "score": -1065.7366995876835,
+      "z": 4.903405855400283,
+      "above_max": true,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "IOFININHEORSHEAISDOTHENHERME"
+     },
+     {
+      "key": "sentence JOURNEY DEEP WITHIN AND YOU WILL ARRIVE OUTSIDE",
+      "score": -1067.1754977938444,
+      "z": 4.615933887974469,
+      "above_max": true,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "BENORAOACYUAINWASDOANBENGLETWEMOUEDTEAR"
+     },
+     {
+      "key": "phrase-4-rev BE PREPARED TO DESTROY \u02b3",
+      "score": -1067.4919134550703,
+      "z": 4.552714019985034,
+      "above_max": true,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "AHERHEMENYEOFOFDIDNHASTSTHEM"
+     },
+     {
+      "key": "phrase-3 THE CIRCUMFERENCE HE",
+      "score": -1069.465884631812,
+      "z": 4.158314461110192,
+      "above_max": true,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "INADOAXESBEATHELOOCIFTOTHNGHAWC"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 3,
+    "top": [
+     {
+      "key": "phrase-3-rev TO STUDY HERE \u02b3",
+      "score": -1056.7135768294172,
+      "z": 6.31220394240762,
+      "above_max": true,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "FEWAOFINHUNTHEOROFISTHNGDOTHENHERTHESHED"
+     },
+     {
+      "key": "phrase-4 ARE NOT WHO YOU",
+      "score": -1065.5647812997433,
+      "z": 4.576360410340544,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "YOUAMAMONGOFANTHATOFHENDOMTOTHEMYI"
+     },
+     {
+      "key": "phrase-3-rev THEIR WAY HERE \u02b3",
+      "score": -1065.7366995876835,
+      "z": 4.542644857935742,
+      "above_max": true,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "IOFININHEORSHEAISDOTHENHERME"
+     },
+     {
+      "key": "phrase-2 THE CIRCUMFERENCE",
+      "score": -1066.244726051713,
+      "z": 4.443013846737077,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "YOUAGUNATHELOOCOFIFTHENMADHAWC"
+     },
+     {
+      "key": "phrase-4 HERE IT IS A",
+      "score": -1066.9829109392883,
+      "z": 4.298245587585119,
+      "above_max": true,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "EATOFHEDOAXESAISOFTHENANYTOSTALL"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 3,
+    "top": [
+     {
+      "key": "self running key plaintext@2632",
+      "score": -1067.0985410685687,
+      "z": 4.631309846275596,
+      "above_max": true,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "AMEINNOOURTHETOTHEMEATORFERIAGOOF"
+     },
+     {
+      "key": "vigenere-word-rev FIRFUMFERENFE\u02b3",
+      "score": -1067.2594406289145,
+      "z": 4.599162104519669,
+      "above_max": true,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "PILLARIMENOAIWETHEMANTREEITEAST"
+     },
+     {
+      "key": "self running key plaintext@902",
+      "score": -1067.691614719854,
+      "z": 4.512813695367608,
+      "above_max": true,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "ISITSASOURRATEBEAREDISINMENWEAGOME"
+     },
+     {
+      "key": "affine position 27\u00b7n+15",
+      "score": -1067.997075442083,
+      "z": 4.451782624843265,
+      "above_max": true,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "ASONISUWEBEOUROFCNGTHOUWHYWEEARL"
+     },
+     {
+      "key": "self running key plaintext@901",
+      "score": -1068.215131504116,
+      "z": 4.408215010640445,
+      "above_max": true,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "ITSASOURRATEBEAREDISINMENWEAGOME"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "self running key plaintext@2632",
+      "score": -1067.0985410685687,
+      "z": 4.2755689210708265,
+      "above_max": true,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "AMEINNOOURTHETOTHEMEATORFERIAGOOF"
+     },
+     {
+      "key": "vigenere-word-rev FIRFUMFERENFE\u02b3",
+      "score": -1067.2594406289145,
+      "z": 4.244014293440764,
+      "above_max": true,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "PILLARIMENOAIWETHEMANTREEITEAST"
+     },
+     {
+      "key": "self running key plaintext@902",
+      "score": -1067.691614719854,
+      "z": 4.15925898098591,
+      "above_max": true,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "ISITSASOURRATEBEAREDISINMENWEAGOME"
+     },
+     {
+      "key": "affine position 27\u00b7n+15",
+      "score": -1067.997075442083,
+      "z": 4.0993539114827104,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "ASONISUWEBEOUROFCNGTHOUWHYWEEARL"
+     },
+     {
+      "key": "self running key plaintext@901",
+      "score": -1068.215131504116,
+      "z": 4.056590103892812,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "ITSASOURRATEBEAREDISINMENWEAGOME"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "LP2-12",
+  "n": 261,
+  "null": {
+   "0": {
+    "mean": -1100.8971961675716,
+    "sd": 5.662460359702234,
+    "max": -1073.1865273837175
+   },
+   "1": {
+    "mean": -1100.43210214124,
+    "sd": 5.714154775795477,
+    "max": -1077.7428942194706
+   }
+  },
+  "cells": [
+   {
+    "sign": "sub",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "phrase-4 TO STUDY HERE ASKED",
+      "score": -1078.374716038676,
+      "z": 3.9775077789824675,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ELITORTELORSNGNGANWILLBRNGMONOFAMTHEOUT"
+     },
+     {
+      "key": "sentence WHO ARE YOU WHO WISHES TO STUDY HERE ASKED THE MASTER AGAIN",
+      "score": -1079.393360264795,
+      "z": 3.7976134995684587,
+      "above_max": false,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "ISASATIFTELATIAAANWILLMOBTNUIFOFAMTHEARMCNG"
+     },
+     {
+      "key": "phrase-3 A MOMENT AND",
+      "score": -1079.7340490592312,
+      "z": 3.737447286863345,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "USEOFBOYDOMEISUSOFFEARHEORTOP"
+     },
+     {
+      "key": "self running key plaintext@1932",
+      "score": -1080.7869876120624,
+      "z": 3.551496571812947,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "MEASPOTSANDOORIFEARLOFMYINSHIPUOWBENG"
+     },
+     {
+      "key": "self running key plaintext@1286",
+      "score": -1081.445418491754,
+      "z": 3.4352165737440026,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "AEYEMEBEBYSOIFOFAMTHEYEARSONOTHE"
+     }
+    ]
+   },
+   {
+    "sign": "sub",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "self running key plaintext@1932",
+      "score": -1078.0274988468889,
+      "z": 3.9208954208336277,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "MEASPOTSANDOORIFEARLOFMYINSHIPUOWFORBENG"
+     },
+     {
+      "key": "phrase-4 TO STUDY HERE ASKED",
+      "score": -1078.374716038676,
+      "z": 3.8601310199010577,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ELITORTELORSNGNGANWILLBRNGMONOFAMTHEOUT"
+     },
+     {
+      "key": "sentence WHO ARE YOU WHO WISHES TO STUDY HERE ASKED THE MASTER AGAIN",
+      "score": -1079.0262313054307,
+      "z": 3.746113235588611,
+      "above_max": false,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "ISASATIFTELATIAAANWILLMOBTNUIFOFAMTHEARMFLY"
+     },
+     {
+      "key": "phrase-3 A MOMENT AND",
+      "score": -1079.7340490592312,
+      "z": 3.622242290265465,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "USEOFBOYDOMEISUSOFFEARHEORTOP"
+     },
+     {
+      "key": "self running key plaintext@1931",
+      "score": -1080.3239887687066,
+      "z": 3.5190004753999804,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ASPOTSANDOORIFEARLOFMYINSHIPUOWFORBENG"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 1,
+    "top": [
+     {
+      "key": "square position n\u00b2+3",
+      "score": -1068.114420414346,
+      "z": 5.789493200964253,
+      "above_max": true,
+      "fillers": 15,
+      "echoes": 0,
+      "tr": "THANTHISSACEITOPTHISISBEDSHEINAAMONGAIPAIDINHASBUDOUT"
+     },
+     {
+      "key": "phrase-3-rev ALL THAT LIVES \u02b3",
+      "score": -1075.7718287082273,
+      "z": 4.437182048664356,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "OFMEAOFTOTOHADDOESONHIDCNGMEYEMEIN"
+     },
+     {
+      "key": "phrase-3-rev FIND YOUR TRUTH \u02b3",
+      "score": -1077.9367812228754,
+      "z": 4.054847802219942,
+      "above_max": false,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "SWUNGAEDOTOUSEWITHEYEATESAWANTHEANTTOMETHY"
+     },
+     {
+      "key": "phrase-3-rev YOUR ILLUSIONS YOUR \u02b3",
+      "score": -1078.6251931992028,
+      "z": 3.9332730921828336,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "SAILISCFATTOFILLSTHENATTHEANYMRSATOMEINGO"
+     },
+     {
+      "key": "phrase-2-rev THINGS SHOULD \u02b3",
+      "score": -1079.5073701680121,
+      "z": 3.777479159374502,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "LODGNGTOGOTHEJETSOITOWEMRTHATTOCAW"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 1,
+    "top": [
+     {
+      "key": "square position n\u00b2+3",
+      "score": -1068.114420414346,
+      "z": 5.6557238987974525,
+      "above_max": true,
+      "fillers": 15,
+      "echoes": 0,
+      "tr": "THANTHISSACEITOPTHISISBEDSHEINAAMONGAIPAIDINHASBUDOUT"
+     },
+     {
+      "key": "phrase-3-rev ALL THAT LIVES \u02b3",
+      "score": -1075.7718287082273,
+      "z": 4.315646740524221,
+      "above_max": true,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "OFMEAOFTOTOHADDOESONHIDCNGMEYEMEIN"
+     },
+     {
+      "key": "phrase-3-rev FIND YOUR TRUTH \u02b3",
+      "score": -1076.9905480817483,
+      "z": 4.102365962992015,
+      "above_max": true,
+      "fillers": 13,
+      "echoes": 0,
+      "tr": "SWUNGAEDOTOUSEOFFWITHEYEATESAWANTHEANTTOMETHY"
+     },
+     {
+      "key": "phrase-3-rev YOUR ILLUSIONS YOUR \u02b3",
+      "score": -1078.6251931992028,
+      "z": 3.8162965123746315,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "SAILISCFATTOFILLSTHENATTHEANYMRSATOMEINGO"
+     },
+     {
+      "key": "phrase-3-rev EITHER THE WORDS \u02b3",
+      "score": -1079.2566002887709,
+      "z": 3.705797739705295,
+      "above_max": false,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "BEISFLYIBELIFEFORHEIATTIMEWNGLADY"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 4,
+    "top": [
+     {
+      "key": "self running key plaintext@2550",
+      "score": -1073.0254593663415,
+      "z": 4.922195482300165,
+      "above_max": true,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "ASNOFITTOTHEBUTOFTEIRHADUSOFFORFORMNOATSAD"
+     },
+     {
+      "key": "self running key plaintext@2548",
+      "score": -1073.1912007065052,
+      "z": 4.892925283546404,
+      "above_max": false,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "INGOFITTOTHEBUTOFTEIRHADUSOFFORFORMNOATSAD"
+     },
+     {
+      "key": "self running key plaintext@2551",
+      "score": -1074.3796276858177,
+      "z": 4.683047085056914,
+      "above_max": false,
+      "fillers": 13,
+      "echoes": 0,
+      "tr": "RNGASNOFITTOTHEBUTOFTEIRHADUSOFFORFORMNOATSAD"
+     },
+     {
+      "key": "self running key plaintext@2547",
+      "score": -1075.3829232066873,
+      "z": 4.505863412742005,
+      "above_max": false,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "INGOFITTOTHEBUTOFTEIRHADUSOFFORFORMNOATSAD"
+     },
+     {
+      "key": "self running key plaintext@2549",
+      "score": -1075.489830634822,
+      "z": 4.486983381564119,
+      "above_max": false,
+      "fillers": 13,
+      "echoes": 0,
+      "tr": "SNGINGOFITTOTHEBUTOFTEIRHADUSOFFORFORMNOATSAD"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 3,
+    "top": [
+     {
+      "key": "self running key plaintext@2550",
+      "score": -1073.0254593663415,
+      "z": 4.796272388523668,
+      "above_max": true,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "ASNOFITTOTHEBUTOFTEIRHADUSOFFORFORMNOATSAD"
+     },
+     {
+      "key": "self running key plaintext@2548",
+      "score": -1073.1912007065052,
+      "z": 4.767266989358451,
+      "above_max": true,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "INGOFITTOTHEBUTOFTEIRHADUSOFFORFORMNOATSAD"
+     },
+     {
+      "key": "self running key plaintext@2551",
+      "score": -1074.3796276858177,
+      "z": 4.5592875022877655,
+      "above_max": true,
+      "fillers": 13,
+      "echoes": 0,
+      "tr": "RNGASNOFITTOTHEBUTOFTEIRHADUSOFFORFORMNOATSAD"
+     },
+     {
+      "key": "self running key plaintext@2547",
+      "score": -1075.3829232066873,
+      "z": 4.3837067628371145,
+      "above_max": true,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "INGOFITTOTHEBUTOFTEIRHADUSOFFORFORMNOATSAD"
+     },
+     {
+      "key": "self running key plaintext@2549",
+      "score": -1075.489830634822,
+      "z": 4.3649975342058625,
+      "above_max": true,
+      "fillers": 13,
+      "echoes": 0,
+      "tr": "SNGINGOFITTOTHEBUTOFTEIRHADUSOFFORFORMNOATSAD"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "LP2-20",
+  "n": 269,
+  "null": {
+   "0": {
+    "mean": -1128.7370114102146,
+    "sd": 5.672298058855685,
+    "max": -1108.5468052977953
+   },
+   "1": {
+    "mean": -1126.600126878665,
+    "sd": 5.796258270788871,
+    "max": -1102.809805603108
+   }
+  },
+  "cells": [
+   {
+    "sign": "sub",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "phrase-3-rev IS THE DUTY \u02b3",
+      "score": -1104.2247940171628,
+      "z": 4.3213909316318215,
+      "above_max": true,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "OFONMAYISAWOFOFTOMYNORISDOANYEARTRY"
+     },
+     {
+      "key": "self running key plaintext@1177",
+      "score": -1105.354847785347,
+      "z": 4.122167661546456,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ANDATNONOTMEISTHEWISHLOWOF"
+     },
+     {
+      "key": "phrase-3-rev THE I IS \u02b3",
+      "score": -1106.833298591771,
+      "z": 3.8615235996365174,
+      "above_max": true,
+      "fillers": 13,
+      "echoes": 0,
+      "tr": "MAYIOFINOFTOAAAUXISHETOBEORCONASHE"
+     },
+     {
+      "key": "self running key plaintext@1567",
+      "score": -1107.3361856716433,
+      "z": 3.772866925629893,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "AUSUSELIANDONOIFHEISBYTORNATSOOF"
+     },
+     {
+      "key": "vigenere-word-rev DUTY\u02b3",
+      "score": -1107.5210009966318,
+      "z": 3.7402848357836245,
+      "above_max": true,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "ATUSITSANANDCRYGOETHAINMYPIGDOANATTHE"
+     }
+    ]
+   },
+   {
+    "sign": "sub",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 1,
+    "top": [
+     {
+      "key": "phrase-3-rev I IS THE \u02b3",
+      "score": -1099.820363100354,
+      "z": 4.620181249215846,
+      "above_max": true,
+      "fillers": 14,
+      "echoes": 0,
+      "tr": "AEATAIFMAYIOFINOFTOAAANDOFBEORCONASHE"
+     },
+     {
+      "key": "phrase-3-rev IS THE I \u02b3",
+      "score": -1100.6841019819813,
+      "z": 4.4711646179210875,
+      "above_max": true,
+      "fillers": 13,
+      "echoes": 0,
+      "tr": "AIFMAYIOFINOFTOAAANDOFBEORCONASHE"
+     },
+     {
+      "key": "phrase-3 AND YOU WILL",
+      "score": -1101.5076741407056,
+      "z": 4.329077754249939,
+      "above_max": true,
+      "fillers": 13,
+      "echoes": 0,
+      "tr": "ONAOFBEUSFEARBEAOFDOFUNWAXBYTOINWASHEATI"
+     },
+     {
+      "key": "phrase-3-rev THE I IS \u02b3",
+      "score": -1101.6549549429155,
+      "z": 4.303668120080913,
+      "above_max": true,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "MAYIOFINOFTOAAANDOFBEORCONASHE"
+     },
+     {
+      "key": "vigenere-word-rev DUTY\u02b3",
+      "score": -1101.9413888442855,
+      "z": 4.254251084471324,
+      "above_max": true,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "ATUSITSANANDCRYOFINMYOFDDOANATTHE"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "phrase-2-rev PRESERVE THINGS \u02b3",
+      "score": -1106.4512485412506,
+      "z": 3.928877262394746,
+      "above_max": true,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "THEONINORASCLOSTSOJOYAEACHMANOFIS"
+     },
+     {
+      "key": "self running key plaintext@1737",
+      "score": -1106.8176508693905,
+      "z": 3.864282220960375,
+      "above_max": true,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "THNGSNOSONOFUPBEWHOUERINMYAEACHILLTHE"
+     },
+     {
+      "key": "phrase-3 WE MAY EMERGE",
+      "score": -1107.5702519262045,
+      "z": 3.7316021239335577,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "THEONTHATAIRINSOAEATMEEARSFORIS"
+     },
+     {
+      "key": "self running key plaintext@1736",
+      "score": -1109.2970554420244,
+      "z": 3.4271746241966525,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "THNGSNOSONOFUPBEWHOUERINMYAEACHILLTHE"
+     },
+     {
+      "key": "self running key plaintext@1738",
+      "score": -1110.5553204876737,
+      "z": 3.205348296913855,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "THNGSNOSONOFUPBEWHOUERINMYAEACHILLTHE"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "phrase-2-rev PRESERVE THINGS \u02b3",
+      "score": -1106.4512485412506,
+      "z": 3.476187118672345,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "THEONINORASCLOSTSOJOYAEACHMANOFIS"
+     },
+     {
+      "key": "phrase-2 THOUGHT SOME",
+      "score": -1107.0000372291538,
+      "z": 3.381507298991276,
+      "above_max": false,
+      "fillers": 15,
+      "echoes": 0,
+      "tr": "TOTTHYWITHISOWNMYAOFIOFONELATMEIFTHE"
+     },
+     {
+      "key": "phrase-3 WE MAY EMERGE",
+      "score": -1107.090988749565,
+      "z": 3.365815879430221,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "THEONCFINTHATAIRINSOAEATMEEARSFORIS"
+     },
+     {
+      "key": "affine position 28\u00b7n+6",
+      "score": -1107.6533272914576,
+      "z": 3.268798369922997,
+      "above_max": false,
+      "fillers": 14,
+      "echoes": 0,
+      "tr": "THEIOFINFOUREASETHEONDASCTOWOESHEAGWIANHEUPTO"
+     },
+     {
+      "key": "phrase-2-rev EACH INTELLIGENCE \u02b3",
+      "score": -1107.8825289189667,
+      "z": 3.229255337711294,
+      "above_max": false,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "TOORHEFELTDIEATSOHADBAREIOFSEAAATOF"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "phrase-3 ARE A LAW",
+      "score": -1107.2665240714887,
+      "z": 3.7851479446158174,
+      "above_max": true,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "LOWLYAORTHEWELEFTARMYONTHICCERUE"
+     },
+     {
+      "key": "self running key plaintext@2091",
+      "score": -1108.8351918494923,
+      "z": 3.508599046492495,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "AMTHANATHEYIFTHEMESOOFGONOTHECF"
+     },
+     {
+      "key": "primes-1 (totient) p[n+31]-1",
+      "score": -1109.1401695880008,
+      "z": 3.4548328770592027,
+      "above_max": false,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "ANREELHIMIGODNOTNOTPUTBRNGISOMYDOORDAY"
+     },
+     {
+      "key": "phrase-3 ALL THAT YOU",
+      "score": -1109.2793321996742,
+      "z": 3.4302991501235978,
+      "above_max": false,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "DOOFHEISIITHEBRNGAYESOHUECHEFONINGYMCF"
+     },
+     {
+      "key": "self running key plaintext@2090",
+      "score": -1109.6965972460207,
+      "z": 3.3567372459329166,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "THANATHEYIFTHEMESOOFGONOTHECF"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "primes-1 (totient) p[n+38]-1",
+      "score": -1101.8597393959794,
+      "z": 4.268337663172887,
+      "above_max": true,
+      "fillers": 17,
+      "echoes": 0,
+      "tr": "TOAIWHOFOURHEATHIMIGODNOTNOTPUTBRNGISOMYDOORDAY"
+     },
+     {
+      "key": "phrase-3 HEAD IS THE",
+      "score": -1103.59751320548,
+      "z": 3.968528074242323,
+      "above_max": false,
+      "fillers": 13,
+      "echoes": 0,
+      "tr": "ASOIOFTHEMWASYECFOTHERITAFALUINDEAFCNGSROOHETOIFIT"
+     },
+     {
+      "key": "primes-1 (totient) p[n+37]-1",
+      "score": -1105.4377562572813,
+      "z": 3.6510399697050446,
+      "above_max": false,
+      "fillers": 17,
+      "echoes": 0,
+      "tr": "TOAIWHOFOURHEATHIMIGODNOTNOTPUTBRNGISOMYDOORDAY"
+     },
+     {
+      "key": "affine position 21\u00b7n+23",
+      "score": -1105.5283857135114,
+      "z": 3.6354041142969393,
+      "above_max": false,
+      "fillers": 14,
+      "echoes": 0,
+      "tr": "IIFSBETWODIEONOWNLONGATHYFFTOIOFEYESWEECIT"
+     },
+     {
+      "key": "primes-1 (totient) p[n+39]-1",
+      "score": -1105.5974090142627,
+      "z": 3.623495862882553,
+      "above_max": false,
+      "fillers": 18,
+      "echoes": 0,
+      "tr": "TOAIWHOFOURHEATHIMIGODNOTNOTPUTBRNGISOMYDOORDAY"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "LP2-28",
+  "n": 269,
+  "null": {
+   "0": {
+    "mean": -1112.968210240061,
+    "sd": 4.734972008091789,
+    "max": -1089.0684659944368
+   },
+   "1": {
+    "mean": -1112.0388063577236,
+    "sd": 4.840235552597222,
+    "max": -1095.745638543331
+   }
+  },
+  "cells": [
+   {
+    "sign": "sub",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "phrase-4 YOUR INNOCENCE YOUR ILLUSIONS",
+      "score": -1091.737183068227,
+      "z": 4.483875962846507,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "OUERAMYDWNNORHIMLYGRITOPITHEIONEOUT"
+     },
+     {
+      "key": "phrase-4 INNOCENCE YOUR ILLUSIONS YOUR",
+      "score": -1092.6375200652374,
+      "z": 4.293729749633065,
+      "above_max": false,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "AOUERAMYDWNNORHIMLYGRITOPITHEIONEOUT"
+     },
+     {
+      "key": "self running key plaintext@2596",
+      "score": -1092.6887976037774,
+      "z": 4.282900216015463,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ASAALLLULLCILEAAETHERAMYIIN"
+     },
+     {
+      "key": "phrase-3 IN MY HEAD",
+      "score": -1093.754514108245,
+      "z": 4.057826762012688,
+      "above_max": false,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "AAWESOUSINWEIFOROFPUT"
+     },
+     {
+      "key": "phrase-4-rev THE MAN WAS GETTING \u02b3",
+      "score": -1093.983860817554,
+      "z": 4.009390000630168,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "LLEWWORMSIHAUNGONONANDIFDETOTOLAW"
+     }
+    ]
+   },
+   {
+    "sign": "sub",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "phrase-4 YOUR INNOCENCE YOUR ILLUSIONS",
+      "score": -1091.737183068227,
+      "z": 4.194346136440178,
+      "above_max": true,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "OUERAMYDWNNORHIMLYGRITOPITHEIONEOUT"
+     },
+     {
+      "key": "phrase-4 INNOCENCE YOUR ILLUSIONS YOUR",
+      "score": -1092.6375200652374,
+      "z": 4.00833514849824,
+      "above_max": true,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "AOUERAMYDWNNORHIMLYGRITOPITHEIONEOUT"
+     },
+     {
+      "key": "self running key plaintext@2596",
+      "score": -1092.6887976037774,
+      "z": 3.997741131330518,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ASAALLLULLCILEAAETHERAMYIIN"
+     },
+     {
+      "key": "phrase-4-rev THE MAN WAS GETTING \u02b3",
+      "score": -1093.6314163128384,
+      "z": 3.8029946776057235,
+      "above_max": true,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "LLEWWORMSIHAUNGONONANDTOPFIFTHDETOTOLAW"
+     },
+     {
+      "key": "phrase-3 IN MY HEAD",
+      "score": -1093.754514108245,
+      "z": 3.7775624865338155,
+      "above_max": true,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "AAWESOUSINWEIFOROFPUT"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 1,
+    "top": [
+     {
+      "key": "self running key plaintext@1556",
+      "score": -1090.6460335580282,
+      "z": 4.714320727532373,
+      "above_max": false,
+      "fillers": 3,
+      "echoes": 0,
+      "tr": "OFAHENOWPLOWSEAAANTOTHEAS"
+     },
+     {
+      "key": "phrase-4-rev US LOSE OUR PRIMALITY \u02b3",
+      "score": -1093.4322047422738,
+      "z": 4.1258967242892215,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "ADERUNGATUPONINIFELYIITHREWSEE"
+     },
+     {
+      "key": "phrase-4 MAN WAS GETTING IRRITATED",
+      "score": -1093.5242011027924,
+      "z": 4.106467599816815,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "OFASBIDTHEIMIDSONGSWASHER"
+     },
+     {
+      "key": "self running key plaintext@1073",
+      "score": -1094.2594946936465,
+      "z": 3.9511776446497042,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "OFSIXTHDOTHEMEASAUEITONIS"
+     },
+     {
+      "key": "self running key plaintext@1558",
+      "score": -1094.3741560399808,
+      "z": 3.926961800049496,
+      "above_max": false,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "IIHENOWPLOWSEAAANTOTHEAS"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "phrase-4-rev US LOSE OUR PRIMALITY \u02b3",
+      "score": -1090.4648719432416,
+      "z": 4.457207542906796,
+      "above_max": true,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "ADERUNGATUPONINIFFOALIITHREWSEE"
+     },
+     {
+      "key": "self running key plaintext@1556",
+      "score": -1090.6460335580282,
+      "z": 4.41977927876181,
+      "above_max": true,
+      "fillers": 3,
+      "echoes": 0,
+      "tr": "OFAHENOWPLOWSEAAANTOTHEAS"
+     },
+     {
+      "key": "self running key plaintext@1073",
+      "score": -1091.6771150189084,
+      "z": 4.206756286455807,
+      "above_max": true,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "OFSIXTHDOTHEMEASFALLAUEITONIS"
+     },
+     {
+      "key": "phrase-4 RIGHT ABOUT TO BELONG",
+      "score": -1092.0380458307293,
+      "z": 4.13218743378349,
+      "above_max": true,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "BIRTHAFEWWEREFOGFORDBUTIFOF"
+     },
+     {
+      "key": "phrase-4 MAN WAS GETTING IRRITATED",
+      "score": -1093.5242011027924,
+      "z": 3.825145502473833,
+      "above_max": true,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "OFASBIDTHEIMIDSONGSWASHER"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 1,
+    "top": [
+     {
+      "key": "phrase-2-rev PRIMALITY AND \u02b3",
+      "score": -1091.3191991333586,
+      "z": 4.572151866939331,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "IIFTHEISSEAATHEOPENFULLTHEHEA"
+     },
+     {
+      "key": "phrase-3-rev TO GO AND \u02b3",
+      "score": -1091.670292801013,
+      "z": 4.498002818739179,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "ATOTHELAINDOASDODIESHETHEAIN"
+     },
+     {
+      "key": "phrase-4-rev US LOSE OUR PRIMALITY \u02b3",
+      "score": -1091.7802155979098,
+      "z": 4.474787729672337,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "ITINMEATSEAATHEALLSAYOPENFULLTHEYI"
+     },
+     {
+      "key": "primes p[n+32]",
+      "score": -1093.0941769226245,
+      "z": 4.197286337379162,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "HETHEBYTHEITSAFEINSOFIT"
+     },
+     {
+      "key": "self running key plaintext@2465",
+      "score": -1093.7989340377703,
+      "z": 4.048445517635882,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "IWILTHEASBEARSPUTGORAILITITLIAN"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 3,
+    "top": [
+     {
+      "key": "self running key plaintext@2465",
+      "score": -1088.4518265070528,
+      "z": 4.873105780567694,
+      "above_max": true,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "IWILTHEASBEARSPUTGOFRAILITITLIAN"
+     },
+     {
+      "key": "self running key plaintext@2464",
+      "score": -1088.9913239375946,
+      "z": 4.761644793869985,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "WILTHEASBEARSPUTGOFRAILITITLIAN"
+     },
+     {
+      "key": "self running key plaintext@2463",
+      "score": -1089.2020449689103,
+      "z": 4.718109509476115,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "WILTHEASBEARSPUTGOFRAILITITLIAN"
+     },
+     {
+      "key": "self running key plaintext@2462",
+      "score": -1090.834151681157,
+      "z": 4.380913789451513,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "WILTHEASBEARSPUTGOFRAILITITLIAN"
+     },
+     {
+      "key": "self running key plaintext@2460",
+      "score": -1091.1687090794105,
+      "z": 4.311793723988166,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "DOWILTHEASBEARSPUTGOFRAILITITLIAN"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "LP2-36",
+  "n": 238,
+  "null": {
+   "0": {
+    "mean": -975.4212169012378,
+    "sd": 4.588741575923556,
+    "max": -955.000166315901
+   },
+   "1": {
+    "mean": -973.9876654187876,
+    "sd": 4.882617170605639,
+    "max": -953.775584568774
+   }
+  },
+  "cells": [
+   {
+    "sign": "sub",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 1,
+    "top": [
+     {
+      "key": "primes+1 p[n+31]+1",
+      "score": -953.0338515352928,
+      "z": 4.878759240530822,
+      "above_max": true,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "ITTOORTHEMJOYSNOTHATBOYWHIP"
+     },
+     {
+      "key": "self running key plaintext@1959",
+      "score": -957.1252217525449,
+      "z": 3.987148730425191,
+      "above_max": false,
+      "fillers": 3,
+      "echoes": 0,
+      "tr": "YOUTHEATSANGORANDDIM"
+     },
+     {
+      "key": "phrase-3 ALL STRUGGLE AND",
+      "score": -957.184989084069,
+      "z": 3.9741239543432965,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "THEWRISTLEARDOBEAMSRNGGOHORNYEANOTHE"
+     },
+     {
+      "key": "self running key plaintext@1748",
+      "score": -957.3222829157193,
+      "z": 3.9442042411978417,
+      "above_max": false,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "HEASIBEDHIMWESAYTOSAW"
+     },
+     {
+      "key": "self running key plaintext@1625",
+      "score": -957.9037715796075,
+      "z": 3.8174835152063893,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "ONTHEASBYMEASANDBYTHEE"
+     }
+    ]
+   },
+   {
+    "sign": "sub",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "primes+1 p[n+31]+1",
+      "score": -952.2003838533833,
+      "z": 4.462213768584654,
+      "above_max": true,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "ITTOORTHEMJOYSNOIFTHATBOYWHIP"
+     },
+     {
+      "key": "phrase-4 BECAUSE WE BELIEVE WE",
+      "score": -953.5795261209464,
+      "z": 4.179754132824998,
+      "above_max": true,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "BYTHEJEWSPIGSHERREUPHEOFOROFAFOF"
+     },
+     {
+      "key": "vigenere-word-rev UNREASONABLE\u02b3",
+      "score": -953.8877782751932,
+      "z": 4.116621566114145,
+      "above_max": false,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "HETHEYBEINIFISWETOFBYTO"
+     },
+     {
+      "key": "phrase-4 PILGRIM TO THE GREAT",
+      "score": -954.2970150564602,
+      "z": 4.032806520418851,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "INITTOERREEDDEALTHYOFANDMEIS"
+     },
+     {
+      "key": "phrase-3 TO THE GREAT",
+      "score": -956.4895055107593,
+      "z": 3.5837665122244036,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "ITONITREALTHANFOXTHYOFANDMEIS"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "self running key plaintext@1373",
+      "score": -954.786096323712,
+      "z": 4.496901870829962,
+      "above_max": true,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ABUTFREYMBASMOSTORUALEAGOOFORMAY"
+     },
+     {
+      "key": "phrase-2 STRUGGLE AND",
+      "score": -955.076688279529,
+      "z": 4.433574714351653,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "AOFATHEIFAREABEBOXORWITH"
+     },
+     {
+      "key": "self running key plaintext@1372",
+      "score": -955.6321811963044,
+      "z": 4.312519103007144,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "BUTFREYMBASMOSTORUALEAGOOFORMAY"
+     },
+     {
+      "key": "self running key plaintext@1371",
+      "score": -958.5170508770466,
+      "z": 3.6838348258452536,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "BUTFREYMBASMOSTORUALEAGOOFORMAY"
+     },
+     {
+      "key": "vigenere-word OURSELUES",
+      "score": -958.7243186259033,
+      "z": 3.638666069787126,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "IFMESPITWEMEFOROFSHIP"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "self running key plaintext@1373",
+      "score": -954.786096323712,
+      "z": 3.932638669825086,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "ABUTFREYMBASMOSTORUALEAGOOFORMAY"
+     },
+     {
+      "key": "phrase-2 STRUGGLE AND",
+      "score": -955.076688279529,
+      "z": 3.8731230564433,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "AOFATHEIFAREABEBOXORWITH"
+     },
+     {
+      "key": "self running key plaintext@1372",
+      "score": -955.6321811963044,
+      "z": 3.7593535559140396,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "BUTFREYMBASMOSTORUALEAGOOFORMAY"
+     },
+     {
+      "key": "vigenere-word STRUGGLE",
+      "score": -956.5511632667639,
+      "z": 3.5711384986304266,
+      "above_max": false,
+      "fillers": 13,
+      "echoes": 0,
+      "tr": "AEWEINGETTOOFCFTOOFBESOFMAY"
+     },
+     {
+      "key": "phrase-2-rev THROUGH GOING \u02b3",
+      "score": -957.3272480973699,
+      "z": 3.4121899668310878,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "ITIFASTISITMILLIFAOFIT"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "self running key plaintext@1088",
+      "score": -955.8567382024062,
+      "z": 4.263582591245396,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "THATSOFUNMEOFHELAWISTHEIN"
+     },
+     {
+      "key": "self running key plaintext@2266",
+      "score": -957.8898999000286,
+      "z": 3.820506496420161,
+      "above_max": false,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "GODSASITIHETHEETOEATNGME"
+     },
+     {
+      "key": "self running key plaintext@1087",
+      "score": -958.7416078831484,
+      "z": 3.634898314083506,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "THATSOFUNMEOFHELAWISTHEIN"
+     },
+     {
+      "key": "affine position 1\u00b7n+0",
+      "score": -959.0870885533012,
+      "z": 3.5596095525708704,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "NOMYOFEUENLIUNGUPPAWSBEFOESAI"
+     },
+     {
+      "key": "phrase-3-rev DEEP WEB THERE \u02b3",
+      "score": -959.8817781691843,
+      "z": 3.386427079177149,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "INONASOFWEHESESOFIN"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "affine position 1\u00b7n+0",
+      "score": -954.0247664563084,
+      "z": 4.088565264272614,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "NOMYOFEUENLIUNGUPPAWSBEFOESOFOR"
+     },
+     {
+      "key": "affine position 1\u00b7n+28",
+      "score": -955.8240461563779,
+      "z": 3.720058040134388,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "MYOFEUENLIUNGUPPAWSBEFOESOFOR"
+     },
+     {
+      "key": "self running key plaintext@1088",
+      "score": -955.8567382024062,
+      "z": 3.7133624412606765,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "THATSOFUNMEOFHELAWISTHEIN"
+     },
+     {
+      "key": "phrase-2-rev EACH INTELLIGENCE \u02b3",
+      "score": -956.0388874795384,
+      "z": 3.676056776948348,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "MEALDEADBENGSAANTSTWOTHEOFUSTHEN"
+     },
+     {
+      "key": "affine position 1\u00b7n+1",
+      "score": -957.4757263393445,
+      "z": 3.381780406387044,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "GOMREUENLIUNGUPPAWSBEFOESOFOR"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "LP2-44",
+  "n": 273,
+  "null": {
+   "0": {
+    "mean": -1118.771390853233,
+    "sd": 4.746379955728347,
+    "max": -1098.1371137757158
+   },
+   "1": {
+    "mean": -1117.6973728461776,
+    "sd": 4.887574267504661,
+    "max": -1095.6248613768269
+   }
+  },
+  "cells": [
+   {
+    "sign": "sub",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 1,
+    "top": [
+     {
+      "key": "phrase-4 BUT HE COULD NOT",
+      "score": -1094.2876671650213,
+      "z": 5.158399436324653,
+      "above_max": true,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "MEWEDOASORATHENSHISIBYOFAOFHEIN"
+     },
+     {
+      "key": "phrase-3 JUST SAID YOU",
+      "score": -1099.23926554207,
+      "z": 4.115162606733584,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "MYDOWNONITSISSHOESTHEWYRTHYBREAC"
+     },
+     {
+      "key": "phrase-2 BUT HE",
+      "score": -1100.4171117513272,
+      "z": 3.8670058598562633,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "MEASFEARATASIBYPEACEOFOFTOPMYIN"
+     },
+     {
+      "key": "phrase-2-rev INSTAR TUNNELING \u02b3",
+      "score": -1101.2189633023902,
+      "z": 3.698066255664807,
+      "above_max": false,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "THANDOESUSHEADINOWORATAND"
+     },
+     {
+      "key": "affine position 11\u00b7n+4",
+      "score": -1101.598047102131,
+      "z": 3.618198271374322,
+      "above_max": false,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "ASNOINTOMAILONISILCTHYFUR"
+     }
+    ]
+   },
+   {
+    "sign": "sub",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 3,
+    "top": [
+     {
+      "key": "phrase-3 THIS PILGRIMAGE THAT",
+      "score": -1092.6039137875866,
+      "z": 5.1341335568906565,
+      "above_max": true,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "LETBYOFTHEANDUSACHUTATECGIN"
+     },
+     {
+      "key": "phrase-2-rev ON OTHERS \u02b3",
+      "score": -1093.2494210888951,
+      "z": 5.002062458636418,
+      "above_max": true,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "AWEATCHARMIFBANTLNGHETHNGTHANAGEATHANHEIN"
+     },
+     {
+      "key": "phrase-4 BUT HE COULD NOT",
+      "score": -1094.2876671650213,
+      "z": 4.78963682184784,
+      "above_max": true,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "MEWEDOASORATHENSHISIBYOFAOFHEIN"
+     },
+     {
+      "key": "phrase-3-rev WHO FIND THEIR \u02b3",
+      "score": -1095.809738001528,
+      "z": 4.478220410924653,
+      "above_max": false,
+      "fillers": 11,
+      "echoes": 0,
+      "tr": "GOFEETOFBEGAHERRUEITBEASAND"
+     },
+     {
+      "key": "self running key plaintext@996",
+      "score": -1096.7480251735935,
+      "z": 4.2862464130452365,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "OFMEFINDNGENDTOLOWIEUILAS"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "phrase-4-rev AFTER A LONG PAUSE \u02b3",
+      "score": -1098.6187244811608,
+      "z": 4.245902468838422,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "USETOISNOUSERBOTHMIBEWHATMELOITCAI"
+     },
+     {
+      "key": "phrase-4 TO EXPLAIN WHAT THAT",
+      "score": -1099.4849700447924,
+      "z": 4.063395890833415,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "ATUPMAYOFWETICNGTHNGSOFITAHER"
+     },
+     {
+      "key": "vigenere-word-rev WORDS\u02b3",
+      "score": -1100.1879036142197,
+      "z": 3.9152970078986375,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "INTOJRDBYTHENOTADEATTHNGYEARTHETHE"
+     },
+     {
+      "key": "phrase-3-rev AFTER A LONG \u02b3",
+      "score": -1100.2051034735773,
+      "z": 3.911673223136779,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "TOISWHONOUSSEABUTBOONBEMEIITHIS"
+     },
+     {
+      "key": "vigenere-word-rev EXPLAINED\u02b3",
+      "score": -1100.9883920710288,
+      "z": 3.7466445897872442,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "AANDOWNOFSEEIOUTURANCNG"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "phrase-4 TO EXPLAIN WHAT THAT",
+      "score": -1096.0289952323485,
+      "z": 4.433360278102089,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "CATOFMAYOFWETICNGTHNGSOFITAHER"
+     },
+     {
+      "key": "vigenere-word-rev EXPLAINED\u02b3",
+      "score": -1097.5116466949578,
+      "z": 4.130009089667618,
+      "above_max": false,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "AANDOWNOFFUFANSEEIOUTURANCNG"
+     },
+     {
+      "key": "phrase-4-rev AFTER A LONG PAUSE \u02b3",
+      "score": -1097.7306139229627,
+      "z": 4.085208291557867,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "USETOISOFNOUSERBOTHMIBEWHATMELOITCAI"
+     },
+     {
+      "key": "vigenere-word LUCC",
+      "score": -1098.7228606874537,
+      "z": 3.8821941356220604,
+      "above_max": false,
+      "fillers": 6,
+      "echoes": 0,
+      "tr": "COMBOFTENTOATDONOATHWETSINMYALL"
+     },
+     {
+      "key": "vigenere-word-rev WORDS\u02b3",
+      "score": -1100.1879036142197,
+      "z": 3.5824456619248988,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "INTOJRDBYTHENOTADEATTHNGYEARTHETHE"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "phrase-3 DUTY OF EVERY",
+      "score": -1098.7978314561763,
+      "z": 4.208166978488715,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "IFOFFROMBETHYSOUAINCOEDISHE"
+     },
+     {
+      "key": "self running key plaintext@800",
+      "score": -1098.9386152324423,
+      "z": 4.178505683442972,
+      "above_max": false,
+      "fillers": 13,
+      "echoes": 0,
+      "tr": "MEISAYNGHEASBEHASLOCITRUEWASHEARNGMEARAN"
+     },
+     {
+      "key": "self running key plaintext@2759",
+      "score": -1099.3898204854956,
+      "z": 4.0834426549324165,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "THEINTHYATANDDAYAGEDME"
+     },
+     {
+      "key": "phrase-2 WE MAY",
+      "score": -1099.5034433248363,
+      "z": 4.059503813035962,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "ISWHYTHATOFUSTHEEIINLONG"
+     },
+     {
+      "key": "primes+1 p[n+83]+1",
+      "score": -1100.0924635388953,
+      "z": 3.935404979914072,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "WEIATEITARCNOTIEATERAATASAND"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 1,
+    "top": [
+     {
+      "key": "self running key plaintext@2183",
+      "score": -1093.1901231045765,
+      "z": 5.014194854191584,
+      "above_max": true,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "THYTHEBEOFDONWHYSEXWITHATMANSADI"
+     },
+     {
+      "key": "self running key plaintext@572",
+      "score": -1096.353743744142,
+      "z": 4.366916579445131,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "MEETCOFIFOFYETHUSAOFTOTO"
+     },
+     {
+      "key": "self running key plaintext@2744",
+      "score": -1096.8773326750095,
+      "z": 4.259790037277065,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "ONWEFOODASANASANGLOUEPASTOOLDI"
+     },
+     {
+      "key": "self running key plaintext@1509",
+      "score": -1097.258286956898,
+      "z": 4.18184661155332,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "HEIFLATOFOFFBYALLDIDBEISIS"
+     },
+     {
+      "key": "self running key plaintext@1716",
+      "score": -1097.6104011496993,
+      "z": 4.10980388165715,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "THEIFULLATEEACHGOETHBYONASATHIRDUSI"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "page": "LP2-53",
+  "n": 179,
+  "null": {
+   "0": {
+    "mean": -740.6776273601714,
+    "sd": 4.4481242713890765,
+    "max": -722.1050103197236
+   },
+   "1": {
+    "mean": -740.3249779350159,
+    "sd": 4.412471830174883,
+    "max": -718.3091113228819
+   }
+  },
+  "cells": [
+   {
+    "sign": "sub",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 2,
+    "top": [
+     {
+      "key": "self running key plaintext@1602",
+      "score": -719.6073138906314,
+      "z": 4.736898563079057,
+      "above_max": true,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "HALIORTHATATGODIDEAHAGONINUPDEMROF"
+     },
+     {
+      "key": "vigenere-word REASON",
+      "score": -720.5100334188647,
+      "z": 4.533954698844029,
+      "above_max": true,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "THATATOWNGTHETHYOFHEIXAATHEIF"
+     },
+     {
+      "key": "self running key plaintext@1855",
+      "score": -721.9139035398201,
+      "z": 4.2183452339769465,
+      "above_max": true,
+      "fillers": 3,
+      "echoes": 0,
+      "tr": "SONSEASNOBARDHEONPLAYBADGE"
+     },
+     {
+      "key": "phrase-4 FOUR UNREASONABLE THINGS EACH",
+      "score": -721.9274413351632,
+      "z": 4.215301749911063,
+      "above_max": true,
+      "fillers": 2,
+      "echoes": 0,
+      "tr": "INEUERINWARMTHTHEIF"
+     },
+     {
+      "key": "vigenere-word-rev PROFESSOR\u02b3",
+      "score": -722.4036905823472,
+      "z": 4.108234316960213,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "THEHESIDEOFOROUTSOAANSAN"
+     }
+    ]
+   },
+   {
+    "sign": "sub",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 4,
+    "top": [
+     {
+      "key": "self running key plaintext@851",
+      "score": -719.2682751408131,
+      "z": 4.772087755938887,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "BENGTHETHISHERATOFHEOFHE"
+     },
+     {
+      "key": "self running key plaintext@1602",
+      "score": -719.6073138906314,
+      "z": 4.695251288111538,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "HALIORTHATATGODIDEAHAGONINUPDEMROF"
+     },
+     {
+      "key": "phrase-2 FOLLOW REASON",
+      "score": -720.1408102450481,
+      "z": 4.574344826846823,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "THATATELDAFAFREHEFEWITASTHEIF"
+     },
+     {
+      "key": "vigenere-word REASON",
+      "score": -720.2097095255682,
+      "z": 4.55873015933803,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "THATATOWNGTHEOFTHYOFHEIXAATHEIF"
+     },
+     {
+      "key": "self running key plaintext@850",
+      "score": -720.9003818530598,
+      "z": 4.402202853538952,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "BENGTHETHISHERATOFHEOFHE"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "affine position 20\u00b7n+10",
+      "score": -722.7672972924095,
+      "z": 4.026490487903757,
+      "above_max": false,
+      "fillers": 3,
+      "echoes": 0,
+      "tr": "AREFORISSPRNGSOATO"
+     },
+     {
+      "key": "self running key plaintext@1631",
+      "score": -723.3566866060424,
+      "z": 3.893987599568553,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "ITTOANOWTHANOFAREOFA"
+     },
+     {
+      "key": "phrase-3-rev IN MY HEAD \u02b3",
+      "score": -724.7286950579763,
+      "z": 3.5855410795918474,
+      "above_max": false,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "GAWDLEADASAEDDCAILOEININTOCNGOFHEIDO"
+     },
+     {
+      "key": "affine position 20\u00b7n+19",
+      "score": -724.7358762412775,
+      "z": 3.5839266500338867,
+      "above_max": false,
+      "fillers": 3,
+      "echoes": 0,
+      "tr": "AREFORISSPRNGSOATO"
+     },
+     {
+      "key": "phrase-4 THE CIRCUMFERENCE HE SAID",
+      "score": -725.0521952349825,
+      "z": 3.5128137551582737,
+      "above_max": false,
+      "fillers": 3,
+      "echoes": 0,
+      "tr": "ANYMANHERSONSANOFIN"
+     }
+    ]
+   },
+   {
+    "sign": "add",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "affine position 20\u00b7n+10",
+      "score": -722.7672972924095,
+      "z": 3.979103169007782,
+      "above_max": false,
+      "fillers": 3,
+      "echoes": 0,
+      "tr": "AREFORISSPRNGSOATO"
+     },
+     {
+      "key": "self running key plaintext@1631",
+      "score": -723.3566866060424,
+      "z": 3.8455296672797,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "ITTOANOWTHANOFAREOFA"
+     },
+     {
+      "key": "affine position 15\u00b7n+25",
+      "score": -724.1342968392798,
+      "z": 3.6692995941674647,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "THEYOFIOFHEWEALLINWE"
+     },
+     {
+      "key": "phrase-3-rev IN MY HEAD \u02b3",
+      "score": -724.7286950579763,
+      "z": 3.5345909225717245,
+      "above_max": false,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "GAWDLEADASAEDDCAILOEININTOCNGOFHEIDO"
+     },
+     {
+      "key": "affine position 20\u00b7n+19",
+      "score": -724.7358762412775,
+      "z": 3.532963448544105,
+      "above_max": false,
+      "fillers": 3,
+      "echoes": 0,
+      "tr": "AREFORISSPRNGSOATO"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": false,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "sentence IT IS NOT AN EASY TRIP BUT FOR THOSE WHO FIND THEIR WAY HERE",
+      "score": -721.5877561407466,
+      "z": 4.291667690629374,
+      "above_max": true,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "THYONHOWPENIFLONGUSEHISFOODANHE"
+     },
+     {
+      "key": "phrase-2-rev EXPLAIN WHAT \u02b3",
+      "score": -725.5407398719225,
+      "z": 3.4029821481408224,
+      "above_max": false,
+      "fillers": 5,
+      "echoes": 0,
+      "tr": "RUEUSETHNGTHEOUTLAWTHENUSI"
+     },
+     {
+      "key": "affine position 12\u00b7n+15",
+      "score": -725.6908707847534,
+      "z": 3.3692306376903147,
+      "above_max": false,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "SIXORAHEDADEATHDIDTOTHE"
+     },
+     {
+      "key": "self running key plaintext@1592",
+      "score": -725.8402266347234,
+      "z": 3.335653372115549,
+      "above_max": false,
+      "fillers": 4,
+      "echoes": 0,
+      "tr": "MYOFBATHANDFLYNGITOF"
+     },
+     {
+      "key": "phrase-3-rev TO EXPLAIN WHAT \u02b3",
+      "score": -725.8420557576047,
+      "z": 3.3352421599349293,
+      "above_max": false,
+      "fillers": 8,
+      "echoes": 0,
+      "tr": "RUEINTHEISTORNLAWTHENSOI"
+     }
+    ]
+   },
+   {
+    "sign": "beaufort",
+    "F": true,
+    "nkeys": 7621,
+    "n_z45": 0,
+    "top": [
+     {
+      "key": "affine position 10\u00b7n+0",
+      "score": -721.4998291935544,
+      "z": 4.266349897743226,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "THEINAEDDSHOUROFBAGFORYEISUNGAGEDAN"
+     },
+     {
+      "key": "sentence IT IS NOT AN EASY TRIP BUT FOR THOSE WHO FIND THEIR WAY HERE",
+      "score": -721.5877561407466,
+      "z": 4.246422983628814,
+      "above_max": false,
+      "fillers": 9,
+      "echoes": 0,
+      "tr": "THYONHOWPENIFLONGUSEHISFOODANHE"
+     },
+     {
+      "key": "affine position 10\u00b7n+19",
+      "score": -723.4684081424225,
+      "z": 3.820210177279549,
+      "above_max": false,
+      "fillers": 10,
+      "echoes": 0,
+      "tr": "THEINAEDDSHOUROFBAGFORYEISUNGAGEDAN"
+     },
+     {
+      "key": "phrase-3 AND SUFFERING YOUR",
+      "score": -723.5017328902344,
+      "z": 3.812657778285408,
+      "above_max": false,
+      "fillers": 12,
+      "echoes": 0,
+      "tr": "ITOFSAWAOFHOGOFASBYNGETHEIFTHYA"
+     },
+     {
+      "key": "affine position 10\u00b7n+9",
+      "score": -724.4794064298881,
+      "z": 3.5910872896155874,
+      "above_max": false,
+      "fillers": 7,
+      "echoes": 0,
+      "tr": "BEHOUROFBAGFORYEISUNGAGEDAN"
+     }
+    ]
+   }
+  ]
+ }
+]

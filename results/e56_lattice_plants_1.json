@@ -1,0 +1,118 @@
+[
+ {
+  "cell": 1,
+  "sign": "add",
+  "F": false,
+  "key": "phrase-4 IS ONLY THROUGH GOING",
+  "n": 293,
+  "words": 70,
+  "fillers": 30,
+  "echoes": 1,
+  "plain": {
+   "rank": 3870,
+   "z": -0.0676942451932588,
+   "acc": 0.12927756653992395
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 13.241518746330197,
+   "acc": 0.8631178707224335
+  },
+  "e56": {
+   "rank": 1,
+   "z": 52.34164375932054,
+   "acc": 0.6387832699619772,
+   "fillers_placed": 30,
+   "fillers_found": 0.7333333333333333,
+   "echoes_placed": 1,
+   "tr": "HEDESCRIBETHEBEASTTHATISCLEANHEISSUCHAONETHATTHEHOOFANDTHENOTTHATTHEH"
+  }
+ },
+ {
+  "cell": 9,
+  "sign": "sub",
+  "F": true,
+  "key": "self running key plaintext@707",
+  "n": 283,
+  "words": 68,
+  "fillers": 21,
+  "echoes": 1,
+  "plain": {
+   "rank": 3681,
+   "z": 0.6549286869524794,
+   "acc": 0.10305343511450382
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 13.431506693909096,
+   "acc": 0.851145038167939
+  },
+  "e56": {
+   "rank": 1,
+   "z": 77.28206669406988,
+   "acc": 0.9198473282442748,
+   "fillers_placed": 21,
+   "fillers_found": 0.9523809523809523,
+   "echoes_placed": 1,
+   "tr": "THENSAIDIAMSUREOFTHEENOWANDWITHTHATHEHADALMOSTPRESSEDHIMTODEATHSOTH"
+  }
+ },
+ {
+  "cell": 17,
+  "sign": "beaufort",
+  "F": true,
+  "key": "phrase-3-rev CERTAINTY AND YOUR \u02b3",
+  "n": 294,
+  "words": 72,
+  "fillers": 30,
+  "echoes": 3,
+  "plain": {
+   "rank": 700,
+   "z": 1.838931316490572,
+   "acc": 0.2159090909090909
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 12.792255557967447,
+   "acc": 0.821969696969697
+  },
+  "e56": {
+   "rank": 1,
+   "z": 86.33821129349492,
+   "acc": 0.9621212121212122,
+   "fillers_placed": 30,
+   "fillers_found": 0.9666666666666667,
+   "echoes_placed": 3,
+   "tr": "PRISONERSANDWITHALTHEOLDGIANTWONDEREDTHATHECOULDNEITHERBYHISBLOWS"
+  }
+ },
+ {
+  "cell": 25,
+  "sign": "add",
+  "F": false,
+  "key": "phrase-3 MASTER REPLIED THEN",
+  "n": 284,
+  "words": 71,
+  "fillers": 22,
+  "echoes": 3,
+  "plain": {
+   "rank": 3310,
+   "z": 0.5242727365354956,
+   "acc": 0.12595419847328243
+  },
+  "free-null": {
+   "rank": 1,
+   "z": 13.11345739760414,
+   "acc": 0.851145038167939
+  },
+  "e56": {
+   "rank": 1,
+   "z": 89.05456448136738,
+   "acc": 0.9732824427480916,
+   "fillers_placed": 22,
+   "fillers_found": 0.9090909090909091,
+   "echoes_placed": 3,
+   "tr": "STOPPEDANDBEGANTOMUSEWHATHEHADBESTTODOSOMETIMESHEHADHALFATHOU"
+  }
+ }
+]

@@ -1,0 +1,38 @@
+{
+ "cell": 2,
+ "page": "LP2-34",
+ "sign": "beaufort",
+ "F": false,
+ "library": "book",
+ "top_key": "phrase-2 THE MASTER",
+ "top_score": -1053.2714353304866,
+ "n_lib": 7621,
+ "nulls": {
+  "uniform": {
+   "mean": -1089.8753984959492,
+   "sd": 5.130140005088894,
+   "max": -1065.189799508657,
+   "z_top": 7.135080744220023,
+   "n_above_top": 0,
+   "n_above_uniform_max": 0
+  },
+  "permuted library": {
+   "mean": -1089.477792402077,
+   "sd": 5.251064874553268,
+   "max": -1069.0847578875432,
+   "z_top": 6.895050420543639,
+   "n_above_top": 0,
+   "n_above_uniform_max": 0
+  },
+  "english windows": {
+   "mean": -1088.6740173657677,
+   "sd": 5.221180166193153,
+   "max": -1068.0581660735918,
+   "z_top": 6.7805708495774155,
+   "n_above_top": 0,
+   "n_above_uniform_max": 0
+  }
+ },
+ "lib_above_uniform_max": 2,
+ "lib_z45_uniform": 4
+}

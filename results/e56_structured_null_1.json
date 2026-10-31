@@ -1,0 +1,38 @@
+{
+ "cell": 1,
+ "page": "LP2-02",
+ "sign": "add",
+ "F": true,
+ "library": "book",
+ "top_key": "self running key plaintext@2679",
+ "top_score": -785.5159295717541,
+ "n_lib": 7621,
+ "nulls": {
+  "uniform": {
+   "mean": -811.4164374794069,
+   "sd": 3.6897325434413264,
+   "max": -798.0822431443033,
+   "z_top": 7.019616626059301,
+   "n_above_top": 0,
+   "n_above_uniform_max": 0
+  },
+  "permuted library": {
+   "mean": -810.877911591293,
+   "sd": 3.907479989742946,
+   "max": -795.2448041714661,
+   "z_top": 6.4906236464712785,
+   "n_above_top": 0,
+   "n_above_uniform_max": 6
+  },
+  "english windows": {
+   "mean": -809.9439188194601,
+   "sd": 3.9131781666641317,
+   "max": -794.0559068076967,
+   "z_top": 6.242493494368584,
+   "n_above_top": 0,
+   "n_above_uniform_max": 8
+  }
+ },
+ "lib_above_uniform_max": 51,
+ "lib_z45_uniform": 12
+}
