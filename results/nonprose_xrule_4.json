@@ -1,0 +1,1087 @@
+{
+ "bar": 10.5,
+ "controls": [],
+ "plants": [],
+ "cells": [
+  {
+   "page": "LP2-04",
+   "L": 261,
+   "sign": "sub",
+   "M": 46019,
+   "top": "phrase-2 WE MAY @3",
+   "ztop": 5.483666530449537,
+   "zUWG": [
+    5.483666530449537,
+    -0.09548238177356216,
+    1.3992383517466855
+   ],
+   "null_max": 5.622268960195002,
+   "null_tails": {
+    "4": 32,
+    "5": 4,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 64,
+    "5": 8,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-04",
+   "L": 261,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-4-rev THAT MEANT THE MASTER \u02b3 @9",
+   "ztop": 6.620206454362342,
+   "zUWG": [
+    6.620206454362342,
+    -0.09548238177356216,
+    1.3992383517466855
+   ],
+   "null_max": 5.622268960195002,
+   "null_tails": {
+    "4": 32,
+    "5": 4,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 237,
+    "5": 54,
+    "6": 6,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "AEFEA\u00d72",
+     "UEAH\u00d72",
+     "EAHL\u00d72",
+     "OEGOE\u00d72"
+    ],
+    "text": "FYTFNEOJHNGAESAEFIAFNGDEOOELOEISHNFTLHXSSLJDFOEAEMUYFBLAUGDDYWAETFHIWODSIJSNMOEFIAAEFEAFOEEALMBLOYOESAILEAFBDFRHOEGIABFO"
+   }
+  },
+  {
+   "page": "LP2-04",
+   "L": 261,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "phrase-2 WE MAY @3",
+   "ztop": 5.483666530449537,
+   "zUWG": [
+    5.483666530449537,
+    -0.09548238177356216,
+    1.3992383517466855
+   ],
+   "null_max": 5.622268960195002,
+   "null_tails": {
+    "4": 32,
+    "5": 4,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 64,
+    "5": 8,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-09",
+   "L": 268,
+   "sign": "sub",
+   "M": 46019,
+   "top": "square position n\u00b2+6 @7",
+   "ztop": 5.086931981339786,
+   "zUWG": [
+    5.086931981339786,
+    -0.05431728503396971,
+    0.09289269883914741
+   ],
+   "null_max": 5.6882781993617115,
+   "null_tails": {
+    "4": 64,
+    "5": 7,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 26,
+    "5": 3,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-09",
+   "L": 268,
+   "sign": "add",
+   "M": 46019,
+   "top": "prime p s=816 @0",
+   "ztop": 6.9631321815681915,
+   "zUWG": [
+    6.9631321815681915,
+    -0.05431728503396971,
+    0.09289269883914741
+   ],
+   "null_max": 5.6882781993617115,
+   "null_tails": {
+    "4": 64,
+    "5": 7,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 79,
+    "5": 10,
+    "6": 2,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "FLA\u00d72",
+     "FYF\u00d72"
+    ],
+    "text": "IUTHXFTLTHOECYNMFLEIAJCEAAEJNGFMBYIIAAELXOEFSFLAFYNGWCROEFJGFBUEMJFFINAELFMFFCCEOUTHIWTMNUPOYPCANUTOHFAEITHFPUBCHNGIHTHR"
+   }
+  },
+  {
+   "page": "LP2-09",
+   "L": 268,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "square position n\u00b2+6 @7",
+   "ztop": 5.086931981339786,
+   "zUWG": [
+    5.086931981339786,
+    -0.05431728503396971,
+    0.09289269883914741
+   ],
+   "null_max": 5.6882781993617115,
+   "null_tails": {
+    "4": 64,
+    "5": 7,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 26,
+    "5": 3,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-14",
+   "L": 137,
+   "sign": "sub",
+   "M": 46019,
+   "top": "sentence THAT IS MERELY WHAT YOU ARE NOT WHO YOU ARE @12",
+   "ztop": 5.478031152861782,
+   "zUWG": [
+    5.478031152861782,
+    -0.036207149900260305,
+    -0.5296781106740247
+   ],
+   "null_max": 5.859946576098001,
+   "null_tails": {
+    "4": 55,
+    "5": 7,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 33,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-14",
+   "L": 137,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-4-rev AND ADHERENCE THAT HAVE \u02b3 @9",
+   "ztop": 5.64170919139159,
+   "zUWG": [
+    5.64170919139159,
+    -0.036207149900260305,
+    0.5907848978461012
+   ],
+   "null_max": 5.859946576098001,
+   "null_tails": {
+    "4": 55,
+    "5": 7,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 22,
+    "5": 3,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-14",
+   "L": 137,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "sentence THAT IS MERELY WHAT YOU ARE NOT WHO YOU ARE @12",
+   "ztop": 5.478031152861782,
+   "zUWG": [
+    5.478031152861782,
+    -0.036207149900260305,
+    -0.5296781106740247
+   ],
+   "null_max": 5.859946576098001,
+   "null_tails": {
+    "4": 55,
+    "5": 7,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 33,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-19",
+   "L": 271,
+   "sign": "sub",
+   "M": 46019,
+   "top": "phrase-3 PRIMES ARE SACRED @2",
+   "ztop": 5.491307885430207,
+   "zUWG": [
+    5.491307885430207,
+    0.9455650683344181,
+    0.04872715154317042
+   ],
+   "null_max": 6.042919824475051,
+   "null_tails": {
+    "4": 51,
+    "5": 12,
+    "6": 1,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 46,
+    "5": 8,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-19",
+   "L": 271,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-2 EVERY PILGRIM @2",
+   "ztop": 7.410917433306265,
+   "zUWG": [
+    7.410917433306265,
+    -0.1748979401857078,
+    -0.6882719700296027
+   ],
+   "null_max": 6.042919824475051,
+   "null_tails": {
+    "4": 51,
+    "5": 12,
+    "6": 1,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 125,
+    "5": 42,
+    "6": 11,
+    "7": 1
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "FLF\u00d72"
+    ],
+    "text": "IAWMOEFPUFWMMPAEFUBUTPTHUYOEEFJJSLXSEONHTHCFJTHESWLFAEDSRNGJFIATHXCOHTHOEIABIABEOFFJNGEAEABSYRFCUTWWTHEAHAEFNGFAEPTHIAJL"
+   }
+  },
+  {
+   "page": "LP2-19",
+   "L": 271,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "phrase-3 PRIMES ARE SACRED @2",
+   "ztop": 5.491307885430207,
+   "zUWG": [
+    5.491307885430207,
+    0.9455650683344181,
+    0.04872715154317042
+   ],
+   "null_max": 6.042919824475051,
+   "null_tails": {
+    "4": 51,
+    "5": 12,
+    "6": 1,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 46,
+    "5": 8,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-24",
+   "L": 270,
+   "sign": "sub",
+   "M": 46019,
+   "top": "vigenere-word-rev OURSELUES\u02b3 @5",
+   "ztop": 5.981436062443197,
+   "zUWG": [
+    5.981436062443197,
+    -0.1841554089689481,
+    0.0622732273761879
+   ],
+   "null_max": 5.228267004426332,
+   "null_tails": {
+    "4": 45,
+    "5": 3,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 80,
+    "5": 17,
+    "6": 0,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "FFEA\u00d72",
+     "FFJ\u00d72"
+    ],
+    "text": "HFEASAEWHXMNGHYIPEEFEWOIANGDGRRBCIATFNGEOCFFYOECPERFUIOEONAEIAEABCTCAJUAEOARRXSSFJBHWAEXISFFDIAIAYRTHFGEOBFOAXWWEOFFEALY"
+   }
+  },
+  {
+   "page": "LP2-24",
+   "L": 270,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-3 TELL THE MASTER @3",
+   "ztop": 5.028898724363044,
+   "zUWG": [
+    5.028898724363044,
+    -0.1841554089689481,
+    -0.6747258941965852
+   ],
+   "null_max": 5.228267004426332,
+   "null_tails": {
+    "4": 45,
+    "5": 3,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 19,
+    "5": 1,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-24",
+   "L": 270,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "vigenere-word-rev OURSELUES\u02b3 @5",
+   "ztop": 5.981436062443197,
+   "zUWG": [
+    5.981436062443197,
+    -0.1841554089689481,
+    0.0622732273761879
+   ],
+   "null_max": 5.228267004426332,
+   "null_tails": {
+    "4": 45,
+    "5": 3,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 80,
+    "5": 17,
+    "6": 0,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "FFU\u00d72",
+     "FFE\u00d72"
+    ],
+    "text": "NGFUXROENGSIHNGOMTJJFJOEYTHHGDAEAEEOATHPFHBAFFOWATJAEFEAMYBLRTHUEOAPACEEACBCAEAESXXFEEONGOERSMXFFGTHTHOAEIAFDBEOFYCSOEOE"
+   }
+  },
+  {
+   "page": "LP2-29",
+   "L": 277,
+   "sign": "sub",
+   "M": 46019,
+   "top": "phrase-3 AND REPLIED I @6",
+   "ztop": 6.353535773608406,
+   "zUWG": [
+    6.353535773608406,
+    1.6285908210572062,
+    -0.6419312196281779
+   ],
+   "null_max": 5.756589472531244,
+   "null_tails": {
+    "4": 42,
+    "5": 3,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 80,
+    "5": 8,
+    "6": 1,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [
+     "EAH\u00d72",
+     "UP\u00d72"
+    ],
+    "trigrams": [
+     "THFF\u00d72"
+    ],
+    "text": "JPBWGAEWOYOOETHXIABNGTHTXLEAHJLSUEAEAUIANGTHEOSYNGDTXTFYJEAFTHXRFAEIABLTHTHTHHFTEAFWRPIFBTHUONGLYAERATHEAFAEEOTGOEGFGFFB"
+   }
+  },
+  {
+   "page": "LP2-29",
+   "L": 277,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-2-rev GOING WITHIN \u02b3 @3",
+   "ztop": 6.204299198339116,
+   "zUWG": [
+    6.204299198339116,
+    -0.22887130903569286,
+    0.6870955146348745
+   ],
+   "null_max": 5.756589472531244,
+   "null_tails": {
+    "4": 42,
+    "5": 3,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 61,
+    "5": 10,
+    "6": 2,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "LDE\u00d72",
+     "MAEF\u00d72",
+     "FFX\u00d72"
+    ],
+    "text": "EOUIAROEFYEAJEAIAAEUAENGRWOFIADUEOOXTHUYTUGOEGPEAPDGMIAFUOENTEAROAETFEBEOFAEULEOXPHOEBTEAHXXIAAJDSCLDEFTOLDNEFMFIHFEOEYE"
+   }
+  },
+  {
+   "page": "LP2-29",
+   "L": 277,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "phrase-3 AND REPLIED I @6",
+   "ztop": 6.353535773608406,
+   "zUWG": [
+    6.353535773608406,
+    1.6285908210572062,
+    -0.6419312196281779
+   ],
+   "null_max": 5.756589472531244,
+   "null_tails": {
+    "4": 42,
+    "5": 3,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 80,
+    "5": 8,
+    "6": 1,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [
+     "UNG\u00d72",
+     "OEU\u00d72",
+     "EAT\u00d72"
+    ],
+    "trigrams": [
+     "IAFF\u00d72"
+    ],
+    "text": "ETEOOEDROEYOYWIASTHEOHIAPSNUNGENXEAUUEATHHIABXOHGPSPFOEUFIASAEFRTHEONIAIAIANGFPUFOEAETMFEOIAEAYHNORAECIAUFRBPDWDFDFFEOFJ"
+   }
+  },
+  {
+   "page": "LP2-34",
+   "L": 261,
+   "sign": "sub",
+   "M": 46019,
+   "top": "phrase-4 STRONG ENOUGH TO GAIN @5",
+   "ztop": 4.948752152748849,
+   "zUWG": [
+    4.948752152748849,
+    -0.09130983871737919,
+    -0.4402902802025581
+   ],
+   "null_max": 5.5447392958901185,
+   "null_tails": {
+    "4": 30,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 23,
+    "5": 0,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-34",
+   "L": 261,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-2-rev OUR DIVINITY \u02b3 @6",
+   "ztop": 5.002932802125327,
+   "zUWG": [
+    5.002932802125327,
+    1.0291531698027467,
+    1.851311087633579
+   ],
+   "null_max": 5.5447392958901185,
+   "null_tails": {
+    "4": 30,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 31,
+    "5": 1,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-34",
+   "L": 261,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "phrase-4 STRONG ENOUGH TO GAIN @5",
+   "ztop": 4.948752152748849,
+   "zUWG": [
+    4.948752152748849,
+    -0.09130983871737919,
+    -0.4402902802025581
+   ],
+   "null_max": 5.5447392958901185,
+   "null_tails": {
+    "4": 30,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 23,
+    "5": 0,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-39",
+   "L": 240,
+   "sign": "sub",
+   "M": 46019,
+   "top": "prime p+1 s=741 @0",
+   "ztop": 6.040480588729242,
+   "zUWG": [
+    6.040480588729242,
+    -0.03382574641259284,
+    0.5225195205603033
+   ],
+   "null_max": 5.4982390301724795,
+   "null_tails": {
+    "4": 24,
+    "5": 2,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 39,
+    "5": 3,
+    "6": 1,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "FWS\u00d72",
+     "IAEW\u00d72",
+     "OHIA\u00d72"
+    ],
+    "text": "OEIOGIAHJRIOEEOCLLOEFBIUJITAXYROAJTNCAAAUURAEFWSFYFRSHWIFSSFTWOELLIATGNEOTXLLGGHIGPHNGOEGYFLBELAPHANMGEAPEAIAOENGSCWATTH"
+   }
+  },
+  {
+   "page": "LP2-39",
+   "L": 240,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-2 STUDENT TOLD @3",
+   "ztop": 5.25724278192503,
+   "zUWG": [
+    5.25724278192503,
+    -0.03382574641259284,
+    0.5225195205603033
+   ],
+   "null_max": 5.4982390301724795,
+   "null_tails": {
+    "4": 24,
+    "5": 2,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 26,
+    "5": 2,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-39",
+   "L": 240,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "prime p+1 s=741 @0",
+   "ztop": 6.040480588729242,
+   "zUWG": [
+    6.040480588729242,
+    -0.03382574641259284,
+    0.5225195205603033
+   ],
+   "null_max": 5.4982390301724795,
+   "null_tails": {
+    "4": 24,
+    "5": 2,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 39,
+    "5": 3,
+    "6": 1,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "EAEM\u00d72",
+     "FOEX\u00d72",
+     "YNGTH\u00d72"
+    ],
+    "text": "WMYDMCNGEAEMWBANNWFEOMEAEMPCSOAEYCEPLACCCEAEAAERFOEXFOFAEXNGOEMFXXFPOEWNNTHPDLBPSNNDDNGMDTNGHWDOFNEOJNCTNGCLIDUTUTHWHXAO"
+   }
+  },
+  {
+   "page": "LP2-44",
+   "L": 273,
+   "sign": "sub",
+   "M": 46019,
+   "top": "phrase-2 THREE BEHAVIORS @7",
+   "ztop": 7.383019472908668,
+   "zUWG": [
+    7.383019472908668,
+    -0.07756077629638747,
+    1.1155648116232704
+   ],
+   "null_max": 6.882711672260004,
+   "null_tails": {
+    "4": 65,
+    "5": 10,
+    "6": 2,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 66,
+    "5": 11,
+    "6": 2,
+    "7": 1
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "TFEA\u00d72",
+     "EAAEA\u00d72",
+     "NGFJ\u00d72",
+     "OENW\u00d72"
+    ],
+    "text": "RFHIAJFCRHSFFSXLOETOEDORATHMNGLEOTFEAAEAIAFLDFMYPOEUOEWMIDMSYFBSFOEFYFLNGNGFJTHAEIFPJBNGWCLRTEOPOEEOAOEECFNGAFTHUOEXFTEW"
+   }
+  },
+  {
+   "page": "LP2-44",
+   "L": 273,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-4-rev SUFFERING YOUR INNOCENCE YOUR \u02b3 @18",
+   "ztop": 6.359662607945491,
+   "zUWG": [
+    6.359662607945491,
+    -0.07756077629638747,
+    1.1155648116232704
+   ],
+   "null_max": 6.882711672260004,
+   "null_tails": {
+    "4": 65,
+    "5": 10,
+    "6": 2,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 138,
+    "5": 25,
+    "6": 2,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-44",
+   "L": 273,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "phrase-2 THREE BEHAVIORS @7",
+   "ztop": 7.383019472908668,
+   "zUWG": [
+    7.383019472908668,
+    -0.07756077629638747,
+    1.1155648116232704
+   ],
+   "null_max": 6.882711672260004,
+   "null_tails": {
+    "4": 65,
+    "5": 10,
+    "6": 2,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 66,
+    "5": 11,
+    "6": 2,
+    "7": 1
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "PFU\u00d72",
+     "URC\u00d72",
+     "HFE\u00d72",
+     "WLOE\u00d72"
+    ],
+    "text": "AEFNGTHEFAAENGXFFXSNWPWGYAECIAIHNBPFURCTHFNGFIOTWEAWOEIMGIXOFEOXFWFOFNHHFEIARMFTEEOHOEANAEPBTWBCWJAFHCFIAEAWSFPJOEFUXPXC"
+   }
+  },
+  {
+   "page": "LP2-49",
+   "L": 66,
+   "sign": "sub",
+   "M": 46019,
+   "top": "phrase-4-rev ASKED BY A STUDENT \u02b3 @8",
+   "ztop": 6.560318609411936,
+   "zUWG": [
+    6.560318609411936,
+    -0.016222493207496802,
+    -0.15800601000389936
+   ],
+   "null_max": 5.995178269361116,
+   "null_tails": {
+    "4": 39,
+    "5": 8,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 58,
+    "5": 13,
+    "6": 1,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [],
+    "text": "UUBJSWSEUOEOUOFUNWCUCTHOFFOAEUFJUXUXFGOELFOUCLSXOWEOUUATHPAEUNGSRNGHJIASMBAE"
+   }
+  },
+  {
+   "page": "LP2-49",
+   "L": 66,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-4-rev THOSE WHO FIND THEIR \u02b3 @9",
+   "ztop": 5.882150201350951,
+   "zUWG": [
+    5.882150201350951,
+    -0.016222493207496802,
+    -0.15800601000389936
+   ],
+   "null_max": 5.995178269361116,
+   "null_tails": {
+    "4": 39,
+    "5": 8,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 33,
+    "5": 1,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-49",
+   "L": 66,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "phrase-4-rev ASKED BY A STUDENT \u02b3 @8",
+   "ztop": 6.560318609411936,
+   "zUWG": [
+    6.560318609411936,
+    -0.016222493207496802,
+    -0.15800601000389936
+   ],
+   "null_max": 5.995178269361116,
+   "null_tails": {
+    "4": 39,
+    "5": 8,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 58,
+    "5": 13,
+    "6": 1,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [],
+    "text": "EAEAEOEXOEXJEAYBEAYFEALOEAEAAIAYFFYREAFEEASEASFDWNFYEAANXSYOEBEAEACIATREAHXAEHNGETHXIEOCJ"
+   }
+  },
+  {
+   "page": "LP2-55",
+   "L": 76,
+   "sign": "sub",
+   "M": 46019,
+   "top": "phrase-2 THE KNOWLEDGE @7",
+   "ztop": 6.829306566730247,
+   "zUWG": [
+    6.829306566730247,
+    -0.021850491988204768,
+    1.6458922727429075
+   ],
+   "null_max": 6.437886216151067,
+   "null_tails": {
+    "4": 50,
+    "5": 7,
+    "6": 1,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 59,
+    "5": 7,
+    "6": 3,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "HNGB\u00d72",
+     "FCEO\u00d72"
+    ],
+    "text": "OTHPNGCYEOCTHNGBFAEWFAEGEOAEIAFPEACFHNGBEOFRCXFDAENCAEAFEOEANIANGFCEONGRAEUGSHNGPHEOYFRFMWEOXAEFCEOSFC"
+   }
+  },
+  {
+   "page": "LP2-55",
+   "L": 76,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-3 FIND THEIR WAY @1",
+   "ztop": 6.829306566730247,
+   "zUWG": [
+    6.829306566730247,
+    -0.021850491988204768,
+    -0.21156985734999156
+   ],
+   "null_max": 6.437886216151067,
+   "null_tails": {
+    "4": 50,
+    "5": 7,
+    "6": 1,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 47,
+    "5": 8,
+    "6": 1,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [],
+    "text": "THCPEOAEAENGNGXEOEOTOAEIAFTCNGEOAERRIAHDTEAFCEOHCNGUNGPBEOHBWEOCEOSNGEOUWLINGUEOEAENGAERWAEGFFAEIFXHAEFJNGAEC"
+   }
+  },
+  {
+   "page": "LP2-55",
+   "L": 76,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "phrase-2 THE KNOWLEDGE @7",
+   "ztop": 6.829306566730247,
+   "zUWG": [
+    6.829306566730247,
+    -0.021850491988204768,
+    1.6458922727429075
+   ],
+   "null_max": 6.437886216151067,
+   "null_tails": {
+    "4": 50,
+    "5": 7,
+    "6": 1,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 59,
+    "5": 7,
+    "6": 3,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "NGHEO\u00d72",
+     "FAB\u00d72"
+    ],
+    "text": "YIATHAOBAPNGHEOFROEFRDBRTHFTUAFNGHEOBFAEASFGRLARCFBULTHHFABHAEREADXNGHTNGBOFAEFIOEBSRFABXFA"
+   }
+  }
+ ]
+}

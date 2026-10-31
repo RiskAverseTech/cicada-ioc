@@ -1,0 +1,1085 @@
+{
+ "bar": 10.5,
+ "controls": [],
+ "plants": [],
+ "cells": [
+  {
+   "page": "LP2-01",
+   "L": 266,
+   "sign": "sub",
+   "M": 46019,
+   "top": "phrase-3-rev GAIN THEM AGAIN \u02b3 @8",
+   "ztop": 5.090720752044607,
+   "zUWG": [
+    5.090720752044607,
+    -0.21296163551446257,
+    -0.6743947429511015
+   ],
+   "null_max": 5.6000131515697325,
+   "null_tails": {
+    "4": 51,
+    "5": 6,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 50,
+    "5": 2,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-01",
+   "L": 266,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-3 STUDY WITH A @0",
+   "ztop": 6.5964548028145416,
+   "zUWG": [
+    6.5964548028145416,
+    -0.21296163551446257,
+    0.06260437862167167
+   ],
+   "null_max": 5.6000131515697325,
+   "null_tails": {
+    "4": 51,
+    "5": 6,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 217,
+    "5": 44,
+    "6": 11,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "MFF\u00d72",
+     "NGFN\u00d72"
+    ],
+    "text": "IYLNGOEOGAEOETHNGNGMTHGDINFBEAUNHGEOEIOFLJBYACFGMFFIAFFFIXNGFNMCTPINGHTHNGOOOWAFOWEOSBFGPDOESOYXFWWFFYWYOEALJTBFOEXFNNOO"
+   }
+  },
+  {
+   "page": "LP2-01",
+   "L": 266,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "phrase-3-rev GAIN THEM AGAIN \u02b3 @8",
+   "ztop": 5.090720752044607,
+   "zUWG": [
+    5.090720752044607,
+    -0.21296163551446257,
+    -0.6743947429511015
+   ],
+   "null_max": 5.6000131515697325,
+   "null_tails": {
+    "4": 51,
+    "5": 6,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 50,
+    "5": 2,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-06",
+   "L": 196,
+   "sign": "sub",
+   "M": 46019,
+   "top": "phrase-3 THROUGH THIS PILGRIMAGE @4",
+   "ztop": 4.7755964138327975,
+   "zUWG": [
+    4.7755964138327975,
+    -0.03462004792290441,
+    0.10891630679339714
+   ],
+   "null_max": 6.690775359339633,
+   "null_tails": {
+    "4": 37,
+    "5": 6,
+    "6": 2,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 18,
+    "5": 0,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-06",
+   "L": 196,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-3-rev TOO MUCH BECAUSE \u02b3 @11",
+   "ztop": 4.9710228368437,
+   "zUWG": [
+    4.9710228368437,
+    -0.03462004792290441,
+    1.4379430410564495
+   ],
+   "null_max": 6.690775359339633,
+   "null_tails": {
+    "4": 37,
+    "5": 6,
+    "6": 2,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 14,
+    "5": 0,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-06",
+   "L": 196,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "phrase-3 THROUGH THIS PILGRIMAGE @4",
+   "ztop": 4.7755964138327975,
+   "zUWG": [
+    4.7755964138327975,
+    -0.03462004792290441,
+    0.10891630679339714
+   ],
+   "null_max": 6.690775359339633,
+   "null_tails": {
+    "4": 37,
+    "5": 6,
+    "6": 2,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 18,
+    "5": 0,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-11",
+   "L": 273,
+   "sign": "sub",
+   "M": 46019,
+   "top": "phrase-3 OUR OWN CIRCUMFERENCES @19",
+   "ztop": 6.971062884831364,
+   "zUWG": [
+    6.971062884831364,
+    -0.08024555002919675,
+    -0.06580824625495074
+   ],
+   "null_max": 5.662465304554692,
+   "null_tails": {
+    "4": 58,
+    "5": 11,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 125,
+    "5": 28,
+    "6": 5,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [
+     "BEOE\u00d72"
+    ],
+    "trigrams": [
+     "EOEF\u00d72",
+     "HHF\u00d72",
+     "PRTH\u00d72",
+     "BEOE\u00d72"
+    ],
+    "text": "EOEORXRIFSJIARNNBNFFFUTHLXTFTHGRJFDBNGPAEARFAEAEEOWFSNGBLRPFGRRYPFLLXIAEOYGBIAEOEFEBEAOETHDSSLEONGUEONGPTTHOEJFIATHPDNIE"
+   }
+  },
+  {
+   "page": "LP2-11",
+   "L": 273,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-2 THINGS EACH @0",
+   "ztop": 6.480338792227611,
+   "zUWG": [
+    6.480338792227611,
+    1.0402174584909292,
+    -0.06580824625495074
+   ],
+   "null_max": 5.662465304554692,
+   "null_tails": {
+    "4": 58,
+    "5": 11,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 38,
+    "5": 5,
+    "6": 1,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [
+     "FF\u00d72"
+    ],
+    "trigrams": [
+     "WNJ\u00d72",
+     "FFU\u00d72"
+    ],
+    "text": "FWLBEOAEJEOWUXEUNPOFDENUFCFJBPEOLOYCTWINGNOEWNJFFFYYEAGHTOEIDFEAEBLHWUFJOJEOFLFTFRPMNGEXTHLFGYWNJJCIWEOEPAEJOENGLIAFFUIA"
+   }
+  },
+  {
+   "page": "LP2-11",
+   "L": 273,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "phrase-3 OUR OWN CIRCUMFERENCES @19",
+   "ztop": 6.971062884831364,
+   "zUWG": [
+    6.971062884831364,
+    -0.08024555002919675,
+    -0.06580824625495074
+   ],
+   "null_max": 5.662465304554692,
+   "null_tails": {
+    "4": 58,
+    "5": 11,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 125,
+    "5": 28,
+    "6": 5,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "NGNGF\u00d72",
+     "TAEIA\u00d72"
+    ],
+    "text": "BBAESAEMFXETHAELLEOLFFFEAIANSPFIADAEEFGEOHTRCAEFRRBOEFXHEONAETFDAEAEOTFNNSTHBODEOTHJWFJEOUWIAGXXNBHEABHTPIAWEFTHIATGLMUX"
+   }
+  },
+  {
+   "page": "LP2-16",
+   "L": 267,
+   "sign": "sub",
+   "M": 46019,
+   "top": "phrase-4-rev JUST SAID YOU HAVE \u02b3 @0",
+   "ztop": 5.177103100065945,
+   "zUWG": [
+    5.177103100065945,
+    -0.09206946631893276,
+    -1.7234749304549424
+   ],
+   "null_max": 6.1814003047552735,
+   "null_tails": {
+    "4": 39,
+    "5": 7,
+    "6": 1,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 17,
+    "5": 1,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-16",
+   "L": 267,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-3-rev THE STUDENT AND \u02b3 @8",
+   "ztop": 6.475340950030199,
+   "zUWG": [
+    6.475340950030199,
+    -0.09206946631893276,
+    0.726014812328236
+   ],
+   "null_max": 6.1814003047552735,
+   "null_tails": {
+    "4": 39,
+    "5": 7,
+    "6": 1,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 82,
+    "5": 9,
+    "6": 2,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "JJJ\u00d72",
+     "FIU\u00d72",
+     "SCEA\u00d72",
+     "NEAE\u00d72"
+    ],
+    "text": "CNPIAIEODCHOEAFOEEOWOEEFEEAEOFJNGOEJYAYFEOJOENIAJTHLMSTILMIJJJJNEIAWLFIUFYEASFPFTHPEOYOTCAEFMRONGBUWTHFYFYTHEAAEHFEABJEO"
+   }
+  },
+  {
+   "page": "LP2-16",
+   "L": 267,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "phrase-4-rev JUST SAID YOU HAVE \u02b3 @0",
+   "ztop": 5.177103100065945,
+   "zUWG": [
+    5.177103100065945,
+    -0.09206946631893276,
+    -1.7234749304549424
+   ],
+   "null_max": 6.1814003047552735,
+   "null_tails": {
+    "4": 39,
+    "5": 7,
+    "6": 1,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 17,
+    "5": 1,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-21",
+   "L": 273,
+   "sign": "sub",
+   "M": 46019,
+   "top": "phrase-2-rev FOLLOW REASON \u02b3 @3",
+   "ztop": 5.97705702421857,
+   "zUWG": [
+    5.97705702421857,
+    -0.06753992694041955,
+    1.228135162656013
+   ],
+   "null_max": 6.954570406530421,
+   "null_tails": {
+    "4": 48,
+    "5": 5,
+    "6": 2,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 31,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-21",
+   "L": 273,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-3 TO THE GREAT @5",
+   "ztop": 5.4625762966860165,
+   "zUWG": [
+    5.4625762966860165,
+    -0.06753992694041955,
+    0.7190696441604025
+   ],
+   "null_max": 6.954570406530421,
+   "null_tails": {
+    "4": 48,
+    "5": 5,
+    "6": 2,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 70,
+    "5": 14,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-21",
+   "L": 273,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "phrase-2-rev FOLLOW REASON \u02b3 @3",
+   "ztop": 5.97705702421857,
+   "zUWG": [
+    5.97705702421857,
+    -0.06753992694041955,
+    1.228135162656013
+   ],
+   "null_max": 6.954570406530421,
+   "null_tails": {
+    "4": 48,
+    "5": 5,
+    "6": 2,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 31,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-26",
+   "L": 265,
+   "sign": "sub",
+   "M": 46019,
+   "top": "phrase-2-rev THIS PILGRIMAGE \u02b3 @4",
+   "ztop": 6.265144542214423,
+   "zUWG": [
+    6.265144542214423,
+    -0.1101708562856305,
+    1.2532830678736553
+   ],
+   "null_max": 7.035433414436028,
+   "null_tails": {
+    "4": 43,
+    "5": 6,
+    "6": 1,
+    "7": 1
+   },
+   "lib_tails": {
+    "4": 62,
+    "5": 8,
+    "6": 1,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-26",
+   "L": 265,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-3-rev WITHIN THE DECEPTION \u02b3 @8",
+   "ztop": 5.25580050275163,
+   "zUWG": [
+    5.25580050275163,
+    -0.1101708562856305,
+    0.7442175493780447
+   ],
+   "null_max": 7.035433414436028,
+   "null_tails": {
+    "4": 43,
+    "5": 6,
+    "6": 1,
+    "7": 1
+   },
+   "lib_tails": {
+    "4": 35,
+    "5": 2,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-26",
+   "L": 265,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "phrase-2-rev THIS PILGRIMAGE \u02b3 @4",
+   "ztop": 6.265144542214423,
+   "zUWG": [
+    6.265144542214423,
+    -0.1101708562856305,
+    1.2532830678736553
+   ],
+   "null_max": 7.035433414436028,
+   "null_tails": {
+    "4": 43,
+    "5": 6,
+    "6": 1,
+    "7": 1
+   },
+   "lib_tails": {
+    "4": 62,
+    "5": 8,
+    "6": 1,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-31",
+   "L": 269,
+   "sign": "sub",
+   "M": 46019,
+   "top": "self running key plaintext@842 @0",
+   "ztop": 6.133825315790863,
+   "zUWG": [
+    6.133825315790863,
+    -0.14857228061664252,
+    -0.5882201488628112
+   ],
+   "null_max": 5.622352470044604,
+   "null_tails": {
+    "4": 62,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 49,
+    "5": 10,
+    "6": 2,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "ATS\u00d72"
+    ],
+    "text": "THRYAEXAEDAAOEHFAEDOLCBSEAXTHNEAMDAESFTHXIATHWWACJAENHFENIAEHAEACWLNBIAEAATSATSMNCWTHCCEEAENYOIAWIATHAEWMIADUBNGNNGIFWAN"
+   }
+  },
+  {
+   "page": "LP2-31",
+   "L": 269,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-2-rev HE ASKED \u02b3 @3",
+   "ztop": 6.568577234675183,
+   "zUWG": [
+    6.568577234675183,
+    -0.14857228061664252,
+    1.2498721038958518
+   ],
+   "null_max": 5.622352470044604,
+   "null_tails": {
+    "4": 62,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 46,
+    "5": 3,
+    "6": 1,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "IOO\u00d72",
+     "EAAF\u00d72",
+     "FMF\u00d72",
+     "UEOEO\u00d72"
+    ],
+    "text": "BFGFIOONITJFWWEAUCNETHIAYMOTHLAXEAGOOPWEAAFFFROEOLTHSTJNHAENRTHRIAEJYFIAJYHDCATEANEOUEAUIAIFIAEDLTHINNRDGOJFGSOOEUALCDEO"
+   }
+  },
+  {
+   "page": "LP2-31",
+   "L": 269,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "self running key plaintext@842 @0",
+   "ztop": 6.133825315790863,
+   "zUWG": [
+    6.133825315790863,
+    -0.14857228061664252,
+    -0.5882201488628112
+   ],
+   "null_max": 5.622352470044604,
+   "null_tails": {
+    "4": 62,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 49,
+    "5": 10,
+    "6": 2,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "CPX\u00d72"
+    ],
+    "text": "IAAEORSRGCCWNGFRGYNAEOXUSIALUIGRXFIASTHIAOEOECAERLNGFJLMRNGRCAOENLEOTHUCPXCPXILAOEIAAAJJRLOYTHOETHIAROEITHGEAEOHLHMFOECL"
+   }
+  },
+  {
+   "page": "LP2-36",
+   "L": 238,
+   "sign": "sub",
+   "M": 46019,
+   "top": "square position n\u00b2+26 @9",
+   "ztop": 6.492853416696154,
+   "zUWG": [
+    6.492853416696154,
+    -0.06753992694041955,
+    1.5166542994184256
+   ],
+   "null_max": 5.387759224276018,
+   "null_tails": {
+    "4": 34,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 52,
+    "5": 11,
+    "6": 2,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "HUF\u00d72",
+     "HOF\u00d72",
+     "OFF\u00d72",
+     "FAEH\u00d72"
+    ],
+    "text": "GEAEAJFETCHUFFGYCIFFOEAIAGTHNNOTNGOEJLYURDLLCTHUOEMDLEAFAEEOYAEAETUAYEANEAODUOEGWEOFAFFNWJUFHOFFEAWFFYEABWFAEHOFFWTHTTAF"
+   }
+  },
+  {
+   "page": "LP2-36",
+   "L": 238,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-4 BECAUSE WE BELEIVE THE @0",
+   "ztop": 6.152824434413035,
+   "zUWG": [
+    6.152824434413035,
+    -0.06753992694041955,
+    1.007588780922815
+   ],
+   "null_max": 5.387759224276018,
+   "null_tails": {
+    "4": 34,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 113,
+    "5": 17,
+    "6": 1,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "EAJIA\u00d72",
+     "GJP\u00d72",
+     "JJJ\u00d72"
+    ],
+    "text": "XIAGTHOEDAROELEAJIAAINGSETXUIASARFXHIATLJFSIATHIAUGEAEOEAJEPNTHOETHCOESNGJTHGGJPCTHOSTHXBOEGIAETHHSODEATHTHAHSNGTNGNGOEJ"
+   }
+  },
+  {
+   "page": "LP2-36",
+   "L": 238,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "square position n\u00b2+26 @9",
+   "ztop": 6.492853416696154,
+   "zUWG": [
+    6.492853416696154,
+    -0.06753992694041955,
+    1.5166542994184256
+   ],
+   "null_max": 5.387759224276018,
+   "null_tails": {
+    "4": 34,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 52,
+    "5": 11,
+    "6": 2,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "NGEAF\u00d72",
+     "NGYF\u00d72",
+     "YFF\u00d72",
+     "FRNG\u00d72"
+    ],
+    "text": "DUUEFJPANGEAFFDOAMFFWCTHDPNGLLYPHWENOEAAEGNNAIAEAWIGNUFRBOCUJPEACOULUYGEAWDOEBFCFFLOEEEAFNGYFFUOEFFOUEOOEFRNGYFFOEPNGPPC"
+   }
+  },
+  {
+   "page": "LP2-41",
+   "L": 273,
+   "sign": "sub",
+   "M": 46019,
+   "top": "prime p s=239 @0",
+   "ztop": 5.9772614707351135,
+   "zUWG": [
+    5.9772614707351135,
+    -0.04095651519215027,
+    -0.6979812367880669
+   ],
+   "null_max": 6.025155906231174,
+   "null_tails": {
+    "4": 61,
+    "5": 6,
+    "6": 1,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 68,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-41",
+   "L": 273,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-4 WHAT YOU ARE CALLED @14",
+   "ztop": 7.94093332607364,
+   "zUWG": [
+    7.94093332607364,
+    -0.04095651519215027,
+    1.140111015970596
+   ],
+   "null_max": 6.025155906231174,
+   "null_tails": {
+    "4": 61,
+    "5": 6,
+    "6": 1,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 87,
+    "5": 11,
+    "6": 3,
+    "7": 1
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "THFEA\u00d72",
+     "OIF\u00d72",
+     "MSS\u00d72",
+     "FUF\u00d72"
+    ],
+    "text": "BRTHDNGGLFTEOIAFEAIAFWNEATHFEAOECNEOTHFEAMBEWIFREARNFTHTFBEAGSCGOATHOELOERFRAYMFWSOMFEAGAEFLNGNWLDIAMAEEAFFSUOIFNIANEATT"
+   }
+  },
+  {
+   "page": "LP2-41",
+   "L": 273,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "prime p s=239 @0",
+   "ztop": 5.9772614707351135,
+   "zUWG": [
+    5.9772614707351135,
+    -0.04095651519215027,
+    -0.6979812367880669
+   ],
+   "null_max": 6.025155906231174,
+   "null_tails": {
+    "4": 61,
+    "5": 6,
+    "6": 1,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 68,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-46",
+   "L": 270,
+   "sign": "sub",
+   "M": 46019,
+   "top": "phrase-4 LIKE THE INSTAR IT @8",
+   "ztop": 7.08027426077518,
+   "zUWG": [
+    7.08027426077518,
+    -0.06676587188544625,
+    -1.7124306426014035
+   ],
+   "null_max": 5.379886689970786,
+   "null_tails": {
+    "4": 38,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 116,
+    "5": 19,
+    "6": 5,
+    "7": 1
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [],
+    "text": "OEFMNGFAIPFOEWPNGYEOIAOMWOWEAJWTHNGHFOEXGMXHAETHFRNGWEFREGEAIGNGMAETTHXMFWSRFFTHWYWEOMAEMEAPCAESGEOTHTHGXFIFEGCBEEAPEOTH"
+   }
+  },
+  {
+   "page": "LP2-46",
+   "L": 270,
+   "sign": "add",
+   "M": 46019,
+   "top": "prime p s=231 @0",
+   "ztop": 5.633675879643084,
+   "zUWG": [
+    5.633675879643084,
+    -0.06676587188544625,
+    0.14503148749149553
+   ],
+   "null_max": 5.379886689970786,
+   "null_tails": {
+    "4": 38,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 44,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "EAOS\u00d72",
+     "FUS\u00d72"
+    ],
+    "text": "BHTFENGSXOPMNGOEDXXAIAEASFTHGUSLFFTIATHLAEDNGGEANENGAEIABFFDUCMEOUIAHORCTPLJEATUBEAOSEAOSINRJONBGENNATHSSXEAMFWDDGWIAENG"
+   }
+  },
+  {
+   "page": "LP2-46",
+   "L": 270,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "phrase-4 LIKE THE INSTAR IT @8",
+   "ztop": 7.08027426077518,
+   "zUWG": [
+    7.08027426077518,
+    -0.06676587188544625,
+    -1.7124306426014035
+   ],
+   "null_max": 5.379886689970786,
+   "null_tails": {
+    "4": 38,
+    "5": 5,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 116,
+    "5": 19,
+    "6": 5,
+    "7": 1
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [],
+    "text": "WFIHFCMTFWOETHOBTHYIOEYOEUEOEIAHNGFWSDISNGRIAFAEHOEJFAEJDUMDHIRPIASIFOEXAEFFIAOEOOEBIRIUTARXDBIAIADSFMFJDAEOJUTBPNGUFIIA"
+   }
+  },
+  {
+   "page": "LP2-52",
+   "L": 263,
+   "sign": "sub",
+   "M": 46019,
+   "top": "self running key plaintext@910 @0",
+   "ztop": 4.711143675838499,
+   "zUWG": [
+    4.711143675838499,
+    1.0147944103467077,
+    -1.6797344278977002
+   ],
+   "null_max": 5.492327571080073,
+   "null_tails": {
+    "4": 49,
+    "5": 7,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 11,
+    "5": 0,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  },
+  {
+   "page": "LP2-52",
+   "L": 263,
+   "sign": "add",
+   "M": 46019,
+   "top": "phrase-4-rev SAID YOU HAVE NO \u02b3 @9",
+   "ztop": 5.845120297963366,
+   "zUWG": [
+    5.845120297963366,
+    -0.10566859817341823,
+    0.17772770219519884
+   ],
+   "null_max": 5.492327571080073,
+   "null_tails": {
+    "4": 49,
+    "5": 7,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 59,
+    "5": 6,
+    "6": 0,
+    "7": 0
+   },
+   "listed": true,
+   "hit": false,
+   "desc": {
+    "words": [],
+    "trigrams": [
+     "FFT\u00d72",
+     "FGF\u00d72"
+    ],
+    "text": "WFFTISEJHWOEIAEAJBOEAOUPJHJXCXSOEDSNJJOEONGEASTHIMFCLILOERLJRGTEUEOOXYEOFWIJFHSNWPJTJEAPHPOETTHGJJLUNGIIAETOFFTOTHFGFAEP"
+   }
+  },
+  {
+   "page": "LP2-52",
+   "L": 263,
+   "sign": "beaufort",
+   "M": 46019,
+   "top": "self running key plaintext@910 @0",
+   "ztop": 4.711143675838499,
+   "zUWG": [
+    4.711143675838499,
+    1.0147944103467077,
+    -1.6797344278977002
+   ],
+   "null_max": 5.492327571080073,
+   "null_tails": {
+    "4": 49,
+    "5": 7,
+    "6": 0,
+    "7": 0
+   },
+   "lib_tails": {
+    "4": 11,
+    "5": 0,
+    "6": 0,
+    "7": 0
+   },
+   "listed": false,
+   "hit": false,
+   "desc": null
+  }
+ ]
+}

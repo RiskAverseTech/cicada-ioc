@@ -251,6 +251,8 @@ def zstar_x(C, wid, K, mode, mom): return scored_rows_x(C, wid, K, mode, mom).ma
 
 def stage_xrule():
     rng = np.random.default_rng(505 + SHARD); B = bar(); libs = {s: build_library(s) for s in SIGNS}; M = max(len(libs[s][0]) for s in SIGNS); res = {"bar": B, "controls": [], "plants": []}
+    if os.environ.get("ONLY") == "cp":                                   # controls and plants only (the post hoc shift-class rerun)
+        xrule_controls_plants(rng, B, libs, res); dump("xrule_cp", res); return
     if SHARD == 0: xrule_controls_plants(rng, B, libs, res)
     cells = []
     for pi in range(SHARD, 55, NSHARD):
@@ -276,7 +278,8 @@ def xrule_controls_plants(rng, B, libs, res):
     for ch in (2, 3):
         C, wid = parse_chunk(CHUNKS[ch]); mom = moments_x(C, wid, rng); z = zstar_x(C, wid, K, mode, mom); best = rolls[int(np.argmax(z[rolls]))]
         P = decode_x(C, K[best:best + 1], mode)[0]; acc = float((P == pt[off:off + len(C)]).mean()); off += len(C)
-        ctl.append({"chunk": ch, "L": int(len(C)), "nF": int((C == 0).sum()), "z_roll0": float(z[ki]), "rank_roll0": int((z > z[ki]).sum()) + 1, "best_roll": labels[best], "z_best": float(z[best]),
+        ahead = np.flatnonzero(z > z[ki]); ahead = ahead[np.argsort(-z[ahead])]
+        ctl.append({"chunk": ch, "L": int(len(C)), "nF": int((C == 0).sum()), "z_roll0": float(z[ki]), "rank_roll0": int((z > z[ki]).sum()) + 1, "ahead": [(labels[i], round(float(z[i]), 1)) for i in ahead[:15]], "best_roll": labels[best], "z_best": float(z[best]),
                     "rank_best": int((z > z[best]).sum()) + 1, "acc_best": acc, "top": labels[int(np.argmax(z))], "ztop": float(z.max())})
         log("control", ctl[-1])
     res["controls"] = ctl
@@ -290,7 +293,9 @@ def xrule_controls_plants(rng, B, libs, res):
                 C = encrypt_x(Pt, K[kj], mode); mom = moments_x(C, wid, rng); z = zstar_x(C, wid, K, mode, mom); rank = int((z > z[kj]).sum()) + 1
                 acc = float((decode_x(C, K[kj:kj + 1], mode)[0] == Pt).mean()); fam = family(labels[kj])
                 ahead = [i for i in np.flatnonzero(z > z[kj]) if family(labels[i]) != fam]; rank_fam = len(ahead) + 1     # rows ahead that are not a roll or start-shift of the same key
-                rows.append({"cls": cls, "sign": sign, "rep": rep, "L": int(len(C)), "nF": int((C == 0).sum()), "key": labels[kj], "z": float(z[kj]), "rank": rank, "rank_family": rank_fam, "acc": acc,
+                diff = (K[np.flatnonzero(z > z[kj])].astype(np.int64) - K[kj].astype(np.int64)) % N; Lp = len(C)
+                rank_shift = int(((diff[:, :Lp] != diff[:, :1]).any(1)).sum()) + 1 if len(diff) else 1                   # rows ahead that are not a constant shift of the true key (post hoc column)
+                rows.append({"cls": cls, "sign": sign, "rep": rep, "L": int(len(C)), "nF": int((C == 0).sum()), "key": labels[kj], "z": float(z[kj]), "rank": rank, "rank_family": rank_fam, "rank_shift": rank_shift, "acc": acc,
                              "top": labels[int(np.argmax(z))], "ztop": float(z.max()), "rec": bool(z[kj] >= B and rank == 1)})
                 log(cls, sign, rep, labels[kj], "z*", round(float(z[kj]), 2), "rank", rank, "acc", round(acc, 3))
     res["plants"] = rows
@@ -482,10 +487,13 @@ def stage_merge():
     o.append(f"- N3 (the pages): hits {len(hits)}; listed cells {len(listed)} of {len(cells)} (all-null expectation {len(cells)//2} ± {np.sqrt(len(cells)/4):.0f}) → {'holds' if not hits else 'fails'}.")
     ratio = lt["5"] / max(nt["5"], 1)
     o.append(f"- N4 (tail): rows at z\\* ≥ 5, library {lt['5']:,} against null {nt['5']:,} (ratio {ratio:.2f}) → {'holds' if 0.5 <= ratio <= 2 else 'fails'}.")
-    xps = sorted(RESULTS.glob(f"{OUT.name}_xrule_*.json"))
+    xps = sorted(RESULTS.glob(f"{OUT.name}_xrule_[0-9]*.json"))
     if xps:
-        parts = [json.loads(x.read_text()) for x in xps]; X = {"controls": sum((q["controls"] for q in parts), []), "plants": sum((q["plants"] for q in parts), [])}; xc = sum((q["cells"] for q in parts), []); xh = [c for c in xc if c["hit"]]; xl = [c for c in xc if c["listed"]]
-        o += ["", "## The book's ᚠ convention (amendment 2): greedy branch decoder, no language model", "",
+        parts = [json.loads(x.read_text()) for x in xps]; X = {"controls": sum((q["controls"] for q in parts), []), "plants": sum((q["plants"] for q in parts), [])}; xc = sum((q["cells"] for q in parts), [])
+        cp = RESULTS / f"{OUT.name}_xrule_cp.json"                      # the controls-and-plants rerun with the shift-class rank (post hoc column)
+        if cp.exists(): Q = json.loads(cp.read_text()); X = {"controls": Q["controls"], "plants": Q["plants"]}
+        xh = [c for c in xc if c["hit"]]; xl = [c for c in xc if c["listed"]]
+        o += ["", "## The book's ᚠ convention (amendments 2 and 3): the key-lag dynamic programme, no language model", "",
               "The WELCOME page under DIVINITY (sub library): chunk 2, where the key starts with the page, and chunk 3, where it continues from chunk 2 (so roll 0 is not expected there).", "",
               "| chunk | runes | cipher ᚠ | z\* roll 0 | rank roll 0 | best roll | z\* | rank | rune accuracy | library top | z\* |", "|---|---|---|---|---|---|---|---|---|---|---|"]
         for c in X["controls"]: o.append(f"| {c['chunk']} | {c['L']} | {c['nF']} | {c['z_roll0']:.1f} | {c['rank_roll0']} | {c['best_roll']} | {c['z_best']:.1f} | {c['rank_best']} | {c['acc_best']:.2f} | {c['top']} | {c['ztop']:.1f} |")
@@ -493,7 +501,7 @@ def stage_merge():
         for cls in ("P1", "P4"):
             for sign in SIGNS:
                 rr = [r for r in X["plants"] if r["cls"] == cls and r["sign"] == sign]
-                o.append(f"| {cls} | {sign} | {np.mean([r['rec'] for r in rr]):.2f} | {np.median([r['z'] for r in rr]):.1f} | {np.median([r['rank'] for r in rr]):.0f} ({np.mean([r['rank_family'] == 1 for r in rr]):.2f} at family rank 1) | {np.median([r['acc'] for r in rr]):.2f} |")
+                o.append(f"| {cls} | {sign} | {np.mean([r['rec'] for r in rr]):.2f} | {np.median([r['z'] for r in rr]):.1f} | {np.median([r['rank'] for r in rr]):.0f} ({np.mean([r['rank_family'] == 1 for r in rr]):.2f} at family rank 1; {np.mean([r.get('rank_shift', 0) == 1 and r['z'] >= B for r in rr]):.2f} recovered up to a constant shift) | {np.median([r['acc'] for r in rr]):.2f} |")
         xlt = {t: sum(c["lib_tails"][t] for c in xc) for t in "4567"}; xnt = {t: sum(c["null_tails"][t] for c in xc if c["sign"] == "sub") * 3 for t in "4567"}
         o += ["", f"The 55 pages, {len(xc)} cells (page × sign). **Hits: {len(xh)}.** Listed: {len(xl)} of {len(xc)}. Rows at z\* ≥ 5: library {xlt['5']:,}, null {xnt['5']:,}; at ≥ 6: {xlt['6']:,} and {xnt['6']:,}; at ≥ 7: {xlt['7']:,} and {xnt['7']:,}.", "",
               "| page | sign | top row | z\* (U, W, G) | null max | repeated words | repeated 3-grams |", "|---|---|---|---|---|---|---|"]

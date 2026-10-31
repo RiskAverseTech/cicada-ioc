@@ -54,7 +54,7 @@ components: a gated echo in half the words, a filler in 40 %, a spend repair at 
 Ptolemaic fit to one operation they performed, probably by hand, probably with a table. A relation of the form 24 − 2c at
 lag 6 is the shadow of a lookup geometry, not a property of English. **The lane:** not another component; a search for one
 process that leaves all four footprints (deficit, lag-5 equality carried by S, lag-6 affine, long words), beginning with
-tabula geometries in which S and EO (the fixed point of c ↦ 24 − 2c) sit at distinguished positions, and hand-copying
+tabula geometries in which S and H (the fixed point of c ↦ 24 − 2c: 3c ≡ 24, c = 8; this line said EO until 2026-10-31, an arithmetic slip) sit at distinguished positions, and hand-copying
 rules. Cost: thought first, simulation second. [inferred]
 
 ### 5. False paths
