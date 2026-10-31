@@ -19,9 +19,9 @@ A procedure writes cipher rune c_i from the plaintext rune p_i and a state s_i:
 
 - **Table** T(s, p), a Latin square on the 29 runes in Gematria order, from these forms (k = 0 … 28 throughout):
   additive c = s + p + k; subtractive c = s − p + k; reversed c = p − s + k; multiplied c = a·s + p + k for a ∈ {2, −2, 3, −3}
-  (174 tables); and four **grid tables**: the runes laid in a 5 × 6 grid in Gematria order with one dead cell (row-major or
+  (203 tables; this line first said 174, an arithmetic slip caught by the instrument's assertion before any run); and four **grid tables**: the runes laid in a 5 × 6 grid in Gematria order with one dead cell (row-major or
   column-major, dead cell first or last), c = the rune at the cell-wise sum of s's and p's grid coordinates, stepping once more
-  in reading order when the sum lands on the dead cell (4 tables). 178 tables.
+  in reading order when the sum lands on the dead cell (4 tables). 207 tables.
 - **State**: the previous cipher rune (c1); the previous plaintext rune (p1); the cipher rune five back in the word (c5w) or six
   back (c6w), the previous cipher rune when the word is shorter; the running sum of the word's previous cipher runes (csum).
   Five states.
@@ -32,7 +32,7 @@ A procedure writes cipher rune c_i from the plaintext rune p_i and a state s_i:
   words of two or more runes, written and state-updating like any rune). Two settings.
 - **Literal ᚠ**: off; on (a plaintext ᚠ is written as ᚠ, and a written ᚠ, literal or produced by the table, does not update the state; the book's rule made exact for a decoder that sees only the ciphertext). Two settings.
 
-178 × 5 × 2 × 3 × 2 × 2 = **21,360 procedures**, with k and the filler rate the only parameters, both enumerated, not fitted.
+207 × 5 × 2 × 3 × 2 × 2 = **24,840 procedures** (first written as 21,360), with k and the filler rate the only parameters, both enumerated, not fitted.
 
 ## Part A, the generator test
 
@@ -46,10 +46,8 @@ plain cipher-feedback chain), and the same with the exclude rule.
 
 ## Part B, the decoder test
 
-Every procedure with a cipher state (c1, c5w, c6w, csum: 17,088 procedures) inverts from the ciphertext alone,
-p_i = T_s⁻¹(c_i), with fillers ignored (a filler-bearing survivor is decoded without its fillers and said so). Procedures with
-state p1 invert given the first plaintext rune of each reset unit; all 29 starts are tried and the best kept, which is a
-29-fold look-elsewhere per unit and is reported as such. Each decode of each of the 55 pages is scored by the rune 5-gram
+Every procedure inverts from the ciphertext alone, because every state starts at ᚠ at a reset by the family's definition (the plaintext-state procedures included, so the 29-start clause first written here is not needed; the filler setting does not change a decoder, so 12,420 distinct decoders run),
+p_i = T_s⁻¹(c_i), with fillers ignored (a filler-bearing survivor is decoded without its fillers and said so). Each decode of each of the 55 pages is scored by the rune 5-gram
 z of §27 against 2,000 uniform pages of the same length and by the §72 model-free z\*. **Hit** = a procedure whose median
 page 5-gram z over the 55 pages is ≥ 6 and whose best page is ≥ 10 and reads; the family-wide chance maximum of the median
 is estimated by decoding 200 uniform random page sets under 200 random procedures and is recorded before any page row is read.
@@ -58,12 +56,12 @@ is estimated by decoding 200 uniform random page sets under 200 random procedure
 
 - **H1** (sanity): the plain additive chain (k = 0, c1, no rule, no fillers) fails D: it doubles exactly when p = ᚠ, about
   300 doublets against 86.
-- **H2**: fewer than 1 % of the family are candidates at 20 replicates (fewer than 214).
+- **H2**: fewer than 1 % of the family are candidates at 20 replicates (fewer than 249).
 - **H3**: no procedure without fillers meets W2 and WM (English word lengths are the pages' word lengths only with insertions,
   §55), so every candidate carries the filler setting or fails those two bands; this is recorded as a check of the band set, not
   of the cipher.
 - **H4**: no survivor at 200 replicates. If one exists, its decode under Part B is the test that matters and is reported first.
-- **H5**: no Part B hit. The largest median page z over 21,360 procedures is within 1.0 of the recorded chance maximum.
+- **H5**: no Part B hit. The largest median page z over the decoders is within 1.0 of the recorded chance maximum.
 
 Expected: H1, H2, H3 hold, H4 and H5 hold (null). **Falsifier**: a Part B hit, or a survivor whose decode reads on any page.
 
