@@ -22,7 +22,7 @@ from lp import IDX, RAW, RESULTS, N, english_to_runes, to_latin
 t0 = time.time(); STAGE = os.environ.get("STAGE", "chance"); SMOKE = os.environ.get("SMOKE") == "1"
 SHARD = int(os.environ.get("SHARD", 0)); NSHARD = int(os.environ.get("NSHARD", 1))
 NREP = 3 if SMOKE else 20; NCONF = 10 if SMOKE else 200; NCHANCE = 10 if SMOKE else 200; N5 = 200 if SMOKE else 2000
-P_FILL = 0.40; ZBAND = 3.0; S_IDX = 15; OUT = "hand_procedure_smoke" if SMOKE else "hand_procedure"
+P_FILL = 0.40; ZBAND = 3.0; S_IDX = 15; FAMILY = int(os.environ.get("FAMILY", 1)); OUT = "hand_procedure" + ("2" if FAMILY == 2 else "") + ("_smoke" if SMOKE else "")
 SEP = set('-.&$§')
 
 
@@ -81,12 +81,50 @@ TABLES = build_tables(); assert len(TABLES) == 207
 STATES = ("c1", "p1", "c5w", "c6w", "csum"); RESETS = ("word", "none"); RULES = ("none", "redraw", "exclude"); FILLS = (0.0, P_FILL); LITF = (False, True)
 PROCS = [(ti, st, rs, ru, fi, lf) for ti in range(len(TABLES)) for st in STATES for rs in RESETS for ru in RULES for fi in FILLS for lf in LITF]
 assert len(PROCS) == 24840
-if SMOKE: PROCS = PROCS[::401][:60]
+
+# ---------- the second family (D1, instrument 1; results/d1_registration.md): value-built tables, marker rules, two-state, the three behaviours
+PRIMEVAL = np.array([2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109])
+
+
+def nearest_rune(x):
+    """the rune whose prime value is the largest at or below x (x in 0..109); F below 2"""
+    return int(np.searchsorted(PRIMEVAL, x, side="right") - 1) if x >= 2 else 0
+
+
+def value_tables():
+    out = []; vs = PRIMEVAL[:, None]; vp = PRIMEVAL[None, :]
+    for tag, vst in (("val", vs), ("tot", vs - 1)):
+        for op, arr in (("add", vst + vp), ("sub", vst - vp), ("rev", vp - vst), ("mul", vst * vp)):
+            for k in range(N): out.append((f"{tag}-{op} k={k}", (arr % N + k) % N))
+    for op, arr in (("add", vs + vp), ("sub", vs - vp), ("rev", vp - vs), ("mul", vs * vp)):
+        base = np.vectorize(nearest_rune)(np.abs(arr) % 110)
+        for k in range(N): out.append((f"near-{op} k={k}", (base + k) % N))
+    return out
+
+
+MARKERS = [(m, a) for m in (S_IDX, 10) for a in ("reset", "reverse", "copy5")]       # on writing S or I: reset the state, read the table reversed until the next marker, copy five back next
+VCLASS = np.zeros(N, np.int64)                                                          # 0 vowels, 1 consonants below index 15, 2 consonants from 15
+for r in range(N): VCLASS[r] = 0 if r in (1, 3, 10, 12, 18, 22, 24, 25, 26, 27, 28) else (1 if r < 15 else 2)
+BEHAVIOURS = list(itertools.permutations(("spend", "hold", "copy")))                   # repair mode by the plaintext rune's class
+if FAMILY == 2:
+    VT = value_tables(); TABLES = TABLES + VT; IDX_TABLES = list(range(207)); VAL_TABLES = list(range(207, 207 + len(VT))); VAL_K0 = [i for i in VAL_TABLES if TABLES[i][0].endswith(" k=0")]
+    P_val = [(ti, st, rs, ru, fi, lf, None, 0, None) for ti in VAL_TABLES for st in STATES for rs in RESETS for ru in RULES for fi in FILLS for lf in LITF]
+    P_mk = [(ti, st, "none", "none", fi, False, mk, 0, None) for mk in MARKERS for ti in IDX_TABLES + VAL_K0 for st in ("c1", "c6w") for fi in FILLS]
+    P_tw = [(ti, "c1", "none", ru, fi, lf, None, tw, None) for ti in IDX_TABLES for tw in (5, 6) for ru in RULES for fi in FILLS for lf in LITF]
+    P_bh = [(ti, st, "none", "none", fi, False, None, 0, bh) for bh in range(6) for ti in IDX_TABLES for st in ("c1", "c6w") for fi in FILLS]
+    PROCS = P_val + P_mk + P_tw + P_bh; assert (len(P_val), len(P_mk), len(P_tw), len(P_bh)) == (41760, 5256, 4968, 4968), (len(P_val), len(P_mk), len(P_tw), len(P_bh))
+if SMOKE: PROCS = PROCS[::401][:60] if FAMILY == 1 else PROCS[::907][:64]
+
+
+def unpack(pr):
+    ti, st, rs, ru, fi, lf = pr[:6]; mk, tw, bh = (pr[6], pr[7], pr[8]) if len(pr) > 6 else (None, 0, None)
+    return ti, st, rs, ru, fi, lf, (tuple(mk) if mk else None), tw, bh
 
 
 def label(pr):
-    ti, st, rs, ru, fi, lf = pr
-    return f"{TABLES[ti][0]} | {st} | reset {rs} | {ru} | fill {fi:.2f} | litF {'on' if lf else 'off'}"
+    ti, st, rs, ru, fi, lf, mk, tw, bh = unpack(pr)
+    extra = (f" | marker {'S' if mk[0] == S_IDX else 'I'}:{mk[1]}" if mk else "") + (f" | step {tw}" if tw else "") + (f" | behaviours {'/'.join(BEHAVIOURS[bh])}" if bh is not None else "")
+    return f"{TABLES[ti][0]} | {st} | reset {rs} | {ru} | fill {fi:.2f} | litF {'on' if lf else 'off'}{extra}"
 
 
 def excl_row(T):
@@ -114,9 +152,10 @@ def layouts(rng, n, fill):
     return outs
 
 
-def write_page(P, W, T, R28, st, rs, ru, lf, rng):
-    """one page through the procedure; returns the cipher runes"""
-    L = len(P); c = np.empty(L, np.int64); prev = -1; s = 0; csum = 0; wpos = 0
+def write_page(P, W, T, R28, st, rs, ru, lf, rng, mk=None, tw=0, bh=None):
+    """one page through the procedure; returns the cipher runes.  mk: marker rule (rune, action); tw: two-state step added
+    per position in the word; bh: the three behaviours, a repair mode chosen by the plaintext rune's class on a would-be repeat"""
+    L = len(P); c = np.empty(L, np.int64); prev = -1; s = 0; csum = 0; wpos = 0; rev = False; copy_next = False
     for i in range(L):
         if i == 0 or W[i] != W[i - 1]:
             wpos = 0
@@ -127,21 +166,35 @@ def write_page(P, W, T, R28, st, rs, ru, lf, rng):
             x = int(rng.integers(0, N))
             while x == prev: x = int(rng.integers(0, N))
         elif lf and p == 0: x = 0
+        elif copy_next and wpos >= 5 and c[i - 5] != prev: x = int(c[i - 5]); copy_next = False
         else:
+            copy_next = False
             if st == "c1": s_use = s
             elif st == "p1": s_use = s
             elif st == "c5w": s_use = c[i - 5] if wpos >= 5 else s
             elif st == "c6w": s_use = c[i - 6] if wpos >= 6 else s
             else: s_use = csum
-            if ru == "exclude": x = int(R28[s_use, p % (N - 1)])
+            pe = (N - 1 - p) if rev else p
+            if ru == "exclude": x = int(R28[s_use, pe % (N - 1)])
             else:
-                x = int(T[s_use, p])
-                if ru == "redraw" and x == prev: x = int(T[x, p])
+                x = int(T[s_use, pe])
+                if tw: x = (x + tw * wpos) % N
+                if x == prev:
+                    if bh is not None:
+                        mode = BEHAVIOURS[bh][VCLASS[p]]
+                        if mode == "copy" and wpos >= 5 and c[i - 5] != prev: x = int(c[i - 5])
+                        elif mode in ("copy", "hold") and s_use != prev: x = int(s_use)
+                        else: x = (int(T[x, pe]) + tw * wpos) % N
+                    elif ru == "redraw": x = (int(T[x, pe]) + tw * wpos) % N
         c[i] = x
         if not (lf and x == 0):                                      # a written F does not update the state under the literal-F rule
             if st == "p1": s = p if p != -1 else s
             else: s = x
             csum = (csum + x) % N
+        if mk and x == mk[0]:
+            if mk[1] == "reset": s = 0; csum = 0
+            elif mk[1] == "reverse": rev = not rev
+            else: copy_next = True
         prev = x
     return c
 
@@ -162,10 +215,10 @@ def reference():
 
 
 def generator_stats(pr, lays, rng):
-    ti, st, rs, ru, fi, lf = pr; T = TABLES[ti][1]; R28 = excl_row(T) if ru == "exclude" else None
+    ti, st, rs, ru, fi, lf, mk, tw, bh = unpack(pr); T = TABLES[ti][1]; R28 = excl_row(T) if ru == "exclude" else None
     rows = []
     for pages in lays:
-        sim = [(write_page(P, W, T, R28, st, rs, ru, lf, rng), W) for P, W in pages]
+        sim = [(write_page(P, W, T, R28, st, rs, ru, lf, rng, mk, tw, bh), W) for P, W in pages]
         M.LENS_CUR = [len(c) for c, _ in sim]; rows.append(measure_all(sim))
     M.LENS_CUR = LENS
     return rows
@@ -187,9 +240,11 @@ def invert(T):
     return inv
 
 
-def decode_page(C, W, T, Tinv, R28, st, rs, ru, lf, p0=0):
-    """plaintext from the ciphertext alone; every state starts at F (p0) at a reset, so plaintext-state procedures invert too"""
-    L = len(C); P = np.empty(L, np.int64); s = 0; csum = 0; wpos = 0
+def decode_page(C, W, T, Tinv, R28, st, rs, ru, lf, p0=0, mk=None, tw=0, bh=None):
+    """plaintext from the ciphertext alone; every state starts at F (p0) at a reset, so plaintext-state procedures invert too.
+    Repairs (redraw, the behaviours) leave no mark in the ciphertext and are decoded as plain cells; a marker's copy leaves an
+    unknown plaintext rune, written as a position-hashed rune."""
+    L = len(C); P = np.empty(L, np.int64); s = 0; csum = 0; wpos = 0; rev = False; copy_next = False
     if R28 is not None:
         Rinv = np.full((N, N), -1, np.int64)
         for a in range(N):
@@ -205,12 +260,20 @@ def decode_page(C, W, T, Tinv, R28, st, rs, ru, lf, p0=0):
         elif st == "c5w": s_use = int(C[i - 5]) if wpos >= 5 else s
         elif st == "c6w": s_use = int(C[i - 6]) if wpos >= 6 else s
         else: s_use = csum
-        p = int(Rinv[s_use, x]) if R28 is not None else int(Tinv[s_use, x])
-        if p < 0: p = (7 * i + 11 * x + 13 * s_use) % N        # a cell the procedure could not have written (e.g. c equal to the state under the exclude rule): a position-hashed rune, not F, so the §72 scorer sees no fake alphabet (first run used F; results/hand_procedure_firstrun/)
+        if copy_next and wpos >= 5 and int(C[i - 5]) == x: p = (7 * i + 11 * x + 13 * s_use) % N; copy_next = False
+        else:
+            copy_next = False; y = (x - tw * wpos) % N if tw else x
+            p = int(Rinv[s_use, y]) if R28 is not None else int(Tinv[s_use, y])
+            if p < 0: p = (7 * i + 11 * x + 13 * s_use) % N        # a cell the procedure could not have written (e.g. c equal to the state under the exclude rule): a position-hashed rune, not F, so the §72 scorer sees no fake alphabet (first run used F; results/hand_procedure_firstrun/)
+            elif rev: p = N - 1 - p
         P[i] = p
         if st == "p1": s = p
         else: s = x
         csum = (csum + x) % N
+        if mk and x == mk[0]:
+            if mk[1] == "reset": s = 0; csum = 0
+            elif mk[1] == "reverse": rev = not rev
+            else: copy_next = True
     return P
 
 
@@ -246,10 +309,10 @@ def page_zstar(P, W, pid, rng):
 
 def decode_pages(pr, pages, rng):
     """median and best page 5-gram z, best page z*, the best page's text; pages = [(C, W)]"""
-    ti, st, rs, ru, fi, lf = pr; T = TABLES[ti][1]; Tinv = invert(T); R28 = excl_row(T) if ru == "exclude" else None
+    ti, st, rs, ru, fi, lf, mk, tw, bh = unpack(pr); T = TABLES[ti][1]; Tinv = invert(T); R28 = excl_row(T) if ru == "exclude" else None
     z5s, zss, best = [], [], (-1e9, None, None)
     for pid, (C, W) in enumerate(pages):
-        P = decode_page(C, W, T, Tinv, R28, st, rs, ru, lf); z5 = page_z5(P, rng)     # the state starts at F by the family's definition, so a p1 procedure inverts without trying starts (the registration's 29-start clause is not needed)
+        P = decode_page(C, W, T, Tinv, R28, st, rs, ru, lf, 0, mk, tw, bh); z5 = page_z5(P, rng)     # the state starts at F by the family's definition, so a p1 procedure inverts without trying starts (the registration's 29-start clause is not needed)
         z5s.append(z5); zs_ = page_zstar(P, W, pid, rng) if pid < len(LP2) and pages is PAGES_REAL else float("nan"); zss.append(zs_)
         if z5 > best[0]: best = (z5, pid, to_latin(P)[:100])
     return dict(med5=float(np.median(z5s)), max5=float(np.max(z5s)), maxstar=float(np.nanmax(zss)) if not all(np.isnan(zss)) else float("nan"), best_page=best[1], text=best[2])
@@ -315,7 +378,7 @@ def stage_merge():
     dc = sum((json.loads(p.read_text())["rows"] for p in sorted(RESULTS.glob(f"{OUT}_decode_*.json"))), [])
     ref = reference(); cands = [r for r in sc if r["cand"]]; surv = [r for r in cf["rows"] if r["survivor"]]
     nofill_cands = [r for r in cands if r["proc"][4] == 0.0]
-    o = ["# One hand procedure as the cipher: the generator search of blind spot 4 (row A5)", "",
+    o = ["# One hand procedure as the cipher: the generator search of blind spot 4 (row A5)" if FAMILY == 1 else "# Hand procedures, second family (D1, instrument 1): value-built tables, marker rules, two-state procedures, the three behaviours", "",
          f"Registration: `results/hand_procedure_registration.md`. {len(sc):,} procedures screened at {NREP} replicates; bands {', '.join(JUDGE)}; LP2 reference " + ", ".join(f"{k} {ref[k]:.3g}" for k in JUDGE) + ".", "",
          "## Part A, the generator", "", f"Candidates (every band within |z| < {ZBAND}): **{len(cands)}** of {len(sc):,} ({100*len(cands)/max(1,len(sc)):.2f} %); without fillers: {len(nofill_cands)}. Survivors at {cf['NCONF']} replicates: **{len(surv)}**.", ""]
     fails = {}
@@ -331,6 +394,11 @@ def stage_merge():
     near = sorted(sc, key=lambda r: (len(r["fails"]), max(abs(v) for v in r["z"].values())))[:12]
     o += ["", "Nearest misses (fewest bands failed, then smallest largest |z|):", "", "| procedure | bands failed | largest \\|z\\| | " + " | ".join(JUDGE) + " |", "|---|---|---|" + "---|" * len(JUDGE)]
     for r in near: o.append(f"| {r['label']} | {len(r['fails'])} | {max(abs(v) for v in r['z'].values()):.1f} | " + " | ".join(f"{r['z'][k]:+.1f}" for k in JUDGE) + " |")
+    five = [r for r in sc if all(abs(r["z"][k]) < ZBAND for k in ("D", "L5", "L5S", "L6T", "BIG"))]
+    o += ["", f"Procedures holding the deficit, both echoes, the S count and the bigram runs together (D, L5, L5S, L6T, BIG all within |z| < {ZBAND}; H4′): **{len(five)}**.", ""]
+    if five:
+        o += ["| procedure | bands failed | " + " | ".join(JUDGE) + " |", "|---|---|" + "---|" * len(JUDGE)]
+        for r in sorted(five, key=lambda r: len(r["fails"]))[:12]: o.append(f"| {r['label']} | {', '.join(r['fails']) or 'none'} | " + " | ".join(f"{r['z'][k]:+.1f}" for k in JUDGE) + " |")
     o += ["", "## Part B, the decoder", "", f"Chance level ({ch['n']} random procedures on uniform page sets): largest median page 5-gram z {ch['median_max']:.2f}, largest single page {ch['best_max']:.2f}.", "",
           f"{len(dc):,} procedures applied to the 55 pages. Largest median page z5 **{max(r['med5'] for r in dc):.2f}**; largest single page z5 {max(r['max5'] for r in dc):.2f}; largest model-free z\\* {max(r['maxstar'] for r in dc):.2f}. Hits (median ≥ 6 and a page ≥ 10): **{sum(r['med5'] >= 6 and r['max5'] >= 10 for r in dc)}**.", "",
           "| procedure | median page z5 | best page z5 | best page | z\\* | text |", "|---|---|---|---|---|---|"]

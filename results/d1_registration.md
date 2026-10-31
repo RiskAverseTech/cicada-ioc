@@ -67,6 +67,16 @@ Six plants: Emerson enciphered under schemes (ii), (iii) and (v) with §62's fil
 Predictions: **D1** plants 6 of 6 recovered at rank 1 within ±1 word of the planted alignment; **D2** no tier-2 candidate;
 **D3** no Part A hit. Expected: all hold.
 
+**Amendment (2026-10-31, after the instruments' smoke tests and before any run on the pages).** Instrument 2's plants located
+their planted alignment at rank 1 in six of six smoke controls (tier-1 z 3.9–12.3, full-page z 5.2–17.3) and five of six
+failed §62's free − plain ≥ 20 clause (margins 1–41 nats). The reason is the scheme, not the plants: a word-aligned key
+realigns the plain decoder at every word, so a filler costs it one word's tail rather than the rest of the page, and the
+free-null decoder's margin over it never grows. The clause was built for stream keys (§55 part B) and is not a discriminator
+here. For Part B the tier-2 candidate rule is therefore z_uni ≥ 6, above the full-page null maximum, and readable, with the
+free − plain margin reported; the plants pass on the same rule. Two smoke plants were weak (the prime-offset scheme at tier-1
+z 3.9; a cumulative plant at full-page z 6.6 with a 200-draw null); the run's six plants with 2,000-draw nulls are the
+measurement. Instrument 1's smoke ran clean. Both instruments are queued behind C11.
+
 ## What a null means
 
 That the sentence's derived readings, at this resolution (one table and one or two states; word numbers as shifts, steps and
