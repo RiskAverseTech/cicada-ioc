@@ -70,7 +70,7 @@ def build_library(sign, smoke=SMOKE):
     K = np.vstack([F.ALLSETS[a][2], F.ALLSETS[b][2]])[:, :LMAX]
     labels = [f"{x} {y}" for x, y in list(F.ALLSETS[a][3]) + list(F.ALLSETS[b][3])]
     if smoke:
-        keep = [i for i, l in enumerate(labels) if l.startswith("vigenere-word ") and (len(l) < 22 or "DIUINITY" in l)][:160]
+        keep = [i for i, l in enumerate(labels) if l.startswith("vigenere-word ") and len(l) < 22][:150] + [i for i, l in enumerate(labels) if l == "vigenere-word DIUINITY"]
         K, labels = K[keep], [labels[i] for i in keep]
     rows, labs = [], []; ar = np.arange(LMAX)
     for i in range(len(K)):
@@ -185,24 +185,45 @@ def loglik(cnt, S):
 
 def decode_x(C, K, mode, prior=0.5):
     """Convention X, the book's: a plaintext F is written as F and consumes no key symbol, and a keyed rune may encipher
-    to F.  At every cipher F the decoder branches (literal F, key not consumed | keyed rune) and keeps, per row, the branch
-    whose segment up to the next F is likelier under the adaptive unigram of that row's own decoded prefix; greedy, no beam,
-    no language model.  Returns the decodes (m, L)."""
+    to F.  Dynamic programme over the number of literal F's so far (the key lag): at every cipher F both branches (literal F,
+    key not consumed | keyed rune) are carried forward, each state scoring its decode by the adaptive-unigram log-likelihood
+    of the row's own text (KT estimator, prior 0.5; the page's compressibility, no language model); states with the same lag
+    merge by keeping the likelier.  Amendment 3 in the registration replaced the greedy choice, which flipped a coin at the
+    first F.  Returns the decodes (m, L) of each row's best path."""
     m, L = len(K), len(C); C = C.astype(np.int64); K = K.astype(np.int64)
-    P = np.zeros((m, L), np.int64); cnt = np.full((m, N), prior); lit = np.zeros(m, np.int64)
-    fpos = np.flatnonzero(C == 0); bounds = list(fpos) + [L]
+    fpos = np.flatnonzero(C == 0); bounds = list(fpos) + [L]; B = len(fpos) + 1
+    P = np.zeros((m, B, L), np.int16); cnt = np.full((m, B, N), prior); ll = np.full((m, B), -np.inf); ll[:, 0] = 0.0
+    rows = np.arange(m)[:, None]
 
-    def seg(i0, i1, litv):
-        idx = np.arange(i0, i1)[None, :] - litv[:, None]; Kc = np.take_along_axis(K, idx, 1)
+    def seg(i0, i1, lag):                                   # decode positions i0..i1-1 under key index i - lag, lag (m,)
+        idx = np.arange(i0, i1)[None, :] - lag[:, None]; Kc = np.take_along_axis(K, idx, 1)
         return (C[i0:i1][None, :] - Kc) % N if mode == "sub" else (Kc - C[i0:i1][None, :]) % N
+
+    def score_add(cnt_s, S):                                # adaptive log-likelihood of S under counts cnt_s (m, N), then update
+        g = np.take_along_axis(cnt_s, S, 1); tot = cnt_s.sum(1)
+        return np.log(g).sum(1) - S.shape[1] * np.log(tot), cnt_s + np.bincount((S + np.arange(m)[:, None] * N).ravel(), minlength=m * N).reshape(m, N)
     if bounds[0] > 0:
-        S = seg(0, bounds[0], lit); P[:, :bounds[0]] = S; add_counts(cnt, S)
+        S = seg(0, bounds[0], np.zeros(m, np.int64)); d, cnt[:, 0] = score_add(cnt[:, 0], S); ll[:, 0] += d; P[:, 0, :bounds[0]] = S
     for k, f in enumerate(fpos):
-        i1 = bounds[k + 1]
-        PA = np.concatenate([np.zeros((m, 1), np.int64), seg(f + 1, i1, lit + 1)], 1); PB = seg(f, i1, lit)
-        a = loglik(cnt, PA) >= loglik(cnt, PB); S = np.where(a[:, None], PA, PB)
-        P[:, f:i1] = S; add_counts(cnt, S); lit += a
-    return P
+        i1 = bounds[k + 1]; nll = np.full((m, B), -np.inf); ncnt = np.empty_like(cnt); nP = P.copy()
+        for lag in range(k + 1):                            # live states before this F have lag 0..k
+            live = np.isfinite(ll[:, lag])
+            if not live.any(): continue
+            lagv = np.full(m, lag)
+            PA = np.concatenate([np.zeros((m, 1), np.int64), seg(f + 1, i1, lagv + 1)], 1); PB = seg(f, i1, lagv)
+            dA, cA = score_add(cnt[:, lag], PA); dB, cB = score_add(cnt[:, lag], PB)
+            for tgt, d, c, S in ((lag + 1, dA, cA, PA), (lag, dB, cB, PB)):
+                cand = np.where(live, ll[:, lag] + d, -np.inf); better = cand > nll[:, tgt]
+                nll[better, tgt] = cand[better]; ncnt[better, tgt] = c[better]
+                nP[better, tgt, :f] = P[better, lag, :f]; nP[better, tgt, f:i1] = S[better]
+        ll, cnt, P = nll, ncnt, nP
+    best = ll.argmax(1)
+    return P[np.arange(m), best].astype(np.int64)
+
+
+def family(label):
+    """the key behind a library row: its label without the roll and, for the prime streams, without the start"""
+    return re.sub(r" s=\d+", "", label.split(" @")[0])
 
 
 def encrypt_x(Pt, Krow, mode):
@@ -229,7 +250,24 @@ def zstar_x(C, wid, K, mode, mom): return scored_rows_x(C, wid, K, mode, mom).ma
 
 
 def stage_xrule():
-    rng = np.random.default_rng(505); B = bar(); libs = {s: build_library(s) for s in SIGNS}; M = max(len(libs[s][0]) for s in SIGNS); res = {"bar": B}
+    rng = np.random.default_rng(505 + SHARD); B = bar(); libs = {s: build_library(s) for s in SIGNS}; M = max(len(libs[s][0]) for s in SIGNS); res = {"bar": B, "controls": [], "plants": []}
+    if SHARD == 0: xrule_controls_plants(rng, B, libs, res)
+    cells = []
+    for pi in range(SHARD, 55, NSHARD):
+        pid, C, wid = PAGES[pi]
+        mom = moments_x(C, wid, rng)
+        zn = np.concatenate([zstar_x(C, wid, rng.integers(0, N, size=(min(20000, M - i), LMAX)).astype(np.int16), "sub", mom) for i in range(0, M, 20000)])
+        for sign in SIGNS:
+            K, labels, mode = libs[sign]; z = zstar_x(C, wid, K, mode, mom); top = int(np.argmax(z))
+            P = decode_x(C, K[top:top + 1], mode)[0]; Z = scored_rows_x(C, wid, K[top:top + 1], mode, mom)[0]
+            listed = bool(z[top] > zn.max()); hit = bool(z[top] >= B and z[top] >= zn.max() + 1.0)
+            cells.append({"page": pid, "L": int(len(C)), "sign": sign, "M": int(len(K)), "top": labels[top], "ztop": float(z[top]), "zUWG": Z.tolist(), "null_max": float(zn.max()),
+                          "null_tails": tails(zn), "lib_tails": tails(z), "listed": listed, "hit": hit, "desc": describe(P, wid) if listed else None})
+            log(pid, "X", sign, "top", labels[top], round(float(z[top]), 2), "null max", round(float(zn.max()), 2), "listed" if listed else "", "HIT" if hit else "")
+    res["cells"] = cells; dump(f"xrule_{SHARD}", res)
+
+
+def xrule_controls_plants(rng, B, libs, res):
     # controls: the WELCOME page, chunks 2 (key restarts) and 3 (the key continues from chunk 2)
     K, labels, mode = libs["sub"]; ki = [i for i, l in enumerate(labels) if l == "vigenere-word DIUINITY @0"][0]
     rolls = [i for i, l in enumerate(labels) if l.startswith("vigenere-word DIUINITY @")]; ctl = []
@@ -250,24 +288,12 @@ def stage_xrule():
             for rep in range(REPS):
                 pid, Cref, wref = PAGES[rng.integers(55)]; Pt, wid = payload(cls, rng, len(Cref), wref); kj = cand[rng.integers(len(cand))]
                 C = encrypt_x(Pt, K[kj], mode); mom = moments_x(C, wid, rng); z = zstar_x(C, wid, K, mode, mom); rank = int((z > z[kj]).sum()) + 1
-                acc = float((decode_x(C, K[kj:kj + 1], mode)[0] == Pt).mean())
-                rows.append({"cls": cls, "sign": sign, "rep": rep, "L": int(len(C)), "nF": int((C == 0).sum()), "key": labels[kj], "z": float(z[kj]), "rank": rank, "acc": acc,
+                acc = float((decode_x(C, K[kj:kj + 1], mode)[0] == Pt).mean()); fam = family(labels[kj])
+                ahead = [i for i in np.flatnonzero(z > z[kj]) if family(labels[i]) != fam]; rank_fam = len(ahead) + 1     # rows ahead that are not a roll or start-shift of the same key
+                rows.append({"cls": cls, "sign": sign, "rep": rep, "L": int(len(C)), "nF": int((C == 0).sum()), "key": labels[kj], "z": float(z[kj]), "rank": rank, "rank_family": rank_fam, "acc": acc,
                              "top": labels[int(np.argmax(z))], "ztop": float(z.max()), "rec": bool(z[kj] >= B and rank == 1)})
                 log(cls, sign, rep, labels[kj], "z*", round(float(z[kj]), 2), "rank", rank, "acc", round(acc, 3))
     res["plants"] = rows
-    # the pages
-    cells = []
-    for pid, C, wid in PAGES:
-        mom = moments_x(C, wid, rng)
-        zn = np.concatenate([zstar_x(C, wid, rng.integers(0, N, size=(min(20000, M - i), LMAX)).astype(np.int16), "sub", mom) for i in range(0, M, 20000)])
-        for sign in SIGNS:
-            K, labels, mode = libs[sign]; z = zstar_x(C, wid, K, mode, mom); top = int(np.argmax(z))
-            P = decode_x(C, K[top:top + 1], mode)[0]; Z = scored_rows_x(C, wid, K[top:top + 1], mode, mom)[0]
-            listed = bool(z[top] > zn.max()); hit = bool(z[top] >= B and z[top] >= zn.max() + 1.0)
-            cells.append({"page": pid, "L": int(len(C)), "sign": sign, "M": int(len(K)), "top": labels[top], "ztop": float(z[top]), "zUWG": Z.tolist(), "null_max": float(zn.max()),
-                          "null_tails": tails(zn), "lib_tails": tails(z), "listed": listed, "hit": hit, "desc": describe(P, wid) if listed else None})
-            log(pid, "X", sign, "top", labels[top], round(float(z[top]), 2), "null max", round(float(zn.max()), 2), "listed" if listed else "", "HIT" if hit else "")
-    res["cells"] = cells; dump("xrule", res)
 
 
 # ---------- payloads
@@ -456,9 +482,9 @@ def stage_merge():
     o.append(f"- N3 (the pages): hits {len(hits)}; listed cells {len(listed)} of {len(cells)} (all-null expectation {len(cells)//2} ± {np.sqrt(len(cells)/4):.0f}) → {'holds' if not hits else 'fails'}.")
     ratio = lt["5"] / max(nt["5"], 1)
     o.append(f"- N4 (tail): rows at z\\* ≥ 5, library {lt['5']:,} against null {nt['5']:,} (ratio {ratio:.2f}) → {'holds' if 0.5 <= ratio <= 2 else 'fails'}.")
-    xp = RESULTS / f"{OUT.name}_xrule.json"
-    if xp.exists():
-        X = json.loads(xp.read_text()); xc = X["cells"]; xh = [c for c in xc if c["hit"]]; xl = [c for c in xc if c["listed"]]
+    xps = sorted(RESULTS.glob(f"{OUT.name}_xrule_*.json"))
+    if xps:
+        parts = [json.loads(x.read_text()) for x in xps]; X = {"controls": sum((q["controls"] for q in parts), []), "plants": sum((q["plants"] for q in parts), [])}; xc = sum((q["cells"] for q in parts), []); xh = [c for c in xc if c["hit"]]; xl = [c for c in xc if c["listed"]]
         o += ["", "## The book's ᚠ convention (amendment 2): greedy branch decoder, no language model", "",
               "The WELCOME page under DIVINITY (sub library): chunk 2, where the key starts with the page, and chunk 3, where it continues from chunk 2 (so roll 0 is not expected there).", "",
               "| chunk | runes | cipher ᚠ | z\* roll 0 | rank roll 0 | best roll | z\* | rank | rune accuracy | library top | z\* |", "|---|---|---|---|---|---|---|---|---|---|---|"]
@@ -467,7 +493,7 @@ def stage_merge():
         for cls in ("P1", "P4"):
             for sign in SIGNS:
                 rr = [r for r in X["plants"] if r["cls"] == cls and r["sign"] == sign]
-                o.append(f"| {cls} | {sign} | {np.mean([r['rec'] for r in rr]):.2f} | {np.median([r['z'] for r in rr]):.1f} | {np.median([r['rank'] for r in rr]):.0f} | {np.median([r['acc'] for r in rr]):.2f} |")
+                o.append(f"| {cls} | {sign} | {np.mean([r['rec'] for r in rr]):.2f} | {np.median([r['z'] for r in rr]):.1f} | {np.median([r['rank'] for r in rr]):.0f} ({np.mean([r['rank_family'] == 1 for r in rr]):.2f} at family rank 1) | {np.median([r['acc'] for r in rr]):.2f} |")
         xlt = {t: sum(c["lib_tails"][t] for c in xc) for t in "4567"}; xnt = {t: sum(c["null_tails"][t] for c in xc if c["sign"] == "sub") * 3 for t in "4567"}
         o += ["", f"The 55 pages, {len(xc)} cells (page × sign). **Hits: {len(xh)}.** Listed: {len(xl)} of {len(xc)}. Rows at z\* ≥ 5: library {xlt['5']:,}, null {xnt['5']:,}; at ≥ 6: {xlt['6']:,} and {xnt['6']:,}; at ≥ 7: {xlt['7']:,} and {xnt['7']:,}.", "",
               "| page | sign | top row | z\* (U, W, G) | null max | repeated words | repeated 3-grams |", "|---|---|---|---|---|---|---|"]

@@ -106,6 +106,15 @@ are recovered (z\* ≥ bar, rank 1) in ≥ 90 % of replicates per class (P4 beca
 **N2′** WELCOME chunk 2 under the sub library puts DIVINITY roll 0 at rank 1 with z\* ≥ bar (chunk 3 is reported at its best
 roll, since the key does not restart there); **N3′** no hit in the 55 × 3 cells. Expected: all three hold.
 
+**Amendment 3 (2026-10-31, after the amended stage ran once with the greedy decoder; recorded before the rerun).** The greedy
+decoder failed its own power claims: P1 0.13, P4 0.33 recovered, WELCOME chunk 2 at roll 0 rank 620 (its sixth rune is a keyed
+ᚠ, decided on a five-rune prefix; the key was found at rank 5 at roll 2, the roll that absorbs two wrong early branches).
+Those figures are kept in `results/nonprose_xrule_greedy.json`. The decoder becomes a **dynamic programme over the key lag**
+(the number of literal ᚠ so far): at every cipher ᚠ both branches are carried forward, each state scoring its own decode by
+the adaptive-unigram log-likelihood (the same KT estimator), states with equal lag merging by the likelier; the row's decode
+is its best complete path. Still no language model. Predictions N1′–N3′ unchanged; the pages' greedy-stage result (0 hits
+in 165 cells) stands as a first reading and the rerun's is the one reported.
+
 ## What a null means and does not mean
 
 A null closes "a library key is right and the plaintext is not prose" for the plain decoder at the plants' power: book keys
