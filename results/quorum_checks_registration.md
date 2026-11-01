@@ -31,3 +31,21 @@
 ## Notes after the run (C10, 2026-10-31)
 
 C10-P1 failed as registered and the registered null was wrong: a page break at a uniform position falls inside a word with probability proportional to the word's internal gaps, so the split words are length-biased by selection (mean 6.5 against 4.5 for all within-page words). Against the length-biased distribution the split words are ordinary (KS p 0.72). The corrected comparison is reported in `results/page_joins.md` as post hoc. Lesson seven for the registration list: a null for a selected subset must carry the selection that defined the subset. The split rate among non-paragraph-final joins (0.70) equals the line-break split rate (0.72), which is the supporting fact P1 was meant to establish and did not need a KS test for.
+
+## C11, the lattice step (2026-11-01, written after the sweep's merge and before the step is run)
+
+The sweep (`results/cumulative_lane.md`) ran 144,887,160 window decodes, controls 6 of 6, and left 38 windows in 12 (stream,
+page) cells above the free-null line: z_uni 6.00–6.54, free − plain +21 … +203, none readable. The tier-2 tail over the 5,631
+tier-1 survivors is geometric, 1,573 / 489 / 132 / 38 / 15 / 4 at z ≥ 4.5 / 5 / 5.5 / 6 / 6.25 / 6.5, so the 38 are the tail
+of 145 million tests, not a step in it; the twelve cells sit on ten pages, and the largest cluster (seven adjacent offsets of
+one md5-counter stream on LP2-15) is one hypothesis through the soft skip. The registered acceptance names the §70 lattice
+decoder for anything above the line, so each of the twelve cells is decoded with its own key at its own offset under
+`src/e56_lattice.py`'s `decode_e56` (fillers, the two echoes, skips, literal F; beam 8), scored against 2,000 random keystreams
+for that page and F, and ranked against every offset of the cell's registered window under the same decoder
+(`src/c11_lattice_followup.py`). Six fresh plants calibrate: Bunyan words in E56w+n form (`encrypt_e56`) under a library stream
+at the cumulative offset of pages 5, 14, 23, 32, 41 and 50, one per sign × F, decoded the same way.
+
+Predictions: **L1** every plant is rank 1 in its window at lattice z ≥ 8. **L2** no cell reaches lattice z ≥ 8. **L3** no
+cell's lattice decode is readable. Expected: all three hold and C11 closes null, with the 38 windows reported as the chance
+tail they are. If L2 fails, the cell is reported first and its stream is run at every offset on every page under the lattice
+decoder before anything else is written.
