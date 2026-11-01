@@ -102,3 +102,10 @@ cipher rune written on the page so far, read per rune. Sources are therefore pre
 (plaintext) and runcipher: 4 × 4 functions × 3 signs = **48 members**, **384 procedures**, 192 decoders; the chance level is
 every decoder on 20 uniform page sets (3,840 decoder–set pairs). The second plant becomes prevcipher (n − φ) beaufort without
 fillers. T1–T4 are otherwise unchanged.
+
+## Note on N (2026-11-01, at build time, before its run)
+
+N is built as its own file, `src/line_lane.py`, rather than as a `FAMILY` switch inside `src/behaviours_lane.py`, so that §78's
+lane stays as published; the family, plants and rules are as registered. Exact inversion holds for all 156 member × literal-ᚠ
+settings; the beam places 77 of 80 and 70 of 80 planted fillers on the two filler plants in the smoke test, at rune accuracy
+0.98–0.99.
