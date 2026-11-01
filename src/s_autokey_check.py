@@ -1,9 +1,9 @@
 """The S carrier against a plaintext autokey (2026-10-30, §47 addendum).
 
 §47's corrected argument leaves one additive class open: a key that reads the plaintext.  The simplest member, the lag-1
-plaintext autokey c_i = p_i - p_(i-1) (sub sign), turns out to put S at 3.1 x uniform among within-word lag-5 cipher
-coincidences on English, the pages' own figure, with no S-specific step: the Gematria order puts several of English's
-commonest bigrams (E-R, N-A, A-I, U-T, R-M) exactly 15 apart, so S is the most frequent difference value and the most
+plaintext autokey c_i = p_i - p_(i-1) (sub sign), puts S above uniform among within-word lag-5 cipher coincidences on English
+with no S-specific step, because the Gematria order puts several of English's commonest bigrams (E-R, N-A, A-I, U-T, R-M)
+exactly 15 apart; on the essay body the excess is 1.75 x (corrected 2026-10-31: the licence text's GUTENBERG had made it 3.1 x), and the most
 frequent value dominates coincidences.  The same rule predicts the whole profile of values at coincidences, not only S,
 and it predicts an IoC of 1.12, an S share 1.21 x uniform and a repeat rate 1.32 x uniform, where the pages have 1.00,
 0.97 and 0.19.  This script measures the profile test: the pages' 102 coincidence values against the autokey prediction
@@ -30,7 +30,7 @@ for k in range(16, 72):
     C, W = np.array(runes), np.array(wid)
     if len(C) <= LAG: continue
     i = np.where(W[LAG:] == W[:-LAG])[0]; eq = i[C[i] == C[i + LAG]]; obs += np.bincount(C[eq], minlength=N)
-text = (RAW.parent / "corpus" / "raw" / "emerson_essays1_pg2944.txt").read_text(errors="ignore")[20000:]
+text = (RAW.parent / "corpus" / "raw" / "emerson_essays1_pg2944.txt").read_text(errors="ignore"); text = text[text.find("*** START OF"):text.find("*** END OF")]
 words = []
 for w in re.findall(r"[A-Za-z']+", text):
     try: r = english_to_runes(w)
@@ -62,6 +62,6 @@ for d, sign, ioc, dbl, ssh, s5, chi, df, p, _ in rows: out.append(f"| {d} | {sig
 out += ["", f"The pages' profile against uniform: χ² {chi_u:.1f} on 28 df, p = {p_u:.3f} (the S cell carries it).", "",
         "Lag-1 sub, the rule that matches the S weight, predicts these values at coincidences (expected of 102 against observed):", "", "| value | predicted share | expected | observed |", "|---|---|---|---|"]
 for v in order[:8]: out.append(f"| {NAMES[v]} | {100*best[9][v]:.1f} % | {best[9][v]*obs.sum():.1f} | {obs[v]} |")
-out += ["", "Reading: a lag-1 plaintext autokey under the sub sign reproduces the S weight at coincidences exactly (3.1 × uniform) and for a stated reason, the Gematria order's placement of E-R, N-A, A-I, U-T and R-M fifteen apart. It is excluded all the same: it predicts TH, X, L and Y enriched beside S, and the pages show them at or below uniform (χ² 167 on 25 df); and it predicts an IoC of 1.12, a repeat rate 1.32 × and an S share 1.21 × where the pages read 1.00, 0.19 and 0.97. The S carrier is not a plaintext-difference effect. What remains of §47's residual class is a key that reads the written rune S itself. [stated — the tables; inferred — the last two sentences]", "",
+out += ["", f"Reading (corrected 2026-10-31: the first run read the file from character 20,000 to its end, and the Project Gutenberg licence there repeats GUTENBERG, whose U-T and E-R stand five apart and each fifteen apart in Gematria order, so one word made 98 of 196 S coincidences and the table said 3.1 ×; this table is the essay body): a lag-1 plaintext autokey puts S at {rows[0][5]:.2f} × uniform at within-word lag-5 coincidences under the sub sign and {rows[1][5]:.2f} × under beaufort, against the pages' 3.1 ×, for the stated reason (E-R, N-A, A-I, U-T, R-M fifteen apart) at its true size, which does not reach the pages. It is excluded in any case: it predicts TH, X, L and Y enriched beside S, and the pages show them at or below uniform (χ² {rows[0][6]:.0f} on {rows[0][7]} df); and it predicts an IoC of {rows[0][2]:.2f}, a repeat rate {rows[0][3]:.2f} × and an S share {rows[0][4]:.2f} × where the pages read 1.00, 0.19 and 0.97. The S carrier is not a plaintext-difference effect. What remains of §47's residual class is a key that reads the written rune S itself. [stated — the tables; inferred — the last two sentences]", "",
         f"Runtime {time.time()-t0:.0f} s. Reproduce: `.venv/bin/python -I src/s_autokey_check.py`.", ""]
 (RESULTS / "s_autokey_check.md").write_text("\n".join(out)); print("\n".join(out[:12]))

@@ -19,7 +19,7 @@ from lp import N, RESULTS, english_to_runes
 t0 = time.time(); rng = np.random.default_rng(47); S = 15; LAG = 5; NOFF = 20
 ROOT = Path(__file__).resolve().parent.parent
 cj = json.loads((ROOT / "data" / "corpus" / "corpus.json").read_text())
-text = (ROOT / "data" / "corpus" / "raw" / "emerson_essays1_pg2944.txt").read_text(errors="ignore")[20000:]
+text = (ROOT / "data" / "corpus" / "raw" / "emerson_essays1_pg2944.txt").read_text(errors="ignore"); text = text[text.find("*** START OF"):text.find("*** END OF")]
 words = []
 for w in re.findall(r"[A-Za-z']+", text):
     try: r = english_to_runes(w)

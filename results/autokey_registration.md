@@ -103,3 +103,27 @@ an hour of compute on four shards; an evening of writing.
 
 `STAGE=chance|screen|confirm|decode|plants|merge .venv/bin/python -I src/autokey_lane.py` (SHARD/NSHARD on screen and decode;
 SMOKE=1 shrinks everything and touches no page in the decode stage).
+
+## Amendment (2026-10-31, night: after the smoke round-trip, before any run on the pages)
+
+1. **Literal-ᚠ is now a bijection.** As first written, a non-ᚠ plaintext whose written rune came out ᚠ decoded as ᚠ, and
+   for a plaintext-sourced key that error cascades; 182 of the 183 members failed the smoke round-trip with the rule on. The
+   rule is now: ᚠ ↔ ᚠ with no state update, and the other 28 runes enciphered among themselves (indices 1–28, the key taken
+   mod 28), which is what a reserved rune means in a reversible hand cipher. Round-trip exact for all 366 member settings
+   on three pages. The family's count and every other definition are unchanged.
+2. **The positive control's premise was wrong, and so was a published sentence.** The 3.1 × of `results/s_autokey_check.md`
+   (README §47 addendum, 2026-10-30) was the corpus file: that check read Emerson from character 20,000 to the end of the
+   Project Gutenberg file, and the licence text at the end repeats GUTENBERG, whose U-T and E-R stand five apart and each
+   fifteen apart in Gematria order; the one word made 98 of the 196 S coincidences. On the essay body the lag-1 sub autokey
+   puts S at 1.75 × uniform at within-word lag-5 coincidences (beaufort 2.3 ×), against the pages' 3.1 ×. The check, its
+   companion `src/s_runkey_check.py` (figures move under half a point, conclusion unchanged) and the README are corrected in
+   the same commit as this amendment. For this registration: A1's clause that the control "lands L5S inside the band (about
+   eleven S pairs)" is withdrawn; the control is expected to predict about four S pairs of about sixty-six coincidences and to
+   fail U and Sfreq, and its L5S z may sit inside |z| < 3 on the width of its spread as every rule's does. A1's primary
+   clause, no S-admissible member, is unchanged. **Registration lesson twelve**: a plaintext corpus is its body, not its
+   file; a licence or header that repeats one word fakes any within-word coincidence statistic, and the strip belongs in the
+   loader, not in a character offset.
+3. **This instrument's plaintext is the essay body** (the file between its START and END markers; 74,900 words). §73's and
+   §74's layouts start at most 6,000 words before the file's end and the latest layout ends about eighty words before the
+   licence begins, so no replicate of those sections read it; the header's four occurrences lie in the file's first 130 words,
+   which a layout start reaches with probability 0.002. Their results stand; they were not rerun.
