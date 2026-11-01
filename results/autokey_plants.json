@@ -1,0 +1,76 @@
+{
+ "rows": [
+  {
+   "plant": "W cipher fwd sub | fill 0.00 | none | litF off",
+   "own_med5": 47.758686571921785,
+   "own_n6": 55,
+   "rank": 1,
+   "n_decoders": 733,
+   "runner_up": [
+    47.758686571921785,
+    "W cipher fwd sub | fill 0.00 | redraw | litF off"
+   ],
+   "text": "THEPERSONSSPEACSIMPLYSPEACASPERSONSWHOHAUEGREATGOODSENSEWITH"
+  },
+  {
+   "plant": "L cipher d=2 reset add | fill 0.00 | none | litF off",
+   "own_med5": 47.758686571921785,
+   "own_n6": 55,
+   "rank": 1,
+   "n_decoders": 733,
+   "runner_up": [
+    47.758686571921785,
+    "L cipher d=2 reset add | fill 0.00 | redraw | litF off"
+   ],
+   "text": "THEPERSONSSPEACSIMPLYSPEACASPERSONSWHOHAUEGREATGOODSENSEWITH"
+  },
+  {
+   "plant": "T two afterS word AB beaufort | fill 0.00 | none | litF off",
+   "own_med5": 47.758686571921785,
+   "own_n6": 55,
+   "rank": 1,
+   "n_decoders": 733,
+   "runner_up": [
+    47.758686571921785,
+    "T two afterS word AB beaufort | fill 0.00 | redraw | litF off"
+   ],
+   "text": "THEPERSONSSPEACSIMPLYSPEACASPERSONSWHOHAUEGREATGOODSENSEWITH"
+  },
+  {
+   "plant": "G cipher gsum sub | fill 0.40 | none | litF off",
+   "own_med5": 33.60537798550599,
+   "own_n6": 55,
+   "rank": 1,
+   "n_decoders": 733,
+   "runner_up": [
+    33.60537798550599,
+    "G cipher gsum sub | fill 0.00 | redraw | litF off"
+   ],
+   "text": "SERENITYLICEUOTARIESPERFORMNGSOMERELIGIAUSDANCLEBEFORETHEGOD"
+  },
+  {
+   "plant": "W plain fwd add | fill 0.40 | none | litF off",
+   "own_med5": 1.87854411540303,
+   "own_n6": 10,
+   "rank": 1,
+   "n_decoders": 733,
+   "runner_up": [
+    1.87854411540303,
+    "W plain fwd add | fill 0.00 | redraw | litF off"
+   ],
+   "text": "SERENITYLICEUOTARIESPERFORMNGSOMERELIGIAUSDANCWEBEFOSDTHEGOD"
+  },
+  {
+   "plant": "L plain d=1 cont sub | fill 0.40 | none | litF off",
+   "own_med5": 1.408279325920905,
+   "own_n6": 4,
+   "rank": 5,
+   "n_decoders": 733,
+   "runner_up": [
+    1.8357977731763706,
+    "L plain d=1 reset sub | fill 0.00 | redraw | litF off"
+   ],
+   "text": "CENTAURTHEPERISTYLEOFTHEPARTHENONANDIECWJTHOJNGOXAETHMNGETHY"
+  }
+ ]
+}

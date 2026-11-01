@@ -1,7 +1,7 @@
 {
  "generated_by": "src/status.py",
  "repository": "https://github.com/RiskAverseTech/cicada-ioc",
- "head": "2026-10-31",
+ "head": "2026-11-01",
  "breakthroughs": 0,
  "breakthrough_definition": "a page decoding to readable English at a pre-registered bar, reproduced by someone else",
  "lanes": [
@@ -570,6 +570,24 @@
    "controls": "4/6 plants (two located at rank 1 at the planted alignment but below the bar: word-prime p at tier-1 z 3.7, cumulative at full-page z 5.5), so D1 fails as written; D2, D3 hold",
    "verdict": "null (Part A largest median page z5 0.60 vs chance 0.94; Part B 48 tier-1 survivors, 0 candidates, largest full-page z 5.54 unreadable)",
    "coverage_limit": "word-aligned keys defeat the free - plain clause by construction (amendment before the run); detection partial on the prime-offset and cumulative schemes; the solved text parsed into 726 words, so alignments 0-725 are every start (the registration's 2,900 was an estimate)",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a776",
+   "lane": "Stream keys at the cumulative page position (lane C11): 583 streams (580 non-periodic pnotisdev streams, prime p / p-1 / p+1) x 41,420 page-offsets (0.90*cum_k - 50 .. cum_k + 50) x 3 signs x 2 F under the \u00a762 free-null decoder (tier 1 at 160 runes z >= 4.5; tier 2 full page z_uni >= 6, free - plain >= 20, readable); the 12 (stream, page) cells above the free-null line rerun under the \u00a770 lattice decoder against 2,000-key nulls and every offset of their windows (about 50 k lattice decodes); registered first, the lattice step registered before it ran",
+   "tests": 144937160,
+   "controls": "6/6 plants at cumulative offsets (tier-1 z 6.1-9.3 at rank 1; tier-2 z 6.1-12.7, free - plain +67..+203); lattice step 6/6 fresh E56w+n plants (z 41.9-99.1, rank 1 of 222-1,313, accuracy 0.81-1.00)",
+   "verdict": "null (5,631 tier-1 survivors; 38 windows in 12 cells at z_uni 6.00-6.54, the geometric tail of 145 M tests, none readable; under the lattice decoder z -1.3..+1.9, ranks 62nd-1,300th in their own windows)",
+   "coverage_limit": "fillers to a tenth of the runes and skips to fifty (the window); periodic streams are covered at every offset below their period by \u00a762; free-null tier-1 power 0.75 / 0.58 (\u00a755 B); cumulative positions counted in runes only",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a777",
+   "lane": "Word-level and two-state autokeys: 183 members (the previous word as the key; its number; one key rune per word; a word-aware rune autokey at lags 1-6; two sources switched by parity, a written S or I, the vowel class, or summed) x add / sub / beaufort x fillers {0, 0.40} x repair {none, redraw} x literal F = 1,464 procedures as generators against 13 bands at 20 replicates (S-admissible = L5S with L5, D, U, Sfreq) and 732 filler-blind decoders of the 55 pages (5-gram z, \u00a772 z*); registered first, amended after the smoke test (literal F as a bijection; the control's 3.1 x premise corrected to 1.75 x)",
+   "tests": 293150,
+   "controls": "6 plants: the three filler-free and the cipher-sourced filler plant read at rank 1 (median z5 47.8 / 33.6, 55/55 pages); the two plaintext-sourced filler plants not read (1.9, 1.4), as registered",
+   "verdict": "null (0 S-admissible, 0 candidates, 0 survivors; largest median page z5 0.55 vs chance 0.38, no page at 6; nearest miss a ciphertext lag-1 autokey with fillers and literal F inside 11 bands, failing L5S +5.4 and L6T +4.0)",
+   "coverage_limit": "one table on \u00a773's skeleton; plaintext-sourced keys under fillers at the plants' power only (the lattice decoder for them unrun); the behaviours as the switch and a beyond-word state unrun; A2's clause that every member fails L6T failed (56 inside on their spread)",
    "date": "2026-10-27"
   },
   {

@@ -49,3 +49,5 @@ Predictions: **L1** every plant is rank 1 in its window at lattice z ≥ 8. **L2
 cell's lattice decode is readable. Expected: all three hold and C11 closes null, with the 38 windows reported as the chance
 tail they are. If L2 fails, the cell is reported first and its stream is run at every offset on every page under the lattice
 decoder before anything else is written.
+
+**Outcome of the lattice step (2026-11-01, 435 s; README §76, `results/c11_lattice.md`).** L1 holds: the six plants at lattice z 41.9–99.1, rank 1 of 222–1,313, accuracy 0.81–1.00. L2 holds: the twelve cells at lattice z −1.29 … +1.86, none above its null maximum, ranked 62nd to 1,300th in their own windows. L3 holds: the decodes are dictionary words without a sentence. C11 closes null.

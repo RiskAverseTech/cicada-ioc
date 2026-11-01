@@ -127,3 +127,7 @@ SMOKE=1 shrinks everything and touches no page in the decode stage).
    §74's layouts start at most 6,000 words before the file's end and the latest layout ends about eighty words before the
    licence begins, so no replicate of those sections read it; the header's four occurrences lie in the file's first 130 words,
    which a layout start reaches with probability 0.002. Their results stand; they were not rerun.
+
+## Outcome (2026-11-01, 10:17–10:24, behind C11; README §77)
+
+A1 holds: 0 of 1,464 S-admissible at 20 replicates; the control predicts 4.0 S pairs (z +3.2), U z −13.6, Sfreq z −3.9. A2 fails as written on one clause: 0 candidates and 0 survivors, but 56 members sit inside the L6T cell on their spread (1,408 fail it); the nearest miss on all bands is the ciphertext lag-1 autokey with fillers 0.40 and literal ᚠ on, inside eleven bands and outside L5S (+5.4) and L6T (+4.0). A3 holds: the filler-free plants and the cipher-sourced filler plant at median z5 47.8 / 33.6, rank 1 (tied with their repair-setting siblings, the same decoder); the plaintext-sourced filler plants at 1.9 and 1.4, not read, as registered. A4 holds: largest median page z5 0.55 against chance 0.38; largest single page 4.47; no page at 6; largest z\* 5.30.
