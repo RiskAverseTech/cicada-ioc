@@ -109,7 +109,7 @@ def decode_beam(C, W, pr, beam=BEAM, fillers=True):
     """returns (plaintext without fillers, fillers placed).  Hypotheses per word slot: no filler, or a filler at each rune of
     a slot of two or more; each carries the key state, the plaintext, and the cumulative 5-gram log-probability plus the prior.
     fillers=False is the exact inversion (one hypothesis, no filler), used by the tests."""
-    mi, fi, ru, lf = pr; member = MEMBERS[mi]; sg = member[3]; T = H.t5()
+    mi, fi, ru, lf = pr; member = MEMBERS[mi]; sg = member[3]; T = H.t5() if fillers else None   # the exact mode scores nothing and needs no 5-gram tables (CI has no corpus)
     bounds = np.flatnonzero(np.r_[True, W[1:] != W[:-1], True])
     hyps = [(0.0, [], [], STATE0, 0, [])]                                 # score, plain (for scoring and output), src (state plaintext), state, fillers, full decode (-1 at a filler)
     for a, b in zip(bounds[:-1], bounds[1:]):
@@ -120,9 +120,9 @@ def decode_beam(C, W, pr, beam=BEAM, fillers=True):
                 pl = list(pl0); src = list(src0); s = new_word(s0); nf = nf0; full = list(full0)
                 for j, x in enumerate(cs):
                     if fpos == j: s = after_filler(s, x, lf); nf += 1; sc += LOG_U28; full.append(-1)
-                    elif lf and x == 0: pl.append(0); sc += lp5(pl, T); s = s[:3] + (s[3] + 1,) + s[4:]; full.append(0)
+                    elif lf and x == 0: pl.append(0); sc += lp5(pl, T) if T is not None else 0.0; s = s[:3] + (s[3] + 1,) + s[4:]; full.append(0)
                     else:
-                        k, ptr = key_for(s, src, member); p = uncomb(x, k, sg, lf); pl.append(p); sc += lp5(pl, T)
+                        k, ptr = key_for(s, src, member); p = uncomb(x, k, sg, lf); pl.append(p); sc += lp5(pl, T) if T is not None else 0.0
                         s = after_plain(s, x, p, k, ptr); src.append(p); full.append(p)
                 new.append((sc, pl, src, s, nf, full))
         new.sort(key=lambda h: -h[0]); hyps = new[:beam]
