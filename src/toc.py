@@ -67,7 +67,7 @@ def build(md: str) -> str:
         if text.startswith("Phase 1") or text in ("Reproduce",):
             continue
         num, title = short_title(text)
-        if not num or int(num) < 4 or (int(num) < 6 and "Decision" in text or "For the debate" in text):
+        if not num or (int(num) != 0 and (int(num) < 4 or (int(num) < 6 and "Decision" in text or "For the debate" in text))):   # §0, the statement at the pause, leads the list
             continue
         items.append(f"[{num}]({'#' + anchor}) {title}")
     phase1 = next((a for l, t, a in headings(md) if t.startswith("Phase 1")), None)
