@@ -1,0 +1,18 @@
+{
+ "rows": [
+  {
+   "plant": "prevword a/s/h lag add | fill 0.40 | none | litF off",
+   "own_med5": 45.14750932940169,
+   "own_n6": 55,
+   "rank": 1,
+   "n_decoders": 101,
+   "fillers_planted": 1075,
+   "fillers_placed": 1069,
+   "runner_up": [
+    18.319869694723167,
+    "prevword s/h/a lag add | fill 0.00 | none | litF off"
+   ],
+   "text": "THEGRECIANSTATEISTHEERAOFTHEBOLDLYNATURETHEPERFECTIANOFTHESE"
+  }
+ ]
+}

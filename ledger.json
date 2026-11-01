@@ -591,6 +591,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a778",
+   "lane": "The three behaviours as the switch of a self-keyed cipher, decoder first: at each rune the key spends (the previous plaintext rune, or a pointer into the page's plaintext from its start), holds (the previous key) or adheres (the previous cipher rune), chosen by a switch on one of 8 three-valued states (previous plaintext class, previous cipher class, position in word, word index, running cipher sum, S count, I count, previous word's Gematria sum; mod 3) under 6 assignments x 3 signs = 288 members x fillers x repair x literal F = 2,304 procedures; Part B first, a filler-placing beam decoder (per-word filler hypotheses, \u00a759 prior, 5-gram score, beam 8) over 1,152 decoders x 55 pages with a 200-decoder chance level; Part A second, \u00a773's 13 bands at 20 replicates; registered first, amended twice after the smoke test",
+   "tests": 107690,
+   "controls": "6 plants (3 without fillers, 3 at 0.40) read at median z5 44.6-48.1, 55/55 pages, rank 1 of 101, fillers 1,075 planted / 1,057-1,095 placed",
+   "verdict": "null (largest median page z5 10.79 vs chance 10.17, largest page 14.73 vs 14.10, inside the registered 1.0; 0 S-admissible, 0 candidates; every procedure fails D)",
+   "coverage_limit": "the beam's optimizing lift sets the chance level near z 10, so Part B resolves a true read (z 45) from chance but not a weak one; switches on lines or layout, more than three behaviours, and a key spent from outside the text unrun",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a771",
    "lane": "Two Quorum asks: lag-5 equality given the lag-6 relation under the K-fixed null; words across the 54 page joins",
    "tests": null,

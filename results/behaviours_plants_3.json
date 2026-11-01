@@ -1,0 +1,18 @@
+{
+ "rows": [
+  {
+   "plant": "csum h/a/s pointer sub | fill 0.40 | none | litF off",
+   "own_med5": 44.588350561243686,
+   "own_n6": 55,
+   "rank": 1,
+   "n_decoders": 100,
+   "fillers_planted": 1075,
+   "fillers_placed": 1095,
+   "runner_up": [
+    15.577871777895533,
+    "csum h/a/s lag sub | fill 0.00 | none | litF off"
+   ],
+   "text": "HABITOFTHEMINDOURADMIRATIANOFTHEANTICWEISNOTADMIRATIANOFTHEO"
+  }
+ ]
+}

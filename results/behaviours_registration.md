@@ -110,3 +110,7 @@ decode and screen; SMOKE=1 shrinks everything and decodes no page).
    from that level by about forty points of z, so B1 is unaffected.
 3. The exact no-filler inversion is exposed as `decode_beam(..., fillers=False)` for the tests only; the lane's Part B uses the
    filler-placing beam throughout.
+
+## Outcome (2026-11-01, 11:03–11:16 EST, eight shards; README §78)
+
+B1 holds: the six plants at median page z5 44.6–48.1, 55 of 55 pages, rank 1 of 101, fillers 1,075 planted / 1,057–1,095 placed. B2 holds (as amended): largest median page z5 10.79 against the chance maximum median 10.17, largest page 14.73 against 14.10. B3 holds: 0 S-admissible of 2,304 at 20 replicates, 0 at 200. B4 holds: 0 candidates, 26 of 2,304 inside L6T. Every procedure fails the repeat count D.

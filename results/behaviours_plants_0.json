@@ -1,0 +1,18 @@
+{
+ "rows": [
+  {
+   "plant": "pclass s/h/a lag sub | fill 0.00 | none | litF off",
+   "own_med5": 47.47713072882182,
+   "own_n6": 55,
+   "rank": 1,
+   "n_decoders": 101,
+   "fillers_planted": 0,
+   "fillers_placed": 13,
+   "runner_up": [
+    11.507966397262011,
+    "prevword s/h/a lag sub | fill 0.00 | none | litF off"
+   ],
+   "text": "THEPERSONSSPEACSIMPLYSPEACASPERSONSWHOHAUEGREATGOODSENSEWITH"
+  }
+ ]
+}
