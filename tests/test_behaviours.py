@@ -23,7 +23,7 @@ def test_word_switch_assigns_behaviours_by_word_index():
     P, W = PAGE; ai = B.ASSIGN.index(("spend", "hold", "adhere")); pr = (B.MEMBERS.index(("word", ai, "lag", "add")), 0.0, "none", False)
     C = B.write_page(P, W, pr, np.random.default_rng(0))
     assert C[0] == P[0] and all(C[i] == (P[i] + P[i - 1]) % 29 for i in range(1, 4))      # word 0: key = previous plaintext (primer F first)
-    k_held = P[3]                                                                          # the last key spent was p_3; word 1 holds it
+    k_held = P[2]                                                                          # the last key spent (at i = 3) was the previous plaintext rune p_2; word 1 holds it
     assert all(C[i] == (P[i] + k_held) % 29 for i in range(4, 9))
     assert all(C[i] == (P[i] + C[i - 1]) % 29 for i in range(9, 15))                      # word 2 adheres: key = previous cipher rune
 
