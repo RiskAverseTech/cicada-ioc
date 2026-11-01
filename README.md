@@ -1,5 +1,7 @@
 # Liber Primus (Cicada 3301): pre-registered cryptanalysis of the unsolved pages
 
+**Where the solution is hiding: the record's statement at the pause, with a five-model panel's split beside it, is §0. The closing statement is §81; the last measurements are §80–§82. Work is paused as of 2026-11-01.**
+
 **Status (2026-10-29; one-screen box in `STATUS.md`; everything of the book that has been read, set as a page, in `docs/liber-primus-as-read.html`).** Eight pre-registered analyses on the 56 unsolved pages, each with planted
 controls, each a negative result reported as one; a three-model hypothesis loop gated on the pages'
 own statistics (§17); and a ledger against the other public 2026 labs (`results/ledger_diff.md`).
@@ -71,6 +73,25 @@ at any offset within ±200 runes and for any within-page period from 2 to 200. T
 real non-randomness found is at lag 1: the unsolved pages contain 86 doubled runes
 where 445 are expected (z = −17). That is a property of the cipher, not evidence of a
 reused key.
+
+## 0. Where the solution is hiding: the record's statement at the pause (2026-11-01)
+
+Written for anyone arriving cold, and for the authors of the book if they ever read it. Every number here has a section behind it.
+
+**The statement.** The unsolved pages are the output of a process, not of a key laid over English. The process knows where the words are. It writes a filler rune into about two words in five. Inside a word it echoes: a rune five back is repeated, a rune six back is mapped by 24 − 2c. It avoids writing a rune twice in a row. That description was fixed before it was tested and it passes thirty-nine of forty held-out cells (§49, §57–§59); a decoder built on it reads every planted page and no real one (§70). Nothing in the public record, no library, no text, no number sequence, no reading of the creators' own sentences, supplies the one thing that turns the description into plaintext (§54, §62, §76, §79). The S weighting of the lag-5 echo, treated as a third law for a week, does not survive the charge for choosing the rune (p 0.085, §82); the two echo laws together do (0 of 999 null corpora, §82). [stated]
+
+**Where the missing piece is, as a split.** This record's, and a five-model Quorum panel's given the same facts on the same day:
+
+| | key material not public | plaintext not English prose | images or page grid | an unenumerated process on the rune stream | no recoverable message |
+|---|---|---|---|---|---|
+| this record | 40 | 10 | 10 | 30 | 10 |
+| Quorum panel (Claude, GPT, Gemini, DeepSeek, Grok; 80 % aligned) | 5–20 | 10–25 | 5–12 | 40–60 | 5–15 |
+
+The agreement is on the shape: most of the weight on a word-aware process whose last piece is unknown, little on noise, hoax or layout. The disagreement is on where the last piece lives. The panel reads "fits thirty-nine cells, reads no page" as a process nearly but incompletely specified. This record reads the same fact the other way. About 85,000 keyless processes at one table and one or two states were run as generators and none leaves the pages' footprints (§73, §74, §78, §79), so a process that completes the description without a key would have to be richer than anything a scribe runs by hand; whereas the process exactly as described, fed a key the public does not hold, produces the pages, reads under that key, and is unreadable without it. The 2016 sentence then reads plainly. The words are the map because the plaintext is the book's own vocabulary. Their meaning is the road because the sentences name the operations: spend, hold, follow. Their numbers are the direction because the key moves by them, from a starting point that is not in the public record. [inferred — the split and the reading]
+
+**The one test that would move it.** The panel's: a blinded whole-page read under the fixed process with the runes re-indexed from word start and end. This record has run it: §70's lattice decoder is that read and §82 is the re-indexing, both null. What would move the split now lies outside the transcription: a key offset or a text that reads one page under the fixed process, which is the first column by definition; or a keyless process that passes the bands and reads a plant, which no enumeration here has produced and would be the fourth. [stated — the sections; inferred — the last sentence]
+
+**If the authors read this.** We think you built a small hand cipher with three behaviours and a scribe's habits, laid it over your own words, and started its count from something given only to those who stood in front of the pages. We think it is not reachable from the transcription alone, and we think that was the design. If that is wrong, the fastest way to show it is one page read under a public offset; the harness here confirms or refutes such a claim in an hour. [inferred]
 
 ## 1. Data
 
