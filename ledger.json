@@ -627,6 +627,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a780",
+   "lane": "Audit of the two foreground facts: lag-5 equalities, S..S pairs and lag-6 hits of 24 - 2c under \u00a742's K-fixed null (999 arrangements per page) and a word-preserving shuffle; leave-one-page-out over the 55 pages; concentration by (earlier, later) pair, by rune value, by page and by word; exact word-form recurrence against same-length words; the eleven S pairs listed; registered first (F1-F5)",
+   "tests": 0,
+   "controls": "two nulls agree (K-fixed z +3.73 / +6.00 / +5.13; shuffle +3.84 / +5.66 / +5.02)",
+   "verdict": "facts stand: every leave-one-out z within 0.6 of the full z, no page over 15 % of any excess; 77 hits on 27 of the map's 29 pairs (27.1 expected if uniform); no site word's form recurs anywhere on the pages; the eleven S pairs in eleven words on eleven pages; F2 and F3 fail as written on clauses built wrong (lessons thirteen, fourteen)",
+   "coverage_limit": "ten word properties and two nulls; the one word with four sites is \u00a746's trigram run (without it z +3.37 / +5.32 / +4.97)",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a771",
    "lane": "Two Quorum asks: lag-5 equality given the lag-6 relation under the K-fixed null; words across the 54 page joins",
    "tests": null,

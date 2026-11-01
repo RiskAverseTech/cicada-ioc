@@ -52,3 +52,7 @@ re-examined before any new lane. Cost: an afternoon.
 ## Reproduce
 
 `.venv/bin/python -I src/foreground_audit.py`
+
+## Outcome (2026-11-01, afternoon; README §80)
+
+F1 holds (leave-one-out z 3.19–3.96, 5.35–6.25, 4.62–5.40; no page over 15 % of any excess). F2 fails as written on a clause built against a ratio with a ceiling the clause ignored: 77 hits on 27 of the map's 29 pairs, 27.1 expected if uniform; largest pair 6 of 77; H→H 2 of 77 inside the null (lesson thirteen). F3 fails on one word: SDNGGLSDNG (LP2-50, §46's trigram run) carries four sites; no site word's form recurs anywhere on the pages (0.000; the first computation, 0.346, counted a word's own second site and was corrected before anything was written: lesson fourteen). F4 holds (eleven words on eleven pages). F5 holds (shuffle z +3.84, +5.66, +5.02). The two facts stand.
