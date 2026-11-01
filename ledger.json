@@ -645,6 +645,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a783",
+   "lane": "The two-dimensional word-position table: pairs inside words by (earlier position, later position) from the start and by distances from the end, 66 cells per table, equality and 24 - 2c counts at any lag, K-fixed null (999 arrangements per page), family-wise per table, diagonal sharpening by multinomial chi-square, held-out halves (even / odd pages); registered first (W1-W3)",
+   "tests": 0,
+   "controls": "null maxima per table recorded; held-out split fixed before the run",
+   "verdict": "facts stand, as lag laws: no off-diagonal cell at family-wise p < 0.05 (the one significant cell is on the lag-6 diagonal, end-indexed, (1, 7), z +4.49, p 0.017); diagonal sharpening p 0.64 / 0.42 / 0.91 / 0.29; nothing significant on half A to replicate",
+   "coverage_limit": "positions below 12 only; the two echo types only (equality, 24 - 2c)",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a771",
    "lane": "Two Quorum asks: lag-5 equality given the lag-6 relation under the K-fixed null; words across the 54 page joins",
    "tests": null,

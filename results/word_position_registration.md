@@ -39,3 +39,7 @@ reported first with its replication.
 ## Reproduce
 
 `.venv/bin/python -I src/word_position.py`
+
+## Outcome (2026-11-01, evening, 239 s; README §83)
+
+W1 holds: no off-diagonal cell at family-wise p < 0.05 in any table; the only significant cell is on the lag-6 diagonal of the end-indexed affine table, (1, 7), 27 against 11.7 ± 3.4, z +4.49, p 0.017. W2 holds: diagonal multinomial p 0.64 (equality, start), 0.42 (affine, start), 0.91 (equality, end), 0.29 (affine, end). W3 holds vacuously: no cell family-wise significant on half A. The echoes are lag laws, not word-position laws.
