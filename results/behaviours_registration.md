@@ -93,3 +93,20 @@ evening of writing.
 
 `STAGE=plants|chance|decode|screen|confirm|merge .venv/bin/python -I src/behaviours_lane.py` (SHARD/NSHARD on plants, chance,
 decode and screen; SMOKE=1 shrinks everything and decodes no page).
+
+## Amendment (2026-11-01, midday: after the smoke test, before any page is read)
+
+1. **A filler pays its own term.** As first written the beam compared hypotheses with different numbers of scored runes, so
+   dropping a rune as a filler gained about a nat and the decoder placed fillers on filler-free plants. Each filler now adds
+   log(1/28) (uniform among the runes unequal to the left neighbour), so every cipher rune is explained by exactly one term,
+   as §70's lattice does. Exact inversion (no filler hypothesis) holds for all 576 member × literal-ᚠ settings on two pages;
+   the beam at width 8 recovers 99 % of the runes and 76–79 of 80 planted fillers on the six plants (aligned accuracy, the
+   decoder now returning the full-length decode with the filler slots marked); widths 32 and 96 add nothing, so 8 stands.
+2. **The decoder optimizes, so B2 is judged against the chance level, not the raw uniform null.** On uniform random pages the
+   beam's choice of filler slots alone lifts the 5-gram z to about 8 (the smoke's chance level), so "z5 ≥ 6" is not a threshold
+   for this decoder. B2 as amended: no decoder's median page z5 exceeds the chance maximum median by 1.0, and no single page
+   exceeds the chance maximum single page by 1.0, the chance level being the registered 200 random decoders on uniform page
+   sets recorded before the pages are read; anything above either line is read for sense and reported. The plants separate
+   from that level by about forty points of z, so B1 is unaffected.
+3. The exact no-filler inversion is exposed as `decode_beam(..., fillers=False)` for the tests only; the lane's Part B uses the
+   filler-placing beam throughout.
