@@ -61,7 +61,11 @@ maxima are distance 5 (z ≈ 3.7), the map a = 27, b = 24 at distance 6 (z ≈ 5
 probability at about 3 in 1,000 (95 %), so the pair of laws survives roughly a sixteenfold wider search by Bonferroni, and
 either law alone only a three- to sixfold one.
 
-## 5. What counts as a replication
+## 5. Replications so far
+
+2026-11-01: an external reviewer, with a separate counting implementation written from this page and without importing this repository's code, reproduced the source hash and all five counts of sections 1 and 2. The nulls of section 3 and the search-adjusted significance of section 4 have not yet been reproduced independently.
+
+## 6. What counts as a replication
 
 Within sampling error of the table in section 3 for all three statistics under both nulls, from an implementation that did
 not import this repository's code. If you get the counts in section 1 but different null means, the sampler is the likely
