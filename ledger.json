@@ -636,6 +636,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a782",
+   "lane": "Quorum's ask: the joint discovery replay (within-word equality at lags 2-12; 812 affine maps at lags 2-8; rune concentration at the winning lag's sites; each cell standardized by its own null, maxima per scan, joint share over 999 K-fixed arrangements) and the word-end anchoring check for lag-5 sites and lag-6 hits; registered first (R1-R4, E1-E2)",
+   "tests": 0,
+   "controls": "the null's own maxima recorded per scan (medians 1.60 / 3.93 / 2.45; 99th percentiles 4.18 / 5.03 / 5.55)",
+   "verdict": "the two laws stand at discovery level: lag-5 equality family-wise p 0.015, the 24-2c map p 0.008 over 5,684 cells, jointly 0 of 999 null corpora; the S concentration p 0.085 over 29 runes (R3 fails: the S carrier is the softest datum); no word-end anchoring (lag-6 share 0.753 in 0.567-0.838)",
+   "coverage_limit": "the three scans as the field ran them; other statistics the field tried are not charged; the S carrier is left as an open question",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a771",
    "lane": "Two Quorum asks: lag-5 equality given the lag-6 relation under the K-fixed null; words across the 54 page joins",
    "tests": null,

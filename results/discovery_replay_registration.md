@@ -46,3 +46,7 @@ this resolution.
 ## Reproduce
 
 `.venv/bin/python -I src/discovery_replay.py`
+
+## Outcome (2026-11-01, late afternoon, 274 s; README §82)
+
+R1 holds (lag 5 wins scan (i), family-wise p 0.015). R2 holds (lag 6, map a = 27, b = 24, family-wise p 0.008 over 5,684 cells). **R3 fails**: S wins scan (iii) at z 4.17 but the best of 29 runes reaches that in 8.5 % of null corpora (family-wise p 0.085); the S carrier is restated in §81 as the softest datum, an open question rather than a law. R4 holds: 0 of 999 arrangements reach all three observed maxima, 0 with the winning lags adjacent (adjacent in 18.5 % regardless). E1 holds (lag-6 final-or-penultimate share 0.753 in 0.567–0.838); E2 holds (lag-5 share 0.637 in 0.539–0.768). The check-rune reading closes at this resolution.
