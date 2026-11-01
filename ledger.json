@@ -654,6 +654,15 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a784",
+   "lane": "K-fixed sampler mixing: four chains (seed 1034 / 2027; burn-in 20 / 40 / 100; thinning 4 / 8), 999 draws each, the three core statistics per draw; lag-1 autocorrelation, effective sample size, agreement of null means and z; registered first (M1-M3)",
+   "tests": 0,
+   "controls": "four independent chains; rule-of-three bound on the joint replay stated",
+   "verdict": "the nulls stand (a measurement, not a null lane): autocorrelation -0.06..+0.07, ESS 861-1,127 of 999; null means agree within the 95 % range of four chains (M1 as written used a two-chain threshold: lesson fifteen); z of the two laws stable within 0.2; the S..S z ranges 5.8-6.2 (sd-sensitive at six sigma: carry its empirical tail)",
+   "coverage_limit": "the three core statistics only; chains started from the observed arrangement",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a771",
    "lane": "Two Quorum asks: lag-5 equality given the lag-6 relation under the K-fixed null; words across the 54 page joins",
    "tests": null,

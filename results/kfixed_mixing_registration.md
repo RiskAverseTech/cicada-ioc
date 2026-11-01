@@ -27,3 +27,7 @@ autocorrelation factor, and the affected z's are re-stated with the corrected sd
 ## Reproduce
 
 `CHAIN=base|seed|slow|long .venv/bin/python -I src/kfixed_mixing.py`, then `CHAIN=merge`.
+
+## Outcome (2026-11-01, night; README §84)
+
+M2 holds (ρ₁ between −0.06 and +0.07 across all chains and statistics; ESS 861–1,127). M1 fails as written on the lag-6 cell (range 0.63 against a two-chain threshold of 0.58); the 95 % range of four means is 0.76, 0.18, 0.76 and all spreads fall inside it (lesson fifteen: a k-chain criterion is a range criterion). M3 fails as written on the S..S cell alone (z 5.82–6.24), a z at six sigma being sensitive to the sd's second decimal; the two laws' z move by 0.09 and 0.20. The nulls stand.
