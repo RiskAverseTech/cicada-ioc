@@ -92,3 +92,13 @@ creators' sentences. Cost: G an hour; T and N half a day each to build and under
 
 `.venv/bin/python -I src/gate_property.py`; `STAGE=plants|chance|decode|screen|confirm|merge .venv/bin/python -I src/totient_lane.py`;
 `FAMILY=line STAGE=… .venv/bin/python -I src/behaviours_lane.py`.
+
+## Amendment to T (2026-11-01, afternoon, at build time and before any run)
+
+The *selfword* source as written, the Gematria sum of the current cipher word, is circular for the encipherer: the cipher runes
+depend on the key that depends on them. It is replaced by *prevcipher*, the Gematria sum of the previous cipher word (the
+decoder sees it; the first word takes 0), and a fourth source is added for symmetry, *runcipher*, the Gematria sum of every
+cipher rune written on the page so far, read per rune. Sources are therefore prevword (plaintext), prevcipher, running
+(plaintext) and runcipher: 4 × 4 functions × 3 signs = **48 members**, **384 procedures**, 192 decoders; the chance level is
+every decoder on 20 uniform page sets (3,840 decoder–set pairs). The second plant becomes prevcipher (n − φ) beaufort without
+fillers. T1–T4 are otherwise unchanged.
