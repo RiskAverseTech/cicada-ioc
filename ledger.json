@@ -600,6 +600,33 @@
    "date": "2026-10-27"
   },
   {
+   "section": "\u00a779 G",
+   "lane": "The echo gate as a property of the word: 10 word properties against lag-5 / lag-6 site-carrying over the 806 words of six runes or more, chi-square stratified by exact word length, 2,000 within-stratum permutations, family-wise over the ten; power measured on synthetic sites (odds ratio 2 and 3, 200 draws); registered first",
+   "tests": 0,
+   "controls": "power 0.90 at odds ratio 3, 0.23 at 2 (synthetic sites on the real words)",
+   "verdict": "null (smallest family-wise p 0.31; the lag-5 echo's only nominal signal, crossing a line end, p 0.032 nominal, 0.66 family-wise)",
+   "coverage_limit": "ten properties only; effects below an odds ratio of about 2.5 are not resolvable at 91 + 72 sites",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a779 T",
+   "lane": "The totient as a function of the words' numbers: key f(n) with n the Gematria sum of the previous plaintext word, the previous cipher word, the running plaintext or the running cipher, f in phi mod 29, phi mod 28 + 1, n - phi, phi(phi); 3 signs = 48 members x fillers x repair x literal F = 384 procedures; Part B first with \u00a778's beam decoder (192 decoders x 55 pages; chance = every decoder on 20 uniform sets), Part A second (13 bands); registered first, amended once (self-word source circular; replaced before the run)",
+   "tests": 263340,
+   "controls": "4 plants read at median z5 45.4-47.9, 55/55 pages, rank 1 of 189, fillers 1,075 planted / 1,072-1,081 placed",
+   "verdict": "null (largest median page z5 12.64 vs chance 12.23, largest page 15.33 vs 16.48; 0 S-admissible, 0 candidates; every procedure fails D)",
+   "coverage_limit": "one table on \u00a778's skeleton; numbers of the plaintext or cipher words only; the chance level is a maximum over 3,840 decoder-set pairs",
+   "date": "2026-10-27"
+  },
+  {
+   "section": "\u00a779 N",
+   "lane": "Lines and layout as the key's unit or switch: \u00a778's behaviours switched by the line index or the position in the line (72 members) and \u00a777's lag-1 autokey with the primer restored at each line start (6); 624 procedures, 312 decoders, the pages' own 617 line ends; Part B first (beam decoder, 200-decoder chance), Part A second; registered first",
+   "tests": 50380,
+   "controls": "4 plants read at median z5 45.5-47.8, rank 1 of 101, fillers 1,054-1,072 of 1,075 placed",
+   "verdict": "null (largest median page z5 10.74 vs chance 10.29, largest page 14.22 vs 14.02; 0 S-admissible, 0 candidates; nearest miss the line-reset ciphertext autokey with fillers and literal F inside 10 bands, failing L5S +5.1, BIG +3.4, L6T +3.9)",
+   "coverage_limit": "the transcription's line marks only (452 of 617 fall inside words); switches on the images' layout beyond the line unrun",
+   "date": "2026-10-27"
+  },
+  {
    "section": "\u00a771",
    "lane": "Two Quorum asks: lag-5 equality given the lag-6 relation under the K-fixed null; words across the 54 page joins",
    "tests": null,

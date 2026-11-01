@@ -109,3 +109,7 @@ N is built as its own file, `src/line_lane.py`, rather than as a `FAMILY` switch
 lane stays as published; the family, plants and rules are as registered. Exact inversion holds for all 156 member × literal-ᚠ
 settings; the beam places 77 of 80 and 70 of 80 planted fillers on the two filler plants in the smoke test, at rune accuracy
 0.98–0.99.
+
+## Outcomes (2026-11-01, 11:50–12:21 EST; README §79)
+
+G: G1 holds (smallest family-wise p 0.31; the lag-5 echo's nominal signal, crossing a line end, p 0.032, is 0.66 family-wise); G2 holds (power 0.90 at odds ratio 3; 0.23 at 2). T: T1 holds (four plants at median z5 45.4–47.9, rank 1 of 189, fillers 1,072 and 1,081 of 1,075); T2 holds (largest median 12.64 against chance 12.23; largest page 15.33 against 16.48); T3, T4 hold (0 S-admissible, 0 candidates; every procedure fails D). N: N1 holds (45.5–47.8, rank 1 of 101, fillers 1,054 and 1,072); N2 holds (10.74 against 10.29; 14.22 against 14.02); N3, N4 hold; nearest miss the line-reset ciphertext autokey with fillers and literal ᚠ, inside ten bands, failing L5S +5.1, BIG +3.4, L6T +3.9.

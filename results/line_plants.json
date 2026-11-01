@@ -1,0 +1,60 @@
+{
+ "rows": [
+  {
+   "plant": "line s/h/a lag sub | fill 0.00 | none | litF off",
+   "own_med5": 47.80380480573259,
+   "own_n6": 55,
+   "rank": 1,
+   "n_decoders": 101,
+   "fillers_planted": 0,
+   "fillers_placed": 19,
+   "runner_up": [
+    27.59585831417819,
+    "line s/h/a pointer sub | fill 0.00 | none | litF off"
+   ],
+   "text": "THEPERSONSSPEACSIMPLYSPEACASPERSONSWHOHAUEGREATGOODSENSEWITH"
+  },
+  {
+   "plant": "lpos a/h/s pointer beaufort | fill 0.00 | none | litF off",
+   "own_med5": 47.64209130702513,
+   "own_n6": 55,
+   "rank": 1,
+   "n_decoders": 100,
+   "fillers_planted": 0,
+   "fillers_placed": 11,
+   "runner_up": [
+    16.396601187619364,
+    "lpos a/h/s lag beaufort | fill 0.00 | redraw | litF off"
+   ],
+   "text": "THEPERSONSSPEACSIMPLYSPEACASPERSONSWHOHAUEGREATGOODSENSEWITH"
+  },
+  {
+   "plant": "line-reset plain autokey add | fill 0.40 | none | litF off",
+   "own_med5": 45.541342000875254,
+   "own_n6": 55,
+   "rank": 1,
+   "n_decoders": 101,
+   "fillers_planted": 1075,
+   "fillers_placed": 1072,
+   "runner_up": [
+    11.996517114132137,
+    "line s/a/h lag add | fill 0.00 | redraw | litF off"
+   ],
+   "text": "HAUESURPASSEDALLTHEYCOMBINETHEENERGYOFMANHOODWITHTHEENGAGNGU"
+  },
+  {
+   "plant": "lpos s/a/h lag sub | fill 0.40 | none | litF off",
+   "own_med5": 45.541342000875254,
+   "own_n6": 55,
+   "rank": 1,
+   "n_decoders": 101,
+   "fillers_planted": 1075,
+   "fillers_placed": 1054,
+   "runner_up": [
+    11.177171761303029,
+    "lpos h/a/s pointer sub | fill 0.00 | redraw | litF off"
+   ],
+   "text": "THEGRECIANSTATESTHEERAOFTHEBODILYNATURETHEPERFECTIANOFTHESEN"
+  }
+ ]
+}

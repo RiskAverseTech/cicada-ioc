@@ -1,0 +1,60 @@
+{
+ "rows": [
+  {
+   "plant": "prevword phi29 sub | fill 0.00 | none | litF off",
+   "own_med5": 47.758686571921785,
+   "own_n6": 55,
+   "rank": 1,
+   "n_decoders": 189,
+   "fillers_planted": 0,
+   "fillers_placed": 1,
+   "runner_up": [
+    14.080561326090205,
+    "prevword phiphi sub | fill 0.00 | redraw | litF off"
+   ],
+   "text": "THEPERSONSSPEACSIMPLYSPEACASPERSONSWHOHAUEGREATGOODSENSEWITH"
+  },
+  {
+   "plant": "prevcipher nonco beaufort | fill 0.00 | none | litF off",
+   "own_med5": 47.862841093231474,
+   "own_n6": 55,
+   "rank": 1,
+   "n_decoders": 189,
+   "fillers_planted": 0,
+   "fillers_placed": 27,
+   "runner_up": [
+    14.587995967260746,
+    "prevword nonco beaufort | fill 0.00 | redraw | litF off"
+   ],
+   "text": "THEPERSONSSPEACSIMPLYSPEACASPERSONSWHOHAUEGREATGOODSENSEWITH"
+  },
+  {
+   "plant": "running phi29 add | fill 0.40 | none | litF off",
+   "own_med5": 45.37155574628651,
+   "own_n6": 55,
+   "rank": 1,
+   "n_decoders": 189,
+   "fillers_planted": 1075,
+   "fillers_placed": 1081,
+   "runner_up": [
+    11.773068250430748,
+    "running phi29 sub | fill 0.00 | redraw | litF off"
+   ],
+   "text": "PASSEDONWARDATHOUGHTWHICHPOETRYHASCELEBRATEDINTHEDANCEOFTHEF"
+  },
+  {
+   "plant": "prevword phiphi sub | fill 0.40 | none | litF off",
+   "own_med5": 45.377496506404576,
+   "own_n6": 55,
+   "rank": 1,
+   "n_decoders": 189,
+   "fillers_planted": 1075,
+   "fillers_placed": 1072,
+   "runner_up": [
+    13.394707270513583,
+    "prevword phi29 sub | fill 0.00 | redraw | litF off"
+   ],
+   "text": "PASSEDONWARDATHOUGHTWHICHPOETRYHASCELEBRATEDINTHEDANCEOFTHEF"
+  }
+ ]
+}

@@ -1,0 +1,1174 @@
+{
+ "rows": [
+  {
+   "med5": 7.812306446775059,
+   "max5": 10.050067312301318,
+   "n6": 52,
+   "fillers": 2267,
+   "best_page": 12,
+   "text": "IDJUSTNGNEEDMJLAMPHAEDWOEBEOCYFEATHYEITHAEHBMNWNGXXHODCOEPBTHEASCNGEATHSEACNGEIICAWBAELITHOTHNGESPRO",
+   "proc": [
+    0,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line s/h/a lag add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.017574407039522,
+   "max5": 10.432698626607143,
+   "n6": 49,
+   "fillers": 2256,
+   "best_page": 12,
+   "text": "CSMADISDATHAUXSEAUCAEDERBLOIAOESWINEOWEAPLEOOEYFUNGHWPEOHIANCONFUSGODANPIMENTTHTHRONNUAETHULBLNGYOTH",
+   "proc": [
+    1,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line s/h/a lag sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.050203282482753,
+   "max5": 10.505232442801923,
+   "n6": 45,
+   "fillers": 2259,
+   "best_page": 41,
+   "text": "UGLDRIPIAITCAENEPEXHGHOWPTHLAOREUNUSNGMWWFAOGIAOXIBSAEUAYGOSULSNYRDGPIAMMAXFWGOIHANGUYWOEINBIGNEOEEO",
+   "proc": [
+    2,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line s/h/a lag beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.874919646985813,
+   "max5": 9.955761771036709,
+   "n6": 50,
+   "fillers": 2238,
+   "best_page": 25,
+   "text": "HIANCFYEAIDDOHIFGELFJACYSHHEJAEHIAIFUCNAMEABRMBNLLOTEAHIAIPTTHBUCEOJHOGRTHCOEDARCCGPAENGEAEUGGAWRYET",
+   "proc": [
+    3,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line s/h/a pointer add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.3999926256133595,
+   "max5": 10.309412811946919,
+   "n6": 48,
+   "fillers": 2217,
+   "best_page": 12,
+   "text": "CSMADISDATHAUXSEAUCAEDERBLOIAOESWINEOWEAPLEOOEYFUNGHWPEOHIANCONFUSGNGGILIAXAGOFBEADPCFGCANGEATUGYNYW",
+   "proc": [
+    4,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line s/h/a pointer sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.240585172827657,
+   "max5": 9.854385545121888,
+   "n6": 44,
+   "fillers": 2233,
+   "best_page": 20,
+   "text": "TCRIASURLIARFUGHTEUIOEEACHCETUCFREASNUYDXCIAPEOXREATJHTHNGXRNAETHCELWEGYCEADEADEYOGITHEODREABOGHNIAU",
+   "proc": [
+    5,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line s/h/a pointer beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.639607220553175,
+   "max5": 10.397896766344031,
+   "n6": 44,
+   "fillers": 2273,
+   "best_page": 4,
+   "text": "LGWWORUNJACRUPFOUWRONGNETWSSIASUPYEMABHOPNOXHEOIYSYACURNGFJOAWILLPDEOHXNGIMTHYLFLEASXAJYSOEUIARIAITT",
+   "proc": [
+    6,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line s/a/h lag add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.743995664491582,
+   "max5": 9.613165808572193,
+   "n6": 49,
+   "fillers": 2293,
+   "best_page": 41,
+   "text": "EADLIRUTRIANGUBHPHXXXBEWAPGIUNGTHIIAEENGBOOHCEAUCIFXEBOEAELBTHUIASIALUEJXNGSSILCNGXSEJAIPLXDHSEALTHT",
+   "proc": [
+    7,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line s/a/h lag sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.403230103666437,
+   "max5": 10.973599148400334,
+   "n6": 44,
+   "fillers": 2266,
+   "best_page": 4,
+   "text": "THCNGWYMFARRAYNGWDLTEIEAHOELWPOEXXTHEALTOWEAUISCOENEASIGHNGOCMMPHEOUERGYAWGABJEEOFFIAENNIAUSTHEOXEWW",
+   "proc": [
+    8,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line s/a/h lag beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.168023044214124,
+   "max5": 9.810673245623578,
+   "n6": 42,
+   "fillers": 2263,
+   "best_page": 4,
+   "text": "LGWWORUNJACRUPFOUWRONGNETWSSIASUNPYEMABHOPNOXHEOIYSPAEATHTHREODIALDTMSIADDRTWANGTHYCLFLEASXAJYSOEUIA",
+   "proc": [
+    9,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line s/a/h pointer add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.355830449444172,
+   "max5": 9.251771734200387,
+   "n6": 45,
+   "fillers": 2257,
+   "best_page": 29,
+   "text": "THAETHOMIWEACFTESDEGDOCEARORTHBTTHPBIAGCAELGOUGBBEUNGNUSICFBCHTHNPBGTNGSHOMANCEORRBWBIAGTTUEOFHOEXCR",
+   "proc": [
+    10,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line s/a/h pointer sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.298457436007498,
+   "max5": 9.392512930025617,
+   "n6": 41,
+   "fillers": 2231,
+   "best_page": 39,
+   "text": "OELJAESWOEDTHUIBTWGRUGYSIATEATHNECDHPDOXDYTUDTHMTHCFTAXIAUIARAEDGWAEMBOYRDDINSOUNGBEDYSIAGLOWYWMABGM",
+   "proc": [
+    11,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line s/a/h pointer beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.468610396203683,
+   "max5": 9.709897696114883,
+   "n6": 47,
+   "fillers": 2270,
+   "best_page": 25,
+   "text": "NGWCXYSCOERBYJNGEINGATHEEOLUPUDAWWLPOORWHAMEABRMBNLLOTEAHIAIPTTHBUCDAWDTHNGPDTHAGHDGYTESYLEBTHEPSCHE",
+   "proc": [
+    12,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line h/s/a lag add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.2105727175632115,
+   "max5": 10.133362009796995,
+   "n6": 43,
+   "fillers": 2289,
+   "best_page": 4,
+   "text": "LYPXIMCILGFNIACXPORIAHJUDHFULOTHDUGYEMRRYDWENTHNGSISPSFUCOUTGEOTHBELRSHDWIPEOYEAHEGHERITSPYALJIALNEA",
+   "proc": [
+    13,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line h/s/a lag sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.416995853402674,
+   "max5": 10.365179805368982,
+   "n6": 44,
+   "fillers": 2292,
+   "best_page": 51,
+   "text": "TICBLWOEBSORSGWAETHWOEPWONGORLYALDOEMGIISMARIAAEOLLNGNGCNCLNGCLEORDIPTHISYETDWSDTIAEODUTMEIHHENNIAPL",
+   "proc": [
+    14,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line h/s/a lag beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.017329791395445,
+   "max5": 9.816190705291978,
+   "n6": 42,
+   "fillers": 2253,
+   "best_page": 25,
+   "text": "NGWXCYSCOERBYJNGEINGAYJRETBEAMAIIWASOECAMEABRMBNLLOTEAHIAIPTTHBUCDAWDTHNGPDTHAGHDGYTESYLENGAADBTAIST",
+   "proc": [
+    15,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line h/s/a pointer add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.170971477174263,
+   "max5": 10.132795170377868,
+   "n6": 42,
+   "fillers": 2265,
+   "best_page": 12,
+   "text": "CIRCWEOTCHUIAWOEGEOPUPTHJWCAXBCYWAXSOMLPSCSOEYFUNGHWPEOHIANCONFUSGEOGTOFMAXGOESIXNGTHBCIADEOCMHAPDNO",
+   "proc": [
+    16,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line h/s/a pointer sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.384248539073704,
+   "max5": 10.24940808889001,
+   "n6": 43,
+   "fillers": 2285,
+   "best_page": 10,
+   "text": "ASEATPEAJDIANJXUHSTSTHNGGEARNGIPSEBREATHTHEYTWLCRODNGUOUIAMESLOHJMEAXATOEOHXSPWODNHFILTOBAWYUNSOESYO",
+   "proc": [
+    17,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line h/s/a pointer beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.1256316773357895,
+   "max5": 10.117185326097122,
+   "n6": 44,
+   "fillers": 2275,
+   "best_page": 43,
+   "text": "HIETIONCUMPSAIAGLYWOEWUPSIAGIAPIAWTIATPJOEOOESDIALYRIACWEAOIAEOLLEOFOEECIASNGLEWLWYIFIJUHWPOEEOPFSUX",
+   "proc": [
+    18,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line h/a/s lag add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.585602291654833,
+   "max5": 10.800845627193116,
+   "n6": 48,
+   "fillers": 2288,
+   "best_page": 24,
+   "text": "DFEJAENCHWEOPEAWLWOEWEARRFFUYOEMLIHWYLSDBDGHLOUXSFGEOMPDAEDNGCFORCEWUEOLFDCWPLOYNGRXBAMAENUEBBDWPSEE",
+   "proc": [
+    19,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line h/a/s lag sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.02793649946145,
+   "max5": 10.210628119667273,
+   "n6": 46,
+   "fillers": 2285,
+   "best_page": 2,
+   "text": "WEAPEOBNGEOIUAELNGEODBEOPAXXIAMMYGDTHEADJBAYJADTHOODPAYCUWMHILIIEATHGMANGWROEDTHSUCEOHTEMTHEOIAOTSOE",
+   "proc": [
+    20,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line h/a/s lag beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 6.993591974408487,
+   "max5": 10.277433937020772,
+   "n6": 40,
+   "fillers": 2254,
+   "best_page": 19,
+   "text": "NONFOIFUNDWEAPROJAEAEOEAEEOWRTJUDAEOURCTIFSCFUDTHLAUEEUFPACEORLFEOUHTGNHTHNGUFOTTYNGTHEADDAEEATUIABG",
+   "proc": [
+    21,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line h/a/s pointer add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 6.818227971355127,
+   "max5": 9.21617660504347,
+   "n6": 41,
+   "fillers": 2247,
+   "best_page": 48,
+   "text": "HCITHJEUIATILORAPRBNTHNGGNOEBIANDXAEXWAUNGTHRIAIDEAIOMSOEIGOCBLLGUTOEAGOESPAWSFDOEHBAEUEXOWLCIAJUBIA",
+   "proc": [
+    22,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line h/a/s pointer sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 6.922648914774914,
+   "max5": 9.387946041857242,
+   "n6": 44,
+   "fillers": 2242,
+   "best_page": 13,
+   "text": "DFEDAMINBUOELRDYNGCLECCEGLOOWEPUTNUEJREALSNGRACNGGNGATHHRHUNSOEAEIAAETHRIATAONGIGIAWROSPICHUNSBTNWEA",
+   "proc": [
+    23,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line h/a/s pointer beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.676677012013394,
+   "max5": 10.070156914024833,
+   "n6": 46,
+   "fillers": 2246,
+   "best_page": 52,
+   "text": "EOPOUREDUAELHDTYHAEIAADINFEMTUFJMEOWJEONHIAGEORCLNGACTOEHLGIAWNEAMPOETHWSOJANLMUDDNGGNGMATHPTTHEATIE",
+   "proc": [
+    24,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line a/s/h lag add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.860983622633349,
+   "max5": 9.991825674655294,
+   "n6": 44,
+   "fillers": 2241,
+   "best_page": 9,
+   "text": "YROTHBOXTHLHIJBHEOTOULLDAEIRWOEGRIEELCTIALWTHWNGPLTHPRJUNNGGLIAWCTHMLIBTHHEOLOTHCHPEORTHEALLXTGEIGRO",
+   "proc": [
+    25,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line a/s/h lag sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.753571021413518,
+   "max5": 10.73023291811974,
+   "n6": 47,
+   "fillers": 2318,
+   "best_page": 0,
+   "text": "XWMSYTIAXEYTOLIEESGYHUGLIASCPEOOWULEIUOPNGEMEAGRTPWOUTAUXTHYTTEONACWELTOMAEDIAMCOMPTTAMBIABAESBLEOFP",
+   "proc": [
+    26,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line a/s/h lag beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.000939370192885,
+   "max5": 10.036772621132418,
+   "n6": 45,
+   "fillers": 2254,
+   "best_page": 21,
+   "text": "CLOAJUYWTHYPPLYOYBTOEHBIAPCALCUPFEOEOFAFEBCEOHIXACEOAIATHXLSIYTHECTHWOEASYWTXHANGCOSJITHEOBDIAPGEOSN",
+   "proc": [
+    27,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line a/s/h pointer add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.129357867895947,
+   "max5": 11.513131106026513,
+   "n6": 42,
+   "fillers": 2251,
+   "best_page": 17,
+   "text": "OESXFOEEOEORAXIATCEAHLAEBPHYYXIEAHINIITOWIMSTRWNWYFLULAAOHEAROAMSAIAWRTLTUMEARNGROEAMNIAIBRYDOHPIALA",
+   "proc": [
+    28,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line a/s/h pointer sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.363810196208408,
+   "max5": 10.416549128798943,
+   "n6": 47,
+   "fillers": 2279,
+   "best_page": 40,
+   "text": "FMOELEOBJEABEPAEXTHAUEAEORIBNGREAPNOHOSEAWDGWDATHENJTHINBWLWETHADNJULUNGEUSOEWAETHMJAEOFMATHCEATEPRH",
+   "proc": [
+    29,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line a/s/h pointer beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.355011320408087,
+   "max5": 10.048099229911713,
+   "n6": 45,
+   "fillers": 2300,
+   "best_page": 18,
+   "text": "EATUTNGTHNAEXOEGCBUXTHLRATTHIRDMFONDOEUIAGHYGTSMEXASHHBRNGNGTHIRUDRMAEDRXMDSYIMEIAIADDIAFOFREAYIADMW",
+   "proc": [
+    30,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line a/h/s lag add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.045228606557124,
+   "max5": 9.70818976888696,
+   "n6": 38,
+   "fillers": 2267,
+   "best_page": 12,
+   "text": "SXNJEAEWPEACEAEXSMIXHOLETHCBEOWFNGADYNGPIACYGDEADFSHOEGURIISPADAASBETHEUNIAOESTHYMOEEOREARDLDASFGCHU",
+   "proc": [
+    31,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line a/h/s lag sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.08165820493184,
+   "max5": 10.316781315095472,
+   "n6": 46,
+   "fillers": 2335,
+   "best_page": 9,
+   "text": "OMJAMTHABEDSHUAUEOAONMHEAMWHATFOELHJEOURTHSWNGATBYUYINDUUURRASHNYEAOEAXXILBEMUSNGPODGBTHCBIADNTHIMPE",
+   "proc": [
+    32,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line a/h/s lag beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 6.719511751716168,
+   "max5": 9.284328099634342,
+   "n6": 39,
+   "fillers": 2208,
+   "best_page": 18,
+   "text": "EATUTNGTHNNGAEXECBUXTHLRATTHIRDMFONDOEUGHYOPRNGEMFELMOLAEIANIDUDRMUDRMDSYIMEIAIADDIAFOFREAYIADMWHERE",
+   "proc": [
+    33,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line a/h/s pointer add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 6.830127861938904,
+   "max5": 9.380491426364113,
+   "n6": 41,
+   "fillers": 2218,
+   "best_page": 27,
+   "text": "MOBGEIALREANUFIGLEPJGOPGCEATGOESCESTMINOHIEHEAEMAELIAYROEDTHESWUBBLSTOOCMOHXTHTHRDBAEBBOFNGIPACHOEAF",
+   "proc": [
+    34,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line a/h/s pointer sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 6.960120533873775,
+   "max5": 9.505195435115816,
+   "n6": 41,
+   "fillers": 2267,
+   "best_page": 35,
+   "text": "HCITHLUOPNHLSNOTSAYOLEYCXIARSHMJSIASIAAJBICSCEOSNGPSAYSGETFHTJALMLYEATWACYURTHGCYDFERUSCEABWFREALHEO",
+   "proc": [
+    35,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line a/h/s pointer beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.747627945627807,
+   "max5": 10.55283798176,
+   "n6": 45,
+   "fillers": 2255,
+   "best_page": 51,
+   "text": "PFNGABNGCXNGROENPAPFEEIAHGWAXAXITIDCMICUDDTHBNAERHEADCFNTHYNDGEONNTSDTHATYEWDNENDSSOEDOGMNGHOGHAETHY",
+   "proc": [
+    36,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos s/h/a lag add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.399365345842697,
+   "max5": 9.590803460737813,
+   "n6": 48,
+   "fillers": 2278,
+   "best_page": 34,
+   "text": "MBYCNTILHERCLEUREAWSMESMICSTHIMTHJIAOFBTBENEOLMITHHXLTHDYPBUYATFFCNEISJCGFOEEOCCMNGGROIXTHDSIDOTMRIA",
+   "proc": [
+    37,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos s/h/a lag sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.864187936333652,
+   "max5": 10.943232115296162,
+   "n6": 48,
+   "fillers": 2260,
+   "best_page": 26,
+   "text": "THYDANGLIAEAOYBOTHDEILMEAPHEATHENLCDPPYTRIANGULEAIEONGLEOEBJHOELWNGNGSTBYEFRYLUIALAESJONEASHBSEAUEHT",
+   "proc": [
+    38,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos s/h/a lag beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.268592151630546,
+   "max5": 11.73508618322471,
+   "n6": 47,
+   "fillers": 2186,
+   "best_page": 10,
+   "text": "CXTHEATRBNOETHEAPPEASGWEASYGTHOGTONPRAETHCPABESTHEALMUDOEXXTPWESRAXEOLDFLADUOBROEXPHTALGNGIRSNGFUIAU",
+   "proc": [
+    39,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos s/h/a pointer add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.238841547517305,
+   "max5": 11.331019838015855,
+   "n6": 47,
+   "fillers": 2256,
+   "best_page": 6,
+   "text": "CNGPEAGGNTYLEOHEOBIAGRYPTHAOEREIHANGBACXGAFTIXELMYNGNOTHFTDDBULNGUIAGDONJOUGGDONETHNGALSECNGARTHEPEW",
+   "proc": [
+    40,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos s/h/a pointer sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.206294378869691,
+   "max5": 11.22495421258877,
+   "n6": 51,
+   "fillers": 2260,
+   "best_page": 31,
+   "text": "ABOHTHMDCFOAMATNGMNEATHMYEARTHBDIAMOCINHDTUNEAAEDEBYIGBWOEPWLXNAELIAFOJASWOEISGEFIBIAMFOEDGWIFSOIXGU",
+   "proc": [
+    41,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos s/h/a pointer beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.237032258942765,
+   "max5": 9.807432381984391,
+   "n6": 47,
+   "fillers": 2289,
+   "best_page": 16,
+   "text": "ECGMLWNGMALXTHTWIADRUYRTDAYTHHNBHDWMIAMSMBHYPHYIAUAELBJXRIADCUTHOPPYPBDPTHTHEARTHNEATEALSFMOCRADEADW",
+   "proc": [
+    42,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos s/a/h lag add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.444423659467953,
+   "max5": 10.42885026220967,
+   "n6": 44,
+   "fillers": 2244,
+   "best_page": 48,
+   "text": "HPELATIXHEADAHMOWATTHHGSPUDADDYPTHRAIDTHRPOCOEWEALNGTHCHTHEOHSURLGSBITHFIANCPFYGRPANEIMNOPICTBYNINLE",
+   "proc": [
+    43,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos s/a/h lag sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.7281845741708075,
+   "max5": 11.591803935413893,
+   "n6": 48,
+   "fillers": 2327,
+   "best_page": 20,
+   "text": "TTHEOOLENGPRTHFURUNDOAGEOIATNGTHYGINWTANGBIBCOYDAEROALPSEXEMAELUYEACHNWCLULIXRTHSAYRNGEOBERTTHONIAUS",
+   "proc": [
+    44,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos s/a/h lag beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.357716900300181,
+   "max5": 11.906946813951489,
+   "n6": 50,
+   "fillers": 2231,
+   "best_page": 5,
+   "text": "NGITONUITEDJOETHIBNHRWOEBUXDLMSDAENFBYNGOLEOPUUEALFICTHIGIANWRHEACMYTIANCPEORANOHJCOENUABJOHIBTCEAPI",
+   "proc": [
+    45,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos s/a/h pointer add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.137663709614586,
+   "max5": 10.885492778126292,
+   "n6": 49,
+   "fillers": 2242,
+   "best_page": 9,
+   "text": "YROBIADJTRYSBHPTOWNBIATSHINEEOLMUBTPIHACEAPNGDAWDTADOETHABYLLCNGRGEOMEOIAHIARRMSANDHARBEYCFHIALJUDES",
+   "proc": [
+    46,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos s/a/h pointer sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.170747495904727,
+   "max5": 11.541939322438012,
+   "n6": 49,
+   "fillers": 2270,
+   "best_page": 36,
+   "text": "BISEARGEOMAFURWINEIDEACTREATHTHOLOGYMYLTHXOJEWYABHCOEXENOHEOUMLWEAFIRPIAOBYCNGOBLNGJAOPNGTACLEHIAAON",
+   "proc": [
+    47,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos s/a/h pointer beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.38807506337356,
+   "max5": 10.890754226222308,
+   "n6": 46,
+   "fillers": 2290,
+   "best_page": 12,
+   "text": "CCFWEORSEMNSEAUEABRIANGBSOEIABLOTHJATIAWABWEANTIAXIHJECIAPBMISCIRTOEEOHTACTHAGGNGAUYMTAGODCLOACMONGA",
+   "proc": [
+    48,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos h/s/a lag add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.4204719304232905,
+   "max5": 10.79160896083197,
+   "n6": 46,
+   "fillers": 2252,
+   "best_page": 12,
+   "text": "IXSOENIAGNGPFEOAEPYSMTIABYAPINOESDMETHEOGIADJEANGEAPPHIAUUCIANIISLYNGHOECXMICCTHADEOEAETLYASEODEAHON",
+   "proc": [
+    49,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos h/s/a lag sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.64272771826119,
+   "max5": 10.423664085035696,
+   "n6": 42,
+   "fillers": 2290,
+   "best_page": 20,
+   "text": "TCIDBAEDEATOLJBMAYOCIMBGBAYIASIAWHEAREAPSDDTUPAUXAETHEASEJEGRPIHRAEGPODTHIMHIUELTHISEOHTIXXICEASEEOT",
+   "proc": [
+    50,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos h/s/a lag beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.327849055649182,
+   "max5": 11.521364813956756,
+   "n6": 48,
+   "fillers": 2286,
+   "best_page": 47,
+   "text": "INGWENGOPECCBEAEUFEREORDFEAIALPHCNGTHIONNOWHEIGLJSTSEXFNHIANWEDOBJAMTOGEOWWELEACWOENEONPHEASHFGEXHEH",
+   "proc": [
+    51,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos h/s/a pointer add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.021622604331824,
+   "max5": 10.847083378993,
+   "n6": 48,
+   "fillers": 2257,
+   "best_page": 31,
+   "text": "THOEYEUXTLOTSEORULYICNTHIMTANGRDOMAECMETHGPMEGANFEMGPNGEAELEAEXPEAROEJOETHEATSHOWLLBGCIWIACXIXNGPSET",
+   "proc": [
+    52,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos h/s/a pointer sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.166761692711834,
+   "max5": 11.328985723498135,
+   "n6": 50,
+   "fillers": 2252,
+   "best_page": 29,
+   "text": "IARYBBFCPJUSLUECWORYGRSEAMLCMECEJPICOCLEEOJUPEHDETNGTREAMOOEDFIANNGEAHNGGLXBTHDIIGRUDNEAHOEINBBOFTAC",
+   "proc": [
+    53,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos h/s/a pointer beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.543871620414861,
+   "max5": 9.9060358225101,
+   "n6": 44,
+   "fillers": 2308,
+   "best_page": 48,
+   "text": "HYPNMYRUENGTHEONGUTFIREYBDSMTUGNUMAETHLOEEONEARCSLYOHIARIABWLWLAEBXMOEFIXEDBEATSTHUNEOMRNCSEEAMGIDFO",
+   "proc": [
+    54,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos h/a/s lag add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.39533564035073,
+   "max5": 10.825063572025071,
+   "n6": 42,
+   "fillers": 2273,
+   "best_page": 42,
+   "text": "DOPNGTHOSEAFAETHMMUPPHYSXJORGIUIHIAWXWHATMIGASGEOYWELTIIAUBADWRISEOFWREAMTHAEAAEFELWEUCELTEOITARYDYN",
+   "proc": [
+    55,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos h/a/s lag sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.488694535447986,
+   "max5": 9.872022107231725,
+   "n6": 44,
+   "fillers": 2276,
+   "best_page": 26,
+   "text": "THASAETHXFSRGASDWAFIWEACERBTHCELEECEUHBRMNGPFJPLEAMCEASYIATTFUDUNHLOXIIWOEHOECGUIALCFEPAEUMPOELLRUST",
+   "proc": [
+    56,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos h/a/s lag beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.087877671022126,
+   "max5": 10.5806931560779,
+   "n6": 52,
+   "fillers": 2237,
+   "best_page": 44,
+   "text": "EATHWAWPAUSUOCTCFODSCHSEITURNGPHIEDOHPIANGLOENCAIOFPLEAMAIFMIBHTDOGIHXUEONSAETHHOLAMENGIEATHRABIAGSN",
+   "proc": [
+    57,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos h/a/s pointer add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.500842599466331,
+   "max5": 12.267006098454463,
+   "n6": 53,
+   "fillers": 2239,
+   "best_page": 42,
+   "text": "DHOPESAESEACMPAPEPTROEXOETOTGODHXIAEAGWRNGCHILARGANWALLYIUILIADGOIMTRUFYEAWMAWRXLLJESMELTIATTHYCHIAN",
+   "proc": [
+    58,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos h/a/s pointer sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.335413439633928,
+   "max5": 10.918645731414045,
+   "n6": 49,
+   "fillers": 2252,
+   "best_page": 9,
+   "text": "MDPATHRAGEDREOUIJEOIHGITRAINTIAJXLBUMWEARADOEXONGNGARSALHHOWADUHOEMEABEOIXHEATCMANGIRAEFEARUEOLIAHOS",
+   "proc": [
+    59,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos h/a/s pointer beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.455757355506465,
+   "max5": 10.941072905310287,
+   "n6": 45,
+   "fillers": 2242,
+   "best_page": 25,
+   "text": "HUIAUEANBIAWAJGSXWRCTHETHRENNGOFAEEAOSEUMBRACRJOMMEALNEOTTHIIAWLTLHEAREPMGUMUJHDCTHFLOCYWUDGAPESNGFN",
+   "proc": [
+    60,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos a/s/h lag add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 6.995096735049956,
+   "max5": 10.354969490926798,
+   "n6": 44,
+   "fillers": 2303,
+   "best_page": 20,
+   "text": "PAXLOEGWJARAYOIAUMBWHEATIOGELMLNGBOBBNGJEAUAEMCWROFSTUSIAWIGIXWREIFPAXYNGITJEALMAIOIXLCHCHRUNGDOEPIE",
+   "proc": [
+    61,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos a/s/h lag sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.310759481063095,
+   "max5": 9.878724808723257,
+   "n6": 47,
+   "fillers": 2263,
+   "best_page": 31,
+   "text": "IAOEIAENTOEUIANRHIABITHUBPFUCWOAECHDOWDSFEAAEOEMAECTHEGNOBSGEIACYARCXWEATNOXAOHJTIABJBFWOEAIPDIAUUSU",
+   "proc": [
+    62,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos a/s/h lag beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.281281789514216,
+   "max5": 11.412242918833439,
+   "n6": 51,
+   "fillers": 2237,
+   "best_page": 45,
+   "text": "CYSTHASELPSANGEALTHFPROELFYEANAWLXXYUNIABUYNEAROEAEMDWOEBEBEOPBURAPSLLYRAENJELTHYOOEDEASTHEGUSHOEFXR",
+   "proc": [
+    63,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos a/s/h pointer add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.40786914934738,
+   "max5": 10.715373816673045,
+   "n6": 52,
+   "fillers": 2209,
+   "best_page": 24,
+   "text": "DIADENDEATHSUTJCYFTFURDRHOEOEOEITHWYTDLGADLIMIDOEOWRTHEFIAEAERRDCSYLLWEARRBASISIODPHWLUNGBUDUESWEBGG",
+   "proc": [
+    64,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos a/s/h pointer sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.480072011814698,
+   "max5": 11.335934157469845,
+   "n6": 48,
+   "fillers": 2213,
+   "best_page": 46,
+   "text": "NGCWEADIPWOEOCBORNOYTROYTYPSSPIGNGGACXETPIPULMCOSHCBENGSCHENONCXUMDWNTHATEJNGODPROCIUTAGESTCLLLSFEFG",
+   "proc": [
+    65,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos a/s/h pointer beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.264512047964549,
+   "max5": 11.128663937250643,
+   "n6": 41,
+   "fillers": 2266,
+   "best_page": 45,
+   "text": "CTHETHIEXPIANGUHLAWPLSOELURGWEEOXTHTYOREUMCEARDPBIAWNELOGUECAMSHLYJAEDIERYIDONTHOGEHOEIEARWDOPMATEAN",
+   "proc": [
+    66,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos a/h/s lag add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.2162204688998814,
+   "max5": 9.755063393458965,
+   "n6": 45,
+   "fillers": 2302,
+   "best_page": 18,
+   "text": "EAAGDIUAIIASIATNGSEAIFUCIUXMCHBSJSJAJISLOPOEXXCHPARMOMEOLEOROTUMRHUJEOAEUSWOELLWONGRTHLEAYFAELEONEON",
+   "proc": [
+    67,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos a/h/s lag sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 7.414682693148587,
+   "max5": 11.285012400207956,
+   "n6": 43,
+   "fillers": 2296,
+   "best_page": 46,
+   "text": "NGPEROEIBBTHRECHTEROURIAWYDDYSEOFDOGIBOTUICEATHMDTHORNCHPESCOOEYONEOIUSOHMAEDASUITGUIARDDCNMUNWGWNTB",
+   "proc": [
+    68,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos a/h/s lag beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.063971488429635,
+   "max5": 11.022658437382237,
+   "n6": 50,
+   "fillers": 2238,
+   "best_page": 25,
+   "text": "HNIAUAENNGBIAMNGJAUXANNGLEFEANDNGIFILEAPAPAMLFRARJUMWRLJHTSBIAHYTERUDEMGOENMJTHHURTHBLITHYHGOGGNUEAN",
+   "proc": [
+    69,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos a/h/s pointer add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.357007352391387,
+   "max5": 10.49586912140642,
+   "n6": 49,
+   "fillers": 2245,
+   "best_page": 34,
+   "text": "BYFLTHPLEAFMCLESXBRNGTRRUDXNTHEAFIAGEAHJJHGLUNGNEAIAESIAMWIUMTHYEXTHWLEAPEDSSIRIIIESAFEAJNJEWAEBGULR",
+   "proc": [
+    70,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos a/h/s pointer sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 8.296125601024206,
+   "max5": 11.296211460101542,
+   "n6": 50,
+   "fillers": 2258,
+   "best_page": 10,
+   "text": "ASBNXYNBYTHCIAUEARMRCPTHEACNGETFAEEWNOIXSJERDSHORNICYMHGLDCOEHBYITHPONGBLUEAMAENOETHHOEXRBTHOJMAWMEA",
+   "proc": [
+    71,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "lpos a/h/s pointer beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 10.244366382640768,
+   "max5": 13.04817949844397,
+   "n6": 53,
+   "fillers": 2185,
+   "best_page": 12,
+   "text": "IDJUSTNGNEEBAGWYRLEAHYNGFRANGTASIAIMAYTBBWEATGHLOETHUCAIBDCAERTLYBTIETHCAWNGNGAGNGUIAFBYLECARSNIMCHJ",
+   "proc": [
+    72,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line-reset plain autokey add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 10.373901750913287,
+   "max5": 14.21993960951442,
+   "n6": 54,
+   "fillers": 2123,
+   "best_page": 12,
+   "text": "CSMADISDATHAUXSEAUGORDUGATLMPNGOPYCCMONYTHYOEOTHSITTNGMUFFSGYBEOFNMENAAMETHEGROUEOLNOTHNGDEEPHIAHANG",
+   "proc": [
+    73,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line-reset plain autokey sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 10.65287674178771,
+   "max5": 14.215192585564061,
+   "n6": 54,
+   "fillers": 2183,
+   "best_page": 43,
+   "text": "EHMOCEAENROWBREDBYMYFEAXXEAAPRETTTCUDDHEANGIJDOELHEOEAGCANGIWATHLYDIONDMYLIASMRHJAUHNUOEAFUTTWIGGYEA",
+   "proc": [
+    74,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line-reset plain autokey beaufort | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 5.548544520316587,
+   "max5": 7.641744306019853,
+   "n6": 21,
+   "fillers": 2309,
+   "best_page": 36,
+   "text": "YNGGTIALWEAIECDITYFWJNGWATGEAIAIABYTHEOWNEPYNGTHJJYCONGOPSAEDEOUBJUWNGUFFHTRSYSMAWDOTHNUEPIADTNGUCHT",
+   "proc": [
+    75,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line-reset cipher autokey add | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 5.858815304849477,
+   "max5": 8.36890139632403,
+   "n6": 23,
+   "fillers": 2335,
+   "best_page": 38,
+   "text": "UYUBBTHADEOCCSDDCOEOWJPAEYFFAERUYDTHNGSICEPEOUWIACENGWSEMHBHITMINNEWEMAEUJELSYFEWPPYYEATNUTBEAEOWYJS",
+   "proc": [
+    76,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line-reset cipher autokey sub | fill 0.00 | none | litF off"
+  },
+  {
+   "med5": 5.984494596895501,
+   "max5": 8.655543260778696,
+   "n6": 27,
+   "fillers": 2366,
+   "best_page": 20,
+   "text": "TIPJAEEABPLLMCRYGDIYNGGGNGUNEARARTSHNGYWCIAPEOXREATJHTHNGXRNAETHAUICOLINLILUUNGEOSAETHOEXHIASOTHULOW",
+   "proc": [
+    77,
+    0.0,
+    "none",
+    false
+   ],
+   "label": "line-reset cipher autokey beaufort | fill 0.00 | none | litF off"
+  }
+ ]
+}
