@@ -17,7 +17,7 @@ Loop:
 Run:  .venv/bin/python -I src/hypothesis_loop.py            (full run, both rounds)
       .venv/bin/python -I src/hypothesis_loop.py --dry       (gate calibration only, no API)
       .venv/bin/python -I src/hypothesis_loop.py --rounds 1
-API keys are read from /Users/jaz/Desktop/quorum/.env.local (or the environment) and never printed.
+API keys are read from the file named by CICADA_ENV_FILE (default: .env.local in the repository root) or from the environment, and never printed.
 """
 import argparse, hashlib, json, re, sys, time, os
 import urllib.request, urllib.error
@@ -28,7 +28,7 @@ from lp import N, ROOT, RAW, PROCESSED, RESULTS, LATIN, primes, english_to_runes
 
 HYP = RESULTS / "hypotheses"
 DOCS = ROOT / "docs"
-ENV_FILE = Path("/Users/jaz/Desktop/quorum/.env.local")
+ENV_FILE = Path(os.environ.get("CICADA_ENV_FILE", str(ROOT / ".env.local")))
 REPS = 200
 Z_PASS = 3.0
 MAXIT = 24                      # cap on repeat-rule re-draw iterations per position

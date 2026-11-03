@@ -72,7 +72,12 @@ def build(md: str) -> str:
         items.append(f"[{num}]({'#' + anchor}) {title}")
     phase1 = next((a for l, t, a in headings(md) if t.startswith("Phase 1")), None)
     head = f"[Phase 1: key reuse](#{phase1}) · " if phase1 else ""
-    return "**Sections.** " + head + " · ".join(items)
+    lines, row = [], []
+    for it in items:                                   # a few entries per line, so the generated block is readable in a diff
+        row.append(it)
+        if len(row) == 6: lines.append(" · ".join(row)); row = []
+    if row: lines.append(" · ".join(row))
+    return "**Sections.** " + head + " ·\n".join(lines)
 
 
 def main():
