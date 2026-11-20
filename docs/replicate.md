@@ -15,7 +15,7 @@ affine relation), so an independent implementation here is a third.*
 - **Runes**: the 29 runes of the Gematria Primus in standard order, indexed 0 … 28:
   ᚠ ᚢ ᚦ ᚩ ᚱ ᚳ ᚷ ᚹ ᚻ ᚾ ᛁ ᛄ ᛇ ᛈ ᛉ ᛋ ᛏ ᛒ ᛖ ᛗ ᛚ ᛝ ᛟ ᛞ ᚪ ᚫ ᚣ ᛡ ᛠ (F U TH O R C G W H N I J EO P X S T B E M L NG OE D A AE Y IA EA).
   S is index 15. Ignore every other character except the separators below.
-- **Words**: the characters `-` `.` `&` `$` `§` end a word. **`/` is a line break and is not a word boundary**: 452 of the 617
+- **Words**: the characters `-` `.` `&` `$` `§` end a word. **`/` is a line break and is not a word boundary**: 452 of the 617 (README §14 and §42 say 630, which also counts the 13 line ends of the rune-less page LP2-50)
   line ends fall inside a word, and treating `/` as a boundary over-splits the words and hides the echoes (§42 of the README
   records that mistake). A word is a maximal run of runes between separators, continuing across `/` and `\n`.
 - **Checks**: 12,956 runes in all; 86 adjacent equal pairs (doublets) across the 55 pages; 2,073 within-word pairs at

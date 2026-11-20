@@ -1,7 +1,7 @@
 {
  "generated_by": "src/status.py",
  "repository": "https://github.com/RiskAverseTech/cicada-ioc",
- "head": "2026-11-01",
+ "head": "2026-11-02",
  "breakthroughs": 0,
  "breakthrough_definition": "a page decoding to readable English at a pre-registered bar, reproduced by someone else",
  "lanes": [
@@ -700,7 +700,7 @@
   "LP2-50, the two-character-code page, as a cipher of its own",
   "Key source, not key search: the page behind the AN END SHA-512 (the one place a key is said to exist) is unfound; archived onion corpora (Dukotah 2026-07-27), 1,962 documents (ItIsCuthNotCup), raw bytes/IPv4/phones (hashcat), 124,017 onion-capture digests (pnotisdev) and 502 artefacts x 3,977 readings here (\u00a735) do not contain it; Tor v2 is gone, so only an archive nobody has indexed can",
   "Cross-library decoding, second half: this repository's 7,621 keys (data/processed/book_library.tsv) have not been run under pnotisdev's flat-IoC engine; their sacred / sacred2 / sacred3 / hyp-streams libraries and the 12,944 hash-word streams have not met the decoders here (\u00a754 covers the 1,439-stream main library)",
-  "The S carrier (11 of 102 lag-5 pairs): a step acting on the written rune S (a plaintext-reading key is additive and NOT excluded by \u00a747, as the second review noted), or a fluctuation; no additive mechanism with a key uniform given its own difference carries it, but an English running key gives about 6 % at coincidences and the eleven are then at p 0.03-0.09 (\u00a747, corrected 2026-10-29); the lag-5 echo prefers line-wrapping words (\u00a750) but shows no layout signature (\u00a751): a fluctuation or an unnamed property of those words",
+  "The S carrier (11 of 102 lag-5 pairs; since \u00a782 an open question, not a law: p 0.085 once the choice of rune is charged): a step acting on the written rune S (a plaintext-reading key is additive and NOT excluded by \u00a747, as the second review noted), or a fluctuation; no additive mechanism with a key uniform given its own difference carries it, but an English running key gives about 6 % at coincidences and the eleven are then at p 0.03-0.09 (\u00a747, corrected 2026-10-29); the lag-5 echo prefers line-wrapping words (\u00a750) but shows no layout signature (\u00a751): a fluctuation or an unnamed property of those words",
   "\u00a739's phase-6 part (the nine short pages) under the corrected word edges: not rerun; \u00a714's full rerun moved maxima by tenths of a sigma",
   "The designers'-side blind spots (docs/blind-spots.md, 2026-10-29): every scorer assumes natural-language plaintext (a non-prose token scorer is unrun in every lab); the combine operation is index arithmetic where the Gematria Primus is a table of primes (value arithmetic as the cipher is unrun); the sparse-message world (a rule-selected subsequence of the whole section, never read); one process for all four footprints rather than a fifth component",
   "A decoder that is echo-aware (\u00a748) and filler-aware (\u00a755, \u00a761) at once, which E56w+n's own generative story requires; \u00a761 shows the one-filler-per-word constraint adds nothing on its own, so the next instrument is the combined one, and pnotisdev's 1,439 streams at full length have not been run under any filler-aware decoder",

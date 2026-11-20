@@ -26,7 +26,7 @@ def masks(chunk):
         elif ch in "-.&$§":
             pending_word = True
         elif ch == "/":
-            # A line break is NOT a word boundary: 452 of the 630 line breaks on the unsolved pages fall inside a
+            # A line break is NOT a word boundary: 452 of the 630 line breaks on the unsolved pages (617 on the 55 with runes; 13 on rune-less LP2-50) fall inside a
             # word (no '-' before the '/'); until 2026-10-28 this builder counted them as word edges (3,316 words
             # instead of 2,896), which the field survey's word counts exposed.
             pending_line = True
