@@ -1,7 +1,8 @@
 # Ledger diff: this repository against three public Liber Primus analyses
 
 Checked 2026-10-23. Sources read as data (never executed), cloned or fetched into `external/`
-(gitignored):
+(gitignored). **This file is a dated comparison, not a current one:** the commit each lab stood at on
+the day it was read, and what has been looked at since, are in `results/ledger_snapshots.md`.
 
 | Short name | Repository | Version read | Files read |
 |---|---|---|---|

@@ -1,0 +1,579 @@
+{
+  "schema": 1,
+  "purpose": "What this record read of other people's work, and when. Every statement in the README or results/ about what another lab has or has not run holds as of that lab's 'compared' entry here, not as of today. Rendered to results/ledger_snapshots.md by src/ledger_watch.py --render; checked against the live repositories by src/ledger_watch.py.",
+  "last_reread": "2026-11-25",
+  "pin_note": "The reads of October 2026 recorded dates, round numbers and row counts, not commit hashes. Each 'compared' commit below is the last commit on the branch on or before the read date, looked up on 2026-11-25 from the public commit history; a rewritten history would change it. The 'seen' commits were read directly on 2026-11-25.",
+  "sources": [
+    {
+      "key": "rtkd-iddqd",
+      "repo": "rtkd/iddqd",
+      "branch": "master",
+      "path": "liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "role": "The transcription every count in this record is measured on (data/raw/iddqd__liber-primus__transcription--master.txt).",
+      "sha256": "e21743ccd9a07f3845d52a329c61b9fa69e9ca6a44ee3ba0db8f28a0d7065004",
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "f2267b0c2f1e1d2662806b90b9c3a2953b3a7023",
+        "note": "identical to the pinned file; last commit 2019-06-17"
+      }
+    },
+    {
+      "key": "cicada-solvers-iddqd",
+      "repo": "cicada-solvers/iddqd",
+      "branch": "master",
+      "path": "liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "role": "A community revision of the same file (last commit 2024-10-12): it adds a three-dot mark written ',' and quotation marks and changes some punctuation. Not the file this record uses.",
+      "sha256": "b0b2e13c3cd35512ee5955a2d9a56c22d7410e283d35dd9c90abbaa7b99279eb",
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "0e3789ad2949c62ea7fb9e3e00ded93df3b3ce07",
+        "note": "checked 2026-11-25: the rune stream is identical to the pinned file (15,933 runes in the whole file); 25 lines of the unsolved section differ in punctuation only; the five counts of docs/replicate.md (12,956 / 86 / 102 / 11 / 77) are unchanged whether or not ',' is read as a word separator"
+      }
+    }
+  ],
+  "labs": [
+    {
+      "key": "dukotah",
+      "repo": "Dukotah/cicada3301",
+      "branch": "master",
+      "tier": "compared",
+      "what": "Round-based pre-registered campaign with a JSON ledger and a cross-ledger page; listed in results/ledger_diff.md as WZ (wazar) until 2026-11-21.",
+      "compared": {
+        "date": "2026-10-23",
+        "commit": "f08b20b632d91209ddbaa747e8e2f23df0c78ba1",
+        "state": "Round 25; README dated 2026-08-31; LEDGER.json 156 entries",
+        "where": "results/ledger_diff.md (family table)"
+      },
+      "later_reads": [
+        {
+          "date": "2026-10-28",
+          "commit": "9f74b199ed5babbd20ef124e4460e014d4ad6462",
+          "state": "172 rows, Round 30 merged; survey rows only",
+          "where": "results/field_survey_2026-10-28.md"
+        },
+        {
+          "date": "2026-11-20",
+          "commit": "7a264cb643c7e6a3076a318e82734472da37ee5d",
+          "state": "351 entries, Round 44; counts only, the comparison was not redone",
+          "where": "results/ledger_diff.md (correction note, issue #2)"
+        }
+      ],
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "fed5473f6ea8180c7a5bfcf1bc19b746db38f9eb",
+        "state": "420 entries, ids reach R47; cites this record's §38 in its transcription verdict and cross-ledger page; lists this record as paused 2026-11-01"
+      },
+      "watch": [
+        {
+          "path": "liber-primus/LEDGER.json",
+          "kind": "json-entries"
+        },
+        {
+          "path": "docs/CROSS-LEDGER.md",
+          "kind": "text"
+        },
+        {
+          "path": "liber-primus/analysis/transcription/TRANSCRIPTION-VERDICT.md",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "key": "pnotisdev",
+      "repo": "pnotisdev/cicada3301",
+      "branch": "main",
+      "tier": "compared",
+      "what": "Registry-driven workspace (docs/registry.toml), GPU sweeps, planted controls; found the lag-6 relation and the S pairs before this record measured them.",
+      "compared": {
+        "date": "2026-10-28",
+        "commit": "15200c67abee106913ba01ff504c5b6e88d16cc7",
+        "state": "registry 148 rows (56 excluded, 33 partial, 23 observed, 8 open, 3 untestable); last push 2026-10-24",
+        "where": "results/ledger_diff.md (field survey), results/field_survey_2026-10-28.md, README §41 onward"
+      },
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "15200c67abee106913ba01ff504c5b6e88d16cc7",
+        "state": "unchanged since the comparison: 148 rows"
+      },
+      "watch": [
+        {
+          "path": "docs/registry.toml",
+          "kind": "toml-tables"
+        }
+      ]
+    },
+    {
+      "key": "jens-wedin",
+      "repo": "jens-wedin/liber-primus",
+      "branch": "main",
+      "tier": "compared",
+      "what": "REPORT §1–§62, work dated 2026-08-17 to 08-26; listed in results/ledger_diff.md as JW.",
+      "compared": {
+        "date": "2026-10-23",
+        "commit": "b15b81bae43e17f13bf5e3a46f2502676aa2bb45",
+        "state": "REPORT §1–§62",
+        "where": "results/ledger_diff.md (family table)"
+      },
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "b15b81bae43e17f13bf5e3a46f2502676aa2bb45",
+        "state": "unchanged since the comparison"
+      },
+      "watch": [
+        {
+          "path": "REPORT.md",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "key": "leo-y-zhang",
+      "repo": "Leo-Y-Zhang/LiberPrimusAnalysis",
+      "branch": "main",
+      "tier": "compared",
+      "what": "Statistical analysis with a log of every attempt; listed in results/ledger_diff.md as LZ.",
+      "compared": {
+        "date": "2026-10-28",
+        "commit": "0d58df559073e5cd554e0ed8ca8d66bfac43a93f",
+        "state": "one substantive commit since 2026-09-07 (the IoC null spread correction)",
+        "where": "results/ledger_diff.md (family table, read 2026-10-23), results/field_survey_2026-10-28.md"
+      },
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "0b907164e95e3a44ee74c1d28efbf4688b770865",
+        "state": "head dated 2026-10-29; not re-read"
+      },
+      "watch": [
+        {
+          "path": "docs/FINDINGS.md",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "key": "murphy",
+      "repo": "murphyaidanbusiness-ux/liberprimus",
+      "branch": "main",
+      "tier": "compared",
+      "what": "Orchestrated agent campaign; census of community methods in research/EXHAUSTED.md.",
+      "compared": {
+        "date": "2026-10-28",
+        "commit": "627fa7cfd492800a13525bd310d9d2ae5e29acf2",
+        "state": "14 + 14 lanes; census of 232 methods",
+        "where": "results/ledger_diff.md (field survey)"
+      },
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "627fa7cfd492800a13525bd310d9d2ae5e29acf2",
+        "state": "unchanged since the comparison"
+      },
+      "watch": [
+        {
+          "path": "research/EXHAUSTED.md",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "key": "aldegonde",
+      "repo": "micheloosterhof/aldegonde",
+      "branch": "main",
+      "tier": "compared",
+      "what": "Classical-cipher library for non-standard alphabets with one file per hypothesis; source of the walk model and the layout findings.",
+      "compared": {
+        "date": "2026-10-28",
+        "commit": "cd972cb273234db47cf50f1bd9bf4acb069b7b67",
+        "state": "as surveyed; findings cited, hypotheses not diffed row by row",
+        "where": "results/ledger_diff.md (field survey)"
+      },
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "8b8d8fb29c921a60e5c646868318b8b773b22805",
+        "state": "head dated 2026-11-02; hypotheses/INDEX.md not re-read"
+      },
+      "watch": [
+        {
+          "path": "hypotheses/INDEX.md",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "key": "anon5376",
+      "repo": "anon5376/cicada",
+      "branch": "main",
+      "tier": "compared",
+      "what": "About 115 experiment directories; the classical non-additive families.",
+      "compared": {
+        "date": "2026-10-28",
+        "commit": "57c9249a80d7bb2e786a7d88fe69a5921516a096",
+        "state": "as surveyed",
+        "where": "results/field_survey_2026-10-28.md"
+      },
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "57c9249a80d7bb2e786a7d88fe69a5921516a096",
+        "state": "unchanged since the comparison"
+      },
+      "watch": [
+        {
+          "path": "README.md",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "key": "farfromexact",
+      "repo": "farfromexact/Cicada_3301",
+      "branch": "main",
+      "tier": "compared",
+      "what": "Hash-frozen pre-registrations, 31 hypotheses (linear complexity, finite-state reachability).",
+      "compared": {
+        "date": "2026-10-28",
+        "commit": "74a84a6b6477aaf3112020782ba3d346c3d45e23",
+        "state": "as surveyed",
+        "where": "results/field_survey_2026-10-28.md"
+      },
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "74a84a6b6477aaf3112020782ba3d346c3d45e23",
+        "state": "unchanged since the comparison"
+      },
+      "watch": [
+        {
+          "path": "README.md",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "key": "zznible",
+      "repo": "ZzNible/cicada3301-liber-primus-findings",
+      "branch": "main",
+      "tier": "compared",
+      "what": "Public summaries of a private pre-registered lab; found the lag-5 echo before this record measured it.",
+      "compared": {
+        "date": "2026-10-28",
+        "commit": "e0e77e99e8736082f7808e382f36225e0ef6f646",
+        "state": "as surveyed",
+        "where": "results/field_survey_2026-10-28.md, README §42"
+      },
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "e0e77e99e8736082f7808e382f36225e0ef6f646",
+        "state": "unchanged since the comparison"
+      },
+      "watch": [
+        {
+          "path": "README.md",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "key": "njloof",
+      "repo": "njloof/cicada-lp2-sweeps",
+      "branch": "main",
+      "tier": "not-compared",
+      "what": "Pre-registered elimination sweeps with calibrated nulls, one ledger row per campaign; created 2026-11-14, after this record paused. Dukotah's cross-ledger page credits it with an independent replication of their doublet non-stationarity finding.",
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "6acd3bb9516520ed1d994e18ebd781188d043465",
+        "state": "first seen 2026-11-25; docs/LEDGER.md skimmed (33 numbered table rows); no lane of this record has been checked against it"
+      },
+      "watch": [
+        {
+          "path": "docs/LEDGER.md",
+          "kind": "md-rows"
+        }
+      ]
+    },
+    {
+      "key": "flarez123",
+      "repo": "FlareZ123/liber-primus",
+      "branch": "main",
+      "tier": "not-compared",
+      "what": "Agent workspace with one study per file and a synthesis page; created 2026-11-08, after this record paused.",
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "4973f20ea4988ab4f38441036537ba44c423da3c",
+        "state": "first seen 2026-11-25; results/README.md skimmed; several commits a day; no lane of this record has been checked against it"
+      },
+      "watch": [
+        {
+          "path": "results/README.md",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "key": "breachwomp",
+      "repo": "BreachWomp/liber-primus-research-public",
+      "branch": "main",
+      "tier": "not-compared",
+      "what": "Created 2026-11-02. Its README describes 31 phases of bounded cryptanalysis with controls and null experiments, and states that no unknown page has been decrypted.",
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "b4ec85438aed36b5961c61e6ce0569359559a04c",
+        "state": "first seen 2026-11-25; README opening only; no lane of this record has been checked against it"
+      },
+      "watch": [
+        {
+          "path": "README.md",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "key": "floflofloria",
+      "repo": "FloFloFloria/liberprimus-search",
+      "branch": "claude/eager-pasteur-l0dsma",
+      "tier": "not-compared",
+      "what": "Created 2026-11-06. A research harness whose README says every accept decision is made by null-calibrated code; phase 1 only.",
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "92b57ef8a79fcb6c08f4fe54ac75e6f70a1354ff",
+        "state": "first seen 2026-11-25; README opening only"
+      },
+      "watch": [
+        {
+          "path": "README.md",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "key": "trithemius",
+      "repo": "fabmas787/trithemius",
+      "branch": "main",
+      "tier": "archive",
+      "what": "Created 2026-11-24. A local retrieval assistant and cipher toolkit; no claim about the unsolved pages seen in its README opening.",
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "7742360bb03d8344522c6daac4fb2c3b05c0f652",
+        "state": "first seen 2026-11-25; README opening only"
+      },
+      "watch": []
+    },
+    {
+      "key": "scream314",
+      "repo": "scream314/cicada3301",
+      "branch": "master",
+      "tier": "archive",
+      "what": "Canonical archive: the 75 page images (§26, §65), the signed messages (§53) and hints_never_used.md used here.",
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "10733feb487bb8beb9966d534727ee5897aa54fc",
+        "state": "unchanged since 2023-06-02"
+      },
+      "watch": []
+    },
+    {
+      "key": "ibotpeaches",
+      "repo": "iBotPeaches/cicada_3301",
+      "branch": "master",
+      "tier": "archive",
+      "what": "Tools and write-ups of the solved puzzle chain; surveyed 2026-10-28 as tooling, no claim about the unsolved pages compared.",
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "08a386a02570359c30eab8e5029d0b334178cdb1",
+        "state": "head dated 2026-11-23; not re-read"
+      },
+      "watch": []
+    },
+    {
+      "key": "krisyotam",
+      "repo": "krisyotam/cicada3301",
+      "branch": "main",
+      "tier": "archive",
+      "what": "Mirror archive (images, messages, cloned solver repositories). Not read by this record. njloof's campaigns take their word separators from it, so its transcription copy is a variant worth comparing before any new word-level measurement.",
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "76d3ee8c762f60025822c8c05edbf31351636469",
+        "state": "first seen 2026-11-25; head dated 2026-08-14; contents not read"
+      },
+      "watch": []
+    },
+    {
+      "key": "wulfic",
+      "repo": "Wulfic/Cicada3301-Liber_Primus",
+      "branch": "main",
+      "tier": "archive",
+      "what": "Exploratory working directory; surveyed 2026-10-23 (it had retracted its claims made before 2026-09-29).",
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "521cb08a689d2159cf54e3c569fd59588601f875",
+        "state": "head dated 2026-11-14; not re-read"
+      },
+      "watch": []
+    },
+    {
+      "key": "ralphatobe",
+      "repo": "ralphatobe/cicada-3301",
+      "branch": "master",
+      "tier": "archive",
+      "what": "Small decoding repository, last commit 2018. Not read by this record.",
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "39954e62da807033af1a8b15e8d520b30c3cd615",
+        "state": "first seen 2026-11-25; contents not read"
+      },
+      "watch": []
+    },
+    {
+      "key": "nexon33",
+      "repo": "nexon33/cicada3301",
+      "branch": "main",
+      "tier": "archive",
+      "what": "A solve claim ('95 % solved'); read 2026-10-28 and dismissed in results/field_survey_2026-10-28.md §4 (post-hoc formulas, a different seed per page).",
+      "seen": {
+        "date": "2026-11-25",
+        "commit": "3df9203da3d69825ae62241f6f2d06a2ae02d6d7",
+        "state": "unchanged since 2025-10-28"
+      },
+      "watch": []
+    }
+  ],
+  "gone": [
+    {
+      "repo": "aergasrg/liber-primus",
+      "note": "surveyed 2026-10-23; returns 404 on 2026-11-25 (deleted, renamed or made private)"
+    }
+  ],
+  "claims": [
+    {
+      "where": "README §11, results/ledger_diff.md",
+      "as_of": "2026-10-23",
+      "rests_on": [
+        "jens-wedin",
+        "dukotah",
+        "leo-y-zhang"
+      ],
+      "claim": "family-by-family table; 'the one family nobody has run under the anti-repeat rule is multi-word phrase keys'",
+      "note": "superseded within the week: pnotisdev had run phrase keys (§12, field survey)"
+    },
+    {
+      "where": "README §18, §20",
+      "as_of": "2026-10-26",
+      "rests_on": [
+        "jens-wedin",
+        "dukotah",
+        "leo-y-zhang",
+        "pnotisdev"
+      ],
+      "claim": "short-list families 'no ledger names'; two families 'nobody's ledger had closed'"
+    },
+    {
+      "where": "README §31, §32",
+      "as_of": "2026-10-27",
+      "rests_on": [
+        "dukotah",
+        "pnotisdev"
+      ],
+      "claim": "eight seeded generators 'no ledger lists'; quagmire alphabets 'no ledger records a run'"
+    },
+    {
+      "where": "README §40",
+      "as_of": "2026-10-28",
+      "rests_on": [
+        "dukotah",
+        "pnotisdev",
+        "jens-wedin"
+      ],
+      "claim": "'no lab had run' the pilgrim texts as running keys"
+    },
+    {
+      "where": "README §41, results/field_survey_2026-10-28.md",
+      "as_of": "2026-10-28",
+      "rests_on": [
+        "dukotah",
+        "pnotisdev",
+        "anon5376",
+        "farfromexact",
+        "zznible",
+        "leo-y-zhang",
+        "murphy",
+        "aldegonde"
+      ],
+      "claim": "213 repositories searched, 45 read; what the field agrees on; what is distinct here and what is done only elsewhere"
+    },
+    {
+      "where": "README §44",
+      "as_of": "2026-10-28",
+      "rests_on": [
+        "pnotisdev"
+      ],
+      "claim": "'nobody had run' the irrational-digit streams skip-aware at every offset"
+    },
+    {
+      "where": "README §53, §63, §67, §68, §71",
+      "as_of": "2026-10-28 to 2026-10-31",
+      "rests_on": [
+        "dukotah",
+        "pnotisdev"
+      ],
+      "claim": "'every decoder here and in the ledgers' statements: index arithmetic, named running-key texts, continuous-cipher reading, prose scorers",
+      "note": "'the ledgers' means the labs as surveyed on 2026-10-28"
+    },
+    {
+      "where": "STATUS.md (Value so far)",
+      "as_of": "2026-10-28",
+      "rests_on": [
+        "dukotah",
+        "pnotisdev",
+        "jens-wedin",
+        "leo-y-zhang"
+      ],
+      "claim": "planted controls as what the other 2026 ledgers mostly lacked",
+      "note": "not true of Dukotah, pnotisdev, njloof or anon5376 as read later; kept as a dated statement"
+    }
+  ],
+  "keywords": {
+    "cites this record": [
+      "RiskAverseTech",
+      "cicada-ioc"
+    ],
+    "the two laws": [
+      "lag-5",
+      "lag 5",
+      "lag5",
+      "lag-6",
+      "lag 6",
+      "lag6",
+      "within-word",
+      "within word",
+      "24 − 2",
+      "24 - 2",
+      "lag-5 echo",
+      "lag-6 echo",
+      "affine echo"
+    ],
+    "transcription": [
+      "transcription",
+      "re-read",
+      "reread",
+      "separator",
+      "erratum",
+      "errata",
+      "misread"
+    ],
+    "a claimed read or a signed message": [
+      "decrypted",
+      "decryption",
+      "plaintext recovered",
+      "signed message",
+      "pgp"
+    ],
+    "new measured structure": [
+      "non-stationar",
+      "anomal",
+      "p=0.00",
+      "p = 0.00"
+    ]
+  },
+  "own": [
+    "RiskAverseTech/cicada-ioc",
+    "RiskAverseTech/liber-primus-site"
+  ],
+  "search_note": "The last GitHub-wide survey was 2026-10-28 (213 repositories searched, 45 read). On 2026-11-25 a search for repositories created since then found the five listed under 'Seen, not compared' with a creation date; none has been read beyond its README opening."
+}

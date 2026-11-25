@@ -9,7 +9,10 @@ affine relation), so an independent implementation here is a third.*
 ## 1. Source and conventions
 
 - **File**: `data/raw/iddqd__liber-primus__transcription--master.txt`, the community master transcription, unchanged here;
-  SHA-256 `e21743ccd9a07f3845d52a329c61b9fa69e9ca6a44ee3ba0db8f28a0d7065004`.
+  SHA-256 `e21743ccd9a07f3845d52a329c61b9fa69e9ca6a44ee3ba0db8f28a0d7065004`. It is byte-identical to rtkd/iddqd `master` (checked
+  2026-11-25). The revision in cicada-solvers/iddqd (2024-10-12, SHA-256 `b0b2e13c…279eb`) adds a three-dot mark written `,`
+  and changes some punctuation; its runes are identical and it gives the same five counts below, with or without `,` read
+  as a separator (`src/transcription_variant.py`).
 - **Pages**: split the file on `%`. The chunks at indices 16 to 71 (0-based) are the unsolved section; 55 of them contain
   runes. Keep them in file order; call them LP2-00 … LP2-54 after dropping the empty one.
 - **Runes**: the 29 runes of the Gematria Primus in standard order, indexed 0 … 28:

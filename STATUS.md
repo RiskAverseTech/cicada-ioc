@@ -10,7 +10,8 @@
 | The structures | 86 doubled runes where 445 are expected (0.19 of uniform; solved pages sit at 0.86); inside words, a lag-5 echo that copies equality in runs (102 vs 71 pairs, 9 vs 1.5 bigrams), 11 of the pairs S (3.5 expected under a uniform key, p 0.005; about 6.5 expected under an English running key, §47 corrected; charged for the choice of rune among 29 the S weighting is p 0.085 and soft, §82), and a lag-6 relation c = 24 − 2c′ (77 vs 44); the two echoes share words only at the level of description (p 0.11 once word length is held); flat in every other statistic |
 | Best current reading | E56w+n (§58): a gated word-internal echo (plaintext repeat at lag 5 → copy the cipher rune; at lag 6 → 24 − 2c) in about half the words, one filler rune in about half the words, the spend repair at q 0.81, iid key, English plaintext; the first rule inside every pre-registered band (§47's ten statistics, §57's sixteen cells, consistency cells whose values were public); it predicts five S pairs against eleven, passing that cell on spread at the borrowed rate 0.45 and failing it (z +3.2) at the rate the word lengths fit, 0.40 (§59), so the S weighting stays the open fact, and a description is not a decryption |
 | External reviews adopted | 3 (2026-10-27, two on 2026-10-29), 12 corrections, one claim withdrawn (§47's exclusion of every plaintext-independent key) |
-| Repository | 84 numbered sections, 160 commits as of 2026-11-02 |
+| Repository | 84 numbered sections, 162 commits as of 2026-11-21 |
+| Other labs | Every statement here about what another lab has or has not run holds as of the date that lab was read (2026-10-23 to 2026-10-28), listed per lab in `results/ledger_snapshots.md`; those comparisons have not been redone since the pause. Other ledgers last re-read: 2026-11-25, 20 repositories, for movement only (`src/ledger_watch.py`) |
 
 ## Lanes
 
@@ -112,7 +113,7 @@
 
 ## Value so far
 
-- Every exclusion above is reproducible from `src/` with a planted control that shows the test can see a solution; that is what the other 2026 ledgers mostly lack.
+- Every exclusion above is reproducible from `src/` with a planted control that shows the test can see a solution; that is what the other 2026 ledgers mostly lacked as read on 2026-10-23 (several labs read since then plant controls too; see `results/ledger_snapshots.md`).
 - Instrument gains this week: bounded multi-rejection decoder, power curves by page length, a rune 5-gram that lifts short-page detection at 66 runes from 21 % to 100 %, an exact every-offset running-key scanner, an image lane.
 - `results/ledger_diff.md` lets a new idea be checked against five labs' prior work in minutes.
 

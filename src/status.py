@@ -119,6 +119,9 @@ ncommits = subprocess.run(["git", "rev-list", "--count", "HEAD"], cwd=ROOT, capt
 total = sum(t for _, _, t, _, _, _ in LANES if isinstance(t, (int, float)) and t > 1000)
 closed = sum(1 for l in LANES if l[4].startswith("null"))
 running = [l[1] for l in LANES if l[4] == "running"]
+snap = json.loads((ROOT / "results" / "ledger_snapshots.json").read_text(encoding="utf-8"))   # what was read of other labs, and when (src/ledger_watch.py)
+compared = sorted(l["compared"]["date"] for l in snap["labs"] if l["tier"] == "compared")
+section_dates = json.loads((ROOT / "results" / "section_dates.json").read_text())             # first commit date of each section (src/export_interchange.py --dates)
 
 box = f"""# Status box
 
@@ -133,6 +136,7 @@ box = f"""# Status box
 | Best current reading | E56w+n (§58): a gated word-internal echo (plaintext repeat at lag 5 → copy the cipher rune; at lag 6 → 24 − 2c) in about half the words, one filler rune in about half the words, the spend repair at q 0.81, iid key, English plaintext; the first rule inside every pre-registered band (§47's ten statistics, §57's sixteen cells, consistency cells whose values were public); it predicts five S pairs against eleven, passing that cell on spread at the borrowed rate 0.45 and failing it (z +3.2) at the rate the word lengths fit, 0.40 (§59), so the S weighting stays the open fact, and a description is not a decryption |
 | External reviews adopted | 3 (2026-10-27, two on 2026-10-29), 12 corrections, one claim withdrawn (§47's exclusion of every plaintext-independent key) |
 | Repository | {sections} numbered sections, {ncommits} commits as of {head} |
+| Other labs | Every statement here about what another lab has or has not run holds as of the date that lab was read ({compared[0]} to {compared[-1]}), listed per lab in `results/ledger_snapshots.md`; those comparisons have not been redone since the pause. Other ledgers last re-read: {snap["last_reread"]}, {len(snap["labs"])} repositories, for movement only (`src/ledger_watch.py`) |
 
 ## Lanes
 
@@ -146,7 +150,7 @@ box += "\n## Open\n\n" + "\n".join(f"- {o}" for o in OPEN) + """
 
 ## Value so far
 
-- Every exclusion above is reproducible from `src/` with a planted control that shows the test can see a solution; that is what the other 2026 ledgers mostly lack.
+- Every exclusion above is reproducible from `src/` with a planted control that shows the test can see a solution; that is what the other 2026 ledgers mostly lacked as read on 2026-10-23 (several labs read since then plant controls too; see `results/ledger_snapshots.md`).
 - Instrument gains this week: bounded multi-rejection decoder, power curves by page length, a rune 5-gram that lifts short-page detection at 66 runes from 21 % to 100 %, an exact every-offset running-key scanner, an image lane.
 - `results/ledger_diff.md` lets a new idea be checked against five labs' prior work in minutes.
 
@@ -154,7 +158,7 @@ box += "\n## Open\n\n" + "\n".join(f"- {o}" for o in OPEN) + """
 """
 (ROOT / "STATUS.md").write_text(box)
 # machine-readable ledger beside the box
-ledger = [dict(section=sec, lane=name, tests=t, controls=ctrl, verdict=verdict, coverage_limit=note, date="2026-10-27") for sec, name, t, ctrl, verdict, note in LANES]
+ledger = [dict(section=sec, lane=name, tests=t, controls=ctrl, verdict=verdict, coverage_limit=note, date=section_dates.get(re.search(r"\d+", sec).group())) for sec, name, t, ctrl, verdict, note in LANES]
 json.dump(dict(generated_by="src/status.py", repository="https://github.com/RiskAverseTech/cicada-ioc", head=head, breakthroughs=0,
                breakthrough_definition="a page decoding to readable English at a pre-registered bar, reproduced by someone else",
                lanes=ledger, open=OPEN), open(ROOT / "ledger.json", "w"), indent=1)
